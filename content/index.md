@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: Ahoy!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# Welcome!
+
+This is mostly a collection of notes accumulated through my Computer Science degree at the University of Adelaide. I'm using this as a way to store and organise my notes, and to make them available to others. I hope you find them useful!
