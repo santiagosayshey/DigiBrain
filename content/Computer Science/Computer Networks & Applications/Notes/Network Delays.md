@@ -10,6 +10,10 @@
 | <center>Processing Delay</center>   | The time taken by a network device (e.g., router, switch) to process a packet.                                                                                                                                                                                                           | Depends on device and packet complexity     |
 
 
-> [!exercise]- Exercise 1 - Which mode of data transfer has the higher propagation delay?
+> [!exercise]+ Exercise 1
+> Which mode of data transfer has the higher propagation delay? (Assuming they are transferred over the same distance)
+> 1. Pigeon
+> 2. Network
 > 
+> **Answer:** The pigeon does, clearly. Network speeds reach up to the speed of light. Pigeons fly 
 
