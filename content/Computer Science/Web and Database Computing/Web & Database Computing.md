@@ -43,3 +43,4 @@ Sure, I will generate the Markdown table based on the content in the provided im
 | 11   | [[11.1 Intro to Web Security]]                   |     |
 |      | [[11.2 Securing a Web Application]]              |     |
 |      | [[11.3 Common Threats and Vulnerabilities]]      |     |
+[[Databases & Ethical Data]] is a tangent of this course.
