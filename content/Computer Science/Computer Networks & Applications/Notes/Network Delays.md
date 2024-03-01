@@ -15,5 +15,5 @@
 > 1. Pigeon
 > 2. Network
 > 
-> **Answer:** The pigeon does, clearly. Network speeds reach up to the speed of light. Pigeons fly 
+> **Answer:** The pigeon does, clearly. Network speeds reach up to the speed of light. Pigeons fly at about $80 \frac{m}{h}$
 
