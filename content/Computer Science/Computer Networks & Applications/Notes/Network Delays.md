@@ -17,3 +17,7 @@
 > 
 > **Answer:** The pigeon does, clearly. Network speeds reach up to the speed of light. Pigeons fly at about $80 \frac{m}{h}$
 
+
+> [!exercise]+ Exercise 2
+> Which mode of d
+
