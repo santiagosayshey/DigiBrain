@@ -1,0 +1,1 @@
+The numerical description of how likely an event is to occur, or how likely it is that something is true
