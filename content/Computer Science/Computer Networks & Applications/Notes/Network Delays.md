@@ -44,28 +44,8 @@
 | Network               | Transmitting all the packets inside a bit to the network medium. i.e. Transmitting at 4GB at 40 $mbps$                                                                   | $$ = \frac{4\times1024\times1024\times1024\times8\; bits}{40\times10^6 \;bits/s}$$ | $$0$$ (Assumed negligible due to speed of light)  | 859 seconds  |
 
 
+> [!exercise]+ Exercise 4
+> You want to send 10GB of videos to a friend. You have a choice of burning to DVD and sending by express post, which will take 1 day (24 hours) for them to arrive or you can them by Internet on which you get an average upload data rate of 2MB/sec. Show which method will be faster. You must show your work, no marks for just guessing an answer.
+> 
+> **Answer:** Lets first consider
 
-
-
-To integrate the propagation delay for the pigeon into the table with a new column for the propagation calculation, we first calculate the propagation delay based on the speed of the pigeon and the distance it must travel. The formula to calculate the time taken (\(t_{propagation}\)) for the pigeon to cover a given distance is:
-
-\[ t_{propagation} = \frac{\text{Distance}}{\text{Speed}} \]
-
-Given:
-- Speed of the pigeon = 150 km/h
-- Distance = 300 km
-
-The propagation delay for the pigeon, converting the speed from km/h to m/s (to maintain consistency in units with the total time calculation) and the time into seconds, is calculated as follows:
-
-\[ t_{propagation\_pigeon} = \frac{300\,km}{150\,km/h} = 2\,hours \]
-
-\[ t_{propagation\_pigeon\_seconds} = 2\,hours \times 3600\,seconds/hour = 7200\,seconds \]
-
-Now, let's update the table to include the propagation delay calculation for the pigeon:
-
-| Mode of Communication | <center>Method</center>                                                                                                                                                  | Calculation: $$t_T=\frac{L}{R}$$                                                   | Propagation Calculation                           | Total Time   |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------- | ------------ |
-| Pigeon                | Copying data to the USB Drive, then attaching that USB Drive to the pigeons legs. Let's say the USB Drive has a write speed of 100 MB/s. A pigeon travels at 150 $km/h$. | $$ = \frac{4\times1024\times1024\times1024\; Bytes}{100\times10^6 \;Bytes/s}$$     | $$ = \frac{300\,km}{150\,km/h} = 7200\,seconds $$ | 7243 Seconds |
-| Network               | Transmitting all the packets inside a bit to the network medium. i.e. Transmitting at 4GB at 40 $mbps$                                                                   | $$ = \frac{4\times1024\times1024\times1024\times8\; bits}{40\times10^6 \;bits/s}$$ | $$0$$ (Assumed negligible due to speed of light)  | 859 seconds  |
-
-This table now includes the propagation delay for the pigeon alongside the original calculations for transmission time.
