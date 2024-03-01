@@ -1,1 +1,0 @@
-Memory is a key component in a computer. It used to store data that will later be used to compute new values. Memory consists of two sections - the *stack* and the *heap*
