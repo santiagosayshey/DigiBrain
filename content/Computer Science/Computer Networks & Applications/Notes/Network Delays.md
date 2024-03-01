@@ -10,6 +10,6 @@
 | <center>Processing Delay</center>   | The time taken by a network device (e.g., router, switch) to process a packet.                                                                                                                                                                                                           | Depends on device and packet complexity     |
 
 
-> [!exercise]- Title
+> [!exercise]- Exercise 1
 > Contents
 
