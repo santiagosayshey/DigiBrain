@@ -1,4 +1,4 @@
 
-> [!exercise]- Title
+> [!exercise]- Exercise
 > Contents
 
