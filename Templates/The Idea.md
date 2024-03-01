@@ -1,3 +1,3 @@
 
-> [!idea] The Idea
-> 
+> [!idea]+ The Idea
+> Content
