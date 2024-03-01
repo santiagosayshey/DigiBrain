@@ -1,0 +1,153 @@
+
+> [!idea] The Goal of Cryptography
+> 1. **Confidentiality** - Only authorised people get to see the data
+> 2. **Integrity** - There is certain assurance that data has not been manipulated or corrupted
+> 3. **Non Repudiation** - The assurance that someone cannot deny the validity of something they have electronically signed or sent.
+> 4. Availability is NOT a goal of crypto
+
+
+| Term              | Definition                                                                                                                                                                              |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cryptography**  | More practical (engineering) development and study of encryption systems. AES and RSA are cryptographic algorithms, and OpenSSL is a toolkit for secure communication and cryptography. |
+| **Cryptology**    | More academic (mathematical) study of encryption and their properties, cryptographical systems and cryptanalysis                                                                        |
+| **Cryptanalysis** | Study of (mathematical) techniques for attempting to defeat cryptographic techniques, and, more generally, information security services.                                               |
+| **Cipher**        | Refers to a cryptogrphic algorithm. DES is a cipher.                                                                                                                                    |
+| **Ciphertext**    | Refers to the encrypted text using a cipher.                                                                                                                                            |
+| **Plaintext**     | Original unencrypted message                                                                                                                                                            |
+| **Adversary**     | The person you are trying to keep the secrets from                                                                                                                                      |
+| **Encryption**    | The process of disguising sensitive information                                                                                                                                         |
+| **Key**           | Is the secret cipher setting chosen known only to the sender and reciever                                                                                                               |
+
+# Types of Ciphers
+
+| Encryption Type | Key Usage                                         | Key Management                           | Note                                                                                          |
+|-----------------|---------------------------------------------------|------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Symmetric       | Use the same key for encryption and decryption    | Sender and recipient must have access to the pre-shared key | The pre-shared key must be protected                                                        |
+| Asymmetric      | Different key used for encryption and decryption  | Sender only needs to have the encryption key, and the recipient only needs to know the corresponding decryption key | Allows secure communication with anyone having the public key, while keeping the private key secret |
+
+| Cipher Type                     | Description                                                                                                                               | Key Space              | Example                                                     |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
+| Caesar Cipher                   | Shift each alphabet by n characters, where 0<n<26.                                                                                        | 25                     | Shift of 3: A=>D, B=>E, ..., Z=>C                           |
+| Vigenère Cipher                 | An extension of the shift cipher with a key for shifting letters.                                                                         | Depends on key length  | Key {7,4,23,2}: "HELLO" => Shift H by 7, E by 4, etc.       |
+| Substitution Cipher             | Map A~Z to a random permutation of A~Z. Every letter in the plaintext alphabet corresponds to a different litter from the encryption key. | 26! (4e^26)            | A~Z => AZERTYUIOPQSDFGHJKLMWXCVBN                           |
+| Polygraphic Substitution Cipher | Map pairs of characters to permutations of pairs of characters. The Playfair Cipher is an example using a 5x5 grid for the key.           | 26*25 (650)            | Using a 5x5 grid key, map pairs according to the grid rules |
+| Transposition Cipher            | Create an anagram of the plaintext using a fixed number of columns and the order of the columns as the key.                               | Depends on text length | Arrange "HELLO WORLD" in 3 columns, reorder the columns     |
+
+# Encoding vs Encryption
+
+| Aspect               | Encoding                                                                                        | Encryption                                                                                               |
+| -------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Key Requirement      | No shared secret key.                                                                           | Uses a pre-shared secret or key.                                                                         |
+| Purpose              | Not meant to protect confidentiality; often used for data integrity or to meet technical needs. | Meant to protect the confidentiality of the message.                                                     |
+| Impact of Compromise | Once cracked, the encoding scheme becomes useless.                                              | Compromising the key necessitates a key change, not a change of the whole encryption algorithm.          |
+
+
+> [!idea] Kerckhoff's Principle
+> 1. Encryption scheme (algorithm) should be open (don’t rely on security by obscurity)
+> 2. Only the secret key should be kept secret
+> 3. It should be easy to change keys (if the key is compromised)
+> - Do not invent your own encryption scheme -- use ones that have survived the test of time and public scrutiny.
+
+# XOR Cipher
+
+| Step | Description                                                                                                      |
+| ---- | ---------------------------------------------------------------------------------------------------------------- |
+| 1    | Convert each letter of the plaintext into its ASCII value.                                                       |
+| 2    | Convert the ASCII values into their binary representation (8 bits per character).                                |
+| 3    | Come up with an 8-bit binary key that will be used for the XOR operation.                                        |
+| 4    | Perform the XOR operation on each bit of the binary code with the binary key.                                    |
+| 5    | The result of the XOR operation is the ciphertext in binary.                                                     |
+By itself, the XOR cipher is not safe. It does however, act as the backbone for most modern ciphers. However, when the binary key is as long as the message, never reused, and completely random, this method forms the basis of the "one-time pad" cipher, which is theoretically unbreakable.
+
+
+> [!example] 
+> Plaintext: "AB"
+> 1. Convert to ASCII: A = 65, B = 66
+> 2. ASCII to Binary: A = `01000001`, B = `01000010`
+> 3. 8-Bit Binary Key (example): `11001100`
+> 4. Perform XOR:
+>     - A (`01000001`) XOR Key (`11001100`) = `10001101`
+>     - B (`01000010`) XOR Key (`11001100`) = `10001110`
+> 5. Ciphertext Binary: `10001101 10001110`
+
+# Symmetric Ciphers
+
+
+> [!idea] A Good Symmetric Cipher Must:
+> 1. Withstand attacks such as brute-force, chosen plaintext attack, known plaintext attack and chosen ciphertext attacks
+> 2. Be simple and easy to implement
+> 3. Be efficient and perform encryption and decryption within reasonable time
+> 
+
+
+> [!main] Block Ciphers
+> Cipher blocks are methods used in block cipher algorithms to encrypt data. Block ciphers encrypt data in fixed-size blocks (e.g., 128 or 256 bits) rather than one bit at a time. Two common modes of operation for block ciphers are Electronic Codebook (ECB) and Cipher Block Chaining (CBC). Each mode has its unique characteristics and use cases.
+
+| Feature            | ECB (Electronic Codebook)                                                                                  | CBC (Cipher Block Chaining)                                                                                          |
+| ------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Encryption Process | Encrypts each block of plaintext independently using the same key.                                         | XORs each plaintext block with the previous ciphertext block before encrypting it.                                   |
+| Patterns           | Identical plaintext blocks are encrypted into identical ciphertext blocks.                                 | The use of an initial vector (IV) and chaining makes identical plaintext blocks produce different ciphertext blocks. |
+| Use Cases          | Suitable for small amounts of data without patterns. Can be used in parallel processing.                   | More secure for data that may exhibit patterns, making it better for most secure applications.                       |
+
+![[Pasted image 20240227160745.png]]
+
+# Key Exchanges
+
+> [!idea] Diffie-Hellman Key Exchange
+> It's very difficult to securely exchange keys amongst an increasing number of people. The Diffie-Hellman Key Exchange method allows two parties to generate a shared secret over an insecure channel. This process ensures that an interceptor, despite seeing the exchanged public components (mixed colors), cannot derive the shared secret due to the absence of private components. This clever approach facilitates secure communication in a world where true privacy is increasingly challenging.
+
+| Step | Action                                                                                    | Visible to Interceptor?                                   |
+| ---- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| 1    | Starts with a base color **Yellow**.                                                      | Yellow is visible                                         |
+| 2    | Alice chooses a private color **Blue**. Mixes with **Yellow** to get **Green**.           | Blue is invisible                                         |
+| 3    | Bob chooses a private color **Red**. Mixes with **Yellow** to get **Orange**.             | Red is invisible                                          |
+| 4    | Alice sends **Green** to Bob, and Bob sends **Orange** to Alice.                          | Green and Orange are visible                              |
+| 5    | Mixes received **Orange** with her private **Blue** to create **Purple** (shared secret). | Purple is invisible because private colours are invisible |
+| 6    | Mixes received **Green** with his private **Red** to create **Purple** (shared secret).   | Purple is invisible because private colours are invisible |
+
+> [!main] Turning Colors into Math
+> The Diffie-Hellman Key Exchange in practice uses mathematical functions instead of colors. Here's how it translates:
+> - **Public Base Color (Yellow)** becomes a public base number $g$ and a public prime number $p$.
+> - **Private Colors (Blue and Red)** represent private numbers selected by Alice and Bob, respectively $a$ and $b$.
+> - **Mixing Colors** equates to raising the base number $g$ to the power of their private numbers $a$ or $b$ modulo the prime number $p$: $g^a \mod p$ and $g^b \mod p$.
+> - **Exchanging Mixed Colors (Green and Orange)** corresponds to sharing these results over the public channel.
+> - **Final Mixing to Get the Shared Secret (Purple)** is analogous to each party raising the received value to the power of their private number modulo $p$: $(g^b)^a \mod p = (g^a)^b \mod p$, which results in a shared secret number.
+
+> [!idea] **RSA Public Key Encryption (Key Exchange)**
+> RSA (Rivest–Shamir–Adleman) is not just a key exchange algorithm but a comprehensive cryptosystem that includes key generation, encryption, decryption, and digital signatures. Unlike Diffie-Hellman, RSA is based on asymmetric encryption, where two different keys are used: one for encryption (public key) and another for decryption (private key).
+> 
+> **Key Exchange Process:**
+> 1. **Key Generation:** Bob generates a pair of keys: a Public Key ($K_{pub}$) and a Private Key ($K_{priv}$). Only the public key is shared; the private key remains secret.
+> 2. **Encryption:** Alice encrypts her message ($M$) using Bob's $K_{pub}$ to produce ciphertext ($C$), and sends $C$ to Bob.
+> 3. **Decryption:** Bob decrypts $C$ using his $K_{priv}$ to retrieve $M$. An eavesdropper, like Eve, might have access to $K_{pub}$ and $C$ but cannot decrypt $M$ without $K_{priv}$.
+> 
+> **Usage for Long Messages:**
+> Due to RSA's computational intensity and limitation on the message size relative to the key length, it's impractical for encrypting long messages directly. For instance, a 2048-bit RSA key can encrypt a message up to just under 256 bytes. Instead, RSA is typically used to securely exchange a symmetric encryption key, which is then used for encrypting the actual, longer messages.
+> 
+> **In Practice**
+> In practice, RSA works by selecting two large prime numbers, multiplying them to create a modulus for the keys, and deriving both keys from this modulus, leveraging the computational difficulty of prime factorization for security.
+
+> [!main] Verifying Digital Signatures using RSA
+> Alice signs a message (M) by encrypting a hash of M with her private key. Bob verifies the signature by decrypting it with Alice's public key and comparing the hash. If the hashes match, the message is authentic and unchanged, proving Alice sent it and ensuring message integrity and non-repudiation.
+> 
+
+# Hashes
+
+> [!idea] Cryptographic Hash Functions
+> - The input can be of any length, but the output is a fixed-length digest.
+> - It's a one-way function: impossible to derive the original message from the digest.
+> - It's infeasible to find two different messages that produce the same digest.
+> - A minor change in the input drastically changes the output digest.
+> 
+> Cryptographic hashes are crucial for applications like digital signatures and password encoding, providing a secure way to verify data integrity without revealing the data itself.
+
+> [!main] Verifying Digital Signatures using RSA and Overcoming MITM Attacks with CAs
+> Alice signs a message (M) by encrypting a hash of M with her private key. Bob verifies the signature by decrypting it with Alice's public key and comparing the hash. This proves authenticity, integrity, and non-repudiation. However, this system is vulnerable to man-in-the-middle (MITM) attacks during key exchange. Certificate Authorities (CAs) mitigate this by verifying identities and issuing digital certificates that link public keys with entity identities through a trusted third party. In HTTPS communications, TLS uses CA-issued certificates to establish secure connections, preventing MITM attacks. Organizations may implement their own CA to monitor encrypted traffic for security purposes, installing their CA root certificates on devices to ensure safe and transparent content filtering and threat detection.
+
+## Password Security
+
+To secure passwords, they're stored as hashes, which is like turning them into unique codes that can't easily be reversed back to the original password. This method is similar to how fingerprints identify people, making it hard for hackers to figure out the actual passwords from these codes. However, hackers can use "Rainbow Tables," massive lists of pre-calculated hashes for many possible passwords, to quickly find matches and crack passwords.
+
+To combat this, two techniques are used:
+- **Salting:** Adding random data ("salt") to each password before hashing it, making every hash unique even if the passwords are the same. This method renders Rainbow Tables ineffective because they can't account for the salt.
+- **Stretching:** Intentionally slowing down the hashing process to make brute-force attacks impractical. Techniques like Argon2 or bcrypt are recommended, as they allow for the hashing process to be adjusted to take about a second per attempt, making it costly and time-consuming for attackers to try many password combinations.

@@ -1,0 +1,1 @@
+Entropy gives us a measure of how much information we could receive from an event

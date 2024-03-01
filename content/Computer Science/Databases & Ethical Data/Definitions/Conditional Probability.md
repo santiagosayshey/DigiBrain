@@ -1,0 +1,1 @@
+The probability of event A occurring given event B has already occurred is equal to the probability of the intersection of A and B, divided by the probability of B
