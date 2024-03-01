@@ -23,11 +23,12 @@
 > 1. Pigeon
 > 2. Network
 > 
-> **Answer: ** The network does. Pigeons are capable of carrying much more information at once than a network is capable of. (At least mostly) They could carry some physical disk with hundreds of GB in a single communication. We should also consider how fast we can copy data onto t
+> **Answer: ** The network does. Pigeons are capable of carrying much more information at once than a network is capable of. (At least mostly) They could carry some physical disk with hundreds of GB in a single communication. We should also consider how fast we can copy data onto the USB, which is often much quicker than it is to load it into a network. 
 
 
 > [!exercise]+ Exercise 3
-> The NBN has potential speeds of 100 $\frac{mb}{s}$ download and 40 $\frac{mb}{s}$ upload. Is it faster to send a $4 GB$ file on a USB using a pigeon?
+> The NBN has potential speeds of 100 $\frac{Mb}{s}$ download and 40 $\frac{Mb}{s}$ upload. Is it faster to send a $4 GB$ file on a USB using a pigeon?
+> **Answer:** Yes. At 40mbps upload, 
 
 
 
