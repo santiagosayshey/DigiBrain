@@ -31,11 +31,10 @@
 > **Answer:** Yes. See the table below.
 > 
 
-
-| Mode of Communication | <center>Method</center>                                                                            | Calculation: $$t_T=\frac{L}{R}$$ | Total Time |
-| --------------------- | --------------------------------------------------------------------------------- | -------------------------------- | ---------- |
-| Pigeon                | Copying data to the USB Drive, then attaching that USB Drive to the pigeons legs. |                                  |            |
-| Network               | Transmitting all the packets inside a bit to the network medium.                  |                                  |            |
+| Mode of Communication | <center>Method</center>                                                                                                                  | Calculation: $$t_T=\frac{L}{R}$$                                               | Total Time |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------- |
+| Pigeon                | Copying data to the USB Drive, then attaching that USB Drive to the pigeons legs. Let's say the USB Drive has a write speed of 100 MB/s. | $$ = \frac{4\times1024\times1024\times1024\; Bytes}{100\times10^6 \;Bytes/s}$$ | 43 Seconds |
+| Network               | Transmitting all the packets inside a bit to the network medium.                                                                         |                                                                                |            |
 
 
 
