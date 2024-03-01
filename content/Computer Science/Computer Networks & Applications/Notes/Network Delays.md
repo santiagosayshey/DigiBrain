@@ -47,5 +47,6 @@
 > [!exercise]+ Exercise 4
 > You want to send 10GB of videos to a friend. You have a choice of burning to DVD and sending by express post, which will take 1 day (24 hours) for them to arrive or you can them by Internet on which you get an average upload data rate of 2MB/sec. Show which method will be faster. You must show your work, no marks for just guessing an answer.
 > 
-> **Answer:** Lets first consider
+> **Answer:**
+> ![[Pasted image 20240301233704.png]]
 
