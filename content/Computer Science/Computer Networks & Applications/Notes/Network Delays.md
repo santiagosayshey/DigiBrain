@@ -28,13 +28,15 @@
 
 > [!exercise]+ Exercise 3
 > The NBN has potential speeds of 100 $\frac{Mb}{s}$ download and 40 $\frac{Mb}{s}$ upload. Is it faster to send a $4 GB$ file on a USB using a pigeon?
+> 
 > **Answer:** Yes. The calculations in the table below clearly show that the network transmission speed is considerably slower. 
 > 
-
 | Mode of Communication | <center>Method</center>                                                                                                                  | Calculation: $$t_T=\frac{L}{R}$$                                                   | Total Time  |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------- |
 | Pigeon                | Copying data to the USB Drive, then attaching that USB Drive to the pigeons legs. Let's say the USB Drive has a write speed of 100 MB/s. | $$ = \frac{4\times1024\times1024\times1024\; Bytes}{100\times10^6 \;Bytes/s}$$     | 43 Seconds  |
 | Network               | Transmitting all the packets inside a bit to the network medium. i.e. Transmitting at 4GB at 40 $mbps$                                   | $$ = \frac{4\times1024\times1024\times1024\times8\; bits}{40\times10^6 \;bits/s}$$ | 859 seconds |
+>
+
 
 
 
