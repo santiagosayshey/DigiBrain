@@ -1,4 +1,4 @@
 
-> [!exercise]- Exercise
+> [!exercise]+ Exercise
 > Contents
 
