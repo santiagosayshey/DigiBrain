@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - custom-class
+---
+
 # Courses
 
 
