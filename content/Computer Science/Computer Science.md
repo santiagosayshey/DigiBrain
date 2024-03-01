@@ -1,5 +1,6 @@
 # Courses
 
+
 | Year | Semester | Course                                   |
 | ---- | -------- | ---------------------------------------- |
 | 1    | 1        | [[Intro To Programming]]                 |
