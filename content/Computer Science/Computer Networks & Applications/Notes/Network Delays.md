@@ -2,6 +2,8 @@
 > [!idea] The Idea
 > We need to be able to measure the performance of our ability to communicate. We do this by understanding the different delays that occur in network communication.
 
-| Delay Type  | Description                                                                                                                   |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Propagation | A measure of the time it takes to go from point A to point B, where the points are usually some network medium like a router. |
+| Delay Type  | Description                                                                                                                                                                                                                                                               | Formula                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Propagation | A measure of the time it takes to go from point A to point B, where the points are usually some network medium like a router. Affected by the medium in which we are communicating - copper wire, fibre or air (for radio, wifi), as well as the distance between points. | $\frac{Distance}{Speed}$$ <br>Where speed is how fast information can travel in a medium |
+|             |                                                                                                                                                                                                                                                                           |                                                                                          |
+ 
