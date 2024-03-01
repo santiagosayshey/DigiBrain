@@ -10,6 +10,6 @@
 | <center>Processing Delay</center>   | The time taken by a network device (e.g., router, switch) to process a packet.                                                                                                                                                                                                           | Depends on device and packet complexity     |
 
 
-> [!exercise]- Exercise 1
+> [!exercise]- Exercise 1 - Which mode of data transfer has the higher propagation delay?
 > 
 
