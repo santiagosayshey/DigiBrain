@@ -36,6 +36,13 @@
 | Pigeon                | Copying data to the USB Drive, then attaching that USB Drive to the pigeons legs. Let's say the USB Drive has a write speed of 100 MB/s. | $$ = \frac{4\times1024\times1024\times1024\; Bytes}{100\times10^6 \;Bytes/s}$$     | 43 Seconds  |
 | Network               | Transmitting all the packets inside a bit to the network medium. i.e. Transmitting at 4GB at 40 $mbps$                                   | $$ = \frac{4\times1024\times1024\times1024\times8\; bits}{40\times10^6 \;bits/s}$$ | 859 seconds |
 >
+>Ok, but what if we consider the propagation delay for the pigeon and the network? Assume its 0 for the network because $c$ is so fast.
+>
+>| Mode of Communication | <center>Method</center>                                                                                                                  | Calculation: $$t_T=\frac{L}{R}$$                                                   | Total Time  |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------- |
+| Pigeon                | Copying data to the USB Drive, then attaching that USB Drive to the pigeons legs. Let's say the USB Drive has a write speed of 100 MB/s. | $$ = \frac{4\times1024\times1024\times1024\; Bytes}{100\times10^6 \;Bytes/s}$$     | 43 Seconds  |
+| Network               | Transmitting all the packets inside a bit to the network medium. i.e. Transmitting at 4GB at 40 $mbps$                                   | $$ = \frac{4\times1024\times1024\times1024\times8\; bits}{40\times10^6 \;bits/s}$$ | 859 seconds |
+
 
 
 
