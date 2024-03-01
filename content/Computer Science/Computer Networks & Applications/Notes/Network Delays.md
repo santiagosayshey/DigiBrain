@@ -10,6 +10,14 @@
 | <center>Processing Delay</center>   | The time taken by a network device (e.g., router, switch) to process a packet.                                                                                                                                                                                                           | Depends on device and packet complexity     |
 
 
+
+> [!idea]+ Data Size vs Transfer Speed
+> It's also very important to note the difference between **Data Size** vs **Transfer Speed** when computing delays.
+> - When we talk about a file size, we talking in terms of a binary scale. E.g. 10GB is $10\times1024\times1024\times1024\,Bytes$
+> - When we talk about transfer speed, we are using SI units. E.g. 10GB/s is $10\times1000\times1000\times1000\,Bytes/s$
+> - To convert $Bytes$ into $Bits$, we multiply by $8$
+
+
 > [!exercise]+ Exercise 1
 > Which mode of data transfer has the higher propagation delay? (Assuming they are transferred over the same distance)
 > 1. Pigeon
