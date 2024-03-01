@@ -19,5 +19,9 @@
 
 
 > [!exercise]+ Exercise 2
-> Which mode of d
+> Which mode of data transfer has the higher transmission delay?
+> 1. Pigeon
+> 2. Network
+> 
+> **Answer: ** The network does. Pigeons are capable of carrying much more information at once than a network is capable of. They could carry some physical disk with hundreds of GB in a single communication.
 
