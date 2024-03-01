@@ -2,6 +2,7 @@
 > [!idea] The Idea
 > When we discuss an algorithm's time complexity, we often represent it as a function $T(n)$, where $n$ is the size of the input. As $N$ increases, the execution time of the algorithm typically increases as well. *The goal of asymptotic notation is to provide ways to describe the behaviour of $T(n)$ as $n$ approaches infinity.* This helps in comparing algorithms by providing a high-level understanding of their efficiency in terms of time and space.
 
+====
 
 | Bound                | Symbol                      | Mathematical Description                                                                             | Logical Description                                                                                                                                                                                                                    |
 | -------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
