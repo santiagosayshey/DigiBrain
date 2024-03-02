@@ -18,5 +18,5 @@
 
 
 > [!exercise]+ Exercise 3 - Multiply a $2n$ digit number with an `n` digit number
-> Contents
+> ![[Pasted image 20240302215545.png]]
 
