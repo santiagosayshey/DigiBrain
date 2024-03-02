@@ -22,16 +22,18 @@ $\text{Is it true that if } f(n) =\Theta(g(n)) \text{ and } g(n) = \Theta(h(n)),
 
 This is true. Asymptotically similar functions are transitively tightly bounded in either direction. 
 
-> [!exercise]+ Exercise 1 - Determine if the following are right or wrong
-
+> [!exercise]+ Exercise 4
 $\text{Is it true that if } f(n) = O(g(n)) \text{ and } g(n) = O(h(n)), \text{ then } h(n) = \Omega(f(n))?$
 
 This is true. Essentially we are saying that $h(n)$ grows faster than $g(n)$ and $g(n)$ grows faster than $f(n)$. This means that $h(n)$ also grows faster than $f(n)$ and therefore $f(n)$ is a lower bound for $h(n)$ as it is for $g(n)$
 
-$\text{Problem 5. Is it true that a } \Theta(n^2) \text{ algorithm always takes longer to run than a } O(\log n) \text{ algorithm?}$
+> [!exercise]+ Exercise 5
+$\text{Is it true that a } \Theta(n^2) \text{ algorithm always takes longer to run than a } O(\log n) \text{ algorithm?}$
 
 This is true. For all values of N, $n^2$ will always run slower than $\log{n}$
-$\text{Problem 6. For each pair of functions given below, point out the asymptotic relationships that apply: } f = O(g), f = \Theta(g), f = \Omega(g).$
+
+> [!exercise]+ Exercise 6
+$\text{For each pair of functions given below, point out the asymptotic relationships that apply: } f = O(g), f = \Theta(g), f = \Omega(g).$
 $1.\ f(n) = \sqrt{n} \text{ and } g(n) = \log(n)$
 $2.\ f(n) = 1 \text{ and } g(n) = 2$
 $3.\ f(n) = 1000 \cdot 2^n \text{ and } g(n) = 3^n$
@@ -49,9 +51,6 @@ $6.\ f(n) = n! \text{ and } g(n) = (n + 1)!$
 | 6       | $n!$             | $(n + 1)!$  | Yes        | No              | No              |
 
 
-$\text{Problem 7. Prove that } n^k = o(c^n) \text{ for any integer } k \text{ and any } c > 1.$
-
-We must prove that:
-
-$\lim_{n \to \infty} \frac{n^k}{c^n} = 0$
+> [!exercise]+ Exercise 7
+$\text{Prove that } n^k = o(c^n) \text{ for any integer } k \text{ and any } c > 1.$
 
