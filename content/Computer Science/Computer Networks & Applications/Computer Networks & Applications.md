@@ -1,7 +1,7 @@
 
 | Week | Notes              | Workshops | Assignments | Labs |
 | ---- | ------------------ | --------- | ----------- | ---- |
-| 1    | [[Networks]]       |           |             |      |
-|      | [[Network Delays]] |           |             |      |
+| 1    | [[1.1 Networks]]       |           |             |      |
+|      | [[1.2 Network Delays]] |           |             |      |
 
 
