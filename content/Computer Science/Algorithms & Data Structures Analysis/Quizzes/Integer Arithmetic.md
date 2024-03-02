@@ -11,4 +11,7 @@
 
 > [!exercise] Exercise 2 - Compute `max(A+B, C+D) + E` where A, C have `n` digits, B, D have `3n` digits, and E has `2n` digits.
 > - The addition of A+B requires `3n` primitive operations since B is the longer number. The result will have at most `3n+1` digits if there is a carry from the addition.
-> - Similarly, C+D also requires `3n` primitive operations, with the result having at most 3n+1 digits
+> - Similarly, C+D also requires `3n` primitive operations, with the result having at most `3n+1` digits
+> - There are `6n` total primitive operations in the max calculation, and will give a `3n+1` integer.
+> - Adding E to this number, we have another `3n` primitive operations, so we have `6n+2n=8n` total primitive operations
+> - Finally, we have at most a `3n+1` digit integer
