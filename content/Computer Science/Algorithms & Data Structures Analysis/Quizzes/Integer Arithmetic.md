@@ -9,14 +9,6 @@
 
 
 
-> [!exercise] Exercise 2 - Analyse Addition and Max Operations
-> 
-> Compute `max(A+B, C+D) + E` where A, C have `n` digits, B, D have `3n` digits, and E has `2n` digits.
-> 
-> **Primitive operation:** 
-> - Starting with A+B. A has `n` digits, B has `3n` digits. The result will have at most `3n+1` digits.
-> - For C+D. C
-> 
-> **Output digit:** 
-> 
-> _[Your answer here]_
+> [!exercise] Exercise 2 - Compute `max(A+B, C+D) + E` where A, C have `n` digits, B, D have `3n` digits, and E has `2n` digits.
+> - The addition of A+B requires `3n` primitive operations since B is the longer number. The result will have at most `3n+1` digits if there is a carry from the addition.
+> - Similarly, C+D also requires `3n` primitive operations, with the result having at most 3n+1 digits
