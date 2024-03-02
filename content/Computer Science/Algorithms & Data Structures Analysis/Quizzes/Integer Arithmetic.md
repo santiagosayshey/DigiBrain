@@ -8,16 +8,15 @@
 > 
 
 
+> [!exercise]+ Exercise 2 - Compute `max(A+B, C+D) + E` where A, C have `n` digits, B, D have `3n` digits, and E has `2n` digits.
+>
+> | Step                       | A + B  | C + D         | max(A+B, C+D)      | max(A+B, C+D) + E     | Explanation                                                                                                                   |
+> | -------------------------- | ------ | ------------- | ------------------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+> | **Primitive Operations**   | 3n     | 3n (6n total) | Minimal (6n total) | 3n + 1 (9n + 1 total) | max(A+B, C+D) + E is 9n+1 primitive operations, because we take 6n + 3n+1 (3n+1 is the # operations taken to sum 3n+1 and 2n) |
+> | **Total Digits of Result** | 3n + 1 | 3n + 1        | 3n + 1             | 3n+1                  | The final number of digits in the result can be up to 3n + 2, considering that adding E (2n digits) to the maximum of A+B or C+D (up to 3n + 1 digits) could produce an additional carry, thus potentially increasing the digit count by one. This accounts for the maximum possible digit length resulting from the operations. |
 
-> [!exercise] Exercise 2 - Compute `max(A+B, C+D) + E` where A, C have `n` digits, B, D have `3n` digits, and E has `2n` digits.
-> - The addition of A+B requires `3n` primitive operations since B is the longer number. The result will have at most `3n+1` digits if there is a carry from the addition.
-> - Similarly, C+D also requires `3n` primitive operations, with the result having at most `3n+1` digits
-> - There are `6n` total primitive operations in the max calculation, and will give a `3n+1` integer.
-> - Adding E to this number, we have another `3n` primitive operations, so we have `6n+2n=8n` total primitive operations
-> - Finally, we have at most a `3n+1` digit integer
 
 
-| Step                       | A + B  | C + D         | max(A+B, C+D)      | max(A+B, C+D) + E     | Explanation                                                                                 |
-| -------------------------- | ------ | ------------- | ------------------ | --------------------- | ------------------------------------------------------------------------------------------- |
-| **Primitive Operations**   | 3n     | 3n (6n total) | Minimal (6n total) | 3n + 1 (9n + 1 total) | max(A+B, C+D) + E is 9n+1 primitive operations, because we take the sum of the larger numbe |
-| **Total Digits of Result** | 3n + 1 | 3n + 1        | 3n + 1             | 3n+1                  |                                                                                             |
+> [!exercise]+ Exercise 3 - Multiply a $2n$ digit number with an `n` digit number
+> Contents
+
