@@ -7,3 +7,16 @@
 > - The same goes for final digits. We take the max of both. At most it can be `max + 1` digits, so in this case it has $2n+1$ digits.
 > 
 
+
+
+> [!exercise] Exercise 2 - Analyse Addition and Max Operations
+> 
+> Compute `max(A+B, C+D) + E` where A, C have `n` digits, B, D have `3n` digits, and E has `2n` digits.
+> 
+> **Primitive operation:** 
+> - Starting with A+B. A has `n` digits, B has `3n` digits. The result will have at most `3n+1` digits.
+> - For C+D. C
+> 
+> **Output digit:** 
+> 
+> _[Your answer here]_
