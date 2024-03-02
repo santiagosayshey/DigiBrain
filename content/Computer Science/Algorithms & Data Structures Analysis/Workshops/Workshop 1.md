@@ -1,5 +1,6 @@
 
-$\text{Problem 1. Determine whether the following are right or wrong.}$
+
+> [!exercise]+ Exercise 1 - Determine if the following are right or wrong
 
 | Statement<br>                   | True / False | Explanation                                                                            |
 | ------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
@@ -7,7 +8,7 @@ $\text{Problem 1. Determine whether the following are right or wrong.}$
 | $n \cdot \log{n} \in O(n)$      | False        | A constant c *does not* exist whereby $c \cdot n$  > $n \cdot \log{n}$.                |
 | $n \cdot \log{n} \in \Omega(n)$ | True         | A constant c exist whereby $c \cdot n$  < $n \cdot \log{n}$.                           |
 | $\log{n} \in o(n)$              | True         | $\lim_{n \to \infty} \frac{\log{n}}{n} = 0$                                            |
-$\text{Problem 2. Prove the following.}$
+> [!exercise]+ Exercise 2 - Prove the following
 
 | Statement                                                   | Answer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -16,11 +17,14 @@ $\text{Problem 2. Prove the following.}$
 | $f(n) + g(n) = O(f(n))$ if $g(n) = O(f(n))$                 | If $g(n)$ is upper bounded by $f(n)$, meaning there exists some constant $c \geq 1$ such that $g(n) \leq c \cdot f(n)$ for all $n \geq n_0$, then the sum $f(n) + g(n)$ is also upper bounded by a constant multiple of $f(n)$. Specifically, we can find a constant $c'$ such that $f(n) + g(n) \leq c' \cdot f(n)$ for all $n \geq n_1$, where $n_1$ is suitably chosen. This conclusion follows because the growth of $f(n)$ dominates or is at least equivalent to the growth of $g(n)$, making $f(n)$ an upper bound for the sum. |
 | $O(f(n)) \cdot O(g(n)) = O(f(n) \cdot g(n))$                | Let $f(n) \in O(g(n))$ and $h(n) \in O(p(n))$. By definition, there exist positive constants $c_1$, $c_2$, $n_0$, and $n_1$ such that for all $n \geq n_0$, $f(n) \leq c_1g(n)$, and for all $n \geq n_1$, $h(n) \leq c_2p(n)$. Taking the product of these two inequalities gives: for all $n \geq \max(n_0, n_1)$, $f(n)h(n) \leq c_1c_2g(n)p(n)$. Thus, we have $f(n)h(n) \in O(g(n)p(n))$, demonstrating that the product of two $O$-notations results in an $O$-notation of the product of their functions.                       |
 
-$\text{Problem 3. Is it true that if } f(n) =\Theta(g(n)) \text{ and } g(n) = \Theta(h(n)), \text{ then } h(n) = \Theta(f(n))?$
+> [!exercise]+ Exercise 3
+$\text{Is it true that if } f(n) =\Theta(g(n)) \text{ and } g(n) = \Theta(h(n)), \text{ then } h(n) = \Theta(f(n))?$
 
 This is true. Asymptotically similar functions are transitively tightly bounded in either direction. 
 
-$\text{Problem 4. Is it true that if } f(n) = O(g(n)) \text{ and } g(n) = O(h(n)), \text{ then } h(n) = \Omega(f(n))?$
+> [!exercise]+ Exercise 1 - Determine if the following are right or wrong
+
+$\text{Is it true that if } f(n) = O(g(n)) \text{ and } g(n) = O(h(n)), \text{ then } h(n) = \Omega(f(n))?$
 
 This is true. Essentially we are saying that $h(n)$ grows faster than $g(n)$ and $g(n)$ grows faster than $f(n)$. This means that $h(n)$ also grows faster than $f(n)$ and therefore $f(n)$ is a lower bound for $h(n)$ as it is for $g(n)$
 
