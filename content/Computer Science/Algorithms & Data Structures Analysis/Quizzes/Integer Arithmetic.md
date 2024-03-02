@@ -15,3 +15,9 @@
 > - There are `6n` total primitive operations in the max calculation, and will give a `3n+1` integer.
 > - Adding E to this number, we have another `3n` primitive operations, so we have `6n+2n=8n` total primitive operations
 > - Finally, we have at most a `3n+1` digit integer
+
+
+| Step                       | A + B  | C + D         | max(A+B, C+D)      | max(A+B, C+D) + E     | Explanation                                                                                 |
+| -------------------------- | ------ | ------------- | ------------------ | --------------------- | ------------------------------------------------------------------------------------------- |
+| **Primitive Operations**   | 3n     | 3n (6n total) | Minimal (6n total) | 3n + 1 (9n + 1 total) | max(A+B, C+D) + E is 9n+1 primitive operations, because we take the sum of the larger numbe |
+| **Total Digits of Result** | 3n + 1 | 3n + 1        | 3n + 1             | 3n+1                  |                                                                                             |
