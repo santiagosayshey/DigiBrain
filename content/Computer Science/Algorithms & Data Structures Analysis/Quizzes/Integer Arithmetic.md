@@ -1,3 +1,4 @@
+This quiz tests knowledge of [[1.3 School Method Arithmetic]]
 
 > [!exercise]+ Exercise 1 - Add a $2n$ digit with an $n$ digit. 
 > How many primitive operations does this take? 
@@ -22,3 +23,4 @@
 > ![[Pasted image 20240302220256.png]]
 
 
+“
