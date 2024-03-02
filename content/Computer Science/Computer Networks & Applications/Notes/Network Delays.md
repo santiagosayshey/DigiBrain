@@ -16,14 +16,7 @@
 > - When we talk about transfer speed, we are using SI units. E.g. 10GB/s is $10\times1000\times1000\times1000\,Bytes/s$
 > - To convert $Bytes$ into $Bits$, we multiply by $8$
 
-
-> [!exercise]+ Exercise 1
-> Which mode of data transfer has the higher propagation delay? (Assuming they are transferred over the same distance)
-> 1. Pigeon
-> 2. Network
-> 
-> **Answer:** The pigeon does, clearly. Network speeds reach up to the speed of light. Pigeons fly at about $80 \frac{m}{h}$
-
+![[1.2.1]]
 
 > [!exercise]+ Exercise 2
 > Which mode of data transfer has the higher transmission delay?
