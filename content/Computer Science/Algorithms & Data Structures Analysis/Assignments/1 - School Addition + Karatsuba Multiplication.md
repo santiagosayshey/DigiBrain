@@ -1,6 +1,6 @@
 
 > [!idea] The Idea
-> Review [[1.3 School Method Arithmetic]] and [[2.3 Karatsuba Multiplication]] on implementation details. Full implementation [here](https://github.com/santiagosayshey/ADSA-S1-2024/blob/assignment1/main.py): 
+> Review [[1.3 School Method Arithmetic]] and [[2.2 Karatsuba Multiplication]] on implementation details. Full implementation [here](https://github.com/santiagosayshey/ADSA-S1-2024/blob/assignment1/main.py): 
 > 
 
 # Addition
