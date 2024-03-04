@@ -37,22 +37,22 @@ def add(i1, i2, b):
 # Karatsuba Multiplication
 
 ```python
-def split_number(n, k):
-    high = n // 10**k
-    low = n % 10**k
+def split_number(n, k, b):
+    high = n // b**k
+    low = n % b**k
     return low, high
 
 def multiply(i1, i2, b):
 
-    if i1 < 10 :
+    if i1 < b :
         return i1 * i2 # base case
     
     n = max(len(str(i1)), len(str(i2)))
     k = n // 2
     
 
-    a0, a1 = split_number(i1, k) 
-    b0, b1 = split_number(i2, k)
+    a0, a1 = split_number(i1, k, b) 
+    b0, b1 = split_number(i2, k, b)
 
     x1 = multiply(a0, b0, b)
     x3 = multiply(a1, b1, b)
@@ -72,4 +72,6 @@ def decimal_to_base(num, base):
         num = num // base
 
     return result
+
+print(multiply(10,111,2))
 ```
