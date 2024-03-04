@@ -1,5 +1,14 @@
-
 > [!idea] Recurrence Relations
->
-> Recurrence relations are like a family tree for numbers, where each number has 'parents' that came before it. In programming, they're rules that help us understand recursive functions — functions that call themselves to solve problems. They tell us how each step of the problem relates to the previous steps. This is super useful because it helps us figure out how complex a recursive function is, that is, how long it might take to run or how much memory it'll use as the problem it's solving gets bigger. Essentially, they map out the blueprint for the solution that a recursive function follows, step by step.
+> Recurrence relations are mathematical formulas that describe the complexity of divide and conquer algorithms by expressing how the algorithm performs on smaller subsets of the problem. They offer a structured way to analyse and predict the performance of algorithms as the size of input data changes. 
+> 
+> This is particularly useful for understanding algorithms that break down a problem into smaller parts, solve these parts, and then combine the solutions to solve the original problem.
+
+> [!exercise] Example: Binary Search Algorithm
+> Consider the binary search algorithm, which looks for an item in a sorted array by repeatedly dividing the search interval in half. 
+> - The time complexity of binary search for an array of \(n\) elements can be represented by the recurrence relation $T(n) = T(n/2) + O(1)$. This equation indicates that the time to search $n$ elements is equal to the time to search $n/2$ elements plus a constant time for the division and comparison operations.
+
+
+
+> [!idea]+ Solving Recurrence Relations
+> There are many ways, but the main way is to use the [[2.3 Master Theorem|Master Theorem]]
 
