@@ -37,3 +37,10 @@
 > **II.** There is **NOT** enough bandwidth to support 3 users at once. A queuing delay will occur because 3 Mb are trying to be transmitted at once with only 2 mbps total bandwidth. 
 > **III.** 20%. Each family member hash a probability of 20% to transmit at any one time. 
 > **IV.** Any three users transmitting at the same time is $\frac{1}{5} \times \frac{1}{5} \times \frac{1}{5} = 0.8\%$ 
+
+
+> [!exercise]+ Exercise 3 - Peer to Peer (P2P) and Client Server (K&R)
+> Consider distributing a file of 10 Gbits ($10 \times 10^9$ bits - note we are making life easier by using base 10 here) to _N_ peers. The server has an upload rate of 20 Mbps, and each peer has a download rate of 1Mbps and an upload rate of _u_. For N=10, 100 and 1,000 and u=200 Kbps, 600 Kbps, and 1Mbps, prepare a chart giving the minimum distribution time for each of the combinations of _N_ and _u_ for both client-server distribution and P2P distribution.
+
+How close would this approximation be to bit torrent's performance?
+
