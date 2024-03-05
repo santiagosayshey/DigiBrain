@@ -103,12 +103,13 @@ Necessary? No, I don't think so. It is useful, in that it helps with buffering /
 
 
 > [!exercise]+ Exercise 5 - Caching and DNS
-> Contents
-
-Assume you are using persistent HTTP and request a web page that contains two images. Explain the events that must occur if:
-
-1. The web page and images are cached in the web proxy cache and the domain is not cached in the local DNS
-2. The web page is not cached; but the domain is cached in the local DNS
-3. Neither the web page nor the domain is cached.
-
-In case 3, how much time is likely to pass between the time the user clicks on the link until the web page is loaded? Assume the user is in Adelaide connected to the Internet through an ADSL modem and they are accessing a website in Sydney (about 1500 Kms away). Be creative in how you could work this out (or at least estimate it).
+>
+> Assume you are using persistent HTTP and request a web page that contains two images. Explain the events that must occur if:
+>
+> 1. The web page and images are cached in the web proxy cache and the domain is not cached in the local DNS
+>
+> 2. The web page is not cached; but the domain is cached in the local DNS
+>
+> 3. Neither the web page nor the domain is cached.
+>
+> In case 3, how much time is likely to pass between the time the user clicks on the link until the web page is loaded? Assume the user is in Adelaide connected to the Internet through an ADSL modem and they are accessing a website in Sydney (about 1500 Kms away). Be creative in how you could work this out (or at least estimate it).
