@@ -30,4 +30,7 @@
 > **IV.** Now re-consider the situation of three users transmitting at the same time. First, find the probability that at any given time, all three users are transmitting simultaneously. Now find the fraction of time during which the queue grows.
 > 
 > **Answer:**
-> **1.** A circuit switch with 2 mbps of bandwidth woud only be able to support 2/4 family members at a time 
+> 
+> **1.** A circuit switch with 2 mbps of bandwidth would only be able to support 2/4 family members at a time at 1mbps each. 
+> 
+> **2.** In an ideal world (where no more than 2 users are on at once), a packet switch would be able to support 5 users. There is still likely to be queuing delays in this setup. 
