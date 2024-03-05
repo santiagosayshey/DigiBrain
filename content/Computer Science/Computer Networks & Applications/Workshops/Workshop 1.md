@@ -99,4 +99,16 @@ for N in N_values:
 
 The blank line, specifically `\r\n` delimiters are used to tell the interpreter when the headers stop and the entity body starts.  Could HTTP be designed without this line? Yes, but there would still need to be some standard to determine when the headers end. 
 
-**Is the content-length header necessary?** Necessary? No, I don't think so. 
+Necessary? No, I don't think so. It is useful, in that it helps with buffering / memory allocation, efficient data transfer, error handling and a million other reasons an endpoint might want the size of a webpage, but it's certainly not necessary. In terms of the HTTP standard, the only 'necessary' information is the request line, i.e. `method | url | version`
+
+
+> [!exercise]+ Exercise 5 - Caching and DNS
+> Contents
+
+Assume you are using persistent HTTP and request a web page that contains two images. Explain the events that must occur if:
+
+1. The web page and images are cached in the web proxy cache and the domain is not cached in the local DNS
+2. The web page is not cached; but the domain is cached in the local DNS
+3. Neither the web page nor the domain is cached.
+
+In case 3, how much time is likely to pass between the time the user clicks on the link until the web page is loaded? Assume the user is in Adelaide connected to the Internet through an ADSL modem and they are accessing a website in Sydney (about 1500 Kms away). Be creative in how you could work this out (or at least estimate it).
