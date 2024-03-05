@@ -46,7 +46,7 @@ $$
 D_{p2p} \geq \max \left( \frac{F}{u_s}, \frac{F}{d_{min}}, \frac{NF}{\sum_{i=1}^{N} u_i} \right)
 $$
 
-Because I'm lazy, here's a python script to calculate the distribution times, along with a table showing the times for each subset of $N$ and $u$
+Because I'm lazy, here's a python script to calculate the distribution times, along with a table showing the times for each subset of $N$ and $u$ and a graph comparing the two.
 
 ```python
 # Constants
