@@ -18,12 +18,11 @@ Propagation
 
 
 Transmi
-$$
-\frac{1000 \times 1000 \; m}{2.5 \times 10^8} + \frac{5000 \times 1000 \; m}{2.5 \times 10^8} = 0.024s
-$$
 
-|             | Propagation                    | Transmission        | Processing Delay | Total |
-| ----------- | ------------------------------ | ------------------- | ---------------- | ----- |
-| **Formula** | $t_p = \frac{distance}{speed}$ | $t_T = \frac{L}{R}$ | -                |       |
-|             |                                |                     |                  |       |
-|             |                                |                     |                  |       |
+
+|                 | **<center>Propagation</center>**                                                                           | **Transmission**                     | **Processing Delay** | **Total** |
+| --------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------ | -------------------- | --------- |
+| **Formula**     | <center>$t_p = \frac{distance}{speed}$</center>                                                            | <center>$t_T = \frac{L}{R}$</center> | -                    |           |
+| **Calculation** | $$\frac{1000 \times 1000 \; m}{2.5 \times 10^8} + \frac{5000 \times 1000 \; m}{2.5 \times 10^8} = 0.024s$$ |                                      |                      |           |
+
+$$\frac{1000}{1}
