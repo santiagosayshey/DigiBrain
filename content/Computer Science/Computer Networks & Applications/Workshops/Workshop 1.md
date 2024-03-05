@@ -6,17 +6,15 @@
 > Given a propagation speed of $2.5 \times 10^8$ m/s (slightly under the speed of light) and a packet data size of 1000 bytes, what is the end-to-end delay for a packet assuming no other traffic at the router?
 > 
 > What effect would other traffic at the router have?
-> <hr>
-> 
-> **Answer**: 
-> Since there is no other traffic at the router, we should consider 3 types of delay - Propagation, Transmission and Processing. If there was other traffic at the router, we would have to also consider a queuing delay!
-> 
-> 
-> |             | **Propagation $(t_p = \frac{\text{distance}}{\text{speed}})$**                                                         | **Transmission $(t_T = \frac{L}{R})$**                                                                                                             | **Processing Delay** | **Total** |
-> | ----------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------- |
-> | **Calculation** | $\frac{1000 \times 1000 \; m}{2.5 \times 10^8 \; m/s} + \frac{5000 \times 1000 \; m}{2.5 \times 10^8 \; m/s} = 0.024s$ | $\frac{1000 \times 8 \; bits}{1 \times 1000 \times 1000 \; bits/s} + \frac{1000 \times 8 \; bits}{20 \times 1000 \times 1000 \; bits/s} = 0.0084s$ | $0.001s$             | $0.034s$  |
-> 
-> 
+
+
+**Answer**: 
+Since there is no other traffic at the router, we should consider 3 types of delay - Propagation, Transmission and Processing. If there was other traffic at the router, we would have to also consider a queuing delay!
+
+|                 | **Propagation $(t_p = \frac{\text{distance}}{\text{speed}})$**                                                         | **Transmission $(t_T = \frac{L}{R})$**                                                                                                             | **Processing Delay** | **Total** |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------- |
+| **Calculation** | $\frac{1000 \times 1000 \; m}{2.5 \times 10^8 \; m/s} + \frac{5000 \times 1000 \; m}{2.5 \times 10^8 \; m/s} = 0.024s$ | $\frac{1000 \times 8 \; bits}{1 \times 1000 \times 1000 \; bits/s} + \frac{1000 \times 8 \; bits}{20 \times 1000 \times 1000 \; bits/s} = 0.0084s$ | $0.001s$             | $0.034s$  |
+
 
 > [!exercise]+ Exercise 2 - Packet switching and Circuit switching (K&R)
 > Assume that you are sharing a link with a bandwidth of 2 Mbps at home. Assume that each member of your family, when using the link, transmits continuously at 1 Mbps but each member transmits only 20 percent of the time.
@@ -40,7 +38,17 @@
 
 
 > [!exercise]+ Exercise 3 - Peer to Peer (P2P) and Client Server (K&R)
-> Consider distributing a file of 10 Gbits ($10 \times 10^9$ bits - note we are making life easier by using base 10 here) to _N_ peers. The server has an upload rate of 20 Mbps, and each peer has a download rate of 1Mbps and an upload rate of _u_. For N=10, 100 and 1,000 and u=200 Kbps, 600 Kbps, and 1Mbps, prepare a chart giving the minimum distribution time for each of the combinations of _N_ and _u_ for both client-server distribution and P2P distribution.
+> Consider distributing a file of 10 Gbits ($10 \times 10^9$ bits) to _N_ peers. The server has an upload rate of 20 Mbps, and each peer has a download rate of 1Mbps and an upload rate of _u_. For N=10, 100 and 1,000 and u=200 Kbps, 600 Kbps, and 1Mbps, prepare a chart giving the minimum distribution time for each of the combinations of _N_ and _u_ for both client-server distribution and P2P distribution.
+> 
+> How close would this approximation be to bit torrent's performance?
 
-How close would this approximation be to bit torrent's performance?
+Recall: 
+$$
+D_{cs} \geq \max \left( \frac{NF}{u_s}, \frac{F}{d_{min}} \right)
+$$
+$$
+D_{p2p} \geq \max \left( \frac{F}{u_s}, \frac{F}{d_{min}}, \frac{NF}{\sum_{i=1}^{N} u_i} \right)
+$$
+
+Because I'm lazy, here's a python script to calculate the distribution times, along with a table showing the times for each subset of $N$ and $u$
 
