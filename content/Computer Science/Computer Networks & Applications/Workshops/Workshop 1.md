@@ -15,13 +15,15 @@ Since there is no other traffic at the router, we should consider 3 types of del
 
 
 Propagation
+
+
+Transmi
 $$
 \frac{1000 \times 1000 \; m}{2.5 \times 10^8} + \frac{5000 \times 1000 \; m}{2.5 \times 10^8} = 0.024s
 $$
 
-Transmi
-
-
-| Propagation \[$t_p = \frac{distance}{speed}$\] | Transmission | Processing | Total |
-| ---------------------------------------------- | ------------ | ---------- | ----- |
-|                                                |              |            |       |
+|             | Propagation                    | Transmission        | Processing Delay | Total |
+| ----------- | ------------------------------ | ------------------- | ---------------- | ----- |
+| **Formula** | $t_p = \frac{distance}{speed}$ | $t_T = \frac{L}{R}$ | -                |       |
+|             |                                |                     |                  |       |
+|             |                                |                     |                  |       |
