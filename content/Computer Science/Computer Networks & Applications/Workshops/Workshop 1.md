@@ -4,7 +4,7 @@
 > 
 > ![[tute1-network.jpg]]
 > 
-> Given a propagation speed of 2.5 x 108 m/s (slightly under the speed of light) and a packet data size of 1000 bytes, what is the end-to-end delay for a packet assuming no other traffic at the router?
+> Given a propagation speed of $2.5 \times 10^8$ m/s (slightly under the speed of light) and a packet data size of 1000 bytes, what is the end-to-end delay for a packet assuming no other traffic at the router?
 > 
 > What effect would other traffic at the router have?
 > 
@@ -13,6 +13,15 @@
 
 Since there is no other traffic at the router, we should consider 3 types of delay - Propagation, Transmission and Processing.
 
-- Propagation - $\frac{distance}{speed}$
-	- 
 
+Propagation
+$$
+\frac{1000 \times 1000 \; m}{2.5 \times 10^8} + \frac{5000 \times 1000 \; m}{2.5 \times 10^8} = 0.024s
+$$
+
+Transmi
+
+
+| Propagation \[$t_p = \frac{distance}{speed}$\] | Transmission | Processing | Total |
+| ---------------------------------------------- | ------------ | ---------- | ----- |
+|                                                |              |            |       |
