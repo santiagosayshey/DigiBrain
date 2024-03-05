@@ -7,8 +7,6 @@
 > 
 > What effect would other traffic at the router have?
 
-
-**Answer**: 
 Since there is no other traffic at the router, we should consider 3 types of delay - Propagation, Transmission and Processing. If there was other traffic at the router, we would have to also consider a queuing delay!
 
 |                 | **Propagation $(t_p = \frac{\text{distance}}{\text{speed}})$**                                                         | **Transmission $(t_T = \frac{L}{R})$**                                                                                                             | **Processing Delay** | **Total** |
@@ -26,15 +24,13 @@ Since there is no other traffic at the router, we should consider 3 types of del
 > **II.** Why will there be a queuing delay at the devices attempting to use the link, if three users transmit at the same time?
 > **III.** What is the probability that a given user is transmitting at any given time?
 > **IV.** Now re-consider the situation of three users transmitting at the same time. First, find the probability that at any given time, all three users are transmitting simultaneously. Now find the fraction of time during which the queue grows.
-> 
-> **Answer:**
-> 
-> **1.** A circuit switch with 2 mbps of bandwidth would only be able to support 2/4 family members at a time at 1mbps each. 
-> 
-> **I.** There is enough bandwidth to support 2 users at once. 1 mbps each at 2 mbps total. 
-> **II.** There is **NOT** enough bandwidth to support 3 users at once. A queuing delay will occur because 3 Mb are trying to be transmitted at once with only 2 mbps total bandwidth. 
-> **III.** 20%. Each family member hash a probability of 20% to transmit at any one time. 
-> **IV.** Any three users transmitting at the same time is $\frac{1}{5} \times \frac{1}{5} \times \frac{1}{5} = 0.8\%$ 
+
+**1.** A circuit switch with 2 mbps of bandwidth would only be able to support 2/4 family members at a time at 1mbps each. 
+
+**I.** There is enough bandwidth to support 2 users at once. 1 mbps each at 2 mbps total. 
+**II.** There is **NOT** enough bandwidth to support 3 users at once. A queuing delay will occur because 3 Mb are trying to be transmitted at once with only 2 mbps total bandwidth. 
+**III.** 20%. Each family member hash a probability of 20% to transmit at any one time. 
+**IV.** Any three users transmitting at the same time is $\frac{1}{5} \times \frac{1}{5} \times \frac{1}{5} = 0.8\%$ 
 
 
 > [!exercise]+ Exercise 3 - Peer to Peer (P2P) and Client Server (K&R)
@@ -52,3 +48,44 @@ $$
 
 Because I'm lazy, here's a python script to calculate the distribution times, along with a table showing the times for each subset of $N$ and $u$
 
+```python
+# Constants
+F = 10e9  # file size in bits
+u_s = 20e6  # server upload rate in bits per second
+d_min = 1e6  # peer download rate in bits per second
+
+# Scenarios
+N_values = [10, 100, 1000]  # number of peers
+u_values = [200e3, 600e3, 1e6]  # peer upload rates in bits per second
+
+# Calculate minimum distribution time for Client-Server and P2P for each scenario
+results = []
+
+for N in N_values:
+    for u in u_values:
+        u_total = N * u
+        D_cs = max(N*F/u_s, F/d_min) / 60  # converting to minutes
+        D_p2p = max(F/u_s, F/d_min, N*F/u_total) / 60  # converting to minutes
+        results.append({
+            'N': N,
+            'u (Kbps)': u/1e3,
+            'D_cs (min)': D_cs,
+            'D_p2p (min)': D_p2p
+        })
+```
+
+**Client-Server Distribution Time**
+
+| N (Number of Peers) | u=200 Kbps | u=600 Kbps | u=1000 Kbps |
+|---------------------|------------|------------|-------------|
+| 10                  | 166.67     | 166.67     | 166.67      |
+| 100                 | 833.33     | 833.33     | 833.33      |
+| 1000                | 8333.33    | 8333.33    | 8333.33     |
+
+**P2P Distribution Time**
+
+| N (Number of Peers) | u=200 Kbps | u=600 Kbps | u=1000 Kbps |
+|---------------------|------------|------------|-------------|
+| 10                  | 833.33     | 277.78     | 166.67      |
+| 100                 | 833.33     | 277.78     | 166.67      |
+| 1000                | 833.33     | 277.78     | 166.67      |
