@@ -58,34 +58,15 @@ d_min = 1e6  # peer download rate in bits per second
 N_values = [10, 100, 1000]  # number of peers
 u_values = [200e3, 600e3, 1e6]  # peer upload rates in bits per second
 
-# Calculate minimum distribution time for Client-Server and P2P for each scenario
-results = []
+# Calculate distribution time for Client-Server and P2P for each scenario
 
 for N in N_values:
     for u in u_values:
         u_total = N * u
-        D_cs = max(N*F/u_s, F/d_min) / 60  # converting to minutes
-        D_p2p = max(F/u_s, F/d_min, N*F/u_total) / 60  # converting to minutes
-        results.append({
-            'N': N,
-            'u (Kbps)': u/1e3,
-            'D_cs (min)': D_cs,
-            'D_p2p (min)': D_p2p
-        })
+        D_cs = max(N*F/u_s, F/d_min) / 60
+        D_p2p = max(F/u_s, F/d_min, N*F/u_total) / 60
+        print(f'For {n} peers at {u} speed:')
+        print(f'D_cs = {D_cs}') 
+		
 ```
 
-**Client-Server Distribution Time**
-
-| N (Number of Peers) | u=200 Kbps | u=600 Kbps | u=1000 Kbps |
-|---------------------|------------|------------|-------------|
-| 10                  | 166.67     | 166.67     | 166.67      |
-| 100                 | 833.33     | 833.33     | 833.33      |
-| 1000                | 8333.33    | 8333.33    | 8333.33     |
-
-**P2P Distribution Time**
-
-| N (Number of Peers) | u=200 Kbps | u=600 Kbps | u=1000 Kbps |
-|---------------------|------------|------------|-------------|
-| 10                  | 833.33     | 277.78     | 166.67      |
-| 100                 | 833.33     | 277.78     | 166.67      |
-| 1000                | 833.33     | 277.78     | 166.67      |
