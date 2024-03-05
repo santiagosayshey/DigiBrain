@@ -36,4 +36,4 @@
 > **I.** There is enough bandwidth to support 2 users at once. 1 mbps each at 2 mbps total. 
 > **II.** There is **NOT** enough bandwidth to support 3 users at once. A queuing delay will occur because 3 Mb are trying to be transmitted at once with only 2 mbps total bandwidth. 
 > **III.** 20%. Each family member hash a probability of 20% to transmit at any one time. 
-> **IV.** Any three users transmitting at the same time is $frac
+> **IV.** Any three users transmitting at the same time is $\frac{1}{5} \times \frac{1}{5} \times \frac{1}{5} = 0.8\%$ 
