@@ -88,3 +88,13 @@ for N in N_values:
 | 100                 | 833.33     | 277.78     | 166.67      |
 | 1000                | 833.33     | 277.78     | 166.67      |
 ![[Figure_1.png]]
+
+**I have a feeling I've screwed something up in the calculations? :/**
+
+
+> [!exercise]+ Exercise 4 - HTTP
+> Why does HTTP specify a blank line between the headers and the entity body for requests and responses? Could HTTP have been designed without this blank line? Explain why or why not.
+> 
+> Is the content-length header necessary? Explain.
+
+The blank line, specifically `\r\n` delimiters are used to tell the interpeter when the headers stop and the ent 
