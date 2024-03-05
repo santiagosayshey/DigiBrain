@@ -65,8 +65,25 @@ for N in N_values:
         u_total = N * u
         D_cs = max(N*F/u_s, F/d_min) / 60
         D_p2p = max(F/u_s, F/d_min, N*F/u_total) / 60
-        print(f'For {n} peers at {u} speed:')
-        print(f'D_cs = {D_cs}') 
+        print(f'For {N} peers at {u} bits per second:')
+        print(f'D_cs = {D_cs}')
+        print(f'D_p2p = {D_p2p}')
+        print() 
 		
 ```
 
+**Client-Server Distribution Time**
+
+| N (Number of Peers) | u=200 Kbps | u=600 Kbps | u=1000 Kbps |
+|---------------------|------------|------------|-------------|
+| 10                  | 166.67     | 166.67     | 166.67      |
+| 100                 | 833.33     | 833.33     | 833.33      |
+| 1000                | 8333.33    | 8333.33    | 8333.33     |
+
+**P2P Distribution Time**
+
+| N (Number of Peers) | u=200 Kbps | u=600 Kbps | u=1000 Kbps |
+|---------------------|------------|------------|-------------|
+| 10                  | 833.33     | 277.78     | 166.67      |
+| 100                 | 833.33     | 277.78     | 166.67      |
+| 1000                | 833.33     | 277.78     | 166.67      |
