@@ -33,4 +33,6 @@
 > 
 > **1.** A circuit switch with 2 mbps of bandwidth would only be able to support 2/4 family members at a time at 1mbps each. 
 > 
-> **2.** In an ideal world (where no more than 2 users are on at once), a packet switch would be able to support 5 users. There is still likely to be queuing delays in this setup. 
+> **I.** There is enough bandwidth to support 2 users at once. 1 mbps each at 2 mbps total. 
+> **II.** There is **NOT** enough bandwidth to support 3 users at once. A queuing delay will occur because 3 Mb are trying to be transmitted at once with only 2 mbps total bandwidth. 
+> **III.** 80%. There are 4 family members, each with a probability of 20% to transmit at any one time. 
