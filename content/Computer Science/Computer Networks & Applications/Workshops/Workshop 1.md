@@ -97,4 +97,6 @@ for N in N_values:
 > 
 > Is the content-length header necessary? Explain.
 
-The blank line, specifically `\r\n` delimiters are used to tell the interpeter when the headers stop and the ent 
+The blank line, specifically `\r\n` delimiters are used to tell the interpreter when the headers stop and the entity body starts.  Could HTTP be designed without this line? Yes, but there would still need to be some standard to determine when the headers end. 
+
+**Is the content-length header necessary?** Necessary? No, I don't think so. 
