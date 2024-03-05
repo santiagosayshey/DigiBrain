@@ -1,3 +1,0 @@
-
-> [!solution] Solution
-
