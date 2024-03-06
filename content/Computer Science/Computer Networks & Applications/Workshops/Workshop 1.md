@@ -141,3 +141,11 @@ $$
 > [!exercise]+ Exercise 6 - Learning to Read a Protcol Specification
 > What is the difference in response to a HTTP Head vs HTTP Get request? You will need to consult the RFC for HTTP 1.1 to answer this question.
 
+
+> [!quote] [RFC 7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1)
+> The HEAD method is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header section).
+
+
+> [!exercise]+ Exercise 7 - What topics would you must like to review / discuss or have further examples of.
+
+Peer to Peer. I think it's an interesting topic to discuss for one, and two, I was quite unsure of my answer for this workshop prep. It would be quite helpful to go through a worked example with other people to make sure that I'm doing the right thing.
