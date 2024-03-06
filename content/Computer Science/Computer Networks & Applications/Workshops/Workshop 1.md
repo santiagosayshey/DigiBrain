@@ -116,4 +116,7 @@ Necessary? No, I don't think so. It is useful, in that it helps with buffering /
 >
 > In case 3, how much time is likely to pass between the time the user clicks on the link until the web page is loaded? Assume the user is in Adelaide connected to the Internet through an ADSL modem and they are accessing a website in Sydney (about 1500 Kms away). Be creative in how you could work this out (or at least estimate it).
 
-**1.**  The cache is able to return the web page and images to the client. The local DNS will 
+**1.** The web proxy cache immediately provides the web page and images to the client from its cache. Simultaneously, the local DNS, lacking the domain information, either prompts the client to query higher-level DNS servers or does so itself. This process repeats until a DNS server resolves the domain name, caching the IP address for future use.
+
+**2.** The proxy server does not have the web page and images, so requests them from the origin server to be sent back to the client and caches them for any future requests. The local DNS cache resolves the domain query. 
+
