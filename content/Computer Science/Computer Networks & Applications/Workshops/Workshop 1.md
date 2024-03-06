@@ -1,5 +1,7 @@
 This workshop uses notes on [[1.2 Network Delays]], [[2.1 HTTP]], [[2.2 Caching]], [[2.4 DNS]] and [[2.5 P2P]]. Review those for more details.
 
+Workshop 1 answers by [Samuel Chau.](https://github.com/santiagosayshey) 
+
 > [!exercise]+ Exercise 1 - Latency Through a Network
 > Consider a packet flowing through the Internet over 2 hops (source -> router1 -> destination). Assume that it takes the router 1 msec to process a packet and determine the outgoing link. The simplified network is shown below:
 > 
@@ -118,5 +120,7 @@ Necessary? No, I don't think so. It is useful, in that it helps with buffering /
 
 **1.** The web proxy cache immediately provides the web page and images to the client from its cache. Simultaneously, the local DNS, lacking the domain information, either prompts the client to query higher-level DNS servers or does so itself. This process repeats until a DNS server resolves the domain name, caching the IP address for future use.
 
-**2.** The proxy server does not have the web page and images, so requests them from the origin server to be sent back to the client and caches them for any future requests. The local DNS cache resolves the domain query. 
+**2.** The local DNS cache resolves the domain query. The proxy server does not have the web page and images, so requests them from the origin server to be sent back to the client and caches them for any future requests. 
+
+**3.** A DNS query is initiated because the domain is not in the local DNS cache. With the IP address now known, the client sends a request to the origin server for the web page. The server processes the request and sends back the web page and images to the proxy server where it is cached and sent back to the client.
 
