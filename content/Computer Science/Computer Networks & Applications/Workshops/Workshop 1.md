@@ -1,7 +1,5 @@
 This workshop uses notes on [[1.2 Network Delays]], [[2.1 HTTP]], [[2.2 Caching]], [[2.4 DNS]] and [[2.5 P2P]]. Review those for more details.
 
-Workshop 1 answers by [Samuel Chau.](https://github.com/santiagosayshey) 
-
 > [!exercise]+ Exercise 1 - Latency Through a Network
 > Consider a packet flowing through the Internet over 2 hops (source -> router1 -> destination). Assume that it takes the router 1 msec to process a packet and determine the outgoing link. The simplified network is shown below:
 > 
@@ -149,3 +147,8 @@ $$
 > [!exercise]+ Exercise 7 - What topics would you must like to review / discuss or have further examples of.
 
 Peer to Peer. I think it's an interesting topic to discuss for one, and two, I was quite unsure of my answer for this workshop prep. It would be quite helpful to go through a worked example with other people to make sure that I'm doing the right thing.
+
+<hr>
+
+Workshop 1 by [Samuel Chau.](https://github.com/santiagosayshey) Made using [Obsidian](https://obsidian.md/) to include code blocks, LaTeX and callouts.
+
