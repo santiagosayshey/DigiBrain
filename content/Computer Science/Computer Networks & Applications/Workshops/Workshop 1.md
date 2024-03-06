@@ -124,3 +124,7 @@ Necessary? No, I don't think so. It is useful, in that it helps with buffering /
 
 **3.** A DNS query is initiated because the domain is not in the local DNS cache. With the IP address now known, the client sends a request to the origin server for the web page. The server processes the request and sends back the web page and images to the proxy server where it is cached and sent back to the client.
 
+- **DNS Resolution Time:** Estimated at 150 milliseconds, for the domain name resolution process.
+- **Propagation Delay:** With the speed of light at $3×10^8$ meters per second, the calculation for the signal to travel through fibre optic cables from Adelaide to Sydney and back is considered.
+- **ADSL Latency:** An estimated additional delay of 10 milliseconds according to [this](https://www.freedomsat.co.uk/articles/what-is-latency)
+- **Server Processing Time:** Approximately 100 milliseconds is allocated for the server to process the web page request and begin the response.
