@@ -128,3 +128,16 @@ Necessary? No, I don't think so. It is useful, in that it helps with buffering /
 - **Propagation Delay:** With the speed of light at $3×10^8$ meters per second, the calculation for the signal to travel through fibre optic cables from Adelaide to Sydney and back is considered.
 - **ADSL Latency:** An estimated additional delay of 10 milliseconds according to [this](https://www.freedomsat.co.uk/articles/what-is-latency)
 - **Server Processing Time:** Approximately 100 milliseconds is allocated for the server to process the web page request and begin the response.
+
+
+$$
+t_{propagation} = 2 \times \frac{\text{distance}}{\text{speed of light}} = 2 \times \frac{1500 \, \text{km} \times 1000 \, \text{m/km}}{3 \times 10^8 \, \text{m/s}} = 10 \, \text{milliseconds}
+$$
+$$
+\text{Total Time} = 150 \, \text{ms} + 10 \, \text{ms} + 100 \, \text{ms} + 10 \, \text{ms} = 270 \, \text{milliseconds}
+$$
+
+
+> [!exercise]+ Exercise 6 - Learning to Read a Protcol Specification
+> What is the difference in response to a HTTP Head vs HTTP Get request? You will need to consult the RFC for HTTP 1.1 to answer this question.
+
