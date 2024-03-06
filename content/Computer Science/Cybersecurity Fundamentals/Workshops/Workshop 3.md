@@ -35,3 +35,4 @@ dig -x 157.240.8.35
 35.8.240.157.in-addr.arpa. 3578 IN      PTR     edge-star-mini-shv-01-syd2.facebook.com.
 ```
 
+ 
