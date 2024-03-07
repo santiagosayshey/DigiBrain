@@ -1,10 +1,3 @@
----
-cssclasses:
-  - custom-class
----
-
-# Courses
-
 
 | Year | Semester | Course                                   |
 | ---- | -------- | ---------------------------------------- |
