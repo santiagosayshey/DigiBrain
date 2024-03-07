@@ -1,0 +1,3 @@
+> [!idea]
+> Divide and conquer is a powerful algorithm design paradigm that breaks a **problem down into sub-problems**, solves each sub-problem independently, and then **combines their sub problems to solve the original problem**. This approach is particularly effective for complex problems as it simplifies the problem-solving process, often leading to efficient algorithms with significant improvements in time complexity. Common examples include [[6.4 Merge Sort|Merge Sort]] and [[6.5 Quick Sort|Quick Sort]], which leverage divide and conquer to achieve high efficiency in sorting large datasets.
+
