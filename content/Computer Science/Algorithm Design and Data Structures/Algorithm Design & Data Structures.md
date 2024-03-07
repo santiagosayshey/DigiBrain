@@ -24,5 +24,3 @@
 |      | [[10.3 Heap Sort]]                                |                                                                                        |
 | 11   | [[11.1 Selecting Algorithms and Data Structures]] |                                                                                        |
 |      | [[11.2 Algorithmic Strategies]]                   |                                                                                        |
-This class leads into [[Algorithm & Data Structures Analysis]]
-
