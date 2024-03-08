@@ -44,7 +44,7 @@ This is true. Essentially we are saying that $h(n)$ grows faster than $g(n)$ and
 > [!exercise]+ Exercise 5
 $\text{Is it true that a } \Theta(n^2) \text{ algorithm always takes longer to run than a } O(\log n) \text{ algorithm?}$
 
-This is true. For all values of N, $n^2$ will always run slower than $\log{n}$
+This is true. For all values of N, $n^2$ will always run slower than $\log{n}$. 
 
 > [!exercise]+ Exercise 6
 $\text{For each pair of functions given below, point out the asymptotic relationships that apply: } f = O(g), f = \Theta(g), f = \Omega(g).$
@@ -61,7 +61,7 @@ $6.\ f(n) = n! \text{ and } g(n) = (n + 1)!$
 | 2       | 1                | 2           | Yes        | Yes             | Yes             |
 | 3       | $1000 \cdot 2^n$ | $3^n$       | Yes        | No              | No              |
 | 4       | $4^{n+4}$        | $2^{2n+2}$  | Yes        | Yes             | Yes             |
-| 5       | $5n\log(n)$      | $n\log(5n)$ | No         | No              | Tes             |
+| 5       | $5n\log(n)$      | $n\log(5n)$ | No         | No              | Yes             |
 | 6       | $n!$             | $(n + 1)!$  | Yes        | No              | No              |
 
 
@@ -72,4 +72,5 @@ Prove that $n^k$ is strictly upper bounded by $c^n$
 
 Must prove that $\lim_{n \to \infty} \frac{T(n)}{f(n)} = 0$
 
-$
+$\frac{c^n}{n^k}$ - we 
+
