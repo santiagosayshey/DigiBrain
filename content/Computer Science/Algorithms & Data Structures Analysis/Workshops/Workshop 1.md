@@ -44,7 +44,12 @@ This is true. Essentially we are saying that $h(n)$ grows faster than $g(n)$ and
 > [!exercise]+ Exercise 5
 $\text{Is it true that a } \Theta(n^2) \text{ algorithm always takes longer to run than a } O(\log n) \text{ algorithm?}$
 
-This is true. For all values of N, $n^2$ will always run slower than $\log{n}$. 
+This is not true. We must consider constant terms. It is true to say that $O(\log{n})$ is asymptotically faster than $\Theta(n^2)$, but it is not true, say when we have a small n.
+
+Example: $f(n) = 10000 \cdot \log{n}$ and $g(n) = 0.5n^2$ for $n=16$
+
+$g(n)$ _will_ behave faster in this example, but the it’s growth rate is still faster.
+
 
 > [!exercise]+ Exercise 6
 $\text{For each pair of functions given below, point out the asymptotic relationships that apply: } f = O(g), f = \Theta(g), f = \Omega(g).$
