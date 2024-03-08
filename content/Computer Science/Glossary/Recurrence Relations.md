@@ -12,3 +12,4 @@
 > [!idea]+ Solving Recurrence Relations
 > There are many ways, but the main way is to use the [[2.3 Master Theorem|Master Theorem]]
 
+When we combine subproblems, we have to consider the work taken to combine the results of the subproblems. This is usually a constant in the non base case. 
