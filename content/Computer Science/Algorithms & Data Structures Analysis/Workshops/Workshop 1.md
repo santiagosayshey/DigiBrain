@@ -73,4 +73,3 @@ Prove that $n^k$ is strictly upper bounded by $c^n$
 Must prove that $\lim_{n \to \infty} \frac{T(n)}{f(n)} = 0$
 
 $\frac{c^n}{n^k}$ - we 
-
