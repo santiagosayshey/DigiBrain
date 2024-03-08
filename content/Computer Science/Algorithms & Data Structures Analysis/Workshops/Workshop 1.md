@@ -22,6 +22,20 @@ $\text{Is it true that if } f(n) =\Theta(g(n)) \text{ and } g(n) = \Theta(h(n)),
 
 This is true. Asymptotically similar functions are transitively tightly bounded in either direction. 
 
+```functionplot
+---
+title:
+xLabel: x
+yLabel: y
+bounds: [0,3,0,3]
+disableZoom: true
+grid: true
+---
+T(x)=x
+f(x)=2*x
+g(x)=3*x
+```
+In the graph, we see 3 asymptotically tight functions - x, 2x and 3x. They’re all tight bounds for each other. 
 > [!exercise]+ Exercise 4
 $\text{Is it true that if } f(n) = O(g(n)) \text{ and } g(n) = O(h(n)), \text{ then } h(n) = \Omega(f(n))?$
 
@@ -54,3 +68,8 @@ $6.\ f(n) = n! \text{ and } g(n) = (n + 1)!$
 > [!exercise]+ Exercise 7
 $\text{Prove that } n^k = o(c^n) \text{ for any integer } k \text{ and any } c > 1.$
 
+Prove that $n^k$ is strictly upper bounded by $c^n$
+
+Must prove that $\lim_{n \to \infty} \frac{T(n)}{f(n)} = 0$
+
+$
