@@ -106,11 +106,18 @@
 > send(connection_socket, response_buffer, strlen(response_buffer), 0);
 > ```
 
+
 > [!code] Step 10: Send resource (if requested)
 >
 > ```c
 > is_ok_to_send_resource = (status_code == 200);
+>
+> if (is_ok_to_send_resource)
+> {
+>   Send_Resource(connection_socket, new_request.URI, new_request.method);
+> }
 > ```
+
 
 > [!code] Step 11: Do not send resource (End the HTTP headers)
 >
