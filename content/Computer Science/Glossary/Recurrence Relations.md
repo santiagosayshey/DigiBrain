@@ -1,7 +1,10 @@
+
 > [!idea] Recurrence Relations
-> Recurrence relations are mathematical formulas that describe the complexity of divide and conquer algorithms by expressing how the algorithm performs on smaller subsets of the problem. They offer a structured way to analyse and predict the performance of algorithms as the size of input data changes. 
 > 
-> This is particularly useful for understanding algorithms that break down a problem into smaller parts, solve these parts, and then combine the solutions to solve the original problem.
+> Recurrence relations are mathematical equations that describe the running time or space complexity of recursive algorithms by expressing the performance of the algorithm in terms of its input size. They offer a structured way to analyze and predict the efficiency of recursive algorithms as the size of the input data changes.
+> 
+> Recurrence relations are useful for understanding and analyzing various types of recursive algorithms, including those that break down a problem into smaller subproblems, solve these subproblems recursively, and then combine the solutions to solve the original problem (e.g., divide and conquer algorithms). They are also applicable to other recursive paradigms such as decrease and conquer, dynamic programming, and backtracking.
+
 
 > [!exercise] Example: Binary Search Algorithm
 > Consider the binary search algorithm, which looks for an item in a sorted array by repeatedly dividing the search interval in half. 
