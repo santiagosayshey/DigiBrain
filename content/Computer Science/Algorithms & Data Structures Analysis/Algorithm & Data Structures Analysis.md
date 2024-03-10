@@ -10,3 +10,7 @@
 |      | [[2.4 Master Theorem]]           |                                                                                                     |                                                    |                        |
 | 3    | [[3.1 Comparison Sorts]]         |                                                                                                     |                                                    |                        |
 |      | [[3.2 Counting Sort]]            |                                                                                                     |                                                    |                        |
+|      | [[3.3 Radix Sort]]               |                                                                                                     |                                                    |                        |
+| 4    | [[4.1 Order Statistics]]         |                                                                                                     |                                                    |                        |
+|      | [[5.1 Binary Search Trees]]      |                                                                                                     |                                                    |                        |
+|      |                                  |                                                                                                     |                                                    |                        |
