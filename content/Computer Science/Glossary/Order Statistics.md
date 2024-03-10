@@ -1,7 +1,5 @@
 
-> [!idea]+ The Idea
-> Consider a scenario of finding the $i'th$ smallest element in a set. We know we can find this element in $O(n \cdot \log(n))$ time using a divide and conquer comparison sort - [[6.4 Merge Sort]] or [[6.5 Quick Sort]]. We can actually do this faster, in linear time using a selection algorithm, rather than a sorting one. 
-> 
+> [!idea]+ Idea
 > Order statistics tell us the position of an element in a set relative to other elements. The $i'th$ order statistic in a set of $n$ elements is the $i'th$ smallest element.
 > - The minimum element is the $1st$ order statistic
 > - The maximum element is the $n'th$ order statistic
@@ -31,4 +29,5 @@
 > - Compare larger elements to current max: 5 < 9, 9 > 7. Maximum is 9.
 > - Compare smaller elements to current min: 2 > 1, 1 < 4. Minimum is 1.
 > - Total comparisons: 3 (pairs) + 2 (max) + 2 (min) = 7
+
 
