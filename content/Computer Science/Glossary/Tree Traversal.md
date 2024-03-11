@@ -1,6 +1,6 @@
 > [!idea] Tree Traversal
 > 
-> Tree traversal is a recursive method to visit all the nodes in a tree in a specific order. There are three commonly used methods for traversing a binary tree:
+> Tree traversal is a **recursive** method to visit all the nodes in a tree in a specific order. There are three commonly used methods for traversing a binary tree:
 > 
 > 1. In-Order Traversal:
 > 2. Pre-Order Traversal:
