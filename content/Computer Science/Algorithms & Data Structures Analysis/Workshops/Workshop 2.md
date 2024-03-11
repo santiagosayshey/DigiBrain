@@ -12,6 +12,25 @@ Recall [[Proof by Induction]]:
 Recall [[Randomised Algorithms]]:
 
 
-> [!exercise]+ Exercise
-> Contents
+> [!exercise]+ Exercise 4 
+> Suppose your task is to implement a boolean function called `badSign` that takes an integer input and returns true if the input is positive and false otherwise. However, you are required to write `badSign` so that it, randomly, 25% of the time returns the incorrect boolean value. How would you implement such a function?
 
+```c
+function badSign(int i) {
+	sign = false
+	
+	if i > 0
+		sign = true
+	
+	if rand(25%)
+		return !sign
+		
+	return sign
+}
+```
+
+> [!exercise] Exercise 5
+> Suppose your second task is to implement a boolean function called `betterSign` that takes an integer input and returns true if the input is positive and false otherwise. However, this time, you are not allowed to directly inspect the input integer x. You are only allowed to inspect `badSign(x)`. How would you write the `betterSign` function, in order to obtain a function that is more accurate than `badSign` itself?
+
+> [!exercise] Problem 3
+> What happens when `badSign` is incorrect 49% of the time? What happens when `badSign` is incorrect 51% of the time?
