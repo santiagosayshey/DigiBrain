@@ -31,6 +31,27 @@ function badSign(int i) {
 
 > [!exercise] Exercise 5
 > Suppose your second task is to implement a boolean function called `betterSign` that takes an integer input and returns true if the input is positive and false otherwise. However, this time, you are not allowed to directly inspect the input integer x. You are only allowed to inspect `badSign(x)`. How would you write the `betterSign` function, in order to obtain a function that is more accurate than `badSign` itself?
+> 
 
-> [!exercise] Problem 3
+Call `badSign` over and over, store the results. The result with the higher percentage is true.
+
+```c
+function betterSign(int i) {
+
+	for i=1 to x
+		sign = badSign(i)
+		if sign
+			pos++
+		else
+			neg++
+	
+	if pos > neg
+		return true
+	return false
+}
+```
+
+> [!exercise] Exercise 6
 > What happens when `badSign` is incorrect 49% of the time? What happens when `badSign` is incorrect 51% of the time?
+
+
