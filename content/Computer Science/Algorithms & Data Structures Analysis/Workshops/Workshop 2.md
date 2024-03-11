@@ -10,3 +10,4 @@
 
 
 > [!exercise]+ Exercise 3- Let $F(n)$ be the $n'th$ Fibonacci number. We have that $F(1) = F(2) = 1$ and $F(n)=F(n-1)+F(n-2)$. Find a value $a$ so that $F(n) \in O(a^n)$. We want $a$ to be as small as possible.
+![[bruh-face-meme-2.jpg]]
