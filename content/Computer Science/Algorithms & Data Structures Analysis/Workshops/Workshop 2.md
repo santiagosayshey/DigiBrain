@@ -5,5 +5,6 @@
 > ![[Pasted image 20240311154300.png]]
 
 > [!exercise]+ Exercise 1 - Prove the sum of the first $n$ positive integers is equal to $\frac{n(n+1)}{2}$ using mathematical induction.
-> ![[Pasted image 20240311160109.png]]
+> 
+> ![[Pasted image 20240311160232.png]]
 
