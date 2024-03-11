@@ -1,6 +1,6 @@
 # Part 1
 
-> [!activity] Activity 1
+> [!exercise] Activity 1
 > (1 point) There is a secret passphrase embedded in the file called "**test.txt**" in the folder `/home/student/linux_basics/q01`. The secret can be found **following** the line that begins with the word "**And**" and ends with "**it**". Use grep with regular expression to locate this line and the line following it. What is the passphrase?
 
 > [!solution] Solution
