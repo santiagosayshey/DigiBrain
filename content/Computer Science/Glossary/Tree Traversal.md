@@ -1,36 +1,62 @@
 > [!idea] Tree Traversal
 > 
-> Tree traversal is a method to recursively visit all the nodes in a tree in a specific order.. Tree traversal is crucial because it enables you to perform various tasks, such as searching for a particular node, printing the contents of the tree, or applying a certain operation to each node.
+> Tree traversal is a recursive method to visit all the nodes in a tree in a specific order. There are three commonly used methods for traversing a binary tree:
 > 
-> There are three commonly used methods for traversing a binary tree:
+> 1. In-Order Traversal:
+> 2. Pre-Order Traversal:
+> 3. Post-Order Traversal:
+>    
+> In each pseudocode, the `visit(node)` function represents the operation or action you want to perform on the current node during the traversal. This could be printing the node's value, updating its data, or any other desired operation.
+
+> [!idea] In-Order Traversal
 > 
-> 1. **In-Order Traversal:**
->    - In-order traversal visits the nodes of a binary tree in the following order:
->      1. Recursively traverse the left subtree.
->      2. Visit the current node.
->      3. Recursively traverse the right subtree.
->    - In the case of a binary search tree (BST), in-order traversal visits the nodes in ascending order of their keys.
->    - In-order traversal is useful for tasks such as printing the nodes in sorted order or performing range queries efficiently.
+> In-order traversal visits the nodes of a binary tree in the following order:
+> 1. Recursively traverse the left subtree.
+> 2. Visit the current node.
+> 3. Recursively traverse the right subtree.
 > 
-> 2. **Pre-Order Traversal:**
->    - Pre-order traversal visits the nodes of a binary tree in the following order:
->      1. Visit the current node.
->      2. Recursively traverse the left subtree.
->      3. Recursively traverse the right subtree.
->    - Pre-order traversal is useful for tasks such as creating a copy of the tree or generating a prefix expression of an arithmetic expression tree.
+> In the case of a binary search tree (BST), in-order traversal visits the nodes in ascending order of their keys.
 > 
-> 3. **Post-Order Traversal:**
->    - Post-order traversal visits the nodes of a binary tree in the following order:
->      1. Recursively traverse the left subtree.
->      2. Recursively traverse the right subtree.
->      3. Visit the current node.
->    - Post-order traversal is useful for tasks such as deleting nodes from a tree or generating a postfix expression of an arithmetic expression tree.
+> ```
+> function inOrderTraversal(node):
+>     if node is not None:
+>         inOrderTraversal(node.left)
+>         visit(node)
+>         inOrderTraversal(node.right)
+> ```
+
+> [!idea] Pre-Order Traversal
 > 
-> Tree traversal is important because it allows you to:
-> - **Process nodes in a specific order:** Depending on the traversal method, you can visit the nodes of a tree in a particular order, such as ascending order (in-order traversal) or according to their depth (pre-order or post-order traversal).
-> - **Perform operations on each node:** Tree traversal enables you to apply a specific operation or function to each node of the tree, such as updating values, searching for a particular node, or collecting data.
-> - **Solve various problems:** Many algorithms and problems in computer science rely on tree traversal as a fundamental step. For example, tree traversal is used in search algorithms, tree serialization, tree balancing, and more.
+> Pre-order traversal visits the nodes of a binary tree in the following order:
+> 1. Visit the current node.
+> 2. Recursively traverse the left subtree.
+> 3. Recursively traverse the right subtree.
 > 
-> The time complexity of tree traversal is typically O(n), where n is the number of nodes in the tree, as each node is visited exactly once. The space complexity depends on the maximum depth of the tree, which is O(h) in the worst case, where h is the height of the tree.
+> Pre-order traversal is useful for tasks such as creating a copy of the tree or generating a prefix expression of an arithmetic expression tree.
+> 
+> ```
+> function preOrderTraversal(node):
+>     if node is not None:
+>         visit(node)
+>         preOrderTraversal(node.left)
+>         preOrderTraversal(node.right)
+> ```
+
+> [!idea] Post-Order Traversal
+> 
+> Post-order traversal visits the nodes of a binary tree in the following order:
+> 1. Recursively traverse the left subtree.
+> 2. Recursively traverse the right subtree.
+> 3. Visit the current node.
+> 
+> Post-order traversal is useful for tasks such as deleting nodes from a tree or generating a postfix expression of an arithmetic expression tree.
+> 
+> ```
+> function postOrderTraversal(node):
+>     if node is not None:
+>         postOrderTraversal(node.left)
+>         postOrderTraversal(node.right)
+>         visit(node)
+> ```
 
 
