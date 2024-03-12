@@ -23,3 +23,27 @@
 > 
 > ![[Pasted image 20240313085633.png]]
 
+
+> [!exercise]+ Exercise 3
+> Use the `whois_pocs` module in recon-ng to list some contacts for x.com. Who is located in Carson, CA?
+
+```shell
+[recon-ng][assignment2][whois_pocs] > options set SOURCE x.com
+SOURCE => x.com
+[recon-ng][assignment2][whois_pocs] > run
+
+...
+[*] --------------------------------------------------
+[*] URL: http://whois.arin.net/rest/poc/RNO51-ARIN
+[*] Country: United States
+[*] Email: x@x.com
+[*] First_Name: Robert
+[*] Last_Name: Nordland
+[*] Middle_Name: None
+[*] Notes: None
+[*] Phone: None
+[*] Region: Carson, CA
+[*] Title: Whois contact
+...
+```
+
