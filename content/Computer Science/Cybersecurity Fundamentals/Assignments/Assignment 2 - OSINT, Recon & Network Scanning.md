@@ -19,5 +19,7 @@
 > 
 > ![[Pasted image 20240313085227.png]]
 > 
-> We can search for sites that use calcium by including `inurl: Calcium40.pl` in the search
+> We can search for sites that use calcium by including `inurl: Calcium40.pl` in the search.
+> 
+> ![[Pasted image 20240313085633.png]]
 
