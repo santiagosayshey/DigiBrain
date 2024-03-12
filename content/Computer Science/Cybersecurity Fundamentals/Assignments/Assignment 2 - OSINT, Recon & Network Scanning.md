@@ -11,4 +11,7 @@
 
 > [!exercise]+ Exercise 2
 > Google dorks are good at finding vulnerabilities in websites. Do a quick research for the cross-site scripting (XSS) vulnerability in a product called Calcium by Brown Bear Software (you will learn about XSS in subsequent modules). What google search would you perform to find websites running Calcium? Perform the search, and paste a screenshot of the results.
+> 
+> **Answer:**
+> A Google search for `calcium xss` returns this page on [exploit-db](https://www.exploit-db.com/exploits/31858)
 
