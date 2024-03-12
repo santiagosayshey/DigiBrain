@@ -25,25 +25,28 @@
 
 
 > [!exercise]+ Exercise 3
-> Use the `whois_pocs` module in recon-ng to list some contacts for x.com. Who is located in Carson, CA?
-
-```shell
-[recon-ng][assignment2][whois_pocs] > options set SOURCE x.com
-SOURCE => x.com
-[recon-ng][assignment2][whois_pocs] > run
-
-...
-[*] --------------------------------------------------
-[*] URL: http://whois.arin.net/rest/poc/RNO51-ARIN
-[*] Country: United States
-[*] Email: x@x.com
-[*] First_Name: Robert
-[*] Last_Name: Nordland
-[*] Middle_Name: None
-[*] Notes: None
-[*] Phone: None
-[*] Region: Carson, CA
-[*] Title: Whois contact
-...
-```
+> Use the `whois_pocs` module in recon-ng to list some contacts for x.com. Who is located in Carson, CA?}
+> 
+> **Answer:**
+>
+> ```
+> [recon-ng][assignment2][whois_pocs] > options set SOURCE x.com
+> SOURCE => x.com
+> [recon-ng][assignment2][whois_pocs] > run
+>
+> ...
+> [*] --------------------------------------------------
+> [*] URL: http://whois.arin.net/rest/poc/RNO51-ARIN
+> [*] Country: United States
+> [*] Email: x@x.com
+> [*] First_Name: Robert
+> [*] Last_Name: Nordland
+> [*] Middle_Name: None
+> [*] Notes: None
+> [*] Phone: None
+> [*] Region: Carson, CA
+> [*] Title: Whois contact
+> ```
+>
+> **Brief Explanation:** This exercise demonstrates using the `whois_pocs` module in Recon-ng to find points of contact associated with the domain `x.com`. By setting the source to x.com and running the module, it retrieves contact information from WHOIS records, pinpointing individuals related to the domain. The process identifies Robert Nordland, located in Carson, CA, as a contact.
 
