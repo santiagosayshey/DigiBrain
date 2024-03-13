@@ -51,14 +51,37 @@
 > **Explanation:** This exercise demonstrates using the `whois_pocs` module in Recon-ng to find points of contact associated with the domain `x.com`. By setting the source to x.com and running the module, it retrieves contact information from WHOIS records, pinpointing finding related to the domain. The process identifies Robert Nordland, located in Carson, CA, as a contact.
 
 > [!exercise]+ Exercise 4
->
-> | **Question**                                          | **Answer**                                       |
-> | ------------------------------------------------- | -------------------------------------------- |
-> | dunstan.org.au resolves to:                       | (IP address)                                 |
-> | Other domain names that resolve to the same       | (List a subset of other domain names that    |
-> | address                                           | resolve to the same IP address as above)     |
-> | Owner of the IP address                           | (Organisation name according to whois)       |
-> | The IP address range which the IP address belongs | (Netblock IP range according to whois)       |
-> | The Autonomous System Number (ASN) that contain   | (ASN that contains the IP address range.     |
-> | the IP address                                    | e.g., AS1234)                                |
-> | Other netblocks registered under the same ASN     | (List of netblocks/ip address ranges)        |
+> **dunstan.org.au resolves to:** 151.101.194.159
+
+| **Question**                                      | **Answer**                                |
+| ------------------------------------------------- | ----------------------------------------- |
+| Other domain names that resolve to the same       | (List a subset of other domain names that |
+| address                                           | resolve to the same IP address as above)  |
+| Owner of the IP address                           | (Organisation name according to whois)    |
+| The IP address range which the IP address belongs | (Netblock IP range according to whois)    |
+| The Autonomous System Number (ASN) that contain   | (ASN that contains the IP address range.  |
+| the IP address                                    | e.g., AS1234)                             |
+| Other netblocks registered under the same ASN     | (List of netblocks/ip address ranges)     |
+
+```shell
+└─$ dig dunstan.org.au
+
+; <<>> DiG 9.19.19-1-Debian <<>> dunstan.org.au
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39852
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;dunstan.org.au.                        IN      A
+
+;; ANSWER SECTION:
+dunstan.org.au.         900     IN      A       151.101.194.159
+
+;; Query time: 407 msec
+;; SERVER: 10.2.0.1#53(10.2.0.1) (UDP)
+;; WHEN: Wed Mar 13 00:51:38 EDT 2024
+;; MSG SIZE  rcvd: 59
+```
