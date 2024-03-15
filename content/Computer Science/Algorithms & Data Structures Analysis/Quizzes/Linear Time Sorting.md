@@ -10,11 +10,14 @@
 > $\Theta$ indicates a tight bound where a function represents both the upper and lower bound
 
 > [!exercise]+ Exercise 2
-> It is claimed that a newly developed comparison-based sorting algorithm, BetaSort, has a worst-case complexity of Θ(n log log n). Which statement is true?
+> It is claimed that a newly developed comparison-based sorting algorithm, BetaSort, has a worst-case complexity of $\Theta(n \cdot \log{\log{n}})$. Which statement is true?
 > - It is optimized for specific cases but adheres to the worst-case upper bound.
-> - The claim violates the established lower bound and is likely incorrect.
+> - **The claim violates the established lower bound and is likely incorrect.**
 > - Such complexity is achievable for comparison-based sorts with optimizations.
 > - BetaSort utilizes a novel comparison technique that defies traditional bounds.
+> 
+> **Answer:**
+> The absolutely worst case comparison based has been proved to run in $\Theta(n \cdot \log{n})$ time. This algorithm is likely incorrect
 
 > [!exercise]+ Exercise 3
 > A new sorting algorithm, DeltaSort, claims a worst-case running time better than Ω(nlogn). What can be inferred about DeltaSort?
