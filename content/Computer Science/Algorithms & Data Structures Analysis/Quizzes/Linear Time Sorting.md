@@ -44,14 +44,17 @@
 > - **$O(n+k)$**
 > 
 > **Answer:**
-> When $k$
+> When $k$ is much bigger than $n$, we can say that it dominates $n$ and therefore should be accounted for in the complexity, When it's smaller, we can say it runs in $O(n)$ time.
 
 > [!exercise]+ Exercise 6
 > Which of the following is an inherent disadvantage of Counting Sort?
 > - It is not a stable sorting algorithm.
-> - It is impractical for sorting floating-point numbers.
+> - **It is impractical for sorting floating-point numbers.**
 > - It has a linear time complexity.
 > - It requires additional space proportional to the number of elements like Quick Sort.
+> 
+> **Answer:**
+> Is only able to sort countable elements. Floating point numbers cannot be counted. It does also require additional space, but this answer is wrong because it says 'like quicksort', but quicksort is in place.
 
 > [!exercise]+ Exercise 7
 > If Radix Sort is used to sort n 32-bit integers, how many passes will it make if the chosen base is 256?
