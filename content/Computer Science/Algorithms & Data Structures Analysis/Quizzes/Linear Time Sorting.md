@@ -24,11 +24,21 @@
 > - The claim violates the established lower bound and is likely incorrect.
 > - DeltaSort applies to all data types.
 > - DeltaSort has achieved a new theoretical breakthrough in comparison sorting.
-> - DeltaSort likely uses a non-comparison-based approach.
+> - **DeltaSort likely uses a non-comparison-based approach.**
+> 
+> **Answer:**
+> Since it's not stated that DeltaSort is explicity a comparison based sorting algorithm, it certainly is possible for it to be faster than the proven lower bound for a comparison based sorting algorithm. 
 
 > [!exercise]+ Exercise 4
 > Which of the following best describes Counting Sort?
-> - It is a non-comparison-based, stable sorting algorithm that is not in-place.
+> - **It is a non-comparison-based, stable sorting algorithm that is not in-place.**
+> - It has a time complexity of O(n^2) in the worst case.
+> - It consistently outperforms Radix Sort in efficiency for large data sets.
+> - It is a comparison-based sorting algorithm with stability.
+
+> [!exercise]+ Exercise 5
+> Which of the following best describes Counting Sort?
+> - **It is a non-comparison-based, stable sorting algorithm that is not in-place.**
 > - It has a time complexity of O(n^2) in the worst case.
 > - It consistently outperforms Radix Sort in efficiency for large data sets.
 > - It is a comparison-based sorting algorithm with stability.
