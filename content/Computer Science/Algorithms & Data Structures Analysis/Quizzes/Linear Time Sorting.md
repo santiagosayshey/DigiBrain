@@ -74,18 +74,21 @@ A 32-bit integer can be broken down into 4 groups of 8 bits, because $32÷8=4$
 > - It is about the same.
 > - It cannot be determined.
 > **Answer:**
-> Since we are applying counting sort in a recursive manner, we need additional sot
+> Since we are applying counting sort for each digit, we need additional storage for each sub call. This means it will be at least the size of counting sort, but is likely to be higher.
 
 > [!exercise]+ Exercise 9
 > Radix Sort can be implemented using Counting Sort as a subroutine. What aspect of counting sort makes it suitable for this?
 > - Its O(n) complexity.
 > - Its adaptability to different data types.
 > - Its inplace sorting capability.
-> - Its stability.
+> - **Its stability.**
+> 
+> **Answer:** 
+> Stability is important in radix sort because we sort by the smallest digits first. We need to be able to keep the order of the previous digit sorts when sorting the current digit.
 
 > [!exercise]+ Exercise 10
 > A dataset contains 5 million 32-bit integers. Radix Sort is used for sorting. Calculate the theoretical time complexity.
-> 1. Using a radix of 2^4 (base 16) to represent the numbers: Θ(______)
-> 2. Using a radix of 2^8 (base 256) to represent the numbers: Θ(______)
-> 3. Using a radix of 2^16 (base 65,536) to represent the numbers: Θ(______)
-> 4. Using Quicksort: Θ(______)
+> 1. Using a radix of $2^4$ (base 16) to represent the numbers: Θ(______)
+> 2. Using a radix of $2^8$ (base 256) to represent the numbers: Θ(______)
+> 3. Using a radix of $2^16$ (base 65,536) to represent the numbers: Θ(______)
+> 4. Using Quicksort: $\Theta$(______)
