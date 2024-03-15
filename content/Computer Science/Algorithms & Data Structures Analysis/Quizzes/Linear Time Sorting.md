@@ -37,11 +37,14 @@
 > - It is a comparison-based sorting algorithm with stability.
 
 > [!exercise]+ Exercise 5
-> Which of the following best describes Counting Sort?
-> - **It is a non-comparison-based, stable sorting algorithm that is not in-place.**
-> - It has a time complexity of O(n^2) in the worst case.
-> - It consistently outperforms Radix Sort in efficiency for large data sets.
-> - It is a comparison-based sorting algorithm with stability.
+> What is the worst-case time complexity of Counting Sort when the range of input values (k) is much larger than the number of elements (n)?
+> - $O(n \cdot \log{n})$
+> - $O(n)$
+> - $O(k)$
+> - **$O(n+k)$**
+> 
+> **Answer:**
+> When $k$
 
 > [!exercise]+ Exercise 6
 > Which of the following is an inherent disadvantage of Counting Sort?
