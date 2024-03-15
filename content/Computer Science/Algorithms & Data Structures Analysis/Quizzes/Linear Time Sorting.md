@@ -54,21 +54,27 @@
 > - It requires additional space proportional to the number of elements like Quick Sort.
 > 
 > **Answer:**
-> Is only able to sort countable elements. Floating point numbers cannot be counted. It does also require additional space, but this answer is wrong because it says 'like quicksort', but quicksort is in place.
+> Is only able to sort countable elements. Floating point numbers cannot be counted without an impractically large array to store the counts. It does also require additional space, but this answer is wrong because it says 'like quicksort', but quicksort is in place.
 
 > [!exercise]+ Exercise 7
 > If Radix Sort is used to sort n 32-bit integers, how many passes will it make if the chosen base is 256?
 > - 8
-> - 4
+> - **4**
 > - 32
 > - 16
+> 
+> **Answer:** Given that we are sorting 32-bit integers and the chosen base is 256, we need to determine how many 8-bit (since 256 is $2^8$) chunks fit into a 32-bit number.
+> 
+A 32-bit integer can be broken down into 4 groups of 8 bits, because $32÷8=4$
 
 > [!exercise]+ Exercise 8
 > How does the auxiliary space requirement in Radix Sort compare to other sorting algorithms like Quick Sort or Merge Sort?
-> - It is generally higher due to the need of additional arrays.
+> - **It is generally higher due to the need of additional arrays.**
 > - It is generally lower.
 > - It is about the same.
 > - It cannot be determined.
+> **Answer:**
+> Since we are applying counting sort in a recursive manner, we need additional sot
 
 > [!exercise]+ Exercise 9
 > Radix Sort can be implemented using Counting Sort as a subroutine. What aspect of counting sort makes it suitable for this?
