@@ -54,16 +54,16 @@
 > Use the techniques introduced in the workshop to complete the following table.
 > 
 
-| **Question**                                      | **Answer**                                |
-| ------------------------------------------------- | ----------------------------------------- |
-| dunstan.org.au resolves to:                       | 151.101.194.159                           |
-| Other domain names that resolve to the same       | (List a subset of other domain names that |
-| address                                           | resolve to the same IP address as above)  |
-| Owner of the IP address                           | (Organisation name according to whois)    |
-| The IP address range which the IP address belongs | (Netblock IP range according to whois)    |
-| The Autonomous System Number (ASN) that contain   | (ASN that contains the IP address range.  |
-| the IP address                                    | e.g., AS1234)                             |
-| Other netblocks registered under the same ASN     | (List of netblocks/ip address ranges)     |
+| **Question**                                                    | **Answer**                                                            |
+| --------------------------------------------------------------- | --------------------------------------------------------------------- |
+| dunstan.org.au resolves to:                                     | 151.101.194.159                                                       |
+| Other domain names that resolve to the same address             | pri.authdns.ripe.net. dns.ripe.net.                                   |
+| Owner of the IP address                                         | Fastly, Inc.                                                          |
+| The IP address range which the IP address belongs               | 151.101.0.0 - 151.101.255.255                                         |
+| The Autonomous System Number (ASN) that contains the IP address | **[AS54113](https://www.shodan.io/search?query=asn%3A%22AS54113%22)** |
+|                                                                 | e.g., AS1234)                                                         |
+| Other netblocks registered under the same ASN                   | (List of netblocks/ip address ranges)                                 |
+|                                                                 |                                                                       |
 
 ```shell
 └─$ dig dunstan.org.au
@@ -109,4 +109,73 @@ dunstan.org.au.         900     IN      A       151.101.194.159
 ;; SERVER: 10.2.0.1#53(10.2.0.1) (UDP)
 ;; WHEN: Wed Mar 13 00:55:42 EDT 2024
 ;; MSG SIZE  rcvd: 117
+```
+
+```shell
+└─$ whois 151.101.194.159
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2024, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       151.101.0.0 - 151.101.255.255
+CIDR:           151.101.0.0/16
+NetName:        SKYCA-3
+NetHandle:      NET-151-101-0-0-1
+Parent:         RIPE-ERX-151 (NET-151-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       
+Organization:   Fastly, Inc. (SKYCA-3)
+RegDate:        2016-02-01
+Updated:        2021-12-14
+Ref:            https://rdap.arin.net/registry/ip/151.101.0.0
+
+
+OrgName:        Fastly, Inc.
+OrgId:          SKYCA-3
+Address:        PO Box 78266
+City:           San Francisco
+StateProv:      CA
+PostalCode:     94107
+Country:        US
+RegDate:        2011-09-16
+Updated:        2022-11-16
+Ref:            https://rdap.arin.net/registry/entity/SKYCA-3
+
+
+OrgTechHandle: FRA19-ARIN
+OrgTechName:   Fastly RIR Administrator
+OrgTechPhone:  +1-415-404-9374 
+OrgTechEmail:  rir-admin@fastly.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/FRA19-ARIN
+
+OrgNOCHandle: FNO19-ARIN
+OrgNOCName:   Fastly Network Operations
+OrgNOCPhone:  +1-415-404-9374 
+OrgNOCEmail:  noc@fastly.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/FNO19-ARIN
+
+OrgAbuseHandle: ABUSE4771-ARIN
+OrgAbuseName:   Abuse Account
+OrgAbusePhone:  +1-415-496-9353 
+OrgAbuseEmail:  abuse@fastly.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE4771-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2024, American Registry for Internet Numbers, Ltd.
+#
 ```
