@@ -61,9 +61,8 @@
 | Owner of the IP address                                         | Fastly, Inc.                                                          |
 | The IP address range which the IP address belongs               | 151.101.0.0 - 151.101.255.255                                         |
 | The Autonomous System Number (ASN) that contains the IP address | **[AS54113](https://www.shodan.io/search?query=asn%3A%22AS54113%22)** |
-|                                                                 | e.g., AS1234)                                                         |
 | Other netblocks registered under the same ASN                   | (List of netblocks/ip address ranges)                                 |
-|                                                                 |                                                                       |
+
 
 ```shell
 └─$ dig dunstan.org.au
@@ -179,3 +178,5 @@ OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE4771-ARIN
 # Copyright 1997-2024, American Registry for Internet Numbers, Ltd.
 #
 ```
+
+![[Pasted image 20240317160148.png]]
