@@ -51,10 +51,12 @@
 > **Explanation:** This exercise demonstrates using the `whois_pocs` module in Recon-ng to find points of contact associated with the domain `x.com`. By setting the source to x.com and running the module, it retrieves contact information from WHOIS records, pinpointing finding related to the domain. The process identifies Robert Nordland, located in Carson, CA, as a contact.
 
 > [!exercise]+ Exercise 4
-> **dunstan.org.au resolves to:** 151.101.194.159
+> Use the techniques introduced in the workshop to complete the following table.
+> 
 
 | **Question**                                      | **Answer**                                |
 | ------------------------------------------------- | ----------------------------------------- |
+| dunstan.org.au resolves to:                       | 151.101.194.159                           |
 | Other domain names that resolve to the same       | (List a subset of other domain names that |
 | address                                           | resolve to the same IP address as above)  |
 | Owner of the IP address                           | (Organisation name according to whois)    |
