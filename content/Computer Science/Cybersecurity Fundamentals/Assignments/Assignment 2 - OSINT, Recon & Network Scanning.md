@@ -184,4 +184,24 @@ The Hacklab VM is running what’s known as a “port knocking” that opens a p
 >1. Connect to port 12345 using netcat to get the secret. 
 >2. Paste a screenshot showing the secret answer.      
 >3. Explain how you identified and retrieved the secret answer.
+>
+>**Answer:**
+>I used `knock` to try to connect to the 3 specified ports, then quickly used netcat to connect to port `12345`. I had the commands ready to be copy and pasted to make sure I could execute them quickly.
 
+```shell
+┌──(kali㉿kali)-[~]
+└─$ knock 192.168.56.113 2201 2211 2234
+
+└─$ nc 192.168.56.113 12345
+
+ _________________________________________
+/ csf2024s1_{coeternally-weathertight-dom \
+\ iciling}                                /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+                          
+```
