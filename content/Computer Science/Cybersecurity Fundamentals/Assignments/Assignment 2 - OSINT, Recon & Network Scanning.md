@@ -150,5 +150,27 @@
 > 
 > **Answer:**
 > 
-> Using `sudo nmap -Pn -sS -p 20000-60000 192.168.56.113`, we can identify the open port. 
+> Using `sudo nmap -p 20000-60000 -sS 192.168.56.113 -T5`, we can identify the open port (`-T5` because I can't be bothered waiting). We find that the desired port is **21245**
+```shell
+└─$ sudo nmap -p 20000-60000 -sS 192.168.56.113 -T5
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-20 12:01 EDT
+Nmap scan report for 192.168.56.113
+Host is up (0.0020s latency).
+Not shown: 39999 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+20245/tcp closed unknown
+21245/tcp open   unknown
+MAC Address: 08:00:27:67:09:48 (Oracle VirtualBox virtual NIC)
+Nmap done: 1 IP address (1 host up) scanned in 170.97 seconds
+└─$ nc 192.168.56.113 21245
+ _________________________________________
+/ csf2024s1_{adaptably-wesleyan-didelphia \
+\ }                                       /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+> ```
 
