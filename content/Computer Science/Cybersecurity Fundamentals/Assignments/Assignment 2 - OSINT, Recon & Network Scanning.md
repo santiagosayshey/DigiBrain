@@ -144,11 +144,11 @@
 
 > [!exercise]+ Exercise 9
 > There is a network service running on the Hacklab VM behind a port somewhere between 20000 and 60000.
-> 1. Identify the port number and connect to it using `netcat` (“nc`”` or “`netcat`” command) to retrieve the secret.
+> 1. Identify the port number and connect to it using `netcat` (“`nc`” or “`netcat`” command) to retrieve the secret.
 > 2. Paste a screenshot showing the secret answer.
 > 3. Explain how you identified and retrieved the secret answer.
 > 
 > **Answer:**
 > 
-> Using ``
+> Using `sudo nmap -Pn -sS -p 20000-60000 192.168.56.113`, we can identify the open port. 
 
