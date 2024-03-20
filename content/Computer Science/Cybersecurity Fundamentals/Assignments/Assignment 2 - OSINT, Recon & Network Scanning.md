@@ -141,8 +141,7 @@
 >
 >![[Pasted image 20240321020056.png]]
 
-
-> [!exercise]+ Exercise 9
+> [!exercise]+ Exercise 8
 > There is a network service running on the Hacklab VM behind a port somewhere between 20000 and 60000.
 > 1. Identify the port number and connect to it using `netcat` (“`nc`” or “`netcat`” command) to retrieve the secret.
 > 2. Paste a screenshot showing the secret answer.
@@ -150,27 +149,39 @@
 > 
 > **Answer:**
 > 
-> Using `sudo nmap -p 20000-60000 -sS 192.168.56.113 -T5`, we can identify the open port (`-T5` because I can't be bothered waiting). We find that the desired port is **21245**
-```shell
-└─$ sudo nmap -p 20000-60000 -sS 192.168.56.113 -T5
-Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-20 12:01 EDT
-Nmap scan report for 192.168.56.113
-Host is up (0.0020s latency).
-Not shown: 39999 filtered tcp ports (no-response)
-PORT      STATE  SERVICE
-20245/tcp closed unknown
-21245/tcp open   unknown
-MAC Address: 08:00:27:67:09:48 (Oracle VirtualBox virtual NIC)
-Nmap done: 1 IP address (1 host up) scanned in 170.97 seconds
-└─$ nc 192.168.56.113 21245
- _________________________________________
-/ csf2024s1_{adaptably-wesleyan-didelphia \
-\ }                                       /
- -----------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+> Using `sudo nmap -p 20000-60000 -sS 192.168.56.113 -T5`, we can identify the open port (`-T5` because I can't be bothered waiting). We find that the desired port is **21245**.
+> ```shell
+> └─$ sudo nmap -p 20000-60000 -sS 192.168.56.113 -T5
+> Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-20 12:01 EDT
+> 
+> Nmap scan report for 192.168.56.113
+> Host is up (0.0020s latency).
+> Not shown: 39999 filtered tcp ports (no-response)
+> 
+> PORT      STATE  SERVICE
+> 20245/tcp closed unknown
+> 21245/tcp open   unknown
+> 
+> MAC Address: 08:00:27:67:09:48 (Oracle VirtualBox virtual NIC)
+> Nmap done: 1 IP address (1 host up) scanned in 170.97 seconds
+> 
+> └─$ nc 192.168.56.113 21245
+>  _________________________________________
+> / csf2024s1_{adaptably-wesleyan-didelphia \
+> \ }                                       /
+>  -----------------------------------------
+>         \   ^__^
+>          \  (oo)\_______
+>             (__)\       )\/\
+>                 ||----w |
+>                 ||     ||
 > ```
+
+
+
+> [!exercise]+ Exercise 9
+The Hacklab VM is running what’s known as a “port knocking” that opens a previously closed port 12345 for a limited time if you send a series of SYN packets to these 3 ports: 2201, 2211, 2234 (be careful, there is a timeout of 15 seconds, so you may have to write a simple script).    
+>1. Connect to port 12345 using netcat to get the secret. 
+>2. Paste a screenshot showing the secret answer.      
+>3. Explain how you identified and retrieved the secret answer.
 
