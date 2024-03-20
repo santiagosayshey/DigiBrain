@@ -8,7 +8,6 @@
 >   
 > ![[Pasted image 20240313083552.png]]
 
-
 > [!exercise]+ Exercise 2
 > Google dorks are good at finding vulnerabilities in websites. Do a quick research for the cross-site scripting (XSS) vulnerability in a product called Calcium by Brown Bear Software (you will learn about XSS in subsequent modules). What google search would you perform to find websites running Calcium? Perform the search, and paste a screenshot of the results.
 > 
@@ -22,7 +21,6 @@
 > We can search for sites that use calcium by including `inurl:Calcium40.pl` in the search.
 > 
 > ![[Pasted image 20240321000359.png]]
-
 
 > [!exercise]+ Exercise 3
 > Use the `whois_pocs` module in recon-ng to list some contacts for x.com. Who is located in Carson, CA?}
@@ -53,15 +51,16 @@
 > [!exercise]+ Exercise 4
 > Use the techniques introduced in the workshop to complete the following table.
 > 
+> | **Question**                                                    | **Answer**                                                                                                                                   |
+> | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+> | dunstan.org.au resolves to:                                     | Using `dig dunstan.org.au` we find that the domain name resolves to the IP address: **151.101.194.159**                                      |
+> | Other domain names that resolve to the same address             | Using `dig -x 151.101.194.159` we find that the domain name resolves to the following addresses: **pri.authdns.ripe.net. and dns.ripe.net.** |
+> | Owner of the IP address                                         | Using `whois 151.101.194.159`, we find that the owner of the IP address is **Fastly, Inc.**                                                  |
+> | The IP address range which the IP address belongs               | The previous command `whois 151.101.194.159 ` also shows the range of IP addresses: **151.101.0.0 - 151.101.255.255**                        |
+> | The Autonomous System Number (ASN) that contains the IP address | Searching for `151.101.194.159` on `shodan.io` reveals that the ASN is: **AS54113**<br><br>![[Pasted image 20240320235132.png]]              |
+> | Other netblocks registered under the same ASN                   | Searching for `AS54113` on `https://ipinfo.io/AS54113`, we find the following netblocks:<br><br>![[Pasted image 20240321000552.png]]         |
 
-| **Question**                                                    | **Answer**                                                                                                                                   |
-| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| dunstan.org.au resolves to:                                     | Using `dig dunstan.org.au` we find that the domain name resolves to the IP address: **151.101.194.159**                                      |
-| Other domain names that resolve to the same address             | Using `dig -x 151.101.194.159` we find that the domain name resolves to the following addresses: **pri.authdns.ripe.net. and dns.ripe.net.** |
-| Owner of the IP address                                         | Using `whois 151.101.194.159`, we find that the owner of the IP address is **Fastly, Inc.**                                                  |
-| The IP address range which the IP address belongs               | The previous command `whois 151.101.194.159 ` also shows the range of IP addresses: **151.101.0.0 - 151.101.255.255**                        |
-| The Autonomous System Number (ASN) that contains the IP address | Searching for `151.101.194.159` on `shodan.io` reveals that the ASN is: **AS54113**<br><br>![[Pasted image 20240320235132.png]]              |
-| Other netblocks registered under the same ASN                   | (List of netblocks/ip address ranges)                                                                                                        |
 
+> [!exercise]+ Exercise 5
+> Contents
 
-![[Pasted image 20240317160148.png]]
