@@ -13,7 +13,7 @@
 > Google dorks are good at finding vulnerabilities in websites. Do a quick research for the cross-site scripting (XSS) vulnerability in a product called Calcium by Brown Bear Software (you will learn about XSS in subsequent modules). What google search would you perform to find websites running Calcium? Perform the search, and paste a screenshot of the results.
 > 
 > **Answer:**
-> A Google search for `calcium xss` returns this page on [exploit-db](https://www.exploit-db.com/exploits/31858) as the first result. The page reveals that Calcium is prone to cross script scripting because the `CalenderName` inside the URL is not properly sanitised. 
+> A Google search for `site:www.exploit-db.com calcium xss` returns this page on [exploit-db](https://www.exploit-db.com/exploits/31858) as the first result. The page reveals that Calcium is prone to cross script scripting because the `CalenderName` inside the URL is not properly sanitised. 
 > 
 > i.e. `http://www.example.com/cgi-bin/Calcium40.pl?Op=ShowIt&CalendarName=[xss]`
 > 
@@ -59,77 +59,9 @@
 | dunstan.org.au resolves to:                                     | Using `dig dunstan.org.au` we find that the domain name resolves to the IP address: **151.101.194.159**                                      |
 | Other domain names that resolve to the same address             | Using `dig -x 151.101.194.159` we find that the domain name resolves to the following addresses: **pri.authdns.ripe.net. and dns.ripe.net.** |
 | Owner of the IP address                                         | Using `whois 151.101.194.159`, we find that the owner of the IP address is **Fastly, Inc.**                                                  |
-| The IP address range which the IP address belongs               | The previous command `whois 151.101.194.159 ` also shows the range of IP addresses: 151.101.0.0 - 151.101.255.255                            |
-| The Autonomous System Number (ASN) that contains the IP address | **[AS54113](https://www.shodan.io/search?query=asn%3A%22AS54113%22)**                                                                        |
+| The IP address range which the IP address belongs               | The previous command `whois 151.101.194.159 ` also shows the range of IP addresses: **151.101.0.0 - 151.101.255.255**                        |
+| The Autonomous System Number (ASN) that contains the IP address | Searching for `151.101.194.159` on `shodan.io` reveals that the ASN is: **AS54113**<br><br>![[Pasted image 20240320235132.png]]              |
 | Other netblocks registered under the same ASN                   | (List of netblocks/ip address ranges)                                                                                                        |
 
-```shell
-└─$ whois 151.101.194.159
-
-#
-# ARIN WHOIS data and services are subject to the Terms of Use
-# available at: https://www.arin.net/resources/registry/whois/tou/
-#
-# If you see inaccuracies in the results, please report at
-# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
-#
-# Copyright 1997-2024, American Registry for Internet Numbers, Ltd.
-#
-
-
-NetRange:       151.101.0.0 - 151.101.255.255
-CIDR:           151.101.0.0/16
-NetName:        SKYCA-3
-NetHandle:      NET-151-101-0-0-1
-Parent:         RIPE-ERX-151 (NET-151-0-0-0-0)
-NetType:        Direct Allocation
-OriginAS:       
-Organization:   Fastly, Inc. (SKYCA-3)
-RegDate:        2016-02-01
-Updated:        2021-12-14
-Ref:            https://rdap.arin.net/registry/ip/151.101.0.0
-
-
-OrgName:        Fastly, Inc.
-OrgId:          SKYCA-3
-Address:        PO Box 78266
-City:           San Francisco
-StateProv:      CA
-PostalCode:     94107
-Country:        US
-RegDate:        2011-09-16
-Updated:        2022-11-16
-Ref:            https://rdap.arin.net/registry/entity/SKYCA-3
-
-
-OrgTechHandle: FRA19-ARIN
-OrgTechName:   Fastly RIR Administrator
-OrgTechPhone:  +1-415-404-9374 
-OrgTechEmail:  rir-admin@fastly.com
-OrgTechRef:    https://rdap.arin.net/registry/entity/FRA19-ARIN
-
-OrgNOCHandle: FNO19-ARIN
-OrgNOCName:   Fastly Network Operations
-OrgNOCPhone:  +1-415-404-9374 
-OrgNOCEmail:  noc@fastly.com
-OrgNOCRef:    https://rdap.arin.net/registry/entity/FNO19-ARIN
-
-OrgAbuseHandle: ABUSE4771-ARIN
-OrgAbuseName:   Abuse Account
-OrgAbusePhone:  +1-415-496-9353 
-OrgAbuseEmail:  abuse@fastly.com
-OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE4771-ARIN
-
-
-#
-# ARIN WHOIS data and services are subject to the Terms of Use
-# available at: https://www.arin.net/resources/registry/whois/tou/
-#
-# If you see inaccuracies in the results, please report at
-# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
-#
-# Copyright 1997-2024, American Registry for Internet Numbers, Ltd.
-#
-```
 
 ![[Pasted image 20240317160148.png]]
