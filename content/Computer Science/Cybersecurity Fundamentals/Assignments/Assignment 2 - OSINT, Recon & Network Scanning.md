@@ -54,61 +54,14 @@
 > Use the techniques introduced in the workshop to complete the following table.
 > 
 
-| **Question**                                                    | **Answer**                                                            |
-| --------------------------------------------------------------- | --------------------------------------------------------------------- |
-| dunstan.org.au resolves to:                                     | 151.101.194.159                                                       |
-| Other domain names that resolve to the same address             | pri.authdns.ripe.net. dns.ripe.net.                                   |
-| Owner of the IP address                                         | Fastly, Inc.                                                          |
-| The IP address range which the IP address belongs               | 151.101.0.0 - 151.101.255.255                                         |
-| The Autonomous System Number (ASN) that contains the IP address | **[AS54113](https://www.shodan.io/search?query=asn%3A%22AS54113%22)** |
-| Other netblocks registered under the same ASN                   | (List of netblocks/ip address ranges)                                 |
-
-
-```shell
-└─$ dig dunstan.org.au
-
-; <<>> DiG 9.19.19-1-Debian <<>> dunstan.org.au
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39852
-;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;dunstan.org.au.                        IN      A
-
-;; ANSWER SECTION:
-dunstan.org.au.         900     IN      A       151.101.194.159
-
-;; Query time: 407 msec
-;; SERVER: 10.2.0.1#53(10.2.0.1) (UDP)
-;; WHEN: Wed Mar 13 00:51:38 EDT 2024
-;; MSG SIZE  rcvd: 59
-```
-
-```shell
-└─$ dig -x 151.101.194.159 
-
-; <<>> DiG 9.19.19-1-Debian <<>> -x 151.101.194.159
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33930
-;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;159.194.101.151.in-addr.arpa.  IN      PTR
-
-;; AUTHORITY SECTION:
-151.in-addr.arpa.       3600    IN      SOA     pri.authdns.ripe.net. dns.ripe.net. 1710244132 3600 600 864000 3600
-
-;; Query time: 819 msec
-;; SERVER: 10.2.0.1#53(10.2.0.1) (UDP)
-;; WHEN: Wed Mar 13 00:55:42 EDT 2024
-;; MSG SIZE  rcvd: 117
-```
+| **Question**                                                    | **Answer**                                                                                                                                   |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| dunstan.org.au resolves to:                                     | Using `dig dunstan.org.au` we find that the domain name resolves to the IP address: **151.101.194.159**                                      |
+| Other domain names that resolve to the same address             | Using `dig -x 151.101.194.159` we find that the domain name resolves to the following addresses: **pri.authdns.ripe.net. and dns.ripe.net.** |
+| Owner of the IP address                                         | Using `whois 151.101.194.159`, we find that the owner of the IP address is **Fastly, Inc.**                                                  |
+| The IP address range which the IP address belongs               | The previous command `whois 151.101.194.159 ` also shows the range of IP addresses: 151.101.0.0 - 151.101.255.255                            |
+| The Autonomous System Number (ASN) that contains the IP address | **[AS54113](https://www.shodan.io/search?query=asn%3A%22AS54113%22)**                                                                        |
+| Other netblocks registered under the same ASN                   | (List of netblocks/ip address ranges)                                                                                                        |
 
 ```shell
 └─$ whois 151.101.194.159
