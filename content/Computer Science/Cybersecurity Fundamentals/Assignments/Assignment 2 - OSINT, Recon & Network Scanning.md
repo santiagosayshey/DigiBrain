@@ -73,7 +73,7 @@
 | Choose the **most recent** vulnerability from above, and find the **CVSS2.0 string** for it by looking it up on nvd.nist.gov. | Searching for the vulnerability on nvd.gist.gov shows that no information exists v2, but does for v3.<br><br>![[Pasted image 20240321011624.png]]<br><br>![[Pasted image 20240321011632.png]]<br>                                                                                                                                                                                 |
 
 > [!exercise]+ Exercise 6
-> Write a simple DNS brute-force script in your language of choice to enumerate hostnames under a given domain and an input dictionary. Run the code against **adelaide.edu.au** using [this dictionary file](https://myuni.adelaide.edu.au/courses/95262/files/14689596?wrap=1 "dnsmap-2.zip") [](https://myuni.adelaide.edu.au/courses/95262/files/14689596/download?download_frd=1) [Download this dictionary file](https://myuni.adelaide.edu.au/courses/95262/files/14689596/download?download_frd=1)  (this file contains the entire 3-character permutations - please unzip before use). _**Running the whole list will take a long time, so you can stop after a few minutes.**_ Paste some preliminary results.
+> Write a simple DNS brute-force script in your language of choice to enumerate hostnames under a given domain and an input dictionary. Run the code against **adelaide.edu.au** using [this dictionary file](https://myuni.adelaide.edu.au/courses/95262/files/14689596?wrap=1 "dnsmap-2.zip") (this file contains the entire 3-character permutations - please unzip before use). _**Running the whole list will take a long time, so you can stop after a few minutes.**_ Paste some preliminary results.
 > 
 > Here is a sample code for Python3:  
 > ```python
