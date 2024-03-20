@@ -70,7 +70,6 @@
 > | According to Shodan, what are some of the vulnerabilities in one of the versions of the OpenSSH servers?                      | Clicking on version 7.4 and the first result: https://www.shodan.io/host/168.224.206.40 shows the following vulnerabilities (not all shown):<br><br>![[Pasted image 20240321010242.png]]                                                                                                                                                                                          |
 > | Choose the **most recent** vulnerability from above, and find the **CVSS2.0 string** for it by looking it up on nvd.nist.gov. | Searching for the vulnerability on nvd.gist.gov shows that no information exists v2, but does for v3.<br><br>![[Pasted image 20240321011624.png]]<br><br>![[Pasted image 20240321011632.png]]<br>                                                                                                                                                                                 |
 
-
 > [!exercise]+ Exercise 6
 > Write a simple DNS brute-force script in your language of choice to enumerate hostnames under a given domain and an input dictionary. Run the code against **adelaide.edu.au** using [this dictionary file](https://myuni.adelaide.edu.au/courses/95262/files/14689596?wrap=1 "dnsmap-2.zip") (this file contains the entire 3-character permutations - please unzip before use). _**Running the whole list will take a long time, so you can stop after a few minutes.**_ Paste some preliminary results.
 > 
@@ -132,3 +131,8 @@
 > ns.adelaide.edu.au resolves to 129.127.40.3
 > ...
 > ```
+
+
+> [!exercise]+ Exercise 7
+> Use the Wayback Machine to find out how Access Adelaide (access.adelaide.edu.au) looked like in 2009. How does it look compared to the current Access Adelaide web page?
+
