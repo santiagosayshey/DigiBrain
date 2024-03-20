@@ -72,6 +72,7 @@
 | According to Shodan, what are some of the vulnerabilities in one of the versions of the OpenSSH servers?                      | Clicking on version 7.4 and the first result: https://www.shodan.io/host/168.224.206.40 shows the following vulnerabilities (not all shown):<br><br>![[Pasted image 20240321010242.png]]                                                                                                                                                                                          |
 | Choose the **most recent** vulnerability from above, and find the **CVSS2.0 string** for it by looking it up on nvd.nist.gov. | Searching for the vulnerability on nvd.gist.gov shows that no information exists v2, but does for v3.<br><br>![[Pasted image 20240321011624.png]]<br><br>![[Pasted image 20240321011632.png]]<br>                                                                                                                                                                                 |
 
+
 > [!exercise]+ Exercise 6
 > Write a simple DNS brute-force script in your language of choice to enumerate hostnames under a given domain and an input dictionary. Run the code against **adelaide.edu.au** using [this dictionary file](https://myuni.adelaide.edu.au/courses/95262/files/14689596?wrap=1 "dnsmap-2.zip") (this file contains the entire 3-character permutations - please unzip before use). _**Running the whole list will take a long time, so you can stop after a few minutes.**_ Paste some preliminary results.
 > 
@@ -87,32 +88,49 @@
 > except:  
 >     pass # ignore error
 > ```
-
-**Answer:**
-```python
-#!/usr/bin/env python3
-import sys
-import socket
-
-# Set default socket timeout
-socket.setdefaulttimeout(0.1)
-
-base_domain = "adelaide.edu.au"
-dictionary_path = "dnsmap.txt"
-
-def dns_brute_force(domain, dict_path):
-    with open(dict_path, 'r') as file:
-        for line in file:
-            subdomain = line.strip()
-            fqdn = f"{subdomain}.{domain}"  # Fully Qualified Domain Name
-            try:
-                ip = socket.gethostbyname(fqdn)
-                print(f"{fqdn} resolves to {ip}")
-            except socket.gaierror:
-                pass  # Ignore error, subdomain doesn't resolve
-
-# Run the brute force
-dns_brute_force(base_domain, dictionary_path)
-```
-
-
+> 
+> **Answer:**
+> 
+> I adjusted the existing script by specifying a dictionary file, `dnsmap.txt`, and targeting the `adelaide.edu.au` domain for DNS brute-forcing. The script reads through each line of the dictionary, attempting to resolve each subdomain against the specified domain. If a resolution is successful, it prints out the fully qualified domain name along with its IP address.
+> 
+> ```python
+> #!/usr/bin/env python3
+> import sys
+> import socket
+> 
+> socket.setdefaulttimeout(0.1)
+> 
+> base_domain = "adelaide.edu.au"
+> dictionary_path = "dnsmap.txt"
+> 
+> def dns_brute_force(domain, dict_path):
+>     with open(dict_path, 'r') as file:
+>         for line in file:
+>             subdomain = line.strip()
+>             fqdn = f"{subdomain}.{domain}"  # Fully Qualified Domain Name
+>             try:
+>                 ip = socket.gethostbyname(fqdn)
+>                 print(f"{fqdn} resolves to {ip}")
+>             except socket.gaierror:
+>                 pass  # Ignore error, subdomain doesn't resolve
+> 
+> # Run the brute force
+> dns_brute_force(base_domain, dictionary_path)
+> ```
+> 
+> **Results: (after a few minutes)**
+> 
+> ```shell
+> samchau@SamPC:~/assignment2$ python3 dns.py
+> m.adelaide.edu.au resolves to 129.127.149.1
+> av.adelaide.edu.au resolves to 129.127.95.145
+> cp.adelaide.edu.au resolves to 129.127.149.31
+> cs.adelaide.edu.au resolves to 129.127.149.1
+> gg.adelaide.edu.au resolves to 129.127.144.5
+> gp.adelaide.edu.au resolves to 192.43.227.193
+> id.adelaide.edu.au resolves to 35.71.156.117
+> ks.adelaide.edu.au resolves to 129.127.43.66
+> mw.adelaide.edu.au resolves to 129.127.144.69
+> ns.adelaide.edu.au resolves to 129.127.40.3
+> ...
+> ```
