@@ -141,3 +141,14 @@
 >
 >![[Pasted image 20240321020056.png]]
 
+
+> [!exercise]+ Exercise 9
+> There is a network service running on the Hacklab VM behind a port somewhere between 20000 and 60000.
+> 1. Identify the port number and connect to it using `netcat` (“nc`”` or “`netcat`” command) to retrieve the secret.
+> 2. Paste a screenshot showing the secret answer.
+> 3. Explain how you identified and retrieved the secret answer.
+> 
+> **Answer:**
+> 
+> Using ``
+
