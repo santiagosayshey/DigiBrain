@@ -64,3 +64,7 @@
 > [!exercise]+ Exercise 5
 > Contents
 
+
+| **Question**                                 | **Answer**                                                                                                                                                                                                                                                                                                                          |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What web server(s) are used by this company? | We can use the `org` modifier to narrow down results to Pfizer. Since web servers use ports `80 and 443` for HTTP and HTTPS respectively, we can add this to our search as well:<br><br>`org:"Pfizer" port:80,443` <br><br>This shows that the majority of web servers used by Pfizer are`nginx, Apache and Microsoft IIS`.<br><br> |
