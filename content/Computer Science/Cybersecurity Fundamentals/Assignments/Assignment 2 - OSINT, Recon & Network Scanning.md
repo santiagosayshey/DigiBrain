@@ -88,3 +88,31 @@
 >     pass # ignore error
 > ```
 
+**Answer:**
+```python
+#!/usr/bin/env python3
+import sys
+import socket
+
+# Set default socket timeout
+socket.setdefaulttimeout(0.1)
+
+base_domain = "adelaide.edu.au"
+dictionary_path = "dnsmap.txt"
+
+def dns_brute_force(domain, dict_path):
+    with open(dict_path, 'r') as file:
+        for line in file:
+            subdomain = line.strip()
+            fqdn = f"{subdomain}.{domain}"  # Fully Qualified Domain Name
+            try:
+                ip = socket.gethostbyname(fqdn)
+                print(f"{fqdn} resolves to {ip}")
+            except socket.gaierror:
+                pass  # Ignore error, subdomain doesn't resolve
+
+# Run the brute force
+dns_brute_force(base_domain, dictionary_path)
+```
+
+
