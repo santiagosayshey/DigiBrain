@@ -19,9 +19,9 @@
 > 
 > ![[Pasted image 20240313085227.png]]
 > 
-> We can search for sites that use calcium by including `inurl: Calcium40.pl` in the search.
+> We can search for sites that use calcium by including `inurl:Calcium40.pl` in the search.
 > 
-> ![[Pasted image 20240313085633.png]]
+> ![[Pasted image 20240321000359.png]]
 
 
 > [!exercise]+ Exercise 3
@@ -48,7 +48,7 @@
 > [*] Title: Whois contact
 > ```
 >
-> **Explanation:** This exercise demonstrates using the `whois_pocs` module in Recon-ng to find points of contact associated with the domain `x.com`. By setting the source to x.com and running the module, it retrieves contact information from WHOIS records, pinpointing finding related to the domain. The process identifies Robert Nordland, located in Carson, CA, as a contact.
+> **Explanation:** Using the `whois_pocs` module in Recon-ng I was able to find points of contact associated with the domain `x.com`. By setting the source to x.com and running the module, it retrieves contact information from WHOIS records, finding information related to the domain. The process identifies **Robert Nordland**, located in Carson, CA, as a contact.
 
 > [!exercise]+ Exercise 4
 > Use the techniques introduced in the workshop to complete the following table.
