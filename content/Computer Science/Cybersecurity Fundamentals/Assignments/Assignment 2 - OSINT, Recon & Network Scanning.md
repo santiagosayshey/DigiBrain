@@ -1,4 +1,4 @@
-
+###### Exercise 1
 > [!exercise]+ Exercise 1
 > Search on the University of Adelaide domain for a PDF document containing the word "crucifixion" **in the title** of the document. (a) What is the Google search syntax and (b) who is the author of the PDF file?
 > 
@@ -7,6 +7,9 @@
 > - Author: Felicity Harley
 >   
 > ![[Pasted image 20240313083552.png]]
+
+<div style="page-break-after: always;"></div>
+###### Exercise 2
 
 > [!exercise]+ Exercise 2
 > Google dorks are good at finding vulnerabilities in websites. Do a quick research for the cross-site scripting (XSS) vulnerability in a product called Calcium by Brown Bear Software (you will learn about XSS in subsequent modules). What google search would you perform to find websites running Calcium? Perform the search, and paste a screenshot of the results.
@@ -22,6 +25,9 @@
 > 
 > ![[Pasted image 20240321000359.png]]
 
+<div style="page-break-after: always;"></div>
+
+###### Exercise 3
 > [!exercise]+ Exercise 3
 > Use the `whois_pocs` module in recon-ng to list some contacts for x.com. Who is located in Carson, CA?}
 > 
@@ -48,6 +54,9 @@
 >
 > **Explanation:** Using the `whois_pocs` module in Recon-ng I was able to find points of contact associated with the domain `x.com`. By setting the source to x.com and running the module, it retrieves contact information from WHOIS records, finding information related to the domain. The process identifies **Robert Nordland**, located in Carson, CA, as a contact.
 
+<div style="page-break-after: always;"></div>
+
+###### Exercise 4
 > [!exercise]+ Exercise 4
 > Use the techniques introduced in the workshop to complete the following table.
 > 
@@ -60,6 +69,8 @@
 > | The Autonomous System Number (ASN) that contains the IP address | Searching for `151.101.194.159` on `shodan.io` reveals that the ASN is: **AS54113**<br><br>![[Pasted image 20240320235132.png]]              |
 > | Other netblocks registered under the same ASN                   | Searching for `AS54113` on `https://ipinfo.io/AS54113`, we find the following netblocks:<br><br>![[Pasted image 20240321000552.png]]         |
 
+<div style="page-break-after: always;"></div>
+###### Exercise 5
 > [!exercise]+ Exercise 5
 > Create a free account on shodan.io ([https://shodan.io](https://shodan.io)). You will be entitled to an academic upgrade if you register using your @student.adelaide.edu.au or @adelaide.edu.au account. Learn a bit about the Shodan search modifiers, similar to the Google ones (e.g., see [here](https://thor-sec.com/cheatsheet/shodan/shodan_cheat_sheet/) ) . Search for information on hosts under the company "Pfizer" and answer the following questions. Start with the "org:" modifier.
 >
@@ -70,6 +81,8 @@
 > | According to Shodan, what are some of the vulnerabilities in one of the versions of the OpenSSH servers?                      | Clicking on version 7.4 and the first result: https://www.shodan.io/host/168.224.206.40 shows the following vulnerabilities (not all shown):<br><br>![[Pasted image 20240321010242.png]]                                                                                                                                                                                          |
 > | Choose the **most recent** vulnerability from above, and find the **CVSS2.0 string** for it by looking it up on nvd.nist.gov. | Searching for the vulnerability on nvd.gist.gov shows that no information exists v2, but does for v3.<br><br>![[Pasted image 20240321011624.png]]<br><br>![[Pasted image 20240321011632.png]]<br>                                                                                                                                                                                 |
 
+<div style="page-break-after: always;"></div>
+###### Exercise 6
 > [!exercise]+ Exercise 6
 > Write a simple DNS brute-force script in your language of choice to enumerate hostnames under a given domain and an input dictionary. Run the code against **adelaide.edu.au** using [this dictionary file](https://myuni.adelaide.edu.au/courses/95262/files/14689596?wrap=1 "dnsmap-2.zip") (this file contains the entire 3-character permutations - please unzip before use). _**Running the whole list will take a long time, so you can stop after a few minutes.**_ Paste some preliminary results.
 > 
@@ -132,6 +145,8 @@
 > ...
 > ```
 
+<div style="page-break-after: always;"></div>
+###### Exercise 7
 > [!exercise]+ Exercise 7
 > Use the Wayback Machine to find out how Access Adelaide (access.adelaide.edu.au) looked like in 2009. How does it look compared to the current Access Adelaide web page?
 > 
@@ -141,6 +156,8 @@
 >
 >![[Pasted image 20240321020056.png]]
 
+<div style="page-break-after: always;"></div>
+###### Exercise 8
 > [!exercise]+ Exercise 8
 > There is a network service running on the Hacklab VM behind a port somewhere between 20000 and 60000.
 > 1. Identify the port number and connect to it using `netcat` (“`nc`” or “`netcat`” command) to retrieve the secret.
@@ -177,6 +194,8 @@
 >                 ||     ||
 > ```
 
+<div style="page-break-after: always;"></div>
+###### Exercise 9
 > [!exercise]+ Exercise 9
 > The Hacklab VM is running what’s known as a “port knocking” that opens a previously closed port 12345 for a limited time if you send a series of SYN packets to these 3 ports: 2201, 2211, 2234 (be careful, there is a timeout of 15 seconds, so you may have to write a simple script).    
 > 1. Connect to port 12345 using netcat to get the secret. 
