@@ -132,12 +132,12 @@
 > ...
 > ```
 
-
 > [!exercise]+ Exercise 7
 > Use the Wayback Machine to find out how Access Adelaide (access.adelaide.edu.au) looked like in 2009. How does it look compared to the current Access Adelaide web page?
 > 
 >**Answer:**
 >
->On the Wayback Machine site, I searched for `access.adelaide.edu.au` and clicked on a date from 2009. The site looks identical to how looks today (perhaps its time for a re)
+>On the Wayback Machine site, I searched for `access.adelaide.edu.au` and clicked on a date from 2009. The site looks identical to how looks today (perhaps its time for a refresh?)
+>
 >![[Pasted image 20240321020056.png]]
 
