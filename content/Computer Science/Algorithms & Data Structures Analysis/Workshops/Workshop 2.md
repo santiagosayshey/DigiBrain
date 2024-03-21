@@ -55,3 +55,9 @@ function betterSign(int i) {
 > What happens when `badSign` is incorrect 49% of the time? What happens when `badSign` is incorrect 51% of the time?
 
 49% of the time. We need a larger dataset. We need to call it over and over to find a cleaner average. Same goes for 51%, except we negate the result.
+
+![[Pasted image 20240321153821.jpg]]
+
+![[Pasted image 20240321153852.jpg]]
+
+![[Pasted image 20240321153909.jpg]]
