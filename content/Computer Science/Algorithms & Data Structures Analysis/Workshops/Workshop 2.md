@@ -1,13 +1,25 @@
 Recall [[Proof by Induction]]:
 
 > [!exercise]+ Exercise 1 - Prove $n^3 +2n$ is divisible by 3 using mathematical induction.
-> ![[Pasted image 20240311154300.png]]
+> ![[Pasted image 20240321153821.jpg]]
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 2
 
 > [!exercise]+ Exercise 2 - Prove the sum of the first $n$ positive integers is equal to $\frac{n(n+1)}{2}$ using mathematical induction.
 > 
-> ![[Pasted image 20240311160232.png]]
+> ![[Pasted image 20240321153852.jpg]]
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 3
 
 > [!exercise]+ Exercise 3- Let $F(n)$ be the $n'th$ Fibonacci number. We have that $F(1) = F(2) = 1$ and $F(n)=F(n-1)+F(n-2)$. Find a value $a$ so that $F(n) \in O(a^n)$. We want $a$ to be as small as possible.
+> 
+> ![[Pasted image 20240321153909.jpg]]
+
+<div style="page-break-after: always;"></div>
 
 Recall [[Randomised Algorithms]]:
 
@@ -56,8 +68,7 @@ function betterSign(int i) {
 
 49% of the time. We need a larger dataset. We need to call it over and over to find a cleaner average. Same goes for 51%, except we negate the result.
 
-![[Pasted image 20240321153821.jpg]]
 
-![[Pasted image 20240321153852.jpg]]
 
-![[Pasted image 20240321153909.jpg]]
+
+
