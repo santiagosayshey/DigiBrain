@@ -1,4 +1,4 @@
-This workshop uses notes on [[1.2 Network Delays]], [[2.1 HTTP]], [[2.2 Caching]], [[3.1 DNS]] and [[3.2 P2P]]. Review those for more details.
+This workshop uses notes on [[1.2 Network Delays]], [[2.2 HTTP]], [[2.3 Caching]], [[3.1 DNS]] and [[3.2 P2P]]. Review those for more details.
 
 > [!exercise]+ Exercise 1 - Latency Through a Network
 > Consider a packet flowing through the Internet over 2 hops (source -> router1 -> destination). Assume that it takes the router 1 msec to process a packet and determine the outgoing link. The simplified network is shown below:
