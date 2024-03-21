@@ -12,5 +12,7 @@
 |      | Transport Layer   | [[3.3 Sockets]]                       |                                                                                                | [[Assignment 1 - Non Blocking Web Server]] |                                     |                |
 | 4    |                   | [[4.1 Transport Layer]]               |                                                                                                |                                            |                                     |                |
 |      |                   | [[4.2 Multiplexing & Demultiplexing]] |                                                                                                |                                            |                                     |                |
+|      |                   | [[4.3 UDP]]                           |                                                                                                |                                            |                                     |                |
+|      |                   | [[4.4 TCP]]                           |                                                                                                |                                            |                                     |                |
 
 
