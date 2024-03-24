@@ -32,9 +32,9 @@ n+T(\frac{n}{2}) & \text{if } n>1 \\
 > - $b=2$
 > - $c=1$
 > - $d=1$
-> - **$d=b$**
+> - **$d<b$**
 > 
 > This means:
-> $$T(n) = \Theta(n^{\log _21}\log n) = \log n$$
+> $$T(n) = \Theta(n^{\log _ba}) = \Theta(n^{\log_2 1})$$
 
 wha
