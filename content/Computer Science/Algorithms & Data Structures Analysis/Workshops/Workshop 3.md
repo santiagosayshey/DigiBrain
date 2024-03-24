@@ -28,6 +28,13 @@ n+T(\frac{n}{2}) & \text{if } n>1 \\
 \end{cases}
 > $$
 > We can see that:
-> - $a$ 
+> - $a=1$
 > - $b=2$
+> - $c=1$
+> - $d=1$
+> - **$d=b$**
+> 
+> This means:
+> $$T(n) = \Theta(n^{\log _21}\log n) = \log n$$
 
+wha
