@@ -12,10 +12,9 @@ n+\frac{T(\frac{n}{2})}{2} & \text{if } n>1 \\
 > We can see that:
 > - $a=1/2$
 > - $b=2$
-> - $c=1$
-> - $d=\frac{1}{2}$
-> - **$d<b$**
+> - $d=1$
+> - $a<b^d = \frac{1}{2}<2$
 > 
 > This means:
-> $$T(n) = \Theta(n^{\log _ba}) = \Theta(n^{\log_2 1})$$
+> $$T(n) \in O(n^d) = O(n)$$
 
