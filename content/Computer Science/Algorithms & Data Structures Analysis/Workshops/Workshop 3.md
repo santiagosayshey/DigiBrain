@@ -19,6 +19,15 @@ n^{\log _dc} & \text{if } d>b \\
 > $$
 
 
-> [!exercise]+ Exercise 1
-> Let 
+> [!exercise]+ Exercise 1 - Find the complexity of the following recurrence relation:
+> $$
+T(n) =
+\begin{cases}
+1 & \text{if } n=1 \\
+n+T(\frac{n}{2}) & \text{if } n>1 \\
+\end{cases}
+> $$
+> We can see that:
+> - $a$ 
+> - $b=2$
 
