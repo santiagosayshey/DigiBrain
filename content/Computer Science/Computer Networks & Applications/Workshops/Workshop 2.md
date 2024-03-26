@@ -6,7 +6,7 @@
 >    
 > **Answers:**
 > 1. This is because of the difference in connection philosophy between UDP and TCP. UDP is said to be **"connectionless"**, so the application must provide the header information for every packet sent. TCP, on the other hand, is **connection-oriented**. This means that once a connection is established between the client and server, the TCP layer maintains the connection state and automatically includes the necessary header information for each packet sent within that connection.
-> 2. **UDP** sockets are identified by the **destination IP address and port** number. **TCP** requires BOTH **source AND destination IP address and port** number. 
+> 2. **UDP** sockets are identified by the **destination IP address and port** number. **TCP** requires BOTH **source AND destination IP address and port** number 
 
 
 
