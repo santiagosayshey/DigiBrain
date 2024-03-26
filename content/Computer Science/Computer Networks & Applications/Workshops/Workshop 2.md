@@ -27,5 +27,8 @@
 > [!exercise]+ Question 4 - FSM and RDT
 > Draw the FSM for the receiver side of protocol `rdt3.0`
 > 
-> ![[Group 4.png]]
+> **Answer:**
+> There are no changes from the receiver's side from `rtd2.2` to `rtd3.0`. Any packets retransmitted due to a timeout are still treated as the same data.
+> 
+> ![[asdasdasdasdasd.png]]
 
