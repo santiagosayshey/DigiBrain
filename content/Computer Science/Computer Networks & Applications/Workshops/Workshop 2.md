@@ -11,3 +11,14 @@
 
 
 
+
+> [!exercise]+ Question 2 - TCP and Protocol Design
+>Protocol design decisions often have unexpected performance consequences. HTTP 1.0 is an example of a protocol design where lower layer protocol behaviour impacted directly on the performance of the higher layer protocol.
+>
+>1. What is the difference between HTTP 1.1 and HTTP 1.0 in terms of transport layer connections?
+>2. What two transport layer issues do the changes to HTTP address?
+>3. How does the change improve HTTP performance?
+>
+>**Answers:**
+>1. In HTTP 1.0, a connection establishment is needed for every single request / responses. In HTTP 1.1, a single connection can be used for multiple requests / responses.
+
