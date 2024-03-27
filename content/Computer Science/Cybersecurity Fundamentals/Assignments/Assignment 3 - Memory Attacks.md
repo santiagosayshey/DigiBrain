@@ -54,3 +54,22 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >```
 
 <div style="page-break-after: always;"></div>
+
+
+```
+(gdb) print secret
+$1 = {void ()} 0x565561ed <secret>
+```
+
+
+> [!exercise]+ Exercise 3
+> Go to/ home/q3/. Exploit the program to get the secret.
+> 
+> **Answer:**
+> This one is very similar to question 2. All we need to do is overwrite the unsigned int with the address of the `secret` function. We attain this by opening the binary inside `gdp` and printing the address.
+> 
+> Now that we have the address, we convert it to little endian format and place it inside our payload ()
+
+
+
+
