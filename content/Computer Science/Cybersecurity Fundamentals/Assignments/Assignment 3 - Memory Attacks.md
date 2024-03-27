@@ -31,3 +31,10 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 
 ###### Exercise 2
 
+
+> [!exercise]+ Exercise 2
+> Go to/ home/q2/. Exploit the program to get the secret.
+> 
+> **Answer:**
+> This follows the same logic as exercise 1, but instead of overwriting `changeme` with anything, we need to change it to `0xabcdabcd`. Similar to before, we fill `buffer`
+
