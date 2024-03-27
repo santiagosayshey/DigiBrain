@@ -195,6 +195,12 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 
 <div style="page-break-after: always;"></div>
 
+> [!exercise]+ Exercise
+> Firewalls have the capability to block both ingress (inbound) and egress (outbound) traffic. Many organisations (and also true for my home NBN router) block ingress, but is pretty open when it comes to egress rules.
+> 1. Why should organisations care about setting egress (outbound) firewall rules?
+> 2. Look up "C2 server" on the internet and explain why they can be successful even on firewalls that tightly restrict egress traffic to sanctioned ports like 53, 80 and 443.
+
+
 ###### Exercise 8
 
 <div style="page-break-after: always;"></div>
