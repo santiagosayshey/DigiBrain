@@ -90,7 +90,16 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 
 ###### Exercise 4
 
+> [!exercise]+ Exercise 4
+> Go to /home/q4/. Exploit the program to get the secret.
+> 
+> **Answer:**
+> Quite similar to the last question, except our input can only be less than 100 characters. Because `sprintf` is used instead of `strcpy`, we can get around this limitation by padding the input inside this function, rather than through python.
+
+
+
 <div style="page-break-after: always;"></div>
+
 
 ###### Exercise 5
 
