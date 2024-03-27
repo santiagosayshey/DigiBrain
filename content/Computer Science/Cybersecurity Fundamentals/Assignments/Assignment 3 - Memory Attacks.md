@@ -36,5 +36,7 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 > Go to/ home/q2/. Exploit the program to get the secret.
 > 
 > **Answer:**
-> This follows the same logic as exercise 1, but instead of overwriting `changeme` with anything, we need to change it to `0xabcdabcd`. Similar to before, we fill `buffer`
+> This follows the same logic as exercise 1, but instead of overwriting `changeme` with anything, we need to change it to `0xabcdabcd`. Similar to before, we fill `buffer` with 1024 bytes of garbage, and now we must append `0xabcdabcd` in little endian format, i.e. `\xcd\xab\xcd\xab`.
+> 
+> Since we are limited to `python3`, the command is also a bit different due to the way 
 
