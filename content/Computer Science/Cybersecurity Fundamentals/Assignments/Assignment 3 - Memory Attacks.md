@@ -9,8 +9,8 @@
 > 
 > **Answer:**
 To exploit the program and obtain the secret, we target the buffer overflow vulnerability caused by `strcpy`. The `buffer` array has 1024 bytes, and `changeme` is immediately after it in memory. To overwrite `changeme`, our input needs to exceed the `buffer` size and alter `changeme`'s value from 0.
-
-By supplying an input of 1025 characters, we overflow `buffer` and change at least one byte of `changeme`, triggering the conditional to reveal the secret.
+> 
+> By supplying an input of 1028 characters, we overflow `buffer` and change at least one byte of `changeme`, triggering the conditional to reveal the secret.
 >```shell
 >student@hacklabvm:/home/q1$ ./run_me $(python -c 'print("A"*1025)')
  >_________________________________________
