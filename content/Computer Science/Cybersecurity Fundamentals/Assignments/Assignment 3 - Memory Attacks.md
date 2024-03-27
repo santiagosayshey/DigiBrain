@@ -161,7 +161,12 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 
 
 > [!exercise]+ Exercise 6
-> Another straightforward one. We need to add the hex code as an environ
+> Another straightforward one. We need to once again cause a buffer overflow and overwrite the `flag` variable. To do this, add the hex code as an environment variable to `Q6_SECRET_CODE` padded with junk data. We can use `export` for this. 
+> 
+> ```
+> export Q6_SECRET_CODE=$(python -c 'print("A"*1024 + "\xef\xbe\xad\xde")')
+
+>```
 
 
 <div style="page-break-after: always;"></div>
