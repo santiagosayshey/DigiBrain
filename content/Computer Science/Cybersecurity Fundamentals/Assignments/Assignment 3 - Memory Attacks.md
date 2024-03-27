@@ -155,12 +155,14 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 >           `YY~~~~YY'
 >            ||    ||
 >```
-
-
-
 <div style="page-break-after: always;"></div>
 
 ###### Exercise 6
+
+
+> [!exercise]+ Exercise 6
+> Another straightforward one. We need to add the hex code as an environ
+
 
 <div style="page-break-after: always;"></div>
 
