@@ -196,9 +196,31 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 <div style="page-break-after: always;"></div>
 
 > [!exercise]+ Exercise
+> 
 > Firewalls have the capability to block both ingress (inbound) and egress (outbound) traffic. Many organisations (and also true for my home NBN router) block ingress, but is pretty open when it comes to egress rules.
+> 
 > 1. Why should organisations care about setting egress (outbound) firewall rules?
+> 
+> Organizations should implement egress firewall rules for several reasons:
+> 
+> a) Preventing data exfiltration: Limiting outbound traffic reduces the risk of attackers stealing sensitive information.
+> 
+> b) Restricting attacker movement: Strict egress filtering makes it harder for attackers to create backdoors or communicate with external command-and-control servers.
+> 
+> c) Detecting anomalous behavior: Monitoring allowed outbound traffic helps identify compromised systems attempting to contact malicious domains or transmit unusual amounts of data.
+> 
+> d) Enforcing security policies: Egress rules enable organizations to control which applications, protocols, and destinations can communicate externally, reducing the attack surface.
+> 
 > 2. Look up "C2 server" on the internet and explain why they can be successful even on firewalls that tightly restrict egress traffic to sanctioned ports like 53, 80 and 443.
+> 
+> C2 (Command-and-Control) servers are infrastructure set up by attackers to control compromised systems within a target network. When an attacker successfully breaches a system, they often install malware that establishes a connection back to the C2 server, allowing the attacker to remotely control the infected machine and exfiltrate data.
+> 
+> C2 servers can be successful even when firewalls restrict outbound traffic to specific ports like 53, 80, and 443 because:
+> 
+> a) They can disguise malicious traffic as legitimate web requests, DNS queries, or encrypted HTTPS connections on allowed ports.
+> 
+> b) C2 servers can adapt to use whichever ports are available, such as using DNS tunneling over port 53 if other options are restricted.
+
 
 
 ###### Exercise 8
