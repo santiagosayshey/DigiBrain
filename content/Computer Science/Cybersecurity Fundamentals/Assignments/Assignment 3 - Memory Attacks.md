@@ -98,5 +98,25 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 
 ###### Exercise 6
 
+<div style="page-break-after: always;"></div>
+
+###### Exercise 7
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 8
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 9
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 10
+
+
+
+
+
 
 
