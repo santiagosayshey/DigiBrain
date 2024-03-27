@@ -102,8 +102,8 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >
 >Then we just need to find the address of the `secret` through GDB.
 >```
->(gdb) print secret
-$1 = {void ()} 0x565561fd \<secret>
+(gdb) print secret
+$1 = {void ()} 0x11fd \<secret>
 >```
 >Converting the address to little endian in hexadecimal and combining it all together, we get:
 >
