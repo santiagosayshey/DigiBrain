@@ -131,6 +131,7 @@ $1 = {void ()} 0x565561fd \<secret>
 > Go to /home/q5/. Exploit the program to get the secret.
 > 
 > **Answer:**
+> This one is straightforward - create a `symlink`  
 
 
 
