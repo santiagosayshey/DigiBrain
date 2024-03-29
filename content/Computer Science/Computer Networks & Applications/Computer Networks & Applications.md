@@ -13,6 +13,6 @@
 | 4    |                   | [[4.1 Transport Layer]]               |                                                                                                |                                            |                                     |                |
 |      |                   | [[4.2 Multiplexing & Demultiplexing]] |                                                                                                |                                            |                                     |                |
 |      |                   | [[4.3 UDP]]                           |                                                                                                |                                            |                                     |                |
-|      |                   | [[4.4 Reliable Data Transfer]]        | [[Content/Computer Science/Computer Networks & Applications/Workshops/Workshop 2\|Workshop 2]] |                                            |                                     |                |
+|      |                   | [[4.4 RDT 1.0]]        | [[Content/Computer Science/Computer Networks & Applications/Workshops/Workshop 2\|Workshop 2]] |                                            |                                     |                |
 
 
