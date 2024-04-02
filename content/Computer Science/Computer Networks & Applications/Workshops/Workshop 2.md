@@ -20,8 +20,9 @@
 >3. How does the change improve HTTP performance?
 >
 >**Answers:**
->1. In HTTP 1.0, a **connection establishment is needed for every** single request / responses. In HTTP 1.1, a **single connection** can be used for multiple requests / responses.
->2. Low bandwidth utilisation and...
+>1. In HTTP 1.0, a **new TCP connection is established for each request/response pair**, leading to high overhead. HTTP 1.1 allows **persistent connections**, enabling multiple requests/responses over a single connection.
+>2. The changes address **congestion control** by reducing the number of times congestion control mechanisms are triggered due to fewer connections. They also tackle **low link utilization** by enabling pipelining, allowing multiple requests to be sent consecutively without waiting for each response, thereby making efficient use of the available bandwidth.
+>3. These changes **improve HTTP performance** by significantly **reducing latency** (less time spent on TCP handshakes), **enhancing bandwidth utilization** (through pipelining), and **decreasing server load** (fewer connections to manage), leading to faster web page loading times and more efficient network use.
 
 
 > [!exercise]+ Question 4 - FSM and RDT
