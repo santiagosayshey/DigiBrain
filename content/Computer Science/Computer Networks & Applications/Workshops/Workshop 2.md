@@ -9,6 +9,7 @@
 > 2. **UDP** sockets are identified by the **destination IP address and port** number. **TCP** sockets requires BOTH **source AND destination IP address and port** number.
 > 3. **UDP segments still include source port and IP**, they're just not needed to identify the socket to be demultiplexed to. The source port and IP allows the destination to know where the data came from. 
 
+<hr> 
 
 > [!exercise]+ Question 2 - TCP and Protocol Design
 >Protocol design decisions often have unexpected performance consequences. HTTP 1.0 is an example of a protocol design where lower layer protocol behaviour impacted directly on the performance of the higher layer protocol.
@@ -22,6 +23,7 @@
 >2. The changes address **congestion control** by reducing the number of times congestion control mechanisms are triggered due to fewer connections. They also tackle **low link utilization** by enabling pipelining, allowing multiple requests to be sent consecutively without waiting for each response, thereby making efficient use of the available bandwidth.
 >3. These changes **improve HTTP performance** by significantly **reducing latency** (less time spent on TCP handshakes), **enhancing bandwidth utilization** (through pipelining), and **decreasing server load** (fewer connections to manage), leading to faster web page loading times and more efficient network use.
 
+<hr> 
 
 > [!exercise]+ Question 3 - Congestion Management / Control
 > Consider congestion control in TCP Reno (most common algorithm).
@@ -47,6 +49,7 @@
 > 4. **Increasing the congestion window more aggressively** than standard TCP Reno, allowing faster recovery of send rates after packet loss.
 >
 
+<hr>
 
 > [!exercise]+ Question 4 - FSM and RDT
 > Draw the FSM for the receiver side of protocol `rdt3.0`
@@ -54,17 +57,15 @@
 > **Answer:**
 > There are no changes from the receiver's side from `rtd2.2` to `rtd3.0`. Any packets retransmitted due to a timeout are still treated as the same data.
 > 
-> ![[asdasdasdasdasd.png]]
-
+> ![[Pasted image 20240402172802.png]]
 
 > [!exercise]+ Question 5 - Selective Repeat
 >
 > Consider the problem of implementing timers. Selective Repeat does not resend all packets on timeout, so it must timeout packets individually. However, in an implementation we are likely to only have access to one hardware timer.
 >
 > How might you solve this problem?
->
-> To solve the problem of implementing timers for Selective Repeat using a single hardware timer, you can consider the following approaches:
->
+> 
+>**Answer:**
 > 1. Using a single timer for the oldest unacknowledged packet:
 >    - **Start the timer when the oldest unacknowledged packet is sent.**
 >    - **If an ACK is received for the oldest packet, stop the timer and start it again for the next oldest unacknowledged packet.**
@@ -90,3 +91,5 @@
 > - **It ensures that the timer is always associated with the oldest unacknowledged packet.**
 > - **It simplifies the timer management process, as the timer only needs to be restarted when the window slides forward.**
 >
+
+<hr> 
