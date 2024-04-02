@@ -10,8 +10,6 @@
 > 3. **UDP segments still include source port and IP**, they're just not needed to identify the socket to be demultiplexed to. The source port and IP allows the destination to know where the data came from. 
 
 
-
-
 > [!exercise]+ Question 2 - TCP and Protocol Design
 >Protocol design decisions often have unexpected performance consequences. HTTP 1.0 is an example of a protocol design where lower layer protocol behaviour impacted directly on the performance of the higher layer protocol.
 >
@@ -26,7 +24,26 @@
 
 
 > [!exercise]+ Question 3 - Congestion Management / Control
-> Contents
+>
+> TCP Reno congestion control works by:
+>
+> - Adjusting the amount of data a sender can transmit before receiving confirmation, known as the **congestion window**.
+>
+> - When the network is not congested, TCP Reno gradually increases the congestion window, allowing more data to be sent. If the sender detects **data loss**, indicating congestion, it **dramatically reduces** the window to alleviate the load on the network.
+>
+> - After reducing the window, TCP Reno cautiously increases it again, transitioning to a more aggressive increase if congestion is not encountered. This cycle of increasing the send rate when possible and rapidly decreasing it when necessary allows TCP Reno to **adapt to changing network conditions** and **share network capacity fairly** among competing traffic.
+>
+> Application designers can exploit TCP Reno's congestion control mechanism to **gain an unfair advantage** over other applications. They may do this by:
+>
+> 1. Using **multiple TCP connections in parallel**, allowing their application to achieve higher total bandwidth than others using fewer connections.
+>
+> 2. Starting with a **larger congestion window**, enabling faster ramp-up after packet loss compared to applications adhering to standard initial window sizes.
+>
+> 3. **Not reducing the congestion window** as much as they should when packet loss is detected, maintaining a higher send rate during congestion.
+>
+> 4. **Increasing the congestion window more aggressively** than standard TCP Reno, allowing faster recovery of send rates after packet loss.
+>
+
 
 
 
@@ -38,16 +55,3 @@
 > 
 > ![[asdasdasdasdasd.png]]
 
-TCP Reno congestion control:
-
-1. TCP Reno uses an Additive Increase/Multiplicative Decrease (AIMD) algorithm to control congestion.
-2. It starts with a small congestion window (cwnd) and increases it additively every RTT as long as no packet loss occurs. This is the Additive Increase part.
-3. If packet loss is detected via timeout, it assumes congestion has occurred and drastically reduces the cwnd (typically by half). This is the Multiplicative Decrease part.
-4. After timeout, it enters a "slow start" phase until reaching a threshold, then switches to additive increase.
-
-Now, here's how an application designer might exploit this to get higher data rates at the expense of other TCP flows:
-
-1. Use many parallel TCP connections. Since each connection has its own cwnd and additive increase phase, the aggregate bandwidth across connections will be higher. This is unfair to applications using fewer connections.
-2. Use a larger initial congestion window. Some applications may use larger initial cwnd values than the standard allows. This lets them ramp up faster after loss.
-3. Avoid backing off on loss. An aggressive application might avoid halving the cwnd on loss timeout and instead just do a small multiplicative decrease, or simply keep the same cwnd. This maintains a high send rate under congestion.
-4. Modify the additive increase factor. Using a larger additive increase factor ramps up the send rate faster after loss, outcompeting other flows with standard increase.
