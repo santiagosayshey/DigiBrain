@@ -24,7 +24,10 @@
 
 
 > [!exercise]+ Question 3 - Congestion Management / Control
+> Consider congestion control in TCP Reno (most common algorithm).
+>- How might application designers exploit the Internet's use of TCP to get higher data rates at the expense of other data flows that are using TCP?
 >
+>**Answer:**
 > TCP Reno congestion control works by:
 >
 > - Adjusting the amount of data a sender can transmit before receiving confirmation, known as the **congestion window**.
@@ -45,8 +48,6 @@
 >
 
 
-
-
 > [!exercise]+ Question 4 - FSM and RDT
 > Draw the FSM for the receiver side of protocol `rdt3.0`
 > 
@@ -55,3 +56,37 @@
 > 
 > ![[asdasdasdasdasd.png]]
 
+
+> [!exercise]+ Question 5 - Selective Repeat
+>
+> Consider the problem of implementing timers. Selective Repeat does not resend all packets on timeout, so it must timeout packets individually. However, in an implementation we are likely to only have access to one hardware timer.
+>
+> How might you solve this problem?
+>
+> To solve the problem of implementing timers for Selective Repeat using a single hardware timer, you can consider the following approaches:
+>
+> 1. Using a single timer for the oldest unacknowledged packet:
+>    - **Start the timer when the oldest unacknowledged packet is sent.**
+>    - **If an ACK is received for the oldest packet, stop the timer and start it again for the next oldest unacknowledged packet.**
+>    - **If the timer expires, retransmit the oldest unacknowledged packet and start the timer again.**
+>    - Overhead: This approach requires maintaining a data structure to keep track of the oldest unacknowledged packet and its associated timer.
+>
+> 2. Using a single timer and a timeout queue:
+>    - When a packet is sent, calculate its timeout timestamp and add it to a timeout queue.
+>    - Set the timer to expire at the earliest timeout timestamp in the queue.
+>    - When an ACK is received, remove the corresponding packet from the timeout queue and update the timer if necessary.
+>    - If the timer expires, retransmit the packet associated with the expired timestamp and update the timer based on the next earliest timestamp in the queue.
+>    - Overhead: This approach requires maintaining a timeout queue and updating it whenever packets are sent or acknowledged.
+>
+> **A simpler solution is to use the first approach, where only the oldest unacknowledged packet in the sender's window needs a timer.** This is because:
+> - **If the oldest packet is acknowledged, the window slides forward, and the timer can be started for the next oldest unacknowledged packet.**
+> - **If the oldest packet times out, it is retransmitted, and the timer is restarted for the same packet.**
+>
+> Restarting the timer every time a packet is sent would be inefficient because:
+> - It would require resetting the timer for every packet sent, even if an earlier packet is still unacknowledged.
+> - If an ACK is received for an earlier packet, the timer would need to be adjusted, adding complexity to the implementation.
+>
+> **Restarting the timer when the oldest packet is ACKed is a better approach because:**
+> - **It ensures that the timer is always associated with the oldest unacknowledged packet.**
+> - **It simplifies the timer management process, as the timer only needs to be restarted when the window slides forward.**
+>
