@@ -25,6 +25,11 @@
 >3. These changes **improve HTTP performance** by significantly **reducing latency** (less time spent on TCP handshakes), **enhancing bandwidth utilization** (through pipelining), and **decreasing server load** (fewer connections to manage), leading to faster web page loading times and more efficient network use.
 
 
+> [!exercise]+ Question 3 - Congestion Management / Control
+> Contents
+
+
+
 > [!exercise]+ Question 4 - FSM and RDT
 > Draw the FSM for the receiver side of protocol `rdt3.0`
 > 
@@ -33,3 +38,16 @@
 > 
 > ![[asdasdasdasdasd.png]]
 
+TCP Reno congestion control:
+
+1. TCP Reno uses an Additive Increase/Multiplicative Decrease (AIMD) algorithm to control congestion.
+2. It starts with a small congestion window (cwnd) and increases it additively every RTT as long as no packet loss occurs. This is the Additive Increase part.
+3. If packet loss is detected via timeout, it assumes congestion has occurred and drastically reduces the cwnd (typically by half). This is the Multiplicative Decrease part.
+4. After timeout, it enters a "slow start" phase until reaching a threshold, then switches to additive increase.
+
+Now, here's how an application designer might exploit this to get higher data rates at the expense of other TCP flows:
+
+1. Use many parallel TCP connections. Since each connection has its own cwnd and additive increase phase, the aggregate bandwidth across connections will be higher. This is unfair to applications using fewer connections.
+2. Use a larger initial congestion window. Some applications may use larger initial cwnd values than the standard allows. This lets them ramp up faster after loss.
+3. Avoid backing off on loss. An aggressive application might avoid halving the cwnd on loss timeout and instead just do a small multiplicative decrease, or simply keep the same cwnd. This maintains a high send rate under congestion.
+4. Modify the additive increase factor. Using a larger additive increase factor ramps up the send rate faster after loss, outcompeting other flows with standard increase.
