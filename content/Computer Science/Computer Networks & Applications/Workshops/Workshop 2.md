@@ -21,7 +21,7 @@
 >
 >**Answers:**
 >1. In HTTP 1.0, a **connection establishment is needed for every** single request / responses. In HTTP 1.1, a **single connection** can be used for multiple requests / responses.
->2. Packet errors and loss. By reducing the amount of messages sent, we reduce the amount of error checking that needs to be done. 
+>2. Low bandwidth utilisation and...
 
 
 > [!exercise]+ Question 4 - FSM and RDT
