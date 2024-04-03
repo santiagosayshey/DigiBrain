@@ -66,6 +66,10 @@
 
 > [!exercise] Question 1
 > Calculate 42 × 57 using the school method of multiplication.
+> 
+> ![[Pasted image 20240404022830.png]]
+
+
 
 > [!exercise] Question 2
 > Calculate 123 × 456 using Karatsuba multiplication. Show the splitting of numbers, the partial products, and the final combination of partial products.
