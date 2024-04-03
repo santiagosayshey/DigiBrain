@@ -39,18 +39,61 @@
 > - School: 4 multiplications + 3 additions
 > - Karatsuba: 3 multiplications + 6 additions
 
-> [!idea]+ How much better?
+> [!consider]+ How much better?
 > School method multiplication runs in $O(n^2)$ time where as Karatsuba's Method runs in $O(n^{1.58})$
 
-> [!consider] But not *always* better!
+> [!consider] But *not always* better!
 > Generally, we still want to use the school method for $n \le 2$.  
 > 
 > ![[Pasted image 20240404000635.png]]
 
 
 
+> [!exercise]+ Exercise - School Method
+> ![[Pasted image 20240404021720.png]]
+> 
+> ![[Pasted image 20240404021744.png]]
+> 
+> ![[Pasted image 20240404021800.png]]
 
-![[Pasted image 20240404021720.png]]
 
-![[Pasted image 20240404021744.png]]
+> [!exercise]+ Exercise - Karatsuba Method
+> ![[Pasted image 20240404021853.png]]
+> 
+> ![[Pasted image 20240404021905.png]]
+
+# Mock Quiz
+
+> [!exercise] Question 1
+> Calculate 42 × 57 using the school method of multiplication.
+
+> [!exercise] Question 2
+> Calculate 123 × 456 using Karatsuba multiplication. Show the splitting of numbers, the partial products, and the final combination of partial products.
+
+> [!exercise] Question 3
+> Which of the following correctly represents the splitting of numbers in the Karatsuba method for the multiplication of 4321 × 5678?
+>
+> A) a1 = 43, a0 = 21; b1 = 56, b0 = 78
+> B) a1 = 432, a0 = 1; b1 = 567, b0 = 8
+> C) a1 = 4, a0 = 321; b1 = 5, b0 = 678
+> D) a1 = 4321, a0 = 0; b1 = 5678, b0 = 0
+
+> [!exercise] Question 4
+> In the Karatsuba multiplication method, which of the following represents the correct formula for combining the partial products?
+>
+> A) P1 × B^(k1 + k2) + (P2 - P1 - P3)(B^k1) + P3
+> B) P1 × B^(k1 + k2) + (P2 - P1 - P3)(B^k2) + P3
+> C) P1 × B^(k1 + k2) + (P2 + P1 + P3)(B^k2) + P3
+> D) P1 × B^(k1 + k2) + (P2 - P1 - P3)(B^(k1 + k2)) + P3
+
+> [!exercise] Question 5
+> Why is Karatsuba multiplication considered more efficient than the school method for large numbers?
+>
+> A) Karatsuba multiplication requires fewer additions.
+> B) Karatsuba multiplication requires fewer multiplications.
+> C) Karatsuba multiplication is easier to understand and implement.
+> D) Karatsuba multiplication is more efficient for small numbers.
+
+
+
 
