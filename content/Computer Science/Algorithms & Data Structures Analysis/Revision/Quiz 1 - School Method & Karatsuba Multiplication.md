@@ -50,3 +50,7 @@
 
 
 
+![[Pasted image 20240404021720.png]]
+
+![[Pasted image 20240404021744.png]]
+
