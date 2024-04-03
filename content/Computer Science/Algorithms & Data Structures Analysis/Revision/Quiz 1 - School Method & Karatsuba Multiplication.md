@@ -42,3 +42,11 @@
 > [!idea]+ How much better?
 > School method multiplication runs in $O(n^2)$ time where as Karatsuba's Method runs in $O(n^{1.58})$
 
+> [!consider] But not *always* better!
+> Generally, we still want to use the school method for $n \le 2$.  
+> 
+> ![[Pasted image 20240404000635.png]]
+
+
+
+
