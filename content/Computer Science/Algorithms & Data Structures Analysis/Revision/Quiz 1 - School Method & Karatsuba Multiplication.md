@@ -73,28 +73,33 @@
 
 > [!exercise] Question 2
 > Calculate 123 × 456 using Karatsuba multiplication. Show the splitting of numbers, the partial products, and the final combination of partial products.
+> 
+> **Key Takeaway - ** When we split odd numbers, we always round k down. 
+> 
+> ![[Pasted image 20240404024316.png]]
 
 > [!exercise] Question 3
 > Which of the following correctly represents the splitting of numbers in the Karatsuba method for the multiplication of 4321 × 5678?
 >
-> A) a1 = 43, a0 = 21; b1 = 56, b0 = 78
+> **A) a1 = 43, a0 = 21; b1 = 56, b0 = 78**
 > B) a1 = 432, a0 = 1; b1 = 567, b0 = 8
 > C) a1 = 4, a0 = 321; b1 = 5, b0 = 678
 > D) a1 = 4321, a0 = 0; b1 = 5678, b0 = 0
 
+
 > [!exercise] Question 4
 > In the Karatsuba multiplication method, which of the following represents the correct formula for combining the partial products?
 >
-> A) P1 × B^(k1 + k2) + (P2 - P1 - P3)(B^k1) + P3
-> B) P1 × B^(k1 + k2) + (P2 - P1 - P3)(B^k2) + P3
-> C) P1 × B^(k1 + k2) + (P2 + P1 + P3)(B^k2) + P3
-> D) P1 × B^(k1 + k2) + (P2 - P1 - P3)(B^(k1 + k2)) + P3
+> A) $P1 \times B^{2k} + (P2 - P1 - P3)(B^{2k}) + P3$
+> B) $P1 \times B^{2k} + (P2 + P1 + P3)(B^k) + P3$
+> **C) $P1 \times B^{2k} + (P2 - P1 - P3)(B^k) + P3$**
+> D) $P1 \times B^k + (P2 - P1 - P3)(B^{2k}) + P3$
 
 > [!exercise] Question 5
 > Why is Karatsuba multiplication considered more efficient than the school method for large numbers?
 >
 > A) Karatsuba multiplication requires fewer additions.
-> B) Karatsuba multiplication requires fewer multiplications.
+> **B) Karatsuba multiplication requires fewer multiplications.**
 > C) Karatsuba multiplication is easier to understand and implement.
 > D) Karatsuba multiplication is more efficient for small numbers.
 
