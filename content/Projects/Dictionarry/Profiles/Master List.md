@@ -1,16 +1,17 @@
 
-| #   | Quality     | Compatibility | Profile           |
+| #   | Size        | Compatibility | Profile           |
 | --- | ----------- | ------------- | ----------------- |
-|     | Optimal     | Cutting Edge  | 2160p Remux       |
-|     | Optimal     | Adaptable     |                   |
-|     | Optimal     | Universal     | 1080p Remux       |
-|     | Transparent | Cutting Edge  | 1080p HDR Encode  |
-|     | Transparent | Adaptable     |                   |
-|     | Transparent | Universal     | 1080p x264 Encode |
-|     | Balanced    | Cutting Edge  | 1080p h265 WEB    |
-|     | Balanced    | Adaptable     | 1080p h264 WEB    |
-|     | Balanced    | Universal     | 720p x264 Encode  |
-|     | Minimal     | Cutting Edge  | 1080p x265 Encode |
-|     | Minimal     | Adaptable     |                   |
-|     | Minimal     | Universal     | SD Xvid           |
+| 1   | Optimal     | Cutting Edge  | 2160p Remux       |
+| 2   | Optimal     | Adaptable     |                   |
+| 3   | Optimal     | Universal     | 2160p x265 Encode |
+| 4   | Transparent | Cutting Edge  | 1080p HDR Encode  |
+| 5   | Transparent | Adaptable     | 2160p h265 WEB    |
+| 6   | Transparent | Universal     | 1080p x264 Encode |
+| 7   | Balanced    | Cutting Edge  | 1080p h265 WEB    |
+| 8   | Balanced    | Adaptable     | 1080p h264 WEB    |
+| 9   | Balanced    | Universal     | 720p x264 Encode  |
+| 10  | Minimal     | Cutting Edge  | 1080p x265 Encode |
+| 11  | Minimal     | Adaptable     | SD x264 Encodes   |
+| 12  | Minimal     | Universal     | SD Xvid Encodes   |
 
+1080p Remux
