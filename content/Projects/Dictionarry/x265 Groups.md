@@ -24,7 +24,7 @@ Immutability
 
 | Quality  | Compatibility | Immutability |
 | -------- | ------------- | ------------ |
-| Optimal  | Hard          |              |
-| Balanced |               |              |
-| Minimal  |               |              |
+| Optimal  | Bleeding Edge | Fluid        |
+| Balanced | Adaptable     | Flexible     |
+| Minimal  | Universal     | Fixed        |
 
