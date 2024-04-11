@@ -29,7 +29,3 @@
 | 11  | SD x264 Encodes   | Minimal | Adaptable     |
 | 12  | SD Xvid Encodes   | Minimal | Universal     |
 
-
-Scores
-
-
