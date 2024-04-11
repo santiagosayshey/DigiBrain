@@ -14,24 +14,19 @@
 | 11  | Minimal     | Adaptable     | SD x264 Encodes   |
 | 12  | Minimal     | Universal     | SD Xvid Encodes   |
 
-| Profile           | Quality     | Compatibility |
-| ----------------- | ----------- | ------------- |
-| 2160p Remux       | Optimal     | Cutting Edge  |
-| 2160p x265 Encode | Transparent |               |
-| 1080p HDR Encode  | Transparent |               |
-| 2160p h265 WEB    | Balanced    |               |
-| 1080p x264 Encode |             |               |
-| 1080p Remux       |             |               |
-| 1080p h265 WEB    |             |               |
-| 1080p h264 WEB    |             |               |
-| 720p x264 Encode  |             |               |
-| 1080p x265 Encode |             |               |
-| SD x264 Encodes   |             |               |
-| SD Xvid Encodes   |             |               |
+| Profile           | Quality | Compatibility |
+| ----------------- | ------- | ------------- |
+| 2160p Remux       | Optimal |               |
+| 2160p x265 Encode | Optimal |               |
+| 1080p HDR Encode  | Optimal |               |
+| 2160p h265 WEB    | High    |               |
+| 1080p Remux       | High    |               |
+| 1080p x264 Encode | High    |               |
+| 1080p h265 WEB    | Medium  |               |
+| 720p x264 Encode  | Medium  |               |
+| 1080p h264 WEB    | Medium  |               |
+| 1080p x265 Encode | Minimal |               |
+| SD x264 Encodes   | Minimal |               |
+| SD Xvid Encodes   | Minimal |               |
 
-| Resolution | Audio | HDR |
-| ---------- | ----- | --- |
-| 2160p      |       |     |
-|            |       |     |
-|            |       |     |
-|            |       |     |
+
