@@ -20,19 +20,3 @@ x265 Minimal -
 | Optimal  | Progressive   | Fluid        |
 | Balanced | Adaptable     | Flexible     |
 | Minimal  | Universal     | Fixed        |
-
-| #   | Quality     | Compatibility | Small Profile     | Medium Profile    | Large Profile |
-| --- | ----------- | ------------- | ----------------- | ----------------- | ------------- |
-|     | Optimal     | Cutting Edge  | 1080p HDR Encode  | 2160p Encode      | 2160p Remux   |
-|     | Optimal     | Adaptable     |                   | 1080p Remux       |               |
-|     | Optimal     | Universal     |                   | 1080p x264 Encode |               |
-|     | Transparent | Cutting Edge  | 1080p HDR Encode  |                   |               |
-|     | Transparent | Adaptable     |                   |                   |               |
-|     | Transparent | Universal     | 1080p x264 Encode |                   |               |
-|     | Balanced    | Cutting Edge  |                   |                   |               |
-|     | Balanced    | Adaptable     |                   |                   |               |
-|     | Balanced    | Universal     | 720p x264 Encode  |                   |               |
-|     | Minimal     | Cutting Edge  |                   |                   |               |
-|     | Minimal     | Adaptable     |                   |                   |               |
-|     | Minimal     | Universal     | SD Ecn            |                   |               |
-
