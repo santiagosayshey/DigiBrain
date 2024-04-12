@@ -2,8 +2,8 @@
 | #   | Profile           | Quality  | Compatibility | Immutability |
 | --- | ----------------- | -------- | ------------- | ------------ |
 | 1   | 2160p Remux       | Optimal  | Limited       | Flexible     |
-| 2   | 2160p x265 Encode | Optimal  | Adaptable     | Flexible     |
-| 3   | 2160p h265 WEB    | Optimal  | Universal     | Flexible     |
+| 2   | 2160p x265 Encode | High     | Limited       | Flexible     |
+| 3   | 2160p h265 WEB    | High     | Universal     | Flexible     |
 | 4   | 1080p HDR Encode  | High     | Limited       | Flexible     |
 | 5   | 1080p x264 Encode | High     | Adaptable     | Flexible     |
 | 6   | 1080p Remux       | High     | Universal     | Fixed        |
@@ -17,7 +17,10 @@
 
 
 > [!idea]+ Compatibility Levels
-> **Limited:** 2 or more of *lossless audio, HDR, high bitrate or h265*
+> - **Limited:** 2 or more of lossless audio, HDR, high bitrate or h265
+> - **Adaptable:** 1 of lossless audio, HDR, high bitrate or h265
+> - **Universal:** Lossy audio, no HDR, average bitrate and no h265
+> 
 
 
 | #   | Desired Quality   | Quality | Compatibility |     | Name |
