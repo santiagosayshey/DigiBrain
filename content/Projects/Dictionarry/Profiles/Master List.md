@@ -3,10 +3,10 @@
 | --- | ----------------- | -------- | ------------- | ------------ |
 | 1   | 2160p Remux       | Optimal  | Limited       | Flexible     |
 | 2   | 2160p x265 Encode | High     | Limited       | Flexible     |
-| 3   | 2160p h265 WEB    | High     | Universal     | Flexible     |
-| 4   | 1080p HDR Encode  | High     | Limited       | Flexible     |
-| 5   | 1080p x264 Encode | High     | Adaptable     | Flexible     |
+| 3   | 2160p h265 WEB    | High     | Limited       | Flexible     |
 | 6   | 1080p Remux       | High     | Universal     | Fixed        |
+| 4   | 1080p HDR Encode  | Moderate | Limited       | Flexible     |
+| 5   | 1080p x264 Encode | Moderate | Adaptable     | Flexible     |
 | 7   | 1080p h265 WEB    | Balanced | Limited       | Fixed        |
 | 8   | 1080p h264 WEB    | Balanced | Adaptable     | Flexible     |
 | 9   | 720p x264 Encode  | Balanced | Universal     | Fixed        |
