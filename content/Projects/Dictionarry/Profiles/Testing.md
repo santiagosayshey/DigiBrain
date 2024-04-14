@@ -16,7 +16,7 @@
 | 2015 | Mad Max: Fury Road                            |                    |
 | 2010 | Inception                                     |                    |
 | 2009 | Avatar                                        |                    |
-| 2008 | The Dark Knight                               |                    |
+| 2008 | The Dark Knight                               | ✔️                 |
 | 2003 | The Lord of the Rings: The Return of the King |                    |
 | 2000 | Gladiator                                     |                    |
 | 1999 | The Matrix                                    |                    |
@@ -24,5 +24,5 @@
 | 1975 | Jaws                                          |                    |
 | 1977 | Star Wars: Episode IV - A New Hope            |                    |
 | 1982 | Blade Runner                                  |                    |
-| 1942 | Casablanca                                    |                    |
+| 1942 | Casablanca                                    | ✔️                 |
 
