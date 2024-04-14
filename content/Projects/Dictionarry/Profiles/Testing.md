@@ -5,7 +5,7 @@
 | 2023 | Barbie                                        | ✔️                 |
 | 2023 | Spider-Man: Across the Spider-Verse           | ✔️                 |
 | 2022 | Everything Everywhere All at Once             | ✔️                 |
-| 2022 | The Batman                                    |                    |
+| 2022 | The Batman                                    | ✔️                 |
 | 2022 | Doctor Strange in the Multiverse of Madness   |                    |
 | 2022 | Top Gun: Maverick                             |                    |
 | 2021 | Dune                                          |                    |
@@ -16,6 +16,7 @@
 | 2015 | Mad Max: Fury Road                            |                    |
 | 2010 | Inception                                     |                    |
 | 2009 | Avatar                                        |                    |
+| 2008 | The Dark Knight                               |                    |
 | 2003 | The Lord of the Rings: The Return of the King |                    |
 | 2000 | Gladiator                                     |                    |
 | 1999 | The Matrix                                    |                    |
