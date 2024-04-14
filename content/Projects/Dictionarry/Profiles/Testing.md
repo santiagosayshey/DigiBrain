@@ -3,7 +3,7 @@
 | ---- | --------------------------------------------- | ------------------ |
 | 2023 | Oppenheimer                                   | ✔️                 |
 | 2023 | Barbie                                        | ✔️                 |
-| 2023 | Spider-Man: Across the Spider-Verse           |                    |
+| 2023 | Spider-Man: Across the Spider-Verse           | ✔️                 |
 | 2022 | Everything Everywhere All at Once             | ✔️                 |
 | 2022 | The Batman                                    |                    |
 | 2022 | Doctor Strange in the Multiverse of Madness   |                    |
