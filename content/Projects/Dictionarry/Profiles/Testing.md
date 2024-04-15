@@ -10,7 +10,7 @@
 | 2022 | Top Gun: Maverick                             | ✔️                                                                                                        |
 | 2021 | Dune                                          | ✔️                                                                                                        |
 | 2021 | No Time to Die                                | ✔️                                                                                                        |
-| 2021 | Spider-Man: No Way Home                       |                                                                                                           |
+| 2021 | Spider-Man: No Way Home                       | ✔️                                                                                                        |
 | 2021 | Black Widow                                   |                                                                                                           |
 | 2017 | Blade Runner 2049                             | ✔️ - Good x265 not found. 2 x265 encodes, but way too small. Properly falls back to h264 WEB in priority. |
 | 2015 | Mad Max: Fury Road                            | ✔️                                                                                                        |
