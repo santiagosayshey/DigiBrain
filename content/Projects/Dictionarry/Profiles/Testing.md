@@ -12,7 +12,7 @@
 | 2021 | No Time to Die                                | ✔️                 |
 | 2021 | Spider-Man: No Way Home                       |                    |
 | 2021 | Black Widow                                   |                    |
-| 2017 | Blade Runner 2049                             |                    |
+| 2017 | Blade Runner 2049                             | ✔️                 |
 | 2015 | Mad Max: Fury Road                            |                    |
 | 2010 | Inception                                     |                    |
 | 2009 | Avatar                                        |                    |
