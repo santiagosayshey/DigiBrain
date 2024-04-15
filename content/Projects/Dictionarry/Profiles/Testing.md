@@ -19,14 +19,14 @@
 | 2008 | The Dark Knight                               | ✔️                                                                                                                                                                                                                                 |
 | 2003 | The Lord of the Rings: The Return of the King | ✔️                                                                                                                                                                                                                                 |
 | 2000 | Gladiator                                     | ✔️                                                                                                                                                                                                                                 |
-| 1999 | The Matrix                                    |                                                                                                                                                                                                                                    |
-| 1994 | Pulp Fiction                                  |                                                                                                                                                                                                                                    |
+| 1999 | The Matrix                                    | ✔️                                                                                                                                                                                                                                 |
+| 1994 | Pulp Fiction                                  | ✔️❌ - x265 release is available, but sort of LQ. Fallbacks to AMZN Web and BHDStudio encode.                                                                                                                                       |
 | 1975 | Jaws                                          |                                                                                                                                                                                                                                    |
 | 1977 | Star Wars: Episode IV - A New Hope            |                                                                                                                                                                                                                                    |
 | 1982 | Blade Runner                                  | ✔️                                                                                                                                                                                                                                 |
 | 1942 | Casablanca                                    | ✔️                                                                                                                                                                                                                                 |
 
-Some notes: A combination of Aither + HUNO will give the best search results. HUNO has more variety in WEB vs bluray and generally has the best available release for this profile.
+Some notes: 
 
-
-Torrentleech, Anthelion, SkipTheTrailers and ReelFLiX are good backups. 
+- A combination of Aither + HUNO will give the best search results. HUNO has more variety in WEB vs bluray and generally has the best available release for this profile.
+- Torrentleech, Anthelion, SkipTheTrailers and ReelFLiX are good backups. 
