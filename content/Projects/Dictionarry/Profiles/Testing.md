@@ -18,7 +18,7 @@
 | 2009 | Avatar                                        | ❌ - weird releases for this one. Mislablled HDTV ranked #1, but properly skipped with quality profiles. Everything else ranked properly, but tracker priority is important here. Equal priority for Huno & Aither would work best. |
 | 2008 | The Dark Knight                               | ✔️                                                                                                                                                                                                                                 |
 | 2003 | The Lord of the Rings: The Return of the King | ✔️                                                                                                                                                                                                                                 |
-| 2000 | Gladiator                                     |                                                                                                                                                                                                                                    |
+| 2000 | Gladiator                                     | ✔️                                                                                                                                                                                                                                 |
 | 1999 | The Matrix                                    |                                                                                                                                                                                                                                    |
 | 1994 | Pulp Fiction                                  |                                                                                                                                                                                                                                    |
 | 1975 | Jaws                                          |                                                                                                                                                                                                                                    |
@@ -26,7 +26,7 @@
 | 1982 | Blade Runner                                  | ✔️                                                                                                                                                                                                                                 |
 | 1942 | Casablanca                                    | ✔️                                                                                                                                                                                                                                 |
 
-Some notes: A combination of Aither + HUNO will give the best search results. 
+Some notes: A combination of Aither + HUNO will give the best search results. HUNO has more variety in WEB vs bluray and generally has the best available release for this profile.
 
 
-Torrentleech, Anthelion and SkipTheTrailers, ReelFLiX are good backups. 
+Torrentleech, Anthelion, SkipTheTrailers and ReelFLiX are good backups. 
