@@ -17,7 +17,7 @@
 | 6    |                   | [[6.1 Pipelining]]                    |                                                                                                |                                            |                                     |                |
 |      |                   | [[6.2 Go-Back-N]]                     |                                                                                                |                                            |                                     |                |
 |      |                   | [[6.3 Selective Repeat]]              |                                                                                                |                                            |                                     |                |
-|      |                   | [[6.4 TCP]]                           |                                                                                                |                                            | [[Quiz 4 - TCP]]                    |                |
+|      |                   | [[6.4 TCP]]                           |                                                                                                |                                            | [[Quiz 4 - TCP.pdf]]                |                |
 |      |                   | [[6.5 Sequence Numbers & ACKs]]       |                                                                                                |                                            |                                     |                |
 
 
