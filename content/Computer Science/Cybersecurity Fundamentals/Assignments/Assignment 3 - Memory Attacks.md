@@ -1,7 +1,3 @@
-```html
-<div style="page-break-after: always;"></div>
-```
-
 ###### Exercise 1
 
 > [!exercise]+ Exercise 1
@@ -27,8 +23,6 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >            ||    ||
 >```
 
-<div style="page-break-after: always;"></div>
-
 ###### Exercise 2
 
 > [!exercise]+ Exercise 2
@@ -53,6 +47,7 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >           `YY~~~~YY'
 >            ||    ||
 >```
+
 <div style="page-break-after: always;"></div>
 
 ###### Exercise 3
@@ -85,8 +80,6 @@ To exploit the program and obtain the secret, we target the buffer overflow vuln
 >            `YY~~~~YY'
 >             ||    ||
 > ```
-
-<div style="page-break-after: always;"></div>
 
 ###### Exercise 4
 
@@ -124,7 +117,6 @@ $1 = {void ()} 0x565561fd \<secret>
 >            ||    ||
 >```
 
-<div style="page-break-after: always;"></div>
 ###### Exercise 5
 
 > [!exercise]+ Exercise 5
@@ -155,7 +147,6 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 >           `YY~~~~YY'
 >            ||    ||
 >```
-<div style="page-break-after: always;"></div>
 
 ###### Exercise 6
 
@@ -188,12 +179,9 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 >student@hacklabvm:/home/q6$ 
 >```
 
-
 <div style="page-break-after: always;"></div>
 
 ###### Exercise 7
-
-<div style="page-break-after: always;"></div>
 
 > [!exercise]+ Exercise
 > 
@@ -220,19 +208,6 @@ lrwxrwxrwx  1 student student   15 Mar 28 03:58 secet -> /home/q5/secret
 > a) They can disguise malicious traffic as legitimate web requests, DNS queries, or encrypted HTTPS connections on allowed ports.
 > 
 > b) C2 servers can adapt to use whichever ports are available, such as using DNS tunneling over port 53 if other options are restricted.
-
-
-
-###### Exercise 8
-
-<div style="page-break-after: always;"></div>
-
-###### Exercise 9
-
-<div style="page-break-after: always;"></div>
-
-###### Exercise 10
-
 
 
 
