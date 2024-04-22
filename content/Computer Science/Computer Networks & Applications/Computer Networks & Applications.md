@@ -21,6 +21,8 @@
 |      |                   | [[6.5 Byte Streams]]                  |                                                                                                |                                             |                                     |                |
 |      |                   | [[6.6 TCP]]                           |                                                                                                |                                             | [[Quiz 4 - TCP.pdf]]                |                |
 | 7    |                   | [[7.1 Flow Control]]                  |                                                                                                |                                             |                                     |                |
-|      |                   | [[7.2 Three Way Connection]]           |                                                                                                |                                             |                                     |                |
+|      |                   | [[7.2 Three Way Connection]]          |                                                                                                |                                             |                                     |                |
+|      |                   | [[7.3 Four Way Termination]]          |                                                                                                |                                             |                                     |                |
+|      |                   | [[7.4 Congestion]]                    |                                                                                                |                                             |                                     |                |
 
 
