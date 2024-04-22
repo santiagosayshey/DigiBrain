@@ -14,7 +14,7 @@
 |      | [[6.3 Selection Sort]]                            |                                                                                        |
 |      | [[6.4 Merge Sort]]                                |                                                                                        |
 |      | [[6.5 Quick Sort]]                                |                                                                                        |
-| 7    | [[7.1 Linked Lists]]                              |                                                                                        |
+| 7    | [[Content/Computer Science/Algorithm Design and Data Structures/Notes/7.1 Linked Lists]]                              |                                                                                        |
 |      | [[7.2 Friend Classes]]                            |                                                                                        |
 | 8    | [[8.1 Stacks]]                                    | [[Content/Computer Science/Algorithm Design and Data Structures/Workshops/Workshop 5]] |
 |      | [[8.2 Queues]]                                    |                                                                                        |
