@@ -20,6 +20,7 @@
 |      |                   | [[6.4 Timeouts]]                      |                                                                                                |                                             |                                     |                |
 |      |                   | [[6.5 Byte Streams]]                  |                                                                                                |                                             |                                     |                |
 |      |                   | [[6.6 TCP]]                           |                                                                                                |                                             | [[Quiz 4 - TCP.pdf]]                |                |
-| 7    |                   |                                       |                                                                                                |                                             |                                     |                |
+| 7    |                   | [[7.1 Flow Control]]                  |                                                                                                |                                             |                                     |                |
+|      |                   | [[7.2 Three Way Handshake]]           |                                                                                                |                                             |                                     |                |
 
 
