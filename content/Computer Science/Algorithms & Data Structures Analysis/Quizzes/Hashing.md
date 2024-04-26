@@ -4,8 +4,11 @@
 >
 > A. It eliminates the need for a hash function.
 > B. It ensures that no collisions ever occur.
-> C. It provides a systematic method for resolving hash collisions.
+> **C. It provides a systematic method for resolving hash collisions.**
 > D. It decreases the storage requirement for the hash table.
+> 
+> **Explanation:**
+> Linear probing is used to find the next available 'spot' in the array to place the key value pair. 
 
 > [!exercise]+ Exercise 2
 >
