@@ -61,7 +61,7 @@
 > D. It significantly increases the computational overhead of the hash function.
 > 
 > **Explanation:**
-> In a poor hash function, many collisions may occur causing values to be stored in probed slots. This increases search times to the tune of $O(n)
+> In a poor hash function, many collisions may occur causing values to be stored in probed slots. This increases search times to the tune of $O(n)$ (The hash function mapped every key to the same index)
 
 > [!exercise]+ Exercise 7
 >
@@ -69,7 +69,7 @@
 >
 > A. Load factor imbalance
 > B. Unilateral table size
-> C. Primary clustering
+> **C. Primary clustering**
 > D. High space complexity
 
 > [!exercise]+ Exercise 8
@@ -77,7 +77,7 @@
 > What characteristic a good hash function for hash tables?
 >
 > A. It should always return the same hash for a given key to ensure consistency.
-> B. It should distribute keys uniformly across the hash table to minimize collisions.
+> **B. It should distribute keys uniformly across the hash table to minimize collisions.**
 > C. It should result in a high number of collisions to fully utilize the hash table's capacity.
 > D. It should prioritize certain keys over others to improve search efficiency.
 
