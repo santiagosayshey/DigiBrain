@@ -48,7 +48,7 @@
 >
 > A. By rehashing the key with a secondary hash function.
 > B. By storing all colliding elements in a linked list at the index.
-> C. By sequentially probing the next slots until an empty one is found.
+> **C. By sequentially probing the next slots until an empty one is found.**
 > D. By immediately resizing the hash table to accommodate more elements.
 
 > [!exercise]+ Exercise 6
@@ -57,8 +57,11 @@
 >
 > A. It does not allow for the deletion of keys once they have been inserted.
 > B. It requires additional memory overhead to store metadata about the hash table's state.
-> C. It can lead to primary clustering, where contiguous blocks of slots get filled, leading to increased search times.
+> **C. It can lead to primary clustering, where contiguous blocks of slots get filled, leading to increased search times.**
 > D. It significantly increases the computational overhead of the hash function.
+> 
+> **Explanation:**
+> In a poor hash function, many collisions may occur causing values to be stored in probed slots. This increases search times to the tune of $O(n)
 
 > [!exercise]+ Exercise 7
 >
