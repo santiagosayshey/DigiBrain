@@ -14,17 +14,17 @@
 >
 > Which of the following best describes linear probing in a hash table?
 >
-> A. It inserts a link at entries with the same hash value into a list.
-> B. It distributes hash values of entries by always spaced them.
-> C. It iterates to find the next available slot by looking sequentially from the original hash position.
-> D. It inserts an element into the hash table one upon reaching a certain load factor.
+> A. A method to link all entries with the same hash value into a list.
+> B. A technique that places all entries in a binary search tree.
+> C. **A strategy to find the next available slot by looking sequentially from the original hash position.**
+> D. A method to double the hash table size upon reaching a certain load factor.
 
 > [!exercise]+ Exercise 3
 >
 > In the context of hash tables, what does a "tombstone" signify when using deletion strategies like linear probing?
 >
 > A. An entry that has been permanently deleted and cannot be reused.
-> B. A marker that an entry has been deleted, but the slot can be reused.
+> B. **A marker that an entry has been deleted, but the slot can be reused.**
 > C. A special value indicating the end of the table.
 > D. A placeholder for future insertions to maintain hash table integrity.
 
@@ -35,7 +35,12 @@
 > A. Determinism
 > B. Efficiency in computing the hash value
 > C. Uniform distribution of hash values
-> D. All of the above
+> **D. All of the above**
+> 
+> **Explanation:**
+> Determinism is necessary to be able to reapply the hash function when searching through the hash table.
+> Uniform distribution is necessary to limit collisions. 
+> Efficient hash function is necessary to keep constant operations. 
 
 > [!exercise]+ Exercise 5
 >
