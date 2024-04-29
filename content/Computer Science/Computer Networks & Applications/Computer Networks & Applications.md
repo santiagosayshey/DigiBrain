@@ -24,6 +24,7 @@
 |      |                   | [[7.2 Three Way Connection]]          |                                                                                                |                                             |                                     |                |
 |      |                   | [[7.3 Four Way Termination]]          |                                                                                                |                                             |                                     |                |
 |      |                   | [[7.4 Congestion]]                    |                                                                                                |                                             |                                     |                |
-|      |                   |                                       |                                                                                                |                                             |                                     |                |
+| 8    | Network Layer     | [[8.1 Network Layer]]                 |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.2 Routing Tables]]                |                                                                                                |                                             |                                     |                |
 
 
