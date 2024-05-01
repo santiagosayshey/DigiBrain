@@ -24,7 +24,7 @@
 |      | [[9.3 Balancing Trees]]                           |                                                                                        |
 |      | [[9.4 Tries]]                                     |                                                                                        |
 |      | [[9.5 Tree Traversal]]                            |                                                                                        |
-| 10   | [[10.1 Heaps]]                                    | [[Workshop 6]]                                                                         |
+| 10   | [[10.1 Heaps]]                                    | [[Content/Computer Science/Algorithm Design and Data Structures/Workshops/Workshop 6]]                                                                         |
 |      | [[10.2 Vector Heaps]]                             |                                                                                        |
 |      | [[10.3 Heap Sort]]                                |                                                                                        |
 | 11   | [[11.1 Selecting Algorithms and Data Structures]] |                                                                                        |
