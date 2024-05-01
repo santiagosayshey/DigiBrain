@@ -32,3 +32,18 @@
 > csf2021_{helper-evaluate-mammogram}
 >```
 
+
+> [!exercise]+ Exercise 4
+> Access `http://192.168.56.113:8081/admin.php` to get the secret!
+> 
+> **Answer:**
+> I visited the page and clicked on the request button, which revealed the hint: `"Sorry, only superadmins are allowed to see the secret."` This led me to inspect the cookies via the browser’s developer tools.
+> 
+> I adjusted the `superuser` cookie to `true` and clicked on the request button again:
+> 
+> ```
+> Welcome Super User! Here is the secret: csf2021_{client-postbox-amid}
+> ```
+> 
+> ![[Pasted image 20240502052455.png]]
+
