@@ -16,15 +16,19 @@
 > 4. Briefly write an explanation that you might provide to your grandparent (or anyone who may not be IT savvy) why they should be careful when connecting to open WiFi hotspots like the ones at airports.
 
 
+
 > [!exercise]+ Exercise 3 
 > Go to `http://<Your Hacklab VM IP addr>:8081/method.php` to get the secret!
 > 
 > **Answer:**
-> I first tried visiting the site in my browser to find any hints - `Hm... you don't seem to be using the correct METHOD. Explore your available OPTIONS.` Pretty obvious to now try and send an `OPTIONS` request via `CURL`.
+> Initially, I tried visiting the site in my browser but only received a hint: `"Hm... you don't seem to be using the correct METHOD. Explore your available OPTIONS."` This made it clear that I should attempt an `OPTIONS` request via `curl`.
 > 
 > ```bash
-> curl -x OPTIONS http://192.168.56.113:8081/method.php
+> curl -X OPTIONS http://192.168.56.113:8081/method.php
 > ```
 > 
-> This returned the following flag 
+> This returned the flag:
+> ```
+> csf2021_{helper-evaluate-mammogram}
+>```
 
