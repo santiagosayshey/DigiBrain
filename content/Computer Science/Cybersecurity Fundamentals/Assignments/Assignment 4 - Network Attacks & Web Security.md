@@ -48,14 +48,12 @@
 > ![[Pasted image 20240502052455.png]]
 
 
-Understood. Here's the updated version:
-
 > [!exercise]+ Exercise 6
 > Go to `http://<Your Hacklab VM IP addr>:8083/doa.php` to get the secret!
 > 
 > **Answer:**
 > 
-> Upon navigating to the webpage and seeing the form allowing me to check if a host is dead or alive by entering an IP address, I suspected a possible command injection vulnerability.
+> Upon navigating to the webpage and seeing tan input, I suspected a possible command injection vulnerability.
 > 
 > Before attempting to exploit the vulnerability, I set up a netcat listener on my local machine using:
 > 
@@ -77,17 +75,11 @@ Understood. Here's the updated version:
 > 
 > Inside the reverse shell, I navigated the filesystem to locate the secret file. Initially, I used the `ls -a` command to list all files, including hidden ones, and discovered `.the_secret_file`.
 > 
-> ```
-> ls -a
-> ```
-> 
 > I then used the `cat` command to reveal its contents:
 > 
 > ```
 > cat .the_secret_file
 > ```
-> 
-> **Secret Revealed:**
 > ```
 > ___________________________________________
 > / csf2024s1_{botchier-disquiparancy-propp \
