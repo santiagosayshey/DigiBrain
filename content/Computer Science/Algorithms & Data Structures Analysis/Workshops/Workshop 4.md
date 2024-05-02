@@ -3,6 +3,7 @@
 > Argue that since sorting n elements takes $O(n \cdot \log n)$ time in the worst case in the comparison model, any comparison based algorithm for constructing a binary search tree from an arbitrary list of n elements take  $O(n \cdot \log n)$ time in the worst case.
 > 
 > **Answer:**
+> We want to prove that there is no comparison-based algorithm that can construct a binary search tree faster than O(n log n) time in the worst case.
 > 
 
 
@@ -14,3 +15,7 @@
 >   
 > Professor Bunyan claims that for any a ∈ A, b ∈ B, and c ∈ C, it holds that a ≤ b ≤ c. Provide the smallest possible counterexample to disprove this claim.
 
+
+Inserting a single element into a tree takes $O(\log n)$ time in the worst case. Since we have n elements to insert, the total time to construct the binary search tree is $O(n \log n)$.
+
+We can argue that this O(n log n) time is a lower bound for any comparison-based algorithm because constructing a binary search tree allows us to sort the list of elements. We know that sorting a list of n elements using comparisons requires at least O(n log n) time in the worst case. Therefore, constructing a binary search tree must also take at least O(n log n) time when using comparisons. If there were a faster comparison-based algorithm to construct a binary search tree, it would contradict the lower bound for comparison-based sorting.
