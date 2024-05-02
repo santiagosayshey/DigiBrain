@@ -53,7 +53,7 @@
 > 
 > **Answer:**
 > 
-> I began tackling the challenge by diving into the PHP source code of the SQL Injection page. I noticed that the query was directly incorporating user inputs via session variables into an SQL command. This configuration was particularly vulnerable to SQL injection, especially if those session variables could be altered.
+> I started off by looking at the PHP source code of the SQL Injection page. I noticed that the query was directly incorporating user inputs via session variables into an SQL command. This configuration was particularly vulnerable to SQL injection ... especially if those session variables could be altered!
 > 
 > ```
 > a' UNION SELECT user, password FROM users -- -&Submit=Submit
