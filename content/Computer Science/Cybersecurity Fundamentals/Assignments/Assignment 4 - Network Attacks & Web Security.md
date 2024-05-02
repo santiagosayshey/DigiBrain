@@ -48,6 +48,41 @@
 > ![[Pasted image 20240502052455.png]]
 
 
+> [!exercise]+ Exercise 5
+> When on the high-security setting of DVWA, go to the SQL injection section and attempt to exploit the vulnerability. A helpful hint is to examine the source code present on the page. Retrieve the hash associated with the user ‘1337’ and also convert the hash to its plaintext form. Explain the process of exploiting the vulnerability, identify the type of hash obtained, and describe the method used to convert the hash to plaintext.
+> 
+> **Answer:**
+> 
+> To address the challenge, I started by examining the PHP source code for the SQL Injection page, identifying that the query used session variables which incorporated user inputs directly into an SQL command. This setup was prone to SQL injection if the session variable could be manipulated.
+> 
+> Using the input:
+> 
+> ```
+> a' UNION SELECT user, password FROM users -- -&Submit=Submit
+> ```
+> 
+> I injected into the session variable to manipulate the SQL query. This injection effectively combined a falsified SQL command with the original, intended to pull user names and passwords directly from the database.
+> 
+> The output displayed the hash for user ‘1337’ as `8d3533d75ae2c3966d7e0d4fcc69216b`. From workshop 8, we know that these are md5 hashes WITHOUT salts, so we can now begin decrypting it to plain text.
+> 
+> - I've added an excerpt from workshop 5 to verify this
+> ```
+> passwords here are MD5 hashes, not plaintext passwords. But you can right away tell that the password for the user admin is the same as smithy, becuase their password hashes are identical (this is why password SALT is so important, as we will learn in later workshops).
+> ```
+> 
+> Using the same hashcat method from assignment 1 with the `rockyou.txt` dictionary:
+> 
+> ```
+> hashcat -m 500 -o out hash rockyou.txt --force
+> ```
+> 
+> The wordlist used was a comprehensive compilation of known passwords, which aided in a successful brute-force attack, revealing that the plaintext form of the hash was `charley`.
+> 
+> To confirm the findings, I logged back into the DVWA using the credentials `1337` and `charley`, verifying that the password matched, thereby successfully exploiting the vulnerability and decrypting the hash.
+> 
+> This exercise illustrated the critical importance of sanitizing and validating all user inputs in web applications to prevent SQL injections and potential data breaches.
+
+
 > [!exercise]+ Exercise 6
 > Go to `http://<Your Hacklab VM IP addr>:8083/doa.php` to get the secret!
 > 
@@ -92,3 +127,4 @@
 >                 ||     ||
 > ```
 > 
+
