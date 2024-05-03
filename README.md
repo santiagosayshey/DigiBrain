@@ -2,8 +2,9 @@
 
 Welcome to my Digital Brain. This repository is mostly a collection of my Computer Science notes at my time at the University of Adelaide, but also includes some journaling stuff as well as some of my side projects.
 
-My note taking philosophy is to create beautiful looking notes, rather than x. I find that it helps to facilitate visual based learning, rather than wrote memorisation. I've got quite a few custom CSS snippets that change the layout of callouts that help me to do this. 
+My approach to note-taking prioritises creating "beautiful" notes, as opposed to focusing solely on the content itself. I believe that this strategy enhances visual-based learning and makes the process more engaging, rather than relying on rote memorisation. 
 
+**Disclaimer:** As someone who believes in FOSS, I have created this repository to serve as a learning resource. It contains solutions to assignments, tutorials, problem sets, etc. However, it is crucial to emphasise that under no circumstances should you copy these solutions verbatim for your own assignments. **Don't be an idiot.**
 
 ## Instructions
 
