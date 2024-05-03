@@ -27,5 +27,9 @@
 | 8    | Network Layer     | [[8.1 Network Layer]]                 |                                                                                                |                                             |                                     |                |
 |      |                   | [[8.2 Routing Tables]]                |                                                                                                |                                             |                                     |                |
 |      |                   | [[8.3 Internet Protocol]]             |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.4 Networks]]                      |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.5 Classful Addressing]]           |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.6 Classless Addressing]]          |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.7 Broadcast Addressing]]          |                                                                                                |                                             |                                     |                |
 
 
