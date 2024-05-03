@@ -4,8 +4,7 @@ Welcome to my Digital Brain. This repository is mostly a collection of my Comput
 
 My approach to note-taking prioritises creating "beautiful" notes, as opposed to focusing solely on the content itself. I believe that this strategy enhances visual-based learning and makes the process more engaging, rather than relying on rote memorisation.
 
-
- As someone who believes in FOSS, I have created this repository to serve as a learning resource. It contains solutions to assignments, tutorials, problem sets, etc. However, it is crucial to emphasise that under no circumstances should you copy these solutions verbatim for your own assignments. **Don't be an idiot.**
+ **Disclaimer:** As someone who believes in FOSS, I have created this repository to serve as a learning resource. It contains solutions to assignments, tutorials, problem sets, etc. However, it is crucial to emphasise that under no circumstances should you copy these solutions verbatim for your own assignments. **Don't be an idiot.**
 
 
 # View these notes!
