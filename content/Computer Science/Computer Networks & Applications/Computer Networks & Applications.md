@@ -26,5 +26,6 @@
 |      |                   | [[7.4 Congestion]]                    |                                                                                                |                                             |                                     |                |
 | 8    | Network Layer     | [[8.1 Network Layer]]                 |                                                                                                |                                             |                                     |                |
 |      |                   | [[8.2 Routing Tables]]                |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.3 Internet Protocol]]             |                                                                                                |                                             |                                     |                |
 
 
