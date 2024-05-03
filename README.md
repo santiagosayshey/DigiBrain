@@ -8,7 +8,9 @@ My approach to note-taking prioritises creating "beautiful" notes, as opposed to
  As someone who believes in FOSS, I have created this repository to serve as a learning resource. It contains solutions to assignments, tutorials, problem sets, etc. However, it is crucial to emphasise that under no circumstances should you copy these solutions verbatim for your own assignments. **Don't be an idiot.**
 
 
-# How do I view these notes?
+# View these notes!
+
+You can read most of the notes inside GitHub, but there won't be any images / gifs and the formatting will be all over the place. Instead, you should:
 
 1. **Download the vault:**
    - **Download as ZIP:**
