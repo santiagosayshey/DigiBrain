@@ -30,6 +30,6 @@
 |      |                   | [[8.4 Networks]]                      |                                                                                                |                                             |                                     |                |
 |      |                   | [[8.5 Classful Addressing]]           |                                                                                                |                                             |                                     |                |
 |      |                   | [[8.6 Classless Addressing]]          |                                                                                                |                                             |                                     |                |
-|      |                   | [[8.7 Broadcast Addressing]]          |                                                                                                |                                             |                                     |                |
+|      |                   | [[8.7 Broadcast]]          |                                                                                                |                                             |                                     |                |
 
 
