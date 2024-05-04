@@ -1,15 +1,34 @@
 
+
 > [!exercise]+ Exercise 1 - DHCP Attack
+>
 > Another type of attack that was not included in the workshop is DHCP (dynamic host configuration protocol) based attacks. Do a bit of research into how DHCP works and about some DHCP attacks and answer the following questions.
+>
 > 1. What are the 4 packets (messages) that are communicated between the client seeking and IP address and the DHCP server?
+>
 > 2. Are the 4 messages Layer 2 unicast or broadcast (be careful not to confuse between Layer 3 broadcast, which is sending to an IP broadcast address like 10.0.2.255, as opposed to Layer 2 broadcast which is sent to MAC address FF:FF:FF:FF:FF:FF).
+>
 > 3. Therefore, in a switched network, which of the 4 messages in the DHCP negotiation would the attacker be able to observe?
-> 4. Briefly explain what DHCP spoofing and DHCP starvation attacks are executed, and how the two can be used in combination. 
-> 5. For an adversary looking to perform MITM, which DHCP configuration option(s) would you try to manipulate? 
+>
+> 4. Briefly explain what DHCP spoofing and DHCP starvation attacks are executed, and how the two can be used in combination. 
+>
+> 5. For an adversary looking to perform MITM, which DHCP configuration option(s) would you try to manipulate?
+>
 > 6. Briefly explain how "DHCP **snooping**" configuration in a switch work to prevent DHCP **spoofing**?
-> 
+>
 > **Answers:**
-> 1. ANSWER GOES HERE
+>
+> 1. The 4 packets communicated between the client and DHCP server are **DISCOVERY, OFFER, REQUEST and ACKNOWLEDGE**. These messages enable the client to obtain an IP address from the server.
+>
+> 2. DISCOVERY and REQUEST packets are sent as Layer 2 broadcasts because the requesting client does not have an IP address yet. OFFER and ACKNOWLEDGE packets are sent as Layer 2 unicasts because the DHCP server knows the client's MAC address and can respond directly.
+>
+> 3. In a switched network, an attacker would be able to observe the broadcast DISCOVERY and REQUEST messages on all switch ports. However, the attacker would not see the unicast OFFER and ACKNOWLEDGE packets exchanged directly between the server and client.
+>
+> 4. DHCP spoofing involves setting up a fake DHCP server to hand out incorrect IP configurations to clients. DHCP starvation overwhelms the real DHCP server by flooding it with many requests, depleting the available IP address pool. Used together, these attacks can prevent the real DHCP server from providing service and allow the attacker to give clients malicious network settings.
+>
+> 5. To execute a MITM attack, an adversary would likely try to manipulate the DNS server and default gateway settings provided by DHCP. By controlling DNS resolution and routing, the attacker can redirect and intercept the victim's traffic.
+>
+> 6. DHCP snooping is a feature configured on switches to combat DHCP spoofing attacks. The switch identifies which physical ports are allowed to send DHCP server messages (OFFER and ACKNOWLEDGE) and which are only permitted client messages. This stops rogue DHCP servers on untrusted ports from handing out fake DHCP information. The switch tracks legitimate DHCP-assigned addresses in a binding table.
 
 
 > [!exercise]+ Exercise 2 - MITM Prevention
