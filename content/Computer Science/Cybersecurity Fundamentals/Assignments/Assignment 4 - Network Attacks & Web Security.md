@@ -59,11 +59,7 @@
 >
 > 3. Ignoring browser warnings and proceeding to a website **can expose sensitive data to attackers** who may be intercepting traffic due to a MITM attack. SSL/TLS errors indicate a possible MITM situation.
 >
-> 4. Open Wi-Fi hotspots at places like airports are convenient, but they come with risks. Since anyone can connect without a password, it's easy for bad guys to snoop on what you're doing online and find sensitive info like passwords and banking info
->
->    They might be able to see sensitive things like passwords or banking info. It's best to avoid doing anything private or sensitive on these networks. Stick to basic web browsing, and save important stuff for when you're on a network you trust, like at home.
->
->    If you absolutely must use a public hotspot, make sure the websites you visit have a little lock icon and "https" in the address bar. That means your connection to the site is secure and encrypted.
+> 4. Open Wi-Fi hotspots at places like airports are convenient, but they come with risks. Since anyone can connect without a password, it's **easy for bad guys to snoop on what you're doing** online and find sensitive info like passwords! If you absolutely must use a public hotspot, **make sure the websites you visit have a little lock icon and "https" in the address bar**. That means your connection to the site is secure and encrypted.
 
 # Exercise 3
 
@@ -157,9 +153,6 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 > To confirm the findings, I logged back into the DVWA using the credentials `1337` and `charley`, verifying that the password matched, thereby successfully exploiting the vulnerability and decrypting the hash.
 > 
 > ![[Pasted image 20240502104809.png]]
-
-
-<div style="page-break-after: always;"></div>
 
 # Exercise 6
 
