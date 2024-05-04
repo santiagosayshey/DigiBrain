@@ -36,6 +36,9 @@
 > 1. **DHCP snooping analyzes messages and tracks IP-port bindings**. Only trusted ports can send DHCP server messages. Untrusted ports are client-only. **Prevents rogue DHCP servers on untrusted ports.****
 
 
+<div style="page-break-after: always;"></div>
+
+
 > [!exercise]+ Exercise 2 - MITM Prevention
 >
 > 1. Briefly explain (1 or 2 sentences max) how HTTPS can defeat MITM via ARP cache poisoning.
@@ -60,6 +63,8 @@
 >
 >    If you absolutely must use a public hotspot, make sure the websites you visit have a little lock icon and "https" in the address bar. That means your connection to the site is secure and encrypted.
 
+
+<div style="page-break-after: always;"></div>
 
 
 > [!exercise]+ Exercise 3 
@@ -91,6 +96,9 @@
 > ```
 > 
 > ![[Pasted image 20240502052455.png]]
+
+
+<div style="page-break-after: always;"></div>
 
 
 > [!exercise]+ Exercise 5
@@ -147,6 +155,9 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 > To confirm the findings, I logged back into the DVWA using the credentials `1337` and `charley`, verifying that the password matched, thereby successfully exploiting the vulnerability and decrypting the hash.
 > 
 > ![[Pasted image 20240502104809.png]]
+
+
+<div style="page-break-after: always;"></div>
 
 
 > [!exercise]+ Exercise 6
