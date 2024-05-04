@@ -1,4 +1,3 @@
-
 > [!exercise]+ Exercise 1 - DHCP Attack
 >
 > Another type of attack that was not included in the workshop is DHCP (dynamic host configuration protocol) based attacks. Do a bit of research into how DHCP works and about some DHCP attacks and answer the following questions.
@@ -13,27 +12,53 @@
 >
 > 5. For an adversary looking to perform MITM, which DHCP configuration option(s) would you try to manipulate?
 >
-> 6. Briefly explain how "DHCP **snooping**" configuration in a switch work to prevent DHCP **spoofing**?
+> 6. Briefly explain how "DHCP snooping" configuration in a switch work to prevent DHCP spoofing?
 >
 > **Answers:**
 >
-> 1. The four messages exchanged between a client and the DHCP server are **DHCP Discover, DHCP Offer, DHCP Request, and DHCP Acknowledgement**. These messages allow the client to **find a DHCP server, receive an IP address offer, formally request that IP address, and finally obtain confirmation** of the assigned address from the server.
+> 1. The four messages are **DHCP Discover, DHCP Offer, DHCP Request, and DHCP Acknowledgement**. They allow the client to find a server, get an IP offer, request the IP, and receive confirmation.
+> 
 >
-> 2. DHCP **Discover and DHCP Request messages are sent as Layer 2 broadcasts** because the client does not have an IP address configured yet. DHCP **Offer and DHCP Acknowledgement messages are sent as Layer 2 unicasts** directly to the client's MAC address.
-> 3. In a switched network environment, an attacker would be **able to see the DHCP Discover and DHCP Request messages** since they are broadcast and thus sent to all ports on the switch. However, the attacker would not be able to directly observe the DHCP Offer and DHCP Acknowledgement messages since those are unicast between the server and client.
+> 2. **DHCP Discover and Request are Layer 2 broadcasts**. The client has no IP yet. **DHCP Offer and Acknowledgement are Layer 2 unicasts** to the client's MAC.
+> 
 >
-> 4. In a DHCP spoofing attack, the attacker sets up a malicious DHCP server and tries to trick clients into using its services instead of the legitimate one. This allows the attacker to provide false IP configuration to the clients. A DHCP starvation attack involves exhausting the IP address pool on the real DHCP server by flooding it with a large number of DHCP requests. When combined, these attacks can prevent clients from getting valid IP addresses and configuration from the real server, while allowing the attacker to provide them with malicious settings from the rogue server.
+> 3. In a switched network, an attacker could **observe the broadcast DHCP Discover and Request messages**, but not the unicast DHCP Offer and Acknowledgement.
+> 
 >
-> 5. To carry out a successful MITM attack, an adversary would likely focus on manipulating the DNS server and default gateway settings handed out by the DHCP server. By providing a false DNS server, the attacker can resolve domain names to IP addresses of their choosing, redirecting client traffic. By setting a false default gateway, the attacker can intercept and inspect the client's traffic. Other settings like NTP or WINS servers could also be potential targets.
+> 4. **DHCP spoofing**: Attacker sets up a fake DHCP server to provide false IP configurations to clients. **DHCP starvation**: Attacker floods the real DHCP server with a high volume of DHCP requests to exhaust the available IP address pool. 
+>    
+>    It is often useful (for the attacker) to perform a DHCP starvation attack before DHCP spoofing, so that the real DHCP server will be unable to respond to legitimate client requests. 
 >
-> 6. DHCP snooping is a security feature that can be enabled on network switches to combat rogue DHCP servers and IP spoofing. When DHCP snooping is configured, the switch analyzes DHCP messages and builds a binding table to track IP addresses assigned to each switch port. Ports are classified as trusted or untrusted, and only trusted ports are allowed to send DHCP server messages like DHCP Offer. This prevents malicious DHCP servers on untrusted ports from handing out fake IP addresses and configuration. DHCP snooping can help ensure that only legitimate DHCP servers are providing IP addresses on the network.
+>    **When the two attacks are combined**, the attacker can prevent clients from getting valid IP addresses from the real server, while simultaneously providing them with malicious network configurations via the rogue DHCP server.
+>
+>
+> 5. For MITM, an attacker would manipulate the **DNS server** to redirect traffic and **default gateway** to intercept it. NTP and WINS settings are also potential targets.
+> 1. **DHCP snooping analyzes messages and tracks IP-port bindings**. Only trusted ports can send DHCP server messages. Untrusted ports are client-only. **Prevents rogue DHCP servers on untrusted ports.****
 
 
 > [!exercise]+ Exercise 2 - MITM Prevention
+>
 > 1. Briefly explain (1 or 2 sentences max) how HTTPS can defeat MITM via ARP cache poisoning.
+>
 > 2. In the same context, why did Chrome developers decided to display "Not Secure" on HTTP websites?
+>
 > 3. In the same context, what's the danger of ignoring a browser error message like this one and clicking on "Continue to this website"?
+>
 > 4. Briefly write an explanation that you might provide to your grandparent (or anyone who may not be IT savvy) why they should be careful when connecting to open WiFi hotspots like the ones at airports.
+>
+> **Answers:**
+>
+> 1. **HTTPS encrypts traffic end-to-end** between the client and server. Even if an attacker uses ARP cache poisoning to intercept traffic, **they can't decrypt it without the server's private key**.
+>
+> 2. Chrome displays "Not Secure" on HTTP sites to **warn users that their traffic can be intercepted and read by attackers**. This encourages the adoption of HTTPS for better security.
+>
+> 3. Ignoring browser warnings and proceeding to a website **can expose sensitive data to attackers** who may be intercepting traffic due to a MITM attack. SSL/TLS errors indicate a possible MITM situation.
+>
+> 4. Open Wi-Fi hotspots at places like airports are convenient, but they come with risks. Since anyone can connect without a password, it's easy for bad guys to snoop on what you're doing online. 
+>
+>    They might be able to see sensitive things like passwords or banking info. It's best to avoid doing anything private or sensitive on these networks. Stick to basic web browsing, and save important stuff for when you're on a network you trust, like at home.
+>
+>    If you absolutely must use a public hotspot, make sure the websites you visit have a little lock icon and "https" in the address bar. That means your connection to the site is secure and encrypted.
 
 
 
