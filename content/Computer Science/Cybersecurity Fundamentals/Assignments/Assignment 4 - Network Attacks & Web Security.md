@@ -1,3 +1,5 @@
+# Exercise 1
+
 > [!exercise]+ Exercise 1 - DHCP Attack
 >
 > Another type of attack that was not included in the workshop is DHCP (dynamic host configuration protocol) based attacks. Do a bit of research into how DHCP works and about some DHCP attacks and answer the following questions.
@@ -35,9 +37,9 @@
 > 5. For MITM, an attacker would manipulate the **DNS server** to redirect traffic and **default gateway** to intercept it. NTP and WINS settings are also potential targets.
 > 1. **DHCP snooping analyzes messages and tracks IP-port bindings**. Only trusted ports can send DHCP server messages. Untrusted ports are client-only. **Prevents rogue DHCP servers on untrusted ports.****
 
-
 <div style="page-break-after: always;"></div>
 
+# Exercise 2
 
 > [!exercise]+ Exercise 2 - MITM Prevention
 >
@@ -57,15 +59,13 @@
 >
 > 3. Ignoring browser warnings and proceeding to a website **can expose sensitive data to attackers** who may be intercepting traffic due to a MITM attack. SSL/TLS errors indicate a possible MITM situation.
 >
-> 4. Open Wi-Fi hotspots at places like airports are convenient, but they come with risks. Since anyone can connect without a password, it's easy for bad guys to snoop on what you're doing online. 
+> 4. Open Wi-Fi hotspots at places like airports are convenient, but they come with risks. Since anyone can connect without a password, it's easy for bad guys to snoop on what you're doing online and find sensitive info like passwords and banking info
 >
 >    They might be able to see sensitive things like passwords or banking info. It's best to avoid doing anything private or sensitive on these networks. Stick to basic web browsing, and save important stuff for when you're on a network you trust, like at home.
 >
 >    If you absolutely must use a public hotspot, make sure the websites you visit have a little lock icon and "https" in the address bar. That means your connection to the site is secure and encrypted.
 
-
-<div style="page-break-after: always;"></div>
-
+# Exercise 3
 
 > [!exercise]+ Exercise 3 
 > Go to `http://<Your Hacklab VM IP addr>:8081/method.php` to get the secret!
@@ -82,6 +82,7 @@
 > csf2021_{helper-evaluate-mammogram}
 >```
 
+# Exercise 4
 
 > [!exercise]+ Exercise 4
 > Access `http://192.168.56.113:8081/admin.php` to get the secret!
@@ -100,6 +101,7 @@
 
 <div style="page-break-after: always;"></div>
 
+# Exercise 5
 
 > [!exercise]+ Exercise 5
 > When on the high-security setting of DVWA, go to the SQL injection section and attempt to exploit the vulnerability. A helpful hint is to examine the source code present on the page. Retrieve the hash associated with the user ‘1337’ and also convert the hash to its plaintext form. Explain the process of exploiting the vulnerability, identify the type of hash obtained, and describe the method used to convert the hash to plaintext.
@@ -159,6 +161,7 @@ Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 
 <div style="page-break-after: always;"></div>
 
+# Exercise 6
 
 > [!exercise]+ Exercise 6
 > Go to `http://<Your Hacklab VM IP addr>:8083/doa.php` to get the secret!
