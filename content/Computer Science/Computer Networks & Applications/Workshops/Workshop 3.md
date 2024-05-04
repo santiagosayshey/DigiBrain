@@ -17,14 +17,24 @@
 
 
 > [!exercise]+ Exercise 3 - Forwarding
-> Consider an IP network using 32-bit host addresses. Suppose a router has four links, numbered 0 to 3, and packets are to be forwarded to the link interfaces as follows
+> Consider an IP network using 32-bit host addresses. Suppose a router has four links, numbered 0 to 3, and packets are to be forwarded to the link interfaces as follows:
+>
+> | _**Destination Address Range**_                                                                                             | _**Link Interface**_ |
+> | --------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+> | 11100000 00000000 00000000 00000000     <br><br>                        through<br><br>11100000 00000000 11111111 11111111 | 0                    |
+> | 11100000 00000001 00000000 00000000<br><br>                       through<br><br>11100000 00000001 11111111 11111111       | 1                    |
+> | 11100000 00000010 00000000 00000000<br><br>                      through<br><br>11100001 11111111 11111111 11111111       | 2                    |
+> | Otherwise                                                                                                                   | 3                    |
+>
+> - Write out a forwarding table, that uses longest prefix matching, and forwards packets to the correct link interfaces.
+> - Describe how your forwarding table determines the appropriate link interface for the IP datagrams with destination addresses:
+>   - 11111000 10010001 01010001 01010101
+>   - 11100000 00000000 11000011 00111100
+>   - 11100001 10000000 00010001 01110111
+
+
+> [!exercise]+ Exercise 4 - Routing Algorithms
+> ![[Screenshot 2017-04-26 13.30.40 1.png]]
 > 
-
-| _**Destination Address Range**_                                                                                             | _**Link Interface**_ |
-| --------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| 11100000 00000000 00000000 00000000     <br><br>                        through<br><br>11100000 00000000 11111111  11111111 | 0                    |
-| 11100000 00000001 00000000 00000000<br><br>                       through<br><br>11100000 00000001 11111111  11111111       | 1                    |
-| 11100000 00000010 00000000 00000000<br><br>                      through<br><br>11100001 11111111  11111111  11111111       | 2                    |
-| Otherwise                                                                                                                   | 3                    |
-
+> Using node E as your base, show how node E builds it's routing table, using Dijkstra's algorithm and then using Distance Vector.
 
