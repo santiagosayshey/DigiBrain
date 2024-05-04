@@ -7,6 +7,9 @@
 > 4. Briefly explain what DHCP spoofing and DHCP starvation attacks are executed, and how the two can be used in combination. 
 > 5. For an adversary looking to perform MITM, which DHCP configuration option(s) would you try to manipulate? 
 > 6. Briefly explain how "DHCP **snooping**" configuration in a switch work to prevent DHCP **spoofing**?
+> 
+> **Answers:**
+> 1. ANSWER GOES HERE
 
 
 > [!exercise]+ Exercise 2 - MITM Prevention
