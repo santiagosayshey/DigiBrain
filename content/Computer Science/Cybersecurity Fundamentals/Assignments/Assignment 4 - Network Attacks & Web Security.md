@@ -1,5 +1,4 @@
 
-
 > [!exercise]+ Exercise 1 - DHCP Attack
 >
 > Another type of attack that was not included in the workshop is DHCP (dynamic host configuration protocol) based attacks. Do a bit of research into how DHCP works and about some DHCP attacks and answer the following questions.
@@ -18,17 +17,16 @@
 >
 > **Answers:**
 >
-> 1. The 4 packets communicated between the client and DHCP server are **DISCOVERY, OFFER, REQUEST and ACKNOWLEDGE**. These messages enable the client to obtain an IP address from the server.
+> 1. The four messages exchanged between a client and the DHCP server are **DHCP Discover, DHCP Offer, DHCP Request, and DHCP Acknowledgement**. These messages allow the client to **find a DHCP server, receive an IP address offer, formally request that IP address, and finally obtain confirmation** of the assigned address from the server.
 >
-> 2. DISCOVERY and REQUEST packets are sent as Layer 2 broadcasts because the requesting client does not have an IP address yet. OFFER and ACKNOWLEDGE packets are sent as Layer 2 unicasts because the DHCP server knows the client's MAC address and can respond directly.
+> 2. DHCP **Discover and DHCP Request messages are sent as Layer 2 broadcasts** because the client does not have an IP address configured yet. DHCP **Offer and DHCP Acknowledgement messages are sent as Layer 2 unicasts** directly to the client's MAC address.
+> 3. In a switched network environment, an attacker would be **able to see the DHCP Discover and DHCP Request messages** since they are broadcast and thus sent to all ports on the switch. However, the attacker would not be able to directly observe the DHCP Offer and DHCP Acknowledgement messages since those are unicast between the server and client.
 >
-> 3. In a switched network, an attacker would be able to observe the broadcast DISCOVERY and REQUEST messages on all switch ports. However, the attacker would not see the unicast OFFER and ACKNOWLEDGE packets exchanged directly between the server and client.
+> 4. In a DHCP spoofing attack, the attacker sets up a malicious DHCP server and tries to trick clients into using its services instead of the legitimate one. This allows the attacker to provide false IP configuration to the clients. A DHCP starvation attack involves exhausting the IP address pool on the real DHCP server by flooding it with a large number of DHCP requests. When combined, these attacks can prevent clients from getting valid IP addresses and configuration from the real server, while allowing the attacker to provide them with malicious settings from the rogue server.
 >
-> 4. DHCP spoofing involves setting up a fake DHCP server to hand out incorrect IP configurations to clients. DHCP starvation overwhelms the real DHCP server by flooding it with many requests, depleting the available IP address pool. Used together, these attacks can prevent the real DHCP server from providing service and allow the attacker to give clients malicious network settings.
+> 5. To carry out a successful MITM attack, an adversary would likely focus on manipulating the DNS server and default gateway settings handed out by the DHCP server. By providing a false DNS server, the attacker can resolve domain names to IP addresses of their choosing, redirecting client traffic. By setting a false default gateway, the attacker can intercept and inspect the client's traffic. Other settings like NTP or WINS servers could also be potential targets.
 >
-> 5. To execute a MITM attack, an adversary would likely try to manipulate the DNS server and default gateway settings provided by DHCP. By controlling DNS resolution and routing, the attacker can redirect and intercept the victim's traffic.
->
-> 6. DHCP snooping is a feature configured on switches to combat DHCP spoofing attacks. The switch identifies which physical ports are allowed to send DHCP server messages (OFFER and ACKNOWLEDGE) and which are only permitted client messages. This stops rogue DHCP servers on untrusted ports from handing out fake DHCP information. The switch tracks legitimate DHCP-assigned addresses in a binding table.
+> 6. DHCP snooping is a security feature that can be enabled on network switches to combat rogue DHCP servers and IP spoofing. When DHCP snooping is configured, the switch analyzes DHCP messages and builds a binding table to track IP addresses assigned to each switch port. Ports are classified as trusted or untrusted, and only trusted ports are allowed to send DHCP server messages like DHCP Offer. This prevents malicious DHCP servers on untrusted ports from handing out fake IP addresses and configuration. DHCP snooping can help ensure that only legitimate DHCP servers are providing IP addresses on the network.
 
 
 > [!exercise]+ Exercise 2 - MITM Prevention
