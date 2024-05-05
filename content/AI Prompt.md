@@ -5,7 +5,7 @@ I would like your assistance in writing concise, modular notes on the topic of [
 Please use the following note-taking format:
 
 > [!idea] Main Idea or Concept
-> Explanation of the main idea or concept in a concise manner. Try not to write very key ideas in bullet points. If its necessary to quickly list SMALL things, then bullet points are fine.
+> Explanation of the main idea or concept in a concise manner. Use bullet points if needed to break down sub-points or key details.
 
 > [!example] Example or Illustration
 > Provide a concrete example or illustration to help clarify the main idea or concept. This could be a code snippet, diagram, or real-world scenario.
