@@ -5,13 +5,13 @@ I would like your assistance in writing concise, modular notes on the topic of [
 Please use the following note-taking format:
 
 > [!idea] Main Idea or Concept
-> Explanation of the main idea or concept in a concise manner. Use bullet points if needed to break down sub-points or key details.
+> Explanation of the main idea or concept in a concise manner. 
 
 > [!example] Example or Illustration
 > Provide a concrete example or illustration to help clarify the main idea or concept. This could be a code snippet, diagram, or real-world scenario.
 
 > [!consider] Additional Considerations or Related Ideas
-> Discuss any additional points to consider, related ideas, or implications of the main concept. This helps to provide context and connect ideas.
+> Discuss any additional points to consider, analogies, related ideas, or implications of the main concept. This helps to provide context and connect ideas.
 
 The different callouts serve specific purposes:
 - [!idea]: Introduces a main idea or concept.
