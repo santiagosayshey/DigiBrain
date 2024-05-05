@@ -91,3 +91,79 @@
 > 
 > Using node E as your base, show how node E builds it's routing table, using Dijkstra's algorithm and then using Distance Vector.
 
+Thank you for the corrections. Let's start fresh with the accurate graph representation:
+
+- **Node A** is connected to:
+  - B with a weight of 2
+  - C with a weight of 1
+  - E with a weight of 8
+- **Node B** is connected to:
+  - C with a weight of 2
+  - D with a weight of 2
+- **Node D** is connected to:
+  - E with a weight of 3
+
+Given this correct graph, let's now demonstrate how node E builds its routing table using both Dijkstra's algorithm and the Distance Vector routing algorithm.
+
+### Dijkstra's Algorithm from Node E
+Dijkstra's algorithm finds the shortest paths from the source node to all other nodes in the graph. Here are the steps from node E:
+
+1. **Initialization**:
+   - Distance to E = 0 (since it's the source)
+   - Distance to all other nodes = ∞ (unknown at the beginning)
+
+2. **Iterative Updates**:
+   - Update distances for direct neighbors of E:
+     - E to D = 3 (update since 3 is less than ∞)
+
+3. **Choose next closest node that hasn't been finalized**:
+   - D is the closest with a distance of 3.
+
+4. **From D, update its neighbors**:
+   - Check B through D:
+     - E to B = E to D + D to B = 3 + 2 = 5 (update since 5 is less than ∞)
+
+5. **Next, B is finalized (next closest unfinalized node)**:
+   - Check A through B:
+     - E to A = E to B + B to A = 5 + 2 = 7 (update since 7 is less than ∞)
+   - Check C through B:
+     - E to C = E to B + B to C = 5 + 2 = 7 (update since 7 is less than ∞)
+
+### Final Shortest Paths from Node E:
+- E to A = 7
+- E to B = 5
+- E to C = 7
+- E to D = 3
+- E to E = 0
+
+### Distance Vector Routing
+In the Distance Vector routing algorithm, each node shares its table with immediate neighbors, and the neighbors update their tables based on the received information.
+
+1. **Initial Table at E**:
+   - Distance to E = 0
+   - Distance to D = 3
+   - Distance to all others = ∞
+
+2. **Receiving Update from D**:
+   - D knows:
+     - D to E = 3
+     - D to B = 2
+   - E updates:
+     - E to B = E to D + D to B = 3 + 2 = 5
+
+3. **Receiving Update from B** (when B gets updates from A and C):
+   - B knows:
+     - B to A = 2
+     - B to C = 2
+   - E updates:
+     - E to A = E to B + B to A = 5 + 2 = 7
+     - E to C = E to B + B to C = 5 + 2 = 7
+
+### Final DV Routing Table for Node E:
+- E to A = 7
+- E to B = 5
+- E to C = 7
+- E to D = 3
+- E to E = 0
+
+Both algorithms arrive at the same results for this network configuration, although the paths and updates propagate differently.
