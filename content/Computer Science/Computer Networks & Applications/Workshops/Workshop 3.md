@@ -88,7 +88,7 @@
 > [!exercise]+ Exercise 4 - Routing Algorithms
 > ![[Screenshot 2017-04-26 13.30.40 1.png]]
 > 
-> Using node E as your base, here's how node E builds its routing table, using Dijkstra's algorithm and then using Distance Vector.
+> Using node E as your base, show how node E builds it's routing table, using Dijkstra's algorithm and then using Distance Vector.
 > 
 >---
 >
@@ -106,10 +106,12 @@
 > **Distance Vector Routing**
 > In the Distance Vector algorithm, nodes exchange distance vectors with their neighbors:
 >
-> - **Initial Vector**: Node E knows its distance to itself (0) and to D (3) and A
+> - **Initial Vector**: Node E knows its distance to itself (0) and to D (3) and A (8).
 > - **Receive from D**: When D shares its vector, E learns it can reach B through D at a distance of 5.
 > - **B Updates**: As B receives updates from its neighbors, it eventually knows it can reach A and C each at a distance of 2. E uses this information to conclude that it can reach A and C each through B at a distance of 7.
 >
 > The final routing table for E using Distance Vector would also show: E to A = 7, E to B = 5, E to C = 7, E to D = 3, and E to E = 0.
 >
-> Both algorithms use different processes but ultimately determine the same shortest paths from E to all other nodes in this networ
+> Both algorithms use different processes but ultimately determine the same shortest paths from E to all other nodes in this network.
+
+
