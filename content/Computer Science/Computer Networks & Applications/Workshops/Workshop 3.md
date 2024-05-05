@@ -53,6 +53,37 @@
 >   - 11111000 10010001 01010001 01010101
 >   - 11100000 00000000 11000011 00111100
 >   - 11100001 10000000 00010001 01110111
+>
+>**Answer:**
+>
+> Forwarding Table:
+>
+> | **Prefix** | **Link Interface** |
+> | ------------ | -------------------- |
+> | 11100000 00000000 | 0 |
+> | 11100000 00000001 | 1 |
+> | 11100000 0000001 | 2 |
+> | 11100000 000001 | 2 |
+> | 11100000 00001 | 2 |
+> | 11100000 0001 | 2 |
+> | 11100000 001 | 2 |
+> | 11100000 01 | 2 |
+> | 11100000 1 | 2 |
+> | 11100001 | 2 |
+> | * | 3 |
+>
+> The forwarding table uses longest prefix matching to determine the appropriate link interface for each destination address. The table is sorted by the length of the prefix, with the longest prefixes at the top.
+>
+> **Determining the link interface for the given IP datagrams:**
+>
+> 1. 11111000 10010001 01010001 01010101
+>    - The longest matching prefix is *, which corresponds to link interface 3.
+>
+> 2. 11100000 00000000 11000011 00111100
+>    - The longest matching prefix is 11100000 00000000, which corresponds to link interface 0.
+>
+> 3. 11100001 10000000 00010001 01110111
+>    - The longest matching prefix is 11100001, which corresponds to link interface 2.
 
 
 > [!exercise]+ Exercise 4 - Routing Algorithms
