@@ -1,6 +1,6 @@
 Hello Claude,
 
-I would like your assistance in writing concise, modular notes on the topic of [insert topic here]. The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks.
+I would like your assistance in writing concise, modular notes on the topic of IP Fragmentation. The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks.
 
 Please use the following note-taking format:
 
@@ -25,7 +25,7 @@ You may also include the following elements in the callouts:
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
-[Insert additional context or examples here]
+No additional context for this
 
 Using these callouts and elements helps create modular notes that are easy to navigate and understand. The goal is to break down complex topics into digestible chunks rather than presenting large blocks of text.
 
