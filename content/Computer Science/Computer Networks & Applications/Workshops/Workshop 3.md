@@ -85,33 +85,35 @@
 > 3. 11100001 10000000 00010001 01110111
 >    - The longest matching prefix is 11100001, which corresponds to link interface 2.
 
+I apologize for the oversight. Let's present the routing tables correctly formatted as a callout:
+
 > [!exercise]+ Exercise 4 - Routing Algorithms
 > ![[Screenshot 2017-04-26 13.30.40 1.png]]
 > 
-> Using node E as your base, show how node E builds it's routing table, using Dijkstra's algorithm and then using Distance Vector.
+> Using node E as your base, show how node E builds its routing table, using Dijkstra's algorithm and then using Distance Vector.
 > 
->---
+> ---
+> 
+> **Dijkstra's Algorithm** 
 >
-> **Dijkstra's Algorithm**
-> Dijkstra's algorithm finds the shortest paths from the source node to all other nodes in the graph.
+> | Step | Known Set (N') | D(A) | D(B) | D(C) | D(D) | D(E) |
+> |------|----------------|------|------|------|------|------|
+> | 0  (Through E)   | E              | 8, D    | ∞    | ∞    | 3, D | 0, E |
+> | 1 (Through D)    | E, D           | 8, D    | 5, B | ∞    | 3, D | 0, E |
+> | 2    | E, D, B        | 7, A | 5, B | ∞    | 3, D | 0, E |
+> | 3    | E, D, B, A     | 7, A | 5, B | 7, C | 3, D | 0, E |
+> | 4    | E, D, B, A, C  | 7, A | 5, B | 7, C | 3, D | 0, E |
 >
-> - **Initialization**: Node E starts with a distance of 0 to itself, and infinity to all other nodes.
-> - **Update Neighbors**: The distance to node D is now 3 and node A is 8. 
-> - **Choose Closest Node**: Node D, with a distance of 3, is the next node to process.
-> - **Update from D**: The path from E to B through D becomes viable with a total distance of 5. This is updated because it's better than infinity.
-> - **Continue Process**: B is the next closest node. From B, the paths to A and C are updated to a total distance of 7 each, through B.
+> Each step updates the shortest path known so far from E to all other nodes using the least cost paths through the nodes that have been finalized (in N').
+> 
+>**Distance Vector**
 >
-> The shortest paths from E are now: E to A = 7, E to B = 5, E to C = 7, E to D = 3, and E to E = 0.
+> The evolution of node E's routing table through distance vector exchanges:
+> 
+> | Step | Node | D(A) | D(B) | D(C) | D(D) | D(E) |
+> |------|------|------|------|------|------|------|
+> | 0    | E    | ∞    | ∞    | ∞    | 3, D | 0, E |
+> | 1    | E    | ∞    | 5, B | ∞    | 3, D | 0, E |
+> | 2    | E    | 7, A | 5, B | 7, C | 3, D | 0, E |
 >
-> **Distance Vector Routing**
-> In the Distance Vector algorithm, nodes exchange distance vectors with their neighbors:
->
-> - **Initial Vector**: Node E knows its distance to itself (0) and to D (3) and A (8).
-> - **Receive from D**: When D shares its vector, E learns it can reach B through D at a distance of 5.
-> - **B Updates**: As B receives updates from its neighbors, it eventually knows it can reach A and C each at a distance of 2. E uses this information to conclude that it can reach A and C each through B at a distance of 7.
->
-> The final routing table for E using Distance Vector would also show: E to A = 7, E to B = 5, E to C = 7, E to D = 3, and E to E = 0.
->
-> Both algorithms use different processes but ultimately determine the same shortest paths from E to all other nodes in this network.
-
-
+> Node E continuously receives and integrates distance vector updates from its neighbors, progressively refining the distances to all nodes based on the most efficient routes communicated by its neighbors.
