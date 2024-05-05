@@ -85,8 +85,6 @@
 > 3. 11100001 10000000 00010001 01110111
 >    - The longest matching prefix is 11100001, which corresponds to link interface 2.
 
-I apologize for the oversight. Let's present the routing tables correctly formatted as a callout:
-
 > [!exercise]+ Exercise 4 - Routing Algorithms
 > ![[Screenshot 2017-04-26 13.30.40 1.png]]
 > 
@@ -94,26 +92,26 @@ I apologize for the oversight. Let's present the routing tables correctly format
 > 
 > ---
 > 
-> **Dijkstra's Algorithm** 
+> **Dijkstra's Algorithm Routing Table for Node E**
 >
 > | Step | Known Set (N') | D(A) | D(B) | D(C) | D(D) | D(E) |
 > |------|----------------|------|------|------|------|------|
-> | 0  (Through E)   | E              | 8, D    | ∞    | ∞    | 3, D | 0, E |
-> | 1 (Through D)    | E, D           | 8, D    | 5, B | ∞    | 3, D | 0, E |
-> | 2    | E, D, B        | 7, A | 5, B | ∞    | 3, D | 0, E |
-> | 3    | E, D, B, A     | 7, A | 5, B | 7, C | 3, D | 0, E |
-> | 4    | E, D, B, A, C  | 7, A | 5, B | 7, C | 3, D | 0, E |
+> | 0 (Through E)    | E              | 8, E    | ∞     | ∞     | 3, E | 0, E |
+> | 1 (Through D)    | E, D           | 8, E    | 5, D  | ∞     | 3, E | 0, E |
+> | 2 (Through B)    | E, D, B        | 7, B    | 5, D  | 7, B  | 3, E | 0, E |
+> | 3 (Complete)     | E, D, B, A, C  | 7, B    | 5, D  | 7, B  | 3, E | 0, E |
 >
 > Each step updates the shortest path known so far from E to all other nodes using the least cost paths through the nodes that have been finalized (in N').
 > 
->**Distance Vector**
+> **Distance Vector Routing Table for Node E**
 >
 > The evolution of node E's routing table through distance vector exchanges:
 > 
 > | Step | Node | D(A) | D(B) | D(C) | D(D) | D(E) |
 > |------|------|------|------|------|------|------|
-> | 0    | E    | ∞    | ∞    | ∞    | 3, D | 0, E |
-> | 1    | E    | ∞    | 5, B | ∞    | 3, D | 0, E |
-> | 2    | E    | 7, A | 5, B | 7, C | 3, D | 0, E |
+> | 0 (Initial) | E    | ∞    | ∞    | ∞    | 3, E | 0, E |
+> | 1 (From D)   | E    | ∞    | 5, D | ∞    | 3, E | 0, E |
+> | 2 (From B)   | E    | 7, B | 5, D | 7, B | 3, E | 0, E |
 >
 > Node E continuously receives and integrates distance vector updates from its neighbors, progressively refining the distances to all nodes based on the most efficient routes communicated by its neighbors.
+
