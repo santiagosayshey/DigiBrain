@@ -15,8 +15,11 @@ It is vital that these notes are objective. They do NOT make judgements about th
 ```
 In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
 
-This example adds nothing of value 
+This example adds nothing of value and introduces bias. 
 ```
+
+It is vital that you write concise notes. I DO NOT want verbosity. You don't need to write an entire paragraph to tell me something is better because its more efficient. 
+
 
 I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
 
