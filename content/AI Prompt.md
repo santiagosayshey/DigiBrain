@@ -1,6 +1,6 @@
 Hello Claude,
 
-I would like your assistance in writing concise, modular notes on the topic of IP Fragmentation. The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks.
+I would like your assistance in writing concise, modular notes on the topic of Minimum Spanning Trees. The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks.
 
 Please use the following note-taking format:
 
@@ -25,10 +25,14 @@ You may also include the following elements in the callouts:
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
-No additional context for this
+Additional context found in provided PDFs.
 
 Using these callouts and elements helps create modular notes that are easy to navigate and understand. The goal is to break down complex topics into digestible chunks rather than presenting large blocks of text.
 
 If you have any questions or need further clarification, please let me know. I appreciate your help in creating these notes!
+
+Additional Context for this note:
+
+I really want to nail home the considerations for this note. We really want to make the reader consider the problem at hand, and why MSTs are useful to solve this. 
 
 Thanks!
