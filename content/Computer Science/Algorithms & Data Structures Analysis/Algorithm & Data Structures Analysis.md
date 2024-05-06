@@ -30,3 +30,5 @@
 |      | [[9.3 Bellman-Ford Algorithm]]            |                                                                                                     |                                                    |                         |
 |      | [[9.4 Floyd-Warshall Algorithm]]          |                                                                                                     |                                                    |                         |
 | 10   | [[10.1 Minimum Spanning Trees]]           |                                                                                                     |                                                    |                         |
+|      | [[10.2 Kruskal's Algorithm]]              |                                                                                                     |                                                    |                         |
+|      | [[10.3 Prim's Algorithm]]                 |                                                                                                     |                                                    |                         |
