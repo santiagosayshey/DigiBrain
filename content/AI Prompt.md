@@ -2,7 +2,13 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [topic] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I would like you to format the note using 'callouts'. An explanation for how you should write (not how the callout should be formatted and organised) is given below. 
+I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
+
+> [!callout type] title
+
+Each line after that contains the content of the callout.
+
+Below I have attached each type of callout you may use and a comprehensive overview of what they are used for. This is NOT an overview of the struct
 
 > [!motivation] Motivation
 > 
