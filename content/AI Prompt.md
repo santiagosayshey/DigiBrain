@@ -1,4 +1,4 @@
-Hello Claude,
+Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [topic] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
@@ -10,7 +10,7 @@ Please use the following note-taking format:
 > 
 > **Key Elements**:
 > - **Contextual Introduction**: Start with a real-world scenario or problem that illustrates the need for a solution.
-> - **Problem Framing**: Clearly outline the properties or issues that the main idea addresses. Avoid mentioning the solution; focus solely on setting up the problem. For example, if the note was about Kruskal's Algorithm, we 
+> - **Problem Framing**: Clearly outline the properties or issues that the main idea addresses. Avoid mentioning the solution; focus solely on setting up the problem. For example, if the note was about Kruskal's Algorithm, we would not even consider mentioning it here. It is a solution to this problem.
 > 
 > **Example**:
 > - In project management and network planning, there's often a need to minimize resource usage while achieving maximum efficiency. Imagine trying to connect multiple offices with the least amount of cabling. 
