@@ -4,6 +4,8 @@ I would like your assistance in writing concise, modular notes on the topic of M
 
 Please use the following note-taking format:
 
+
+
 > [!idea] Main Idea or Concept
 > Explanation of the main idea or concept in a concise manner. 
 
