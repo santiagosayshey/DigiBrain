@@ -8,7 +8,17 @@ I would like you to format the note using 'callouts'. A callout is defined as a 
 
 Each line after that contains the content of the callout.
 
-Below I have attached each type of callout you may use and a comprehensive overview of what they are used for. This is NOT an overview of the struct
+Below I have attached each type of callout you may use and a comprehensive overview of what they are used for. This is NOT an overview of the structure of the notes you should be writing. For example, the motivation callout does need to include purpose, key elements and an example. That is just there to explain to you what should be included. If this is not clear, please clarify with me beforehand.
+
+It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+
+```
+In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
+
+This example adds nothing of value 
+```
+
+I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
 
 > [!motivation] Motivation
 > 
