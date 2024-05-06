@@ -10,7 +10,7 @@ Please use the following note-taking format:
 > 
 > **Key Elements**:
 > - **Contextual Introduction**: Start with a real-world scenario or problem that illustrates the need for a solution.
-> - **Problem Framing**: Clearly outline the properties or issues that the main idea addresses. Avoid mentioning the solution; focus solely on setting up the problem.
+> - **Problem Framing**: Clearly outline the properties or issues that the main idea addresses. Avoid mentioning the solution; focus solely on setting up the problem. For example, if the note was about Kruskal's Algorithm, we 
 > 
 > **Example**:
 > - In project management and network planning, there's often a need to minimize resource usage while achieving maximum efficiency. Imagine trying to connect multiple offices with the least amount of cabling. 
@@ -57,7 +57,7 @@ This structure ensures that each callout is detailed and purposeful, enhancing t
 You may also include the following elements in the callouts:
 
 - Tables: Please ensure that tables follow markdown formatting rules.
-- Images: Indicate where the image should be placed and provide a description so that I can find or create a suitable image (e.g., drawing a graph to illustrate Dijkstra's algorithm in Figma).
+- Images: Indicate where the image should be placed and provide a description so that I can find or create a suitable image (e.g., drawing a graph to illustrate Dijkstra's algorithm in Figma). This is very important. Whenever you want to include an image, You NEED to describe it. Perhaps write the explanation in a codeblock so that I know it can be deleted later. 
 - Math: When including mathematical equations, please use Obsidian's formatting rules - `$ $` for inline equations and `$$ $$` for equation blocks.
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
