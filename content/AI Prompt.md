@@ -2,7 +2,7 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [topic] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-Please use the following note-taking format:
+I would like you to format the note using 'callouts'. An explanation for how you should write (not how the callout should be formatted and organised) is given below. 
 
 > [!motivation] Motivation
 > 
