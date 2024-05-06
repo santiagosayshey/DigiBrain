@@ -37,4 +37,71 @@ You may also include the following elements in the callouts:
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
-[addtional context]
+I have provided PDFs which you should use to follow the list of things you may want to talk about. Also please note that we have already made a note for MSTs, seen below. So theres no need to rehash anything already talked about there. 
+
+Here is an example note:
+
+> [!motivation] Motivation
+>
+> In many real-world scenarios, we need to connect a set of points or nodes in a way that minimizes the total cost or weight of the connections. For example:
+>
+> - **Computer Networks**: Connect devices (routers, switches, etc.) with minimal cabling or infrastructure cost.
+> - **Transportation Networks**: Build roads or railways to connect cities or locations with minimal construction cost.
+> - **Utility Networks**: Connect households or facilities to water, electricity, or communication services with minimal resource usage.
+>
+> In these situations, we want to **ensure that all points or nodes are connected (forming a single component), while minimizing the overall cost or weight of the connections**. This leads us to the Minimum Spanning Tree (MST) problem.
+
+> [!idea] Minimum Spanning Tree (MST) Problem
+>
+> Given a connected, undirected graph $G = (V, E)$ with positive edge costs/weights:
+>
+> - Edge costs are positive, implying that the connected subgraph of minimal cost **does not contain a cycle**.
+> - It is a **tree spanning all nodes** of the graph (called a spanning tree).
+>
+> The goal is to find a subset of edges $E' \in E$ that forms a tree $T = (V, E')$ such that:
+>
+> 1. $T$ **includes all vertices $V$** from the original graph $G$.
+> 2. $T$ is a tree, meaning it is a connected graph with **no cycles**.
+> 3. The total cost/weight of the **edges in $E'$ is minimised** among all possible spanning trees of $G$.
+> - This is called the **Minimal Spanning Tree**
+>
+> Mathematically, an MST of a given graph $G$ can be constructed using greedy algorithms, based on the following crucial properties:
+>
+> - **Cut Property:** Let $e$ be an edge of minimum cost in a cut $C$. Then there exists an MST that contains $e$.
+> - **Cycle Property:** An edge of maximal cost in any cycle does not need to be considered for computing an MST.
+
+> [!example] Real-World Example
+>
+> Consider a computer network where nodes represent computers, and edges represent possible connections. Edge costs/weights represent the cost of establishing connections. The goal is to connect all computers while minimizing the total infrastructure cost.
+>
+> ![[MST Example 2.png]]]
+>
+> In this example, the original graph has all possible connections with a total cost/weight of 25.
+>
+> The Minimum Spanning Tree (MST) includes the edges (1, 2) with cost 1, (2, 4) with cost 2, (1, 3) with cost 3, (3, 4) with cost 3, and (1, 5) with cost 5. The total cost/weight of this MST is 14, the minimum among all possible spanning trees.
+>
+> By selecting this subset of edges, we can connect all 5 computers while minimizing the total infrastructure cost. The MST has a lower cost of 14 compared to 25 for the original graph.
+
+> [!consider] Cut Property
+>
+> A cut in a connected graph is a **set of edges that, when removed, disconnects the graph into two or more components**. The Cut Property states that an edge of minimum cost/weight in any cut belongs to some Minimum Spanning Tree (MST) of the graph.
+>
+> ![[Cut Example.png|400]]
+>
+> Consider the graph shown in the image. The dashed line represents a cut that separates the graph into two components: the set of vertices {1, 2, 3} and the set of vertices {4, 5}. The edges crossing the cut are (2, 4) with cost 2, and (3, 4) with cost 3.
+>
+> The Cut Property says that the **edge of minimum cost/weight in this cut**, which is (2, 4) with cost 2, **must belong to some MST** of the graph.
+>
+> The Cut Property is **crucial for greedy** algorithms like Kruskal's and Prim's, as it **allows them to include the minimum-cost edge in the current cut**, ensuring that the resulting spanning tree is indeed a minimum-cost spanning tree.
+
+> [!consider] Cycle Property
+>
+> The Cycle Property states that the **maximum-cost edge in any cycle can be excluded** when computing a Minimum Spanning Tree (MST).
+>
+> ![[Cycle Property.png|400]]
+>
+> In the graph above, the cycle {1, 2, 3, 4} contains the edge (4, 1) with the maximum cost of 5. This edge can be safely excluded when finding the MST, as removing the maximum-cost edge from a cycle reduces the total cost.
+>
+> The Cycle Property allows pruning unnecessary edges, potentially improving the efficiency of MST algorithms.
+
+Thanks!
