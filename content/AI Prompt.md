@@ -4,9 +4,9 @@ I would like your assistance in writing concise, modular notes on the topic of K
 
 Please use the following note-taking format:
 
-> [!motivation|orange] Motivation
+> [!motivation] Motivation
 >
-> Content explaining the motivation or real-world applications for the concept.
+> A bridge to the main idea of the note that helps set the stage for it. Generally introduce a problem that needs to be solved so that the idea callout can solve it. Try not to explicitly talk about the idea in this, only properties that are directly tackled in the idea. For example, we dont want to say Here are the problems that [idea] solves, we just want to say heres a problem. Here are the properties that we might want to fix or focus on. Then in the idea callout we say oh heres an idea by some guy, heres how it fixes those problems. 
 
 > [!idea] Main Idea or Concept
 >
@@ -29,7 +29,6 @@ The different callouts serve specific purposes:
 
 I would like your assistance in writing concise, modular notes on the topic of Kruskal's Algorithm. The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-
 You may also include the following elements in the callouts:
 
 - Tables: Please ensure that tables follow markdown formatting rules.
@@ -38,12 +37,4 @@ You may also include the following elements in the callouts:
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
-Additional context found in provided PDFs.
-
-
-
-[adtional context]
-
-Thanks!
-
-Let me know if you need any further assistance or have additional requirements for the note-taking format.
+[addtional context]
