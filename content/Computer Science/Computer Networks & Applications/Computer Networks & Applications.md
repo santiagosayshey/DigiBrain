@@ -1,7 +1,7 @@
 
 | Week | Layer             | Notes                                 | Workshops                                                                                      | Assignments                                 | Labs                                | Notes          |
 | ---- | ----------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------- | -------------- |
-| 1    |                   | [[1.1 Computer Networks]]                      |                                                                                                |                                             | [[Quiz 1 - Intro to Wireshark.pdf]] |                |
+| 1    |                   | [[1.1 Computer Networks]]             |                                                                                                |                                             | [[Quiz 1 - Intro to Wireshark.pdf]] |                |
 |      |                   | [[1.2 Network Delays]]                |                                                                                                |                                             |                                     |                |
 |      | Application Layer | [[2.1 Application Layer]]             |                                                                                                |                                             |                                     |                |
 | 2    |                   | [[2.2 HTTP]]                          | [[Content/Computer Science/Computer Networks & Applications/Workshops/Workshop 1\|Workshop 1]] |                                             | [[Quiz 2 - HTTP.pdf]]               |                |
@@ -32,5 +32,8 @@
 |      |                   | [[8.6 CIDR]]                          |                                                                                                |                                             |                                     |                |
 |      |                   | [[8.7 Broadcast]]                     |                                                                                                |                                             |                                     |                |
 | 9    |                   | [[9.1 ICMP]]                          |                                                                                                |                                             | [[Quiz 5 - ICMP.pdf]]               |                |
+|      |                   | [[9.2 IPv4]]                          |                                                                                                |                                             |                                     |                |
+|      |                   | [[9.3 IP Fragmentation]]              |                                                                                                |                                             |                                     |                |
+|      |                   | [[9.4 IPv6]]                          |                                                                                                |                                             |                                     |                |
 
 
