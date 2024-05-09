@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"ba9020d605b96187","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Issue is created"},
+		{"id":"cede9602be24d3a7","x":686,"y":-209,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"728181932cfcd7d1","fromNode":"ba9020d605b96187","fromSide":"right","toNode":"cede9602be24d3a7","toSide":"left"}
+	]
+}
