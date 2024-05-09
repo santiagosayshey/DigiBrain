@@ -136,7 +136,7 @@ fi
 
 In Bash scripting, `[[]]` is more modern and powerful than `[]`. For instance, it supports string comparison with `==`, `!=`, `<`, and `>` using lexicographic order.
 
-![[docs/Images/Pasted image 20230306212611.png]]
+![[Images/Pasted image 20230306212611.png]]
 
 ## Bash Variables
 
