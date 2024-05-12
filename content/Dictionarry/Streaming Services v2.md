@@ -8,24 +8,22 @@ This list has been compiled using a number of custom formats from the [TRaSH Gui
 
 Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons. Other groups have been added based on similar bitrates. 
 
-Bold groups have been ranked using bitrate.
+Blue services have been ranked using similar bitrate nomination.
 
-| Rank | Streaming Service | Region    |
-| ---- | ----------------- | --------- |
-| 1    | Movies Anywhere   |           |
-|      | Amazon            |           |
-|      | Apple TV+         |           |
-|      | Disney+           |           |
-| 2    | HBO Max           |           |
-|      | Netflix           |           |
-|      | Paramount+        |           |
-|      | **Peacock**       |           |
-|      | **Fuji ToD**      | Asia      |
-| 3    | **Stan**          | Australia |
-|      | iTunes            |           |
-|      | **Hulu**          |           |
-|      | **Max**           |           |
-|      | **Hotstar**       | Asia      |
-|      | **Roku**          |           |
-|      |                   |           |
+| Rank | General         | Asia         |     |
+| ---- | --------------- | ------------ | --- |
+| 1    | Movies Anywhere |              |     |
+|      | Amazon          |              |     |
+|      | Apple TV+       |              |     |
+|      | Disney+         |              |     |
+| 2    | HBO Max         | **Fuji ToD** |     |
+|      | Netflix         | **TVING**    |     |
+|      | Paramount+      | **U-NEXT**   |     |
+|      | **Peacock**     |              |     |
+| 3    | **Stan**        | **Hotstar**  |     |
+|      | iTunes          | **TVer**     |     |
+|      | **Hulu**        |              |     |
+|      | **Max**         |              |     |
+|      | **Roku**        |              |     |
+
 
