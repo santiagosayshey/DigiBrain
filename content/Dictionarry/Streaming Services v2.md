@@ -4,7 +4,15 @@ With version 2 of the streaming service ranking, I wanted to focus on a few key 
 2. Adding more services (mostly for foreign media)
 3. Adjust for differences in quality.
 
+# 1080p Ranking
 
-|     |     |
-| --- | --- |
-|     |     |
+| Rank | Service         |
+| ---- | --------------- |
+| 1    | Movies Anywhere |
+|      | Amazon          |
+|      | Apple TV+       |
+|      | Disney+         |
+|      |                 |
+|      |                 |
+|      |                 |
+|      |                 |
