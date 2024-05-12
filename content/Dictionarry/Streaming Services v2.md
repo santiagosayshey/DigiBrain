@@ -9,6 +9,14 @@ With version 2 of the streaming service ranking, I wanted to focus on a few key 
 
 **Tier 1: ** 
 
+HBO Max
+Netflix
+Paramount+
+
+Stan
+iTunes
+Hotstar
+Max
 # 1080p Ranking
 
 | Rank      | Main Services   |     |
@@ -17,12 +25,12 @@ With version 2 of the streaming service ranking, I wanted to focus on a few key 
 |           | Amazon          |     |
 |           | Apple TV+       |     |
 |           | Disney+         |     |
-| 2         | Netflix         |     |
-|           | Paramount+      |     |
-|           | HBO Max         |     |
-|           | Max             |     |
-| Fallbacks | Hotstar         |     |
-|           | iTunes          |     |
+| 2         |                 |     |
+|           |                 |     |
+|           |                 |     |
+|           |                 |     |
+| Fallbacks |                 |     |
+|           |                 |     |
 |           | Stan            |     |
 |           | Hulu            |     |
 |           | Peacock         |     |
