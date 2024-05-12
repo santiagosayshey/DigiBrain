@@ -10,19 +10,19 @@ Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understa
 
 
 
-| Rank      | Main Services   | Notes |
-| --------- | --------------- | ----- |
-| 1         | Movies Anywhere |       |
-|           | Amazon          |       |
-|           | Apple TV+       |       |
-|           | Disney+         |       |
-| 2         | HBO Max         |       |
-|           | Netflix         |       |
-|           | Paramount+      |       |
-|           | **Peacock**     |       |
-| Fallbacks | Stan            |       |
-|           | iTunes          |       |
-|           | Hulu            |       |
-|           | Max             |       |
-|           | Hotstar         |       |
-|           | Roku            |       |
+| Rank      | Main Services   | Notes | Region    |
+| --------- | --------------- | ----- | --------- |
+| 1         | Movies Anywhere |       |           |
+|           | Amazon          |       |           |
+|           | Apple TV+       |       |           |
+|           | Disney+         |       |           |
+| 2         | HBO Max         |       |           |
+|           | Netflix         |       |           |
+|           | Paramount+      |       |           |
+|           | **Peacock**     | BoB   |           |
+| Fallbacks | **Stan**        | BoB   | Australia |
+|           | iTunes          |       |           |
+|           | **Hulu**        | BoB   |           |
+|           | **Max**         | BoB   |           |
+|           | **Hotstar**     | BoB   | Asia      |
+|           | **Roku**        | BoB   |           |
