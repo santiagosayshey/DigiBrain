@@ -10,20 +10,20 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 
 Blue services have been ranked using similar bitrate nomination. Comparisons are not necessary here, as most releases won't be available elsewhere.
 
-| Rank | General         | Asia         | Dutch     | British     |
-| ---- | --------------- | ------------ | --------- | ----------- |
-| 1    | Movies Anywhere |              |           |             |
-|      | Amazon          |              |           |             |
-|      | Apple TV+       |              |           |             |
-|      | Disney+         |              |           |             |
-| 2    | HBO Max         | **Fuji ToD** |           |             |
-|      | Netflix         | **TVING**    |           |             |
-|      | Paramount+      | **U-NEXT**   |           |             |
-|      | **Peacock**     |              |           |             |
-| 3    | **Stan**        | **Hotstar**  | **Pathe** |             |
-|      | iTunes          | **TVer**     |           | BBC iPlayer |
-|      | **Hulu**        | **VIU**      |           |             |
-|      | **Max**         |              |           |             |
-|      | **Roku**        |              |           |             |
+| Rank | General         | Asia         | Dutch           | UK              |
+| ---- | --------------- | ------------ | --------------- | --------------- |
+| 1    | Movies Anywhere |              |                 |                 |
+|      | Amazon          |              |                 |                 |
+|      | Apple TV+       |              |                 |                 |
+|      | Disney+         |              |                 |                 |
+| 2    | HBO Max         | **Fuji ToD** |                 |                 |
+|      | Netflix         | **TVING**    |                 |                 |
+|      | Paramount+      | **U-NEXT**   |                 |                 |
+|      | **Peacock**     |              |                 |                 |
+| 3    | **Stan**        | **Hotstar**  | **Pathé Thuis** | **BBC iPlayer** |
+|      | iTunes          | **TVer**     |                 |                 |
+|      | **Hulu**        | **VIU**      |                 |                 |
+|      | **Max**         |              |                 |                 |
+|      | **Roku**        |              |                 |                 |
 
 
