@@ -20,6 +20,8 @@ This example adds nothing of value and introduces bias.
 
 I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
 
+I want proper callout titles. Don't do things like "understand topic here". Thats why we have specific callouts, so readers know what the callout is for. Its reductive. "topic" is good enough for an idea callout. 
+
 > [!motivation] Motivation
 > 
 > **Purpose**: Introduce the problem that motivates the need for the main idea. This callout sets the stage, making the upcoming discussion relevant and urgent.
