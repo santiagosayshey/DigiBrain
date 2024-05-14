@@ -71,6 +71,10 @@ This sets the stage for understanding how we can optimize connections in a netwo
 > **Example**:
 > - While implementing Kruskal's Algorithm, consider the union-find data structure for efficient cycle detection. Additionally, explore how variations of the algorithm might behave in directed graphs or with negative weights. These considerations are crucial for adapting the algorithm to more complex or specialized scenarios.
 
+> [!summary] Summary of previous callouts
+> 
+> **Purpose**: Succinctly explain each of the core ideas  in previous notes using 1 or 2 sentences at most in dot point format. 
+
 This structure ensures that each callout is detailed and purposeful, enhancing the clarity and depth of your notes.
 You may also include the following elements in the callouts:
 
