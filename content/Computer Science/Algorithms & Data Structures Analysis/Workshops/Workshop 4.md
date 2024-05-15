@@ -21,3 +21,4 @@
 Inserting a single element into a tree takes $O(\log n)$ time in the worst case. Since we have n elements to insert, the total time to construct the binary search tree is $O(n \log n)$.
 
 We can argue that this O(n log n) time is a lower bound for any comparison-based algorithm because constructing a binary search tree allows us to sort the list of elements. We know that sorting a list of n elements using comparisons requires at least O(n log n) time in the worst case. Therefore, constructing a binary search tree must also take at least O(n log n) time when using comparisons. If there were a faster comparison-based algorithm to construct a binary search tree, it would contradict the lower bound for comparison-based sorting.
+![[ADSA_T5 1.pdf]]
