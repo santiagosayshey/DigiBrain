@@ -23,7 +23,7 @@ Instead of:
 The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
 
 We write:
-This need for flexibility and control sets the stage for Software Defined Networking (SDN) and its enabling protocol, OpenFlow.
+The OpenFlow protocol enables centralized control over network traffic
 
 ```
 
