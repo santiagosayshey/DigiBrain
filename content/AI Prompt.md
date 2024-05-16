@@ -18,6 +18,15 @@ In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently ac
 This example adds nothing of value and introduces bias. 
 ```
 
+```
+Instead of:
+The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
+
+We write:
+This need for flexibility and control sets the stage for Software Defined Networking (SDN) and its enabling protocol, OpenFlow.
+
+```
+
 I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
 
 I want proper callout titles. Don't do things like "understand topic here". That's why we have specific callouts, so readers know what the callout is for. Its reductive. "topic" is good enough for an idea callout. 
