@@ -22,6 +22,8 @@ I DO NOT want an overview or plan first. I want the final deliverable note, form
 
 I want proper callout titles. Don't do things like "understand topic here". Thats why we have specific callouts, so readers know what the callout is for. Its reductive. "topic" is good enough for an idea callout. 
 
+You do not need to use every type of callout. You do not need to
+
 > [!motivation] Motivation
 > 
 > **Purpose**: Introduce the problem that motivates the need for the main idea. This callout sets the stage, making the upcoming discussion relevant and urgent.
@@ -73,7 +75,7 @@ This sets the stage for understanding how we can optimize connections in a netwo
 
 > [!summary] Summary of previous callouts
 > 
-> **Purpose**: Succinctly explain each of the core ideas  in previous notes using 1 or 2 sentences at most in dot point format. 
+> **Purpose**: Succinctly explain each of the core ideas  in previous notes using 1 or 2 sentences at most in dot point format. This callout is not necessary in every note. Only use it when I ask you to use it. 
 > 
 > **Key Elements:**
 > - Do not summarise what you wrote. Summarise the content of the notes.
