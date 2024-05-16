@@ -20,9 +20,11 @@ This example adds nothing of value and introduces bias.
 
 I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
 
-I want proper callout titles. Don't do things like "understand topic here". Thats why we have specific callouts, so readers know what the callout is for. Its reductive. "topic" is good enough for an idea callout. 
+I want proper callout titles. Don't do things like "understand topic here". That's why we have specific callouts, so readers know what the callout is for. Its reductive. "topic" is good enough for an idea callout. 
 
-You do not need to use every type of callout. You do not need to
+You do not need to use every type of callout. You do not need to use 4 total callouts, one for each. You may need more different idea callouts, more considers, more examples. It depends entirely on the note. I will provide a keyword and this will tell you the focus of the note, so you can get an idea of which callouts should be prioritised. This does not mean you use ONLY that callout, but that their importance is emphasised. 
+
+[keyword]
 
 > [!motivation] Motivation
 > 
