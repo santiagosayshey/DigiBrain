@@ -45,6 +45,8 @@
 > 1. An MST of a graph can include cycles to ensure minimal edge weights.
 > 2. An MST is only possible if the graph is fully connected without any isolated vertices.
 > 3. The MST of a graph guarantees the shortest path between any two vertices in the graph.
-> **4. A graph can have more than one MST if multiple edges have the same weight.**
+> 4. A graph can have more than one MST if multiple edges have the same weight.
 >
-> **Explanation:**
+> **Explanation:** A Minimum Spanning Tree (MST) is a tree-like subset of edges in a graph that connects all vertices with the minimum total edge weight. If there are multiple edges with the same weight, it is possible for a graph to have more than one valid MST, as different combinations of these equal-weight edges can result in different spanning trees with the same minimum total weight.
+
+
