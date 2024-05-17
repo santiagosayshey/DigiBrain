@@ -13,11 +13,11 @@
 > What is the main difference between Prim's and Kruskal's algorithms?
 >
 > 1. Prim's algorithm works on directed graphs, while Kruskal's works on undirected graphs.
-> **2. Prim's algorithm builds the MST by adding edges, while Kruskal's algorithm starts with vertices**.
+> 2. Prim's algorithm builds the MST by adding edges, while Kruskal's algorithm starts with vertices.
 > 3. Prim's algorithm is a greedy algorithm, while Kruskal's is not.
-> 4. Prim's algorithm grows a single MST, while Kruskal's algorithm may grow multiple trees before connecting them.
+> **4. Prim's algorithm grows a single MST, while Kruskal's algorithm may grow multiple trees before connecting them.**
 >
-> **Explanation:** The key difference between Prim's and Kruskal's algorithms lies in their approach to constructing the Minimum Spanning Tree (MST). Prim's algorithm starts with an arbitrary vertex and incrementally adds the smallest weighted edge connecting a vertex in the growing MST to a vertex outside the MST. In contrast, Kruskal's algorithm starts by sorting all edges in ascending order of their weights and then iteratively adds the smallest edge that doesn't form a cycle with the edges already included in the MST.**
+> **Explanation:** 
 
 > [!exercise] Question 3
 > Which algorithm is typically used for finding a Minimum Spanning Tree in a graph with weighted edges?
@@ -43,8 +43,8 @@
 > Which of the following statements about the Minimum Spanning Tree (MST) is TRUE?
 >
 > 1. An MST of a graph can include cycles to ensure minimal edge weights.
-> **2. An MST is only possible if the graph is fully connected without any isolated vertices.**
+> 2. An MST is only possible if the graph is fully connected without any isolated vertices.
 > 3. The MST of a graph guarantees the shortest path between any two vertices in the graph.
-> 4. A graph can have more than one MST if multiple edges have the same weight.
+> **4. A graph can have more than one MST if multiple edges have the same weight.**
 >
 > **Explanation:**
