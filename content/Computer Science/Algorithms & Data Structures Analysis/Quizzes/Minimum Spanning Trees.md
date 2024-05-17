@@ -37,13 +37,13 @@
 > **3. The sum of the weights of the edges is minimised.**
 > 4. Each edge connects vertices of the same degree.
 >
-> **Explanation:** If you add up all the edges in an MST, it will be the sma
+> **Explanation:** If you add up all the edges in an MST, it will be the smallest sum of all edges that connect each node. 
 
 > [!exercise] Question 5
 > Which of the following statements about the Minimum Spanning Tree (MST) is TRUE?
 >
 > 1. An MST of a graph can include cycles to ensure minimal edge weights.
-> 2. An MST is only possible if the graph is fully connected without any isolated vertices.
+> **2. An MST is only possible if the graph is fully connected without any isolated vertices.**
 > 3. The MST of a graph guarantees the shortest path between any two vertices in the graph.
 > 4. A graph can have more than one MST if multiple edges have the same weight.
 >
