@@ -10,31 +10,35 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 
 
 
-| Rank | General         | Asia         | Korean     | Dutch           | UK              |
-| ---- | --------------- | ------------ | ---------- | --------------- | --------------- |
-| 1    | Movies Anywhere |              |            |                 |                 |
-|      | Amazon          |              |            |                 |                 |
-|      | Apple TV+       |              |            |                 |                 |
-|      | Disney+         |              |            |                 |                 |
-| 2    | HBO Max         | **Fuji ToD** |            |                 |                 |
-|      | Netflix         | **TVING**    |            |                 |                 |
-|      | Paramount+      | **U-NEXT**   |            |                 |                 |
-|      | **Peacock**     |              |            |                 |                 |
-| 3    | **Stan**        | **Hotstar**  | **KOCOWA** | **Pathé Thuis** | **BBC iPlayer** |
-|      | iTunes          | **TVer**     |            |                 |                 |
-|      | **Hulu**        | **VIU**      |            |                 |                 |
-|      | **Max**         |              |            |                 |                 |
-|      | **Roku**        |              |            |                 |                 |
+| Rank | North America   | Australia | Asia         | Korean     | Dutch           | UK              |
+| ---- | --------------- | --------- | ------------ | ---------- | --------------- | --------------- |
+| 1    | Movies Anywhere |           |              |            |                 |                 |
+|      | Amazon          |           |              |            |                 |                 |
+|      | Apple TV+       |           |              |            |                 |                 |
+|      | Disney+         |           |              |            |                 |                 |
+| 2    | HBO Max         |           | **Fuji ToD** |            |                 |                 |
+|      | Netflix         |           | **TVING**    |            |                 |                 |
+|      | Paramount+      |           | **U-NEXT**   |            |                 |                 |
+|      | **Peacock**     |           |              |            |                 |                 |
+| 3    | iTunes          | **Stan**  | **Hotstar**  | **KOCOWA** | **Pathé Thuis** | **BBC iPlayer** |
+|      | **Hulu**        |           | **TVer**     |            |                 |                 |
+|      | **Max**         |           | **VIU**      |            |                 |                 |
+|      | **Roku**        |           |              |            |                 |                 |
+|      |                 |           |              |            |                 |                 |
 
 
-| Service | Region | Bitrate  |
-| ------- | ------ | -------- |
-| KOCOWA  | Korea  | 4000Mbps |
-| VIKI    | Korea  | 2000Mbps |
-| IQiyi   | Korea  | 3000Mbps |
-| tvN     | Korea  | 5000Mbps |
-| WAVVE   | Korea  | 5000Mbps |
-| KBS     |        |          |
+| Service | Region        | Bitrate   |
+| ------- | ------------- | --------- |
+| KOCOWA  | Korea         | 4000Mbps  |
+| VIKI    | Korea         | 2000Mbps  |
+| IQiyi   | Korea         | 3000Mbps  |
+| tvN     | Korea         | 5000Mbps  |
+| WAVVE   | Korea         | 5000Mbps  |
+| KBS     | Korea         | 25000Mbps |
+| Peacock | North America |           |
+| Hulu    | North America |           |
+| Max     | North America |           |
+| Roku    | North America |           |
 
 
 
