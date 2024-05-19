@@ -35,8 +35,8 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | tvN         | South Korea    | 5000Mbps                  |
 | WAVVE       | South Korea    | 5000Mbps                  |
 | KBS         | South Korea    | 25000Mbps                 |
-| Peacock     | North America  |                           |
-| Hulu        | North America  |                           |
+| Peacock     | North America  | 7800Mbps                  |
+| Hulu        | North America  | 4-6000Mbps                |
 | Max         | North America  |                           |
 | Roku        | North America  |                           |
 | Stan        | Australia      |                           |
