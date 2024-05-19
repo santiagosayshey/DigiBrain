@@ -10,7 +10,7 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 
 
 
-| Rank | North America   | Australia | Asia         | Korean     | Dutch           | UK              |
+| Rank | North America   | Australia | Asia         | Korea      | Dutch           | UK              |
 | ---- | --------------- | --------- | ------------ | ---------- | --------------- | --------------- |
 | 1    | Movies Anywhere |           |              |            |                 |                 |
 |      | Amazon          |           |              |            |                 |                 |
@@ -27,18 +27,27 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 |      |                 |           |              |            |                 |                 |
 
 
-| Service | Region        | Bitrate   |
-| ------- | ------------- | --------- |
-| KOCOWA  | Korea         | 4000Mbps  |
-| VIKI    | Korea         | 2000Mbps  |
-| IQiyi   | Korea         | 3000Mbps  |
-| tvN     | Korea         | 5000Mbps  |
-| WAVVE   | Korea         | 5000Mbps  |
-| KBS     | Korea         | 25000Mbps |
-| Peacock | North America |           |
-| Hulu    | North America |           |
-| Max     | North America |           |
-| Roku    | North America |           |
+| Service     | Region         | Average Bitrate (Roughly) |
+| ----------- | -------------- | ------------------------- |
+| KOCOWA      | South Korea    | 4000Mbps                  |
+| VIKI        | South Korea    | 2000Mbps                  |
+| IQiyi       | South Korea    | 3000Mbps                  |
+| tvN         | South Korea    | 5000Mbps                  |
+| WAVVE       | South Korea    | 5000Mbps                  |
+| KBS         | South Korea    | 25000Mbps                 |
+| Peacock     | North America  |                           |
+| Hulu        | North America  |                           |
+| Max         | North America  |                           |
+| Roku        | North America  |                           |
+| Stan        | Australia      |                           |
+| Fuji ToD    | Japan          |                           |
+| TVING       | South Korea    |                           |
+| U-NEXT      | Japan          |                           |
+| Hotstar     | India          |                           |
+| TVer        | Japan          |                           |
+| VIU         | Hong Kong      |                           |
+| Pathé Thuis | Netherlands    |                           |
+| BBC iPlayer | United Kingdom |                           |
 
 
 
