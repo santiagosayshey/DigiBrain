@@ -8,30 +8,32 @@ This list has been compiled using a number of custom formats from the [TRaSH Gui
 
 Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons. Other services have been added based on similar bitrates. 
 
-Blue services have been ranked using similar bitrate nomination. 
-- Tier 1: > 6000Mbps
-- Tier 2: 3000 - 6000Mbps
-- Tier 3: < 3000Mbps
 
-| Rank | General         | Asia         | Korean | Dutch           | UK              |
-| ---- | --------------- | ------------ | ------ | --------------- | --------------- |
-| 1    | Movies Anywhere |              |        |                 |                 |
-|      | Amazon          |              |        |                 |                 |
-|      | Apple TV+       |              |        |                 |                 |
-|      | Disney+         |              |        |                 |                 |
-| 2    | HBO Max         | **Fuji ToD** |        |                 |                 |
-|      | Netflix         | **TVING**    |        |                 |                 |
-|      | Paramount+      | **U-NEXT**   |        |                 |                 |
-|      | **Peacock**     |              |        |                 |                 |
-| 3    | **Stan**        | **Hotstar**  |        | **Pathé Thuis** | **BBC iPlayer** |
-|      | iTunes          | **TVer**     |        |                 |                 |
-|      | **Hulu**        | **VIU**      |        |                 |                 |
-|      | **Max**         |              |        |                 |                 |
-|      | **Roku**        |              |        |                 |                 |
 
-If you would like
+| Rank | General         | Asia         | Korean     | Dutch           | UK              |
+| ---- | --------------- | ------------ | ---------- | --------------- | --------------- |
+| 1    | Movies Anywhere |              |            |                 |                 |
+|      | Amazon          |              |            |                 |                 |
+|      | Apple TV+       |              |            |                 |                 |
+|      | Disney+         |              |            |                 |                 |
+| 2    | HBO Max         | **Fuji ToD** |            |                 |                 |
+|      | Netflix         | **TVING**    |            |                 |                 |
+|      | Paramount+      | **U-NEXT**   |            |                 |                 |
+|      | **Peacock**     |              |            |                 |                 |
+| 3    | **Stan**        | **Hotstar**  | **KOCOWA** | **Pathé Thuis** | **BBC iPlayer** |
+|      | iTunes          | **TVer**     |            |                 |                 |
+|      | **Hulu**        | **VIU**      |            |                 |                 |
+|      | **Max**         |              |            |                 |                 |
+|      | **Roku**        |              |            |                 |                 |
 
-kocowa
+
+| Service | Region | Bitrate  |
+| ------- | ------ | -------- |
+| KOCOWA  | Korea  | 4000Mbps |
+|         |        |          |
+
+
+
 viki
 IQiyi
 tvN
