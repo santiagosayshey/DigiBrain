@@ -44,10 +44,11 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | TVING       | South Korea    | 5000Mbps                  |
 | U-NEXT      | Japan          | 4000Mbps                  |
 | Hotstar     | India          | 3-4000Mbps                |
-| TVer        | Japan          |                           |
-| VIU         | Hong Kong      |                           |
-| Pathé Thuis | Netherlands    |                           |
+| TVer        | Japan          | 2-3000Mbps                |
+| VIU         | Hong Kong      | 2000Mbps                  |
+| Pathé Thuis | Netherlands    | 5-6000Mbps                |
 | BBC iPlayer | United Kingdom |                           |
+| Criterion   | North America  | 4-5000Mbps                |
 
 
 
