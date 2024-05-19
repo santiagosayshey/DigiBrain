@@ -25,7 +25,13 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 |      | **iTunes**      |             |           | **TVer**     |             | **VIU**   |                 | **BBC iPlayer** |           |               |
 |      | **VRV**         |             |           |              |             |           |                 |                 |           |               |
 
-
+BINGE
+SBS on Demand
+ABC iView
+10 play
+freeview
+7plus
+9now
 
 | Service     | Region         | Average Bitrate (1080p) |
 | ----------- | -------------- | ----------------------- |
