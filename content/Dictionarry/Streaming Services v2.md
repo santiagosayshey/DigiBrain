@@ -1,10 +1,10 @@
 With version 2 of the streaming service ranking, I wanted to focus on a few key points:
 
 1. Increase immutability by reducing tiers
-2. Adding more services (mostly for foreign media)
+2. Adding more services (mostly for foreign / niche media)
 3. Adjust for new differences in quality.
 
-This list has been compiled using a number of custom formats from the [TRaSH Guides](https://trash-guides.info/). Some custom formats have been adjusted to fix edge cases. Other custom formats have been added. 
+This list has been compiled using a number of custom formats from the [TRaSH Guides](https://trash-guides.info/). Some custom formats have been adjusted to fix edge cases. Numerous other custom formats have been added. 
 
 Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons.  Services in bold have been added based on similar bitrates. 
 
@@ -24,6 +24,8 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 |      | **Roku**        | **KBS**     |           | **U-NEXT**   |             |           |                 | **NOW**         |           |               |
 |      | **iTunes**      |             |           | **TVer**     |             | **VIU**   |                 | **BBC iPlayer** |           |               |
 |      | **VRV**         |             |           |              |             |           |                 |                 |           |               |
+
+# Complete
 
 | Streaming Service | Abbreviation | Region         | Bitrate           | Regex                           |
 | ----------------- | ------------ | -------------- | ----------------- | ------------------------------- |
@@ -70,3 +72,140 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | Netflix           |              | North America  |                   |                                 |
 | Paramount+        |              | North America  |                   |                                 |
 | Criterion         |              | North America  |                   |                                 |
+# Can be requested
+
+| Site/Network                                    | Abbreviation | Region         |
+| ------------------------------------------------| -------------|----------------|
+| A&E                                             | AE           | United States  |
+| ABC (US)                                        | AMBC         | United States  |
+| Adult Swim                                      | AS           | United States  |
+| Al Jazeera English                              | AJAZ         | Global         |
+| All4 (Channel 4, ex-4oD)                        | ALL4         | United Kingdom |
+| AMC                                             | AMC          | United States  |
+| America's Test Kitchen                          | ATK          | United States  |
+| Animal Planet                                   | ANPL         | United States  |
+| AOL                                             | AOL          | United States  |
+| Apple TV+                                       | ATVP         | Global         |
+| ARD                                             | ARD          | Germany        |
+| Blackpills                                      | BKPL         | France         |
+| Boomerang                                       | BOOM         | United States  |
+| BravoTV                                         | BRAV         | United States  |
+| C More                                          | CMOR         | Nordic countries |
+| Canal+                                          | CNLP         | France         |
+| Cartoon Network                                 | CN           | United States  |
+| CBC                                             | CBC          | Canada         |
+| CBS                                             | CBS          | United States  |
+| CHRGD                                           | CHGD         | Canada         |
+| Cinemax                                         | CMAX         | United States  |
+| Club illico                                     | CLBI         | Canada         |
+| CNBC                                            | CNBC         | United States  |
+| Comedians in Cars Getting Coffee                | CCGC         | United States  |
+| Comedy Central                                  | CC           | United States  |
+| Cooking Channel                                 | COOK         | United States  |
+| Country Music Television                        | CMT          | United States  |
+| Crackle                                         | CRKL         | United States  |
+| Crunchyroll                                     | CR           | United States  |
+| CSpan                                           | CSPN         | United States  |
+| CTV                                             | CTV          | Canada         |
+| CuriosityStream                                 | CUR          | Global         |
+| CWSeed                                          | CWS          | United States  |
+| Daisuki                                         | DSKI         | Japan          |
+| DC Universe                                     | DCU          | United States  |
+| Deadhouse Films                                 | DHF          | Australia      |
+| Destination America                             | DEST         | United States  |
+| Digiturk Dilediğin Yerde                        | DDY          | Turkey         |
+| DirecTV Now                                     | DTV          | United States  |
+| Discovery Channel                               | DISC         | United States  |
+| Discovery+                                      | DSCP         | Global         |
+| Disney                                          | DSNY         | Global         |
+| DIY Network                                     | DIY          | United States  |
+| Dropout                                         | DRPO         | United States  |
+| E!                                              | ETV          | United States  |
+| El Trece                                        | ETTV         | Argentina      |
+| EPIX                                            | EPIX         | United States  |
+| ESPN                                            | ESPN         | United States  |
+| Esquire                                         | ESQ          | United States  |
+| Family                                          | FAM          | Canada         |
+| Family Jr                                       | FJR          | Canada         |
+| Food Network                                    | FOOD         | United States  |
+| Fox                                             | FOX          | United States  |
+| FPT Play                                        | FPT          | Vietnam        |
+| France.tv                                       | FTV          | France         |
+| Freeform                                        | FREE         | United States  |
+| Funimation                                      | FUNI         | United States  |
+| FYI Network                                     | FYI          | United States  |
+| Global                                          | GLBL         | Canada         |
+| GloboSat Play                                   | GLOB         | Brazil         |
+| go90                                            | GO90         | United States  |
+| Google Play                                     | PLAY         | Global         |
+| Hallmark                                        | HLMK         | United States  |
+| HBO                                             | HBO          | Global         |
+| HGTV                                            | HGTV         | United States  |
+| HIDIVE                                          | HIDI         | United States  |
+| History Channel                                 | HIST         | United States  |
+| Ici TOU.TV                                      | TOU          | Canada         |
+| IFC                                             | IFC          | United States  |
+| Investigation Discovery                         | ID           | United States  |
+| iTunes                                          | iT           | Global         |
+| ITV                                             | ITV          | United Kingdom |
+| Kanopy                                          | KNPY         | United States  |
+| Knowledge Network                               | KNOW         | Canada         |
+| Lifetime                                        | LIFE         | United States  |
+| Loving Nature                                   | LN           | United States  |
+| Motor Trend OnDemand                            | MTOD         | United States  |
+| MSNBC                                           | MNBC         | United States  |
+| MTV                                             | MTV          | United States  |
+| National Geographic                             | NATG         | Global         |
+| NBA League Pass                                 | NBA          | United States  |
+| NBC                                             | NBC          | United States  |
+| NFL Network                                     | NFL          | United States  |
+| NFL Now                                         | NFLN         | United States  |
+| NHL GameCenter                                  | GC           | United States  |
+| Nickelodeon                                     | NICK         | United States  |
+| Norsk Rikskringkasting                          | NRK          | Norway         |
+| Paramount Network                               | PMNT         | United States  |
+| PBS                                             | PBS          | United States  |
+| PBS Kids                                        | PBSK         | United States  |
+| Playstation Network                             | PSN          | Global         |
+| Pluzz                                           | PLUZ         | France         |
+| PokerGo                                         | POGO         | United States  |
+| Project Alpha                                   | PA           | United States  |
+| puhutv                                          | PUHU         | Turkey         |
+| Rakuten TV                                      | RKTN         | Japan          |
+| Rooster Teeth                                   | RSTR         | United States  |
+| RTÉ                                             | RTE          | Ireland        |
+| Seeso                                           | SESO         | United States  |
+| Shomi                                           | SHMI         | Canada         |
+| Showtime                                        | SHO          | United States  |
+| Shudder                                         | SHDR         | United States  |
+| SkyShowtime                                     | SKST         | Global         |
+| Spike                                           | SPIK         | United States  |
+| Sportsnet                                       | SNET         | Canada         |
+| Sprout                                          | SPRT         | United States  |
+| Starz                                           | STZ          | United States  |
+| Sveriges Television                             | SVT          | Sweden         |
+| SwearNet                                        | SWER         | Canada         |
+| SyFy                                            | SYFY         | United States  |
+| TBS                                             | TBS          | United States  |
+| TFOU                                            | TFOU         | France         |
+| The CW                                          | CW           | United States  |
+| TIMvision                                       | TIMV         | Italy          |
+| TLC                                             | TLC          | United States  |
+| Travel Channel                                  | TRVL         | United States  |
+| TubiTV                                          | TUBI         | United States  |
+| TV3 (IE)                                        | TV3          | Ireland        |
+| TV4 (SE)                                        | TV4          | Sweden         |
+| TVLand                                          | TVL          | United States  |
+| UFC                                             | UFC          | United States  |
+| UKTV                                            | UKTV         | United Kingdom |
+| Univision                                       | UNIV         | United States  |
+| USA Network                                     | USAN         | United States  |
+| Velocity                                        | VLCT         | United States  |
+| VET Tv                                          | VTRN         | United States  |
+| VH1                                             | VH1          | United States  |
+| Viaplay                                         | VIAP         | Nordic countries |
+| Viceland                                        | VICE         | United States  |
+| Vimeo                                           | VMEO         | Global         |
+| W Network                                       | WNET         | Canada         |
+| WatchMe                                         | WME          | United States  |
+| WWE Network                                     | WWEN         | Global         |
