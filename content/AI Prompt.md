@@ -111,9 +111,36 @@ This sets the stage for understanding how we can optimize connections in a netwo
 This structure ensures that each callout is detailed and purposeful, enhancing the clarity and depth of your notes.
 You may also include the following elements in the callouts:
 
+This structure ensures that each callout is detailed and purposeful, enhancing the clarity and depth of your notes.
+You may also include the following elements in the callouts:
+
 - Tables: Please ensure that tables follow markdown formatting rules.
+
+| Algorithm   | Time Complexity | Space Complexity |
+| ----------- | --------------- | ---------------- |
+| Bubble Sort | O(n^2)          | O(1)             |
+| Merge Sort  | O(n log n)      | O(n)             |
+| Quick Sort  | O(n log n)      | O(log n)         |
+
 - Images: Indicate where the image should be placed and provide a description so that I can find or create a suitable image (e.g., drawing a graph to illustrate Dijkstra's algorithm in Figma). This is very important. Whenever you want to include an image, You NEED to describe it. Perhaps write the explanation in a codeblock so that I know it can be deleted later. 
+
+
+```image_goes_here
+![[Using Obsidian Wikilinks, NOT MARKDOWN LINKS]
+```
+
+
 - Math: When including mathematical equations, please use Obsidian's formatting rules - `$ $` for inline equations and `$$ $$` for equation blocks.
+
+- Inline equation example: The formula for the area of a circle is $A = \pi r^2$.
+- Block equation example:
+
+$$
+E = mc^2
+$$
+
+<hr>
+
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
