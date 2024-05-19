@@ -8,22 +8,22 @@ This list has been compiled using a number of custom formats from the [TRaSH Gui
 
 Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons. Other services have been added based on similar bitrates. 
 
-| Rank | North America   | South Korea | Australia | Japan        | India | Hong Kong | Netherlands     | United Kingdom  | Canada    | Latin America |
-| ---- | --------------- | ----------- | --------- | ------------ | ----- | --------- | --------------- | --------------- | --------- | ------------- |
-| 1    | Movies Anywhere | **KBS**     |           |              |       |           |                 |                 |           |               |
-|      | Amazon          |             |           |              |       |           |                 |                 |           |               |
-|      | Apple TV+       |             |           |              |       |           |                 |                 |           |               |
-|      | Disney+         |             |           |              |       |           |                 |                 |           |               |
-|      | **Peacock**     | **tvN**     |           |              |       |           |                 |                 |           |               |
-| 2    | **Max**         | **WAVVE**   |           |              |       |           |                 |                 |           |               |
-|      | HBO Max         | **TVING**   |           |              |       |           |                 |                 |           |               |
-|      | Netflix         | **IQiyi**   |           |              |       |           |                 |                 |           |               |
-|      | Paramount+      | **Hotstar** |           |              |       |           |                 |                 |           |               |
-|      | Criterion       | **KOCOWA**  |           |              |       |           |                 |                 |           |               |
-| 3    | **Hulu**        | **VIKI**    | **Stan**  | **Fuji ToD** |       |           | **Pathé Thuis** | **ITVX**        | **Crave** | **Star+**     |
-|      | Roku**          |             |           | **U-NEXT**   |       |           |                 | **NOW**         |           |               |
-| 3    | iTunes          |             |           | **TVer**     |       | **VIU**   |                 | **BBC iPlayer** |           |               |
-| **3  | VRV**           |             |           |              |       |           |                 |                 |           |               |
+| Rank                                          | North America   | South Korea | Australia | Japan        | India       | Hong Kong | Netherlands     | United Kingdom  | Canada    | Latin America |
+| --------------------------------------------- | --------------- | ----------- | --------- | ------------ | ----------- | --------- | --------------- | --------------- | --------- | ------------- |
+| 1 (WRITE THE EXPLANATION HERE FOR FUCKS SAKE) | Movies Anywhere | **KBS**     |           |              |             |           |                 |                 |           |               |
+|                                               | Amazon          |             |           |              |             |           |                 |                 |           |               |
+|                                               | Apple TV+       |             |           |              |             |           |                 |                 |           |               |
+|                                               | Disney+         |             |           |              |             |           |                 |                 |           |               |
+| 2                                             | **Peacock**     | **tvN**     |           |              |             |           |                 |                 |           |               |
+|                                               | **Max**         | **WAVVE**   |           |              |             |           |                 |                 |           |               |
+|                                               | HBO Max         | **TVING**   |           |              |             |           |                 |                 |           |               |
+|                                               | Netflix         | **IQiyi**   |           |              |             |           |                 |                 |           |               |
+|                                               | Paramount+      | **Hotstar** |           |              |             |           |                 |                 |           |               |
+|                                               | Criterion       | **KOCOWA**  |           |              |             |           |                 |                 |           |               |
+| 3                                             | **Hulu**        | **VIKI**    | **Stan**  | **Fuji ToD** | **Hotstar** |           | **Pathé Thuis** | **ITVX**        | **Crave** | **Star+**     |
+|                                               | **Roku**        |             |           | **U-NEXT**   |             |           |                 | **NOW**         |           |               |
+|                                               | **iTunes**      |             |           | **TVer**     |             | **VIU**   |                 | **BBC iPlayer** |           |               |
+|                                               | **VRV**         |             |           |              |             |           |                 |                 |           |               |
 
 
 
