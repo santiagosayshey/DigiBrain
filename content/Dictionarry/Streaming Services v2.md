@@ -37,7 +37,7 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | KBS         | South Korea    | 25000Mbps                 |
 | Peacock     | North America  | 7800Mbps                  |
 | Hulu        | North America  | 4-6000Mbps                |
-| Max         | North America  |                           |
+| Max         | North America  | 5-7000Mbps                |
 | Roku        | North America  | 4-5000Mbps                |
 | Stan        | Australia      | 5-6000Mbps                |
 | Fuji ToD    | Japan          | 5-6000Mbps                |
@@ -47,8 +47,10 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | TVer        | Japan          | 2-3000Mbps                |
 | VIU         | Hong Kong      | 2000Mbps                  |
 | Pathé Thuis | Netherlands    | 5-6000Mbps                |
-| BBC iPlayer | United Kingdom |                           |
+| BBC iPlayer | United Kingdom | 3-5000Mbps                |
 | Criterion   | North America  | 4-5000Mbps                |
+| ITVX        | United Kingdom |                           |
+| NOW         |                |                           |
 
 
 
