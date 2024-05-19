@@ -29,7 +29,7 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 
 | Streaming Service | Abbreviation | Region         | Bitrate           | Regex                           |
 | ----------------- | ------------ | -------------- | ----------------- | ------------------------------- |
-| 9Now              | 9NOW         | Australia      |                   | https://regex101.com/r/DiFDpl/1 |
+| 9Now              | 9NOW         | Australia      | 2,000-3,000Mbps   | https://regex101.com/r/DiFDpl/1 |
 | ABC iview         | AUBC         | Australia      |                   |                                 |
 | SBS On Demand     | SBS          | Australia      |                   |                                 |
 | 7plus             | 7PLUS        | Australia      |                   |                                 |
