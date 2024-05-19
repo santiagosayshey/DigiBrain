@@ -30,12 +30,14 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | Service | Region | Bitrate  |
 | ------- | ------ | -------- |
 | KOCOWA  | Korea  | 4000Mbps |
-|         |        |          |
+| VIKI    | Korea  | 2000Mbps |
+| IQiyi   | Korea  | 3000Mbps |
+| tvN     | Korea  | 5000Mbps |
+| WAVVE   | Korea  | 5000Mbps |
+| KBS     |        |          |
 
 
 
-viki
-IQiyi
-tvN
-WAVVE
-KBS
+
+
+
