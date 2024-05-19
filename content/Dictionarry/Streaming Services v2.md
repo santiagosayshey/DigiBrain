@@ -40,10 +40,10 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | Max         | North America  |                           |
 | Roku        | North America  | 4-5000Mbps                |
 | Stan        | Australia      | 5-6000Mbps                |
-| Fuji ToD    | Japan          |                           |
-| TVING       | South Korea    |                           |
-| U-NEXT      | Japan          |                           |
-| Hotstar     | India          |                           |
+| Fuji ToD    | Japan          | 5-6000Mbps                |
+| TVING       | South Korea    | 5000Mbps                  |
+| U-NEXT      | Japan          | 4000Mbps                  |
+| Hotstar     | India          | 3-4000Mbps                |
 | TVer        | Japan          |                           |
 | VIU         | Hong Kong      |                           |
 | Pathé Thuis | Netherlands    |                           |
