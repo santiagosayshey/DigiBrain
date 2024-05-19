@@ -29,3 +29,5 @@ Blue services have been ranked using similar bitrate nomination. Comparisons are
 If you would like
 
 kocowa
+viki
+IQiyi
