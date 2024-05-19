@@ -25,13 +25,19 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 |      | **iTunes**      |             |           | **TVer**     |             | **VIU**   |                 | **BBC iPlayer** |           |               |
 |      | **VRV**         |             |           |              |             |           |                 |                 |           |               |
 
-BINGE
-SBS on Demand
-ABC iView
-10 play
-freeview
-7plus
-9now
+| Site/Network  | Abbreviation |
+| ------------- | ------------ |
+| 9Now          | 9NOW         |
+| ABC iview     | AUBC         |
+| SBS On Demand | SBS          |
+| 7plus         | 7PLUS        |
+| 10 Play       | TEN          |
+| Foxtel Now    | FXTL         |
+| Kayo Sports   | KAYO         |
+| Stan          | STAN         |
+| Binge         | BNGE         |
+| DocPlay       | DOCC         |
+| AnimeLab      | ANLB         |
 
 | Service     | Region         | Average Bitrate (1080p) |
 | ----------- | -------------- | ----------------------- |
