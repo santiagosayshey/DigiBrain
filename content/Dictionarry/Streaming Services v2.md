@@ -8,7 +8,10 @@ This list has been compiled using a number of custom formats from the [TRaSH Gui
 
 Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons. Other services have been added based on similar bitrates. 
 
-Blue services have been ranked using similar bitrate nomination. Comparisons are not necessary here, as most releases won't be available elsewhere.
+Blue services have been ranked using similar bitrate nomination. 
+- Tier 1: > 6000Mbps
+- Tier 2: 3000 - 6000Mbps
+- Tier 3: < 3000Mbps
 
 | Rank | General         | Asia         | Korean | Dutch           | UK              |
 | ---- | --------------- | ------------ | ------ | --------------- | --------------- |
@@ -31,3 +34,6 @@ If you would like
 kocowa
 viki
 IQiyi
+tvN
+WAVVE
+KBS
