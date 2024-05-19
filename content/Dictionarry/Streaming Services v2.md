@@ -38,8 +38,8 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | Peacock     | North America  | 7800Mbps                  |
 | Hulu        | North America  | 4-6000Mbps                |
 | Max         | North America  |                           |
-| Roku        | North America  |                           |
-| Stan        | Australia      |                           |
+| Roku        | North America  | 4-5000Mbps                |
+| Stan        | Australia      | 5-6000Mbps                |
 | Fuji ToD    | Japan          |                           |
 | TVING       | South Korea    |                           |
 | U-NEXT      | Japan          |                           |
