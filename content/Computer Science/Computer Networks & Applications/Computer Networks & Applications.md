@@ -39,5 +39,9 @@
 |      |                   | [[10.2 Software Defined Networking]]  |                                                                                                |                                             |                                     |                |
 |      |                   | [[10.3 OpenFlow]]                     |                                                                                                |                                             |                                     |                |
 |      | Data Link Layer   | [[10.4 Data Link Layer]]              |                                                                                                |                                             |                                     |                |
+|      |                   | [[10.5 Error Detection & Correction]] |                                                                                                |                                             |                                     |                |
+|      |                   | [[10.6 Internet Checksums]]           |                                                                                                |                                             |                                     |                |
+|      |                   | [[10.7 Parity Bits]]                  |                                                                                                |                                             |                                     |                |
+| 11   |                   |                                       |                                                                                                |                                             |                                     |                |
 
 
