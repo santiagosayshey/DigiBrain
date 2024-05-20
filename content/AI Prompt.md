@@ -2,6 +2,10 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [topic] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
+I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
+
+[aditional context]
+
 I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
 
 > [!callout type] title
@@ -142,8 +146,6 @@ $$
 <hr>
 
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
-[aditional context]
 
 Thanks!
