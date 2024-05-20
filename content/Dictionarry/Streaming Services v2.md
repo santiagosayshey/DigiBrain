@@ -27,50 +27,50 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 
 # Complete
 
-| Streaming Service   | Abbreviation | Region         | Bitrate                 | Regex                               |
-|---------------------|--------------|----------------|-------------------------|-------------------------------------|
-| 7plus               | 7PLUS        | Australia      | 3000 (720p Only)        | https://regex101.com/r/f6jPoR/1     |
-| 9Now                | 9NOW         | Australia      | 2,000-3,000Mbps (720p Only) | https://regex101.com/r/DiFDpl/1  |
-| 10 Play             | TEN          | Australia      |                         |                                     |
-| ABC iview           | AUBC         | Australia      | 2,000-3,000Mbps         | https://regex101.com/r/X6p3Aj/1     |
-| Amazon              | AMZN         | North America  |                         |                                     |
-| AnimeLab            | ANLB         | Australia      |                         |                                     |
-| Apple TV+           | ATVP         | North America  |                         |                                     |
-| BBC iPlayer         | iP           | United Kingdom | 3,200-5,000 Kbps        |                                     |
-| Binge               | BNGE         | Australia      |                         |                                     |
-| Crave               |              | Canada         | 5,000-6,000 Kbps        |                                     |
-| Criterion           | CRIT         | North America  | 4,000-5,000 Kbps        |                                     |
-| Disney+             | DSNP         | North America  |                         |                                     |
-| DocPlay             | DOCC         | Australia      |                         |                                     |
-| Foxtel Now          | FXTL         | Australia      |                         |                                     |
-| Fuji ToD            |              | Japan          | 5,000-6,000 Kbps        |                                     |
-| HBO Max             | HMAX         | North America  |                         |                                     |
-| Hotstar             |              | India          | 3,000-4,000 Kbps        |                                     |
-| Hulu                | HULU         | North America  | 4,000-6,000 Kbps        |                                     |
-| IQiyi               |              | South Korea    | 3,000 Kbps              |                                     |
-| ITVX                | ITV          | United Kingdom | 5,000-6,000 Kbps        |                                     |
-| Kayo Sports         | KAYO         | Australia      |                         |                                     |
-| KBS                 |              | South Korea    | 25,000 Kbps             |                                     |
-| KOCOWA              |              | South Korea    | 4,000 Kbps              |                                     |
-| Max                 | MAX          | North America  | 7,000-10,000 Kbps       |                                     |
-| Movies Anywhere     |              | North America  |                         |                                     |
-| Netflix             | NF           | North America  |                         |                                     |
-| NOW                 | NOW          | United Kingdom | 5,000 Kbps              |                                     |
-| Paramount+          | PMTP         | North America  |                         |                                     |
-| Pathé Thuis         |              | Netherlands    | 5,000-6,000 Kbps        |                                     |
-| Peacock             | PCOK         | North America  | 7,800 Kbps              |                                     |
-| Roku                | ROKU         | North America  | 4,000-5,000 Kbps        |                                     |
-| SBS On Demand       | SBS          | Australia      | 1-2000 (720p Only)      | https://regex101.com/r/f8tsqr/1     |
-| Stan                | STAN         | Australia      | 5,000-6,000 Kbps        |                                     |
-| Star+               | STRP         | Latin America  | 4,000-6,000 Kbps        |                                     |
-| TVer                |              | Japan          | 2,000-3,000 Kbps        |                                     |
-| TVING               |              | South Korea    | 5,000 Kbps              |                                     |
-| tvN                 |              | South Korea    | 5,000 Kbps              |                                     |
-| U-NEXT              |              | Japan          | 4,000 Kbps              |                                     |
-| VIKI                |              | South Korea    | 2,000 Kbps              |                                     |
-| VIU                 |              | Hong Kong      | 2,000 Kbps              |                                     |
-| VRV                 | VRV          | North America  | 3,000-5,000 Kbps        |                                     |
-| WAVVE               |              | South Korea    | 5,000 Kbps              |                                     |
+| Streaming Service | Abbreviation | Region         | Bitrate                     | Regex                           |
+| ----------------- | ------------ | -------------- | --------------------------- | ------------------------------- |
+| 7plus             | 7PLUS        | Australia      | 3000 (720p Only)            | https://regex101.com/r/f6jPoR/1 |
+| 9Now              | 9NOW         | Australia      | 2,000-3,000Mbps (720p Only) | https://regex101.com/r/DiFDpl/1 |
+| 10 Play           | TEN          | Australia      |                             |                                 |
+| ABC iview         | AUBC         | Australia      | 2,000-3,000Mbps             | https://regex101.com/r/X6p3Aj/1 |
+| Amazon            | AMZN         | North America  |                             |                                 |
+| AnimeLab          | ANLB         | Australia      |                             |                                 |
+| Apple TV+         | ATVP         | North America  |                             |                                 |
+| BBC iPlayer       | iP           | United Kingdom | 3,200-5,000 Kbps            |                                 |
+| Binge             | BNGE         | Australia      |                             |                                 |
+| Crave             |              | Canada         | 5,000-6,000 Kbps            |                                 |
+| Criterion         | CRIT         | North America  | 4,000-5,000 Kbps            |                                 |
+| Disney+           | DSNP         | North America  |                             |                                 |
+| DocPlay           | DOCC         | Australia      |                             |                                 |
+| Foxtel Now        | FXTL         | Australia      |                             |                                 |
+| Fuji ToD          |              | Japan          | 5,000-6,000 Kbps            |                                 |
+| HBO Max           | HMAX         | North America  |                             |                                 |
+| Hotstar           |              | India          | 3,000-4,000 Kbps            |                                 |
+| Hulu              | HULU         | North America  | 4,000-6,000 Kbps            |                                 |
+| IQiyi             |              | South Korea    | 3,000 Kbps                  |                                 |
+| ITVX              | ITV          | United Kingdom | 5,000-6,000 Kbps            |                                 |
+| Kayo Sports       | KAYO         | Australia      |                             |                                 |
+| KBS               |              | South Korea    | 25,000 Kbps                 |                                 |
+| KOCOWA            |              | South Korea    | 4,000 Kbps                  |                                 |
+| Max               | MAX          | North America  | 7,000-10,000 Kbps           |                                 |
+| Movies Anywhere   |              | North America  |                             |                                 |
+| Netflix           | NF           | North America  |                             |                                 |
+| NOW               | NOW          | United Kingdom | 5,000 Kbps                  |                                 |
+| Paramount+        | PMTP         | North America  |                             |                                 |
+| Pathé Thuis       |              | Netherlands    | 5,000-6,000 Kbps            |                                 |
+| Peacock           | PCOK         | North America  | 7,800 Kbps                  |                                 |
+| Roku              | ROKU         | North America  | 4,000-5,000 Kbps            |                                 |
+| SBS On Demand     | SBS          | Australia      | 1-2000 (720p Only)          | https://regex101.com/r/f8tsqr/1 |
+| Stan              | STAN         | Australia      | 5,000-6,000 Kbps            |                                 |
+| Star+             | STRP         | Latin America  | 4,000-6,000 Kbps            |                                 |
+| TVer              |              | Japan          | 2,000-3,000 Kbps            |                                 |
+| TVING             |              | South Korea    | 5,000 Kbps                  |                                 |
+| tvN               |              | South Korea    | 5,000 Kbps                  |                                 |
+| U-NEXT            |              | Japan          | 4,000 Kbps                  |                                 |
+| VIKI              |              | South Korea    | 2,000 Kbps                  |                                 |
+| VIU               |              | Hong Kong      | 2,000 Kbps                  |                                 |
+| VRV               | VRV          | North America  | 3,000-5,000 Kbps            |                                 |
+| WAVVE             |              | South Korea    | 5,000 Kbps                  |                                 |
 # Can be requested
 
 | Site/Network                                    | Abbreviation | Region         |
