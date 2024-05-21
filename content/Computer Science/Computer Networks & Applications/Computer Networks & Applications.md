@@ -42,6 +42,7 @@
 |      |                   | [[10.5 Error Detection & Correction]] |                                                                                                |                                             |                                     |                |
 |      |                   | [[10.6 Internet Checksums]]           |                                                                                                |                                             |                                     |                |
 |      |                   | [[10.7 Parity Bits]]                  |                                                                                                |                                             |                                     |                |
-| 11   |                   |                                       |                                                                                                |                                             |                                     |                |
+| 11   |                   | [[11.1 Cyclic Redundancy Check]]      |                                                                                                |                                             |                                     |                |
+|      |                   | [[11.2]]                              |                                                                                                |                                             |                                     |                |
 
 
