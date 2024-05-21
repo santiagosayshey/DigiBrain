@@ -32,4 +32,4 @@
 | 10   | [[10.1 Minimum Spanning Trees]]           |                                                                                                     |                                                    |                         |
 |      | [[10.3 Kruskal's Algorithm]]              |                                                                                                     |                                                    |                         |
 |      | [[10.4 Prim's Algorithm]]                 |                                                                                                     |                                                    |                         |
-| 11   | [[11.1 Turing Machines]]                  |                                                                                                     |                                                    |                         |
+| 11   | [[11.2 Turing Machines]]                  |                                                                                                     |                                                    |                         |
