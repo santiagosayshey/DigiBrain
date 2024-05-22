@@ -280,4 +280,4 @@ add_node function called with argument: C
 add_link function called with arguments: A, C, 1
 ```
 
-That doesn't seem right.... I think there was an issue with adding nodes as the final else case. Let's try again.
+That doesn't seem right.... Seems we forgot a major function in our Network implementation - `update_links`. We also need to call the printing functions within the linkstate and update functions. 
