@@ -284,7 +284,9 @@ That doesn't seem right.... Seems we forgot a major function in our Network impl
 
 
 ============================
-Logbook Entry 14 (4:43pm, May 22, 2024)
+Logbook Entry 15 (4:43pm, May 22, 2024)
 ============================
 
-`process_input` isn't going that well. I decided to scrap what I had. It was too confusing to continue. Going to approach each type of line one at a time now
+This `process_input` function may be the hardest part of the assignment... Here are a list of issues I've found when parsing the line.
+- We need to define an instruction type for each type of line
+- If the line *is* the instruction type, then it needs to be skipped over...
