@@ -414,3 +414,19 @@ What's the Fix?
 What's next?
 - Move `print_lsdb` to the `Network` class and update `print_output` accordingly.
 - Test the updated implementation to ensure correct functionality.
+
+22 May 2024 23:55:00
+Kind: Text, by: a1799298, from: 118_211_67_70
+
+============================
+Logbook Entry 21 (6:31pm, May 22, 2024)
+============================
+
+LSDB has now been implemented properly (sort of)
+
+Observations
+- For some reason, the example outputs in the assignment spec seem to have LSDBs instantiated on a node by node basis. My implementation works (and is more space efficient!!!), but ill have to fix this up later.
+
+What's next?
+- Implement Dijkstra in the routing table calculations  
+- Implement the function to print the routing table for each node.
