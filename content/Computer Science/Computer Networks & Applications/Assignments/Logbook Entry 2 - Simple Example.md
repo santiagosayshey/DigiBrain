@@ -129,8 +129,51 @@ Implementation Plan:
 
 [Insert a flowchart image here illustrating the main program flow, including reading input, processing input, and generating output.]
 
-Logbook Entry 2 (2:32pm, May 22, 2024)
+Logbook Entry 3 (2:32pm, May 22, 2024)
 
-Thoughts / Oberservations
-- Working through some hand written examples really helped my understanding of what the expected requirements are.
-- This assignment seems perfect for an object oriented programming approach.
+Absolutely! Let's continue with your thoughts and observations.
+
+Logbook Entry 2 - Simple Example (Continued)
+
+Thoughts / Observations:
+- Working through some hand-written examples really helped my understanding of what the expected requirements are.
+- This assignment seems perfect for an object-oriented programming approach.
+
+Next steps:
+- Outlini
+
+Class Implementations:
+
+1. Node Class:
+   - Variables:
+     - `name`: Stores the name of the node.
+     - `neighbors`: A dictionary that stores the neighboring nodes and their associated link costs.
+     - `routing_table`: A dictionary that stores the routing table entries.
+   - Functions:
+     - Constructor, `add_neighbor()`, `remove_neighbor()`, `calculate_routing_table()`, and printing functions for neighbor table, LSDB, and routing table.
+
+2. Network Class:
+   - Variables:
+     - `nodes`: A dictionary that stores all the nodes in the network, with node names as keys and Node objects as values.
+     - `lsdb`: A dictionary that represents the Link-State Database (LSDB) of the network.
+   - Functions:
+     - Constructor, `add_node()`, `add_link()`, `remove_link()`, `process_input()`, and `print_output()`.
+
+Implementation Details:
+- The `Node` class encapsulates the properties and behaviors of individual nodes in the network. It stores the node's name, neighbors, and routing table, and provides methods to update and retrieve this information.
+- The `Network` class represents the entire network topology and manages the interactions between nodes. It stores all the nodes in the network and maintains the LSDB. It provides methods to add/remove nodes and links, process input commands, and generate the expected output.
+
+By separating the responsibilities into two classes, we can achieve a modular and maintainable design. The `Node` class focuses on the individual node's perspective, while the `Network` class handles the overall network operations and coordination between nodes.
+
+Next Steps:
+- Implement the `Node` class with the necessary variables and functions.
+- Implement the `Network` class with the necessary variables and functions.
+- Develop the `process_input()` method in the `Network` class to handle the input commands and update the network state accordingly.
+- Develop the `print_output()` method in the `Network` class to generate the expected output for the specified nodes.
+- Create a main program that utilizes the `Network` class to read input, process commands, and generate output.
+
+[Insert a high-level flowchart image here illustrating the main program flow, including reading input, processing commands, and generating output.]
+
+By following this object-oriented approach and separating concerns between the `Node` and `Network` classes, we can create a flexible and extensible solution to the routing problem.
+
+Let me know if you have any further thoughts or if you'd like to proceed with the implementation!
