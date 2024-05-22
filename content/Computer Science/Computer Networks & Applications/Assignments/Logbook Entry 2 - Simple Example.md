@@ -199,19 +199,22 @@ What's Next?
 
 
 ============================
-Logbook Entry 10 (3:58pm, May 22, 2024)
+Logbook Entry 10 (4:15pm, May 22, 2024)
 ============================
 
-I've initialized all the necessary files and functions, and now it's time to start implementing everything.
+I've initialized all the necessary files and functions, and now it's time to start implementing everything!
 
-I'll get started by tackling the process of inputs first. Here's my plan:
+I'll start by tackling the input processing first. Here's my plan:
 
-- Implement the `read_input` function in `Dijkstra` to read input lines from the user until "END" is encountered.
+- Implement the `read_input` function in `Dijkstra` to read input lines from the standard input (stdin) until "END" is encountered.
+	- Return the list of input lines.
+
 - Implement the `process_input` method in the `Network` class to handle different types of input lines and update the network accordingly.
-  - Parse each input line and extract the necessary information.
-  - Determine the type of input line (e.g., adding nodes, adding links, updating link costs, removing links, printing output).
-  - Call the appropriate methods of the `Network` class to perform the corresponding actions.
-- Test the input processing functionality with sample inputs to ensure it works as expected.
-- Proceed with implementing the remaining methods in the `Network` and `Node` classes.
+	- Keep track of the current input section ("INIT", "LINKSTATE", or "UPDATE") using a variable.
+	- Iterate over each input line and process it based on the current section.
+	- For "INIT" lines, add new nodes to the network.
+	- For "LINKSTATE" and "UPDATE" lines:
+		- Extract the node names, cost, and optional list of chosen routers.
+		- Add or remove links between nodes based on the cost.
+		- Update the network topology and print the output for chosen routers, if any.
 
-By focusing on the input processing first, I can ensure that the program correctly reads and interprets the input data before moving on to the core functionality of the network simulation.
