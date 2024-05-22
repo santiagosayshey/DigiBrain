@@ -394,22 +394,22 @@ What's next?
 22 May 2024 23:45:00
 Kind: Text, by: a1799298, from: 118_211_67_70
 
+22 May 2024 23:45:00
+Kind: Text, by: a1799298, from: 118_211_67_70
+
 ============================
-Logbook Entry 20 (6:14pm, May 22, 2024)
+Logbook Entry 20 (6:20pm, May 22, 2024)
 ============================
 
 Reflection:
 I've implemented the `process_input` and `print_output` functions in the `Network` class, as well as `print_neighbour`. However, I've encountered an issue where the `print_lsdb` function within the `Node` class does not have access to the `lsdb` attribute, which is part of the `Network` class.
 
-I did touch on this in one of first few entries, and I mistakenly said that the Node has access to the lsdb. This is wrong. 
+I did touch on this in one of the first few entries, and I mistakenly said that the Node has access to the lsdb. This is wrong.
 
 This oversight means that individual nodes cannot directly print the link-state database (LSDB) as they lack access to the global `lsdb` information stored in the `Network` class. As a result, the current implementation of the `print_lsdb` function in the `Node` class is not feasible.
 
-Here's how I plan on fixing this:
-
-3. **Update `Node` Class to Reference Network for LSDB:**
-   - If necessary, the `Node` class can have a reference to the `Network` class to access the global `lsdb`. This can be done by passing the network instance to each node during initialization or through a setter method.
-
+What's the Fix?
+- I've decided to move the `print_lsdb` function to the `Network` class and update the `print_output` function accordingly. This approach ensures that the LSDB is printed correctly using the information available in the `Network` class.
 
 What's next?
 - Move `print_lsdb` to the `Network` class and update `print_output` accordingly.
