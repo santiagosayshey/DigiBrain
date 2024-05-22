@@ -1,4 +1,5 @@
-# Examples
+
+# Input
 
 ```
 A
@@ -12,3 +13,6 @@ A-C 1 A,C
 END
 ```
 
+# Explanation
+
+![[Pasted image 20240522140023.png]]
