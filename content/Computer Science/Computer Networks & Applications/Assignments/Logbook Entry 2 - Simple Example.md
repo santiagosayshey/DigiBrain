@@ -590,3 +590,30 @@ Move the instantiation of the Link-State Database (LSDB) from the `Network` clas
 
 4. **Recalculate Routing Tables:**
    - Ensure that routing tables are recalculated based on the updated LSDB information in each node.
+
+============================
+Logbook Entry 24 (8:22 PM, May 23, 2024)
+============================
+
+
+After implementing the routing table calculations using Dijkstra's algorithm, the next challenge was printing the Link-State Database (LSDB) for each node. Despite a comprehensive plan, this task proved more difficult than anticipated.
+
+Initial Implementation:
+- LSDB was instantiated within the Network class, representing the global network topology.
+- The expected output suggested that the LSDB should be maintained and printed for individual nodes.
+
+Refactoring:
+- Moved LSDB instantiation to the Node class.
+- Modified add_link, remove_link, and update_link methods in Network to update the LSDB of affected nodes.
+- Updated print_lsdb method to retrieve LSDB from each node instance.
+
+Persistent Issue:
+- Output still didn't match the expected format.
+- Realized that the LSDB for a node should only include links directly connected to that node, not the entire network topology.
+
+Final Solution:
+- Implemented a breadth-first search (BFS) algorithm in print_lsdb to find all reachable links from the specified node.
+- This approach ensured that the LSDB output contained only the relevant links for each node.
+
+Next Steps:
+- Conduct extensive testing with various network topologies and edge cases.
