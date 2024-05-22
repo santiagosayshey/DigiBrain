@@ -290,3 +290,19 @@ Logbook Entry 15 (4:43pm, May 22, 2024)
 This `process_input` function may be the hardest part of the assignment... Here are a list of issues I've found when parsing the line.
 - We need to define an instruction type for each type of line
 - If the line *is* the instruction type, then it needs to be skipped over...
+- LINKSTATE and UPDATE instructions are variable, so splitting lines is not trivial
+- Nodes need to be split using `-` as a delimiter
+- Printed nodes need to be split using `,` as a delimiter, sorted alphabetically and stored in an array
+
+
+
+
+A
+B
+C
+LINKSTATE
+A-B 2
+B-C 3 B,A,C
+UPDATE
+A-C 1 A,C
+END
