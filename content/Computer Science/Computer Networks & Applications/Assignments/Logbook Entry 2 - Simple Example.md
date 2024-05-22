@@ -196,3 +196,22 @@ Here's the rundown:
 
 What's Next?
 - Setting up the main `Dijkstra` file to instantiate a Network object and a function to take input
+
+
+============================
+Logbook Entry 10 (3:58pm, May 22, 2024)
+============================
+
+I've initialized all the necessary files and functions, and now it's time to start implementing everything.
+
+I'll get started by tackling the process of inputs first. Here's my plan:
+
+- Implement the `read_input` function in `Dijkstra` to read input lines from the user until "END" is encountered.
+- Implement the `process_input` method in the `Network` class to handle different types of input lines and update the network accordingly.
+  - Parse each input line and extract the necessary information.
+  - Determine the type of input line (e.g., adding nodes, adding links, updating link costs, removing links, printing output).
+  - Call the appropriate methods of the `Network` class to perform the corresponding actions.
+- Test the input processing functionality with sample inputs to ensure it works as expected.
+- Proceed with implementing the remaining methods in the `Network` and `Node` classes.
+
+By focusing on the input processing first, I can ensure that the program correctly reads and interprets the input data before moving on to the core functionality of the network simulation.
