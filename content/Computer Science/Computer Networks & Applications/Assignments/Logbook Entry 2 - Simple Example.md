@@ -342,3 +342,30 @@ Here's a brief overview of what the function does:
 What's next?
 Implementing add, update and remove links. As well as print output functions. I am leaving out implementing the routing table calculations so that I can focus on that last. 
 
+22 May 2024 21:30:00
+Kind: Text, by: a1799298, from: 118_211_67_70
+
+============================
+Logbook Entry 18 (5:52pm, May 22, 2024)
+============================
+
+Reflection:
+Since my last entry, I've made significant progress on implementing key functionalities in the Network class, specifically focusing on adding, updating, and managing links between nodes. Here's a detailed summary of the work done:
+
+1. **add_node Function:**
+   - Implemented the `add_node` function to add new nodes to the network. This function checks if the node already exists before adding it, ensuring no duplicates. If the node exists, it prints a message indicating so.
+
+2. **add_neighbor Function:**
+   - Updated the `add_neighbor` function in the `Node` class to add neighboring nodes with specified link costs. This ensures that each node maintains an accurate dictionary of its neighbors and their respective link costs.
+
+3. **add_link Function:**
+   - Implemented the `add_link` function in the `Network` class to create links between nodes with specified costs. This function adds the link to both nodes' neighbor dictionaries and updates the link-state database (LSDB) with the new link.
+
+4. **remove_neighbor Function:**
+   - Implemented the `remove_neighbor` function in the `Node` class to remove a neighbor node from the neighbors dictionary. This function checks if the neighbor exists before deleting it, ensuring the neighbors list is always up-to-date.
+
+5. **update_link Function:**
+   - Implemented the `update_link` function to handle updating the cost of an existing link or adding a new link if it does not already exist. This function removes the existing neighbors, re-adds them with the new cost, and updates the LSDB accordingly. If the link does not exist, it calls the `add_link` function to create it.
+
+What's next?
+- Implementing the `remove_link` function.
