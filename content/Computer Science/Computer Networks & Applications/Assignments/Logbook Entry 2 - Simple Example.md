@@ -294,9 +294,31 @@ This `process_input` function may be the hardest part of the assignment... Here 
 - Nodes need to be split using `-` as a delimiter
 - Printed nodes need to be split using `,` as a delimiter, sorted alphabetically and stored in an array
 
+But, it seems to be working properly now!
 
+```
+python3 Dijkstra
+A
+B
+C
+LINKSTATE
+A-B 2
+B-C 3 B,A,C
+UPDATE
+A-C 1 A,C
+END
+Added node: A
+Added node: B
+Added node: C
+add_link function called with arguments: A, B, 2
+No nodes chosen for printing output.
+add_link function called with arguments: B, C, 3
+Chosen routers: A, B, C
+update_link function called with arguments: A, C, 1
+Chosen routers: A, C
+```
 
-
+We will need to revisit this function as we implement the other functions. New lines are still not working pro
 A
 B
 C
