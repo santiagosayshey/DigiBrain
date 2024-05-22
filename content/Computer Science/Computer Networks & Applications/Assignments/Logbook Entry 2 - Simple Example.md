@@ -281,3 +281,10 @@ add_link function called with arguments: A, C, 1
 ```
 
 That doesn't seem right.... Seems we forgot a major function in our Network implementation - `update_links`. We also need to call the printing functions within the linkstate and update functions. 
+
+
+============================
+Logbook Entry 14 (4:43pm, May 22, 2024)
+============================
+
+`process_input` isn't going that well. I decided to scrap what I had. It was too confusing to continue. Going to approach each type of line one at a time now
