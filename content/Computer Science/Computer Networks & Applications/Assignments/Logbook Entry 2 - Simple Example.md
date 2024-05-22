@@ -128,3 +128,9 @@ Implementation Plan:
    - Call the `print_output` method with the specified node names.
 
 [Insert a flowchart image here illustrating the main program flow, including reading input, processing input, and generating output.]
+
+Logbook Entry 2 (2:32pm, May 22, 2024)
+
+Thoughts / Oberservations
+- Working through some hand written examples really helped my understanding of what the expected requirements are.
+- This assignment seems perfect for an object oriented programming approach.
