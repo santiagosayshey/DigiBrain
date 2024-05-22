@@ -177,9 +177,22 @@ Next Steps:
 
 
 ============================
-Logbook Entry 8 (3:45pm, May 22, 2024)
+Logbook Entry 9 (3:48pm, May 22, 2024)
 ============================
 
-Some observations for previous commit (revision 111)
-- I may need to segment `process_input` even further at some point. I foresee a long while loop with lots of ifs in the future. 
-- A new function for each 'line type' seems suitable, but I want to see how I fare first. 
+I've completed the initialisation of the 'Network' class and included extensive docstrings (function explanations)
+
+Here's the rundown:
+
+- The `__init__` method is extensively commented to describe its purpose and attributes.
+    - The `nodes` attribute is a dictionary that stores all the nodes in the network, with node names as keys and Node instances as values.
+    - The `lsdb` attribute is a dictionary representing the link-state database (LSDB) of the network, where the keys are tuples of node names (representing links) and the values are the link costs.
+- Each method has a docstring that describes its purpose and parameters (if any).
+    - The `add_node` method adds a new node to the network.
+    - The `add_link` method adds a new link between two nodes in the network.
+    - The `remove_link` method removes the link between two nodes in the network.
+    - The `process_input` method processes the input lines and performs the necessary actions based on the network topology and updates. This may be segmented into multiple functions in future. 
+    - The `print_output` method prints the expected output for the specified nodes.
+
+What's Next?
+- Setting up the main `Dijkstra` file to instantiate a Network object and a function to take input
