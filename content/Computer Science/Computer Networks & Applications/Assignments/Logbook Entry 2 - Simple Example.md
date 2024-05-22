@@ -284,9 +284,12 @@ That doesn't seem right.... Seems we forgot a major function in our Network impl
 
 
 ============================
-Logbook Entry 15 (4:43pm, May 22, 2024)
+Logbook Entry 15 (5:09pm, May 22, 2024)
 ============================
 
+Process input seems to be working properly now!!
+
+Observations:
 This `process_input` function may be the hardest part of the assignment... Here are a list of issues I've found when parsing the line.
 - We need to define an instruction type for each type of line
 - If the line *is* the instruction type, then it needs to be skipped over...
@@ -297,7 +300,6 @@ This `process_input` function may be the hardest part of the assignment... Here 
 But, it seems to be working properly now!
 
 ```
-python3 Dijkstra
 A
 B
 C
@@ -316,15 +318,10 @@ add_link function called with arguments: B, C, 3
 Chosen routers: A, B, C
 update_link function called with arguments: A, C, 1
 Chosen routers: A, C
+End of input.
 ```
 
-We will need to revisit this function as we implement the other functions. New lines are still not working pro
-A
-B
-C
-LINKSTATE
-A-B 2
-B-C 3 B,A,C
-UPDATE
-A-C 1 A,C
-END
+I will need to revisit this function as I implement the other functions. New lines are still not working properly, but I think I can implement within the lower level functions.
+
+What's next?
+Implementing the `add_node` function inside `Network`.
