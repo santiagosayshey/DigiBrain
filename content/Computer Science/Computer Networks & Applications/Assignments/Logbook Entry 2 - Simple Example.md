@@ -131,18 +131,18 @@ Implementation Plan:
 
 Logbook Entry 3 (2:32pm, May 22, 2024)
 
-Absolutely! Let's continue with your thoughts and observations.
-
-Logbook Entry 2 - Simple Example (Continued)
-
 Thoughts / Observations:
 - Working through some hand-written examples really helped my understanding of what the expected requirements are.
 - This assignment seems perfect for an object-oriented programming approach.
 
 Next steps:
-- Outlini
+- Outlining an extensive python implementation
 
-Class Implementations:
+Logbook Entry 4 (2:40pm, May 22, 2024)
+
+Now that I have a pretty good understanding of what I need to do, I can actually start planning it.
+
+This class implementation won't be perfect, but i
 
 1. Node Class:
    - Variables:
@@ -166,14 +166,9 @@ Implementation Details:
 By separating the responsibilities into two classes, we can achieve a modular and maintainable design. The `Node` class focuses on the individual node's perspective, while the `Network` class handles the overall network operations and coordination between nodes.
 
 Next Steps:
-- Implement the `Node` class with the necessary variables and functions.
-- Implement the `Network` class with the necessary variables and functions.
-- Develop the `process_input()` method in the `Network` class to handle the input commands and update the network state accordingly.
-- Develop the `print_output()` method in the `Network` class to generate the expected output for the specified nodes.
-- Create a main program that utilizes the `Network` class to read input, process commands, and generate output.
-
-[Insert a high-level flowchart image here illustrating the main program flow, including reading input, processing commands, and generating output.]
-
-By following this object-oriented approach and separating concerns between the `Node` and `Network` classes, we can create a flexible and extensible solution to the routing problem.
-
-Let me know if you have any further thoughts or if you'd like to proceed with the implementation!
+- Setting up the SVN directory, initialising initial code files with proposed functions and comments.
+	- Implement the `Node` class with the necessary variables and functions.
+	- Implement the `Network` class with the necessary variables and functions.
+	- Develop the `process_input()` method in the `Network` class to handle the input commands and update the network state accordingly.
+	- Develop the `print_output()` method in the `Network` class to generate the expected output for the specified nodes.
+	- Create a main program that utilizes the `Network` class to read input, process commands, and generate output.
