@@ -619,7 +619,7 @@ Next Steps:
 - Conduct extensive testing with various network topologies and edge cases.
 
 ============================
-Logbook Entry 25 (9:15 PM, May 23, 2024)
+Logbook Entry 25 (8:00 PM, May 23, 2024)
 ============================
 
 Final Reflections: Code Implementation and Development Process
@@ -639,11 +639,11 @@ Dijkstra's Algorithm Implementation:
 Implementing Dijkstra's algorithm (Entry 22) for calculating routing tables was a relatively straightforward process, surpisingly!
 
 LSDB Implementation:
-The implementation of the Link-State Database (LSDB) proved to be one of the most challenging aspects of this assignment. Initially, I had implemented the LSDB within the Network class (Entry 21), but later realized that it should be maintained and printed for each individual node based on the expected output format (Entry 23). This required a significant refactoring effort, moving the LSDB instantiation to the Node class and updating the relevant methods accordingly (Entries 23, 24).
+The implementation of the Link-State Database (LSDB) proved to be one of the most challenging aspects of this assignment. Initially, I had implemented the LSDB within the Network class (Entry 21), but later realized that it should be maintained and printed for each individual node based on the expected output format (Entry 23). 
 
 The breakthrough moment came when I implemented the Breadth-First Search (BFS) algorithm in the `print_lsdb` method to find all reachable links from a specified node (Entry 24). This approach ensured that the LSDB output contained only the relevant links for each node, as per the requirements.
 
 Testing and Debugging:
-Throughout the development process, I encountered various issues and bugs that required debugging and testing. While some were caught and addressed early on, others surfaced during the later stages of implementation. The process of writing test cases, manually verifying outputs, and using input/output redirection (Entry 22) proved invaluable in identifying and resolving these issues.
+The program has been tested quite minimally (only with the given example), so I still have lots more to do. I will be submitting for the first time now, and seeing how I go! 
 
-Overall, the code implementation and development process for this assignment presented a mix of expected and unexpected challenges. While some aspects went as planned, others required more effort and iterative refinement than initially anticipated. However, the lessons learned, particularly in areas such as refactoring, testing, and attention to detail, will undoubtedly be valuable in future programming endeavors.
+Overall, the code implementation and development process for this assignment presented a mix of expected and unexpected challenges. While some aspects went as planned, others required more effort and iterative refinement than initially anticipated. 
