@@ -326,7 +326,6 @@ I will need to revisit this function as I implement the other functions. New lin
 What's next?
 Implementing the `add_node` function inside `Network`.
 
-
 ============================
 Logbook Entry 15 (6:00pm, May 22, 2024)
 ============================
@@ -340,4 +339,6 @@ Here's a brief overview of what the function does:
 - If not, it creates a new `Node` instance, adds it to the dictionary, and prints a confirmation message.
 - If the node already exists, it prints a message indicating this.
 
-This should facilitate adding nodes dynamically as we process input. Next, I will focus on implementing the `add_link` function to handle connections between these nodes.
+What's next?
+Implementing add, update and remove links. As well as print output functions. I am leaving out implementing the routing table calculations so that I can focus on that last. 
+
