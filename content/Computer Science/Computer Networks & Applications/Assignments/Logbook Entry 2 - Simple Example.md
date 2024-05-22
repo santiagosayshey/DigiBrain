@@ -369,3 +369,24 @@ Since my last entry, I've made significant progress on implementing key function
 
 What's next?
 - Implementing the `remove_link` function.
+
+
+============================
+Logbook Entry 19 (5:58pm, May 22, 2024)
+============================
+
+Reflection:
+Without much hassle, I've implemented the following:
+
+1. **remove_link Function:**
+   - Implemented the `remove_link` function to remove an existing link between two nodes and update the link-state database (LSDB). This function checks if the link exists before attempting to remove it, ensuring accurate network topology.
+
+2. **process_input Function Update:**
+   - Updated the `process_input` function to handle cases where the cost is -1, indicating a link removal. This ensures that the network can dynamically handle the removal of links based on input.
+
+Observations:
+- I have functionality for removing a link inside 'add link'. This might not be necessary, but it's good to be rigorous. 
+- I'm really really glad I planned this all out beforehand. It's paying dividends
+
+What's next?
+- Implementing print output functions.
