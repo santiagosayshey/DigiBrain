@@ -142,7 +142,9 @@ Logbook Entry 4 (2:40pm, May 22, 2024)
 
 Now that I have a pretty good understanding of what I need to do, I can actually start planning it.
 
-This class implementation won't be perfect, but i
+This class implementation won't be perfect, but it's going to benefit me greatly to have planned this before diving into it. 
+
+Code Outline:
 
 1. Node Class:
    - Variables:
