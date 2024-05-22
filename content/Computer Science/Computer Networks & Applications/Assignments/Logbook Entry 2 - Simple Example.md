@@ -180,7 +180,7 @@ Next Steps:
 Logbook Entry 7 (3:28pm, May 22, 2024)
 ============================
 
-I've completed the initialisation of the 'Node' class and included extensive function description comments.
+I've completed the initialisation of the 'Node' class and included extensive docstrings (function explanations)
 
 Here's the rundown:
 
@@ -188,13 +188,10 @@ Here's the rundown:
 	- The name parameter represents the name of the node.
 	- The neighbors attribute is a dictionary that stores the neighboring nodes and their link costs.
 	- The routing_table attribute is a dictionary that stores the routing table entries.
-
-
 - Each method has a docstring that describes its purpose and parameters (if any).
-
-- The add_neighbor method adds a neighbor node with the given link cost.
-- The remove_neighbor method removes a neighbor node.
-- The calculate_routing_table method calculates the routing table based on the current LSDB using Dijkstra's algorithm.
-- The print_neighbor_table method prints the neighbor table in the required format.
-The print_lsdb method prints the LSDB in the required format.
-The print_routing_table method prints the routing table in the required format.
+	- The add_neighbor method adds a neighbor node with the given link cost.
+	- The remove_neighbor method removes a neighbor node.
+	- The calculate_routing_table method calculates the routing table based on the current LSDB using Dijkstra's algorithm.
+	- The print_neighbor_table method prints the neighbor table in the required format.
+	- The print_lsdb method prints the LSDB in the required format.
+	- The print_routing_table method prints the routing table in the required format.
