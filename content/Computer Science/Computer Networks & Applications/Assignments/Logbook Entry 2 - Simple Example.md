@@ -564,3 +564,29 @@ Y|Y|9
 What's next?
 - Fix up LSDB to be instantiated within nodes, not the network itself.
 - Lots and lots and lots of testing
+
+
+============================
+Logbook Entry 23 (12:15am, May 23, 2024)
+============================
+
+Plan for implementing LSDB Instantiation within Nodes
+
+**Objective:**
+Move the instantiation of the Link-State Database (LSDB) from the `Network` class to individual `Node` instances. This will allow each node to maintain its own LSDB, reflecting its view of the network topology.
+
+**Steps to Implement:**
+
+1. **Modify Node Class:**
+   - Add an `lsdb` attribute to the `Node` class.
+   - Initialize the `lsdb` attribute as a dictionary in the `Node` constructor.
+
+2. **Update Network Class:**
+   - Remove the `lsdb` attribute from the `Network` class.
+   - Update the `add_link`, `remove_link`, and `update_link` methods to update the `lsdb` of each affected node.
+
+3. **Adjust Link-State Database Functions:**
+   - Ensure that the `print_lsdb` function in the `Node` class correctly prints the node's own LSDB.
+
+4. **Recalculate Routing Tables:**
+   - Ensure that routing tables are recalculated based on the updated LSDB information in each node.
