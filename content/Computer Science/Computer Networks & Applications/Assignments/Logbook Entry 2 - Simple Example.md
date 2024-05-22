@@ -430,3 +430,137 @@ Observations
 What's next?
 - Implement Dijkstra in the routing table calculations  
 - Implement the function to print the routing table for each node.
+
+
+============================
+Logbook Entry 22 (6:44pm, May 22, 2024)
+============================
+
+Reflection:
+I've successfully implemented the basic version of Dijkstra's algorithm in the `Node` class to calculate routing tables.
+
+To ensure that the routing tables are recalculated whenever the network topology changes, I updated the `add_link`, `remove_link`, and `update_link` functions in the `Network` class. These functions now call a new function, `calculate_routing_tables`, which recalculates the routing tables for all nodes in the network.
+
+Changes made:
+1. **Implemented Dijkstra's Algorithm:**
+   - Added the `calculate_routing_table` method to the `Node` class to compute the shortest paths and populate the routing table.
+
+2. **Updated Link Functions:**
+   - Modified `add_link`, `remove_link`, and `update_link` in the `Network` class to call `calculate_routing_tables` after making changes to the network topology.
+
+3. **New `calculate_routing_tables` Function:**
+   - Created a new method `calculate_routing_tables` in the `Network` class to iterate over all nodes and recalculate their routing tables.
+
+4. **Updated `print_output` Function:**
+   - Ensured that the `print_output` function in the `Network` class correctly prints the routing tables for the specified nodes.
+
+5. **Implemented `print_routing_table` Function:**
+   - Added the `print_routing_table` method to the `Node` class to print the routing table in the required format.
+
+It's working beautifully!
+
+```
+X
+Y
+Z
+LINKSTATE
+X-Z 1 X,Y
+X-Y 5 
+Y-Z 3 X,Z
+UPDATE
+X-Z -1 X,Y
+Y-Z 9 Y,Z
+END
+X Neighbour Table:
+Z|1
+
+X LSDB:
+X|Z|1
+
+X Routing Table:
+Z|Z|1
+
+Y Neighbour Table:
+
+Y LSDB:
+X|Z|1
+
+Y Routing Table:
+
+X Neighbour Table:
+Y|5
+Z|1
+
+X LSDB:
+X|Y|5
+X|Z|1
+Y|Z|3
+
+X Routing Table:
+Y|Z|4
+Z|Z|1
+
+Z Neighbour Table:
+X|1
+Y|3
+
+Z LSDB:
+X|Y|5
+X|Z|1
+Y|Z|3
+
+Z Routing Table:
+X|X|1
+Y|Y|3
+
+X Neighbour Table:
+Y|5
+
+X LSDB:
+X|Y|5
+Y|Z|3
+
+X Routing Table:
+Y|Y|5
+Z|Y|8
+
+Y Neighbour Table:
+X|5
+Z|3
+
+Y LSDB:
+X|Y|5
+Y|Z|3
+
+Y Routing Table:
+X|X|5
+Z|Z|3
+
+Y Neighbour Table:
+X|5
+Z|9
+
+Y LSDB:
+X|Y|5
+Y|Z|9
+
+Y Routing Table:
+X|X|5
+Z|Z|9
+
+Z Neighbour Table:
+Y|9
+
+Z LSDB:
+X|Y|5
+Y|Z|9
+
+Z Routing Table:
+X|Y|14
+Y|Y|9
+```
+
+
+What's next?
+- Fix up LSDB to be instantiated within nodes, not the network itself.
+- Lots and lots and lots of testing
