@@ -325,3 +325,19 @@ I will need to revisit this function as I implement the other functions. New lin
 
 What's next?
 Implementing the `add_node` function inside `Network`.
+
+
+============================
+Logbook Entry 15 (6:00pm, May 22, 2024)
+============================
+
+Reflection:
+Implemented the `add_node` function in the `Network` class. This function now allows for the addition of new nodes to the network by checking if the node already exists and adding it if not. 
+
+Here's a brief overview of what the function does:
+- It takes the node name as a parameter.
+- Checks if the node already exists in the network's nodes dictionary.
+- If not, it creates a new `Node` instance, adds it to the dictionary, and prints a confirmation message.
+- If the node already exists, it prints a message indicating this.
+
+This should facilitate adding nodes dynamically as we process input. Next, I will focus on implementing the `add_link` function to handle connections between these nodes.
