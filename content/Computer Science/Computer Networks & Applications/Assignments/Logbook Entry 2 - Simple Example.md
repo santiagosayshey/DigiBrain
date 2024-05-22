@@ -259,4 +259,25 @@ I have implemented the `process_input` function in the `Network` class to handle
 
 Running the our initial example: 
 
-``
+```
+A
+B
+C
+LINKSTATE
+A-B 2
+B-C 3 B
+UPDATE
+A-C 1 A,C
+END
+add_node function called with argument: A
+add_node function called with argument: B
+add_node function called with argument: C
+add_node function called with argument: B
+add_node function called with argument: C
+add_link function called with arguments: B, C, 3
+add_node function called with argument: A
+add_node function called with argument: C
+add_link function called with arguments: A, C, 1
+```
+
+That doesn't seem right.... I think there was an issue with adding nodes as the final else case. Let's try again.
