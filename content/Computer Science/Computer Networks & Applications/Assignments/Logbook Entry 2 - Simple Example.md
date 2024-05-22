@@ -218,3 +218,24 @@ I'll start by tackling the input processing first. Here's my plan:
 		- Add or remove links between nodes based on the cost.
 		- Update the network topology and print the output for chosen routers, if any.
 
+
+============================
+Logbook Entry 11 (4:09pm, May 22, 2024)
+============================
+
+I've implemented the `read_input` function. Seems to be working pretty well!
+
+```
+A
+B
+C
+LINKSTATE
+A-B 2
+B-C 3 B
+UPDATE
+A-C 1 A,C
+END
+::input lines:: ['A', 'B', 'C', 'LINKSTATE', 'A-B 2', 'B-C 3 B', 'UPDATE', 'A-C 1 A,C', 'END']
+```
+
+Now on to implementing the `process_input` function!
