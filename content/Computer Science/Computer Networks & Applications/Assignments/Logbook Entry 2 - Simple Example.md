@@ -239,3 +239,24 @@ END
 ```
 
 Now on to implementing the `process_input` function!
+
+
+============================
+Logbook Entry 12 (4:18pm, May 22, 2024)
+============================
+
+I have implemented the `process_input` function in the `Network` class to handle the input processing for the network simulation. Here's a summary of what the function does:
+
+- It takes a list of input lines as a parameter.
+- It iterates over each line and determines the current section based on the keywords "LINKSTATE", "UPDATE", and "END".
+- For each line in the "LINKSTATE" or "UPDATE" section:
+  - It splits the line into parts and extracts the node names and cost.
+  - If the nodes are not already present in the network, it adds them by calling the `add_node` function.
+  - If the cost is -1, it removes the link between the nodes by calling the `remove_link` function.
+  - Otherwise, it adds the link between the nodes with the given cost by calling the `add_link` function.
+  - If there are additional parts in the line, it splits them by comma and passes them to the `print_output` function to print the output for the specified nodes.
+- For lines outside the "LINKSTATE" or "UPDATE" section, it adds the node to the network by calling the `add_node` function.
+
+Running the our initial example: 
+
+``
