@@ -23,6 +23,8 @@ END
 
 Logbook Entry 2 - Simple Example
 
+Since I wasn't quite grasping the explanation of the inputs and outputs from the assignment spec (im a very visual learner), I decided I should try to work through some examples. For each of the steps, I'll outline the expected output and draw the network topology. 
+
 1. Input:
    ```
    A
@@ -87,14 +89,16 @@ Logbook Entry 2 - Simple Example
    B|B|3
    ```
 
+My drawings of the network topology have been included in the next entry!
+
 Logbook Entry 2 - Simple Example (Continued)
 
 Observations:
 - This exercise seems perfect for applying object-oriented programming.
 - We can start with a "Node" class, which defines functions for the following:
   - Constructor: Sets the name of the node.
-  - `add_neighbor(self, neighbor, cost)`: Adds a neighbor to the node's neighbor table, along with the cost of the link.
-  - `remove_neighbor(self, neighbor)`: Removes a neighbor from the node's neighbor table.
+  - `add_neighbor(self, neighbor, cost)`: Adds a neighbour to the node's neighbour table, along with the cost of the link.
+  - `remove_neighbor(self, neighbor)`: Removes a neighbour from the node's neighbour table.
   - `update_lsdb(self, lsdb)`: Updates the node's LSDB with the given LSDB information.
   - `calculate_routing_table(self)`: Calculates the node's routing table based on the current LSDB using Dijkstra's algorithm.
   - `print_neighbor_table(self)`: Prints the node's neighbor table in the required format.
@@ -124,7 +128,3 @@ Implementation Plan:
    - Call the `print_output` method with the specified node names.
 
 [Insert a flowchart image here illustrating the main program flow, including reading input, processing input, and generating output.]
-
-By following this object-oriented approach, we can create a modular and maintainable solution to the problem. The "Node" class encapsulates the behavior and data related to individual nodes, while the "Network" class manages the overall network topology and interactions between nodes.
-
-Let me know if you have any further questions or if you'd like to proceed with the implementation!
