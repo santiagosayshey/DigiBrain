@@ -31,20 +31,20 @@
 > - NP ⊆ P: This means that every problem in NP is also in P, i.e., every problem that can be verified in polynomial time can also be solved in polynomial time.
 > - **P ⊆ NP: This means that every problem in P is also in NP, i.e., every problem that can be solved in polynomial time can also be verified in polynomial time.**
 > - NP ⊂ P: This means that every problem in NP is also in P, but there exists at least one problem in P that is not in NP.
-> - P ⊂ NP: This means that every problem in P is also in NP, but there exists at least one problem in NP that is not in P.
-> - P = NP: This means that the classes P and NP contain the same set of problems, i.e., every problem that can be verified in polynomial time can also be solved in polynomial time, and vice versa.
 >
 > **Answer:**
 > Second option. If a problem can be solved in P, then that solution can simply be verified by finding the solution again (in P time)
-> Fourth option. I think we would have to know if P = NP or not to say this is correct. So not correct for now. 
+> 
+> The first option indicates P = NP (which hasn't been proven). The second option implies at least 1 P in NP, which is not true. If it's P, then it CANNOT be in NP. This is possible the other way round though (but only theoretically)
+
 
 
 > [!exercise]+ Exercise 5
 > Let G=(V,E) be an undirected graph. Select all correct statements.
 >
-> - The problem to decide whether G contains a clique of k nodes is in NP.
-> - The problem to decide whether G contains a Hamiltonian Cycle is in P (assuming P = NP).
-> - The problem to compute a clique with a maximal number of nodes is in NP (assuming P ≠ NP).
+> - **The problem to decide whether G contains a clique of k nodes is in NP.**
+> - The problem to decide whether G contains a Hamiltonian Cycle is in P (assuming P ≠ NP).
+> - **The problem to compute a clique with a maximal number of nodes is in NP (assuming P ≠ NP).**
 > - The problem to compute a clique with a maximal number of nodes is in P (assuming P = NP).
 >
 > **Answer:**
