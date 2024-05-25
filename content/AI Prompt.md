@@ -9,6 +9,30 @@ I have provided additional context on the desired notes below. Please use this i
 [IMPORTANT INSTRUCTIONS]
 - The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
   - Always use objective and unbiased language.
+  - Write concise segmented, non paragraphs. Use dotpoints, but DO NOT write the entire callout in dotpoint format. Use tables if you wish.
+	  - I DO NOT WANT CALLOUTS ON CALLOUTS THAT ARE ENTIRELY PARAGRAPHS. THESE ARE USELESS.
+
+Example of a well-structured callout:
+
+> [!idea] Key Concept
+> A brief explanation of the concept in 1-2 sentences.
+> - Point 1: A concise statement about an essential aspect of the concept.
+> - Point 2: Another critical point related to the concept.
+> - Table (if applicable):
+>
+> | Column 1 | Column 2 |
+> |----------|----------|
+> | Data 1   | Data 2   |
+> | Data 3   | Data 4   |
+
+Checklist:
+- [ ] Used objective and unbiased language
+- [ ] Wrote concise, segmented notes using brief explanations, dot points, and tables
+- [ ] Kept each callout within 50-100 words
+- [ ] Used paragraphs sparingly and only when necessary
+- [ ] Avoided making judgments about the correctness of ideas
+- [ ] Provided clear, concise, and informative content without bias or subjective opinions
+
   - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
   - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
   - It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
