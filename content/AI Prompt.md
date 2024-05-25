@@ -6,15 +6,12 @@ I have provided additional context on the desired notes below. Please use this i
 
 [aditional context]
 
-I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
-
-> [!callout type] title
-
-Each line after that contains the content of the callout.
-
-Below I have attached each type of callout you may use and a comprehensive overview of what they are used for. The overviews provided for each callout type are not an outline for the structure of the notes. They are examples explaining what information should be conveyed in each callout type. Do not include the overviews themselves in the notes.
-
-It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+[IMPORTANT INSTRUCTIONS]
+- The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
+  - Always use objective and unbiased language.
+  - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
+  - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
+  - It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
 
 ```
 In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
@@ -28,8 +25,17 @@ The OpenFlow protocol is a key component of SDN, enabling centralized control ov
 
 We write:
 The OpenFlow protocol enables centralized control over network traffic
-
 ```
+
+- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction.
+
+I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
+
+> [!callout type] title
+
+Each line after that contains the content of the callout.
+
+Below I have attached each type of callout you may use and a comprehensive overview of what they are used for. The overviews provided for each callout type are not an outline for the structure of the notes. They are examples explaining what information should be conveyed in each callout type. Do not include the overviews themselves in the notes.
 
 I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
 
