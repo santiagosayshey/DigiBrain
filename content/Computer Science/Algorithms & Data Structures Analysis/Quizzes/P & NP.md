@@ -28,13 +28,16 @@
 > [!exercise]+ Exercise 4
 > Select all correct statements.
 >
-> - NP ⊆ P
-> - P ⊆ NP
-> - NP ⊂ P
-> - P ⊂ NP
-> - P = NP
+> - NP ⊆ P: This means that every problem in NP is also in P, i.e., every problem that can be verified in polynomial time can also be solved in polynomial time.
+> - **P ⊆ NP: This means that every problem in P is also in NP, i.e., every problem that can be solved in polynomial time can also be verified in polynomial time.**
+> - NP ⊂ P: This means that every problem in NP is also in P, but there exists at least one problem in P that is not in NP.
+> - P ⊂ NP: This means that every problem in P is also in NP, but there exists at least one problem in NP that is not in P.
+> - P = NP: This means that the classes P and NP contain the same set of problems, i.e., every problem that can be verified in polynomial time can also be solved in polynomial time, and vice versa.
 >
 > **Answer:**
+> Second option. If a problem can be solved in P, then that solution can simply be verified by finding the solution again (in P time)
+> Fourth option. I think we would have to know if P = NP or not to say this is correct. So not correct for now. 
+
 
 > [!exercise]+ Exercise 5
 > Let G=(V,E) be an undirected graph. Select all correct statements.
