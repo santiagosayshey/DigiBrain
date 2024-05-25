@@ -18,9 +18,7 @@
 > 
 > Therefore, the minimum point of the function is at $(2, 1)$.
 > 
-> ```image_goes_here
-> A graph of the quadratic function f(x) = x^2 - 4x + 5, showing the minimum point at (2, 1).
-> ```
+
 
 > [!consider] Gradient Descent
 > Gradient descent is a popular optimization algorithm used to find the minimum of a function. It works by iteratively taking steps in the direction of the negative gradient of the function at the current point. The size of the steps is determined by the learning rate. Gradient descent can be used for various types of functions, including those with multiple variables.
