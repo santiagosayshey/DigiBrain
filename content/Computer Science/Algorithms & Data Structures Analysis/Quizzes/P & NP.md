@@ -45,7 +45,7 @@
 > - **The problem to decide whether G contains a clique of k nodes is in NP.**
 > - The problem to decide whether G contains a Hamiltonian Cycle is in P (assuming P ≠ NP).
 > - **The problem to compute a clique with a maximal number of nodes is in NP (assuming P ≠ NP).**
-> - The problem to compute a clique with a maximal number of nodes is in P (assuming P = NP).
+> - The problem to compute a clique with a maximal number of nodes is in P (assuming P ≠ NP).
 >
 > **Answer:**
 
@@ -53,7 +53,7 @@
 > In the context of computational complexity theory and the ongoing P vs NP problem, what does NP stand for?
 >
 > - Non Polynomial
-> - Nondeterministic Polynomial
+> - **Nondeterministic Polynomial**
 > - Non Practical
 > - Not Possible
 >
@@ -64,20 +64,22 @@
 >
 > - Proving that P ≠ NP
 > - Proving that P = NP
-> - Proving either A or B
+> - **Proving either A or B**
 > - None of these options, as it is an unsolvable problem.
 >
 > **Answer:**
+> Proving A would disprove B. Proving B would disprove A. Proving either of them provide a definitive answer to the problem.
 
 > [!exercise]+ Exercise 8
 > If a polynomial-time algorithm exists for an NP-complete problem, what consequence does it have for all problems in NP?
 >
 > - They all become NP-hard.
-> - They all become solvable in polynomial time.
+> - **They all become solvable in polynomial time.**
 > - They become trivial to solve in exponential time.
 > - They remain in NP.
 >
 > **Answer:**
+> If an NP problem can be solved in P time, then ALL NP problems can be reduced to it.
 
 > [!exercise]+ Exercise 9
 > In a reduction from problem A to problem B, if problem A can be reduced to problem B in polynomial time, what can be concluded about the complexity of problem B?
