@@ -87,8 +87,8 @@
 > - Problem B is in P.
 > - Problem B is harder than problem A.
 > - Problem B is NP-complete.
-> - Problem B is at least as hard as problem A.
+> - **Problem B is at least as hard as problem A.**
 >
 > **Answer:**
+> We can't specifically say that they're NP Complete nor in P, but we can say that B is as hard as A. A reduction implies transitive hardness, regardless of P or NP.
 
-The options for each question are now included in the exercise callouts. For true/false questions, the options are simply "True" and "False". For multiple-choice questions, the options are listed as bullet points. The space for the answer is provided at the bottom of each callout.
