@@ -44,7 +44,7 @@
 >
 > - **The problem to decide whether G contains a clique of k nodes is in NP.**
 > - The problem to decide whether G contains a Hamiltonian Cycle is in P (assuming P ≠ NP).
-> - **The problem to compute a clique with a maximal number of nodes is in NP (assuming P ≠ NP).**
+> - The problem to compute a clique with a maximal number of nodes is in NP (assuming P ≠ NP).
 > - The problem to compute a clique with a maximal number of nodes is in P (assuming P ≠ NP).
 >
 > **Answer:**
