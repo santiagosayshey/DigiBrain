@@ -8,4 +8,10 @@ Feeling pretty anxious about getting incorrectly 'banned' from a couple of websi
 - I really wanted to tell someone in my family about what was happening. Just to vent a bit. My sister or my Mum. But I don't know how to ask them for help. In the past they've been quite dismissive and not understanding of the way I feel. Perhaps this is why I'm so anxious about telling anyone about what's going on. Because I know how they will react and my brain assumes that everyone will react like them. 
 - My anxiety manifests itself in a few ways:
 	- I get hypervigilant. I'm constantly assessing the situation. I learnt about what happened at 8pm and have been thinking about it until now (12am). That's four straight hours of constant anxious thoughts. I feel so trapped. 
-	- Physically, I feel wobbly. Not nauseous, but almost like my head 
+	- I was supposed to be working on finishing my lectures for the day, but now I'm completely absorbed by this shitty situation I have 0 control over. 
+	- Physically, I feel wobbly. Not nauseous, but almost like my head is about to falloff. I'm breathing heavy, my temples hurt, my neck hurts. 
+	- Everything is super focused. I can hear my computer fan blasting. I can feel the butterflies in my stomach. I think my brain is hurting from thinking so much. 
+- Now I ask myself what *can* I do about this situation?
+	- I can't just force myself to go back to my lectures to try and distract myself, I tried that and it didn't work. 
+	- I don't feel especially panicky anymore ... (but maybe I should have dropped anchor when I did). Now I can just try to be mindful when I have a bad thought. 
+		- 
