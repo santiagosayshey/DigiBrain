@@ -15,7 +15,9 @@ I have provided additional context on the desired notes below. Please use this i
 	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
   - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
   - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
-  - It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+  - It is vital that these notes are objective. 
+	  - You are describing what a thing does, not how well it does it. X does y. Not X is crucial to implementing Y. do you see how it introduces unneeded verbosity and bias?
+	  - They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
 
 ```
 In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
