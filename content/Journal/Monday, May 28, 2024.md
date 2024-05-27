@@ -19,4 +19,4 @@ Feeling pretty anxious about getting incorrectly 'banned' from a couple of websi
 		- "I'm having a thought that I'm going to get banned from all my websites, and Dictionarry will die and my life will be a mess" - BETTER!
 	- I can practice my senses stuff. Going to go splash myself with cold water, and light a candle. I think that might help. 
 	- I would really like a hug right now. I think that would make me 50% less panicky. 
-	- Music can help maybe. Perhaps I can share my grief with people who write songs about it. Thanks Elliot Smith.
+	- Music can help maybe. Perhaps I can share my grief with people who write songs about it. Thanks Radiohead.
