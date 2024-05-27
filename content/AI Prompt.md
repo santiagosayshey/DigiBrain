@@ -11,6 +11,25 @@ I have provided additional context on the desired notes below. Please use this i
   - Always use objective and unbiased language.
   - Write concise segmented, non paragraphs. Use dotpoints, but DO NOT write the entire callout in dotpoint format. Use tables if you wish.
 	  - I DO NOT WANT CALLOUTS ON CALLOUTS THAT ARE ENTIRELY PARAGRAPHS. THESE ARE USELESS.
+	  - I DO NOT WANT CALLOUTS THAT ARE ENTIRELY DOTPOINTS
+	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
+  - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
+  - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
+  - It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+
+```
+In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
+
+This example adds nothing of value and introduces bias. 
+```
+
+```
+Instead of:
+The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
+
+We write:
+The OpenFlow protocol enables centralized control over network traffic
+```
 
 Example of a well-structured callout:
 
@@ -33,25 +52,9 @@ Checklist:
 - [ ] Avoided making judgments about the correctness of ideas
 - [ ] Provided clear, concise, and informative content without bias or subjective opinions
 
-  - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
-  - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
-  - It is vital that these notes are objective. They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction. To make sure you understand this, please repeat the following line at the start of your response. 
 
-```
-In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
-
-This example adds nothing of value and introduces bias. 
-```
-
-```
-Instead of:
-The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
-
-We write:
-The OpenFlow protocol enables centralized control over network traffic
-```
-
-- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction.
+[END OF IMPORTANT INSTRUCTIONS]
 
 I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
 
