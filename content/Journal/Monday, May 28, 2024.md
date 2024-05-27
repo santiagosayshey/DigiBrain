@@ -13,5 +13,9 @@ Feeling pretty anxious about getting incorrectly 'banned' from a couple of websi
 	- Everything is super focused. I can hear my computer fan blasting. I can feel the butterflies in my stomach. I think my brain is hurting from thinking so much. 
 - Now I ask myself what *can* I do about this situation?
 	- I can't just force myself to go back to my lectures to try and distract myself, I tried that and it didn't work. 
+	- Wallowing in my anxiety will also do nothing. I am pretty good at that though. 
 	- I don't feel especially panicky anymore ... (but maybe I should have dropped anchor when I did). Now I can just try to be mindful when I have a bad thought. 
-		- 
+		- "I'm going to get banned from all my websites, and Dictionarry will die and my life will be a mess" - BAD
+		- "I'm having a thought that I'm going to get banned from all my websites, and Dictionarry will die and my life will be a mess" - BETTER!
+	- I can practice my senses stuff. Going to go splash myself with cold water, and light a candle. I think that might help. 
+	- I would really like a hug right now. I think that would make me 50% less panicky. 
