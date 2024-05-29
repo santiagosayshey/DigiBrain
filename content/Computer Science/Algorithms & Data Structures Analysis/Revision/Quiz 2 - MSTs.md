@@ -47,3 +47,89 @@
 > - If the roots are the same, `x` and `y` are already in the same set, so do nothing.  
 > - Otherwise, attach the root of the smaller set (by rank) to the root of the larger set.
 > - If the ranks are equal, increment the rank of the new root.
+
+
+# Full Implementation
+
+```python
+class UnionFind:
+    def __init__(self, size):
+        self.parent = list(range(size))
+        self.rank = [0] * size
+
+    def find(self, node):
+        if self.parent[node] != node:
+            self.parent[node] = self.find(self.parent[node])
+        return self.parent[node]
+
+    def union(self, node1, node2):
+        root1 = self.find(node1)
+        root2 = self.find(node2)
+        if root1 != root2:
+            if self.rank[root1] > self.rank[root2]:
+                self.parent[root2] = root1
+            else:
+                self.parent[root1] = root2
+                if self.rank[root1] == self.rank[root2]:
+                    self.rank[root2] += 1
+            return True
+        return False
+
+def char_to_int(char):
+    if '0' <= char <= '9':
+        return ord(char) - ord('0')
+    elif 'A' <= char <= 'Z':
+        return ord(char) - ord('A')
+    elif 'a' <= char <= 'z':
+        return ord(char) - ord('a') + 26
+    return 0
+
+def parse_input(matrix_str):
+    rows = matrix_str.split(',')
+    return [[char_to_int(char) for char in row] for row in rows]
+
+def process_input(input_data):
+    country = parse_input(input_data[0])
+    build_cost = parse_input(input_data[1])
+    destroy_cost = parse_input(input_data[2])
+    return country, build_cost, destroy_cost
+
+def create_edges(country, build, destroy):
+    n = len(country)
+    edges = []
+    for i in range(n):
+        for j in range(i + 1, n):
+            if country[i][j] == 1:
+                edges.append((i, j, -destroy[i][j]))
+            else:
+                edges.append((i, j, build[i][j]))
+    return sorted(edges, key=lambda x: x[2])
+
+def calculate_reconstruction_cost(country, build, destroy):
+    edges = create_edges(country, build, destroy)
+    uf = UnionFind(len(country))
+    mst = []
+
+    for u, v, cost in edges:
+        if uf.union(u, v):
+            mst.append((u, v, cost))
+
+    build_cost = sum(build[u][v] for u, v, cost in mst if country[u][v] == 0)
+    destroy_cost = 0
+    for i in range(len(country)):
+        for j in range(i + 1, len(country)):
+            if country[i][j] == 1 and not any(e[0] == i and e[1] == j or e[0] == j and e[1] == i for e in mst):
+                destroy_cost += destroy[i][j]
+    
+    return build_cost + destroy_cost
+
+def main():
+    import sys
+    input_data = sys.stdin.read().strip().split()
+    country, build, destroy = process_input(input_data)
+    result = calculate_reconstruction_cost(country, build, destroy)
+    print(result)
+
+if __name__ == "__main__":
+    main()
+```
