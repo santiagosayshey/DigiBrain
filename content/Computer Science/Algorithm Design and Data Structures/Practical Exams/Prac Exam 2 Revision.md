@@ -1,1 +1,0 @@
-Worst Case - Big O. Example - The worst case in searching an unsorted vector for a list of n elements is O(n), as the element may be in the last position. 
