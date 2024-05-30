@@ -54,6 +54,8 @@
 |      |                   | [[12.3 Spanning Tree Protocol]]       |                                                                                                |                                             |                                     |                |
 |      |                   | [[12.4 MST Protocol]]                 |                                                                                                |                                             |                                     |                |
 |      |                   | [[12.5 MPLS]]                         |                                                                                                |                                             |                                     |                |
-| 13   | Security          |                                       |                                                                                                |                                             |                                     |                |
+| 13   | Network (Extra)   | [[13.1 Network Address Translation]]  |                                                                                                |                                             | [[Quiz 8 - NAT.pdf]]                | Not Examinable |
+|      | Security          |                                       |                                                                                                |                                             |                                     |                |
+|      |                   |                                       |                                                                                                |                                             |                                     |                |
 
 
