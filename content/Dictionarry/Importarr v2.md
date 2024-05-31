@@ -12,3 +12,8 @@
 	]
 }
 ```
+
+
+Export CF using exportarr
+replace regex value fields with regex IDs
+Rebuild CFs on import replacing ID with regex value. 
