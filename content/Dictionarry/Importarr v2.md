@@ -1,0 +1,3 @@
+- IncludeCustomFormatWhenRenaming
+	- Enabled by user in settings
+	- 
