@@ -6,13 +6,13 @@
 | 2160p WEB        | 4       | 2          | 3             |                                                                                       |
 | 1080p HDR Encode | 4       | 4          | 3             |                                                                                       |
 | 1080p Encode     | 3       | 2          | 4             |                                                                                       |
-| 1080p Remux      | 3       | 1          | 3             | Compatibility score of 3 because of lossless audio                                    |
+| 1080p Remux      | 3       | 2          | 3             | Compatibility score of 3 because of lossless audio                                    |
 | 1080p WEB        | 2       | 3          | 5             |                                                                                       |
 | 1080p HEVC       | 2       | 5          | 3             |                                                                                       |
 | 720p Encode      | 2       | 3          | 4             |                                                                                       |
 | SD Encode        | 1       | 3          | 5             |                                                                                       |
-| Minimal          | 1       | 4          | 3             |                                                                                       |
-| Compatible       | 1       | 1          | 5             |                                                                                       |
+| Minimal          | 1       | 5          | 4             |                                                                                       |
+
 - Profile Names changed to the 'priority'. This removes ambiguity with things like Optimal and Transparent, where in reality, transparent encodes are usually better than the remux.
 - Minimal and compatible don't directly reference a resolution, as they are targeting specific A/V metrics
 - 1080p HEVC doesn't prioritise a source, since it can grab an encode or WEB interchangeably. 
