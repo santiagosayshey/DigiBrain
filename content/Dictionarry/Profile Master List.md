@@ -3,15 +3,15 @@
 | -------------------- | ------- | ---------- | ------------- | ------------------------------------------------------------------------------------- |
 | **2160p Remux**      | 6       | 1          | 1             |                                                                                       |
 | **2160p Encode**     | 5       | 2          | 2             | Quality score 4 because not consistent enough, but is more than capable of being a 5. |
-| **2160p WEB**        | 5       | 3          | 3             |                                                                                       |
+| **2160p WEB**        | 5       | 3          | 2             |                                                                                       |
 | **1080p HDR Encode** | 4       | 5          | 3             |                                                                                       |
-| 1080p Encode         | 3       | 2          | 4             |                                                                                       |
-| 1080p Remux          | 3       | 1          | 3             | Compatibility score of 3 because of lossless audio                                    |
+| 1080p Encode         | 3       | 2          | 5             |                                                                                       |
+| 1080p Remux          | 3       | 1          | 2             | Compatibility score of 3 because of lossless audio                                    |
 | 1080p WEB            | 2       | 3          | 5             |                                                                                       |
-| 1080p HEVC           | 2       | 6          | 3             |                                                                                       |
-| 720p Encode          | 2       | 3          | 5             |                                                                                       |
-| SD Encode            | 1       | 4          | 5             |                                                                                       |
-| Minimal              | 1       | 5          | 4             |                                                                                       |
+| 1080p HEVC           | 2       | 6          | 4             |                                                                                       |
+| 720p Encode          | 2       | 3          | 6             |                                                                                       |
+| SD Encode            | 1       | 4          | 6             |                                                                                       |
+| Minimal              | 1       | 4          | 4             |                                                                                       |
 
 
 - Profile Names changed to the 'priority'. This removes ambiguity with things like Optimal and Transparent, where in reality, transparent encodes are usually better than the remux.
