@@ -3,7 +3,7 @@
 | ---------------- | ------- | ---------- | ------------- | ------------------------------------------------------------------------------------- |
 | 2160p Remux      | 5       | 1          | 1             |                                                                                       |
 | 2160p Encode     | 4       | 2          | 2             | Quality score 4 because not consistent enough, but is more than capable of being a 5. |
-| 2160p WEB        | 4       | 3          | 2             |                                                                                       |
+| 2160p WEB        | 4       | 2          | 2             |                                                                                       |
 | 1080p HDR Encode | 4       | 4          | 3             |                                                                                       |
 | 1080p Encode     | 3       | 2          | 4             |                                                                                       |
 | 1080p Remux      | 3       | 1          | 2             | Compatibility score of 2 because of lossless audio                                    |
