@@ -18,15 +18,15 @@
 - 1080p HEVC doesn't prioritise a source, since it can grab an encode or WEB interchangeably. 
 
 
-|             | Quality                                                                                                      | Efficiency                                                                                                   | Compatibility                                                                                               |
-| ----------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+|             | Quality                                                                                                          | Efficiency                                                                                                                                  | Compatibility                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Description | The level of detail, clarity, and overall fidelity of the audio or video. Higher levels indicate better quality. | The effectiveness in terms of resource usage, such as file size, bandwidth, and processing power. Higher levels indicate better efficiency. | The ability to work across different devices, platforms, and formats. Higher levels indicate better compatibility. |
 
-|     | Quality | Efficiency | Compatibility                  |
-| --- | ------- | ---------- | ------------------------------ |
-| 1   |         |            |                                |
-| 2   |         |            |                                |
-| 3   |         |            |                                |
-| 4   |         |            |                                |
-| 5   |         |            | Standard Dynamic Range video.  |
+|     | Quality | Efficiency | Compatibility                                                                                                            |
+| --- | ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 1   |         |            | Requires top of the line setup. All types of HDR, lossless audio, codecs and resolutions are allowed. Recommended to use |
+| 2   |         |            |                                                                                                                          |
+| 3   |         |            |                                                                                                                          |
+| 4   |         |            |                                                                                                                          |
+| 5   |         |            |                                                                                                                          |
 
