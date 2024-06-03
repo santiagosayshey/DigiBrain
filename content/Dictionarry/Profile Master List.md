@@ -4,13 +4,13 @@
 | **2160p Remux**      | 6       | 1          | 1             |
 | **2160p Encode**     | 5       | 2          | 2             |
 | **2160p WEB**        | 5       | 3          | 2             |
-| **1080p HDR Encode** | 4       | 5          | 3             |
+| **1080p HDR Encode** | 4       | 3          | 3             |
 | 1080p Encode         | 3       | 2          | 5             |
 | 1080p Remux          | 3       | 1          | 2             |
 | 1080p WEB            | 2       | 3          | 5             |
-| 1080p HEVC           | 2       | 6          | 4             |
+| 1080p HEVC           | 2       | 4          | 4             |
 | 720p Encode          | 2       | 3          | 6             |
-| SD Encode            | 1       | 6          | 6             |
+| SD Encode            | 1       | 4          | 6             |
 | Minimal              | 1       | 4          | 4             |
 
 
