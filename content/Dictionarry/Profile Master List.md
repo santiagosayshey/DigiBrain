@@ -4,9 +4,9 @@
 | 2160p Remux      | 5       | 1          | 1             |             |
 | 2160p Encode     | 5       | 2          | 2             |             |
 | 2160p WEB        | 4       | 3          | 2             |             |
-| 1080p HDR Encode | 4       | 4          | 2             |             |
-| 1080p Encode     | 3       | 2          | 3             |             |
-| 1080p Remux      | 3       | 1          | 2             |             |
+| 1080p HDR Encode | 4       | 4          | 3             |             |
+| 1080p Encode     | 3       | 2          |               |             |
+| 1080p Remux      | 3       | 1          |               |             |
 | 1080p WEB        | 2       | 3          |               |             |
 | 1080p HEVC       | 2       | 5          |               |             |
 | 720p Encode      | 2       | 3          |               |             |
@@ -26,3 +26,4 @@
 | 3   |         |                                                   |               |
 | 4   |         |                                                   |               |
 | 5   |         |                                                   |               |
+HDR, Audio, Codec, Resolution
