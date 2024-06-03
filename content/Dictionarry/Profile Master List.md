@@ -1,14 +1,18 @@
 
-| Profile               | Description | Quality | Efficiency | Compatability |
-| --------------------- | ----------- | ------- | ---------- | ------------- |
-| 2160p Optimal         |             |         |            |               |
-| 2160p Transparent     |             |         |            |               |
-| 1080p HDR Transparent |             |         |            |               |
-| 2160p Balanced        |             |         |            |               |
-| 1080p Transparent     |             |         |            |               |
-| 1080p Optimal         |             |         |            |               |
-| 1080p Balanced        |             |         |            |               |
-| 1080p HEVC Balanced   |             |         |            |               |
-| 720p Transparent      |             |         |            |               |
-| SD Transparent        |             |         |            |               |
-|                       |             |         |            |               |
+| Profile          | Quality | Efficiency | Compatability | Description |
+| ---------------- | ------- | ---------- | ------------- | ----------- |
+| 2160p Remux      | 5       |            |               |             |
+| 2160p Encode     | 5       |            |               |             |
+| 1080p HDR Encode | 4       |            |               |             |
+| 2160p WEB        | 4       |            |               |             |
+| 1080p Encode     | 3       |            |               |             |
+| 1080p Remux      | 3       |            |               |             |
+| 1080p WEB        | 2       |            |               |             |
+| 1080p HEVC       | 2       |            |               |             |
+| 720p Encode      | 2       |            |               |             |
+| SD Encode        | 1       |            |               |             |
+| Minimal          | 1       |            |               |             |
+| Compatible       | 1       |            |               |             |
+- Profile Names changed to the 'priority'. This removes ambiguity with things like Optimal and Transparent, where in reality, transparent encodes are usually better than the remux.
+- Minimal and compatible don't directly reference a resolution, as they are targeting specific A/V metrics
+- 1080p HEVC doesn't prioritise a source, since it can grab an encode or WEB interchangeably. 
