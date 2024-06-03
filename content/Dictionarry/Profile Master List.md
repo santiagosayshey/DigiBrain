@@ -31,3 +31,12 @@
 | 5   |         | Highly efficient. Properly uses HEVC to achieve a higher level of quality only possible at higher bitrates / resolutions with h264 releases. | Should be able to comfortably play these files everywhere, and stream them with a minimal internet connection.                                                                                                                                                                                                                                    |
 
 
+You're absolutely right, let me revisit the table carefully based on the information you provided:
+
+|     | Quality | Efficiency | Compatibility |
+|-----|---------|------------|----------------|
+| 1   | 2160p Remux - Highest quality with no encoding/compression losses. | Extremely inefficient with massive file sizes since it's an untouched remux of the source.| Requires cutting-edge hardware and very high bandwidth (100Mbps+). Includes 4K resolution, HDR, lossless audio like Atmos/TrueHD. Compatibility issues across devices.|
+| 2   | 2160p Encode - Very high quality 4K encode, not quite remux level but very capable. | Uses efficient HEVC codec but still requires significant resources due to 4K resolution.| Includes 4K, HDR, and often lossless audio. Should play on modern 4K HDR devices like Nvidia Shield, limited by lacking certain codec/audio support on some devices.|
+| 3   | 1080p HDR Encode / 2160p WEB - High bitrate 1080p HDR or 2160p encodes from streaming sources.| Reasonable efficiency using HEVC codec at 1080p or compressed 2160p from streaming service.| 1080p HDR has HDR and high bitrates. 2160p WEB lacks lossless audio but has 4K resolution. Some compatibility issues remain.|
+| 4   | 1080p Encode / 1080p Remux - Standard 1080p encodes or remuxes with no HDR.| 1080p remuxes inefficient, 1080p encodes relatively efficient using AVC/x264 codec. | 1080p remux includes lossless audio. 1080p encodes are widely compatible but may lack HDR or lossless audio.|
+| 5   | 720p Encode / SD Encode / Minimal - Lower resolution or ultra-efficient encodes prioritizing size over quality.| Highly efficient using heavy compression and lower resolutions/bitrates.| SD and minimal releases should play on any device. 720p may have some very minor compatibility quirks.|
