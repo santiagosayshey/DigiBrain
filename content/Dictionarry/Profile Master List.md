@@ -5,12 +5,12 @@
 | 2160p Encode     | 4       | 3          | 2             | Quality score 4 because not consistent enough, but is more than capable of being a 5. |
 | 2160p WEB        | 4       | 2          | 3             |                                                                                       |
 | 1080p HDR Encode | 4       | 4          | 3             |                                                                                       |
-| 1080p Encode     | 3       | 2          | 4             |                                                                                       |
-| 1080p Remux      | 3       | 2          | 3             | Compatibility score of 3 because of lossless audio                                    |
-| 1080p WEB        | 2       | 3          | 5             |                                                                                       |
-| 1080p HEVC       | 2       | 5          | 3             |                                                                                       |
+| 1080p Encode     | 4       | 2          | 4             |                                                                                       |
+| 1080p Remux      | 4       | 2          | 3             | Compatibility score of 3 because of lossless audio                                    |
+| 1080p WEB        | 3       | 3          | 5             |                                                                                       |
+| 1080p HEVC       | 3       | 5          | 3             |                                                                                       |
 | 720p Encode      | 2       | 3          | 4             |                                                                                       |
-| SD Encode        | 1       | 3          | 5             |                                                                                       |
+| SD Encode        | 2       | 3          | 5             |                                                                                       |
 | Minimal          | 1       | 5          | 4             |                                                                                       |
 
 - Profile Names changed to the 'priority'. This removes ambiguity with things like Optimal and Transparent, where in reality, transparent encodes are usually better than the remux.
