@@ -29,3 +29,58 @@ Application layer protocols define the rules for communication between applicati
 |          | - Caching and proxies:<br>  - Temporary storage of frequently requested data to reduce server load and improve response time<br>  - Proxies act as intermediaries between clients and servers, forwarding requests and responses                                                                                                              |
 |          | - Pipelining (HTTP/1.1):<br>  - Sending multiple requests without waiting for each response, improving performance                                                                                                                                                                                                                            |
 
+# TCC vs UDP
+
+| Feature               | TCP                                                    | UDP                                                    |
+|-----------------------|--------------------------------------------------------|--------------------------------------------------------|
+| Reliability           | Reliable, ordered, and error-checked delivery          | Unreliable, unordered, and error-prone delivery        |
+| Connection Type       | Connection-oriented                                    | Connectionless                                         |
+| Speed                 | Slower due to overhead and reliability checks          | Faster due to less overhead                            |
+| Flow Control          | Yes, prevents sender from overwhelming receiver         | No flow control                                        |
+| Congestion Control    | Yes, adjusts sending rate based on network congestion   | No congestion control                                  |
+| Usage                 | Web browsing, email, file transfers                    | Streaming media, online gaming, VoIP                   |
+
+# Multiplexing and Demultiplexing
+
+- **Multiplexing**: The process of combining data from multiple application processes, all destined for transmission across the network, into a single transport-layer protocol defined by their headers.
+- **Demultiplexing**: The reverse process of taking data received from the network layer and distributing it to the appropriate application processes based on header information, such as port numbers.
+
+| Protocol | Multiplexing and Demultiplexing                                                                                                                                                                                                                                                                         |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TCP      | - Requires source and destination IP addresses and port numbers for multiplexing and demultiplexing<br>- Maintains a separate connection for each unique combination of source IP, source port, destination IP, and destination port<br>- Allows multiple processes to use the same port simultaneously |
+| UDP      | - Requires only destination IP address and port number for demultiplexing<br>- Source IP address and port number are optional for multiplexing<br>- Multiple processes can use the same port, but data from different sources may be interleaved                                                         |
+
+## Reliable Data Transfer (RDT) Protocols
+
+| Protocol         | Key Features                                                                                                           |
+|------------------|------------------------------------------------------------------------------------------------------------------------|
+| Go-Back-N (GBN)  | - Sender maintains a window of size N<br>- Receiver sends cumulative ACKs<br>- Retransmits all packets from the lost one |
+| Selective Repeat (SR) | - Sender maintains a window of size N<br>- Receiver sends individual ACKs<br>- Retransmits only the lost or corrupted packet |
+
+## Key Components of Reliable Transport
+
+| Component           | Description                                                                                                                   |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Window Size         | Number of packets that can be sent without waiting for an acknowledgment                                                      |
+| Sequence Number     | Identifier for each packet to ensure ordered delivery and detect duplicates                                                   |
+| ACKs                | Acknowledgments sent by the receiver to confirm successful receipt of packets                                                 |
+| NAKs                | Negative acknowledgments sent by the receiver to indicate lost or corrupted packets                                           |
+| Checksums           | Error-detection mechanism to ensure data integrity                                                                            |
+| Timeouts            | Timer used by the sender to detect lost packets and initiate retransmission                                                   |
+| RTT Calculation     | Round-Trip Time estimation for setting appropriate timeout values                                                             |
+
+## TCP Congestion Control
+
+| Phase               | Description                                                                                                |
+|---------------------|------------------------------------------------------------------------------------------------------------|
+| Slow Start          | Exponential increase in congestion window size until a threshold is reached or packet loss occurs          |
+| Congestion Avoidance| Additive increase in congestion window size to slowly probe for additional bandwidth                       |
+| Fast Retransmit     | Retransmitting a lost packet before the timeout when multiple duplicate ACKs are received                  |
+| Fast Recovery       | Adjusting the congestion window size after a fast retransmit to avoid entering slow start again            |
+
+## TCP Connection Establishment and Termination
+
+| Phase                 | Description                                                                                                 |
+|-----------------------|-------------------------------------------------------------------------------------------------------------|
+| Three-Way Handshake   | 1. SYN (client to server)<br>2. SYN-ACK (server to client)<br>3. ACK (client to server)                     |
+| Four-Way Handshake    | 1. FIN (client to server)<br>2. ACK (server to client)<br>3. FIN (server to client)<br>4. ACK (client to server) |
