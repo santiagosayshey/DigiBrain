@@ -82,3 +82,31 @@
 - $P \subseteq NP$: All problems in P are also in NP, but it is unknown whether $P = NP$.
 - If $P = NP$, all problems in NP would be solvable in polynomial time, which would have significant implications for cryptography, optimization, and algorithm design.
 - Boolean Satisfiability (SAT) is the first problem proven to be NP-Complete. It asks whether a Boolean expression can be satisfied by some assignment of Boolean values to its variables.
+Sure, let's focus on the inductive step and show the detailed algebraic manipulations using LaTeX.
+
+Inductive step:
+We need to prove the statement holds for $n=k+1$.
+
+\begin{align*}
+\text{LHS} &= 1 + 8 + 27 + 64 + \ldots + k^3 + (k+1)^3 \\
+&= [1 + 8 + 27 + 64 + \ldots + k^3] + (k+1)^3 \\
+&= \frac{1}{4} \cdot k^2(k+1)^2 + (k+1)^3 \quad \text{(using the inductive hypothesis)} \\
+&= (k+1)^2 \cdot \left[\frac{1}{4} \cdot k^2\right] + (k+1)^3 \\
+&= (k+1)^2 \cdot \left[\frac{1}{4} \cdot k^2\right] + (k+1)^2 \cdot (k+1) \\
+&= (k+1)^2 \cdot \left[\frac{1}{4} \cdot k^2 + (k+1)\right] \\
+&= (k+1)^2 \cdot \left[\frac{1}{4} \cdot k^2 + \frac{4}{4} \cdot (k+1)\right] \\
+&= (k+1)^2 \cdot \frac{1}{4} \cdot \left[k^2 + 4(k+1)\right] \\
+&= (k+1)^2 \cdot \frac{1}{4} \cdot (k^2 + 4k + 4) \\
+&= (k+1)^2 \cdot \frac{1}{4} \cdot (k+2)^2 \\
+&= \frac{1}{4} \cdot (k+1)^2(k+2)^2 \\
+&= \text{RHS}
+\end{align*}
+
+Therefore, the statement holds for $n=k+1$.
+
+The key steps in the inductive step are:
+1. Separating the $(k+1)^3$ term from the sum.
+2. Applying the inductive hypothesis to the remaining sum.
+3. Factoring out $(k+1)^2$ to isolate the terms inside the brackets.
+4. Simplifying the terms inside the brackets to get $(k+2)^2$.
+5. Showing that the LHS equals the RHS, thus proving the statement for $n=k+1$.
