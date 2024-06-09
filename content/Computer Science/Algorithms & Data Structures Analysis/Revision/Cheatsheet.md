@@ -7,7 +7,7 @@
 | $f(n) = \Theta(g(n))$ | Highest degree terms of $f(n)$ and $g(n)$ are equal                                     |
 | $f(n) = o(g(n))$      | Highest degree term of $f(n)$ is strictly less than highest degree term of $g(n)$       |
 | $f(n) = \omega(g(n))$ | Highest degree term of $f(n)$ is strictly greater than highest degree term of $g(n)$    |
-|                       |                                                                                         |
+
 # Induction
 
 | Step                    | Description                                                                                                                                           |
