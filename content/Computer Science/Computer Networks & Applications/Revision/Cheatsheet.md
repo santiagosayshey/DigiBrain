@@ -42,14 +42,20 @@ Application layer protocols define the rules for communication between applicati
 
 # Multiplexing and Demultiplexing
 
-- **Multiplexing**: The process of combining data from multiple application processes, all destined for transmission across the network, into a single transport-layer protocol defined by their headers.
-- **Demultiplexing**: The reverse process of taking data received from the network layer and distributing it to the appropriate application processes based on header information, such as port numbers.
+## TCP
 
-| Protocol | Multiplexing and Demultiplexing                                                                                                                                                                                                                                                                         |
-|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TCP      | - Requires source and destination IP addresses and port numbers for multiplexing and demultiplexing<br>- Maintains a separate connection for each unique combination of source IP, source port, destination IP, and destination port<br>- Allows multiple processes to use the same port simultaneously |
-| UDP      | - Requires only destination IP address and port number for demultiplexing<br>- Source IP address and port number are optional for multiplexing<br>- Multiple processes can use the same port, but data from different sources may be interleaved                                                         |
+| Multiplexing                                                                                                                | Demultiplexing                                                                                                                                                     |
+|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| - Combines data from multiple application processes into a single TCP segment                                               | - Distributes received TCP segments to the appropriate application processes based on the destination IP address and port number                                  |
+| - Adds source and destination IP addresses and port numbers to the TCP header for identification                            | - Uses the unique combination of source IP, source port, destination IP, and destination port to determine the specific process to deliver the data                |
+| - Allows multiple processes to use the same port simultaneously by maintaining a separate connection for each unique combination | - Ensures that data from each connection is delivered to the correct process                                                                                      |
+## UDP
 
+| Multiplexing                                                                                                      | Demultiplexing                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| - Combines data from multiple application processes into a single UDP datagram                                    | - Distributes received UDP datagrams to the appropriate application processes based on the destination IP address and port number                             |
+| - Adds destination IP address and port number to the UDP header for identification                                | - Uses the destination IP address and port number to determine the specific process to deliver the data                                                       |
+| - Source IP address and port number are optional                                                                  | - Multiple processes can use the same port, but data from different sources may be interleaved as there is no unique connection identifier like in TCP        |
 ## Reliable Data Transfer (RDT) Protocols
 
 | Protocol         | Key Features                                                                                                           |
