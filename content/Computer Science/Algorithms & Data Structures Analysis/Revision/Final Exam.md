@@ -8,47 +8,11 @@
 | $f(n) = o(g(n))$      | Highest degree term of $f(n)$ is strictly less than highest degree term of $g(n)$       |
 | $f(n) = \omega(g(n))$ | Highest degree term of $f(n)$ is strictly greater than highest degree term of $g(n)$    |
 # Multiplication
-
-> [!idea] School Method Multiplication
-> - Multiplies two n-digit integers using $O(n^2)$ primitive operations
-> - Results in at most a $2n$-digit integer
->
-> | Method | Time Complexity | Max Result Digits |
-> |--------|----------------|-------------------|
-> | School | $O(n^2)$       | $2n$              |
-
-> [!idea] Recursive Multiplication
-> - Splits integers into smaller parts and recursively multiplies them
-> - Combines partial products to obtain the final result
-> - Recurrence relation:
->   $T(n) \leq \begin{cases} 
->   1 & \text{if } n = 1 \\
->   4 \cdot T\left(\left\lfloor \frac{n}{2} \right\rfloor\right) + 3 \cdot 2^n & \text{if } n \geq 2 
->   \end{cases}$
-> - Time complexity: $O(n^2)$ (worse than school method)
-
-```
-![[Pasted image 20240305013909.png]]
-```
-
-> [!idea] Karatsuba Algorithm
-> - Divide and conquer approach with only 3 partial products
-> - Recurrence relation:
->   $T_K(n) \leq
->   \begin{cases}
->   3n^2 + 2n & \text{if } n < 4 \\
->   3 \cdot T_K\left(\left\lceil \frac{n}{2} \right\rceil + 1\right) + 6 \cdot 2 \cdot n & \text{if } n \geq 4
->   \end{cases}$
-> - Time complexity: $O(n^{\log_2 3}) \approx O(n^{1.59})$
-
-> [!consider] Karatsuba vs Recursive Multiplication
-> - Karatsuba reaches leaf nodes more quickly than recursive multiplication
-> - Shallower tree structure with fewer levels in Karatsuba
->
-> ```
-> ![[Pasted image 20240311053326.png]]
-> ![[Pasted image 20240311060156.png]]
-> ```
+| Algorithm                    | Process                                                                                                                                      | Complexity                                                                      | Benefits                                                                                                                |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| School Method Multiplication | - Multiply each digit of the multiplicand by each digit of the multiplier<br>- Sum up the partial products                                   | $3n^2 + 2n = n^2$ primitive operations                                          | - Simple and intuitive<br>- Easy to understand and implement                                                            |
+| Recursive Multiplication     | - Split integers into smaller parts<br>- Calculate partial products recursively<br>- Add aligned partial products                            | For $n$ power of 2: $T(n) \leq 7n^2 - 6n$<br>For general $n$: $T(n) \leq 28n^2$ | - Applies Divide & Conquer approach<br>- Breaks down the problem into smaller subproblems                               |
+| Karatsuba Multiplication     | - Split integers into smaller parts<br>- Calculate only 3 partial products recursively<br>- Combine partial products using Karatsuba formula | $T_K(n) \leq 207 \cdot n^{\log_3 3} \approx O(n^{1.59})$                        | - Faster than recursive multiplication<br>- Reduces the number of recursive calls<br>- Achieves subquadratic complexity |
 # AVL Rotations
 
 | Imbalance Type   | Condition                              | Balance Factor of Node | Balance Factor of Node's Child    | Rotations Needed                                          |
