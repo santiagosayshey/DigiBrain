@@ -28,11 +28,10 @@
 | Adjacency Array  | Representing a dense computer network with a fixed number of connected devices  | - Suitable for dense graphs with a known number of nodes<br>- Efficient for accessing edge information between two specific nodes<br>- Requires a fixed amount of memory, allocated upfront<br>- Not efficient for graphs with a large number of nodes but few edges (sparse graphs)<br>- Suitable when the number of nodes is fixed and known in advance, and the graph is dense                                                                                                                                                                                                                                                                                                      |
 # Complexity
 
-
 | Algorithm                         | Description                                                                               | Complexity                               | Key                                                                                                                   | General Process                                                                                                                    | Special Considerations                                                             |
 | --------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Standard Multiplication Algorithm | Multiplication algorithm commonly taught in schools                                       | $O(n^2)$                                 | $n$: number of digits                                                                                                 | Multiply each digit of one number by each digit of the other, then add the results                                                 | -                                                                                  |
-| Karatsuba's Algorithm             | Efficient algorithm for multiplying two n-digit numbers                                   | $O(n^{\log_2(3)})$                       | $n$: number of digits                                                                                                 | Split numbers into halves, find partial products, add partial products                                                             | Uses 3 partial products instead of 4                                               |
+| Recursive Multiplication          | Recursive multiplication algorithm that breaks the problem into smaller subproblems       | $O(n^2)$                                 | $n$: number of digits                                                                                                 | Split numbers into halves, recursively calculate four partial products, add the partial products                                   | Requires combining four partial products, less efficient than Karatsuba's method   |
+| Karatsuba's Algorithm             | Efficient algorithm for multiplying two n-digit numbers                                   | $O(n^{\log_2(3)})$                       | $n$: number of digits                                                                                                 | Split numbers into halves, find partial 3 products, add partial products                                                           | Uses 3 partial products instead of 4                                               |
 | Counting Sort                     | Sorting algorithm that counts the number of objects having distinct key values            | $O(n+k)$                                 | $n$: number of elements, $k$: maximum value of the input range (e.g., for input range [0, 10], $k$ = 10)              | Count the occurrences of each distinct element, then use the counts to determine the positions of each element in the sorted array | Only works for integer keys with a small range                                     |
 | Radix Sort                        | Sorting algorithm that sorts data with integer keys by grouping keys by individual digits | $O(d(n+k))$                              | $n$: number of elements, $k$: range of each digit (e.g., for decimal digits, $k$ = 10), $d$: maximum number of digits | Sort elements by each digit, starting from the least significant digit to the most significant                                     | Only works for integer keys                                                        |
 | Randomised Selection Algorithm    | Selects the k-th smallest element from an unsorted list                                   | $O(n)$ average case, $O(n^2)$ worst case | $n$: number of elements                                                                                               | Partition the list around a randomly selected pivot, recursively search the appropriate sublist                                    | Worst case is extremely unlikely                                                   |
@@ -45,21 +44,17 @@
 | Prim's Algorithm                  | Finds a minimum spanning tree in a weighted, connected graph                              | $O(E \log V)$                            | $V$: number of vertices, $E$: number of edges                                                                         | Maintain a priority queue of vertices, greedily add the vertex with the smallest edge weight to the MST                            | Better for dense graphs with more edges                                            |
 
 
-
-| Data Structure | Operation | Average Case | Worst Case | Key | Special Considerations |
-|----------------|-----------|--------------|------------|-----|------------------------|
-| Binary Search Trees | Search | $O(\log n)$ | $O(n)$ | $n$: number of elements | Worst case occurs when tree is unbalanced |
-|  | Insertion | $O(\log n)$ | $O(n)$ | $n$: number of elements | Worst case occurs when tree is unbalanced |
-|  | Deletion | $O(\log n)$ | $O(n)$ | $n$: number of elements | Worst case occurs when tree is unbalanced |
-| AVL Trees | Search | $O(\log n)$ | $O(\log n)$ | $n$: number of elements | Self-balancing property maintains $O(\log n)$ height |
-|  | Insertion | $O(\log n)$ | $O(\log n)$ | $n$: number of elements | Self-balancing property maintains $O(\log n)$ height |
-|  | Deletion | $O(\log n)$ | $O(\log n)$ | $n$: number of elements | Self-balancing property maintains $O(\log n)$ height |
-| Linked Lists | Search | $O(n)$ | $O(n)$ | $n$: number of elements | - |
-|  | Insertion | $O(1)$ | $O(1)$ | - | - |
-|  | Deletion | $O(1)$ | $O(1)$ | - | - |
-| Skip Lists | Search | $O(\log n)$ | $O(n)$ | $n$: number of elements | Probabilistic data structure |
-|  | Insertion | $O(\log n)$ | $O(n)$ | $n$: number of elements | Probabilistic data structure |
-|  | Deletion | $O(\log n)$ | $O(n)$ | $n$: number of elements | Probabilistic data structure |
-| Hash Tables | Search | $O(1)$ | $O(n)$ | $n$: number of elements | Worst case occurs with poor hash function or many collisions |
-|  | Insertion | $O(1)$ | $O(n)$ | $n$: number of elements | Worst case occurs with poor hash function or many collisions |
-|  | Deletion | $O(1)$ | $O(n)$ | $n$: number of elements | Worst case occurs with poor hash function or many collisions |
+| Data Structure      | Operation | Average Case | Worst Case  | Best Case   | Special Considerations                                                    |
+| ------------------- | --------- | ------------ | ----------- | ----------- | ------------------------------------------------------------------------- |
+| Binary Search Trees | Search    | $O(\log n)$  | $O(n)$      | $O(\log n)$ | Worst case occurs when tree is unbalanced                                 |
+|                     | Insertion | $O(\log n)$  | $O(n)$      | $O(\log n)$ |                                                                           |
+|                     | Deletion  | $O(\log n)$  | $O(n)$      | $O(\log n)$ |                                                                           |
+| AVL Trees           | Search    | $O(\log n)$  | $O(\log n)$ | $O(\log n)$ | Self-balancing property maintains $O(\log n)$ height                      |
+|                     | Insertion | $O(\log n)$  | $O(\log n)$ | $O(\log n)$ |                                                                           |
+|                     | Deletion  | $O(\log n)$  | $O(\log n)$ | $O(\log n)$ |                                                                           |
+| Skip Lists          | Search    | $O(\log n)$  | $O(n)$      | $O(\log n)$ | Probabilistic data structure, balances each level of each entry randomly. |
+|                     | Insertion | $O(\log n)$  | $O(n)$      | $O(\log n)$ |                                                                           |
+|                     | Deletion  | $O(\log n)$  | $O(n)$      | $O(\log n)$ |                                                                           |
+| Hash Tables         | Search    | $O(1)$       | $O(n)$      | $O(1)$      | Worst case occurs with poor hash function or many collisions              |
+|                     | Insertion | $O(1)$       | $O(n)$      | $O(1)$      |                                                                           |
+|                     | Deletion  | $O(1)$       | $O(n)$      | $O(1)$      |                                                                           |
