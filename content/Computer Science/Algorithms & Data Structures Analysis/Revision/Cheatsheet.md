@@ -21,6 +21,13 @@
 
 # AVL Rotations
 
+| Imbalance Type   | Condition                    | Rotations Needed                                          | Example and Intermediate Structures  | Intermediate                         | Final Structure                              |
+| ---------------- | ---------------------------- | --------------------------------------------------------- | ------------------------------------ | ------------------------------------ | -------------------------------------------- |
+| LL (Left-Left)   | Left subtree of left child   | Single Right Rotation at Node                             | ![[Pasted image 20240606171244.png]] |                                      | ![[Pasted image 20240606171301.png]]<br><br> |
+| RR (Right-Right) | Right subtree of right child | Single Left Rotation at Node                              | ![[Pasted image 20240606171358.png]] |                                      | ![[Pasted image 20240606171408.png]]<br><br> |
+| LR (Left-Right)  | Right subtree of left child  | Left Rotation at Left Child, then Right Rotation at Node  | ![[Pasted image 20240606171557.png]] | ![[Pasted image 20240606171610.png]] | ![[Pasted image 20240606171638.png]]<br><br> |
+| RL (Right-Left)  | Left subtree of right child  | Right Rotation at Right Child, then Left Rotation at Node | ![[Pasted image 20240606171722.png]] | ![[Pasted image 20240606171731.png]] | ![[Pasted image 20240606171746.png]]<br><br> |
+
 | Imbalance Type   | Condition                              | Balance Factor of Node | Balance Factor of Node's Child    | Rotations Needed                                          |
 | ---------------- | -------------------------------------- | ---------------------- | --------------------------------- | --------------------------------------------------------- |
 | LL (Left-Left)   | Left subtree of left child is deeper   | Balance Factor: +2     | Balance Factor of Left Child: +1  | Single Right Rotation at Node                             |
