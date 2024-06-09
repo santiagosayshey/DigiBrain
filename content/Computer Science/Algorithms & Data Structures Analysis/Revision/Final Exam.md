@@ -7,6 +7,16 @@
 | $f(n) = \Theta(g(n))$ | Highest degree terms of $f(n)$ and $g(n)$ are equal                                     |
 | $f(n) = o(g(n))$      | Highest degree term of $f(n)$ is strictly less than highest degree term of $g(n)$       |
 | $f(n) = \omega(g(n))$ | Highest degree term of $f(n)$ is strictly greater than highest degree term of $g(n)$    |
+# Induction
+
+| Step                    | Description                                                                                                                                           |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Base Case            | Prove that the statement holds for the smallest value of $n$, usually $n = 0$ or $n = 1$, depending on the problem.                                   |
+| 2. Inductive Hypothesis | Assume that the statement holds for some arbitrary value $k$, i.e., assume $P(k)$ is true for some $k \geq n$, where $n$ is the base case value.      |
+| 3. Inductive Step       | Prove that if the statement holds for $k$, then it must also hold for $k + 1$, i.e., show that $P(k) \implies P(k + 1)$.                              |
+| 4. Conclusion           | Therefore, by the principle of mathematical induction, the statement $P(n)$ holds for all $n \geq n_0$, where $n_0$ is the base case value. $\square$ |
+
+
 
 # AVL Rotations
 
