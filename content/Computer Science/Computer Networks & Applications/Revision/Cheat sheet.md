@@ -1,9 +1,10 @@
-> [!idea] Introduction to Networks
+# Networks
+
+> [!idea] Networks
 > A network is a collection of interconnected devices that can communicate and share resources with each other. Networks consist of:
 > - Nodes: Devices connected to the network, such as computers, smartphones, servers, routers, and switches.
 > - Links: Connections between nodes, which can be wired (e.g., Ethernet) or wireless (e.g., Wi-Fi, cellular).
 > - Protocols: Sets of rules and standards that govern the communication between nodes, ensuring interoperability and efficient data transfer.
-
 
 > [!idea] Postal Analogy
 > - The OSI model layers can be likened to Russian nesting dolls, where each layer adds its own "envelope" of header information.
@@ -64,6 +65,10 @@
 > - Uses three-way handshake for connection establishment and four-way handshake for termination
 > - Employs cumulative ACKs and sequence numbers for reliability
 > - Implements congestion control mechanisms (slow start, congestion avoidance, fast retransmit, fast recovery)
+> - Suitable for applications that require reliable data transmission (e.g., email services, secure web browsing).
+> - Essential for operations that need data integrity and order (e.g., file transfers, database synchronization).
+> - Critical for secure communication where data must not be lost (e.g., secure shell, VPNs).
+
 
 > [!idea] UDP (User Datagram Protocol)
 > - Connectionless, unreliable, message-oriented protocol
