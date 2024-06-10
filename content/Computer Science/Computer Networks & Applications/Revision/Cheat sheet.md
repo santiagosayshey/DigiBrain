@@ -293,17 +293,36 @@
 > | Taking Turns | Nodes take turns accessing the channel | Token passing, polling |
 
 > [!idea] LAN Topologies and Ethernet
-> - Bus topology: Devices connected to a shared medium, prone to collisions
-> - Star topology: Devices connected to a central switch, reduces collision domain
-> - Ethernet: Standardized protocol for wired LAN communication using start topology
->   - Frame structure: Preamble, SFD, MAC addresses, EtherType, payload, CRC
->   - Preamble used for clock synchronization and identifying start of frame
+> **Bus Topology**: 
+> - Devices connected to a single shared medium
+> - Data transmitted by one device is received by all others on the bus
+> - Prone to collisions and reduced performance at high speeds
+>  
+> **Star Topology and Ethernet**:
+> - Devices connected to a central switch or hub
+> - Ethernet: standardized protocol for wired LAN communication in a star topology
+> - Frame structure: Preamble (clock sync), SFD (start of frame), MAC addresses, EtherType, payload, CRC
+> - Advantages: reduced collision domain, improved reliability, easier troubleshooting, increased bandwidth
+> 
+> [!idea] Switches in Ethernet Networks
+> **Key Functions**:
+> - Filtering: examining destination MAC address to determine output port(s)
+> - Storing: temporarily holding frames in buffer memory
+> - Forwarding: sending frames to appropriate output port based on MAC address
+>   - If destination MAC is known, forward to corresponding port
+>   - If unknown, flood to all ports except incoming port
+>   
+> **Switch Self-Learning and MAC Address Table**:
+> - Switches build and maintain MAC address table through self-learning
+> - Associate source MAC address with incoming port
+> - Allows efficient forwarding of frames to intended recipients
+> 
+> **Benefits**:
+> - Dedicated bandwidth for each device, reducing collisions
+> - Improved performance and efficiency through intelligent filtering and forwarding
+> - Plug-and-play connectivity for easy device addition/removal
+> - Enhanced security by limiting data frame propagation to necessary ports
 
-> [!idea] Switches and Frame Forwarding
-> - Switches improve network performance by filtering, storing, and forwarding frames
-> - Use self-learning to build and maintain MAC address tables
-> - Forward frames based on destination MAC address, flood if unknown
-> - Dedicated bandwidth, reduced collisions, plug-and-play connectivity
 
 > [!idea] Address Resolution Protocol (ARP)
 > - Maps IP addresses to MAC addresses within a LAN
@@ -320,12 +339,44 @@
 > - Label Switch Routers (LSRs) perform label switching, Label Edge Routers (LERs) assign and remove labels
 > - Enables flexible routing, traffic engineering, and fast reroute for resilience
 
-> [!idea] ICMP (Internet Control Message Protocol) and Traceroute
-> - ICMP: Reports errors and provides network diagnostics (e.g., Ping)
->   - Message format: Type, Code, Header, and first 8 bytes of IP datagram
-> - Traceroute: Discovers path between source and destination using ICMP Time Exceeded messages
->   - Sends UDP packets with increasing TTL, routers send ICMP Time Exceeded when TTL reaches 0
->   - Records IP address and RTT for each router along the path
+> [!idea] ICMP (Internet Control Message Protocol)
+> - Used by hosts and routers to communicate network-layer information
+> - Primary use: error reporting (e.g., "Destination network unreachable")
+> - ICMP messages are carried as IP payload, like TCP or UDP segments
+> 
+> ICMP Message Format:
+> 
+> | Field | Description |
+> |-------|-------------|
+> | Type  | Specifies the type of ICMP message |
+> | Code  | Provides additional information about the message type |
+> | Header and first 8 bytes of IP datagram | Helps the sender determine the datagram that caused the error |
+> 
+> ICMP Message Types and Uses:
+> - Destination Unreachable (Type 3): Indicates failure to deliver IP datagram
+> - Time Exceeded (Type 11): Generated when TTL field reaches 0 or fragment reassembly time exceeded
+> - Echo Request (Type 8) and Echo Reply (Type 0): Used by Ping utility
+> - Redirect (Type 5): Informs a host of a better route to a destination
+> 
+> Ping:
+> - Network utility used to test reachability of a host on an IP network
+> - Uses ICMP Echo Request (Type 8, Code 0) and Echo Reply (Type 0, Code 0) messages
+> - Source sends Echo Request, target responds with Echo Reply
+> - Measures round-trip time (RTT) between sending request and receiving reply
+> - If target is unreachable or doesn't respond within timeout, no Echo Reply is received
+
+> [!idea] Traceroute
+> - Network diagnostic tool used to discover the path between a source and destination host
+> - Works by purposely forcing each router along the path to send an ICMP Time Exceeded message
+> 
+> Traceroute Process:
+> 1. Source sends UDP packets to the destination, starting with a TTL of 1 and incrementing by 1 for each subsequent packet
+> 2. Each router decrements TTL by 1 before forwarding; when TTL reaches 0, router discards packet and sends ICMP Time Exceeded (Type 11, Code 0) back to source
+> 3. Source records IP address and RTT for each router that sends Time Exceeded message
+> 4. When packet reaches destination, it responds with ICMP Port Unreachable (Type 3, Code 3) due to unlikely UDP port number
+> 5. Source stops sending packets after receiving Port Unreachable message
+> 
+> By intentionally causing routers to send ICMP Time Exceeded messages, Traceroute maps the path and measures the RTT between the source and each router along the way.
 
 > [!idea] Wireshark
 > - Network protocol analyzer for capturing and analyzing network traffic
