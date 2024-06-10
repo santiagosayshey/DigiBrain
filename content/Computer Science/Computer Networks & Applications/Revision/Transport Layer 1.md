@@ -6,5 +6,3 @@
 ![[4.3 UDP]]
 
 ![[5.1 Reliable Data Transfer]]
-
-![[pipelin]]
