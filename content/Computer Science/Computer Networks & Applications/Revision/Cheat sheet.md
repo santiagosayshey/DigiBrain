@@ -304,7 +304,7 @@
 >     - Pure ALOHA: nodes transmit immediately
 >     - Slotted ALOHA: time divided into slots, nodes transmit only at the beginning of a slot, reducing collision probability
 >   - CSMA (Carrier Sense Multiple Access): nodes listen to the channel before transmitting, attempting to avoid collisions
->     - CSMA/CD (Collision Detection): wired networks, nodes stop transmission upon detecting collision (jam signal to tell everyone) and retransmit after random delay
+>     - CSMA/CD (Collision Detection): wired networks, nodes stop transmission upon detecting collision (jam signal to tell everyone to stop) and retransmit after random delay
 >     - CSMA/CA (Collision Avoidance): wireless networks, nodes use RTS/CTS handshake to reserve channel before transmitting
 > - Suitable for low to moderate loads with unpredictable traffic patterns
 >
