@@ -18,4 +18,20 @@
 
 ![[7.3 DHCP]]
 
-![[icmp]]
+![[9.2 IPv4]]
+
+![[9.3 IP Fragmentation]]
+
+![[9.4 IPv6]]
+
+![[9.5 Routing]]
+
+![[9.6 Link State]]
+
+![[9.7 Distance Vector]]
+
+![[10.1 Global Routing]]
+
+![[10.2 Software Defined Networking]]
+
+![[10.3 OpenFlow]]
