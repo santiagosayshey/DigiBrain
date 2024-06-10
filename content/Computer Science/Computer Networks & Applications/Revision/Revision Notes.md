@@ -104,29 +104,6 @@
 > - Timeouts: Trigger retransmission of lost or delayed packets, calculated based on Round-Trip Time (RTT)
 
 > [!idea] TCP Congestion Control
-> - Original TCP:
->   - Slow Start: 
->     - cwnd is initialized to 1 MSS (Maximum Segment Size)
->     - For each ACK received, cwnd is increased by 1 MSS, effectively doubling cwnd every RTT
->     - Slow start continues until cwnd reaches ssthresh or a loss event occurs
->   - Congestion Avoidance:
->     - When cwnd exceeds ssthresh, TCP enters congestion avoidance phase
->     - For each ACK received, cwnd is increased by (MSS × MSS) / cwnd, resulting in a linear increase
->     - If a timeout occurs due to packet loss, ssthresh is set to half of the current cwnd, and cwnd is reset to 1 MSS
-> - Tahoe (builds upon Original TCP):
->   - Introduces Fast Retransmit:
->     - If the sender receives three duplicate ACKs, it assumes a packet has been lost
->     - The sender immediately retransmits the missing packet without waiting for a timeout
->     - After fast retransmit, Tahoe performs slow start by setting cwnd to 1 MSS and ssthresh to half of the previous cwnd
-> - Reno (builds upon Tahoe):
->   - Introduces Fast Recovery:
->     - After fast retransmit, instead of setting cwnd to 1 MSS, Reno sets cwnd to ssthresh plus 3 MSS
->     - For each additional duplicate ACK received, cwnd is increased by 1 MSS
->     - When an ACK for the retransmitted packet is received, cwnd is set to ssthresh, and TCP enters congestion avoidance phase
->   - Fast recovery allows Reno to maintain a higher cwnd and avoid entering slow start after a single packet loss
-
-
-> [!idea] TCP Congestion Control
 > **Tahoe:**
 > - Slow Start: Gradually increases the congestion window (CongWin) until a loss event occurs. CongWin is initialized to 1 MSS and doubled every RTT until it reaches the slow-start threshold (ssthresh).
 > - Congestion Avoidance: When CongWin exceeds ssthresh, TCP enters the congestion avoidance phase. CongWin grows more slowly (linearly) to probe for available capacity while avoiding further congestion.
@@ -404,3 +381,60 @@
 > - Displays detailed information about captured packets (e.g., source/destination, protocol, length)
 > - Filters can be applied to focus on specific protocols, IP addresses, or port numbers
 > - Useful for network troubleshooting, security analysis, and learning about network protocols
+
+# Security
+
+> [!idea] Confidentiality, Data Integrity, and Authentication
+> - Confidentiality: Ensuring that data is not disclosed to unauthorized parties
+>   - Achieved through encryption algorithms (e.g., 3DES, AES)
+> - Data Integrity: Verifying that data has not been altered or tampered with
+>   - Achieved through hash functions (e.g., SHA, MD5) and digital signatures
+> - Authentication: Confirming the identity of a user or system
+>   - Achieved through passwords, public key cryptography (e.g., RSA), and digital certificates
+
+> [!idea] Attacks and Nonces
+> - Attacks: Attempts to compromise the security of a system or network
+>   - Examples: eavesdropping, impersonation, replay attacks, man-in-the-middle attacks
+> - Nonces: Random numbers used only once to prevent replay attacks and ensure message freshness
+>   - Included in authentication protocols to prove the "liveness" of a message
+
+> [!idea] Hash Functions and Fingerprints
+> - Hash Functions: Mathematical algorithms that map data of arbitrary size to a fixed-size output (hash value or digest)
+>   - Properties: deterministic, quick to compute, pre-image resistant, small changes result in significantly different hash values
+>   - Examples: SHA (Secure Hash Algorithm) family, MD5 (Message Digest 5)
+> - Fingerprints: Hash values used to uniquely identify and verify the integrity of data
+>   - Applications: password storage, file integrity verification
+
+> [!idea] Encryption Algorithms
+> | Algorithm | Type | Key Size | Block Size |
+> |-----------|------|----------|------------|
+> | 3DES      | Symmetric | 168 bits | 64 bits |
+> | AES       | Symmetric | 128, 192, or 256 bits | 128 bits |
+> | RSA       | Asymmetric | Varies (e.g., 2048, 4096 bits) | N/A |
+
+> [!idea] Public Key Encryption (RSA) and Certificate Authorities
+> - Public Key Encryption: Asymmetric cryptography that uses a public-private key pair
+>   - Public key used for encryption, private key used for decryption
+>   - Enables secure communication without the need for a pre-shared secret key
+> - Certificate Authorities (CAs): Trusted third-party entities that issue digital certificates
+>   - Certificates bind public keys to the identities of their owners
+>   - CAs verify the identity of the certificate requestor and digitally sign the certificate
+
+> [!idea] Secure Email
+> - Secure email communication involves:
+>   1. Encrypting the email content to ensure confidentiality
+>   2. Digitally signing the email to provide authentication and integrity
+>   3. Using public key cryptography for secure key exchange and signature verification
+>
+> 1. **Key Generation**: Sender and receiver generate their respective public-private key pairs and obtain digital certificates from a trusted certificate authority (CA).
+> 2. **Certificate Exchange**: Sender and receiver securely exchange their digital certificates and verify the authenticity of each other's public keys through the CA.
+> 3. **Message Encryption**: Sender encrypts the message using a symmetric key and encrypts the symmetric key using the receiver's public key.
+> 4. **Digital Signature**: Sender creates a digital signature by signing the encrypted message with their private key.
+> 5. **Message Transmission**: Sender transmits the encrypted message, encrypted symmetric key, and digital signature to the receiver.
+> 6. **Symmetric Key Decryption**: Receiver decrypts the encrypted symmetric key using their private key to obtain the symmetric key.
+> 7. **Message Decryption**: Receiver decrypts the encrypted message using the obtained symmetric key to retrieve the original message.
+> 8. **Signature Verification**: Receiver verifies the sender's digital signature using the sender's public key to ensure the message's authenticity and integrity.
+>
+> This process ensures confidentiality through symmetric encryption, secure key exchange through public-key cryptography, and authentication and integrity through digital signatures.
+
+
