@@ -156,3 +156,80 @@
 >   2. Server responds with an ACK packet
 >   3. Server sends a FIN packet to the client
 >   4. Client responds with an ACK packet
+
+# Network Layer
+
+> [!idea] Network Layer Functions
+> - Routing packets across networks from source to destination
+> - Providing a best-effort delivery service (no guarantees on reliability or timeliness)
+> - Using IP addresses to identify devices and route packets
+
+> [!idea] Link State vs Distance Vector Routing Algorithms
+> | Feature | Link State | Distance Vector |
+> |---------|------------|-----------------|
+> | Approach | Each node has a complete view of the network topology | Nodes only know about their immediate neighbors |
+> | Algorithm | Dijkstra's algorithm | Bellman-Ford algorithm |
+> | Convergence | Faster, less susceptible to routing loops | Slower, risk of routing loops and count-to-infinity problem |
+> | Message Complexity | Lower, only LSAs sent | Higher, full tables sent |
+> | Robustness | Naturally higher, precise | Improved with techniques like split horizon and route poisoning |
+
+> [!idea] Dijkstra's Algorithm (Link State)
+> - Each node independently runs the algorithm on its local link-state database
+> - Maintains a set of visited nodes (S) and unvisited nodes (Q)
+> - Iteratively selects the node with the minimum distance from the source and updates distances to its neighbors
+> - Time complexity: O(n^2) or O((n + m)logn) with a binary heap
+
+> [!idea] Distance Vector Routing
+> - Each node maintains a routing table with costs and via information
+> - Nodes share their routing tables with neighbors and update based on received information
+> - Count-to-infinity problem: Nodes may infinitely increment distances when a link fails
+> - Poison reverse: Nodes advertise failed routes with infinite distance to prevent loops
+
+> [!idea] Classful Addressing and CIDR
+> - Classful addressing: Fixed division of IP address into network and host parts (Classes A, B, C)
+> - CIDR (Classless Inter-Domain Routing): Allows flexible definition of network and host parts using a subnet mask
+> - CIDR notation: a.b.c.d/x, where x is the number of network bits
+
+> [!idea] Subnetting
+> - Dividing a larger network into smaller subnetworks
+> - Allows more efficient use of IP address space and better network management
+> - Subnet mask determines the division between network and host parts within a subnet
+
+> [!idea] Inter-AS vs Intra-AS Routing
+> | Routing Type | Scope | Purpose |
+> |--------------|-------|---------|
+> | Intra-AS | Within an Autonomous System (AS) | Optimize internal data paths |
+> | Inter-AS | Between Autonomous Systems | Negotiate data paths based on policies and agreements |
+
+> [!idea] DHCP (Dynamic Host Configuration Protocol)
+> - Automatically assigns IP addresses and network configuration parameters to devices
+> - Client-server model: Client broadcasts a request, server responds with an offer
+> - Simplifies network configuration but has vulnerabilities (e.g., spoofing, rogue DHCP servers)
+
+> [!idea] IP Address Types
+> - Unicast: Identifies a single network interface
+> - Multicast: Identifies a group of interfaces interested in receiving the same data
+> - Anycast: Identifies a set of interfaces, with data delivered to the nearest one
+
+> [!idea] IP Fragmentation
+> - Process of breaking large IP packets into smaller fragments to fit the MTU of the network
+> - Fragments are reassembled at the destination based on the Fragment Offset field in the IP header
+> - IPv6 does not allow fragmentation by routers, only by the source host
+
+> [!idea] IPv4 vs IPv6
+> | Feature | IPv4 | IPv6 |
+> |---------|------|------|
+> | Address Size | 32 bits | 128 bits |
+> | Address Representation | Dotted decimal notation | Hexadecimal notation |
+> | Header Size | 20-60 bytes | 40 bytes (fixed) |
+> | Fragmentation | Allowed by routers and hosts | Only by source hosts |
+> | Security | Optional (IPsec) | Mandatory (IPsec) |
+> | Quality of Service (QoS) | Limited support | Improved support with flow labels |
+> | Transition Mechanisms | N/A | Dual-stack, tunneling, translation |
+
+> [!idea] Software Defined Networking (SDN)
+> - Separates the network's control plane and data plane
+> - Control plane: Centralized controller manages network behavior and policies
+> - Data plane: Switches forward packets based on flow tables populated by the controller
+> - Enables flexible, programmable network management and dynamic adaptation to network conditions
+> - OpenFlow protocol facilitates communication between the controller and switches
