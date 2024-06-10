@@ -1,9 +1,10 @@
-![[1.1 Computer Networks]]
-![[1.2 Network Delays]]
-![[2.1 Application Layer]]
-![[2.2 HTTP]]
-![[2.3 Caching]]
+![[3.3 Sockets]]\
+![[4.1 Transport Layer]]
 
-![[3.1 DNS]]
+![[4.2 Multiplexing & Demultiplexing]]
 
-![[3.2 P2P]]
+![[4.3 UDP]]
+
+![[5.1 Reliable Data Transfer]]
+
+![[pipelin]]
