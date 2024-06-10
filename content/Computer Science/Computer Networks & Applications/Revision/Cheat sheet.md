@@ -1,7 +1,16 @@
+> [!idea] Introduction to Networks
+> A network is a collection of interconnected devices that can communicate and share resources with each other. Networks consist of:
+> - Nodes: Devices connected to the network, such as computers, smartphones, servers, routers, and switches.
+> - Links: Connections between nodes, which can be wired (e.g., Ethernet) or wireless (e.g., Wi-Fi, cellular).
+> - Protocols: Sets of rules and standards that govern the communication between nodes, ensuring interoperability and efficient data transfer.
+
+
 > [!idea] Postal Analogy
 > - The OSI model layers can be likened to Russian nesting dolls, where each layer adds its own "envelope" of header information.
 > - As data passes from upper to lower layers, it's encapsulated with protocol-specific information at each stage.
 > - The process is reversed at the receiving end, with each layer removing its corresponding header information.
+
+# Application Layer
 
 > [!idea] Delay Types
 > | Delay Type         | Description                                                                                                            | Formula                                                 |
@@ -41,11 +50,26 @@
 > - Caching/Proxies: Stores frequently accessed data closer to clients, reducing server load and response times.
 > - Pipelining: Allows multiple requests to be sent without waiting for each response, improving efficiency.
 
+# Transport Layer
+
 > [!idea] Transport Layer Services
 > - Provides logical communication between processes on different hosts
 > - Key services: multiplexing, demultiplexing, and reliable data transfer
 > - Uses port numbers to identify sending and receiving processes
 > - Sockets provide the API between the application and transport layers
+
+> [!idea] TCP (Transmission Control Protocol)
+> - Connection-oriented, reliable, byte-stream protocol
+> - Provides flow control, congestion control, and error recovery
+> - Uses three-way handshake for connection establishment and four-way handshake for termination
+> - Employs cumulative ACKs and sequence numbers for reliability
+> - Implements congestion control mechanisms (slow start, congestion avoidance, fast retransmit, fast recovery)
+
+> [!idea] UDP (User Datagram Protocol)
+> - Connectionless, unreliable, message-oriented protocol
+> - Provides minimal error checking and no flow or congestion control
+> - Suitable for applications that prioritize low latency over reliability (e.g., streaming, gaming)
+> - Smaller header size compared to TCP
 
 > [!idea] Multiplexing and Demultiplexing in UDP
 > - UDP uses destination IP and port number for demultiplexing
@@ -68,20 +92,6 @@
 > - Receiver sends individual ACKs for each correctly received packet, even if out of order
 > - Sender only retransmits lost or corrupted packets
 > - Requires larger sequence number range (at least twice the window size) to avoid ambiguity
-
-> [!idea] TCP (Transmission Control Protocol)
-> - Connection-oriented, reliable, byte-stream protocol
-> - Provides flow control, congestion control, and error recovery
-> - Uses three-way handshake for connection establishment and four-way handshake for termination
-> - Employs cumulative ACKs and sequence numbers for reliability
-> - Implements congestion control mechanisms (slow start, congestion avoidance, fast retransmit, fast recovery)
-
-> [!idea] UDP (User Datagram Protocol)
-> - Connectionless, unreliable, message-oriented protocol
-> - Provides minimal error checking and no flow or congestion control
-> - Suitable for applications that prioritize low latency over reliability (e.g., streaming, gaming)
-> - Smaller header size compared to TCP
-
 
 > [!idea] Key Components of Reliable Data Transfer
 > - Sequence numbers: Identify and order packets
@@ -114,18 +124,17 @@
 >   - Fast recovery allows Reno to maintain a higher cwnd and avoid entering slow start after a single packet loss
 
 
-> [!idea] TCP Congestion Control: Tahoe
+> [!idea] TCP Congestion Control
+> **Tahoe:**
 > - Slow Start: Gradually increases the congestion window (CongWin) until a loss event occurs. CongWin is initialized to 1 MSS and doubled every RTT until it reaches the slow-start threshold (ssthresh).
 > - Congestion Avoidance: When CongWin exceeds ssthresh, TCP enters the congestion avoidance phase. CongWin grows more slowly (linearly) to probe for available capacity while avoiding further congestion.
 > - On timeout: ssthresh is set to half of the current CongWin, and CongWin is reset to 1 MSS.
-
-> [!idea] TCP Congestion Control: Reno (builds upon Tahoe)
+> 
+> **Reno:**
 > - Fast Retransmit: When three duplicate ACKs are received, indicating a packet loss, Reno retransmits the packet immediately without waiting for a timeout.
 > - Fast Recovery: After fast retransmit, instead of starting slow start again, Reno halves the CongWin and continues with congestion avoidance, avoiding the lower throughput of starting from scratch.
-
-> [!idea] TCP Congestion Control: Vegas
-> - Proactive congestion detection: Vegas measures the difference between expected and actual throughput to detect early signs of congestion.
-> - Adjusts sending rate: Based on the measured difference, Vegas adjusts its sending rate to maintain a more consistent throughput and avoid packet losses.
+> 
+> ![[Evolution-of-TCPs-congestion-window-Tahoe-and-Reno-10.png]]
 
 > [!idea] Flow Control
 > - Prevents the sender from overwhelming the receiver's buffer
