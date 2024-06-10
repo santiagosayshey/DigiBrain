@@ -286,11 +286,36 @@
 > - STP acts like traffic lights, blocking potential loops and enabling efficient data flow
 
 > [!idea] Multiple Access Approaches
-> | Approach | Description | Examples |
-> |----------|-------------|----------|
-> | Channel Partitioning | Divides bandwidth into smaller channels | TDMA, FDMA, CDMA |
-> | Random Access | Nodes access channel randomly when data is ready | ALOHA, CSMA |
-> | Taking Turns | Nodes take turns accessing the channel | Token passing, polling |
+>
+> **Channel Partitioning**:
+> - Bandwidth divided into smaller, dedicated channels
+> - Each node assigned a specific channel to avoid collisions
+> - Examples:
+>   - TDMA (Time Division Multiple Access): time divided into slots, each node assigned a specific time slot
+>   - FDMA (Frequency Division Multiple Access): frequency spectrum divided into non-overlapping channels, each node assigned a specific frequency band
+>   - CDMA (Code Division Multiple Access): nodes share the same frequency channel but are assigned unique codes for simultaneous communication without interference
+> - Best suited for high load scenarios where fairness and collision avoidance are crucial
+>
+> **Random Access**:
+> - Nodes access the shared channel randomly when they have data to send
+> - Collisions possible, requiring detection and recovery mechanisms
+> - Examples:
+>   - ALOHA: nodes transmit whenever they have data, colliding frames are discarded and retransmitted after random delay
+>     - Pure ALOHA: nodes transmit immediately
+>     - Slotted ALOHA: time divided into slots, nodes transmit only at the beginning of a slot, reducing collision probability
+>   - CSMA (Carrier Sense Multiple Access): nodes listen to the channel before transmitting, attempting to avoid collisions
+>     - CSMA/CD (Collision Detection): wired networks, nodes stop transmission upon detecting collision (jam signal to tell everyone) and retransmit after random delay
+>     - CSMA/CA (Collision Avoidance): wireless networks, nodes use RTS/CTS handshake to reserve channel before transmitting
+> - Suitable for low to moderate loads with unpredictable traffic patterns
+>
+> **Taking Turns**:
+> - Nodes access the shared channel in a predetermined order
+> - Collisions avoided by granting exclusive access to one node at a time
+> - Examples:
+>   - Token Passing: nodes organized in a logical ring, a token is passed from node to node, granting permission to transmit
+>   - Polling: central controller polls each node for data, granting transmission opportunities based on node responses
+> - Suitable for moderate, predictable load scenarios with a fixed number of nodes
+
 
 > [!idea] LAN Topologies and Ethernet
 > **Bus Topology**: 
@@ -329,10 +354,6 @@
 > - Sender broadcasts ARP request, receiver responds with MAC address
 > - ARP table (cache) stores IP-to-MAC mappings for a short period
 
-> [!idea] CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
-> - Used in Ethernet networks to improve efficiency and reduce errors
-> - Nodes monitor channel during transmission, detect collisions, and send jam signal
-> - Random backoff before retransmission to avoid repeated collisions
 
 > [!idea] MPLS (Multiprotocol Label Switching)
 > - Directs data based on short path labels rather than long network addresses
