@@ -193,7 +193,7 @@
 > | Convergence | Faster, less susceptible to routing loops | Slower, risk of routing loops and count-to-infinity problem |
 > | Message Complexity | Lower, only LSAs sent | Higher, full tables sent |
 > | Robustness | Naturally higher, precise | Improved with techniques like split horizon and route poisoning |
-Here's an expanded callout that combines Classful Addressing, CIDR, Subnetting, and Inter-AS vs Intra-AS Routing:
+
 
 > [!idea] Addressing
 > **Classful Addressing**:
