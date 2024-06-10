@@ -163,8 +163,32 @@
 > - Routing packets across networks from source to destination
 > - Providing a best-effort delivery service (no guarantees on reliability or timeliness)
 > - Using IP addresses to identify devices and route packets
+> - Maintaining routing tables in the data plane to determine the best outgoing link for each packet
+> - Building and updating routing tables in the control plane using routing protocols and algorithms
 
-> [!idea] Link State vs Distance Vector Routing Algorithms
+> [!idea] Routing Tables: Data and Control Planes
+> - Routers use routing tables in the data plane to determine the best outgoing link for each incoming packet based on its destination address
+> - The control plane builds and maintains these routing tables using routing protocols and algorithms
+> - The control plane exchanges information between routers to create an accurate network topology view
+> - Efficient cooperation between the data and control planes is essential for minimizing latency, congestion, and other network issues
+
+
+> [!idea] Routing
+> Two fundamental types of routing algorithms used by the control plane to build and maintain routing tables
+> 
+> **Dijkstra's Algorithm (Link State)**
+> - Each node independently runs the algorithm on its local link-state database
+> - Maintains a set of visited nodes (S) and unvisited nodes (Q)
+> - Iteratively selects the node with the minimum distance from the source and updates distances to its neighbors
+> - Time complexity: O(n^2) or O((n + m)logn) with a binary heap
+> 
+> **Distance Vector**
+> - Each node maintains a routing table with costs and via information
+> - Nodes share their routing tables with neighbors and update based on received information
+> - Count-to-infinity problem: Nodes may infinitely increment distances when a link fails
+> - Poison reverse: Nodes advertise failed routes with infinite distance to prevent loops
+> 
+> 
 > | Feature | Link State | Distance Vector |
 > |---------|------------|-----------------|
 > | Approach | Each node has a complete view of the network topology | Nodes only know about their immediate neighbors |
@@ -172,35 +196,46 @@
 > | Convergence | Faster, less susceptible to routing loops | Slower, risk of routing loops and count-to-infinity problem |
 > | Message Complexity | Lower, only LSAs sent | Higher, full tables sent |
 > | Robustness | Naturally higher, precise | Improved with techniques like split horizon and route poisoning |
+Here's an expanded callout that combines Classful Addressing, CIDR, Subnetting, and Inter-AS vs Intra-AS Routing:
 
-> [!idea] Dijkstra's Algorithm (Link State)
-> - Each node independently runs the algorithm on its local link-state database
-> - Maintains a set of visited nodes (S) and unvisited nodes (Q)
-> - Iteratively selects the node with the minimum distance from the source and updates distances to its neighbors
-> - Time complexity: O(n^2) or O((n + m)logn) with a binary heap
-
-> [!idea] Distance Vector Routing
-> - Each node maintains a routing table with costs and via information
-> - Nodes share their routing tables with neighbors and update based on received information
-> - Count-to-infinity problem: Nodes may infinitely increment distances when a link fails
-> - Poison reverse: Nodes advertise failed routes with infinite distance to prevent loops
-
-> [!idea] Classful Addressing and CIDR
-> - Classful addressing: Fixed division of IP address into network and host parts (Classes A, B, C)
-> - CIDR (Classless Inter-Domain Routing): Allows flexible definition of network and host parts using a subnet mask
-> - CIDR notation: a.b.c.d/x, where x is the number of network bits
-
-> [!idea] Subnetting
-> - Dividing a larger network into smaller subnetworks
-> - Allows more efficient use of IP address space and better network management
+> [!idea] Addressing
+> **Classful Addressing**:
+> - Historical method of allocating IP addresses based on fixed classes
+> 
+> | Class | Leading Bits | Network Bits | Host Bits | Address Range |
+> |-------|--------------|--------------|-----------|---------------|
+> | A     | 0            | 8            | 24        | 1.0.0.0 to 127.255.255.255 |
+> | B     | 10           | 16           | 16        | 128.0.0.0 to 191.255.255.255 |
+> | C     | 110          | 24           | 8         | 192.0.0.0 to 223.255.255.255 |
+> | D     | 1110         | - | - | 224.0.0.0 to 239.255.255.255 (Multicast) |
+> | E     | 1111         | - | - | 240.0.0.0 to 255.255.255.254 (Reserved) |
+> 
+> - Inefficient due to fixed network/host division and exhaustion of Class B addresses
+>  
+> **CIDR (Classless Inter-Domain Routing)**:
+> - Replaced classful addressing to allow flexible definition of network and host parts
+> - CIDR notation: a.b.c.d/x, where x is the number of network bits (subnet mask)
+> - Enables more efficient allocation of IP addresses and summarization of routes
+>
+> **Subnetting**:
+> - Process of dividing a larger network into smaller subnetworks
+> - Allows better network management and more efficient use of IP address space
 > - Subnet mask determines the division between network and host parts within a subnet
+> - Subnetting enables hierarchical routing and reduces the size of routing tables
+>
+> **Inter-AS vs Intra-AS Routing**:
+> - Autonomous System (AS): A group of networks under a single administrative domain
+> - Intra-AS Routing:
+>   - Routing within an AS, also known as Interior Gateway Protocols (IGPs)
+>   - Examples: OSPF, IS-IS, RIP
+>   - Focus on optimizing internal data paths and minimizing internal network costs
+> - Inter-AS Routing:
+>   - Routing between ASes, also known as Exterior Gateway Protocols (EGPs)
+>   - Example: Border Gateway Protocol (BGP)
+>   - Focus on negotiating data paths based on policies, agreements, and external factors
+>   - Enables global Internet connectivity by exchanging routing information between ASes
 
-> [!idea] Inter-AS vs Intra-AS Routing
-> | Routing Type | Scope | Purpose |
-> |--------------|-------|---------|
-> | Intra-AS | Within an Autonomous System (AS) | Optimize internal data paths |
-> | Inter-AS | Between Autonomous Systems | Negotiate data paths based on policies and agreements |
-
+This expanded callout provides a more comprehensive overview of IP addressing and routing concepts, including classful addressing, CIDR, subnetting, and the distinction between inter-AS and intra-AS routing protocols.
 > [!idea] DHCP (Dynamic Host Configuration Protocol)
 > - Automatically assigns IP addresses and network configuration parameters to devices
 > - Client-server model: Client broadcasts a request, server responds with an offer
