@@ -303,7 +303,8 @@
 > - Ethernet: standardized protocol for wired LAN communication in a star topology
 > - Frame structure: Preamble (clock sync), SFD (start of frame), MAC addresses, EtherType, payload, CRC
 > - Advantages: reduced collision domain, improved reliability, easier troubleshooting, increased bandwidth
-> 
+
+
 > [!idea] Switches in Ethernet Networks
 > **Key Functions**:
 > - Filtering: examining destination MAC address to determine output port(s)
@@ -322,7 +323,6 @@
 > - Improved performance and efficiency through intelligent filtering and forwarding
 > - Plug-and-play connectivity for easy device addition/removal
 > - Enhanced security by limiting data frame propagation to necessary ports
-
 
 > [!idea] Address Resolution Protocol (ARP)
 > - Maps IP addresses to MAC addresses within a LAN
