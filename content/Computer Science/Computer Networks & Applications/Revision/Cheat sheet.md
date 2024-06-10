@@ -200,7 +200,7 @@ Here's an expanded callout that combines Classful Addressing, CIDR, Subnetting, 
 
 > [!idea] Addressing
 > **Classful Addressing**:
-> - Historical method of allocating IP addresses based on fixed classes
+> IP address divided into network and host bits. More host bits allow more devices on the same network. 
 > 
 > | Class | Leading Bits | Network Bits | Host Bits | Address Range |
 > |-------|--------------|--------------|-----------|---------------|
@@ -211,11 +211,13 @@ Here's an expanded callout that combines Classful Addressing, CIDR, Subnetting, 
 > | E     | 1111         | - | - | 240.0.0.0 to 255.255.255.254 (Reserved) |
 > 
 > - Inefficient due to fixed network/host division and exhaustion of Class B addresses
+> - Example: In the classful system, the IP address 192.168.1.1 is a Class C address, where the first 24 bits (192.168.1) represent the network portion, and the last 8 bits (1) represent the host portion.
 >  
 > **CIDR (Classless Inter-Domain Routing)**:
 > - Replaced classful addressing to allow flexible definition of network and host parts
 > - CIDR notation: a.b.c.d/x, where x is the number of network bits (subnet mask)
 > - Enables more efficient allocation of IP addresses and summarization of routes
+> - Example: In CIDR notation, the IP address 192.168.1.1 with a subnet mask of 255.255.255.0 is represented as 192.168.1.1/24, indicating that the first 24 bits are the network portion, and the remaining 8 bits are for host addresses.
 >
 > **Subnetting**:
 > - Process of dividing a larger network into smaller subnetworks
@@ -235,16 +237,10 @@ Here's an expanded callout that combines Classful Addressing, CIDR, Subnetting, 
 >   - Focus on negotiating data paths based on policies, agreements, and external factors
 >   - Enables global Internet connectivity by exchanging routing information between ASes
 
-This expanded callout provides a more comprehensive overview of IP addressing and routing concepts, including classful addressing, CIDR, subnetting, and the distinction between inter-AS and intra-AS routing protocols.
 > [!idea] DHCP (Dynamic Host Configuration Protocol)
 > - Automatically assigns IP addresses and network configuration parameters to devices
 > - Client-server model: Client broadcasts a request, server responds with an offer
 > - Simplifies network configuration but has vulnerabilities (e.g., spoofing, rogue DHCP servers)
-
-> [!idea] IP Address Types
-> - Unicast: Identifies a single network interface
-> - Multicast: Identifies a group of interfaces interested in receiving the same data
-> - Anycast: Identifies a set of interfaces, with data delivered to the nearest one
 
 > [!idea] IP Fragmentation
 > - Process of breaking large IP packets into smaller fragments to fit the MTU of the network
@@ -268,3 +264,4 @@ This expanded callout provides a more comprehensive overview of IP addressing an
 > - Data plane: Switches forward packets based on flow tables populated by the controller
 > - Enables flexible, programmable network management and dynamic adaptation to network conditions
 > - OpenFlow protocol facilitates communication between the controller and switches
+
