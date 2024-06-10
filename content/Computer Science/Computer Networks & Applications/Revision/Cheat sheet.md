@@ -172,20 +172,20 @@
 
 > [!idea] Routing
 > Two fundamental types of routing algorithms used by the control plane to build and maintain routing tables
-> 
+>
 > **Dijkstra's Algorithm (Link State)**
 > - Each node independently runs the algorithm on its local link-state database
 > - Maintains a set of visited nodes (S) and unvisited nodes (Q)
 > - Iteratively selects the node with the minimum distance from the source and updates distances to its neighbors
-> - Time complexity: O(n^2) or O((n + m)logn) with a binary heap
-> 
+> - Time complexity: $O(n^2)$ or $O((n + m)logn)$ with a binary heap
+>
 > **Distance Vector**
 > - Each node maintains a routing table with costs and via information
 > - Nodes share their routing tables with neighbors and update based on received information
 > - Count-to-infinity problem: Nodes may infinitely increment distances when a link fails
 > - Poison reverse: Nodes advertise failed routes with infinite distance to prevent loops
-> 
-> 
+>
+>
 > | Feature | Link State | Distance Vector |
 > |---------|------------|-----------------|
 > | Approach | Each node has a complete view of the network topology | Nodes only know about their immediate neighbors |
@@ -193,6 +193,9 @@
 > | Convergence | Faster, less susceptible to routing loops | Slower, risk of routing loops and count-to-infinity problem |
 > | Message Complexity | Lower, only LSAs sent | Higher, full tables sent |
 > | Robustness | Naturally higher, precise | Improved with techniques like split horizon and route poisoning |
+> | Performance | Generally faster due to complete topology knowledge | Slower due to iterative updates and potential routing loops |
+> | Advantages | Faster convergence, less overhead, precise routing | Simple, distributed, no need for global topology |
+> | Disadvantages | Higher memory and CPU requirements, more complex | Slower convergence, routing loops, count-to-infinity problem |
 
 
 > [!idea] Addressing
@@ -263,4 +266,6 @@
 > - Data plane: Switches forward packets based on flow tables populated by the controller
 > - Enables flexible, programmable network management and dynamic adaptation to network conditions
 > - OpenFlow protocol facilitates communication between the controller and switches
+
+# Data Link Layer
 
