@@ -65,10 +65,7 @@
 > - Uses three-way handshake for connection establishment and four-way handshake for termination
 > - Employs cumulative ACKs and sequence numbers for reliability
 > - Implements congestion control mechanisms (slow start, congestion avoidance, fast retransmit, fast recovery)
-
-
-- Applications requiring reliable data transmission and integrity, such as email (SMTP, IMAP, POP3), secure web browsing (HTTPS), file transfers (FTP, SFTP), and secure communications (SSH, VPNs).
-
+> - Suitable for applications requiring reliable data transmission and integrity, such as email (SMTP, IMAP, POP3), secure web browsing (HTTPS), file transfers (FTP, SFTP), and secure communications (SSH, VPNs).
 
 > [!idea] UDP (User Datagram Protocol)
 > - Connectionless, unreliable, message-oriented protocol
@@ -257,6 +254,8 @@ Here's an expanded callout that combines Classful Addressing, CIDR, Subnetting, 
 > | Security | Optional (IPsec) | Mandatory (IPsec) |
 > | Quality of Service (QoS) | Limited support | Improved support with flow labels |
 > | Transition Mechanisms | N/A | Dual-stack, tunneling, translation |
+>
+> We are transitioning to IPv6 because IPv4 address space is becoming exhausted due to the rapid growth of Internet-connected devices. IPv6 provides a much larger address space (128 bits vs. 32 bits in IPv4), allowing for virtually unlimited unique IP addresses and accommodating the increasing demand for Internet connectivity.
 
 > [!idea] Software Defined Networking (SDN)
 > - Separates the network's control plane and data plane
