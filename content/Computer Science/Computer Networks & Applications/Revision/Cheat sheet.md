@@ -269,3 +269,66 @@
 
 # Data Link Layer
 
+> [!idea] Data Link Layer Functions
+> - Encapsulates data into frames (header, payload, trailer)
+> - Provides link access and reliable transport between adjacent nodes
+> - Error detection and correction (checksum, CRC, parity)
+>   - Checksum: Sender calculates sum of data bits, receiver verifies integrity
+>   - Cyclic Redundancy Check (CRC): Polynomial division to generate checksum
+>   - Parity: Extra bits to ensure even/odd number of 1s
+>     - 1D Parity: Single parity bit for error detection
+>     - 2D Parity: Arranges data in grid, adds parity bits for each row and column
+
+> [!idea] Spanning Tree Protocol (STP) and Minimum Spanning Trees (MSTs)
+> - STP prevents loops in switched networks by creating a logical tree topology
+> - Redundant paths are identified and blocked to ensure a single active path
+> - MST algorithms (Prim's, Kruskal's) find the spanning tree with minimum total cost
+> - STP acts like traffic lights, blocking potential loops and enabling efficient data flow
+
+> [!idea] Multiple Access Approaches
+> | Approach | Description | Examples |
+> |----------|-------------|----------|
+> | Channel Partitioning | Divides bandwidth into smaller channels | TDMA, FDMA, CDMA |
+> | Random Access | Nodes access channel randomly when data is ready | ALOHA, CSMA |
+> | Taking Turns | Nodes take turns accessing the channel | Token passing, polling |
+
+> [!idea] LAN Topologies and Ethernet
+> - Bus topology: Devices connected to a shared medium, prone to collisions
+> - Star topology: Devices connected to a central switch, reduces collision domain
+> - Ethernet: Standardized protocol for wired LAN communication using start topology
+>   - Frame structure: Preamble, SFD, MAC addresses, EtherType, payload, CRC
+>   - Preamble used for clock synchronization and identifying start of frame
+
+> [!idea] Switches and Frame Forwarding
+> - Switches improve network performance by filtering, storing, and forwarding frames
+> - Use self-learning to build and maintain MAC address tables
+> - Forward frames based on destination MAC address, flood if unknown
+> - Dedicated bandwidth, reduced collisions, plug-and-play connectivity
+
+> [!idea] Address Resolution Protocol (ARP)
+> - Maps IP addresses to MAC addresses within a LAN
+> - Sender broadcasts ARP request, receiver responds with MAC address
+> - ARP table (cache) stores IP-to-MAC mappings for a short period
+
+> [!idea] CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
+> - Used in Ethernet networks to improve efficiency and reduce errors
+> - Nodes monitor channel during transmission, detect collisions, and send jam signal
+> - Random backoff before retransmission to avoid repeated collisions
+
+> [!idea] MPLS (Multiprotocol Label Switching)
+> - Directs data based on short path labels rather than long network addresses
+> - Label Switch Routers (LSRs) perform label switching, Label Edge Routers (LERs) assign and remove labels
+> - Enables flexible routing, traffic engineering, and fast reroute for resilience
+
+> [!idea] ICMP (Internet Control Message Protocol) and Traceroute
+> - ICMP: Reports errors and provides network diagnostics (e.g., Ping)
+>   - Message format: Type, Code, Header, and first 8 bytes of IP datagram
+> - Traceroute: Discovers path between source and destination using ICMP Time Exceeded messages
+>   - Sends UDP packets with increasing TTL, routers send ICMP Time Exceeded when TTL reaches 0
+>   - Records IP address and RTT for each router along the path
+
+> [!idea] Wireshark
+> - Network protocol analyzer for capturing and analyzing network traffic
+> - Displays detailed information about captured packets (e.g., source/destination, protocol, length)
+> - Filters can be applied to focus on specific protocols, IP addresses, or port numbers
+> - Useful for network troubleshooting, security analysis, and learning about network protocols
