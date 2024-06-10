@@ -82,7 +82,6 @@
 > - Suitable for applications that prioritize low latency over reliability (e.g., streaming, gaming)
 > - Smaller header size compared to TCP
 
-Here are the updated condensed notes for the Transport Layer, including the missing topics:
 
 > [!idea] Key Components of Reliable Data Transfer
 > - Sequence numbers: Identify and order packets
@@ -92,24 +91,41 @@ Here are the updated condensed notes for the Transport Layer, including the miss
 > - Window sizes: Determine the number of packets that can be sent without waiting for an ACK
 > - Timeouts: Trigger retransmission of lost or delayed packets, calculated based on Round-Trip Time (RTT)
 
-I apologize for my oversight. Here is the updated section on TCP Congestion Control, including the original TCP, Tahoe, and Reno:
-
 > [!idea] TCP Congestion Control
 > - Original TCP:
 >   - Slow Start: 
->     - Gradually increases the congestion window (cwnd) size until a loss event occurs
->     - cwnd is initialized to a small value and doubled every RTT until a threshold (ssthresh) is reached
+>     - cwnd is initialized to 1 MSS (Maximum Segment Size)
+>     - For each ACK received, cwnd is increased by 1 MSS, effectively doubling cwnd every RTT
+>     - Slow start continues until cwnd reaches ssthresh or a loss event occurs
 >   - Congestion Avoidance:
->     - Increases cwnd more slowly (linearly) after ssthresh is reached
->     - If a loss event occurs, ssthresh is set to half of the current cwnd, and cwnd is reset to its initial value
+>     - When cwnd exceeds ssthresh, TCP enters congestion avoidance phase
+>     - For each ACK received, cwnd is increased by (MSS × MSS) / cwnd, resulting in a linear increase
+>     - If a timeout occurs due to packet loss, ssthresh is set to half of the current cwnd, and cwnd is reset to 1 MSS
 > - Tahoe (builds upon Original TCP):
 >   - Introduces Fast Retransmit:
->     - Triggers retransmission of a lost packet after receiving a specified number of duplicate ACKs (usually 3)
->     - Avoids waiting for a timeout to retransmit lost packets
+>     - If the sender receives three duplicate ACKs, it assumes a packet has been lost
+>     - The sender immediately retransmits the missing packet without waiting for a timeout
+>     - After fast retransmit, Tahoe performs slow start by setting cwnd to 1 MSS and ssthresh to half of the previous cwnd
 > - Reno (builds upon Tahoe):
 >   - Introduces Fast Recovery:
->     - After fast retransmit, cwnd is set to ssthresh plus the number of duplicate ACKs received
->     - Allows for faster recovery of lost packets without entering slow start
+>     - After fast retransmit, instead of setting cwnd to 1 MSS, Reno sets cwnd to ssthresh plus 3 MSS
+>     - For each additional duplicate ACK received, cwnd is increased by 1 MSS
+>     - When an ACK for the retransmitted packet is received, cwnd is set to ssthresh, and TCP enters congestion avoidance phase
+>   - Fast recovery allows Reno to maintain a higher cwnd and avoid entering slow start after a single packet loss
+
+
+> [!idea] TCP Congestion Control: Tahoe
+> - Slow Start: Gradually increases the congestion window (CongWin) until a loss event occurs. CongWin is initialized to 1 MSS and doubled every RTT until it reaches the slow-start threshold (ssthresh).
+> - Congestion Avoidance: When CongWin exceeds ssthresh, TCP enters the congestion avoidance phase. CongWin grows more slowly (linearly) to probe for available capacity while avoiding further congestion.
+> - On timeout: ssthresh is set to half of the current CongWin, and CongWin is reset to 1 MSS.
+
+> [!idea] TCP Congestion Control: Reno (builds upon Tahoe)
+> - Fast Retransmit: When three duplicate ACKs are received, indicating a packet loss, Reno retransmits the packet immediately without waiting for a timeout.
+> - Fast Recovery: After fast retransmit, instead of starting slow start again, Reno halves the CongWin and continues with congestion avoidance, avoiding the lower throughput of starting from scratch.
+
+> [!idea] TCP Congestion Control: Vegas
+> - Proactive congestion detection: Vegas measures the difference between expected and actual throughput to detect early signs of congestion.
+> - Adjusts sending rate: Based on the measured difference, Vegas adjusts its sending rate to maintain a more consistent throughput and avoid packet losses.
 
 > [!idea] Flow Control
 > - Prevents the sender from overwhelming the receiver's buffer
