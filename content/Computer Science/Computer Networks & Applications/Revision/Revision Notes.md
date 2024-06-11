@@ -134,23 +134,28 @@
 > - Window sizes: Determine the number of packets that can be sent without waiting for an ACK
 > - Timeouts: Trigger retransmission of lost or delayed packets, calculated based on Round-Trip Time (RTT)
 
-
-I apologize for not properly structuring the information. Let me present a more thoughtful and concise version of the TCP Timeouts section for your cheatsheet:
-
 > [!idea]+ TCP Timeouts
-> 
-> | Term         | Formula                                                                                                  | Description                                                                                                                                                                                                                          |
-> |--------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-> | EstimatedRTT | $(1 - \alpha) \times \text{Previous EstimatedRTT} + \alpha \times \text{SampleRTT}$                      | The weighted average of previous RTT measurements, giving more weight to recent samples. Helps to estimate the current RTT based on historical data.                                                                                 |
-> | Deviation    | $(1 - \alpha) \times \text{Previous Deviation} + \alpha \times |\text{SampleRTT} - \text{EstimatedRTT}|$ | The weighted average of the absolute differences between EstimatedRTT and SampleRTT. Provides a measure of the variability in RTT, which is used to adapt the timeout value to changing network conditions.                          |
-> | Timeout      | $\text{EstimatedRTT} + 4 \times \text{Deviation}$                                                        | The calculated duration after which a TCP segment is considered lost and eligible for retransmission. It is set to the EstimatedRTT plus four times the Deviation to account for RTT variability and avoid unnecessary retransmissions. |
-> 
-> - $\alpha$ (alpha): The weight given to the latest RTT measurement (typically 0.125).
-> - SampleRTT: The most recent measurement of the RTT.
+>
+> When you send data over the internet, there's always a chance that some of it might get lost or delayed. TCP, the protocol responsible for reliable data transfer, uses timeouts to figure out when to resend this data.
+>
+> To set the right timeout value, TCP keeps track of how long it usually takes for data to be sent and acknowledged, which is called the Round-Trip Time (RTT). It also considers how much the RTT varies over time.
+>
+> Here's how TCP calculates the timeout:
+>
+> 1. **Estimate the typical RTT**: TCP updates its estimate of the typical RTT (called EstimatedRTT) every time it measures a new RTT. It gives more importance to recent measurements, so the estimate stays up-to-date with the current network conditions.
+>    $$ \text{EstimatedRTT} = (1 - \alpha) \times \text{Previous EstimatedRTT} + \alpha \times \text{SampleRTT} $$
+>    where $\alpha$ is a small number (typically 0.125) that determines how much weight is given to the most recent RTT measurement (SampleRTT).
+>
+> 2. **Measure the variability of the RTT**: TCP also keeps track of how much the RTT changes from one measurement to another. This is called the Deviation. A high Deviation means that the RTT is changing a lot, while a low Deviation means the RTT is more stable.
+>    $$ \text{Deviation} = (1 - \alpha) \times \text{Previous Deviation} + \alpha \times |\text{SampleRTT} - \text{EstimatedRTT}| $$
+>
+> 3. **Set the Timeout value**: To determine the Timeout, TCP takes the EstimatedRTT and adds four times the Deviation to it. This extra time accounts for the variability in the RTT.
+>    $$ \text{Timeout} = \text{EstimatedRTT} + 4 \times \text{Deviation} $$
+>
+> By including the Deviation in the Timeout calculation, TCP can adapt to changing network conditions. When the RTT is more variable (high Deviation), the Timeout will be longer, giving more time for acknowledgments to arrive before resending data. When the RTT is more stable (low Deviation), the Timeout will be shorter, allowing faster detection of lost data.
 
-In this version, I have combined the formulas and their descriptions into a single table, making it easier to understand the purpose and relationships between the different terms. The Deviation term now includes a concise explanation of its role in adapting the timeout value to changing network conditions. I have also moved the definitions of $\alpha$ and SampleRTT to bullet points below the table to keep the table focused on the main terms and their formulas.
 
-This concise version includes the key terms, their descriptions, and the essential formulas for calculating TCP timeouts while maintaining the cheatsheet format.
+
 
 > [!idea] TCP Congestion Control
 > **Tahoe:**
