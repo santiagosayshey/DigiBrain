@@ -134,6 +134,24 @@
 > - Window sizes: Determine the number of packets that can be sent without waiting for an ACK
 > - Timeouts: Trigger retransmission of lost or delayed packets, calculated based on Round-Trip Time (RTT)
 
+
+I apologize for not properly structuring the information. Let me present a more thoughtful and concise version of the TCP Timeouts section for your cheatsheet:
+
+> [!idea]+ TCP Timeouts
+> 
+> | Term         | Formula                                                                                                  | Description                                                                                                                                                                                                                          |
+> |--------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+> | EstimatedRTT | $(1 - \alpha) \times \text{Previous EstimatedRTT} + \alpha \times \text{SampleRTT}$                      | The weighted average of previous RTT measurements, giving more weight to recent samples. Helps to estimate the current RTT based on historical data.                                                                                 |
+> | Deviation    | $(1 - \alpha) \times \text{Previous Deviation} + \alpha \times |\text{SampleRTT} - \text{EstimatedRTT}|$ | The weighted average of the absolute differences between EstimatedRTT and SampleRTT. Provides a measure of the variability in RTT, which is used to adapt the timeout value to changing network conditions.                          |
+> | Timeout      | $\text{EstimatedRTT} + 4 \times \text{Deviation}$                                                        | The calculated duration after which a TCP segment is considered lost and eligible for retransmission. It is set to the EstimatedRTT plus four times the Deviation to account for RTT variability and avoid unnecessary retransmissions. |
+> 
+> - $\alpha$ (alpha): The weight given to the latest RTT measurement (typically 0.125).
+> - SampleRTT: The most recent measurement of the RTT.
+
+In this version, I have combined the formulas and their descriptions into a single table, making it easier to understand the purpose and relationships between the different terms. The Deviation term now includes a concise explanation of its role in adapting the timeout value to changing network conditions. I have also moved the definitions of $\alpha$ and SampleRTT to bullet points below the table to keep the table focused on the main terms and their formulas.
+
+This concise version includes the key terms, their descriptions, and the essential formulas for calculating TCP timeouts while maintaining the cheatsheet format.
+
 > [!idea] TCP Congestion Control
 > **Tahoe:**
 > - Slow Start: Gradually increases the congestion window (CongWin) until a loss event occurs. CongWin is initialized to 1 MSS and doubled every RTT until it reaches the slow-start threshold (ssthresh).
