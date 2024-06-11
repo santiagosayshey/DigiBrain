@@ -98,6 +98,15 @@
 > - Suitable for applications that prioritize low latency over reliability (e.g., streaming, gaming)
 > - Smaller header size compared to TCP
 
+> [!idea] Multiplexing and Demultiplexing
+> - Multiplexing is the process of combining multiple data streams from different applications into a single stream of packets, which can be transmitted over a shared network channel.
+> - Demultiplexing is the process of separating the single stream of packets received from the network channel into multiple data streams and delivering them to the appropriate applications.
+> - Multiplexing and demultiplexing enable multiple applications to simultaneously use the same network interface while maintaining the integrity of their individual data streams.
+
+> [!idea] Multiplexing and Demultiplexing in UDP
+> - UDP uses the destination IP address and port number for demultiplexing incoming packets.
+> - Multiple packets with the same destination IP and port are delivered to the same socket, which is associated with a specific
+
 > [!idea] Multiplexing and Demultiplexing in UDP
 > - UDP uses destination IP and port number for demultiplexing
 > - Multiple packets with the same destination IP and port are delivered to the same socket
