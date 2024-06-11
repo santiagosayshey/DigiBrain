@@ -29,9 +29,34 @@
 > - Trackers monitor torrent swarms and facilitate peer connections
 > - P2P performance depends on peer upload/download rates and file distribution among peers
 
+
 > [!idea] Client-Server vs. Peer-to-Peer (P2P)
-> - Client-Server: Centralized model where a server serves multiple clients. Performance depends on server capacity and client-server communication.
-> - P2P: Decentralized model where each peer acts as both client and server. Performance depends on peer upload/download rates and file distribution among peers.
+> **Client-Server**: Centralized model where a server serves multiple clients. Performance depends on server capacity and client-server communication.
+> $$
+> \begin{align*}
+> &D_{cs} \geq \max \left( \frac{NF}{u_s}, \frac{F}{d_{min}} \right) \\[10pt]
+> &\text{where:} \\[10pt]
+> &D_{cs} \text{: Distribution time for all peers to download the file.} \\[10pt]
+> &N \text{: Number of peers that want to obtain a copy of the file.} \\[10pt]
+> &F \text{: Size of the file to be distributed (in bits).} \\[10pt]
+> &u_s \text{: Upload rate of the server's access link.} \\[10pt]
+> &d_{min} \text{: Download rate of the peer with the lowest download rate.}
+> \end{align*}
+> $$
+>**P2P**: Decentralized model where each peer acts as both client and server. Performance depends on peer upload/download rates and file distribution among peers.
+> $$
+> \begin{align*}
+> &D_{p2p} \geq \max \left( \frac{F}{u_s}, \frac{F}{d_{min}}, \frac{NF}{u_s + \sum_{i=1}^{N} u_i} \right) \\[10pt]
+> &\text{where:} \\[10pt]
+> &D_{p2p} \text{: Distribution time for all peers to download the file.} \\[10pt]
+> &F \text{: Size of the file to be distributed (in bits).} \\[10pt]
+> &N \text{: Number of peers that want to obtain a copy of the file.} \\[10pt]
+> &u_s \text{: Upload rate of the server.} \\[10pt]
+> &d_{min} \text{: Download rate of the peer with the lowest download rate.} \\[10pt]
+> &u_i \text{: Upload rate of the i-th peer.} \\[10pt]
+> &\sum_{i=1}^{N} u_i \text{: Sum of the upload rates of all N peers.}
+> \end{align*}
+> $$
 
 > [!idea] DNS (Domain Name System)
 > - Translates domain names to IP addresses, enabling user-friendly website access.
