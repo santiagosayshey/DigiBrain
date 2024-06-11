@@ -105,10 +105,6 @@
 >![[Plexing.png]]
 
 > [!idea] Multiplexing and Demultiplexing in UDP
-> - UDP uses the destination IP address and port number for demultiplexing incoming packets.
-> - Multiple packets with the same destination IP and port are delivered to the same socket, which is associated with a specific
-
-> [!idea] Multiplexing and Demultiplexing in UDP
 > - UDP uses destination IP and port number for demultiplexing
 > - Multiple packets with the same destination IP and port are delivered to the same socket
 > - Source IP and port are used for sending replies back to the sender
@@ -165,6 +161,7 @@
 >   2. Server responds with an ACK packet
 >   3. Server sends a FIN packet to the client
 >   4. Client responds with an ACK packet
+> - Note: During data transfer, if the receiver has no data to send back to the sender, it will still send standalone ACK packets to acknowledge the received data. These ACKs are sent as separate control segments, even if they cannot be piggybacked on data segments.
 
 # Network Layer
 
