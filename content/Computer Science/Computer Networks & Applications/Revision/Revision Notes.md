@@ -159,25 +159,24 @@
 >
 > This clever approach helps TCP strike a balance between resending data too soon (which could lead to unnecessary network traffic) and waiting too long to resend lost data (which could slow down the data transfer).
 
-
-Certainly! Let's add information about how the slow-start threshold (ssthresh) is calculated in TCP congestion control.
-
 > [!idea] TCP Congestion Control
 > **Tahoe:**
-> - Slow Start: Gradually increases the congestion window (CongWin) until a loss event occurs. CongWin is initialized to 1 MSS and doubled every RTT until it reaches the slow-start threshold (ssthresh).
-> - Congestion Avoidance: When CongWin exceeds ssthresh, TCP enters the congestion avoidance phase. CongWin grows more slowly (linearly) to probe for available capacity while avoiding further congestion.
-> - On timeout: ssthresh is set to half of the current CongWin, and CongWin is reset to 1 MSS.
+> - Slow Start: Increase CongWin exponentially until a loss event or ssthresh is reached.
+> - Congestion Avoidance: Increase CongWin linearly after ssthresh is reached.
+> - On timeout: Set ssthresh to half of the current CongWin and reset CongWin to 1 MSS.
 > 
 > **Reno:**
-> - Fast Retransmit: When three duplicate ACKs are received, indicating a packet loss, Reno retransmits the packet immediately without waiting for a timeout.
-> - Fast Recovery: After fast retransmit, instead of starting slow start again, Reno halves the CongWin and continues with congestion avoidance, avoiding the lower throughput of starting from scratch.
+> - Fast Retransmit: Retransmit the lost packet immediately upon receiving three duplicate ACKs.
+> - Fast Recovery: After fast retransmit, halve CongWin and continue with congestion avoidance.
 > 
 > **Calculation of ssthresh:**
-> - Initial value: At the beginning of a connection, ssthresh is typically set to a large value (e.g., 65535 bytes) to allow the congestion window to grow quickly during the slow start phase.
-> - On timeout (Tahoe and Reno): When a timeout occurs, indicating severe congestion, ssthresh is set to half of the current congestion window size. This reduction allows the congestion window to quickly reach the point where congestion was previously detected.
-> - On fast retransmit (Reno): When fast retransmit is triggered by three duplicate ACKs, ssthresh is also set to half of the current congestion window size. This adjustment prepares the congestion window for the subsequent congestion avoidance phase.
+> - Initial value: Set to a large value at the beginning of a connection.
+> - On timeout or fast retransmit: Set to half of the current CongWin.
 > 
-> The calculation of ssthresh based on the current congestion window size helps TCP adapt to changing network conditions. By halving the congestion window and setting ssthresh accordingly, TCP can quickly recover from congestion events and avoid overshooting the available bandwidth. This mechanism allows TCP to dynamically adjust its sending rate based on the network's capacity and congestion level.
+> **Why Fast Retransmit and Fast Recovery are better:**
+> - Faster recovery from packet loss: Fast retransmit allows quick retransmission of lost packets without waiting for a timeout, reducing the time spent in recovery.
+> - Maintaining higher throughput: Fast recovery avoids the slow start phase after packet loss, allowing the sender to maintain a higher sending rate and better utilize the available bandwidth.
+> - Improved performance: The combination of fast retransmit and fast recovery in Reno results in faster convergence to the optimal congestion window size and higher overall throughput compared to Tahoe.
 > 
 > ![[Evolution-of-TCPs-congestion-window-Tahoe-and-Reno-10.png]]
 
