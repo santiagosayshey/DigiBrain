@@ -160,6 +160,8 @@
 > This clever approach helps TCP strike a balance between resending data too soon (which could lead to unnecessary network traffic) and waiting too long to resend lost data (which could slow down the data transfer).
 
 
+Certainly! Let's add information about how the slow-start threshold (ssthresh) is calculated in TCP congestion control.
+
 > [!idea] TCP Congestion Control
 > **Tahoe:**
 > - Slow Start: Gradually increases the congestion window (CongWin) until a loss event occurs. CongWin is initialized to 1 MSS and doubled every RTT until it reaches the slow-start threshold (ssthresh).
@@ -170,7 +172,16 @@
 > - Fast Retransmit: When three duplicate ACKs are received, indicating a packet loss, Reno retransmits the packet immediately without waiting for a timeout.
 > - Fast Recovery: After fast retransmit, instead of starting slow start again, Reno halves the CongWin and continues with congestion avoidance, avoiding the lower throughput of starting from scratch.
 > 
+> **Calculation of ssthresh:**
+> - Initial value: At the beginning of a connection, ssthresh is typically set to a large value (e.g., 65535 bytes) to allow the congestion window to grow quickly during the slow start phase.
+> - On timeout (Tahoe and Reno): When a timeout occurs, indicating severe congestion, ssthresh is set to half of the current congestion window size. This reduction allows the congestion window to quickly reach the point where congestion was previously detected.
+> - On fast retransmit (Reno): When fast retransmit is triggered by three duplicate ACKs, ssthresh is also set to half of the current congestion window size. This adjustment prepares the congestion window for the subsequent congestion avoidance phase.
+> 
+> The calculation of ssthresh based on the current congestion window size helps TCP adapt to changing network conditions. By halving the congestion window and setting ssthresh accordingly, TCP can quickly recover from congestion events and avoid overshooting the available bandwidth. This mechanism allows TCP to dynamically adjust its sending rate based on the network's capacity and congestion level.
+> 
 > ![[Evolution-of-TCPs-congestion-window-Tahoe-and-Reno-10.png]]
+
+
 
 > [!idea] Flow Control
 > - Prevents the sender from overwhelming the receiver's buffer
