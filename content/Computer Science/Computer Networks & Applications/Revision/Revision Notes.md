@@ -101,7 +101,8 @@
 > [!idea] Multiplexing and Demultiplexing
 > - Multiplexing is the process of combining multiple data streams from different applications into a single stream of packets, which can be transmitted over a shared network channel.
 > - Demultiplexing is the process of separating the single stream of packets received from the network channel into multiple data streams and delivering them to the appropriate applications.
-> - Multiplexing and demultiplexing enable multiple applications to simultaneously use the same network interface while maintaining the integrity of their individual data streams.
+>
+>![[Plexing.png]]
 
 > [!idea] Multiplexing and Demultiplexing in UDP
 > - UDP uses the destination IP address and port number for demultiplexing incoming packets.
