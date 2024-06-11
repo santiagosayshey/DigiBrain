@@ -134,6 +134,7 @@
 > - Window sizes: Determine the number of packets that can be sent without waiting for an ACK
 > - Timeouts: Trigger retransmission of lost or delayed packets, calculated based on Round-Trip Time (RTT)
 
+
 > [!idea]+ TCP Timeouts
 >
 > When you send data over the internet, there's always a chance that some of it might get lost or delayed. TCP, the protocol responsible for reliable data transfer, uses timeouts to figure out when to resend this data.
@@ -153,8 +154,10 @@
 >    $$ \text{Timeout} = \text{EstimatedRTT} + 4 \times \text{Deviation} $$
 >
 > By including the Deviation in the Timeout calculation, TCP can adapt to changing network conditions. When the RTT is more variable (high Deviation), the Timeout will be longer, giving more time for acknowledgments to arrive before resending data. When the RTT is more stable (low Deviation), the Timeout will be shorter, allowing faster detection of lost data.
-
-
+>
+> If the Deviation wasn't included in the Timeout calculation, and the Timeout was set to just the EstimatedRTT, TCP might struggle to adapt to changes in network conditions. In situations where the RTT becomes more variable, the Timeout would be too short, causing TCP to resend data unnecessarily. This would lead to increased network traffic and reduced efficiency. On the other hand, if the RTT becomes more stable, the Timeout would be too long, causing TCP to wait longer than necessary before resending lost data, which could slow down the data transfer.
+>
+> This clever approach helps TCP strike a balance between resending data too soon (which could lead to unnecessary network traffic) and waiting too long to resend lost data (which could slow down the data transfer).
 
 
 > [!idea] TCP Congestion Control
