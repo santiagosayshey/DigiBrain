@@ -118,7 +118,7 @@
 > - Sender can transmit multiple packets without waiting for individual ACKs
 > - Receiver sends cumulative ACKs and discards out-of-order packets
 > - Sender maintains a window of sent but unacknowledged packets
-> - If a packet is lost, sender retransmits all packets starting from the lost one
+> - If a packet is lost, sender retransmits all packets in the current window starting from the lost one
 
 > [!idea] Selective Repeat (SR) Protocol
 > - Sender can transmit multiple packets without waiting for individual ACKs
