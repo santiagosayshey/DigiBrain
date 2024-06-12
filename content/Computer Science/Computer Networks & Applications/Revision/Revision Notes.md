@@ -555,3 +555,4 @@
 ![[Pasted image 20240612220946.png]]
 
 
+![[Pasted image 20240612224443.png]]
