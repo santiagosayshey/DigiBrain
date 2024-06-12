@@ -219,17 +219,34 @@
 > Two fundamental types of routing algorithms used by the control plane to build and maintain routing tables
 >
 > **Dijkstra's Algorithm (Link State)**
-> - Each node independently runs the algorithm on its local link-state database
+> - Each node independently runs the algorithm on its local link-state database 
 > - Maintains a set of visited nodes (S) and unvisited nodes (Q)
 > - Iteratively selects the node with the minimum distance from the source and updates distances to its neighbors
 > - Time complexity: $O(n^2)$ or $O((n + m)logn)$ with a binary heap
 >
-> **Distance Vector**
+> **Procedure:**
+> 1. Initialize distances to all nodes as infinity, starting node as 0
+> 2. Add starting node to visited set S 
+> 3. For each unvisited neighbor v:
+>    - Calculate distance from current node to v
+>    - Update v's distance if new distance is smaller
+> 4. Select unvisited node u with smallest distance, add to S
+> 5. Repeat step 3 for all unvisited neighbors of u
+> 6. Repeat step 4 until all nodes visited
+>
+> **Distance Vector**  
 > - Each node maintains a routing table with costs and via information
 > - Nodes share their routing tables with neighbors and update based on received information
 > - Count-to-infinity problem: Nodes may infinitely increment distances when a link fails
 > - Poison reverse: Nodes advertise failed routes with infinite distance to prevent loops
 >
+> **Procedure:**
+> 1. Each node initialises own routing table with costs to neighbors
+> 2. Send routing table to all neighbors
+> 3. Receive routing tables from neighbors
+> 4. For each neighbor's routing table:
+>    - Update own table if route is better
+> 5. Repeat steps 2-4 periodically
 >
 > | Feature | Link State | Distance Vector |
 > |---------|------------|-----------------|
