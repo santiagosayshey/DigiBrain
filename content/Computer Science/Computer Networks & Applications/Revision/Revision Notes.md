@@ -16,10 +16,13 @@
 > [!idea] Delay Types
 > | Delay Type         | Description                                                                                                            | Formula                                                 |
 > | ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-> | Propagation Delay  | The time it takes for a signal to travel from point A to point B over a network medium.                                | $$t_p = Distance / Speed$$                              |
-> | Transmission Delay | The time required to transmit all the bits of a packet into the network medium.                                        | $$t_T = L / R$$ where L is packet size and R is bandwidth |
+> | Propagation Delay  | The time it takes for a signal to travel from point A to point B over a network medium.                                | $$D_p = Distance / Speed$$                              |
+> | Transmission Delay | The time required to transmit all the bits of a packet into the network medium.                                        | $$D_T = L / R$$ where L is packet size and R is bandwidth |
 > | Queuing Delay      | The time a packet spends waiting in a queue before it can be transmitted due to congestion or prior packet processing. | Depends on queue length and network traffic             |
 > | Processing Delay   | The time taken by a network device (e.g., router, switch) to process a packet.                                         | Depends on device and packet complexity                 |
+> | Collision Occurrence | If the propagation delay between two nodes is less than the transmission delay $t_p < t_T$, a collision will occur when both nodes start transmitting simultaneously. This happens because the signal from one node reaches the other node before it finishes transmitting its own packet, causing the packets to overlap in time and collide on the shared medium. The corrupted packets need to be retransmitted, reducing network efficiency and increasing latency. | Collision if $$D_p < L / R$$ |
+
+
 
 > [!idea] Peer-to-Peer (P2P) Networks
 > - Decentralized model where each peer acts as both client and server
