@@ -552,7 +552,5 @@
 > This process ensures confidentiality through symmetric encryption, secure key exchange through public-key cryptography, and authentication and integrity through digital signatures.
 
 
-![[Pasted image 20240612220946.png]]
 
-
-![[Pasted image 20240612224443.png]]
+![[Images/2016 Exam.pdf]]
