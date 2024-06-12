@@ -214,7 +214,6 @@
 > - The control plane exchanges information between routers to create an accurate network topology view
 > - Efficient cooperation between the data and control planes is essential for minimizing latency, congestion, and other network issues
 
-
 > [!idea] Routing
 > Two fundamental types of routing algorithms used by the control plane to build and maintain routing tables
 >
@@ -250,15 +249,8 @@
 >
 > | Feature | Link State | Distance Vector |
 > |---------|------------|-----------------|
-> | Approach | Each node has a complete view of the network topology | Nodes only know about their immediate neighbors |
-> | Algorithm | Dijkstra's algorithm | Bellman-Ford algorithm |
-> | Convergence | Faster, less susceptible to routing loops | Slower, risk of routing loops and count-to-infinity problem |
-> | Message Complexity | Lower, only LSAs sent | Higher, full tables sent |
-> | Robustness | Naturally higher, precise | Improved with techniques like split horizon and route poisoning |
-> | Performance | Generally faster due to complete topology knowledge | Slower due to iterative updates and potential routing loops |
-> | Advantages | Faster convergence, less overhead, precise routing | Simple, distributed, no need for global topology |
-> | Disadvantages | Higher memory and CPU requirements, more complex | Slower convergence, routing loops, count-to-infinity problem |
-
+> | Performance / Advantages / Disadvantages | Faster convergence, less overhead, precise routing / Higher memory and CPU requirements, more complex | Slower convergence, routing loops, count-to-infinity problem / Simple, distributed, no need for global topology |
+> | When to Use | Link State is better for networks with high performance and reliability requirements, where complete topology knowledge and faster convergence are crucial. It is recommended for large, complex networks with high bandwidth and low CPU/memory constraints. | Distance Vector is better for smaller, less complex networks where simplicity and distributed operation are priorities, and performance requirements are not as stringent. It is recommended for networks with lower bandwidth and higher CPU/memory constraints. |
 
 > [!idea] Addressing
 > **Classful Addressing**:
