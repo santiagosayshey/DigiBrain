@@ -291,15 +291,49 @@
 >   - Focus on negotiating data paths based on policies, agreements, and external factors
 >   - Enables global Internet connectivity by exchanging routing information between ASes
 
+
 > [!idea] DHCP (Dynamic Host Configuration Protocol)
-> - Automatically assigns IP addresses and network configuration parameters to devices
-> - Client-server model: Client broadcasts a request, server responds with an offer
-> - Simplifies network configuration but has vulnerabilities (e.g., spoofing, rogue DHCP servers)
+> - DHCP is a network protocol used to automatically assign IP addresses and other network configuration parameters to devices on a network.
+> - DHCP works in a client-server model:
+>   - DHCP servers manage a pool of IP addresses and configuration parameters.
+>   - DHCP clients (devices) request an IP address and other settings from the DHCP server.
+>
+> - DHCP Procedure:
+>   1. **DHCP Discover**: Client broadcasts a DHCP Discover message to locate available DHCP servers.
+>   2. **DHCP Offer**: DHCP server responds with a DHCP Offer message, offering an IP address and other configuration parameters.
+>   3. **DHCP Request**: Client sends a DHCP Request message to the selected server, requesting the offered IP address and parameters.
+>   4. **DHCP Acknowledgment**: The server acknowledges the request with a DHCP Acknowledgment message, confirming the lease of the IP address and parameters.
+>   5. **DHCP Renewal**: The client periodically renews the lease by sending a DHCP Request message to the server before the lease expires.
+>   6. **DHCP Release**: When the client no longer needs the IP address, it sends a DHCP Release message to the server to release the lease.
+
 
 > [!idea] IP Fragmentation
-> - Process of breaking large IP packets into smaller fragments to fit the MTU of the network
+> - Process of breaking large IP packets into smaller fragments to fit the MTU (Maximum Transmission Unit) of the network
 > - Fragments are reassembled at the destination based on the Fragment Offset field in the IP header
 > - IPv6 does not allow fragmentation by routers, only by the source host
+> - IP Header Fields used for Fragmentation:
+>
+> | Field | Description |
+> |-------|-------------|
+> | Identification | Unique value to identify the original IP packet |
+> | Flags | 3 bits: Reserved (1 bit), Don't Fragment (1 bit), More Fragments (1 bit) |
+> | Fragment Offset | Offset of this fragment from the start of the original IP packet (in 8-byte units) |
+> | Total Length | Total length of the original IP packet (before fragmentation) |
+>
+> - Fragmentation Process:
+>   1. If the packet size exceeds the MTU of the outgoing interface, it is fragmented
+>   2. Each fragment has the same Identification, Source, and Destination addresses as the original packet
+>   3. The More Fragments flag is set to 1 for all fragments except the last one
+>   4. The Fragment Offset field indicates the position of the fragment in the original packet
+>   5. The Total Length field indicates the length of the original packet
+> - Reassembly Process:
+>   1. The destination host receives the fragments
+>   2. It uses the Identification, Source, and Destination addresses to identify the original packet
+>   3. The Fragment Offset field is used to reassemble the fragments in the correct order
+>   4. When all fragments are received (More Fragments = 0), the original packet is reassembled
+>
+> Note: IP fragmentation can cause performance issues and security vulnerabilities (e.g., overlapping fragments), so it is often avoided by using Path MTU Discovery or setting the Don't Fragment bit.
+
 
 > [!idea] IPv4 vs IPv6
 > | Feature | IPv4 | IPv6 |
