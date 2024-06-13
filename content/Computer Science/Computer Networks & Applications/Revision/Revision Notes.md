@@ -178,6 +178,15 @@
 > - Maintaining higher throughput: Fast recovery avoids the slow start phase after packet loss, allowing the sender to maintain a higher sending rate and better utilize the available bandwidth.
 > - Improved performance: The combination of fast retransmit and fast recovery in Reno results in faster convergence to the optimal congestion window size and higher overall throughput compared to Tahoe.
 > 
+> **Why three duplicate ACKs are used instead of a timeout:**
+> - Faster detection of packet loss: Waiting for a timeout can take a long time, especially if the Round-Trip Time (RTT) is high. Duplicate ACKs provide a quicker indication of potential packet loss.
+> - Distinguishing between packet loss and network delay: Duplicate ACKs help differentiate between packet loss and network delays. If a packet is delayed but not lost, the receiver will continue to send ACKs for the last in-order packet received, but these ACKs will not be duplicates.
+> 
+> **Why three duplicate ACKs do not necessarily indicate congestion:**
+> - Packet reordering: In some network scenarios, packets may arrive out of order due to path changes or parallelism in the network. Duplicate ACKs can be caused by packet reordering, which does not imply congestion.
+> - Link-layer retransmissions: Some link-layer protocols (e.g., Wi-Fi) may perform local retransmissions to recover from packet loss. These retransmissions can lead to duplicate ACKs, even though there is no congestion in the network.
+> - Limited number of duplicate ACKs: The threshold of three duplicate ACKs is chosen to balance the trade-off between quickly detecting packet loss and avoiding false positives due to minor packet reordering or link-layer retransmissions.
+> 
 > ![[Evolution-of-TCPs-congestion-window-Tahoe-and-Reno-10.png]]
 
 
