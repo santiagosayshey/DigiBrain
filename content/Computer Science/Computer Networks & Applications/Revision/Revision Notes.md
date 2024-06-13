@@ -126,18 +126,6 @@
 > - Each unique 4-tuple combination is delivered to a separate socket
 > - Allows multiple sockets to be associated with the same port number on a host
 
-> [!idea] Go-Back-N (GBN) Protocol
-> - Sender can transmit multiple packets without waiting for individual ACKs
-> - Receiver sends cumulative ACKs and discards out-of-order packets
-> - Sender maintains a window of sent but unacknowledged packets
-> - If a packet is lost, sender retransmits all packets in the current window starting from the lost one
-
-> [!idea] Selective Repeat (SR) Protocol
-> - Sender can transmit multiple packets without waiting for individual ACKs
-> - Receiver sends individual ACKs for each correctly received packet, even if out of order
-> - Sender only retransmits lost or corrupted packets
-> - Requires larger sequence number range (at least twice the window size) to avoid ambiguity
-
 > [!idea] Key Components of Reliable Data Transfer
 > - Sequence numbers: Identify and order packets
 > - Acknowledgments (ACKs): Confirm successful receipt of packets
@@ -198,6 +186,19 @@
 > - Prevents the sender from overwhelming the receiver's buffer
 > - Receiver advertises its available buffer space (receiver window) in the ACK packets
 > - Sender limits its sending rate based on the receiver window size
+
+> [!idea] Go-Back-N (GBN) Protocol
+> - Sender can transmit multiple packets without waiting for individual ACKs
+> - Receiver sends cumulative ACKs and discards out-of-order packets
+> - Sender maintains a window of sent but unacknowledged packets
+> - If a packet is lost, sender retransmits all packets in the current window starting from the lost one
+
+> [!idea] Selective Repeat (SR) Protocol
+> - Sender can transmit multiple packets without waiting for individual ACKs
+> - Receiver sends individual ACKs for each correctly received packet, even if out of order
+> - Sender only retransmits lost or corrupted packets
+> - Requires larger sequence number range (at least twice the window size) to avoid ambiguity
+
 
 > [!idea] Connection Establishment and Termination
 > - Three-way Handshake (Connection Establishment):
