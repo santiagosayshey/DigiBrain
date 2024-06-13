@@ -67,6 +67,17 @@
 > - Iterative Queries: Contacted server replies with the name of the next server to contact.
 > - Recursive Queries: DNS servers handle the complete resolution process on behalf of the client.
 > - DNS Records: A (IP address), NS (name server), CNAME (canonical name), MX (mail exchange).
+>
+> | Query Type   | Advantages                                            |
+> |--------------|-------------------------------------------------------|
+> | Iterative    | - Reduces load on each DNS server.                    |
+> |              | - Client controls the query process and pace.         |
+> |              | - Can provide resilience against certain DNS failures by allowing the client to query alternative servers if one fails. |
+> | Recursive    | - Simpler for the client, as the DNS server manages all aspects of the resolution. |
+> |              | - Can be faster from the user's perspective because all DNS resolution is handled by the server. |
+> |              | - Reduces the number of DNS queries that need to be handled directly by the client. |
+
+This table highlights the benefits of each type of DNS query, providing a clear distinction between their operational advantages.
 
 > [!idea] HTTP (Hypertext Transfer Protocol)
 > - Request-response protocol for client-server communication.
