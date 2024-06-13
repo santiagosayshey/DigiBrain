@@ -68,16 +68,14 @@
 > - Recursive Queries: DNS servers handle the complete resolution process on behalf of the client.
 > - DNS Records: A (IP address), NS (name server), CNAME (canonical name), MX (mail exchange).
 >
-> | Query Type   | Advantages                                            |
-> |--------------|-------------------------------------------------------|
-> | Iterative    | - Reduces load on each DNS server.                    |
-> |              | - Client controls the query process and pace.         |
-> |              | - Can provide resilience against certain DNS failures by allowing the client to query alternative servers if one fails. |
-> | Recursive    | - Simpler for the client, as the DNS server manages all aspects of the resolution. |
-> |              | - Can be faster from the user's perspective because all DNS resolution is handled by the server. |
-> |              | - Reduces the number of DNS queries that need to be handled directly by the client. |
+> | Iterative Queries | Recursive Queries |
+> |-------------------|-------------------|
+> | - Allows clients to cache intermediate results, reducing subsequent query times | - Simplifies client-side implementation by handling the entire resolution process |
+> | - Provides more granular control over the resolution process | - Reduces client-side resource requirements by delegating the resolution task |
+> | - Enables clients to implement custom resolution logic and fallback mechanisms | - Minimizes client exposure to network issues during resolution |
+> | - Facilitates better troubleshooting by allowing clients to identify problematic stages | - Enables caching of the complete resolution result, benefiting all clients |
+> | - Distributes resolution workload across multiple DNS servers | - Provides a more resilient DNS infrastructure by concentrating resolution tasks on dedicated servers |
 
-This table highlights the benefits of each type of DNS query, providing a clear distinction between their operational advantages.
 
 > [!idea] HTTP (Hypertext Transfer Protocol)
 > - Request-response protocol for client-server communication.
