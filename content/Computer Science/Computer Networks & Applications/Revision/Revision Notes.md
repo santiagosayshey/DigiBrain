@@ -190,23 +190,16 @@
 > ![[Evolution-of-TCPs-congestion-window-Tahoe-and-Reno-10.png]]
 
 
-
 > [!idea] Flow Control
 > - Prevents the sender from overwhelming the receiver's buffer
 > - Receiver advertises its available buffer space (receiver window) in the ACK packets
 > - Sender limits its sending rate based on the receiver window size
-
-> [!idea] Go-Back-N (GBN) Protocol
-> - Sender can transmit multiple packets without waiting for individual ACKs
-> - Receiver sends cumulative ACKs and discards out-of-order packets
-> - Sender maintains a window of sent but unacknowledged packets
-> - If a packet is lost, sender retransmits all packets in the current window starting from the lost one
-
-> [!idea] Selective Repeat (SR) Protocol
-> - Sender can transmit multiple packets without waiting for individual ACKs
-> - Receiver sends individual ACKs for each correctly received packet, even if out of order
-> - Sender only retransmits lost or corrupted packets
-> - Requires larger sequence number range (at least twice the window size) to avoid ambiguity
+>
+> | Protocol | Description | Advantages | Disadvantages |
+> |----------|-------------|------------|---------------|
+> | Go-Back-N (GBN) | - Sender can transmit multiple packets without waiting for individual ACKs<br>- Receiver sends cumulative ACKs and discards out-of-order packets<br>- Sender maintains a window of sent but unacknowledged packets<br>- If a packet is lost, sender retransmits all packets in the current window starting from the lost one | - Simple to implement<br>- Efficient for low error rates | - Inefficient for high error rates<br>- Wasted bandwidth due to retransmission of correctly received packets |
+> | Selective Repeat (SR) | - Sender can transmit multiple packets without waiting for individual ACKs<br>- Receiver sends individual ACKs for each correctly received packet, even if out of order<br>- Sender only retransmits lost or corrupted packets<br>- Requires larger sequence number range (at least twice the window size) to avoid ambiguity | - Efficient for high error rates<br>- No wasted bandwidth due to selective retransmission | - More complex to implement<br>- Requires larger buffer space at the receiver |
+> | Alternating Bit | - Sender transmits one packet at a time and waits for ACK before sending the next<br>- Receiver sends ACK for each correctly received packet<br>- Uses a 1-bit sequence number (0 or 1) | - Simple to implement<br>- Suitable for reliable channels | - Inefficient for unreliable channels<br>- Low throughput due to waiting for ACKs |
 
 
 > [!idea] Connection Establishment and Termination
