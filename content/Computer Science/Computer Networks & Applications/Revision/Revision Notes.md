@@ -194,6 +194,7 @@
 > - Prevents the sender from overwhelming the receiver's buffer
 > - Receiver advertises its available buffer space (receiver window) in the ACK packets
 > - Sender limits its sending rate based on the receiver window size
+> - Receiver can send an unsolicited ACK (window update) to inform the sender about changes in its available buffer space without waiting for the sender to send an empty packet
 >
 > | Protocol | Description | Advantages | Disadvantages | Optimal Window Size | Sequence Number Size |
 > |----------|-------------|------------|---------------|---------------------|----------------------|
