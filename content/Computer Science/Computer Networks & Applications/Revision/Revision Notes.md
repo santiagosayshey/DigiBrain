@@ -362,7 +362,14 @@
 > | Quality of Service (QoS) | Limited support | Improved support with flow labels |
 > | Transition Mechanisms | N/A | Dual-stack, tunneling, translation |
 >
-> We are transitioning to IPv6 because IPv4 address space is becoming exhausted due to the rapid growth of Internet-connected devices. IPv6 provides a much larger address space (128 bits vs. 32 bits in IPv4), allowing for virtually unlimited unique IP addresses and accommodating the increasing demand for Internet connectivity.
+> We are transitioning to IPv6 because:
+> - IPv6 provides a much larger address space (128 bits vs. 32 bits in IPv4), allowing for virtually unlimited unique IP addresses and accommodating the increasing demand for Internet connectivity.
+> - IPv6 offers improved security features, with mandatory support for IPsec, which provides encryption and authentication for network traffic.
+> - IPv6 has a simplified header structure, reducing processing overhead and enabling more efficient packet forwarding.
+> - IPv6 supports improved Quality of Service (QoS) capabilities, allowing for better prioritization and management of network traffic.
+> - IPv6 eliminates the need for Network Address Translation (NAT), which is commonly used in IPv4 networks to conserve addresses but can cause complications for certain applications.
+> - IPv6 enables more efficient multicast routing, making it easier to deliver content to multiple recipients simultaneously.
+> - IPv6 has built-in support for mobile devices, allowing for seamless connectivity as devices move between different networks.
 
 > [!idea] Software Defined Networking (SDN)
 > - Separates the network's control plane and data plane
