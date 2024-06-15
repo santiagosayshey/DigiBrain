@@ -237,7 +237,9 @@
 > - Each node independently runs the algorithm on its local link-state database 
 > - Maintains a set of visited nodes (S) and unvisited nodes (Q)
 > - Iteratively selects the node with the minimum distance from the source and updates distances to its neighbors
-> - Time complexity: $O(n^2)$ or $O((n + m)logn)$ with a binary heap
+> - Time complexity: 
+>   - $O(n^2)$: In the worst case, the algorithm visits all nodes (n) and for each node, it checks all other nodes to find the one with the minimum distance. This results in n * n operations, hence $O(n^2)$.
+>   - $O((n + m)logn)$ with a binary heap: By using a binary heap to efficiently find the node with the minimum distance, the time complexity is reduced. Here, n is the number of nodes, and m is the number of edges. The binary heap operations (insertion and extraction) take $O(logn)$ time, and these operations are performed for each node and edge, resulting in $O((n + m)logn)$ time complexity.
 >
 > **Procedure:**
 > 1. Initialize distances to all nodes as infinity, starting node as 0
