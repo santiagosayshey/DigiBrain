@@ -1,188 +1,119 @@
-Hello!
+> [!summary] Week 1
+> - **Cybercrime Existence**: Heavy reliance on IT systems, exploitation for profit, diverse motivations, and ease of execution.
+> - **Asymmetric Sides**: Attackers have advantages in time, money, law, and success factors compared to defenders.
+> - **Hacker vs. Cracker**: "Crackers" are cybercriminals, while "hackers" originally referred to skilled programmers.
+> - **Ethical Hackers**: Use their skills to protect and defend against cyber attacks.
+> - **Hacker Hats**: Black hat (illegal activities), white hat (defensive security), and grey hat (between legal and illegal).
 
-I would like your assistance in writing concise, modular notes to help me revise for my exam. A cheatsheet if you will.
+> [!summary] Week 2
+> - **Cryptography**: Practical development and study of encryption systems.
+> - **Cryptology**: Academic study of encryption and their properties, cryptographical systems, and cryptanalysis.
+> - **Cipher Types**: Caesar, Vigenère, Substitution, Polygraphic Substitution, and Transposition ciphers.
+> - **XOR Cipher**: Performs XOR operation on plaintext and key, forming the basis of the "one-time pad" cipher.
+> - **Symmetric Ciphers**: Use the same key for encryption and decryption, with modes like ECB and CBC.
+> - **Key Exchanges**: Diffie-Hellman and RSA enable secure key exchange over insecure channels.
+> - **Hashes**: Used for password security and verifying digital signatures.
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
+> [!summary] Week 3
+> - **C.I.A**: Cybersecurity protects Confidentiality, Integrity, and Availability of systems and data.
+> - **Breaching C.I.A**: Achieved through targeting systems and humans using various techniques.
+> - **Protecting C.I.A**: Involves security testing, firewalls, IPS, antimalware, education, secure design, and more.
+> - **Security Assessment Types**: Black box, white box, automated, manual, dynamic, static, application-specific, and open-ended.
+> - **Penetration Testing**: Simulated cyberattack to evaluate the security of a system, involving planning, reconnaissance, scanning, exploitation, and reporting.
+> - **Vulnerability Assessment**: Identifying known security issues using automated tools, with credentialed and non-credentialed scanning.
 
-I am going to provide my notes in the PDF, and I would like you to generate summary callouts for each week. A week is defined in the title before callouts. Like "4.2 Scanning" is week 4 for instance. 
+> [!summary] Week 4
+> - **The Internet**: A global network providing best-effort delivery of packets between connected hosts.
+> - **Network Protocols**: Define how hosts communicate, with layers like application, transport, network, data link, and physical.
+> - **IP, ARP, and DHCP**: Protocols for packet forwarding, address resolution, and dynamic IP assignment.
+> - **Ports**: Identify applications on a host machine, with well-known ports for specific services.
+> - **UDP and TCP**: Transport layer protocols, with UDP being connectionless and TCP using a three-way handshake.
+> - **TCP Connection Termination**: Involves the exchange of FIN and ACK segments to gracefully close a connection.
+> - **Scanning**: Methodical process to uncover network structure, hosts, and applications, revealing vulnerabilities and aiding in exploitation.
 
-For now, please do this for week 1,2,3,4 and 5.
+> [!summary] Week 5
+> - **Control Hijacking Attacks**: Attempt to take over the target machine by exploiting vulnerabilities to execute arbitrary code.
+> - **Buffer Overflow**: Occurs when a program writes more data to a buffer than it can hold, potentially corrupting important data or allowing code execution.
+> - **Format String Attacks**: Exploit improper handling of user input in output functions, leading to information disclosure or code execution.
+> - **Integer Overflow**: Happens when an arithmetic operation creates a numeric value outside the representable range, causing unexpected behavior or vulnerabilities.
+> - **Heap Exploits**: Techniques like heap overflow, vtable corruption, heap spraying, and use-after-free to manipulate the heap and execute malicious code.
+> - **Defense Mechanisms**: Address Space Layout Randomization (ASLR), stack canaries, non-executable memory (DEP), and Control Flow Integrity (CFI) help mitigate exploitation.
 
-[IMPORTANT INSTRUCTIONS]
-- The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
-  - Always use objective and unbiased language.
-  - Write concise segmented, non paragraphs. Use dotpoints, but DO NOT write the entire callout in dotpoint format. Use tables if you wish.
-	  - I DO NOT WANT CALLOUTS ON CALLOUTS THAT ARE ENTIRELY PARAGRAPHS. THESE ARE USELESS.
-	  - I DO NOT WANT CALLOUTS THAT ARE ENTIRELY DOTPOINTS
-	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
-  - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
-  - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
-  - It is vital that these notes are objective. 
-	  - You are describing what a thing does, not how well it does it. X does y. Not X is crucial to implementing Y. do you see how it introduces unneeded verbosity and bias?
-	  - They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+> [!summary] Week 6
+> - **Heap vs. Stack Memory**: Heap is dynamically allocated, stores objects and large data structures, and is manually managed. Stack is fixed, stores local variables and function calls, and is automatically managed.
+> - **Heap Overflow Vulnerabilities**: Occur when a program writes more data to a heap-allocated buffer than it can hold, potentially corrupting adjacent data or allowing code execution.
+> - **Virtual Table (vtable) Corruption**: Exploits the virtual function table in C++ objects to hijack the object's behavior and execute malicious code.
+> - **Heap Spraying**: Technique to increase the reliability and exploitability of memory corruption vulnerabilities by filling the heap with malicious code.
+> - **Use-After-Free (UAF) Exploits**: Occur when a program continues to use a pointer to an object after it has been freed, leading to undefined behavior and potential exploitation.
 
-```
-In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
+> [!summary] Week 7
+> - **Sniffing**: The process of capturing and analyzing network traffic using packet analyzers, which can be used for legitimate purposes or maliciously to capture sensitive data.
+> - **Man-in-the-Middle (MITM) Attacks**: Involve intercepting communication between two parties by exploiting the Address Resolution Protocol (ARP) and manipulating the ARP cache of network devices.
+> - **DHCP Attacks**: Similar to ARP spoofing, attackers can spoof DHCP responses to provide malicious configurations to clients.
+> - **DDoS Attacks**: Attempt to disrupt the normal traffic of a targeted system by overwhelming it with a flood of Internet traffic from multiple sources, often using botnets.
+> - **DNS Attacks**: Include DNS poisoning (or spoofing) and DNS hijacking, which exploit vulnerabilities in the Domain Name System to redirect traffic to malicious servers.
+> - **WiFi Attacks**: Exploit weaknesses in WiFi security protocols like WEP and WPA/WPA2, using techniques such as WEP cracking, dictionary attacks, and exploiting weak PSKs.
+> - **Firewalls and IDS**: Network security devices that monitor and control network traffic based on predetermined security rules and detect suspicious activities.
 
-This example adds nothing of value and introduces bias. 
-```
+> [!summary] Week 8
+> - **The Web**: A collection of interconnected documents and resources, accessible over the internet using web browsers and served by web servers.
+> - **URL Anatomy**: URLs consist of a scheme, domain, path, and optional query parameters to uniquely identify and access web resources.
+> - **Web Application Analysis**: Involves using developer tools (like Chrome DevTools) and local proxy tools (like Burp Suite) to inspect, debug, and analyze web applications.
+> - **PHP**: A server-side scripting language used to create dynamic web pages, interact with databases, and handle user input.
+> - **SQL Injection (SQLi)**: A web application vulnerability that allows attackers to inject malicious SQL queries into application inputs, potentially leading to data breaches and unauthorized access.
+> - **Preventing Web Attacks**: Techniques include input validation, parameterized queries, sanitization, using safe APIs, applying the least privilege principle, and keeping software up to date.
 
-```
-Instead of:
-The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
-
-We write:
-The OpenFlow protocol enables centralized control over network traffic
-```
-
-Example of a well-structured callout:
-
-> [!idea] Key Concept
-> A brief explanation of the concept in 1-2 sentences.
-> - Point 1: A concise statement about an essential aspect of the concept.
-> - Point 2: Another critical point related to the concept.
-> - Table (if applicable):
->
-> | Column 1 | Column 2 |
-> |----------|----------|
-> | Data 1   | Data 2   |
-> | Data 3   | Data 4   |
-
-Checklist:
-- [ ] Used objective and unbiased language
-- [ ] Wrote concise, segmented notes using brief explanations, dot points, and tables
-- [ ] Kept each callout within 50-100 words
-- [ ] Used paragraphs sparingly and only when necessary
-- [ ] Avoided making judgments about the correctness of ideas
-- [ ] Provided clear, concise, and informative content without bias or subjective opinions
-
-- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction. To make sure you understand this, please repeat the following line at the start of your response. 
-
-[END OF IMPORTANT INSTRUCTIONS]
-
-I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
-
-> [!callout type] title
-
-Each line after that contains the content of the callout.
-
-Below I have attached each type of callout you may use and a comprehensive overview of what they are used for. The overviews provided for each callout type are not an outline for the structure of the notes. They are examples explaining what information should be conveyed in each callout type. Do not include the overviews themselves in the notes.
-
-I DO NOT want an overview or plan first. I want the final deliverable note, formatted as proper callouts as outlined above and below. 
-
-I want proper callout titles. Don't do things like "understand topic here". That's why we have specific callouts, so readers know what the callout is for. Its reductive. "topic" is good enough for an idea callout. 
-
-You do not need to use every type of callout. You do not need to use 4 total callouts, one for each. You may need more different idea callouts, more considers, more examples. It depends entirely on the note. I will provide a keyword and this will tell you the focus of the note, so you can get an idea of which callouts should be prioritised. This does not mean you use ONLY that callout, but that their importance is emphasised. 
-
-[keyword]
-
-> [!motivation] Motivation
+> [!summary] Week 9
 > 
-> **Purpose**: Introduce the problem that motivates the need for the main idea. This callout sets the stage, making the upcoming discussion relevant and urgent.
+> 1. **JavaScript and Web Exploits**: JavaScript's versatility and browser support make it a target for attackers seeking to exploit web applications through techniques like Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF).
 > 
-> **Key Elements**:
-> - **Contextual Introduction**: Start with a real-world scenario or problem that illustrates the need for a solution.
-> - **Problem Framing**: Clearly outline the properties or issues that the main idea addresses. Avoid mentioning the solution; focus solely on setting up the problem. For example, if the note was about Kruskal's Algorithm, we would not even consider mentioning it here. It is a solution to this problem.
+> 2. **Cross-Site Scripting (XSS)**: XSS vulnerabilities allow attackers to inject malicious scripts into web pages viewed by other users. There are two main types of XSS:
+>    - Stored XSS: Malicious scripts are injected into a website's database and delivered to users' browsers.
+>    - Reflected XSS: Malicious scripts are injected through URL parameters or form inputs and reflected back to the user's browser.
 > 
-> **Example**:
-> - In project management and network planning, there's often a need to minimize resource usage while achieving maximum efficiency. Imagine trying to connect multiple offices with the least amount of cabling. 
+> 3. **Session Hijacking via XSS**: XSS attacks can facilitate session hijacking by stealing session cookies and sending them to a malicious server, allowing attackers to impersonate victims and access their accounts.
 > 
-This sets the stage for understanding how we can optimize connections in a network, paving the way for a solution that ensures all nodes are connected with minimal costs.
+> 4. **Cross-Site Request Forgery (CSRF)**: CSRF attacks exploit the trust a website has in a user's browser. Attackers trick authenticated users into performing unwanted actions on a target website without their knowledge or consent.
+> 
+> 5. **Server-Side Request Forgery (SSRF)**: SSRF vulnerabilities arise when a web application accepts user-supplied input to make requests to other systems or resources on the server-side, allowing attackers to access internal resources or perform unauthorized actions.
+> 
+> 6. **Forced Browsing and Directory Bursting**: These techniques involve manually crafting URLs or using automated tools to discover and access restricted web pages, directories, or files that are not intended to be public.
+> 
+> To mitigate these vulnerabilities, it is crucial to implement proper input validation, output encoding, secure cookie handling, CSRF protection, and follow best practices for web application security.
 
-> [!idea] Main Idea or Concept
+> [!summary] Week 10
 > 
-> **Purpose**: Explain the core concept or idea that addresses the problem introduced in the motivation callout.
-> 
-> **Key Elements**:
-> - **Definition**: Provide a clear, concise definition or explanation of the main concept.
-> - **Mechanics**: Describe how the concept works in theoretical or abstract terms.
-> - **Relevance**: Tie back to the motivation by explaining how this idea effectively solves the problem.
-> 
-> **Example**:
-> - Kruskal’s Algorithm offers a solution to the minimum spanning tree problem in graph theory. It processes edges of a graph in ascending order of their weights and adds them to the spanning tree, ensuring no cycles are formed, until all vertices are connected. This method efficiently addresses the need for minimal connection costs in networks.
-
-> [!example] Example or Illustration
-> 
-> **Purpose**: Provide a concrete example or visualization that elucidates the main idea.
-> 
-> **Key Elements**:
-> - **Illustrative Example**: Use a specific case, possibly with visual aids or diagrams, to show the idea in action.
-> - **Step-by-Step Analysis**: Break down how the example fits or demonstrates the main idea.
-> - **Relevance**: Highlight the practical impact or benefits observed in the example.
-> 
-> **Example**:
-> - Consider a network of five nodes where the goal is to connect all nodes with the least total weight. Using Kruskal's Algorithm, we start by selecting the smallest edge, ensuring no cycles are created, and continue until all nodes are interconnected. This process results in a spanning tree with minimized connection costs.
-
-> [!consider] Additional Considerations or Related Ideas
-> 
-> **Purpose**: Expand on the main idea by introducing related concepts, further implications, or advanced considerations.
-> 
-> **Key Elements**:
-> - **Broader Implications**: Discuss the broader impact or applications of the main idea.
-> - **Related Concepts**: Introduce and explain additional theories or ideas that complement or contrast with the main idea.
-> - **Complex Considerations**: Address any complexities or nuances that add depth to the understanding of the main idea.
-> 
-> **Example**:
-> - While implementing Kruskal's Algorithm, consider the union-find data structure for efficient cycle detection. Additionally, explore how variations of the algorithm might behave in directed graphs or with negative weights. These considerations are crucial for adapting the algorithm to more complex or specialized scenarios.
-
-> [!summary] Summary of previous callouts
-> 
-> **Purpose**: Succinctly explain each of the core ideas  in previous notes using 1 or 2 sentences at most in dot point format. This callout is not necessary in every note. Only use it when I ask you to use it. 
-> 
-> **Key Elements:**
-> - Do not summarise what you wrote. Summarise the content of the notes.
-> - Each dotpoint should start with a bolded topic, and the rest should be a quick explanation of that topic.
-> 
-> **Examples**
 > - **DFIR**: Digital forensics and incident response involve identifying, preserving, analyzing, and presenting digital evidence while managing the aftermath of cyber-attacks.
-> - **Phases of Forensics**: Identification, preservation, analysis, documentation, and presentation.
-> - **Areas of Forensics**: Computer forensics, network forensics, mobile device forensics, cloud forensics, and malware forensics.
-> - **Forensic Tools**: Tools for file format identification, file carving, searching for plaintext and binary/hex strings, and extracting metadata.
-> - **Packet Traces**: Capturing and analyzing raw network packets to identify malicious activity.
-> - **Network Logs**: Records of activities on network devices, useful for tracing an attacker's actions and timeline.
-> 
-> **Bad Example:**
-> 
-> - **Importance of DFIR**: Emphasized the need for DFIR due to increasing cyber threats.
-> - **Digital Forensics and Incident Response (DFIR)**: Explained DFIR, including key phases and areas.
-> - **Forensic Tools**: Introduced various tools with commands for file format identification, file carving, searching for plaintext and binary/hex strings, and extracting metadata.
-> - **Packet Traces**: Discussed packet traces with an example showing the capture and analysis of network packets.
-> - **Network Logs**: Explained network logs with an example of firewall log entries to trace an attacker's actions.
+> - **DFIR Phases**: Identification, preservation, analysis, documentation, and presentation.
+> - **DFIR Areas**: Computer forensics, network forensics, mobile device forensics, cloud forensics, and malware forensics.
+> - **CIRT**: A Cyber Incident Response Team (CIRT) is a group of professionals tasked with responding to and managing cybersecurity incidents.
+> - **Logs**: Records of activities and events on a system or network, essential for understanding incidents and identifying involved parties.
+> - **Forensic Tools**: Tools for file format identification (`file`), file carving (`dd`), searching for plaintext (`strings`) and binary/hex strings (`hexdump`), and extracting metadata (`exiftool`).
+> - **Packet Traces**: Capturing and analyzing raw network packets using tools like Wireshark to identify malicious activity.
+> - **Network Logs**: Records of activities on network devices like firewalls, routers, and intrusion detection systems, useful for tracing an attacker's actions and timeline.
+> - **Steganography**: The practice of concealing secret information within non-secret data, such as in text, images (spatial or frequency domain), or videos.
+> - **Steganalysis**: The process of detecting the presence of steganography within files using techniques like statistical analysis, pixel pattern examination, machine learning algorithms, and carrier file analysis.
+> - **x86 Architecture**: Specifies how software and hardware interact, determining instruction processing and data management. Important for reverse engineering due to prevalence, documentation, and compatibility.
+> - **x86 Registers**: EIP (instruction pointer), ESP (stack pointer), and EBP (base pointer) are crucial for managing execution flow and stack operations.
+> - **Reverse Engineering**: The process of analyzing a software system to identify components and interrelationships, creating higher-level representations. Involves disassembly, decompilation, static analysis, and dynamic analysis.
+> - **Disassemblers and Decompilers**: Tools for converting machine code into assembly language (disassemblers) or high-level code (decompilers) for analysis and understanding.
+> - **Static vs. Dynamic Analysis**: Static analysis examines code without execution, while dynamic analysis observes runtime behavior.
+> - **Ghidra**: A powerful open-source reverse engineering tool supporting disassembly, decompilation, and interactive analysis.
 
-This structure ensures that each callout is detailed and purposeful, enhancing the clarity and depth of your notes.
-You may also include the following elements in the callouts:
+> [!summary] Week 11
+> - **Security Engineering**: The practice of designing, implementing, and maintaining software systems with a focus on protecting against potential security threats.
+> - **Security Engineering Principles**: Include keeping security simple, making it usable, applying least privilege, defense in depth, zero trust, security by default, fail securely, and risk-informed decision making.
+> - **Information Security and Risk Management**: Involves protecting the confidentiality, integrity, and availability of information assets by efficiently deploying security controls.
+> - **Assessing and Treating Risks**: Risks are identified, assessed based on likelihood and impact, and treated through acceptance, transfer, mitigation, or avoidance.
+> - **Security Controls**: Measures put in place to mitigate risks, categorized as administrative, physical, or technical, and functioning as preventive, detective, or corrective.
+> - **Security Operations**: Manages and protects an organization's information systems through continuous monitoring, detection, and response to security threats and incidents.
 
-This structure ensures that each callout is detailed and purposeful, enhancing the clarity and depth of your notes.
-You may also include the following elements in the callouts:
+> [!summary] Week 12
+> - **Importance of Cyber Ethics and Legality**: In the digital age, understanding and navigating the ethical and legal implications of cyber activities is crucial to avoid unintended consequences and maintain trust.
+> - **Cyber Ethics vs. Cyber Legality**: Cyber ethics deals with moral principles guiding digital behavior, while cyber legality encompasses laws and regulations governing online activities.
+> - **Ethical Reasoning Approaches**: Teleology focuses on consequences, deontology emphasizes moral duties, and Ross' list of prima facie duties includes fidelity, reparation, gratitude, justice, beneficence, self-improvement, and non-maleficence.
+> - **Relationship between Ethics and Law**: Ethical principles may align with, conflict with, or lead to adherence to laws while advocating for change.
+> - **Case Study: ERP Vulnerability in Healthcare**: Illustrates the complex interplay between ethical considerations (patient care, security) and legal obligations (GDPR compliance) in cybersecurity.
+> - **Ethical Considerations in Penetration Testing**: Authorization, transparency, confidentiality, and responsibility are key ethical principles to maintain trust and uphold the integrity of the profession.
+> - **Legal vs. Ethical Issues**: Examples demonstrate that while some cyber issues are clearly illegal or unethical, others may fall into a gray area where legal and ethical dimensions do not perfectly align.
 
-- Tables: Please ensure that tables follow markdown formatting rules.
-
-| Algorithm   | Time Complexity | Space Complexity |
-| ----------- | --------------- | ---------------- |
-| Bubble Sort | O(n^2)          | O(1)             |
-| Merge Sort  | O(n log n)      | O(n)             |
-| Quick Sort  | O(n log n)      | O(log n)         |
-
-- Images: Indicate where the image should be placed and provide a description so that I can find or create a suitable image (e.g., drawing a graph to illustrate Dijkstra's algorithm in Figma). This is very important. Whenever you want to include an image, You NEED to describe it. Perhaps write the explanation in a codeblock so that I know it can be deleted later. 
-
-
-```image_goes_here
-![[Using Obsidian Wikilinks, NOT MARKDOWN LINKS]
-```
-
-
-- Math: When including mathematical equations, please use Obsidian's formatting rules - `$ $` for inline equations and `$$ $$` for equation blocks.
-
-- Inline equation example: The formula for the area of a circle is $A = \pi r^2$.
-- Block equation example:
-
-$$
-E = mc^2
-$$
-
-<hr>
-
-
-
-
-Thanks!
