@@ -11,7 +11,7 @@
 | 2    | 2        | [[Databases & Ethical Data]]             |
 | 3    | 1        | [[Algorithm & Data Structures Analysis]] |
 | 3    | 1        | [[Computer Networks & Applications]]     |
-| 3    | 1        | [[Cybersecurity Fundamentals]]           |
+| 3    | 1        | [[Content/Computer Science/Cybersecurity Fundamentals/Cybersecurity Fundamentals]]           |
 
 # 🔗 Useful Links
 
