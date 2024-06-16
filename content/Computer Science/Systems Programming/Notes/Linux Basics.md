@@ -98,7 +98,7 @@ chmod +x my_script.sh
 | ps      | what processes are running                           |
 | kill    | stop a process                                       |
 | cut     | grab certain parts from a file for some purpose      |
-| paste   | glue files together vertically                                                     |
+| paste   | glue files together vertically                       |
 
 `Examples`
 ```bash
