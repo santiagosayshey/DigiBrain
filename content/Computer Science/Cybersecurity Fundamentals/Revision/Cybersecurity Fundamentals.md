@@ -163,8 +163,6 @@
 
 ![[8.5 SQLi]]
 
-![[8.6 Cross-Site Scripting]]
-
 ![[9.1 Javascript]]
 
 ![[9.2 Cross Site Scripting]]
