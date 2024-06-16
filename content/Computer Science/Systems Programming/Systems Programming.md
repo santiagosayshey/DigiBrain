@@ -1,6 +1,6 @@
 | Week | Notes                                | Quizzes                 | Quiz Answers                      | Workshops                                                           | Revision     |     |
 | ---- | ------------------------------------ | ----------------------- | --------------------------------- | ------------------------------------------------------------------- | ------------ | --- |
-| 1    | [[1.1 Linux Basics]]                 | [[Revision Quiz 1]]     | [[Revision Quiz 1 - Answers]]     |                                                                     |              |     |
+| 1    | [[Linux Basics]]                 | [[Revision Quiz 1]]     | [[Revision Quiz 1 - Answers]]     |                                                                     |              |     |
 | 2    | [[2.1 Bash Basics]]                  | [[Revision Quiz 2]]     | [[Revision Quiz 2 - Answers]]     | [[Content/Computer Science/Systems Programming/Workshops/Workshop 1 | Workshop 1]] |     |
 |      | [[2.2 Bash Variables]]               |                         |                                   |                                                                     |              |     |
 | 3    | [[3.1 Bash Expansion]]               | [[Revision Quiz 3]]     | [[Revision Quiz 3 - Answers]]     |                                                                     |              |     |
