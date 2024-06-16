@@ -1,3 +1,8 @@
+# Cheatsheet
+
+![[Condensed Notes ADSA]]
+# Notes
+
 ![[1.1 Asymptotic Notation]]
 
 ![[1.2 Asymptotic Analysis]]
