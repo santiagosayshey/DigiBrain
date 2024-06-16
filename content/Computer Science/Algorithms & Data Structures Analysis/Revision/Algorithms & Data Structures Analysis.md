@@ -1,6 +1,4 @@
-# Cheatsheet
-
-![[Condensed Notes ADSA]]
+![[Cheatsheet]]
 # Notes
 
 ![[1.1 Asymptotic Notation]]
