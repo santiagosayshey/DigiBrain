@@ -203,12 +203,14 @@
 | filetype: | Search for files of a specific type, such as PDF, DOCX, or JPG | advanced search filetype:pdf |
 | inurl: | Search for a term within the URL of a page | inurl:advanced |
 | intitle: | Search for a term within the title of a page | intitle:search |
+| inbody: | Search for a term within the body text of a page (same as intext:) | inbody:google |
 | OR | Combine searches, returning results that include either of the specified terms | "advanced search" OR "search techniques" |
 | .. | Search for numbers within a specified range | iPhone 10..12 |
-| site: | Limit results to a specific domain extension, such as .edu or .gov | site:edu |
 | intext: | Search for a term within the body text of a page | intext:google |
 | link: | Find pages that link to the specified URL | link:www.google.com |
 | cache: | View the cached version of a page as stored by Google | cache:www.google.com |
 | allinurl: | Search for multiple terms within the URL of a page | allinurl:google search |
 | allintitle: | Search for multiple terms within the title of a page | allintitle:advanced search techniques |
 | allintext: | Search for multiple terms within the body text of a page | allintext:google search operators |
+
+The "inbody:" operator is equivalent to "intext:" and searches for a term within the body text of a page. Thank you for pointing out the duplicate "site:" operator and the missing "inbody:" operator.
