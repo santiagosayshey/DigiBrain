@@ -192,3 +192,23 @@
 ![[12.2 Cyber Ethics]]
 
 ![[12.3 Legal vs. Ethical]]
+
+| Operator | Description | Example |
+|----------|-------------|---------|
+| " " | Search for an exact phrase, with the words in the specified order | "advanced search techniques" |
+| - | Exclude a word or phrase from the search results | search engines -Google |
+| * | Wildcard search, acts as a placeholder for any unknown or variable word | "Google * search" |
+| site: | Search for results within a specific website or domain | advanced search site:wikipedia.org |
+| related: | Find websites that are similar or related to the specified URL | related:google.com |
+| filetype: | Search for files of a specific type, such as PDF, DOCX, or JPG | advanced search filetype:pdf |
+| inurl: | Search for a term within the URL of a page | inurl:advanced |
+| intitle: | Search for a term within the title of a page | intitle:search |
+| OR | Combine searches, returning results that include either of the specified terms | "advanced search" OR "search techniques" |
+| .. | Search for numbers within a specified range | iPhone 10..12 |
+| site: | Limit results to a specific domain extension, such as .edu or .gov | site:edu |
+| intext: | Search for a term within the body text of a page | intext:google |
+| link: | Find pages that link to the specified URL | link:www.google.com |
+| cache: | View the cached version of a page as stored by Google | cache:www.google.com |
+| allinurl: | Search for multiple terms within the URL of a page | allinurl:google search |
+| allintitle: | Search for multiple terms within the title of a page | allintitle:advanced search techniques |
+| allintext: | Search for multiple terms within the body text of a page | allintext:google search operators |
