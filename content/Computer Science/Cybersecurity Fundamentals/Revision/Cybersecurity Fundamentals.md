@@ -193,24 +193,17 @@
 
 ![[12.3 Legal vs. Ethical]]
 
-| Operator | Description | Example |
-|----------|-------------|---------|
-| " " | Search for an exact phrase, with the words in the specified order | "advanced search techniques" |
-| - | Exclude a word or phrase from the search results | search engines -Google |
-| * | Wildcard search, acts as a placeholder for any unknown or variable word | "Google * search" |
-| site: | Search for results within a specific website or domain | advanced search site:wikipedia.org |
-| related: | Find websites that are similar or related to the specified URL | related:google.com |
-| filetype: | Search for files of a specific type, such as PDF, DOCX, or JPG | advanced search filetype:pdf |
-| inurl: | Search for a term within the URL of a page | inurl:advanced |
-| intitle: | Search for a term within the title of a page | intitle:search |
-| inbody: | Search for a term within the body text of a page (same as intext:) | inbody:google |
-| OR | Combine searches, returning results that include either of the specified terms | "advanced search" OR "search techniques" |
-| .. | Search for numbers within a specified range | iPhone 10..12 |
-| intext: | Search for a term within the body text of a page | intext:google |
-| link: | Find pages that link to the specified URL | link:www.google.com |
-| cache: | View the cached version of a page as stored by Google | cache:www.google.com |
-| allinurl: | Search for multiple terms within the URL of a page | allinurl:google search |
-| allintitle: | Search for multiple terms within the title of a page | allintitle:advanced search techniques |
-| allintext: | Search for multiple terms within the body text of a page | allintext:google search operators |
 
-The "inbody:" operator is equivalent to "intext:" and searches for a term within the body text of a page. Thank you for pointing out the duplicate "site:" operator and the missing "inbody:" operator.
+| Operator      | Description                                               | Example                                      |
+|---------------|-----------------------------------------------------------|----------------------------------------------|
+| `site:`       | Searches only within a specified site or domain.          | `site:example.com`                           |
+| `intitle:`    | Finds pages that include a specific word in their title.  | `intitle:recipe`                             |
+| `inurl:`      | Finds pages that include a specific word in their URL.    | `inurl:profile`                              |
+| `intext:`     | Searches for words in the text of the page.               | `intext:"important dates"`                   |
+| `filetype:`   | Searches for files of a specific filetype.                | `filetype:pdf`                               |
+| `related:`    | Finds websites related to a specified URL.                | `related:example.com`                        |
+| `cache:`      | Shows the most recent cached version of a webpage.        | `cache:example.com`                          |
+| `-"keyword"`  | Excludes pages containing a specific keyword.             | `Jaguar speed -car`                          |
+| `"keyword"`   | Searches for the exact phrase matched.                    | `"famous speech"`                            |
+| `AROUND(N)`   | Finds pages that have two words or phrases within N words of each other. | `solar AROUND(4) energy` |
+
