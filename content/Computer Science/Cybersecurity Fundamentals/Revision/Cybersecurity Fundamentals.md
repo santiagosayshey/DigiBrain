@@ -227,7 +227,3 @@ Here's a simple markdown table with common web attacks, their explanations, exam
 | ACSC Essential 8 | Baseline strategies for mitigating cyber incidents | No |
 | PCI-DSS | Security standard for organizations handling credit card data | Yes |
 | COBIT | Framework for IT management and governance | No* |
-
-*Note: While COBIT itself doesn't offer organizational certification, there are COBIT-related certifications for individuals.
-
-This table focuses on the core purpose of each framework and whether it provides organizational certification, which are typically more important points for exam purposes. The ACSC's Information Security Manual (ISM) is a set of guidelines rather than a certification framework, so it's not included in the certification column.
