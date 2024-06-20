@@ -207,3 +207,13 @@
 | `"keyword"`   | Searches for the exact phrase matched.                    | `"famous speech"`                            |
 | `AROUND(N)`   | Finds pages that have two words or phrases within N words of each other. | `solar AROUND(4) energy` |
 
+Here's a simple markdown table with common web attacks, their explanations, examples, and prevention methods:
+
+| Attack | Explanation | Example | Prevention |
+|--------|-------------|---------|------------|
+| SQL Injection (SQLi) | Inserting malicious SQL code into application queries | `' OR '1'='1` in a login form | Use parameterized queries |
+| Cross-Site Scripting (XSS) | Injecting malicious scripts into web pages | `<script>alert('XSS')</script>` in a comment field | Sanitize user input, use Content Security Policy |
+| Cross-Site Request Forgery (CSRF) | Tricking users into performing unwanted actions | `<img src="http://bank.com/transfer?amount=1000&to=attacker">` | Use CSRF tokens, SameSite cookies |
+| Server-Side Request Forgery (SSRF) | Making the server perform unintended requests | `http://internal-api/delete-user?id=1` | Validate and sanitize user-supplied URLs |
+| Man-in-the-Middle (MITM) | Intercepting communication between two parties | ARP spoofing to redirect traffic | Use HTTPS, certificate pinning |
+| Directory Traversal | Accessing files outside the intended directory | `../../../etc/passwd` in a file path | Sanitize file paths, use whitelists |
