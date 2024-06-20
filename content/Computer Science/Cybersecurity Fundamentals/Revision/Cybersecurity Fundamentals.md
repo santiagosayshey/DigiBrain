@@ -217,3 +217,17 @@ Here's a simple markdown table with common web attacks, their explanations, exam
 | Server-Side Request Forgery (SSRF) | Making the server perform unintended requests | `http://internal-api/delete-user?id=1` | Validate and sanitize user-supplied URLs |
 | Man-in-the-Middle (MITM) | Intercepting communication between two parties | ARP spoofing to redirect traffic | Use HTTPS, certificate pinning |
 | Directory Traversal | Accessing files outside the intended directory | `../../../etc/passwd` in a file path | Sanitize file paths, use whitelists |
+
+
+| Framework | Main Purpose | Certification |
+|-----------|--------------|---------------|
+| ISO/IEC 27000 Series | Information security management framework | Yes (ISO 27001) |
+| NIST Cybersecurity Framework | Best practices for managing and reducing cybersecurity risk | No |
+| CIS Critical Security Controls | Specific actions for cyber defense | No |
+| ACSC Essential 8 | Baseline strategies for mitigating cyber incidents | No |
+| PCI-DSS | Security standard for organizations handling credit card data | Yes |
+| COBIT | Framework for IT management and governance | No* |
+
+*Note: While COBIT itself doesn't offer organizational certification, there are COBIT-related certifications for individuals.
+
+This table focuses on the core purpose of each framework and whether it provides organizational certification, which are typically more important points for exam purposes. The ACSC's Information Security Manual (ISM) is a set of guidelines rather than a certification framework, so it's not included in the certification column.
