@@ -227,3 +227,9 @@ Here's a simple markdown table with common web attacks, their explanations, exam
 | ACSC Essential 8 | Baseline strategies for mitigating cyber incidents | No |
 | PCI-DSS | Security standard for organizations handling credit card data | Yes |
 | COBIT | Framework for IT management and governance | No* |
+
+| Hacker Type | Description | Examples |
+|-------------|-------------|----------|
+| Black Hat | - Malicious hackers<br>- Operate illegally<br>- Motivated by personal gain, revenge, or chaos | - Cybercriminals stealing credit card data<br>- Ransomware attackers<br>- Hackers defacing websites for fun |
+| White Hat | - Ethical hackers<br>- Operate with permission<br>- Aim to improve security<br>- Often employed or contracted by organizations | - Penetration testers<br>- Security researchers disclosing vulnerabilities responsibly<br>- Bug bounty hunters |
+| Grey Hat | - Operate in a moral grey area<br>- May hack without permission but not for malicious purposes<br>- Often disclose vulnerabilities publicly | - Hackers who find and report vulnerabilities without permission<br>- Those who hack for activist causes ("hacktivists")<br>- Security researchers who release zero-day exploits publicly |
