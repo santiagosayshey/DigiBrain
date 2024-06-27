@@ -10,21 +10,21 @@
 
 Note: You can combine these filters. For example: `is:open label:bug no:assignee` would find all open, unassigned bug reports.
 # Issue Types
-| Type            | Description | Example/Use Case |
-| --------------- | ----------- | ---------------- |
-| Bug             | An error, flaw, or fault in the system | A user reports that the export function crashes unexpectedly |
-| Feature Request | A new capability or functionality suggestion | A user suggests adding dark mode to the UI |
-| Improvement     | An enhancement to existing features | Proposal to optimize the database query performance |
-| Documentation   | Updates or additions to project documentation | Request to add installation instructions for Linux users |
+| Type            | Description                                           | Example/Use Case                                              |
+| --------------- | ----------------------------------------------------- | ------------------------------------------------------------- |
+| Bug             | An error, flaw, or fault in the system                | A user reports that the export function crashes unexpectedly  |
+| Feature Request | A new capability or functionality suggestion          | A user suggests adding dark mode to the UI                    |
+| Improvement     | An enhancement to existing features                   | Proposal to optimize the database query performance           |
+| Documentation   | Updates or additions to project documentation         | Request to add installation instructions for Linux users      |
 | Refactor        | Code restructuring without changing external behavior | Suggestion to improve code modularity in a specific component |
-| Infrastructure  | Changes to project infrastructure or build processes | Proposal to switch from Travis CI to GitHub Actions |
+| Infrastructure  | Changes to project infrastructure or build processes  | Proposal to switch from Travis CI to GitHub Actions           |
 
 # Components
-| Type      | Description | Url | Example/Use Case |
-| --------- | ----------- | --- | ---------------- |
-| Profilarr | The main application | [URL] | A bug report about Profilarr's syncing feature |
-| Website   | The project's web presence | [URL] | A feature request for the website's contact form |
-| Database  | Data storage and management | [URL] | An improvement suggestion for database indexing |
-| Docs      | Project documentation | [URL] | A request to update API documentation |
-| Discord   | Community chat platform | [URL] | A bug report about Discord bot integration |
-| GitHub    | Version control and issue tracking | [URL] | An infrastructure suggestion for GitHub Actions workflow |
+| Type      | Description                        | Url                                          |
+| --------- | ---------------------------------- | -------------------------------------------- |
+| Profilarr | The main application               | https://github.com/Dictionarry-Hub/profilarr |
+| Website   | The project's web presence         | https://github.com/Dictionarry-Hub/website   |
+| Database  | Data storage and management        | https://github.com/Dictionarry-Hub/database  |
+| Docs      | Project documentation              | https://github.com/Dictionarry-Hub/docs      |
+| Discord   | Community chat platform            | https://discord.gg/ZxywYBGRB9                |
+| GitHub    | Version control and issue tracking | https://github.com/Dictionarry-Hub/.github   |
