@@ -41,7 +41,6 @@ We welcome contributions from all! If you're interested in contributing, please 
 | Website   | The project's web presence         | https://github.com/Dictionarry-Hub/website   |
 | Database  | Data storage and management        | https://github.com/Dictionarry-Hub/database  |
 | Docs      | Project documentation              | https://github.com/Dictionarry-Hub/docs      |
-| Discord   | Community chat platform            | https://discord.gg/ZxywYBGRB9                |
 | GitHub    | Version control and issue tracking | https://github.com/Dictionarry-Hub/.github   |
 # Filters
 
