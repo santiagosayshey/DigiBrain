@@ -1,0 +1,24 @@
+/* Fix the borders and add a radius variable */
+:root table {
+  --table-border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+/* Add the radius */
+th:first-child {
+  border-top-left-radius: var(--table-border-radius);
+}
+th:last-child {
+  border-top-right-radius: var(--table-border-radius);
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: var(--table-border-radius);
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: var(--table-border-radius);
+}
+
+/* Redo the borders */
+:root :is(td, th) {
+  border-width: 0 var(--table-border-width) var(--table-border-width) 0;
+}

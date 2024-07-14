@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "1141fab3c24119b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "71c57a0b4553838a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "442860e69354c9b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Projects/Wiki/The Quality-Compatibility Scale.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86f67e2968be30d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c6d76b9ea2c6daf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f3df35495624a56",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3acc7c0aa4314478",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea281581eaad221b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "full duplex",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8aec310cd7b15e8",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-plex",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.50499725341797
+  },
+  "right": {
+    "id": "055570dad7c5894a",
+    "type": "split",
+    "children": [
+      {
+        "id": "812749e182b41584",
+        "type": "tabs",
+        "dimension": 28.48639455782312,
+        "children": [
+          {
+            "id": "78df8c00d10661e2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "263cda17628adc49",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e3305afbc550e67d",
+        "type": "tabs",
+        "dimension": 71.51360544217688,
+        "children": [
+          {
+            "id": "163992d3886f8820",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-todoist",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d5b92bec3504f53",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "69a6e5e6226c1d9c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "03eed31f552162a8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Content/Projects/Wiki/The Quality-Compatibility Scale.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "media-extended:Open media": false,
+      "publish:Publish changes...": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "442860e69354c9b8",
+  "lastOpenFiles": [
+    "Untitled",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
+    "Content/Factorio/Space Need.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/2017 S1 Exam + Sam's Answers.pdf",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/2022 Exam  + Sam's Answers.pdf",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/9.2 Dijkstra's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.2 Turing Machines.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
+    "Content/Computer Science/Computer Science.md",
+    "Content/Factorio",
+    "Content/Dictionarry/Project Workflow.md",
+    "Content/Computer Science/Computer Systems/Notes/8.1 High Level Languages.md",
+    "Content/Computer Science/Computer Systems/Notes/8.2 Jack Examples.md",
+    "Content/Computer Science/Databases & Ethical Data/Notes/2.3 Coding Theory.md",
+    "Content/Computer Science/Databases & Ethical Data/Notes/2.2 Entropy.md",
+    "Content/Computer Science/Databases & Ethical Data/Notes/2.1 Information Theory.md",
+    "Content/Computer Science/Databases & Ethical Data/Notes/1.2 Basic Statistics.md",
+    "Content/Computer Science/Databases & Ethical Data/Notes/10.3 Yao's Millionaire Problem.md",
+    "Content/Computer Science/Databases & Ethical Data/Notes/8.5 Ethics of ChatGPT.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2022 Exam + Answers.pdf",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2019 Exam.pdf",
+    "Images/2022 Exam + Answers.pdf",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2019 Solutions.pdf",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2022 Exam.pdf",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.3 Security Operations.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.2 Information Security and Risk Management.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.1 Security Engineering.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.png",
+    "Images/Pasted image 20240616221423.png",
+    "Images/Pasted image 20240616221410.png",
+    "Images/Pasted image 20240616221400.png",
+    "Images/Pasted image 20240616205211.png",
+    "Images/Pasted image 20240616205155.png",
+    "Images/Pasted image 20240616205141.png",
+    "Images/Pasted image 20240616205130.png",
+    "Images/Pasted image 20240616205112.png",
+    "Images/Pasted image 20240616205101.png",
+    "Untitled 3.canvas",
+    "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Content/Dictionarry/Untitled.canvas",
+    "Computer Science/Web and Database Computing/Untitled.canvas"
+  ]
+}

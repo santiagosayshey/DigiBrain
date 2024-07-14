@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@700&display=swap");
+
+body {
+  --file-line-width: 900px;
+  --inline-title-font-family: font-family: "Schibsted Grotesk", sans-serif;
+  --inline-title-weight: 700;
+}
+
+mjx-container[display="true"] {
+  text-align: center !important;
+}
+
+.function-plot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:root table {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.markdown-embed {
+  border: none;
+  padding-left: 0px !important;
+}
+
+.embed-title {
+  display: none;
+}
+
+.markdown-embed-link {
+  display: none;
+}
+
+img {
+  border-radius: none !important;
+  box-shadow: none !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+}

@@ -1,0 +1,205 @@
+.callout {
+  color: var(--text-rgb);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.callout .callout-content {
+  background: var(--background-primary);
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.callout .callout-title {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: var(--text-rgb);
+}
+
+.callout[data-callout="1"],
+.callout[data-callout="main"] {
+  --callout-color: 30, 215, 96;
+  --callout-icon: book-down;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="2"],
+.callout[data-callout="code"] {
+  --callout-color: 213, 48, 90;
+  --callout-icon: code-2;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="4"],
+.callout[data-callout="math"] {
+  --callout-color: 113, 147, 229;
+  --callout-icon: superscript;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="5"],
+.callout[data-callout="visual"] {
+  --callout-color: 30, 215, 96;
+  --callout-icon: image;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="6"],
+.callout[data-callout="activity"] {
+  --callout-color: 113, 147, 229;
+  --callout-icon: activity;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="7"],
+.callout[data-callout="solution"] {
+  --callout-color: 30, 215, 96;
+  --callout-icon: flask-conical;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="8"],
+.callout[data-callout="explanation"] {
+  --callout-color: 255, 165, 0;
+  --callout-icon: flame;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+/* NEW CALLOUUTS */
+.callout[data-callout="motivation"] {
+  --callout-color: 255, 87, 51;
+  --callout-icon: lightbulb;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="motivation"] strong {
+  color: rgb(255, 87, 51);
+}
+
+.callout[data-callout="motivation"] em {
+  color: rgb(255, 87, 51);
+}
+
+.callout[data-callout="idea"] {
+  --callout-color: 100, 149, 237;
+  --callout-icon: flame;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="summary"] {
+  --callout-color: 255, 87, 51;
+  --callout-icon: flame;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="summary"] em {
+  color: rgb(255, 87, 51);
+}
+
+.callout[data-callout="summary"] strong {
+  color: rgb(255, 87, 51);
+}
+
+.callout[data-callout="example"] {
+  --callout-color: 120, 157, 74;
+  --callout-icon: graduation-cap;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="example"] em {
+  color: rgb(120, 157, 74);
+}
+
+.callout[data-callout="example"] strong {
+  color: rgb(120, 157, 74);
+}
+
+.callout[data-callout="exercise"] {
+  --callout-color: 120, 157, 74;
+  --callout-icon: pencil;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="exercise"] strong {
+  color: rgb(120, 157, 74) !important;
+}
+
+.callout table {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.callout pre {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.callout[data-callout="quote"] {
+  --callout-color: 246, 190, 0;
+  --callout-icon: quote;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="quote"] strong {
+  color: rgb(246, 190, 0) !important;
+}
+
+.callout[data-callout="quote"] em {
+  color: rgb(246, 190, 0) !important;
+}
+
+.upcoming_view__calendar__controls__picker {
+  display: none !important;
+}
+
+#content {
+  background-color: #181c20 !important;
+}
+
+.fwBw5Mb {
+  background-color: #181c20 !important;
+}
+
+h2 {
+  background-color: #181c20 !important;
+}
+
+.task_list_item__body {
+  background-color: #181c20 !important;
+}
+
+#content {
+  overflow-y: scroll !important;
+  scrollbar-width: none !important;
+}
+
+.callout[data-callout="consider"] {
+  --callout-color: 246, 190, 0;
+  --callout-icon: alert-triangle;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="consider"] strong {
+  color: rgb(246, 190, 0) !important;
+}
+
+.callout[data-callout="consider"] em {
+  color: rgb(246, 190, 0) !important;
+}
+
+.callout[data-callout="code"] {
+  --callout-color: 255, 255, 255;
+  --callout-icon: code;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="application"] {
+  --callout-color: 120, 157, 74;
+  --callout-icon: apple;
+  border: 1px solid rgb(var(--callout-color));
+}
+
+.callout .callout {
+  margin-bottom: 20px !important;
+}

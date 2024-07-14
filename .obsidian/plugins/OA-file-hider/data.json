@@ -1,0 +1,18 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "tsconfig.json",
+    "README.md",
+    "quartz.layout.ts",
+    "quartz.config.ts",
+    "package-lock.json",
+    "package.json",
+    "LICENSE.txt",
+    "index.d.ts",
+    "globals.d.ts",
+    "Dockerfile",
+    "quartz",
+    "public",
+    "node_modules"
+  ]
+}
