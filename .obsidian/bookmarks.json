@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1709404092186,
+      "path": "Content/Computer Science/Computer Science.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1709404116279,
+      "path": "Content/Computer Science/Algorithms & Data Structures Analysis/Algorithm & Data Structures Analysis.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1709404124623,
+      "path": "Content/Computer Science/Computer Networks & Applications/Computer Networks & Applications.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1709404130843,
+      "path": "Content/Computer Science/Cybersecurity Fundamentals/Cybersecurity Fundamentals.md"
+    }
+  ]
+}
