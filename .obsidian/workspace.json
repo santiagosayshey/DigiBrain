@@ -11,8 +11,13 @@
             "id": "eeb2db68cca792f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/Week 1 - Monday.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -145,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Untitled.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/Week 1 - Monday.md"
               }
             }
           }
@@ -167,11 +172,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "4f3df35495624a56",
+  "active": "eeb2db68cca792f6",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Untitled.md",
+    "Content/Computer Science/Software Development & Project/Notes/Week 1 - Monday.md",
     "Content/Computer Science/Software Development & Project/Notes",
     "Content/Projects/Factorio/Space Need.md",
-    "Content/Computer Science/Software Development & Project/Untitled.md",
     "Content/Computer Science/Secure Programming/Notes",
     "Content/Computer Science/Secure Programming/Untitled.md",
     "Content/Computer Science/Software Development & Project",
@@ -204,7 +210,6 @@
     "Content/Computer Science/Databases & Ethical Data/Notes/10.3 Yao's Millionaire Problem.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/8.5 Ethics of ChatGPT.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2022 Exam + Answers.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.png",
     "Images/Pasted image 20240616221423.png",
     "Images/Pasted image 20240616221410.png",
