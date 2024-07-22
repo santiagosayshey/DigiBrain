@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "71c57a0b4553838a",
+        "id": "c9d0ceab14ad0864",
         "type": "tabs",
         "children": [
           {
-            "id": "442860e69354c9b8",
+            "id": "eeb2db68cca792f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Projects/Factorio/Space Need.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -150,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Factorio/Space Need.md"
+                "file": "Content/Computer Science/Software Development & Project/Untitled.md"
               }
             }
           }
@@ -174,9 +169,11 @@
   },
   "active": "4f3df35495624a56",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes",
+    "Content/Projects/Factorio/Space Need.md",
+    "Content/Computer Science/Software Development & Project/Untitled.md",
     "Content/Computer Science/Secure Programming/Notes",
     "Content/Computer Science/Secure Programming/Untitled.md",
-    "Content/Projects/Factorio/Space Need.md",
     "Content/Computer Science/Software Development & Project",
     "Content/Computer Science/Operating Systems",
     "Content/Computer Science/Secure Programming",
@@ -208,8 +205,6 @@
     "Content/Computer Science/Databases & Ethical Data/Notes/8.5 Ethics of ChatGPT.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2022 Exam + Answers.pdf",
-    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
-    "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.3 Security Operations.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.png",
     "Images/Pasted image 20240616221423.png",
     "Images/Pasted image 20240616221410.png",
