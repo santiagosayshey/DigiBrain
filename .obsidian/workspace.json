@@ -11,8 +11,15 @@
             "id": "a6e4bf8e9880319f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -144,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas"
+              }
             }
           }
         ]
@@ -167,11 +176,12 @@
   },
   "active": "a6e4bf8e9880319f",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
+    "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction (1).pdf",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction.epub",
-    "Content/Computer Science/Software Development & Project/Notes/Week 1 - Monday.md",
     "Content/Computer Science/Software Development & Project/Untitled.md",
     "Content/Computer Science/Software Development & Project/Notes",
     "Content/Projects/Factorio/Space Need.md",
@@ -183,7 +193,6 @@
     "Content/Projects/Wiki/The Quality-Compatibility Scale.md",
     "Untitled",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/9.2 Dijkstra's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
