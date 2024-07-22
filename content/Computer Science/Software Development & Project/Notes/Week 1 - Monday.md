@@ -1,0 +1,1 @@
+- Theory is important, but you need to be able to apply it in practice
