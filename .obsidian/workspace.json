@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/AI Prompt.md"
+                "file": "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md"
               }
             }
           }
@@ -186,8 +185,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "d2b73c4b528405bf",
+  "active": "a6e4bf8e9880319f",
   "lastOpenFiles": [
+    "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Templates/Consider.md",
