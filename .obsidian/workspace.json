@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md",
+                "file": "Content/Computer Science/Secure Programming/Notes/1.1 Threat Modelling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -191,7 +191,7 @@
   },
   "active": "9a1b4013321e7cc9",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md",
+    "Content/Computer Science/Secure Programming/Notes/1.1 Threat Modelling.md",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Templates/Consider.md",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
