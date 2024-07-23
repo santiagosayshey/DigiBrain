@@ -11,14 +11,9 @@
             "id": "a6e4bf8e9880319f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
-                "viewState": {
-                  "x": -300,
-                  "y": -35,
-                  "zoom": 0
-                }
+                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
               }
             }
           }
@@ -152,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas"
+                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
               }
             }
           }
@@ -176,9 +171,9 @@
   },
   "active": "a6e4bf8e9880319f",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.png",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
-    "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction (1).pdf",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
@@ -222,7 +217,6 @@
     "Images/Pasted image 20240616205141.png",
     "Images/Pasted image 20240616205130.png",
     "Images/Pasted image 20240616205112.png",
-    "Images/Pasted image 20240616205101.png",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
     "Untitled 2.canvas",
