@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d2b73c4b528405bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797,
-    "collapsed": true
+    "width": 372.50499725341797
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -151,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md"
+                "file": "Content/AI Prompt.md"
               }
             }
           }
@@ -173,10 +186,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "a6e4bf8e9880319f",
+  "active": "d2b73c4b528405bf",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md",
+    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Templates/Consider.md",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.png",
