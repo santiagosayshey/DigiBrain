@@ -11,9 +11,12 @@
             "id": "a6e4bf8e9880319f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
+                "file": "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -147,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
+                "file": "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md"
               }
             }
           }
@@ -171,12 +174,14 @@
   },
   "active": "a6e4bf8e9880319f",
   "lastOpenFiles": [
+    "Templates/Consider.md",
+    "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md",
+    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.png",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
     "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction (1).pdf",
-    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction.epub",
     "Content/Computer Science/Software Development & Project/Untitled.md",
     "Content/Computer Science/Software Development & Project/Notes",
@@ -207,7 +212,6 @@
     "Content/Computer Science/Databases & Ethical Data/Notes/2.1 Information Theory.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/1.2 Basic Statistics.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/10.3 Yao's Millionaire Problem.md",
-    "Content/Computer Science/Databases & Ethical Data/Notes/8.5 Ethics of ChatGPT.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.png",
     "Images/Pasted image 20240616221423.png",
     "Images/Pasted image 20240616221410.png",
