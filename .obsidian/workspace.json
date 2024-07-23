@@ -21,6 +21,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "dba93f02fccbe068",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a1b4013321e7cc9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797
+    "width": 372.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -174,9 +191,9 @@
   },
   "active": "a6e4bf8e9880319f",
   "lastOpenFiles": [
-    "Templates/Consider.md",
-    "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
+    "Content/Computer Science/Secure Programming/Notes/1.1 Security Engineering.md",
+    "Templates/Consider.md",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.png",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
@@ -211,7 +228,6 @@
     "Content/Computer Science/Databases & Ethical Data/Notes/2.2 Entropy.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/2.1 Information Theory.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/1.2 Basic Statistics.md",
-    "Content/Computer Science/Databases & Ethical Data/Notes/10.3 Yao's Millionaire Problem.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.png",
     "Images/Pasted image 20240616221423.png",
     "Images/Pasted image 20240616221410.png",
