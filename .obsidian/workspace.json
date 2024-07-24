@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "19122007b560ce1c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
+              }
+            }
+          },
+          {
             "id": "d2b73c4b528405bf",
             "type": "leaf",
             "state": {
@@ -33,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md"
+                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
               }
             }
           }
@@ -185,10 +196,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "a6e4bf8e9880319f",
+  "active": "19122007b560ce1c",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
     "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md",
+    "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
     "Content/Computer Science/Secure Programming/Notes/1.4 Vulnerability Intelligence.md",
     "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md",
     "Images/210324-social-post-3Ps.png",
