@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
+                "file": "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md"
+                "file": "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md"
               }
             }
           }
@@ -187,8 +187,9 @@
   },
   "active": "a6e4bf8e9880319f",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md",
+    "Content/Computer Science/Secure Programming/Notes/1.4 Vulnerability Intelligence.md",
     "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
+    "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md",
     "Images/210324-social-post-3Ps.png",
     "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md",
     "Content/AI Prompt.md",
@@ -225,7 +226,6 @@
     "Content/Computer Science/Computer Systems/Notes/8.1 High Level Languages.md",
     "Content/Computer Science/Computer Systems/Notes/8.2 Jack Examples.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/2.3 Coding Theory.md",
-    "Content/Computer Science/Databases & Ethical Data/Notes/2.2 Entropy.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.png",
     "Images/Pasted image 20240616221423.png",
     "Images/Pasted image 20240616221410.png",
