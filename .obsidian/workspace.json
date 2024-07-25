@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.6 Secure Design.md",
+                "file": "Content/Computer Science/Secure Programming/Notes/1.7 Threat Modelling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.6 Secure Design.md"
+                "file": "Content/Computer Science/Secure Programming/Notes/1.7 Threat Modelling.md"
               }
             }
           }
@@ -172,8 +172,9 @@
   },
   "active": "74cb8c3a1246f80e",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Secure Programming/Notes/1.6 Secure Design.md",
+    "Content/Computer Science/Secure Programming/Notes/1.7 Threat Modelling.md",
+    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
     "Content/Computer Science/Software Development & Project/Notes/1.2 Waterfall.md",
