@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
+                "file": "Content/Computer Science/Secure Programming/Rangeforce Notes/1.3 Vulnerabilities.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -24,9 +24,12 @@
             "id": "9d2eadac9dbfb430",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.1 OWASP.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -160,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.1 OWASP.md"
               }
             }
           }
@@ -183,12 +186,14 @@
   },
   "active": "9d2eadac9dbfb430",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
-    "Content/Computer Science/Secure Programming/Notes/1.6 Secure Design.md",
-    "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md",
-    "Content/Computer Science/Secure Programming/Notes/1.4 Vulnerability Intelligence.md",
-    "Content/Computer Science/Secure Programming/Notes/1.7 Threat Modelling.md",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
+    "Content/Computer Science/Secure Programming/Lecture Notes/1.1 OWASP.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.3 Vulnerabilities.md",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.6 Secure Design.md",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.5 Preventing Vulnerabilities.md",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.4 Vulnerability Intelligence.md",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.7 Threat Modelling.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Notes/1.4 Spiral.md",
     "Content/Computer Science/Software Development & Project/Notes/1.2 Waterfall.md",
@@ -205,9 +210,9 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.pdf",
     "Images/Software Testing Flowchart.png",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
-    "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.2 Three Ps of Software Security.md",
     "Images/210324-social-post-3Ps.png",
-    "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.1 A Need for Security.md",
     "Content/AI Prompt.md",
     "Templates/Consider.md",
     "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
@@ -216,11 +221,10 @@
     "Content/Computer Science/Software Development & Project/Untitled.md",
     "Content/Computer Science/Software Development & Project/Notes",
     "Content/Projects/Factorio/Space Need.md",
-    "Content/Computer Science/Secure Programming/Notes",
+    "Content/Computer Science/Secure Programming/Rangeforce Notes",
     "Content/Computer Science/Secure Programming/Untitled.md",
     "Content/Computer Science/Software Development & Project",
     "Content/Computer Science/Operating Systems",
-    "Content/Computer Science/Secure Programming",
     "Content/Projects/Wiki/The Quality-Compatibility Scale.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/9.2 Dijkstra's Algorithm.md",
@@ -228,7 +232,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.2 Turing Machines.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
     "Untitled 2.canvas",
