@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md",
+                "file": "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -30,7 +30,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md"
+                "file": "Content/Computer Science/Secure Programming/Textbook.pdf"
               }
             }
           }
@@ -180,12 +181,13 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "74cb8c3a1246f80e",
+  "active": "9d2eadac9dbfb430",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Notes/1.4 Vulnerability Intelligence.md",
     "Content/Computer Science/Secure Programming/Notes/1.3 Vulnerabilities.md",
-    "Content/Computer Science/Secure Programming/Notes/1.7 Threat Modelling.md",
     "Content/Computer Science/Secure Programming/Notes/1.6 Secure Design.md",
+    "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md",
+    "Content/Computer Science/Secure Programming/Notes/1.4 Vulnerability Intelligence.md",
+    "Content/Computer Science/Secure Programming/Notes/1.7 Threat Modelling.md",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Notes/1.4 Spiral.md",
@@ -203,7 +205,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.pdf",
     "Images/Software Testing Flowchart.png",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
-    "Content/Computer Science/Secure Programming/Notes/1.5 Preventing Vulnerabilities.md",
     "Content/Computer Science/Secure Programming/Notes/1.2 Three Ps of Software Security.md",
     "Images/210324-social-post-3Ps.png",
     "Content/Computer Science/Secure Programming/Notes/1.1 A Need for Security.md",
