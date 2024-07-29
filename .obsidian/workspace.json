@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b53d0f9b419998e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Computer Science.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -174,6 +187,7 @@
   },
   "active": "0e31ba7246619a0d",
   "lastOpenFiles": [
+    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
     "Content/Computer Science/Computer Systems/Notes/1.1 Boolean Logic.md",
     "Content/Computer Science/Computer Systems/Notes/1.2 Logic Gates.md",
@@ -219,7 +233,6 @@
     "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction (1).pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction.epub",
-    "Content/Computer Science/Software Development & Project/Untitled.md",
     "Content/Computer Science/Software Development & Project/Notes",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
