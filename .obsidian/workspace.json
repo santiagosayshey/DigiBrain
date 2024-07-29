@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md"
               }
             }
           }
@@ -209,9 +209,9 @@
   },
   "active": "556dc65b558145ec",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Daily Standup.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
-    "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5.1 Scrum Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
