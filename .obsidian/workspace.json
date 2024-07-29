@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
-                "mode": "preview",
+                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Virtualisation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797,
-    "collapsed": true
+    "width": 372.50499725341797
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Virtualisation.md"
               }
             }
           }
@@ -187,8 +186,9 @@
   },
   "active": "0e31ba7246619a0d",
   "lastOpenFiles": [
-    "Images/fff-378-junction-refinery.mp4",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
+    "Content/Computer Science/Operating Systems/Notes/1.2 Virtualisation.md",
+    "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
     "Images/fff-378-junction-refinery.gif",
     "Content/Computer Science/Computer Science.md",
@@ -233,7 +233,6 @@
     "Content/AI Prompt.md",
     "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
     "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction (1).pdf",
-    "Content/Computer Science/Software Development & Project/scrum_a_breathtakingly_brief_and_agile_introduction.epub",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
     "Untitled 2.canvas",
