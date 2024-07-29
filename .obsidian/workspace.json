@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Virtualisation.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Virtualisation.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md"
               }
             }
           }
@@ -187,12 +187,12 @@
   },
   "active": "0e31ba7246619a0d",
   "lastOpenFiles": [
+    "Content/Computer Science/Computer Science.md",
+    "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
-    "Content/Computer Science/Operating Systems/Notes/1.2 Virtualisation.md",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
     "Images/fff-378-junction-refinery.gif",
-    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Computer Systems/Notes/1.1 Boolean Logic.md",
     "Content/Computer Science/Computer Systems/Notes/1.2 Logic Gates.md",
     "Content/Computer Science/Computer Systems/Notes/11.1 Signals & Caching.md",
