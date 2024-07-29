@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797
+    "width": 372.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md"
               }
             }
           }
@@ -186,8 +187,8 @@
   },
   "active": "0e31ba7246619a0d",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
+    "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
