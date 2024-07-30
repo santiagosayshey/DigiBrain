@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797
+    "width": 372.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md"
               }
             }
           }
@@ -173,6 +174,7 @@
   },
   "active": "bcd9cf828a50f02c",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
     "Images/Pasted image 20240730073149.png",
@@ -193,7 +195,6 @@
     "Content/Computer Science/Computer Systems/Notes/11.1 Signals & Caching.md",
     "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
     "Content/Computer Science/Operating Systems/Notes",
-    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Notes/1.3 Agile.md",
     "Content/Computer Science/Software Development & Project/Notes/1.4 Spiral.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Daily Standup.md",
