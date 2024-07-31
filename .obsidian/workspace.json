@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md"
+                "file": "Content/Computer Science/Software Development & Project/Project/Brainstorming.md"
               }
             }
           }
@@ -184,13 +183,13 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "ba2dfe464706a72f",
+  "active": "bcd9cf828a50f02c",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
     "Content/Computer Science/Software Development & Project/Project/Brainstorming.md",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
     "Content/Computer Science/Software Development & Project/Project",
     "Content/Computer Science/Software Development & Project/Notes/2.3 Behaviour Driven Development.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
     "Content/Computer Science/Software Development & Project/Notes/2.1 Technical Debt.md",
     "Content/Computer Science/Software Development & Project/Notes/1.9 Acceptance Criteria & DoD.md",
     "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",

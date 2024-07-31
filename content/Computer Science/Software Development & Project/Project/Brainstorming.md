@@ -34,4 +34,31 @@ Additional considerations:
    - Opportunity to work with novel metrics and analysis techniques
    - Requires balancing data analysis with user-friendly presentation
 
-Each project offers unique challenges and learning opportunities. Your team's decision should consider your collective skills, interests, and career goals, as well as the potential for creating an impressive portfolio piece.
+# Meeting
+
+1. Quick Project Rundown (5 mins)
+   - Briefly recap each project option
+
+2. Initial Gut Reactions (5 mins)
+   - Go around and share first impressions
+   - Which one caught your eye and why?
+   - Does anyone have a preference of what they want to do?
+
+3. Skills Check (10 mins)
+   - What skills do we have as a team?
+   - How do they match up with each project?
+   - Any skills we're excited to learn?
+
+6. Challenges and Concerns (10 mins)
+   - What might be tricky about each project?
+   - Any we feel are too hard or too easy?
+
+10. Voting Time! (5 mins)
+    - Everyone picks their top 2 choices
+    - Discuss results and try to reach a consensus
+
+11. Next Steps (5 mins)
+    - What info do we need to get started?
+    - Any questions for the project sponsors?
+
+Remember, keep it light and fun! This is a chance to get excited about your project. Feel free to add snacks, music, or anything else that'll make the meeting enjoyable for everyone. Good luck with your decision!
