@@ -7,6 +7,7 @@
 | No-Code Solution for InfluxDB          | JavaScript, Web dev frameworks, InfluxDB, Grafana     | What: Create a no-code interface for InfluxDB queries and visualization<br>How: Develop a web-based drag-and-drop interface<br>Why: Make time-series data analysis accessible to non-programmers<br>For: Data analysts, business users                                  | Practical application, Full-stack development, Data visualization    | Requires understanding of InfluxDB and Grafana               | Web Development, Database Management, UX Design        | Medium      |
 | SecuFlow Miner                         | Python, Git, Web development, Data analysis libraries | What: Build a tool to analyze developer-security engineer interactions<br>How: Mine repository data, apply provided metric, visualize results<br>Why: Improve software security through better team collaboration<br>For: Software development teams, security managers | Real-world application, Data mining, Security focus                  | Vague requirements, Relies on provided metric                | Data Analysis, Software Security, Web Development      | Medium-High |
 
+
 Additional considerations:
 
 1. Rail Break Prediction AI:
