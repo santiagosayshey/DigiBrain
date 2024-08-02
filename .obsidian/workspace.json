@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md"
               }
             }
           }
@@ -199,10 +199,11 @@
   },
   "active": "bcd9cf828a50f02c",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
+    "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
     "Images/Requirements Engineering Process.png",
     "Content/Computer Science/Software Development & Project/Notes/1.4 Agile.md",
     "Content/Computer Science/Software Development & Project/Notes/1.3 Spiral.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.1 Buffer Overflows.md",
     "Content/Computer Science/Software Development & Project/Project/Brainstorming.md",
     "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
@@ -238,7 +239,6 @@
     "Content/Computer Science/Operating Systems/Notes",
     "Images/Agile Model.png",
     "Images/Waterfall Model 1.png",
-    "Images/Waterfall Model.png",
     "Content/Computer Science/Secure Programming/Project",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.3 Attack Trees.pdf",
