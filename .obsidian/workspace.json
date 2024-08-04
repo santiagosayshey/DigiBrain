@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md"
               }
             }
           }
@@ -213,10 +213,12 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
+    "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
+    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Daily Standup.md",
     "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
     "Content/Computer Science/Software Development & Project/Notes/2.3 Behaviour Driven Development.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
     "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Software Development & Project/Project/Brainstorming.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.1 Buffer Overruns.md",
@@ -236,7 +238,6 @@
     "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
     "Content/Computer Science/Software Development & Project/Notes/1.8 Sprint Planning and Execution.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
-    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
     "Images/Pasted image 20240730073149.png",
@@ -246,7 +247,6 @@
     "Images/OS Mode Switching 1.png",
     "Images/OS Mode Switching.png",
     "Images/Pasted image 20240730062810.png",
-    "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
     "Images/fff-378-junction-refinery.gif",
