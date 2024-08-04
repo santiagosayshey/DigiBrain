@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -264,6 +264,8 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
+    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Images/Pasted image 20240804233424.png",
     "Images/Pasted image 20240804233056.png",
     "Images/Pasted image 20240804232754.png",
@@ -273,9 +275,7 @@
     "Images/Pasted image 20240804232631.png",
     "Images/Pasted image 20240804232600.png",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
-    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.1 Buffer Overruns.md",
-    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
@@ -300,7 +300,6 @@
     "Images/Requirements Engineering Process.png",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/Pasted image 20240730073149.png",
-    "Images/System Structure 1.png",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
     "Content/Computer Science/Operating Systems/Notes",
