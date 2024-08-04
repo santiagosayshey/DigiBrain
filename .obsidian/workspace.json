@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md"
               }
             }
           }
@@ -213,6 +213,8 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.6 Daily Standup.md",
+    "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
     "Content/Computer Science/Software Development & Project/Notes/2.3 Behaviour Driven Development.md",
     "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
     "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
@@ -227,7 +229,6 @@
     "Content/Computer Science/Software Development & Project/Notes/1.3 Spiral.md",
     "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
     "Content/Computer Science/Secure Programming/Project/Brainstorming.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.md",
     "Content/Computer Science/Software Development & Project/Project",
     "Content/Computer Science/Software Development & Project/Notes/2.1 Technical Debt.md",
@@ -235,7 +236,6 @@
     "Content/Computer Science/Software Development & Project/Notes/1.7 User Stories.md",
     "Content/Computer Science/Software Development & Project/Notes/1.8 Sprint Planning and Execution.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
-    "Content/Computer Science/Software Development & Project/Notes/1.6 Daily Standup.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
