@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Computer Systems/Notes/6.1 Stack Machines & Arithmetic.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Computer Systems/Notes/6.1 Stack Machines & Arithmetic.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md"
               }
             }
           }
@@ -239,6 +239,8 @@
   "active": "0f6514d9fe9ff0a0",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
+    "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
+    "Content/Computer Science/Computer Systems/Notes/6.1 Stack Machines & Arithmetic.md",
     "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
     "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
@@ -262,8 +264,6 @@
     "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Daily Standup.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.3 Behaviour Driven Development.md",
     "Images/Requirements Engineering Process.png",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/Pasted image 20240730073149.png",
