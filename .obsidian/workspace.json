@@ -201,9 +201,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -223,10 +221,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "3f08b5d4ab534741",
+  "active": "78df8c00d10661e2",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.4 Server-Side Request Forgery.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md",
