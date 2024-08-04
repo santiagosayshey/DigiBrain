@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md"
               }
             }
           }
@@ -238,9 +238,10 @@
   },
   "active": "0f6514d9fe9ff0a0",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/AI Prompt.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.4 Server-Side Request Forgery.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
@@ -263,7 +264,6 @@
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.1 Buffer Overruns.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.3 Integer Overflow.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.2 Format String Attacks.md",
-    "Content/Computer Science/Secure Programming/Rangeforce Notes/1.7 Threat Modelling.md",
     "Images/Requirements Engineering Process.png",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/Pasted image 20240730073149.png",
