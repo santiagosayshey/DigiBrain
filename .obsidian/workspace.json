@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md"
               }
             }
           }
@@ -213,6 +213,7 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
@@ -241,7 +242,6 @@
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
     "Images/Pasted image 20240730073149.png",
-    "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Images/System Structure 1.png",
     "Images/System Structure.png",
     "Images/OS Mode Switching 1.png",
