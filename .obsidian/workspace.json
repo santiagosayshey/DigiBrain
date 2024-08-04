@@ -39,8 +39,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
-                "mode": "preview",
+                "file": "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "068ae0d7c0726925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -228,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md"
               }
             }
           }
@@ -252,11 +265,11 @@
   "active": "0f6514d9fe9ff0a0",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
+    "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Computer Systems/Notes/5.1 Assemblers.md",
     "Content/Computer Science/Computer Systems/Notes/4.1 Computer Architecture.md",
     "Content/Computer Science/Computer Systems/Notes/6.1 Stack Machines & Arithmetic.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
-    "Content/Computer Science/Operating Systems/Notes/1.5 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
     "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
