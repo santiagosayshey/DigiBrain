@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
+                "file": "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md"
+                "file": "Content/Computer Science/Operating Systems/Assignments/Minishell.md"
               }
             }
           }
@@ -264,8 +264,10 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
+    "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
+    "Content/Computer Science/Operating Systems/Assignments",
+    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Images/Pasted image 20240804233424.png",
     "Images/Pasted image 20240804233056.png",
     "Images/Pasted image 20240804232754.png",
@@ -309,7 +311,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.pdf",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
-    "Content/Computer Science/Software Development & Project/Chris Sims, Hillary Louise Johnson - The Elements of Scrum.pdf",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
     "Untitled 2.canvas",
