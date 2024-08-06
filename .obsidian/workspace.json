@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Rangeforce Notes/3.1 x86.md",
+                "file": "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Rangeforce Notes/3.1 x86.md"
+                "file": "Content/Computer Science/Operating Systems/Assignments/Minishell.md"
               }
             }
           }
@@ -264,8 +264,8 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/3.1 x86.md",
+    "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
     "Content/Computer Science/Docker/Notes/1. Containerisation.md",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
