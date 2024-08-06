@@ -19,18 +19,18 @@ foo@bar:/ $
 ```
 foo@bar:/ $ ./minishell
 sleep 8 &
-[1] 10963
+[1] 11033
 sleep 7 &
-[2] 10964
+[2] 11034
 sleep 6 &
-[3] 10965
+[3] 11035
 sleep 5 &
-[4] 10966
+[4] 11036
 ls
+Makefile  README.md  even.c  minishell  minishell.c  temp
 [1]  Done sleep 8
 [2]  Done sleep 7
 [3]- Done sleep 6
 [4]+ Done sleep 5
-Makefile  README.md  even.c  minishell  minishell.c  temp
 
 ```
