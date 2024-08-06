@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
+                "file": "Content/Computer Science/Docker/Notes/1. Containerisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Assignments/Minishell.md"
+                "file": "Content/Computer Science/Docker/Notes/1. Containerisation.md"
               }
             }
           }
@@ -264,8 +264,11 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
+    "Content/Computer Science/Docker/Notes/1. Containerisation.md",
+    "Content/Computer Science/Docker/Notes",
+    "Content/Computer Science/Docker",
+    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Assignments",
     "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Images/Pasted image 20240804233424.png",
@@ -298,7 +301,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/1.2 Three Ps of Software Security.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.5 Risks.md",
-    "Content/Computer Science/Secure Programming/Rangeforce Notes/2.4 Race Conditions.md",
     "Images/Requirements Engineering Process.png",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/Pasted image 20240730073149.png",
@@ -308,8 +310,6 @@
     "Content/Computer Science/Secure Programming/Project",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.3 Attack Trees.pdf",
-    "Content/Computer Science/Secure Programming/Lecture Notes",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/1.1 Software Processes.pdf",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
