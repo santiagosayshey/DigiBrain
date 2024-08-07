@@ -39,24 +39,28 @@
  
 > [!example] Question 3
 > Draw a diagram that illustrate the transitions of a process state for
-> a) a non pre-emptive scheduler
-> b) a pre-emptive scheduler
+> **a)** a non pre-emptive scheduler
+> **b)** a pre-emptive scheduler
 > 
-> ![[Tutorial 1, 3a,b.png]]
+> ![[Tutorial 1, 3a,b.png|800]]
+> **c)** Give two reasons to support pre-emption.
 >
 > **Answer:**
->
-> Give two reasons to support pre-emption.
->
-> **Answer:**
+> - Improved system responsiveness: Preemption allows shorter or higher-priority tasks to be executed more quickly, reducing average response time.
+> - Fair CPU time distribution: Preemption prevents long-running processes from monopolizing the CPU, ensuring all processes get a share of processing time.
 
 > [!example] Question 4
 > The table below describes the CPU-I/O Burst cycles for processes P1, P2 and P3. Assume 0 is the highest priority.
 >
-> [Table from the image]
+> | Process | Priority | Arrival time | CPU Burst 1 | I/O Burst 1 | CPU Burst 2 | I/O Burst 2 | CPU Burst 3 |
+> |---------|----------|--------------|-------------|--------------|-------------|--------------|-------------|
+> | P1      | 1        | 0            | 10          | 4            | 12          | -            | -           |
+> | P2      | 0        | 7            | 4           | 10           | 4           | 12           | 2           |
+> | P3      | 2        | 4            | 6           | 2            | 6           | -            | -           |
 >
 > (a) Draw the Gantt chart timeline, illustrating the interleaving of processes, and calculate the average waiting time for each process under
 > 1. a non pre-emptive priority scheduling algorithm
 > 2. a round robin scheduling algorithm with quantum = 6.
 >
 > **Answer:**
+
