@@ -3,7 +3,9 @@
 >
 > **Answer:**
 > 
-> OSes have two distinct modes that define the usage of privileged actions. Kernel mode is reserved for the OS's kernel, and essentially allows complete control over everything. Everything else runs in user mode, and must defer t 
+> OSes have two distinct modes that define the usage of privileged actions. Kernel mode is reserved for the OS's kernel, and essentially allows complete control over everything. Everything else runs in user mode, and must defer to the kernel in order to complete a privileged action. This is done primarily through system calls. It is almost analogous to a child asking for their parent's hand when crossing the road. 
+> 
+> The separation of these two modes is important, because user programs must be limited in their ability to affect critical system controls or control hardware. They have the oppurtunity to monopolise resources, lock other programs out or break hardware. 
 >
 > (b) Which of the following instructions should be allowed only in kernel mode
 > 1- disable all interrupts
