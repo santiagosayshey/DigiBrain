@@ -63,4 +63,6 @@
 > 2. a round robin scheduling algorithm with quantum = 6.
 >
 > **Answer:**
+> 
+> ![[Tutorial 1, 4.png|600]]
 
