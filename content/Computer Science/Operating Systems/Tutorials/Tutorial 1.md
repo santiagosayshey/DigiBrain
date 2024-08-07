@@ -21,7 +21,7 @@
 > Change the memory map - Kernel mode. Another obvious one. Being able to change the layout of memory should be reserved for the kernel. It has the ability to cause catastrophic issues for the computer if a user could control it. Overwriting, losing important data, leaking it, etc.
 
 > [!example] Question 2
-> (a) What is the main difference between a process and a thread?
+> **(a)** What is the main difference between a process and a thread?
 >
 > **Answer:**
 > 
@@ -31,9 +31,11 @@
 > 
 > 
 >
-> (b) In a system with threads, is there normally one stack per thread or one stack per process? Explain
+> **(b)** In a system with threads, is there normally one stack per thread or one stack per process? Explain
 >
 > **Answer:**
+> 
+> There is 1 stack per thread. Each stack
 
 > [!example] Question 3
 > Draw a diagram that illustrate the transitions of a process state for
