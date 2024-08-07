@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md"
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md"
               }
             }
           }
@@ -301,8 +301,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "c4c95bd87c17e1d6",
+  "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
+    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Images/Tutorial 1, 3a,b.png",
