@@ -17,12 +17,15 @@
 > **Answer:**
 > Disable all interrupts - Kernel mode. If a user program could disable all interrupts, they can essentially monopolise the OS.
 > Read the time of day - User mode. Read operations should be available to all user programs for basic things like time of day. If we wanted to read more sensitive data like user passwords, then we would want to defer to kernel mode.
-> Set the time of day - Kernel mode. Obvious really. 
+> Set the time of day - Kernel mode. Obvious really. The OS should have control over a resource that affects all programs.
+> Change the memory map - Kernel mode. Another obvious one. Being able to change the layout of memory should be reserved for the kernel. It has the ability to cause catastrophic issues for the computer if a user could control it. Overwriting, losing important data, leaking it, etc.
 
 > [!example] Question 2
 > (a) What is the main difference between a process and a thread?
 >
 > **Answer:**
+> 
+> A process is a program in execution. It 
 >
 > (b) In a system with threads, is there normally one stack per thread or one stack per process? Explain
 >
