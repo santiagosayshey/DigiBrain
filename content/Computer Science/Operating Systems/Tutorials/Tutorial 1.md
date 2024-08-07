@@ -41,6 +41,8 @@
 > Draw a diagram that illustrate the transitions of a process state for
 > a) a non pre-emptive scheduler
 > b) a pre-emptive scheduler
+> 
+> ![[Tutorial 1, 3a,b.png]]
 >
 > **Answer:**
 >
