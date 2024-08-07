@@ -35,8 +35,8 @@
 >
 > **Answer:**
 > 
-> There is 1 stack per thread. Each stack
-
+> There is 1 stack per thread. Each thread has access it's own local variables, function call data, etc, except they all share the same bit of heap memory that allows them to "communicate" with each other. If threads did have the same shared stack (as you might intuitively deduce), it would be almost impossible for them to execute simultaneously. Each thread pushing and popping and writing and reading  from the same moat the same time is largely impossible. 
+ 
 > [!example] Question 3
 > Draw a diagram that illustrate the transitions of a process state for
 > a) a non pre-emptive scheduler
