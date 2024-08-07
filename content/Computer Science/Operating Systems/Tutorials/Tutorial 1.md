@@ -25,9 +25,11 @@
 >
 > **Answer:**
 > 
-> A process is a program in execution. It sequence of instructions, that operates using the same subset of memory. A thread is a subset of a process, where each thread executes its own unique set of instructions, but uses the same subset of memory that every other thread in a process uses.
+> Programs are a consecutive sequence of instructions that tell a computer to do something. A process is a program in execution. Each process has it's own unique subset of unique memory space, meaning instructions belonging to the same process share the same memory.
 > 
-> In the same way that CPU virtualisation allows processes to run concurrently, threads allow different tasks within a process to also run concurrently.
+  A thread is a subset of a process, where each thread executes its own unique set of instructions, but uses the same subset of memory that every other thread in a process uses.
+> 
+> 
 >
 > (b) In a system with threads, is there normally one stack per thread or one stack per process? Explain
 >
