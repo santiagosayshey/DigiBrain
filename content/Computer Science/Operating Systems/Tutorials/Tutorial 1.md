@@ -1,19 +1,23 @@
 > [!example] Question 1
-> (a) What is the difference between kernel mode and user mode? Why is the difference important to an OS?
+> **(a)** What is the difference between kernel mode and user mode? Why is the difference important to an OS?
 >
 > **Answer:**
 > 
 > OSes have two distinct modes that define the usage of privileged actions. Kernel mode is reserved for the OS's kernel, and essentially allows complete control over everything. Everything else runs in user mode, and must defer to the kernel in order to complete a privileged action. This is done primarily through system calls. It is almost analogous to a child asking for their parent's hand when crossing the road. 
 > 
-> The separation of these two modes is important, because user programs must be limited in their ability to affect critical system controls or control hardware. They have the oppurtunity to monopolise resources, lock other programs out or break hardware. 
+> The separation of these two modes is important, because user programs must be limited in their ability to affect critical system controls or control hardware. They have the opportunity to monopolise resources, lock other programs out or control hardware. 
 >
-> (b) Which of the following instructions should be allowed only in kernel mode
+> **(b)** Which of the following instructions should be allowed only in kernel mode
+> 
 > 1- disable all interrupts
 > 2- read the time-of-day clock
 > 3- set the time-of-day clock
 > 4- change the memory map
 >
 > **Answer:**
+> Disable all interrupts - Kernel mode. If a user program could disable all interrupts, they can essentially monopolise the OS.
+> Read the time of day - User mode. Read operations should be available to all user programs for basic things like time of day. If we wanted to read more sensitive data like user passwords, then we would want to defer to kernel mode.
+> Set the time of day - Kernel mode. Obvious really. 
 
 > [!example] Question 2
 > (a) What is the main difference between a process and a thread?
