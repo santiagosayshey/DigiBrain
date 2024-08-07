@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
+                "file": "Content/Computer Science/Computer Science.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md"
+                "file": "Content/Computer Science/Computer Science.md"
               }
             }
           }
@@ -303,9 +303,11 @@
   },
   "active": "3f08b5d4ab534741",
   "lastOpenFiles": [
+    "Images/Pasted image 20240808012358.png",
+    "Images/Pasted image 20240808012349.png",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Images/Tutorial 1, 4.png",
     "Content/Computer Science/Computer Science.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Images/Tutorial 1, 3a,b.png",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/2.1 Buffer Overruns.md",
@@ -330,7 +332,6 @@
     "Images/Pasted image 20240804232706.png",
     "Images/Pasted image 20240804232643.png",
     "Images/Pasted image 20240804232631.png",
-    "Images/Pasted image 20240804232600.png",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
@@ -342,7 +343,6 @@
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
-    "Images/Requirements Engineering Process.png",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
