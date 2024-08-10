@@ -11,14 +11,12 @@
             "id": "c65c9328f65d0166",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas",
-                "viewState": {
-                  "x": 139.16722204147416,
-                  "y": 69.90647726510451,
-                  "zoom": -1
-                }
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas"
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md"
               }
             }
           }
@@ -174,6 +172,8 @@
   },
   "active": "c65c9328f65d0166",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/3.4 Git.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Architecture.png",
@@ -213,7 +213,6 @@
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
-    "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
