@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"id":"390f7a53c74434ba","x":220,"y":-520,"width":780,"height":500,"type":"group","label":"Web Application"},
+		{"id":"390f7a53c74434ba","x":220,"y":-710,"width":780,"height":930,"type":"group","label":"Web Application"},
 		{"id":"2d5bed82d12eb15c","type":"group","x":-640,"y":-460,"width":680,"height":420,"color":"#0084ff","label":"Database"},
 		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-619,"y":-389,"width":250,"height":60},
 		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-619,"y":-280,"width":250,"height":60},
 		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-619,"y":-180,"width":250,"height":60},
 		{"id":"27f023873b646f0f","type":"text","text":"GitHub DB Repo - Primary DB","x":-280,"y":-280,"width":280,"height":60},
-		{"id":"b007fa6bddc39216","type":"text","text":"Express Backend","x":490,"y":-310,"width":250,"height":60},
-		{"id":"29b8449ccac0bf47","type":"text","text":"Hetzner Local Storage - Cache","x":475,"y":-469,"width":280,"height":60},
-		{"id":"f1941922960514ca","type":"text","text":"Frontend","x":490,"y":-120,"width":250,"height":60}
+		{"id":"29b8449ccac0bf47","type":"text","text":"Hetzner Local Storage - Cache","x":475,"y":-659,"width":280,"height":60},
+		{"id":"b007fa6bddc39216","type":"text","text":"**Express Backend**\n- Process Data\n- Render Dynamic Web Pages\n- Generate Dynamic Quality Profiles","x":490,"y":-500,"width":250,"height":220},
+		{"id":"f1941922960514ca","type":"text","text":"### **Frontend**\n\n- **Dynamically Render Data from Backend**: The frontend fetches data from the Express backend and uses it to render pages dynamically based on user interactions.\n- Profile Selector to create dynamic quality pr A profile selector interface allows users to choose from various options, which triggers the necessary data fetches and renders the selected profiles.","x":340,"y":-180,"width":560,"height":320}
 	],
 	"edges":[
 		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
@@ -17,6 +17,8 @@
 		{"id":"06373d3b82e0fd71","fromNode":"69b1997425777c1c","fromSide":"right","toNode":"27f023873b646f0f","toSide":"left"},
 		{"id":"ae09ff027556cc0e","fromNode":"d7f0148534b72305","fromSide":"bottom","toNode":"69b1997425777c1c","toSide":"top"},
 		{"id":"fa7d886e581bd9ee","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"29b8449ccac0bf47","toSide":"left","fromEnd":"arrow","label":"Fetch Data via GitHub API"},
-		{"id":"eed3cf4f32d5907a","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"b007fa6bddc39216","toSide":"top"}
+		{"id":"eed3cf4f32d5907a","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"b007fa6bddc39216","toSide":"top"},
+		{"id":"40b16420c292e877","fromNode":"f1941922960514ca","fromSide":"left","toNode":"b007fa6bddc39216","toSide":"left","label":"Request Data"},
+		{"id":"5be44aa1bd8dfb94","fromNode":"b007fa6bddc39216","fromSide":"right","toNode":"f1941922960514ca","toSide":"right","label":"Receive data"}
 	]
 }
