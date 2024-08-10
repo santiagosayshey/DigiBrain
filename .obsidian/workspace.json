@@ -15,9 +15,9 @@
               "state": {
                 "file": "Content/Projects/Dictionarry/Architecture.canvas",
                 "viewState": {
-                  "x": -3.7049879642768246,
-                  "y": 97.64791744678905,
-                  "zoom": -1
+                  "x": -285.4879068188932,
+                  "y": 948.2738302265799,
+                  "zoom": -0.5
                 }
               }
             }
@@ -174,8 +174,9 @@
   },
   "active": "c65c9328f65d0166",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md",
+    "Untitled.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
+    "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/3.2 Numeral Systems.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/2.1 Applied Cryptography.md",
@@ -213,7 +214,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
-    "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
