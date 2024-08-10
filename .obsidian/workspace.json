@@ -11,12 +11,14 @@
             "id": "c65c9328f65d0166",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Content/Projects/Dictionarry/Architecture.canvas",
+                "viewState": {
+                  "x": 594.3731754389205,
+                  "y": 825.7738875569719,
+                  "zoom": -1.0228694124458737
+                }
               }
             }
           }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md"
+                "file": "Content/Projects/Dictionarry/Architecture.canvas"
               }
             }
           }
@@ -173,12 +175,13 @@
   },
   "active": "c65c9328f65d0166",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
+    "Content/Projects/Factorio/Space Need.md",
     "Content/Computer Science/Software Development & Project/Notes/3.2 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
     "Content/Computer Science/Software Development & Project/Notes/3.4 Basic Tooling.md",
     "Content/Computer Science/Software Development & Project/Notes/3.5 Communication.md",
+    "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
+    "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.4 Git.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
@@ -205,7 +208,6 @@
     "Content/Computer Science/Operating Systems/Tutorials",
     "Content/Computer Science/Operating Systems/Assignments/Untitled.md",
     "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
-    "Content/Computer Science/Secure Programming/Rangeforce Notes/3.1 x86.md",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
     "Content/Computer Science/Operating Systems/Assignments",
