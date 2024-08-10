@@ -1,12 +1,11 @@
 {
 	"nodes":[
 		{"id":"390f7a53c74434ba","type":"group","x":160,"y":-1040,"width":1000,"height":1420,"label":"Web Application"},
-		{"id":"ec9882c97428d4b1","type":"group","x":-380,"y":520,"width":660,"height":1070,"label":"Profilarr"},
-		{"id":"a99de990151fa227","type":"group","x":-1100,"y":520,"width":660,"height":1070},
+		{"id":"ec9882c97428d4b1","type":"group","x":-560,"y":580,"width":660,"height":1070,"label":"Profilarr"},
 		{"id":"2d5bed82d12eb15c","type":"group","x":-680,"y":-268,"width":700,"height":648,"label":"Database"},
 		{"id":"2aa944bcc468128b","type":"group","x":380,"y":-960,"width":560,"height":763,"label":"Backend"},
 		{"id":"568f747a2a5e22c4","type":"group","x":380,"y":-140,"width":560,"height":460,"label":"Frontend"},
-		{"id":"f675525f9aac026d","type":"group","x":480,"y":869,"width":300,"height":373,"label":"Arr Suite"},
+		{"id":"f675525f9aac026d","type":"group","x":510,"y":1277,"width":300,"height":373,"label":"Arr Suite"},
 		{"id":"a97288f7144ec25b","type":"text","text":"### **Website**\n\n**Dynamically Render Data from Backend**: The frontend fetches data from the Express backend and uses it to render pages dynamically based on user interactions.","x":420,"y":-100,"width":480,"height":160},
 		{"id":"b65530f55febd01f","type":"text","text":"### **Profile Selector**\n\n**Create dynamic quality profiles** - A profile selector interface allows users to choose from various options, which triggers the necessary data fetches and renders the selected profiles.","x":420,"y":100,"width":480,"height":180},
 		{"id":"b007fa6bddc39216","type":"text","text":"### **Express**\n\n**Process Data:** The backend handles the processing of JSON files, such as extracting relevant information (e.g., regex patterns, profile data).\n\n**Render Dynamic Web Pages:** It generates and serves dynamically rendered web pages based on the processed data.\n\n**Generate Dynamic Quality Profiles**: The backend combines and processes different JSON files to generate customized quality profiles. Sent back as JSON, to be imported via profilarr.","x":420,"y":-616,"width":480,"height":375},
@@ -15,13 +14,14 @@
 		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-659,"y":-90,"width":125,"height":60},
 		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-659,"y":19,"width":125,"height":60},
 		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-659,"y":119,"width":125,"height":60},
-		{"id":"605f4daac5955a92","type":"text","text":"### **Database**\n\n**Local database** that mirrors the contents of the remote GitHub repository. This local database allows users to edit and customize the data independently of the remote source, providing flexibility for personal configurations. Users can modify regex patterns, custom formats, and profiles without affecting the original data in the remote repository. Does not sync entire quality profiles, only custom format and regex changes. ","x":-320,"y":553,"width":540,"height":272},
-		{"id":"9431494b5421397e","type":"text","text":"### **Compiler**\n\nProfilarr **compiles** the received JSON into the specific formats required by Radarr and Sonarr. During this process, it automatically adjusts the JSON to conform to the syntax and structure expected by each application. This includes renaming fields, reformatting data structures, and applying necessary transformations","x":-320,"y":910,"width":540,"height":272},
-		{"id":"bdb190f0cb4da524","type":"text","text":"### **Import Tool**\n\n**Import Configurations**: Once the JSON has been compiled, Profilarr uses the APIs of Radarr and Sonarr to import the configurations directly into these applications. The process is fully automated, ensuring that the configurations are applied correctly without requiring manual intervention from the user.","x":-320,"y":1253,"width":540,"height":272},
-		{"id":"bbad01aec7f177fa","type":"text","text":"# **Radarr**","x":520,"y":929,"width":220,"height":60},
-		{"id":"a6e9c371f9e42ef7","type":"text","text":"# **Lidarr**","x":520,"y":1141,"width":220,"height":60},
-		{"id":"07cb60443145b505","type":"text","text":"# **End User**","x":660,"y":654,"width":240,"height":71},
-		{"id":"23881ee3c68b6114","type":"text","text":"# **Sonarr**","x":520,"y":1040,"width":220,"height":60}
+		{"id":"c66a804050fc15a1","type":"text","text":"# **Plex**","x":920,"y":1131,"width":220,"height":60},
+		{"id":"9431494b5421397e","type":"text","text":"### **Compiler**\n\nProfilarr **compiles** the received JSON into the specific formats required by Radarr and Sonarr. During this process, it automatically adjusts the JSON to conform to the syntax and structure expected by each application. This includes renaming fields, reformatting data structures, and applying necessary transformations","x":-500,"y":970,"width":540,"height":272},
+		{"id":"605f4daac5955a92","type":"text","text":"### **Database**\n\n**Local database** that mirrors the contents of the remote GitHub repository. This local database allows users to edit and customize the data independently of the remote source, providing flexibility for personal configurations. Users can modify regex patterns, custom formats, and profiles without affecting the original data in the remote repository. Does not sync entire quality profiles, only custom format and regex changes. Quality profiles must be manually imported via the end user.","x":-500,"y":613,"width":540,"height":287},
+		{"id":"bdb190f0cb4da524","type":"text","text":"### **Import Tool**\n\n**Import Configurations**: Once the JSON has been compiled, Profilarr uses the APIs of Radarr and Sonarr to import the configurations directly into these applications. The process is fully automated, ensuring that the configurations are applied correctly without requiring manual intervention from the user.","x":-500,"y":1340,"width":540,"height":272},
+		{"id":"07cb60443145b505","type":"text","text":"# **End User**","x":540,"y":721,"width":240,"height":71},
+		{"id":"bbad01aec7f177fa","type":"text","text":"# **Radarr**","x":550,"y":1337,"width":220,"height":60},
+		{"id":"a6e9c371f9e42ef7","type":"text","text":"# **Lidarr**","x":550,"y":1549,"width":220,"height":60},
+		{"id":"23881ee3c68b6114","type":"text","text":"# **Sonarr**","x":550,"y":1448,"width":220,"height":60}
 	],
 	"edges":[
 		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
@@ -33,14 +33,18 @@
 		{"id":"eed3cf4f32d5907a","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"b007fa6bddc39216","toSide":"top","fromEnd":"arrow","label":"Access cached data"},
 		{"id":"d7753f69e131a63b","fromNode":"568f747a2a5e22c4","fromSide":"left","toNode":"2aa944bcc468128b","toSide":"left","label":"Request Data"},
 		{"id":"1c4604253fc2cbf9","fromNode":"2aa944bcc468128b","fromSide":"right","toNode":"568f747a2a5e22c4","toSide":"right","label":"Receive Data"},
-		{"id":"f2df794b8c01b93d","fromNode":"605f4daac5955a92","fromSide":"bottom","toNode":"9431494b5421397e","toSide":"top"},
-		{"id":"4cf52baa7bde189c","fromNode":"9431494b5421397e","fromSide":"bottom","toNode":"bdb190f0cb4da524","toSide":"top"},
+		{"id":"f2df794b8c01b93d","fromNode":"605f4daac5955a92","fromSide":"bottom","toNode":"9431494b5421397e","toSide":"top","label":"Read files"},
+		{"id":"4cf52baa7bde189c","fromNode":"9431494b5421397e","fromSide":"bottom","toNode":"bdb190f0cb4da524","toSide":"top","label":"Generate files"},
 		{"id":"f529cfde8671ebbd","fromNode":"27f023873b646f0f","fromSide":"bottom","toNode":"605f4daac5955a92","toSide":"top","label":"Receive Updates"},
 		{"id":"9c3482f255b8e820","fromNode":"b65530f55febd01f","fromSide":"bottom","toNode":"07cb60443145b505","toSide":"top","label":"Generate Quality Profile"},
-		{"id":"e6fc150a21959c01","fromNode":"07cb60443145b505","fromSide":"left","toNode":"605f4daac5955a92","toSide":"right","label":"Import Quality Profile"},
-		{"id":"5677b2f3a85c613f","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"bbad01aec7f177fa","toSide":"left","label":"Import Profile"},
+		{"id":"e6fc150a21959c01","fromNode":"07cb60443145b505","fromSide":"left","toNode":"605f4daac5955a92","toSide":"right","label":"Import Raw Profile"},
+		{"id":"5677b2f3a85c613f","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"bbad01aec7f177fa","toSide":"left","label":"Export Compiled Profile"},
 		{"id":"36b2d91d99db0d51","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"23881ee3c68b6114","toSide":"left"},
 		{"id":"5363fab6e8b6766c","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"a6e9c371f9e42ef7","toSide":"left"},
-		{"id":"13611d6f8e69b45c","fromNode":"07cb60443145b505","fromSide":"bottom","toNode":"f675525f9aac026d","toSide":"top"}
+		{"id":"13611d6f8e69b45c","fromNode":"07cb60443145b505","fromSide":"bottom","toNode":"f675525f9aac026d","toSide":"top"},
+		{"id":"f071721958dd43c6","fromNode":"07cb60443145b505","fromSide":"right","toNode":"c66a804050fc15a1","toSide":"top","label":"Consume media!"},
+		{"id":"126e3c8ff47e429e","fromNode":"c66a804050fc15a1","fromSide":"left","toNode":"bbad01aec7f177fa","toSide":"right"},
+		{"id":"74d124554a3015c0","fromNode":"c66a804050fc15a1","fromSide":"left","toNode":"23881ee3c68b6114","toSide":"right"},
+		{"id":"faf5a56b43dec6a3","fromNode":"c66a804050fc15a1","fromSide":"left","toNode":"a6e9c371f9e42ef7","toSide":"right"}
 	]
 }
