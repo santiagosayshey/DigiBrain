@@ -1,17 +1,20 @@
 {
 	"nodes":[
-		{"id":"390f7a53c74434ba","type":"group","x":160,"y":-845,"width":1000,"height":1070,"label":"Web Application"},
+		{"id":"390f7a53c74434ba","type":"group","x":160,"y":-845,"width":1000,"height":1225,"label":"Web Application"},
+		{"id":"ec9882c97428d4b1","type":"group","x":1260,"y":-845,"width":700,"height":1070,"label":"Profilarr"},
 		{"id":"2d5bed82d12eb15c","type":"group","x":-680,"y":-845,"width":700,"height":648,"label":"Database"},
-		{"id":"ec9882c97428d4b1","type":"group","x":310,"y":340,"width":700,"height":420,"label":"Profilarr"},
+		{"id":"568f747a2a5e22c4","type":"group","x":380,"y":-140,"width":560,"height":460,"label":"Frontend"},
+		{"id":"2aa944bcc468128b","type":"group","x":380,"y":-657,"width":560,"height":460,"label":"Frontend"},
 		{"id":"29b8449ccac0bf47","type":"text","text":"### **Hetzner Local Storage**\n\n **Cache Synced JSON Files**: The local storage on Hetzner holds the JSON files synced from the GitHub repository, acting as a cache for the backend to access and process data efficiently.","x":380,"y":-775,"width":560,"height":159},
-		{"id":"b007fa6bddc39216","type":"text","text":"### **Express Backend**\n\n**Process Data:** The backend handles the processing of JSON files, such as extracting relevant information (e.g., regex patterns, profile data).\n\n**Render Dynamic Web Pages:** It generates and serves dynamically rendered web pages based on the processed data.\n\n**Generate Dynamic Quality Profiles**: The backend combines and processes different JSON files to generate customized quality profiles. Sent back as JSON, to be imported via profilarr.","x":380,"y":-505,"width":560,"height":300},
-		{"id":"f1941922960514ca","type":"text","text":"### **React Frontend**\n\n**Dynamically Render Data from Backend**: The frontend fetches data from the Express backend and uses it to render pages dynamically based on user interactions.\n\n**Profile Selector** to create dynamic quality profiles - A profile selector interface allows users to choose from various options, which triggers the necessary data fetches and renders the selected profiles.","x":380,"y":-115,"width":560,"height":280},
+		{"id":"b007fa6bddc39216","type":"text","text":"### **Express**\n\n**Process Data:** The backend handles the processing of JSON files, such as extracting relevant information (e.g., regex patterns, profile data).\n\n**Render Dynamic Web Pages:** It generates and serves dynamically rendered web pages based on the processed data.\n\n**Generate Dynamic Quality Profiles**: The backend combines and processes different JSON files to generate customized quality profiles. Sent back as JSON, to be imported via profilarr.","x":380,"y":-505,"width":560,"height":300},
 		{"id":"07cb60443145b505","type":"text","text":"### **Parser**\n\n","x":-697,"y":700,"width":420,"height":169},
 		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-659,"y":-667,"width":125,"height":60},
 		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-659,"y":-558,"width":125,"height":60},
 		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-659,"y":-458,"width":125,"height":60},
 		{"id":"27f023873b646f0f","type":"text","text":"### **GitHub Repository**\n\n**Primary Data Source**: The GitHub repository serves as the primary database, storing all JSON files that contain the data for the web application.\n\n**Development-Friendly Format**: These files are stored in a simple, development-friendly format to streamline the creation and maintenance process.\n\n**Single Definition Format**: Regex patterns, custom formats and quality profiles are defined once and referenced using foreign keys. Reduces redundancy and confusion, increases development productivity. ","x":-440,"y":-750,"width":420,"height":444},
-		{"id":"9431494b5421397e","x":420,"y":428,"width":540,"height":272,"type":"text","text":"**Compile Profiles**: Profilarr compiles the JSON from the Profile Selector into the correct format required by applications like Radarr and Sonarr. During this process, Profilarr automatically adjusts the JSON to match the specific syntax and structure required by each application. This includes renaming fields, reformatting data structures, and applying application-specific transformations to ensure that the profiles are fully compatible with Radarr and Sonarr"}
+		{"id":"9431494b5421397e","type":"text","text":"### **Compiler**\n\nProfilarr compiles the received JSON into the specific formats required by Radarr and Sonarr. During this process, it automatically adjusts the JSON to conform to the syntax and structure expected by each application. This includes renaming fields, reformatting data structures, and applying necessary transformations","x":1340,"y":-115,"width":540,"height":272},
+		{"id":"a97288f7144ec25b","type":"text","text":"### **Website**\n\n**Dynamically Render Data from Backend**: The frontend fetches data from the Express backend and uses it to render pages dynamically based on user interactions.","x":420,"y":-100,"width":480,"height":160},
+		{"id":"b65530f55febd01f","type":"text","text":"### **Profile Selector**\n\n**Create dynamic quality profiles** - A profile selector interface allows users to choose from various options, which triggers the necessary data fetches and renders the selected profiles.","x":420,"y":100,"width":480,"height":180}
 	],
 	"edges":[
 		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
@@ -21,7 +24,7 @@
 		{"id":"ae09ff027556cc0e","fromNode":"d7f0148534b72305","fromSide":"bottom","toNode":"69b1997425777c1c","toSide":"top"},
 		{"id":"fa7d886e581bd9ee","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"29b8449ccac0bf47","toSide":"left","fromEnd":"arrow","label":"Fetch data via GitHub API"},
 		{"id":"eed3cf4f32d5907a","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"b007fa6bddc39216","toSide":"top","fromEnd":"arrow","label":"Access cached data"},
-		{"id":"40b16420c292e877","fromNode":"f1941922960514ca","fromSide":"left","toNode":"b007fa6bddc39216","toSide":"left","label":"Request Data"},
-		{"id":"5be44aa1bd8dfb94","fromNode":"b007fa6bddc39216","fromSide":"right","toNode":"f1941922960514ca","toSide":"right","label":"Receive data"}
+		{"id":"d7753f69e131a63b","fromNode":"568f747a2a5e22c4","fromSide":"left","toNode":"b007fa6bddc39216","toSide":"left","label":"Request Data"},
+		{"id":"1c4604253fc2cbf9","fromNode":"b007fa6bddc39216","fromSide":"right","toNode":"568f747a2a5e22c4","toSide":"right","label":"Receive Data"}
 	]
 }
