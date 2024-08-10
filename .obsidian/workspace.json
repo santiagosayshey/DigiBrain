@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797,
-    "collapsed": true
+    "width": 372.50499725341797
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md"
               }
             }
           }
@@ -174,9 +173,10 @@
   },
   "active": "c65c9328f65d0166",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Notes/3.4 Git.md",
-    "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.4 Git.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Architecture.png",
     "Untitled.md",
@@ -214,7 +214,6 @@
     "Images/Pasted image 20240804232706.png",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
-    "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
