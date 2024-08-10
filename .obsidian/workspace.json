@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md"
               }
             }
           }
@@ -173,8 +173,11 @@
   },
   "active": "c65c9328f65d0166",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.2 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
-    "Content/Computer Science/Software Development & Project/Notes/3.2 Tooling.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.4 Basic Tooling.md",
+    "Content/Computer Science/Software Development & Project/Notes/3.5 Communication.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.4 Git.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
@@ -206,14 +209,11 @@
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
     "Content/Computer Science/Operating Systems/Assignments",
-    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Images/Pasted image 20240804233424.png",
     "Images/Pasted image 20240804233056.png",
     "Images/Pasted image 20240804232754.png",
     "Images/Pasted image 20240804232726.png",
     "Images/Pasted image 20240804232706.png",
-    "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
