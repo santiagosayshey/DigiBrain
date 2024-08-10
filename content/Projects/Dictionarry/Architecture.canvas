@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"27f023873b646f0f","x":-480,"y":-280,"width":250,"height":60,"type":"text","text":"Database"},
+		{"id":"27f023873b646f0f","x":-480,"y":-280,"width":250,"height":60,"type":"text","text":"MongoDB Primary"},
 		{"id":"29b8449ccac0bf47","x":185,"y":-486,"width":250,"height":60,"type":"text","text":"Profile Selector"}
 	],
 	"edges":[
-		{"id":"e4d65c1711e605bb","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"29b8449ccac0bf47","toSide":"left","label":"Via API"}
+		{"id":"e4d65c1711e605bb","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"29b8449ccac0bf47","toSide":"left","label":"Generate Profile via API"}
 	]
 }
