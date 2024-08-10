@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"id":"2d5bed82d12eb15c","type":"group","x":-840,"y":-460,"width":640,"height":420,"label":"Database"},
-		{"id":"236bd2fc67ce1a28","type":"group","x":240,"y":-780,"width":360,"height":630,"label":"Frontend"},
-		{"id":"27f023873b646f0f","type":"text","text":"GitHub Primary DB","x":-480,"y":-280,"width":250,"height":60},
-		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-819,"y":-389,"width":250,"height":60},
-		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-819,"y":-280,"width":250,"height":60},
-		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-819,"y":-180,"width":250,"height":60},
-		{"id":"982b87171a2fe9eb","type":"text","text":"KV Storage","x":300,"y":-280,"width":250,"height":60},
-		{"id":"29b8449ccac0bf47","type":"text","text":"Cloudflare Worker","x":300,"y":-449,"width":250,"height":60},
-		{"id":"d59326cc1f1d027b","x":300,"y":-601,"width":250,"height":60,"type":"text","text":""}
+		{"id":"2d5bed82d12eb15c","type":"group","x":-640,"y":-460,"width":640,"height":420,"label":"Database"},
+		{"id":"b007fa6bddc39216","type":"text","text":"Express Backend","x":335,"y":-280,"width":250,"height":60},
+		{"id":"f1941922960514ca","type":"text","text":"Frontend","x":140,"y":-120,"width":250,"height":60},
+		{"id":"befc9f41b4ef9a01","type":"text","text":"Profile Selector","x":520,"y":-120,"width":250,"height":60},
+		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-619,"y":-389,"width":250,"height":60},
+		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-619,"y":-280,"width":250,"height":60},
+		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-619,"y":-180,"width":250,"height":60},
+		{"id":"27f023873b646f0f","type":"text","text":"GitHub Primary DB","x":-280,"y":-280,"width":250,"height":60},
+		{"id":"29b8449ccac0bf47","type":"text","text":"Hetzner Local Storage - Cache","x":320,"y":-449,"width":280,"height":60}
 	],
 	"edges":[
 		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
@@ -16,8 +16,9 @@
 		{"id":"c2950764deb6afec","fromNode":"d7f0148534b72305","fromSide":"right","toNode":"27f023873b646f0f","toSide":"left"},
 		{"id":"06373d3b82e0fd71","fromNode":"69b1997425777c1c","fromSide":"right","toNode":"27f023873b646f0f","toSide":"left"},
 		{"id":"ae09ff027556cc0e","fromNode":"d7f0148534b72305","fromSide":"bottom","toNode":"69b1997425777c1c","toSide":"top"},
-		{"id":"4e41ebdf33c37aac","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"982b87171a2fe9eb","toSide":"top","label":"Store Data in KV"},
 		{"id":"fa7d886e581bd9ee","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"29b8449ccac0bf47","toSide":"left","fromEnd":"arrow","label":"Fetch Data via GitHub API"},
-		{"id":"60a34fceae2cf6cd","fromNode":"29b8449ccac0bf47","fromSide":"top","toNode":"d59326cc1f1d027b","toSide":"bottom"}
+		{"id":"eed3cf4f32d5907a","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"b007fa6bddc39216","toSide":"top"},
+		{"id":"b92cdb05cafd4188","fromNode":"b007fa6bddc39216","fromSide":"bottom","toNode":"f1941922960514ca","toSide":"top"},
+		{"id":"c56095b6fe54cea7","fromNode":"b007fa6bddc39216","fromSide":"bottom","toNode":"befc9f41b4ef9a01","toSide":"top"}
 	]
 }
