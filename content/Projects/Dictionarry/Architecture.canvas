@@ -1,11 +1,10 @@
 {
 	"nodes":[
 		{"id":"390f7a53c74434ba","type":"group","x":160,"y":-1040,"width":1000,"height":1420,"label":"Web Application"},
-		{"id":"ec9882c97428d4b1","type":"group","x":1680,"y":-865,"width":700,"height":1070,"label":"Profilarr"},
+		{"id":"ec9882c97428d4b1","type":"group","x":-190,"y":560,"width":670,"height":1070,"label":"Profilarr"},
 		{"id":"2d5bed82d12eb15c","type":"group","x":-680,"y":-845,"width":700,"height":648,"label":"Database"},
 		{"id":"2aa944bcc468128b","type":"group","x":380,"y":-960,"width":560,"height":763,"label":"Backend"},
 		{"id":"568f747a2a5e22c4","type":"group","x":380,"y":-140,"width":560,"height":460,"label":"Frontend"},
-		{"id":"07cb60443145b505","type":"text","text":"### **Parser**\n\n","x":-697,"y":700,"width":420,"height":169},
 		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-659,"y":-667,"width":125,"height":60},
 		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-659,"y":-558,"width":125,"height":60},
 		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-659,"y":-458,"width":125,"height":60},
@@ -14,8 +13,9 @@
 		{"id":"b65530f55febd01f","type":"text","text":"### **Profile Selector**\n\n**Create dynamic quality profiles** - A profile selector interface allows users to choose from various options, which triggers the necessary data fetches and renders the selected profiles.","x":420,"y":100,"width":480,"height":180},
 		{"id":"b007fa6bddc39216","type":"text","text":"### **Express**\n\n**Process Data:** The backend handles the processing of JSON files, such as extracting relevant information (e.g., regex patterns, profile data).\n\n**Render Dynamic Web Pages:** It generates and serves dynamically rendered web pages based on the processed data.\n\n**Generate Dynamic Quality Profiles**: The backend combines and processes different JSON files to generate customized quality profiles. Sent back as JSON, to be imported via profilarr.","x":420,"y":-616,"width":480,"height":375},
 		{"id":"29b8449ccac0bf47","type":"text","text":"### **Hetzner Local Storage**\n\n **Cache Synced JSON Files**: The local storage on Hetzner holds the JSON files synced from the GitHub repository, acting as a cache for the backend to access and process data efficiently.","x":420,"y":-909,"width":480,"height":189},
-		{"id":"9431494b5421397e","type":"text","text":"### **Compiler**\n\nProfilarr compiles the received JSON into the specific formats required by Radarr and Sonarr. During this process, it automatically adjusts the JSON to conform to the syntax and structure expected by each application. This includes renaming fields, reformatting data structures, and applying necessary transformations","x":1760,"y":-135,"width":540,"height":272},
-		{"id":"c785a23b5377e50b","type":"text","text":"# **End User**","x":1320,"y":100,"width":160,"height":140}
+		{"id":"9431494b5421397e","type":"text","text":"### **Compiler**\n\nProfilarr compiles the received JSON into the specific formats required by Radarr and Sonarr. During this process, it automatically adjusts the JSON to conform to the syntax and structure expected by each application. This includes renaming fields, reformatting data structures, and applying necessary transformations","x":-110,"y":1290,"width":540,"height":272},
+		{"id":"07cb60443145b505","type":"text","text":"### **Parser**\n\n","x":-1200,"y":560,"width":420,"height":169},
+		{"id":"bdb190f0cb4da524","type":"text","text":"### **Import Tool**\n\n**Import Configurations**: Once the JSON has been compiled, Profilarr uses the APIs of Radarr and Sonarr to import the configurations directly into these applications. The process is fully automated, ensuring that the configurations are applied correctly without requiring manual intervention from the user.","x":-110,"y":960,"width":540,"height":272}
 	],
 	"edges":[
 		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
