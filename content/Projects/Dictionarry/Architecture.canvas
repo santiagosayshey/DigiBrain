@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"236bd2fc67ce1a28","type":"group","x":80,"y":-940,"width":400,"height":400,"label":"Profile Selector"},
+		{"id":"236bd2fc67ce1a28","type":"group","x":100,"y":-780,"width":400,"height":400,"label":"Profile Selector"},
 		{"id":"27f023873b646f0f","type":"text","text":"GitHub Primary DB","x":-480,"y":-280,"width":250,"height":60},
-		{"id":"29b8449ccac0bf47","type":"text","text":"PS Secondary Cache (updated daily)","x":185,"y":-486,"width":250,"height":60}
+		{"id":"29b8449ccac0bf47","type":"text","text":"PS Secondary Cache (updated daily)","x":160,"y":-140,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"4e0b369930311695","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"236bd2fc67ce1a28","toSide":"left","label":"Fetch Data via GitHub API"}
