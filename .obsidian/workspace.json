@@ -13,14 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.4 Basic Tooling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "c316687ea99409bd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Content/Projects/Dictionarry/Architecture.canvas",
+                "viewState": {
+                  "x": 261.0590662768078,
+                  "y": 629.8957859554876,
+                  "zoom": -0.6666666666666665
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md"
+                "file": "Content/Projects/Dictionarry/Architecture.canvas"
               }
             }
           }
@@ -171,12 +187,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "c65c9328f65d0166",
+  "active": "c316687ea99409bd",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Factorio/Space Need.md",
     "Content/Computer Science/Software Development & Project/Notes/3.2 Version Control Systems.md",
-    "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
     "Content/Computer Science/Software Development & Project/Notes/3.4 Basic Tooling.md",
     "Content/Computer Science/Software Development & Project/Notes/3.5 Communication.md",
     "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
