@@ -45,6 +45,6 @@ img {
 video {
 }
 
-.canvas-node-content:not(.is-loaded) h3 {
+.canvas-node-content:not(.is-loaded) h3,h1 {
   text-align: center;
   } 
