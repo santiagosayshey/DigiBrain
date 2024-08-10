@@ -1,10 +1,21 @@
 {
 	"nodes":[
-		{"id":"236bd2fc67ce1a28","type":"group","x":100,"y":-780,"width":400,"height":400,"label":"Profile Selector"},
+		{"id":"2d5bed82d12eb15c","type":"group","x":-840,"y":-460,"width":640,"height":420,"label":"Backend"},
+		{"id":"236bd2fc67ce1a28","type":"group","x":240,"y":-780,"width":400,"height":630,"label":"Frontend"},
 		{"id":"27f023873b646f0f","type":"text","text":"GitHub Primary DB","x":-480,"y":-280,"width":250,"height":60},
-		{"id":"29b8449ccac0bf47","type":"text","text":"PS Secondary Cache (updated daily)","x":160,"y":-140,"width":250,"height":60}
+		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-819,"y":-389,"width":250,"height":60},
+		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-819,"y":-280,"width":250,"height":60},
+		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-819,"y":-180,"width":250,"height":60},
+		{"id":"29b8449ccac0bf47","type":"text","text":"Cloudflare Worker","x":300,"y":-600,"width":250,"height":60},
+		{"id":"982b87171a2fe9eb","type":"text","text":"KV Storage","x":300,"y":-419,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"4e0b369930311695","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"236bd2fc67ce1a28","toSide":"left","label":"Fetch Data via GitHub API"}
+		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
+		{"id":"3a1e107cdd95ff6b","fromNode":"5c909cba43fc2b20","fromSide":"right","toNode":"27f023873b646f0f","toSide":"left"},
+		{"id":"c2950764deb6afec","fromNode":"d7f0148534b72305","fromSide":"right","toNode":"27f023873b646f0f","toSide":"left"},
+		{"id":"06373d3b82e0fd71","fromNode":"69b1997425777c1c","fromSide":"right","toNode":"27f023873b646f0f","toSide":"left"},
+		{"id":"ae09ff027556cc0e","fromNode":"d7f0148534b72305","fromSide":"bottom","toNode":"69b1997425777c1c","toSide":"top"},
+		{"id":"4e41ebdf33c37aac","fromNode":"29b8449ccac0bf47","fromSide":"bottom","toNode":"982b87171a2fe9eb","toSide":"top","label":"Store Data in KV"},
+		{"id":"fa7d886e581bd9ee","fromNode":"27f023873b646f0f","fromSide":"right","toNode":"29b8449ccac0bf47","toSide":"left","fromEnd":"arrow","label":"Fetch Data via GitHub API"}
 	]
 }
