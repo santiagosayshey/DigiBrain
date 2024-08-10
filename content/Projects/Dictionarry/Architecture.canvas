@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"390f7a53c74434ba","type":"group","x":160,"y":-845,"width":1000,"height":1070,"label":"Web Application"},
 		{"id":"2d5bed82d12eb15c","type":"group","x":-780,"y":-520,"width":700,"height":420,"label":"Database"},
-		{"id":"ec9882c97428d4b1","type":"group","x":-780,"y":120,"width":700,"height":420,"label":"Profilarr"},
+		{"id":"ec9882c97428d4b1","type":"group","x":310,"y":340,"width":700,"height":420,"label":"Profilarr"},
 		{"id":"5c909cba43fc2b20","type":"text","text":"Regex Patterns","x":-739,"y":-449,"width":125,"height":60},
 		{"id":"d7f0148534b72305","type":"text","text":"Custom Formats","x":-739,"y":-340,"width":125,"height":60},
 		{"id":"69b1997425777c1c","type":"text","text":"Quality Profiles","x":-739,"y":-240,"width":125,"height":60},
@@ -10,7 +10,7 @@
 		{"id":"29b8449ccac0bf47","type":"text","text":"### **Hetzner Local Storage**\n\n **Cache Synced JSON Files**: The local storage on Hetzner holds the JSON files synced from the GitHub repository, acting as a cache for the backend to access and process data efficiently.","x":380,"y":-775,"width":560,"height":159},
 		{"id":"b007fa6bddc39216","type":"text","text":"### **Express Backend**\n\n**Process Data:** The backend handles the processing of JSON files, such as extracting relevant information (e.g., regex patterns, profile data).\n\n**Render Dynamic Web Pages:** It generates and serves dynamically rendered web pages based on the processed data.\n\n**Generate Dynamic Quality Profiles**: The backend combines and processes different JSON files to generate customized quality profiles. Sent back as JSON, to be imported via profilarr.","x":380,"y":-505,"width":560,"height":300},
 		{"id":"f1941922960514ca","type":"text","text":"### **React Frontend**\n\n**Dynamically Render Data from Backend**: The frontend fetches data from the Express backend and uses it to render pages dynamically based on user interactions.\n\n**Profile Selector** to create dynamic quality profiles - A profile selector interface allows users to choose from various options, which triggers the necessary data fetches and renders the selected profiles.","x":380,"y":-115,"width":560,"height":280},
-		{"id":"07cb60443145b505","type":"text","text":"### **Parser**\n\n","x":20,"y":420,"width":420,"height":169}
+		{"id":"07cb60443145b505","type":"text","text":"### **Parser**\n\n","x":-660,"y":165,"width":420,"height":169}
 	],
 	"edges":[
 		{"id":"af3b8a8dc52991e6","fromNode":"5c909cba43fc2b20","fromSide":"bottom","toNode":"d7f0148534b72305","toSide":"top"},
