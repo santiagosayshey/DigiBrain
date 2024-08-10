@@ -44,3 +44,7 @@ img {
 
 video {
 }
+
+.canvas-node-content:not(.is-loaded) h3 {
+  text-align: center;
+  } 
