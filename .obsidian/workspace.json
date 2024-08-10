@@ -11,14 +11,12 @@
             "id": "c65c9328f65d0166",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas",
-                "viewState": {
-                  "x": 870.8837048032526,
-                  "y": 511.284090333643,
-                  "zoom": -1.4395360791125404
-                }
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas"
+                "file": "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md"
               }
             }
           }
@@ -175,6 +173,7 @@
   },
   "active": "c65c9328f65d0166",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Factorio/Space Need.md",
     "Content/Computer Science/Software Development & Project/Notes/3.2 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
@@ -184,7 +183,6 @@
     "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Version Control Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/3.4 Git.md",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Architecture.png",
     "Untitled.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
@@ -207,7 +205,6 @@
     "Content/Computer Science/Software Development & Project/Project/Brainstorming.md",
     "Content/Computer Science/Operating Systems/Tutorials",
     "Content/Computer Science/Operating Systems/Assignments/Untitled.md",
-    "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
     "Content/Computer Science/Operating Systems/Assignments",
