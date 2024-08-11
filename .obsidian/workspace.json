@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -61,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
               }
             }
           }
@@ -213,14 +212,15 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "ca86e170aa6c4860",
+  "active": "9ab4d6c6c308c79c",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
+    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
     "Content/Computer Science/Glossary/NOP.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
@@ -238,7 +238,6 @@
     "Untitled.md",
     "Content/Computer Science/Secure Programming/Rangeforce Notes/3.2 Numeral Systems.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/2.1 Applied Cryptography.md",
-    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Computer Networks & Applications/Notes/13.3 Cryptography.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.md",
     "Images/Pasted image 20240808012358.png",
