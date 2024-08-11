@@ -22,3 +22,6 @@ changes
 ![[Pasted image 20240808012349.png]]
 
 ![[Pasted image 20240808012358.png]]
+
+[http://whenisgood.net/dwb8swb/results/acd8ce7](https://whenisgood.net/dwb8swb/results/acd8ce7)
+
