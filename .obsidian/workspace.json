@@ -34,6 +34,21 @@
             }
           },
           {
+            "id": "cf05b761b0ecd9c8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Content/Projects/Dictionarry/Architecture.canvas",
+                "viewState": {
+                  "x": 397.1382886332083,
+                  "y": 524.6040116605216,
+                  "zoom": -1.0228694124458737
+                }
+              }
+            }
+          },
+          {
             "id": "4ff8468fbb73d644",
             "type": "leaf",
             "state": {
@@ -200,14 +215,14 @@
   },
   "active": "ca86e170aa6c4860",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
     "Content/Computer Science/Glossary/NOP.md",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
@@ -230,7 +245,6 @@
     "Images/Pasted image 20240808012349.png",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Images/Tutorial 1, 4.png",
-    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Images/Tutorial 1, 3a,b.png",
     "Content/Computer Science/Operating Systems/Tutorials",
     "Content/Computer Science/Docker/Notes",
