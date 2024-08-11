@@ -39,7 +39,7 @@
 		{"id":"f2df794b8c01b93d","fromNode":"605f4daac5955a92","fromSide":"bottom","toNode":"9431494b5421397e","toSide":"top","label":"Read files"},
 		{"id":"4cf52baa7bde189c","fromNode":"9431494b5421397e","fromSide":"bottom","toNode":"bdb190f0cb4da524","toSide":"top","label":"Generate files"},
 		{"id":"9c3482f255b8e820","fromNode":"b65530f55febd01f","fromSide":"bottom","toNode":"07cb60443145b505","toSide":"top","label":"Export Raw Profile"},
-		{"id":"e6fc150a21959c01","fromNode":"07cb60443145b505","fromSide":"left","toNode":"605f4daac5955a92","toSide":"right","label":"Import Raw Profile"},
+		{"id":"e6fc150a21959c01","fromNode":"07cb60443145b505","fromSide":"left","toNode":"ec9882c97428d4b1","toSide":"right","label":"Import Raw Profile"},
 		{"id":"5677b2f3a85c613f","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"bbad01aec7f177fa","toSide":"left","label":"Export Compiled Profile"},
 		{"id":"36b2d91d99db0d51","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"23881ee3c68b6114","toSide":"left"},
 		{"id":"5363fab6e8b6766c","fromNode":"bdb190f0cb4da524","fromSide":"right","toNode":"a6e9c371f9e42ef7","toSide":"left"},
