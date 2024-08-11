@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "9ab4d6c6c308c79c",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Notes/3.3 Development Workflow.md",
     "Content/Projects/Factorio/Space Need.md",
@@ -205,7 +206,6 @@
     "Content/Computer Science/Operating Systems/Assignments/Minishell.md",
     "Content/Computer Science/Software Development & Project/Project/Brainstorming.md",
     "Content/Computer Science/Operating Systems/Tutorials",
-    "Content/Computer Science/Operating Systems/Assignments/Untitled.md",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
     "Content/Computer Science/Operating Systems/Assignments",
