@@ -32,6 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ff8468fbb73d644",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -187,8 +200,9 @@
   },
   "active": "ca86e170aa6c4860",
   "lastOpenFiles": [
-    "Content/Projects/Dictionarry/Architecture.canvas",
+    "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflows.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
