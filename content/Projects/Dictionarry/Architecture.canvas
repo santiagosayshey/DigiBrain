@@ -47,7 +47,7 @@
 		{"id":"126e3c8ff47e429e","fromNode":"c66a804050fc15a1","fromSide":"left","toNode":"bbad01aec7f177fa","toSide":"right"},
 		{"id":"74d124554a3015c0","fromNode":"c66a804050fc15a1","fromSide":"left","toNode":"23881ee3c68b6114","toSide":"right"},
 		{"id":"faf5a56b43dec6a3","fromNode":"c66a804050fc15a1","fromSide":"left","toNode":"a6e9c371f9e42ef7","toSide":"right"},
-		{"id":"d7304fea58bfba61","fromNode":"0fa7b766e227a459","fromSide":"top","toNode":"27f023873b646f0f","toSide":"bottom","label":"Send Updates"},
+		{"id":"d7304fea58bfba61","fromNode":"0fa7b766e227a459","fromSide":"top","toNode":"27f023873b646f0f","toSide":"bottom","label":"Push Updates"},
 		{"id":"b4e83cac2c311d10","fromNode":"69b1997425777c1c","fromSide":"left","toNode":"605f4daac5955a92","toSide":"left"},
 		{"id":"9055563b215d1447","fromNode":"d7f0148534b72305","fromSide":"left","toNode":"605f4daac5955a92","toSide":"left"},
 		{"id":"513c8d4850c07243","fromNode":"5c909cba43fc2b20","fromSide":"left","toNode":"605f4daac5955a92","toSide":"left","label":"Receive Updates via GitHub API"},
