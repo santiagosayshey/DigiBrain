@@ -37,14 +37,12 @@
             "id": "cf05b761b0ecd9c8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas",
-                "viewState": {
-                  "x": 397.1382886332083,
-                  "y": 997.0338635701085,
-                  "zoom": -1.0228694124458737
-                }
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -116,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas"
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md"
               }
             }
           }
@@ -216,6 +213,7 @@
   },
   "active": "cf05b761b0ecd9c8",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
@@ -233,7 +231,6 @@
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Computer Science.md",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
@@ -247,7 +244,6 @@
     "Content/Computer Science/Software Development & Project/Notes/3.4 Basic Tooling.md",
     "Content/Computer Science/Software Development & Project/Notes/3.5 Communication.md",
     "Content/Computer Science/Software Development & Project/Notes/2.5 Elicitation Tribulation.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Architecture.png",
     "Images/Pasted image 20240808012358.png",
     "Images/Pasted image 20240808012349.png",
