@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
               }
             }
           }
@@ -211,10 +210,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "cf05b761b0ecd9c8",
+  "active": "9ab4d6c6c308c79c",
   "lastOpenFiles": [
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
+    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
