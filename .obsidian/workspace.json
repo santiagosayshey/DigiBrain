@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md"
               }
             }
           }
@@ -214,9 +214,9 @@
   },
   "active": "9ab4d6c6c308c79c",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Computer Science.md",
-    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
