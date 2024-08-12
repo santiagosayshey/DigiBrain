@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
+                "file": "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md"
+                "file": "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md"
               }
             }
           }
@@ -214,6 +214,13 @@
   },
   "active": "9ab4d6c6c308c79c",
   "lastOpenFiles": [
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
+    "Images/Pasted image 20240812111154.png",
+    "Images/Pasted image 20240812111147.png",
+    "Images/Pasted image 20240812111136.png",
+    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
+    "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
+    "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Computer Science.md",
@@ -239,10 +246,8 @@
     "Content/Computer Science/Secure Programming/Rangeforce Notes/3.2 Numeral Systems.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/2.1 Applied Cryptography.md",
     "Content/Computer Science/Computer Networks & Applications/Notes/13.3 Cryptography.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.md",
     "Images/Pasted image 20240808012358.png",
     "Images/Pasted image 20240808012349.png",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Images/Tutorial 1, 4.png",
     "Images/Tutorial 1, 3a,b.png",
     "Content/Computer Science/Operating Systems/Tutorials",
@@ -251,15 +256,11 @@
     "Content/Computer Science/Operating Systems/Assignments",
     "Images/Pasted image 20240804233424.png",
     "Images/Pasted image 20240804233056.png",
-    "Images/Pasted image 20240804232754.png",
-    "Images/Pasted image 20240804232726.png",
-    "Images/Pasted image 20240804232706.png",
     "Content/Computer Science/Software Development & Project/Project",
     "Images/fff-378-junction-refinery.mp4",
     "Images/fff-378-junction-refinery.mkv",
     "Content/Computer Science/Operating Systems/Notes",
     "Content/Computer Science/Secure Programming/Project",
-    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
     "Untitled 3.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
