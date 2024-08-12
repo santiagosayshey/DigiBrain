@@ -42,7 +42,7 @@
                 "file": "Content/Projects/Dictionarry/Architecture.canvas",
                 "viewState": {
                   "x": 397.1382886332083,
-                  "y": 524.6040116605216,
+                  "y": 997.0338635701085,
                   "zoom": -1.0228694124458737
                 }
               }
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md"
+                "file": "Content/Projects/Dictionarry/Architecture.canvas"
               }
             }
           }
@@ -213,8 +214,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "ea281581eaad221b",
+  "active": "cf05b761b0ecd9c8",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
@@ -227,7 +229,6 @@
     "Images/Pasted image 20240812111154.png",
     "Images/Pasted image 20240812111147.png",
     "Images/Pasted image 20240812111136.png",
-    "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
