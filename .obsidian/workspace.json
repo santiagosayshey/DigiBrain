@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
+                "file": "Content/Projects/Dictionarry/DStandard.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md"
+                "file": "Content/Projects/Dictionarry/DStandard.md"
               }
             }
           }
@@ -252,6 +252,8 @@
   },
   "active": "148e3cb5c705a252",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
+    "Content/Projects/Dictionarry/DStandard.md",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
     "Images/Pasted image 20240813170957.png",
@@ -261,7 +263,6 @@
     "Images/Pasted image 20240813165751.png",
     "Images/Pasted image 20240813165420.png",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
-    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Images/Pasted image 20240813152249.png",
     "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
@@ -272,7 +273,6 @@
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
-    "Images/MMU.png",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
