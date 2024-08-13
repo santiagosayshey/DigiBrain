@@ -41,9 +41,9 @@
               "state": {
                 "file": "Content/Projects/Dictionarry/Architecture.canvas",
                 "viewState": {
-                  "x": 240,
-                  "y": -1519.205378020265,
-                  "zoom": -1.0228694124458737
+                  "x": -117.71180826188618,
+                  "y": -470.47984460249415,
+                  "zoom": 1
                 }
               }
             }
@@ -87,7 +87,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
+                "file": "Content/Projects/Dictionarry/Architecture.canvas"
               }
             }
           }
@@ -239,10 +240,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9ab4d6c6c308c79c",
+  "active": "148e3cb5c705a252",
   "lastOpenFiles": [
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
     "Content/Computer Science/Operating Systems/Notes/3.2 Memory Data Structures.md",
