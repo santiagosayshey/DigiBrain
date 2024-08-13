@@ -87,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas"
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
               }
             }
           }
@@ -240,14 +239,14 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "148e3cb5c705a252",
+  "active": "9ab4d6c6c308c79c",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
     "Content/Computer Science/Operating Systems/Notes/3.2 Memory Data Structures.md",
     "Images/MMU.png",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
