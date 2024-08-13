@@ -21,6 +21,21 @@
             }
           },
           {
+            "id": "148e3cb5c705a252",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Content/Projects/Dictionarry/Architecture.canvas",
+                "viewState": {
+                  "x": 240,
+                  "y": 465,
+                  "zoom": -1.0228694124458737
+                }
+              }
+            }
+          },
+          {
             "id": "ca86e170aa6c4860",
             "type": "leaf",
             "state": {
@@ -59,7 +74,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
+                "file": "Content/Projects/Dictionarry/Architecture.canvas"
               }
             }
           }
@@ -210,8 +226,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9ab4d6c6c308c79c",
+  "active": "148e3cb5c705a252",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
@@ -228,7 +245,6 @@
     "Images/Pasted image 20240812111147.png",
     "Images/Pasted image 20240812111136.png",
     "Content/Computer Science/Operating Systems/Quizzes",
-    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
