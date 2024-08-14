@@ -1,14 +1,14 @@
 ## Kickoff Meeting - Customer Q&A
 
-| Context | Question | Answer |
-|---------|----------|--------|
-| Users can easily pick a time range [US1] | How atomic does this need to be? Minutes? Hourly? Daily? | |
-| Users can select a measurement from a list [US1] | Does it need to work for a specific use case? Or just any generic time series data: eg, can our mvp just be weather data for now | |
-| The system should prepare to generate the query [US1] | What does prepare mean? Would a template influx query with parameterized inputs suffice? | |
-| | Does the user need to see this? Or can it be in the background? | |
-| The system shows the generated query code based on user selections | Can this just be a simple text file output? | |
-| Users can review the code before execution | Does this mean they can leave comments? Ask for edits / explanation? Or just look at it? | |
-| Visualization of data results | Are there any specific graph customization options we should prioritize (e.g., colors, legends, axis labels)? | |
+| Context                                                                                               | Question                                                                                                                                                                                                                    | Answer |
+| ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| The interface must allow the user to drag and drop items to select buckets, measurements, and fields. | Is drag and drop functionality strictly necessary for mvp here? Or can we just have fields that the user can select. Something like a flow chart that expands downwards as the user selects: bucket -> measurement -> field |        |
+|                                                                                                       | Preconditions state that the user is logged in already, are we expected to have implemented authorisation for this? Or can it just be a generic user for now                                                                |        |
+| The selected items must be accurately reflected in the query builder.                                 | Can we define accurate here? Does this m                                                                                                                                                                                    |        |
+|                                                                                                       | Does the user need to see this? Or can it be in the background?                                                                                                                                                             |        |
+| The system shows the generated query code based on user selections                                    | Can this just be a simple text file output?                                                                                                                                                                                 |        |
+| Users can review the code before execution                                                            | Does this mean they can leave comments? Ask for edits / explanation? Or just look at it?                                                                                                                                    |        |
+| Visualization of data results                                                                         | Are there any specific graph customization options we should prioritize (e.g., colors, legends, axis labels)?                                                                                                               |        |
 
 ## User Roles
 
