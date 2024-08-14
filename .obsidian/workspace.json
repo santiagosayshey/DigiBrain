@@ -136,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "save state",
+                "query": "fitt",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -153,7 +153,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -250,7 +251,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "148e3cb5c705a252",
+  "active": "ea281581eaad221b",
   "lastOpenFiles": [
     "Content/Projects/Dictionarry/DStandard.md",
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
