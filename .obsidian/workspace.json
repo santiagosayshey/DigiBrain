@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/DStandard.md",
+                "file": "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Dictionarry/DStandard.md"
+                "file": "Content/Computer Science/Software Development & Project/Project/meeting 1.md"
               }
             }
           }
@@ -252,8 +252,9 @@
   },
   "active": "148e3cb5c705a252",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Content/Projects/Dictionarry/DStandard.md",
+    "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
+    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
     "Images/Pasted image 20240813170957.png",
@@ -290,7 +291,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
     "Content/Computer Science/Glossary/NOP.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "Content/Computer Science/Operating Systems/Tutorials",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
