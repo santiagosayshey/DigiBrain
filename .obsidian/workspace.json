@@ -11,8 +11,13 @@
             "id": "c31e82eb892070eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -52,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fitt",
+                "query": "project vision",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -69,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -143,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md"
+              }
             }
           }
         ]
@@ -166,6 +174,7 @@
   },
   "active": "c31e82eb892070eb",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Projects/Dictionarry/DStandard.md",
     "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
@@ -188,7 +197,6 @@
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
-    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
