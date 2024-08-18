@@ -19,8 +19,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "03ab7271130242fd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Content/Projects/Dictionarry/Architecture.canvas",
+                "viewState": {
+                  "x": -5.443616810185233,
+                  "y": 724.1157254186263,
+                  "zoom": -0.5562888187712116
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md"
+                "file": "Content/Projects/Dictionarry/Architecture.canvas"
               }
             }
           }
@@ -172,8 +187,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "c31e82eb892070eb",
+  "active": "03ab7271130242fd",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Projects/Dictionarry/DStandard.md",
@@ -212,7 +228,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
     "Content/Computer Science/Glossary/NOP.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
     "Content/Computer Science/Operating Systems/Tutorials",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
