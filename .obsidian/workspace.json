@@ -24,14 +24,12 @@
             "id": "03ab7271130242fd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas",
-                "viewState": {
-                  "x": -5.443616810185233,
-                  "y": 724.1157254186263,
-                  "zoom": -0.5562888187712116
-                }
+                "file": "Content/Projects/log.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -165,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas"
+                "file": "Content/Projects/log.md"
               }
             }
           }
@@ -189,6 +187,8 @@
   },
   "active": "03ab7271130242fd",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Architecture.canvas",
+    "Content/Projects/log.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
@@ -210,7 +210,6 @@
     "Images/Pasted image 20240813142446.png",
     "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
@@ -226,8 +225,6 @@
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Exercises/5.2.2 Buffer Overflow Injection.md",
-    "Content/Computer Science/Glossary/NOP.md",
     "Content/Computer Science/Operating Systems/Tutorials",
     "Content/Computer Science/Docker/Notes",
     "Content/Computer Science/Docker",
