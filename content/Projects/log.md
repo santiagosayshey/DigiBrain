@@ -38,7 +38,8 @@ With these changes in place, it has massively improved and sped up development. 
 ## Machine Learning
 This part is mostly speculation and rambling - nothing concrete yet. I really want to incorporate some kind of AI help into Profilarr. A button you can press to auto-generate regex or a custom format. I've read countless Reddit posts of someone unfamiliar with regex/custom formats/profiles asking for help in trying to learn. "How do I write a custom format that matches x265 releases under size x?" It's so easily solved using AI.
 
-I want to implement this one day, I just don't have enough knowledge or experience to do it yet. The best I've come up with is something that sends a request to OpenAI's API with a prompt. The results are less than ideal. But just imagine the future where some kind of machine learning tool has access to an entire database of regexes, custom formats, and quality profiles curated by hundreds of people, and can use that knowledge to predict patterns and truly tailor stuff to suit people's needs. Who knows if it ever gets to that point, That's the vision for Dictionarry, the endgame.
+I want to implement this one day, I just don't have enough knowledge or experience to do it yet. The best I've come up with is something that sends a request to OpenAI's API with a prompt. The results are less than ideal. But just imagine the future where some kind of machine learning tool has access to an entire database of regexes, custom formats, and quality profiles curated by hundreds of people, and can use that knowledge to predict patterns and truly tailor stuff to suit people's needs. Who knows if it ever gets to that point, but that's my vision for Dictionarry.
+
 Ramble over, as you can tell I've been feeling pretty motivated lately!
 
 Anyway, here's some images of the profilarr v2.
