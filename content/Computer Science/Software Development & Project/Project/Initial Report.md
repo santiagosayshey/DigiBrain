@@ -29,9 +29,16 @@ Our tech stack is designed to leverage these containerization benefits while mai
 
 **Justification**: Python and Flask offer a low barrier to entry and rapid development cycles, crucial for MVP iteration. Flask's minimalist approach avoids over-engineering and eases us into integrating with InfluxDB. Separate containerization supports the single responsibility principle and enables independent scaling.
 ## Tooling
-• Git for version control, with a branching strategy aligned with our containerized workflow
-• CI/CD pipeline using GitHub Actions, integrated with our Docker builds
-• ESLint and Prettier for frontend code quality, containerized in the dev environment
-• Black and pylint for backend code formatting and linting, integrated into backend containers
+• Git for version control
+• VS Code with dev containers for consistent development environments
+• ESLint, Prettier (frontend); Black, pylint (backend) for code quality
+• Discord for informal chat, Microsoft Teams for formal meetings with our Product Owner (tutor)
+• Google Docs and Drive for documentation and file sharing
+• GitHub for code hosting and project management:
+  - Projects for sprint planning and task tracking
+  - Pull requests and code reviews
+  - .github repo documenting best practices, including pull request processes, Definition of Done (DoD), commit standards, and workflow
 
-**Justification**: Git supports parallel feature development and easy rollbacks, essential for rapid prototyping. Linting tools enforce consistency and catch errors early, reducing technical debt as we iterate quickly. Containerization ensures these tools are consistently applied across the team, supporting the "it works on my machine" principle.
+**Note**: Due to university GitHub limitations, we're unable to use multiple repositories or implement GitHub Actions for CI/CD as initially planned.
+
+**Justification**: Git supports parallel development and rollbacks, crucial for rapid prototyping. Linting tools maintain code quality and consistency. VS Code with dev containers, along with our containerization strategy, ensures consistent environments across the team. GitHub centralizes our workflow, while Discord, Teams, and Google tools facilitate effective communication and documentation.
