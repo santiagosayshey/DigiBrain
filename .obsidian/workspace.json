@@ -28,9 +28,9 @@
               "state": {
                 "file": "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": -485.41774840111486,
+                  "y": -45.65791762888432,
+                  "zoom": -0.4166666666666666
                 }
               }
             }
@@ -49,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md"
+                "file": "Content/Computer Science/Software Development & Project/Project/Untitled.canvas"
               }
             }
           }
@@ -199,8 +199,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "d1c7f266ff2cc6c5",
+  "active": "03ab7271130242fd",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
@@ -210,7 +211,6 @@
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Projects/Dictionarry/DStandard.md",
-    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
     "Images/Pasted image 20240813170957.png",

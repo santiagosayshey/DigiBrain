@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"e88b122a48ac8e4f","type":"group","x":-920,"y":-380,"width":420,"height":780,"label":"External Services"},
+		{"id":"c9f0399a1673a9de","x":-240,"y":-380,"width":400,"height":400,"type":"group","label":"Development Environment"},
+		{"id":"188decba0c135f06","type":"text","text":"GitHub","x":-880,"y":-340,"width":250,"height":60},
+		{"id":"aa5e4bbbb8a7622c","type":"text","text":"Google Docs / Drive","x":-880,"y":-240,"width":250,"height":60},
+		{"id":"7735f570bac08cfa","type":"text","text":"Discord","x":-880,"y":-130,"width":250,"height":60},
+		{"id":"2366b6201bc5408c","x":-180,"y":-340,"width":250,"height":60,"type":"text","text":"Generic Workstation"},
+		{"id":"2ecc0103f4c0b0f2","type":"text","text":"Microsoft Teams","x":-880,"y":-20,"width":250,"height":60}
+	],
+	"edges":[]
+}
