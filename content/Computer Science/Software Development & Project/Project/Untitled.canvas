@@ -1,17 +1,6 @@
 {
 	"nodes":[
-		{"id":"e88b122a48ac8e4f","type":"group","x":-920,"y":-570,"width":420,"height":780,"label":"External Services"},
-		{"id":"c9f0399a1673a9de","x":-240,"y":-380,"width":400,"height":400,"type":"group","label":"Development Environment"},
-		{"id":"2366b6201bc5408c","x":-100,"y":-310,"width":161,"height":60,"type":"text","text":"Containerised Environment"},
-		{"id":"188decba0c135f06","type":"text","text":"GitHub","x":-800,"y":-520,"width":250,"height":60},
-		{"id":"2ecc0103f4c0b0f2","type":"text","text":"Microsoft Teams","x":-800,"y":-180,"width":250,"height":60},
-		{"id":"7735f570bac08cfa","type":"text","text":"Discord","x":-800,"y":-280,"width":250,"height":60},
-		{"id":"aa5e4bbbb8a7622c","type":"text","text":"Google Docs / Drive","x":-800,"y":-400,"width":250,"height":60}
+		{"id":"f0d990df09b3d9f1","type":"text","text":"Developer","x":-760,"y":-460,"width":136,"height":60}
 	],
-	"edges":[
-		{"id":"340c623145c92b9e","fromNode":"2366b6201bc5408c","fromSide":"left","toNode":"188decba0c135f06","toSide":"right","label":"Commits To"},
-		{"id":"2b0e9730b1e5f15c","fromNode":"2366b6201bc5408c","fromSide":"left","toNode":"aa5e4bbbb8a7622c","toSide":"right","label":"Documents In"},
-		{"id":"cdb6f20f412a4d18","fromNode":"2366b6201bc5408c","fromSide":"left","toNode":"7735f570bac08cfa","toSide":"right","label":"Communicates Via"},
-		{"id":"547f619697bed476","fromNode":"2366b6201bc5408c","fromSide":"left","toNode":"2ecc0103f4c0b0f2","toSide":"right","label":"Meets Via"}
-	]
+	"edges":[]
 }
