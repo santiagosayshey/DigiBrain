@@ -19,7 +19,7 @@ Our tech stack is designed to leverage these containerization benefits while mai
 • Containerized using a Node.js-based Dockerfile
 • Development environment set up with VS Code dev containers
 
-**Justification**: React's component-based architecture supports modular development and code reusability, key for rapid iterations. Vite's fast build times accelerate the development; alternatives such as create-react-app are quite slow in use with virtualisation tools like Docker. Tailwind CSS allows for quick UI prototyping. Starting with plain HTML/CSS/JS enables immediate visual progress, with a clear path to React for scaling.
+**Justification**: React's component-based architecture supports modular development and code reusability, key for rapid iterations. Vite's fast build times accelerate the development feedback loop, especially crucial when working with containerization; alternatives such as create-react-app are notably slower when used with virtualization tools like Docker. Tailwind CSS allows for quick UI prototyping. Starting with plain HTML/CSS/JS enables immediate visual progress, with a clear path to React for scaling.
 ## Backend
 • Python with Flask for a RESTful API
 • InfluxDB for time-series data storage
@@ -27,11 +27,11 @@ Our tech stack is designed to leverage these containerization benefits while mai
 • Each component containerized separately using Python and InfluxDB Dockerfiles
 • Docker Compose used to orchestrate backend services
 
-**Justification**: Python and Flask offer simplicity and quick development cycles. InfluxDB is purpose-built for time-series data, crucial for our application. Containerizing each component separately enhances isolation and modularity.
+**Justification**: Python and Flask offer a low barrier to entry and rapid development cycles, crucial for MVP iteration. Flask's minimalist approach avoids over-engineering and eases us into integrating with InfluxDB. Separate containerization supports the single responsibility principle and enables independent scaling.
 ## Tooling
 • Git for version control, with a branching strategy aligned with our containerized workflow
 • CI/CD pipeline using GitHub Actions, integrated with our Docker builds
 • ESLint and Prettier for frontend code quality, containerized in the dev environment
 • Black and pylint for backend code formatting and linting, integrated into backend containers
 
-This structure allows us to maintain consistency across environments while enabling quick iterations towards our MVP.
+**Justification**: Git supports parallel feature development and easy rollbacks, essential for rapid prototyping. Linting tools enforce consistency and catch errors early, reducing technical debt as we iterate quickly. Containerization ensures these tools are consistently applied across the team, supporting the "it works on my machine" principle.
