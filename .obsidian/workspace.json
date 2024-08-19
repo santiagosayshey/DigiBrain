@@ -29,7 +29,7 @@
                 "file": "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
                 "viewState": {
                   "x": -620.3287249054977,
-                  "y": -23.803520903950925,
+                  "y": -372.5535209039509,
                   "zoom": 1.1102230246251565e-16
                 }
               }
@@ -61,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Untitled.canvas"
+                "file": "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md"
               }
             }
           }
@@ -212,10 +211,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "03ab7271130242fd",
+  "active": "c31e82eb892070eb",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
+    "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
     "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
     "Content/Computer Science/Computer Science.md",
