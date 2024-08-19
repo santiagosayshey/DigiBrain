@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
+                "file": "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/meeting 1.md"
+                "file": "Content/Computer Science/Software Development & Project/Project/Initial Report.md"
               }
             }
           }
@@ -213,6 +213,7 @@
   },
   "active": "c31e82eb892070eb",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
     "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
@@ -222,7 +223,6 @@
     "Content/Projects/log.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
-    "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Projects/Dictionarry/DStandard.md",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
