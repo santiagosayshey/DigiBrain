@@ -19,6 +19,7 @@ Our tech stack is designed to leverage these containerization benefits while mai
 • Containerized using a Node.js-based Dockerfile
 • Development environment set up with VS Code dev containers
 
+**Justification**: React's component-based architecture supports modular development and code reusability, key for rapid iterations. Vite's fast build times accelerate the development; alternatives such as create-react-app are quite slow in use with virtualisation tools like Docker. Tailwind CSS allows for quick UI prototyping. Starting with plain HTML/CSS/JS enables immediate visual progress, with a clear path to React for scaling.
 ## Backend
 • Python with Flask for a RESTful API
 • InfluxDB for time-series data storage
@@ -26,6 +27,7 @@ Our tech stack is designed to leverage these containerization benefits while mai
 • Each component containerized separately using Python and InfluxDB Dockerfiles
 • Docker Compose used to orchestrate backend services
 
+**Justification**: Python and Flask offer simplicity and quick development cycles. InfluxDB is purpose-built for time-series data, crucial for our application. Containerizing each component separately enhances isolation and modularity.
 ## Tooling
 • Git for version control, with a branching strategy aligned with our containerized workflow
 • CI/CD pipeline using GitHub Actions, integrated with our Docker builds
