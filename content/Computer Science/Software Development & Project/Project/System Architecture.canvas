@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"a1a93df7953c912a","x":-640,"y":-400,"width":820,"height":660,"type":"group","label":"Developer Environment"},
+		{"id":"846e492286fa8dcd","type":"text","text":"Git","x":-400,"y":80,"width":84,"height":60},
+		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-316,"y":-80,"width":120,"height":60},
+		{"id":"63d535bcf36c32dc","type":"text","text":"Teams","x":-174,"y":40,"width":108,"height":60},
+		{"id":"e9d542e7556bf4ac","type":"text","text":"Docs","x":16,"y":40,"width":108,"height":60},
+		{"id":"705423f407ee4b32","type":"text","text":"Drive","x":124,"y":-80,"width":100,"height":60},
+		{"id":"ac31994779dfc2a6","x":-100,"y":-260,"width":136,"height":60,"type":"text","text":"Developer"}
+	],
+	"edges":[
+		{"id":"6b8c0554dc1253e3","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"e9d542e7556bf4ac","toSide":"top","label":"Reports In"},
+		{"id":"2bc37c7ffcdb06e8","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"705423f407ee4b32","toSide":"top","label":"Saves Files To"},
+		{"id":"0d07a1e96d4d9d71","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"82cd5ef836a614b4","toSide":"top","label":"Communicates Via"},
+		{"id":"9c4e8632d5a8f5ac","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"63d535bcf36c32dc","toSide":"top","label":"Meets Via"}
+	]
+}
