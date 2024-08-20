@@ -15,9 +15,9 @@
               "state": {
                 "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
                 "viewState": {
-                  "x": -1618.9668748482397,
-                  "y": 311.5077674993311,
-                  "zoom": -1.0833333333333335
+                  "x": -1350,
+                  "y": 329.9999999999999,
+                  "zoom": -1.221326318050056
                 }
               }
             }
@@ -215,8 +215,9 @@
   },
   "active": "c31e82eb892070eb",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+    "System Architecture.png",
+    "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
     "Content/Computer Science/Software Development & Project/Notes/4.2 Architecture Design.md",
     "Content/Computer Science/Software Development & Project/Notes/2.6 Requirements Documentation.md",
     "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
@@ -244,7 +245,6 @@
     "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Operating Systems/Notes/3.2 Memory Data Structures.md",
-    "Images/Pasted image 20240813142446.png",
     "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
