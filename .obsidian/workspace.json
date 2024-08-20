@@ -54,9 +54,9 @@
               "state": {
                 "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
                 "viewState": {
-                  "x": -1095.566651837235,
-                  "y": 845.3053184627518,
-                  "zoom": 0.16666666666666596
+                  "x": -913,
+                  "y": 259,
+                  "zoom": 1
                 }
               }
             }
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797
+    "width": 372.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "055570dad7c5894a",

@@ -42,10 +42,10 @@
 		{"id":"8150ba43d07fb098","type":"text","text":"Product Owner","x":-608,"y":600,"width":188,"height":60,"color":"4"},
 		{"id":"e9d542e7556bf4ac","type":"text","text":"Google Docs","x":-620,"y":0,"width":180,"height":50,"color":"3"},
 		{"id":"8dc72ebf8628a11a","type":"text","text":"Docker Compose","x":-640,"y":-420,"width":200,"height":60,"color":"3"},
-		{"id":"ac2b212221aedc3e","type":"text","text":"Visual Studio Code","x":-640,"y":-300,"width":220,"height":60,"color":"3"},
-		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-600,"y":160,"width":140,"height":60,"color":"3"},
 		{"id":"63d535bcf36c32dc","type":"text","text":"Teams","x":-600,"y":350,"width":120,"height":60,"color":"3"},
-		{"id":"705423f407ee4b32","type":"text","text":"Google Drive","x":-620,"y":-85,"width":180,"height":60,"color":"3"}
+		{"id":"705423f407ee4b32","type":"text","text":"Google Drive","x":-620,"y":-85,"width":180,"height":60,"color":"3"},
+		{"id":"ac2b212221aedc3e","type":"text","text":"Visual Studio Code","x":-640,"y":-190,"width":220,"height":60,"color":"3"},
+		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-600,"y":180,"width":140,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"1992c8a6cc503ea4","fromNode":"06b9423de01a8bff","fromSide":"bottom","toNode":"81d95da0fc65b1d9","toSide":"top","label":"Formats / Lints"},
@@ -78,10 +78,10 @@
 		{"id":"730cdeea56eb85b1","fromNode":"e9d542e7556bf4ac","fromSide":"right","toNode":"705423f407ee4b32","toSide":"right","label":"Saved In"},
 		{"id":"540f08f29be03aa5","fromNode":"ac31994779dfc2a6","fromSide":"left","toNode":"38bd039770d44ea3","toSide":"top","label":"Interacts With"},
 		{"id":"fe41416da8b1b74b","fromNode":"ac2b212221aedc3e","fromSide":"left","toNode":"81d95da0fc65b1d9","toSide":"right","label":"Edits"},
-		{"id":"731dc86dc0e2e726","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"ac2b212221aedc3e","toSide":"left","label":"Codes In"},
+		{"id":"731dc86dc0e2e726","fromNode":"ac31994779dfc2a6","fromSide":"top","toNode":"ac2b212221aedc3e","toSide":"left","label":"Codes In"},
 		{"id":"27e913b2668e7f52","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"63d535bcf36c32dc","toSide":"left","label":"Meets Via"},
 		{"id":"d5859d84097e088d","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"82cd5ef836a614b4","toSide":"left","label":"Talks In"},
-		{"id":"85a50d9bcb0734e5","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"e9d542e7556bf4ac","toSide":"left","label":"Documents In"},
+		{"id":"85a50d9bcb0734e5","fromNode":"ac31994779dfc2a6","fromSide":"top","toNode":"e9d542e7556bf4ac","toSide":"left","label":"Documents In"},
 		{"id":"c01ac87cc0ce3f28","fromNode":"8dc72ebf8628a11a","fromSide":"left","toNode":"a1a93df7953c912a","toSide":"top","label":"Orchestrates"},
 		{"id":"ab19ab3ff1feaddc","fromNode":"8150ba43d07fb098","fromSide":"top","toNode":"63d535bcf36c32dc","toSide":"bottom","label":"Meets Via"},
 		{"id":"3f223796c833fd97","fromNode":"8dc72ebf8628a11a","fromSide":"left","toNode":"c531fde3bbdc6f1c","toSide":"top"},
