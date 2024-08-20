@@ -1,24 +1,29 @@
 {
 	"nodes":[
-		{"id":"fc21012310502960","type":"group","x":-520,"y":-260,"width":820,"height":660,"label":"Developer Environment"},
-		{"id":"a1a93df7953c912a","type":"group","x":-1480,"y":-220,"width":760,"height":700,"label":"Dev Container"},
-		{"id":"06b9423de01a8bff","type":"group","x":-1440,"y":-140,"width":680,"height":140,"label":"Linting Tools"},
-		{"id":"705423f407ee4b32","type":"text","text":"Drive","x":161,"y":78,"width":100,"height":60},
-		{"id":"ac31994779dfc2a6","type":"text","text":"Developer","x":-184,"y":-160,"width":136,"height":60},
-		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-400,"y":20,"width":120,"height":60},
-		{"id":"846e492286fa8dcd","type":"text","text":"Git","x":-224,"y":60,"width":84,"height":60},
-		{"id":"63d535bcf36c32dc","type":"text","text":"Teams","x":-258,"y":140,"width":108,"height":60},
-		{"id":"e9d542e7556bf4ac","type":"text","text":"Docs","x":-68,"y":140,"width":108,"height":60},
-		{"id":"ac2b212221aedc3e","type":"text","text":"Visual Studio Code","x":-1282,"y":80,"width":200,"height":60},
-		{"id":"322571c95bc5073e","type":"text","text":"Prettier","x":-1400,"y":-100,"width":115,"height":60},
-		{"id":"7736f18c1c583236","type":"text","text":"ESLint","x":-1240,"y":-100,"width":115,"height":60},
-		{"id":"563b280273506e14","type":"text","text":"Black","x":-1080,"y":-100,"width":115,"height":60},
-		{"id":"ab09f6aea0801443","type":"text","text":"PyLint","x":-920,"y":-100,"width":115,"height":60}
+		{"id":"a1a93df7953c912a","type":"group","x":-1600,"y":-320,"width":760,"height":660,"label":"Dev Container"},
+		{"id":"fc21012310502960","type":"group","x":-360,"y":-320,"width":600,"height":660,"label":"Developer Environment"},
+		{"id":"06b9423de01a8bff","type":"group","x":-1560,"y":-220,"width":680,"height":140,"label":"Linting Tools"},
+		{"id":"322571c95bc5073e","type":"text","text":"Prettier","x":-1520,"y":-180,"width":115,"height":60},
+		{"id":"7736f18c1c583236","type":"text","text":"ESLint","x":-1360,"y":-180,"width":115,"height":60},
+		{"id":"563b280273506e14","type":"text","text":"Black","x":-1200,"y":-180,"width":115,"height":60},
+		{"id":"ab09f6aea0801443","type":"text","text":"PyLint","x":-1040,"y":-180,"width":115,"height":60},
+		{"id":"81d95da0fc65b1d9","type":"text","text":"Code","x":-1417,"y":0,"width":115,"height":60},
+		{"id":"dcdf43465e9a6280","type":"text","text":"Git","x":-1417,"y":140,"width":115,"height":60},
+		{"id":"ac2b212221aedc3e","type":"text","text":"Visual Studio Code","x":-760,"y":20,"width":200,"height":60},
+		{"id":"ac31994779dfc2a6","type":"text","text":"Developer","x":-300,"y":20,"width":136,"height":60},
+		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":80,"y":-220,"width":120,"height":60},
+		{"id":"63d535bcf36c32dc","type":"text","text":"Teams","x":80,"y":-70,"width":120,"height":60},
+		{"id":"e9d542e7556bf4ac","type":"text","text":"Docs","x":80,"y":60,"width":120,"height":60},
+		{"id":"705423f407ee4b32","type":"text","text":"Drive","x":80,"y":200,"width":120,"height":60}
 	],
 	"edges":[
-		{"id":"6b8c0554dc1253e3","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"e9d542e7556bf4ac","toSide":"top","label":"Reports In"},
-		{"id":"2bc37c7ffcdb06e8","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"705423f407ee4b32","toSide":"top","label":"Saves Files To"},
-		{"id":"0d07a1e96d4d9d71","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"82cd5ef836a614b4","toSide":"top","label":"Communicates Via"},
-		{"id":"9c4e8632d5a8f5ac","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"63d535bcf36c32dc","toSide":"top","label":"Meets Via"}
+		{"id":"6b8c0554dc1253e3","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"e9d542e7556bf4ac","toSide":"left","label":"Reports In"},
+		{"id":"2bc37c7ffcdb06e8","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"705423f407ee4b32","toSide":"left","label":"Saves Files To"},
+		{"id":"0d07a1e96d4d9d71","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"82cd5ef836a614b4","toSide":"left","label":"Communicates Via"},
+		{"id":"9c4e8632d5a8f5ac","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"63d535bcf36c32dc","toSide":"left","label":"Meets Via"},
+		{"id":"3d23a4da0d59623e","fromNode":"ac2b212221aedc3e","fromSide":"left","toNode":"81d95da0fc65b1d9","toSide":"right","label":"Edits"},
+		{"id":"1992c8a6cc503ea4","fromNode":"06b9423de01a8bff","fromSide":"bottom","toNode":"81d95da0fc65b1d9","toSide":"top","label":"Formats / Lints"},
+		{"id":"a8fd362c2e16bbf8","fromNode":"dcdf43465e9a6280","fromSide":"top","toNode":"81d95da0fc65b1d9","toSide":"bottom","label":"Tracks"},
+		{"id":"1032846cb1c79194","fromNode":"ac31994779dfc2a6","fromSide":"left","toNode":"ac2b212221aedc3e","toSide":"right","label":"Develops In"}
 	]
 }
