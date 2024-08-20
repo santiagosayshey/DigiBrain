@@ -50,17 +50,19 @@
             "id": "d1c7f266ff2cc6c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+                "viewState": {
+                  "x": -1372.5615872809353,
+                  "y": 963.2145251948332,
+                  "zoom": 0.8620070152832775
+                }
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -189,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md"
+                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas"
               }
             }
           }
@@ -211,8 +213,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "03ab7271130242fd",
+  "active": "d1c7f266ff2cc6c5",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
+    "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
@@ -225,7 +229,6 @@
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
-    "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Projects/log.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
