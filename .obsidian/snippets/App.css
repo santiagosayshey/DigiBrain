@@ -48,3 +48,7 @@ video {
 .canvas-node-content:not(.is-loaded) h3,h1 {
   text-align: center;
   } 
+
+.cm-active cm-line{
+    font-size: 30px !important;  /* You can adjust the size as needed */
+}
