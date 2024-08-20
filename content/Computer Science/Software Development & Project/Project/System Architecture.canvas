@@ -1,11 +1,12 @@
 {
 	"nodes":[
-		{"id":"c531fde3bbdc6f1c","x":-2340,"y":-460,"width":760,"height":1040,"type":"group","label":"InfluxUI"},
+		{"id":"c531fde3bbdc6f1c","type":"group","x":-2340,"y":-460,"width":760,"height":1040,"label":"InfluxUI"},
 		{"id":"38bd039770d44ea3","type":"group","x":-1700,"y":680,"width":1040,"height":440,"label":"GitHub"},
 		{"id":"a1a93df7953c912a","type":"group","x":-1360,"y":-320,"width":420,"height":580,"label":"Dev Container"},
 		{"id":"5d71ab3634ca873a","type":"group","x":-2300,"y":220,"width":680,"height":320,"label":"Backend"},
 		{"id":"c4157c3287b8fd0c","type":"group","x":-2300,"y":-380,"width":680,"height":300,"label":"Frontend"},
-		{"id":"fc21012310502960","type":"group","x":-220,"y":-440,"width":220,"height":460,"label":"Tools"},
+		{"id":"fc21012310502960","type":"group","x":-560,"y":-340,"width":580,"height":280,"label":"Tools"},
+		{"id":"7e3f6c2b09fea88a","x":-2961,"y":-418,"width":400,"height":400,"type":"group","label":"Users"},
 		{"id":"06b9423de01a8bff","type":"group","x":-1320,"y":-260,"width":340,"height":200,"label":"Linting Tools"},
 		{"id":"dad97e59596fab64","type":"text","text":"Tailwind","x":-2240,"y":-190,"width":120,"height":60},
 		{"id":"aba36d6c50ba1b76","type":"text","text":"JavaScript","x":-1800,"y":-190,"width":140,"height":60},
@@ -26,9 +27,6 @@
 		{"id":"7736f18c1c583236","type":"text","text":"ESLint","x":-1292,"y":-160,"width":115,"height":60},
 		{"id":"dcdf43465e9a6280","type":"text","text":"Git","x":-1220,"y":160,"width":115,"height":60},
 		{"id":"8dc72ebf8628a11a","type":"text","text":"Docker Compose","x":-1262,"y":-640,"width":200,"height":60},
-		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-160,"y":-380,"width":120,"height":60},
-		{"id":"e9d542e7556bf4ac","type":"text","text":"Docs","x":-160,"y":-265,"width":120,"height":50},
-		{"id":"705423f407ee4b32","type":"text","text":"Drive","x":-160,"y":-90,"width":120,"height":60},
 		{"id":"f5ff073993990254","type":"text","text":"Actions","x":-1420,"y":900,"width":145,"height":60},
 		{"id":"d9333ff8e3dfd760","type":"text","text":"Task Board","x":-1164,"y":900,"width":145,"height":60},
 		{"id":"35d63ec01a1a43e7","type":"text","text":"Product Backlog","x":-820,"y":900,"width":136,"height":60},
@@ -40,11 +38,17 @@
 		{"id":"8150ba43d07fb098","type":"text","text":"Product Owner","x":-480,"y":900,"width":136,"height":60},
 		{"id":"63d535bcf36c32dc","type":"text","text":"Teams","x":-480,"y":600,"width":120,"height":60},
 		{"id":"ac31994779dfc2a6","type":"text","text":"Developer","x":-496,"y":320,"width":136,"height":60},
-		{"id":"ac2b212221aedc3e","type":"text","text":"Visual Studio Code","x":-820,"y":100,"width":200,"height":60}
+		{"id":"ac2b212221aedc3e","type":"text","text":"Visual Studio Code","x":-820,"y":100,"width":200,"height":60},
+		{"id":"e9d542e7556bf4ac","type":"text","text":"Docs","x":-120,"y":-170,"width":120,"height":50},
+		{"id":"705423f407ee4b32","type":"text","text":"Drive","x":-120,"y":-310,"width":120,"height":60},
+		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-532,"y":-160,"width":120,"height":60},
+		{"id":"5358e0dcfe524768","type":"text","text":"Data Analyst","x":-2860,"y":-360,"width":200,"height":60},
+		{"id":"27347d1cdfde8553","type":"text","text":"Dashboard Creator","x":-2860,"y":-270,"width":200,"height":60},
+		{"id":"6c23d6f5aec73df6","type":"text","text":"Dashboard Creator","x":-2860,"y":-180,"width":200,"height":60}
 	],
 	"edges":[
-		{"id":"6b8c0554dc1253e3","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"e9d542e7556bf4ac","toSide":"left","label":"Reports In"},
-		{"id":"0d07a1e96d4d9d71","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"82cd5ef836a614b4","toSide":"left","label":"Communicates Via"},
+		{"id":"6b8c0554dc1253e3","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"e9d542e7556bf4ac","toSide":"bottom","label":"Reports In"},
+		{"id":"0d07a1e96d4d9d71","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"82cd5ef836a614b4","toSide":"bottom","label":"Communicates Via"},
 		{"id":"9c4e8632d5a8f5ac","fromNode":"ac31994779dfc2a6","fromSide":"bottom","toNode":"63d535bcf36c32dc","toSide":"top","label":"Meets Via"},
 		{"id":"3d23a4da0d59623e","fromNode":"ac2b212221aedc3e","fromSide":"left","toNode":"81d95da0fc65b1d9","toSide":"right","label":"Edits"},
 		{"id":"1992c8a6cc503ea4","fromNode":"06b9423de01a8bff","fromSide":"bottom","toNode":"81d95da0fc65b1d9","toSide":"top","label":"Formats / Lints"},
@@ -75,9 +79,10 @@
 		{"id":"40e185fea7e67576","fromNode":"686b6c747f2580e3","fromSide":"bottom","toNode":"14864066d2b98cb5","toSide":"top","label":"Queries"},
 		{"id":"c326f7b6d863d86c","fromNode":"8dc72ebf8628a11a","fromSide":"bottom","toNode":"a1a93df7953c912a","toSide":"top","label":"Orchestrates"},
 		{"id":"9db975d857764743","fromNode":"8dc72ebf8628a11a","fromSide":"left","toNode":"c531fde3bbdc6f1c","toSide":"top","label":"Orchestrates"},
-		{"id":"491ae289fb246222","fromNode":"ac31994779dfc2a6","fromSide":"top","toNode":"8dc72ebf8628a11a","toSide":"right","label":"Maintains"},
-		{"id":"730cdeea56eb85b1","fromNode":"e9d542e7556bf4ac","fromSide":"bottom","toNode":"705423f407ee4b32","toSide":"top","label":"Saved In"},
+		{"id":"491ae289fb246222","fromNode":"ac2b212221aedc3e","fromSide":"top","toNode":"8dc72ebf8628a11a","toSide":"right","label":"Maintains"},
+		{"id":"730cdeea56eb85b1","fromNode":"e9d542e7556bf4ac","fromSide":"top","toNode":"705423f407ee4b32","toSide":"bottom","label":"Saved In"},
 		{"id":"ed7814b115b304a3","fromNode":"38bd039770d44ea3","fromSide":"left","toNode":"c531fde3bbdc6f1c","toSide":"bottom","label":"Hosts"},
-		{"id":"9a5d8eb5f5f12d01","fromNode":"38bd039770d44ea3","fromSide":"top","toNode":"dcdf43465e9a6280","toSide":"bottom","label":"Extends"}
+		{"id":"9a5d8eb5f5f12d01","fromNode":"38bd039770d44ea3","fromSide":"top","toNode":"dcdf43465e9a6280","toSide":"bottom","label":"Extends"},
+		{"id":"540f08f29be03aa5","fromNode":"ac31994779dfc2a6","fromSide":"left","toNode":"38bd039770d44ea3","toSide":"top","label":"Interacts With"}
 	]
 }
