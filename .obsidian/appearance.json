@@ -9,5 +9,6 @@
     "table"
   ],
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "IBM Plex Mono"
+  "monospaceFontFamily": "IBM Plex Mono",
+  "baseFontSize": 18
 }

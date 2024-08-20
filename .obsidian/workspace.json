@@ -11,14 +11,12 @@
             "id": "c31e82eb892070eb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
-                "viewState": {
-                  "x": -1411.2726987089,
-                  "y": 332.254468158429,
-                  "zoom": -1.0833333333333333
-                }
+                "file": "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -26,14 +24,12 @@
             "id": "03ab7271130242fd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
-                "viewState": {
-                  "x": -620.3287249054977,
-                  "y": -372.5535209039509,
-                  "zoom": 1.1102230246251565e-16
-                }
+                "file": "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -63,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797,
-    "collapsed": true
+    "width": 372.50499725341797
   },
   "right": {
     "id": "055570dad7c5894a",
@@ -193,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas"
+                "file": "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md"
               }
             }
           }
@@ -215,9 +211,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "c31e82eb892070eb",
+  "active": "03ab7271130242fd",
   "lastOpenFiles": [
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+    "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
+    "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
     "System Architecture.png",
     "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
     "Content/Computer Science/Software Development & Project/Notes/4.2 Architecture Design.md",
@@ -227,7 +225,6 @@
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
     "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
-    "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Projects/log.md",
@@ -254,7 +251,6 @@
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
-    "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
     "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Tutorials",
