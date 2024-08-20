@@ -6,7 +6,7 @@
 		{"id":"5d71ab3634ca873a","type":"group","x":-2300,"y":220,"width":680,"height":320,"label":"Backend"},
 		{"id":"c4157c3287b8fd0c","type":"group","x":-2300,"y":-380,"width":680,"height":300,"label":"Frontend"},
 		{"id":"fc21012310502960","type":"group","x":-560,"y":-340,"width":580,"height":280,"label":"Tools"},
-		{"id":"7e3f6c2b09fea88a","x":-2961,"y":-418,"width":400,"height":400,"type":"group","label":"Users"},
+		{"id":"7e3f6c2b09fea88a","x":-2860,"y":-131,"width":280,"height":382,"type":"group","label":"Users"},
 		{"id":"06b9423de01a8bff","type":"group","x":-1320,"y":-260,"width":340,"height":200,"label":"Linting Tools"},
 		{"id":"dad97e59596fab64","type":"text","text":"Tailwind","x":-2240,"y":-190,"width":120,"height":60},
 		{"id":"aba36d6c50ba1b76","type":"text","text":"JavaScript","x":-1800,"y":-190,"width":140,"height":60},
@@ -42,9 +42,10 @@
 		{"id":"e9d542e7556bf4ac","type":"text","text":"Docs","x":-120,"y":-170,"width":120,"height":50},
 		{"id":"705423f407ee4b32","type":"text","text":"Drive","x":-120,"y":-310,"width":120,"height":60},
 		{"id":"82cd5ef836a614b4","type":"text","text":"Discord","x":-532,"y":-160,"width":120,"height":60},
-		{"id":"5358e0dcfe524768","type":"text","text":"Data Analyst","x":-2860,"y":-360,"width":200,"height":60},
-		{"id":"27347d1cdfde8553","type":"text","text":"Dashboard Creator","x":-2860,"y":-270,"width":200,"height":60},
-		{"id":"6c23d6f5aec73df6","type":"text","text":"Dashboard Creator","x":-2860,"y":-180,"width":200,"height":60}
+		{"id":"27347d1cdfde8553","type":"text","text":"Dashboard Creator","x":-2820,"y":-1,"width":200,"height":60},
+		{"id":"5358e0dcfe524768","type":"text","text":"Data Analyst","x":-2820,"y":-91,"width":200,"height":60},
+		{"id":"6c23d6f5aec73df6","type":"text","text":"Business User","x":-2820,"y":89,"width":200,"height":60},
+		{"id":"1e0f9132acbb29f8","type":"text","text":"System Administrator","x":-2820,"y":169,"width":200,"height":60}
 	],
 	"edges":[
 		{"id":"6b8c0554dc1253e3","fromNode":"ac31994779dfc2a6","fromSide":"right","toNode":"e9d542e7556bf4ac","toSide":"bottom","label":"Reports In"},
@@ -83,6 +84,7 @@
 		{"id":"730cdeea56eb85b1","fromNode":"e9d542e7556bf4ac","fromSide":"top","toNode":"705423f407ee4b32","toSide":"bottom","label":"Saved In"},
 		{"id":"ed7814b115b304a3","fromNode":"38bd039770d44ea3","fromSide":"left","toNode":"c531fde3bbdc6f1c","toSide":"bottom","label":"Hosts"},
 		{"id":"9a5d8eb5f5f12d01","fromNode":"38bd039770d44ea3","fromSide":"top","toNode":"dcdf43465e9a6280","toSide":"bottom","label":"Extends"},
-		{"id":"540f08f29be03aa5","fromNode":"ac31994779dfc2a6","fromSide":"left","toNode":"38bd039770d44ea3","toSide":"top","label":"Interacts With"}
+		{"id":"540f08f29be03aa5","fromNode":"ac31994779dfc2a6","fromSide":"left","toNode":"38bd039770d44ea3","toSide":"top","label":"Interacts With"},
+		{"id":"3cf5465db4fbb6f4","fromNode":"7e3f6c2b09fea88a","fromSide":"right","toNode":"c531fde3bbdc6f1c","toSide":"left","label":"Use"}
 	]
 }
