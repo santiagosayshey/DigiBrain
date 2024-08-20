@@ -11,12 +11,14 @@
             "id": "c31e82eb892070eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -190,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md"
+                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas"
               }
             }
           }
@@ -213,8 +215,9 @@
   },
   "active": "c31e82eb892070eb",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Notes/4.2 Architecture Design.md",
     "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
+    "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+    "Content/Computer Science/Software Development & Project/Notes/4.2 Architecture Design.md",
     "Content/Computer Science/Software Development & Project/Notes/2.6 Requirements Documentation.md",
     "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
@@ -250,7 +253,6 @@
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
     "Content/Computer Science/Operating Systems/Notes/2.1 Register Recap.md",
     "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
-    "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
     "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Tutorials",
@@ -267,7 +269,6 @@
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Content/Projects/Dictionarry/Untitled.canvas",
-    "Computer Science/Web and Database Computing/Untitled.canvas"
+    "Content/Projects/Dictionarry/Untitled.canvas"
   ]
 }
