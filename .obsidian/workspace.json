@@ -205,10 +205,9 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "media-extended:Open media": false,
       "publish:Publish changes...": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "pomodoro-timer:Toggle timer panel": false
     }
   },
   "active": "78df8c00d10661e2",
