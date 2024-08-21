@@ -55,3 +55,29 @@ def authenticate_user(username, password):
                 return True
     return False
 ```
+
+
+```python
+# backend/app/auth.py
+from flask import Blueprint, request, jsonify
+from .user_db import register_user, authenticate_user
+
+auth_bp = Blueprint('auth', __name__)
+
+@auth_bp.route('/api/register', methods=['POST'])
+def register():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+
+    if not username or not password:
+        return jsonify({'error': 'Username and password are required'}), 400
+
+    # TODO: Check if username already exists
+
+    try:
+        register_user(username, password)
+        return jsonify({'message': 'User registered successfully'}), 201
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+```
