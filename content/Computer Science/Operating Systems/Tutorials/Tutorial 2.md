@@ -60,7 +60,46 @@
 > 
 > Answer:
 > 
+> 1. LRU (Least Recently Used):
+>    Process: Keep track of when each page was last used. When a page fault occurs and all frames are full, replace the page that hasn't been used for the longest time.
 > 
+>    - 3 frames: 15 faults
+>      - Pages 1, 2, 3 fill empty frames.
+>      - Page 4 replaces 1 (least recently used).
+>      - Continue replacing least recently used page when a fault occurs.
+> 
+>    - 5 frames: 10 faults
+>      - Pages 1, 2, 3, 4, 5 fill empty frames.
+>      - Page 6 replaces 1, then 7 replaces 2.
+>      - Fewer replacements due to more available frames.
+> 
+> 2. FIFO (First-In-First-Out):
+>    Process: Maintain a queue of pages. When a page fault occurs and all frames are full, replace the page that has been in memory the longest (front of the queue).
+> 
+>    - 3 frames: 15 faults
+>      - Pages 1, 2, 3 fill empty frames.
+>      - Page 4 replaces 1 (first in).
+>      - Continue replacing oldest page in memory.
+> 
+>    - 5 frames: 10 faults
+>      - Pages 1, 2, 3, 4, 5 fill empty frames.
+>      - Page 6 replaces 1, then 7 replaces 2.
+>      - Performs identically to LRU for this sequence.
+> 
+> 3. Optimal:
+>    Process: When a page fault occurs and all frames are full, look ahead in the reference string and replace the page that won't be used for the longest time in the future.
+> 
+>    - 3 frames: 11 faults
+>      - Pages 1, 2, 3 fill empty frames.
+>      - For page 4, replace 3 as it won't be used for the longest time.
+>      - Continue replacing page not used for longest future time.
+> 
+>    - 5 frames: 8 faults
+>      - Pages 1, 2, 3, 4, 5 fill empty frames.
+>      - 6 and 7 cause faults, filling all frames.
+>      - Only page 3 causes another fault after this.
+> 
+> The Optimal algorithm performs best due to its future knowledge, but it's not implementable in real systems. LRU and FIFO are more practical but may perform differently depending on the specific page reference pattern.
 
 > [!exercise] Question 4: Improving CPU Utilization
 > Consider a demand-paging system with the following time-measured utilizations:
