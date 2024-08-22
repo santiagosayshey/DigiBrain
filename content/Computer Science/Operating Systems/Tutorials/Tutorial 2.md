@@ -29,23 +29,8 @@
 > 2. **Page Number and Offset Calculation**:
 >    - Page number = Virtual address / Page size = 11,123,456 / 4,096 = 2,715 (integer division)
 >    - Offset = Virtual address % Page size = 11,123,456 % 4,096 = 2,720
-> 
-> 3. **Software Operations**:
->    - The OS maintains the page table
->    - It checks if page 2,715 is in memory (valid bit)
->    - If not in memory, it handles the page fault
-> 
-> 4. **Hardware Operations**:
->    - The MMU uses page number 2,715 to index the page table
->    - It retrieves the corresponding frame number (let's assume it's 1,234)
->    - Combines frame number with offset to form physical address
-> 
-> 5. **Physical Address Formation**:
->    - Frame number: 1,234
->    - Physical address = (Frame number * Page size) + Offset
->    - Physical address = (1,234 * 4,096) + 2,720 = 5,057,024
-> 
-> The process involves both software (OS managing page tables and handling page faults) and hardware (MMU performing the actual translation) components working together to translate the virtual address 11,123,456 to the physical address 5,057,024.
+> 3. Next?
+>   - Find frame that corresponds to page 2715. 
 
 > [!exercise] Question 3: Page Replacement Algorithms
 > Consider the following page reference string:
