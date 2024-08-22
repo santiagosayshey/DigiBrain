@@ -31,6 +31,7 @@
 >    - Offset = Virtual address % Page size = 11,123,456 % 4,096 = 2,720
 > 3. Next?
 >   - Find frame that corresponds to page 2715. 
+>   - Find physical memory location 
 
 > [!exercise] Question 3: Page Replacement Algorithms
 > Consider the following page reference string:
