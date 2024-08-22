@@ -156,7 +156,7 @@ For 5 frames:
 | 6 | [3,6,1,2,5] | No | - |
 In the 5-frame scenario, there are 13 page faults.
 
-# Optimal ( Like a Stack)
+# Optimal ( Like a Stack LIFO)
 
 For 3 frames:
 
