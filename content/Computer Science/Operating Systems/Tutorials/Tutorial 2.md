@@ -108,15 +108,47 @@
 > Other I/O devices 5%
 > 
 > Which (if any) of the following will (probably) improve CPU utilization? Explain your answer.
-> a. Install a faster CPU.
-> b. Install a bigger paging disk.
-> c. Increase the degree of multiprogramming.
-> d. Decrease the degree of multiprogramming.
-> e. Install more main memory.
-> f. Install a faster hard disk, or multiple controllers with multiple hard disks.
-> g. Add pre-paging to the page fetch algorithms.
-> h. Increase the page size.
 > 
 > Answer:
 > 
+> a. Install a faster CPU:
+>    - Unlikely to improve CPU utilization
+>    - The current CPU is idle 80% of the time, so increasing its speed won't help
+>    - The bottleneck appears to be in the paging system, not CPU speed
 > 
+> b. Install a bigger paging disk:
+>    - Unlikely to improve CPU utilization
+>    - The issue is the speed of paging, not the capacity of the paging disk
+>    - A larger disk doesn't necessarily mean faster paging operations
+> 
+> c. Increase the degree of multiprogramming:
+>    - Unlikely to improve CPU utilization
+>    - With the paging disk already at 97.7% utilization, increasing multiprogramming would likely worsen the paging bottleneck
+>    - This could lead to thrashing, further reducing CPU utilization
+> 
+> d. Decrease the degree of multiprogramming:
+>    - Might improve CPU utilization
+>    - Reducing the number of concurrent programs could decrease paging disk load
+>    - This might allow the CPU to spend more time processing and less time waiting for pages
+> 
+> e. Install more main memory:
+>    - Likely to improve CPU utilization
+>    - More memory means fewer page faults and less paging disk activity
+>    - This directly addresses the high paging disk utilization
+> 
+> f. Install a faster hard disk, or multiple controllers with multiple hard disks:
+>    - Likely to improve CPU utilization
+>    - This would speed up paging operations, reducing the time the CPU spends waiting for pages
+>    - Directly addresses the bottleneck in the paging system
+> 
+> g. Add pre-paging to the page fetch algorithms:
+>    - Might improve CPU utilization
+>    - Could reduce the number of page faults by predicting and loading pages before they're needed
+>    - However, effectiveness depends on the accuracy of prediction and could potentially increase unnecessary disk activity
+> 
+> h. Increase the page size:
+>    - Might improve CPU utilization, but effects are complex
+>    - Larger pages could reduce the number of page faults for programs with high spatial locality
+>    - However, it could increase the time for each individual page fault and potentially waste memory for programs with poor locality
+> 
+> In conclusion, the most effective solutions are likely to be those that directly address the paging bottleneck: installing more main memory (e) or a faster/multiple paging disks (f). These solutions target the root cause of the low CPU utilization, which is the excessive time spent waiting for paging operations.
