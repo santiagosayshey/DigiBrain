@@ -224,19 +224,13 @@ In the 5-frame scenario, there are 8 page faults.
 >    - CPU utilisation is only at 20%, so installing a faster CPU will only drop this number even further. The issue is that the CPU is already processing things faster than the paging disk can give tasks to the CPU. 
 > 
 > b. Install a bigger paging disk:
->    - Unlikely to improve CPU utilization
->    - The issue is the speed of paging, not the capacity of the paging disk
->    - A larger disk doesn't necessarily mean faster paging operations
+> - This will only increase the number of pages in the disk, not its processing speed. Processing page speed is increases, then CPU utilisation increases. 
 > 
 > c. Increase the degree of multiprogramming:
->    - Unlikely to improve CPU utilization
->    - With the paging disk already at 97.7% utilization, increasing multiprogramming would likely worsen the paging bottleneck
->    - This could lead to thrashing, further reducing CPU utilization
+>    - Does this mean concurrent processing? This still probably won’t increase CPU utilisation because we are still bottlenecked by the speed at which the paging disk can process. 
 > 
 > d. Decrease the degree of multiprogramming:
->    - Might improve CPU utilization
->    - Reducing the number of concurrent programs could decrease paging disk load
->    - This might allow the CPU to spend more time processing and less time waiting for pages
+>    - Might improve cpu utilisation. If you decrease the number of concurrent threads, then the CPU is only able to process x amount of things at once. 
 > 
 > e. Install more main memory:
 >    - Likely to improve CPU utilization
