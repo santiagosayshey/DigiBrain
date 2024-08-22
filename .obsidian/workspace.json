@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Authentication.md",
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Authentication.md"
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md"
               }
             }
           }
@@ -225,8 +225,9 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
-    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Project/Authentication.md",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Project/justification.md",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
@@ -263,7 +264,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Quizzes/Quiz 1.md",
-    "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
     "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Tutorials",
