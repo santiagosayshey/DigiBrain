@@ -221,9 +221,7 @@ In the 5-frame scenario, there are 8 page faults.
 > Answer:
 > 
 > a. Install a faster CPU:
->    - Unlikely to improve CPU utilization
->    - The current CPU is idle 80% of the time, so increasing its speed won't help
->    - The bottleneck appears to be in the paging system, not CPU speed
+>    - CPU utilisation is only at 20%, so installing a faster CPU will only drop this number even further. The issue is that the CPU is already processing things faster than the paging disk can give tasks to the CPU. 
 > 
 > b. Install a bigger paging disk:
 >    - Unlikely to improve CPU utilization
