@@ -60,46 +60,169 @@
 > 
 > Answer:
 > 
-> 1. LRU (Least Recently Used):
->    Process: Keep track of when each page was last used. When a page fault occurs and all frames are full, replace the page that hasn't been used for the longest time.
-> 
->    - 3 frames: 15 faults
->      - Pages 1, 2, 3 fill empty frames.
->      - Page 4 replaces 1 (least recently used).
->      - Continue replacing least recently used page when a fault occurs.
-> 
->    - 5 frames: 10 faults
->      - Pages 1, 2, 3, 4, 5 fill empty frames.
->      - Page 6 replaces 1, then 7 replaces 2.
->      - Fewer replacements due to more available frames.
-> 
-> 2. FIFO (First-In-First-Out):
->    Process: Maintain a queue of pages. When a page fault occurs and all frames are full, replace the page that has been in memory the longest (front of the queue).
-> 
->    - 3 frames: 15 faults
->      - Pages 1, 2, 3 fill empty frames.
->      - Page 4 replaces 1 (first in).
->      - Continue replacing oldest page in memory.
-> 
->    - 5 frames: 10 faults
->      - Pages 1, 2, 3, 4, 5 fill empty frames.
->      - Page 6 replaces 1, then 7 replaces 2.
->      - Performs identically to LRU for this sequence.
-> 
-> 3. Optimal:
->    Process: When a page fault occurs and all frames are full, look ahead in the reference string and replace the page that won't be used for the longest time in the future.
-> 
->    - 3 frames: 11 faults
->      - Pages 1, 2, 3 fill empty frames.
->      - For page 4, replace 3 as it won't be used for the longest time.
->      - Continue replacing page not used for longest future time.
-> 
->    - 5 frames: 8 faults
->      - Pages 1, 2, 3, 4, 5 fill empty frames.
->      - 6 and 7 cause faults, filling all frames.
->      - Only page 3 causes another fault after this.
-> 
-> The Optimal algorithm performs best due to its future knowledge, but it's not implementable in real systems. LRU and FIFO are more practical but may perform differently depending on the specific page reference pattern.
+
+# LRU 
+
+For 3 frames:
+
+| Page Reference | Frames | Page Fault? | Frame Replaced (if any) |
+|----------------|--------|-------------|-------------------------|
+| 1 | [1] | Yes | - |
+| 2 | [1,2] | Yes | - |
+| 3 | [1,2,3] | Yes | - |
+| 4 | [2,3,4] | Yes | 1 |
+| 2 | [3,4,2] | No | - |
+| 1 | [4,2,1] | Yes | 3 |
+| 5 | [2,1,5] | Yes | 4 |
+| 6 | [1,5,6] | Yes | 2 |
+| 2 | [5,6,2] | Yes | 1 |
+| 1 | [6,2,1] | Yes | 5 |
+| 2 | [6,2,1] | No | - |
+| 3 | [2,1,3] | Yes | 6 |
+| 7 | [1,3,7] | Yes | 2 |
+| 6 | [3,7,6] | Yes | 1 |
+| 3 | [7,6,3] | No | - |
+| 2 | [6,3,2] | Yes | 7 |
+| 1 | [3,2,1] | Yes | 6 |
+| 2 | [3,2,1] | No | - |
+| 3 | [3,2,1] | No | - |
+| 6 | [2,1,6] | Yes | 3 |
+
+In the 3-frame scenario, there are 15 page faults.
+
+| Page Reference | Frames | Page Fault? | Frame Replaced (if any) |
+|----------------|--------|-------------|-------------------------|
+| 1 | [1] | Yes | - |
+| 2 | [1,2] | Yes | - |
+| 3 | [1,2,3] | Yes | - |
+| 4 | [1,2,3,4] | Yes | - |
+| 2 | [1,2,3,4] | No | - |
+| 1 | [1,2,3,4] | No | - |
+| 5 | [1,2,3,4,5] | Yes | - |
+| 6 | [2,3,4,5,6] | Yes | 1 |
+| 2 | [2,3,4,5,6] | No | - |
+| 1 | [3,4,5,6,1] | Yes | 2 |
+| 2 | [4,5,6,1,2] | Yes | 3 |
+| 3 | [5,6,1,2,3] | Yes | 4 |
+| 7 | [6,1,2,3,7] | Yes | 5 |
+| 6 | [6,1,2,3,7] | No | - |
+| 3 | [6,1,2,3,7] | No | - |
+| 2 | [6,1,2,3,7] | No | - |
+| 1 | [6,1,2,3,7] | No | - |
+| 2 | [6,1,2,3,7] | No | - |
+| 3 | [6,1,2,3,7] | No | - |
+| 6 | [6,1,2,3,7] | No | - |
+
+In the 5-frame scenario, there are 10 page faults.
+
+# FIFO
+
+For 3 frames:
+
+| Page Reference | Frames | Page Fault? | Frame Replaced (if any) |
+|----------------|--------|-------------|-------------------------|
+| 1 | [1] | Yes | - |
+| 2 | [1,2] | Yes | - |
+| 3 | [1,2,3] | Yes | - |
+| 4 | [4,2,3] | Yes | 1 |
+| 2 | [4,2,3] | No | - |
+| 1 | [1,2,3] | Yes | 4 |
+| 5 | [1,5,3] | Yes | 2 |
+| 6 | [1,5,6] | Yes | 3 |
+| 2 | [2,5,6] | Yes | 1 |
+| 1 | [2,1,6] | Yes | 5 |
+| 2 | [2,1,6] | No | - |
+| 3 | [3,1,6] | Yes | 2 |
+| 7 | [3,7,6] | Yes | 1 |
+| 6 | [3,7,6] | No | - |
+| 3 | [3,7,6] | No | - |
+| 2 | [2,7,6] | Yes | 3 |
+| 1 | [2,1,6] | Yes | 7 |
+| 2 | [2,1,6] | No | - |
+| 3 | [3,1,6] | Yes | 2 |
+| 6 | [3,1,6] | No | - |
+
+In the 3-frame scenario, there are 15 page faults.
+
+For 5 frames:
+
+| Page Reference | Frames | Page Fault? | Frame Replaced (if any) |
+|----------------|--------|-------------|-------------------------|
+| 1 | [1] | Yes | - |
+| 2 | [1,2] | Yes | - |
+| 3 | [1,2,3] | Yes | - |
+| 4 | [1,2,3,4] | Yes | - |
+| 2 | [1,2,3,4] | No | - |
+| 1 | [1,2,3,4] | No | - |
+| 5 | [1,2,3,4,5] | Yes | - |
+| 6 | [6,2,3,4,5] | Yes | 1 |
+| 2 | [6,2,3,4,5] | No | - |
+| 1 | [6,1,3,4,5] | Yes | 2 |
+| 2 | [6,1,2,4,5] | Yes | 3 |
+| 3 | [6,1,2,3,5] | Yes | 4 |
+| 7 | [7,1,2,3,5] | Yes | 6 |
+| 6 | [7,6,2,3,5] | Yes | 1 |
+| 3 | [7,6,2,3,5] | No | - |
+| 2 | [7,6,2,3,5] | No | - |
+| 1 | [7,6,1,3,5] | Yes | 2 |
+| 2 | [7,6,1,2,5] | Yes | 3 |
+| 3 | [3,6,1,2,5] | Yes | 7 |
+| 6 | [3,6,1,2,5] | No | - |
+In the 5-frame scenario, there are 13 page faults.
+
+# Optimal
+
+For 3 frames:
+
+| Page Reference | Frames | Page Fault? | Frame Replaced (if any) |
+|----------------|--------|-------------|-------------------------|
+| 1 | [1] | Yes | - |
+| 2 | [1,2] | Yes | - |
+| 3 | [1,2,3] | Yes | - |
+| 4 | [1,2,4] | Yes | 3 |
+| 2 | [1,2,4] | No | - |
+| 1 | [1,2,4] | No | - |
+| 5 | [1,2,5] | Yes | 4 |
+| 6 | [1,2,6] | Yes | 5 |
+| 2 | [1,2,6] | No | - |
+| 1 | [1,2,6] | No | - |
+| 2 | [1,2,6] | No | - |
+| 3 | [1,2,3] | Yes | 6 |
+| 7 | [1,2,7] | Yes | 3 |
+| 6 | [1,2,6] | Yes | 7 |
+| 3 | [1,2,3] | Yes | 6 |
+| 2 | [1,2,3] | No | - |
+| 1 | [1,2,3] | No | - |
+| 2 | [1,2,3] | No | - |
+| 3 | [1,2,3] | No | - |
+| 6 | [1,2,6] | Yes | 3 |
+In the 3-frame scenario, there are 11 page faults.
+
+For 5 frames:
+
+| Page Reference | Frames | Page Fault? | Frame Replaced (if any) |
+|----------------|--------|-------------|-------------------------|
+| 1 | [1] | Yes | - |
+| 2 | [1,2] | Yes | - |
+| 3 | [1,2,3] | Yes | - |
+| 4 | [1,2,3,4] | Yes | - |
+| 2 | [1,2,3,4] | No | - |
+| 1 | [1,2,3,4] | No | - |
+| 5 | [1,2,3,4,5] | Yes | - |
+| 6 | [1,2,3,5,6] | Yes | 4 |
+| 2 | [1,2,3,5,6] | No | - |
+| 1 | [1,2,3,5,6] | No | - |
+| 2 | [1,2,3,5,6] | No | - |
+| 3 | [1,2,3,5,6] | No | - |
+| 7 | [1,2,3,6,7] | Yes | 5 |
+| 6 | [1,2,3,6,7] | No | - |
+| 3 | [1,2,3,6,7] | No | - |
+| 2 | [1,2,3,6,7] | No | - |
+| 1 | [1,2,3,6,7] | No | - |
+| 2 | [1,2,3,6,7] | No | - |
+| 3 | [1,2,3,6,7] | No | - |
+| 6 | [1,2,3,6,7] | No | - |
+In the 5-frame scenario, there are 8 page faults.
 
 > [!exercise] Question 4: Improving CPU Utilization
 > Consider a demand-paging system with the following time-measured utilizations:
