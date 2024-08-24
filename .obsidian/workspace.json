@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md"
               }
             }
           }
@@ -225,11 +225,11 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "5.2 Testing.md",
     "5.2 Testing =.md",
     "Untitled 1.md",
     "Content/Computer Science/Software Development & Project/Project/Authentication.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Project/justification.md",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
