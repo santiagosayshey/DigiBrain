@@ -71,6 +71,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "135a295118ad8199",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Computer Science.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -225,6 +238,8 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
+    "Content/Computer Science/Computer Science.md",
+    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
     "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
@@ -232,7 +247,6 @@
     "5.2 Testing =.md",
     "Untitled 1.md",
     "Content/Computer Science/Software Development & Project/Project/Authentication.md",
-    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Project/justification.md",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
@@ -258,7 +272,6 @@
     "Images/Pasted image 20240813170214.png",
     "Images/Pasted image 20240813165751.png",
     "Images/Pasted image 20240813165420.png",
-    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Images/Pasted image 20240813152249.png",
     "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
