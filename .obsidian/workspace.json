@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "7b1d2bcc125045f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "153080fe5875e4c5",
             "type": "leaf",
             "state": {
@@ -251,13 +264,13 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
     "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
-    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
     "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "5.2 Testing =.md",
     "Untitled 1.md",
     "Content/Computer Science/Software Development & Project/Project/Authentication.md",
