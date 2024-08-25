@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/4.2 Context Switching.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/4.2 Context Switching.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md"
               }
             }
           }
@@ -186,7 +186,7 @@
   "active": "c27825f146420d02",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
-    "Content/Computer Science/Operating Systems/Notes/4.2 Context Switching.md",
+    "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Operating Systems/Notes/Untitled.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
