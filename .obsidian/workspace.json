@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md"
               }
             }
           }
@@ -264,9 +264,10 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
@@ -295,7 +296,6 @@
     "Content/Computer Science/Software Development & Project/Notes/1.6 Project Vision.md",
     "Content/Projects/log.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
-    "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
     "Images/Pasted image 20240813170957.png",
