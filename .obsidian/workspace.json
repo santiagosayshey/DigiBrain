@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3d6b2971644dd59b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -172,10 +185,11 @@
   },
   "active": "c27825f146420d02",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Operating Systems/Notes/Untitled.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Images/Pasted image 20240826041749.png",
-    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
@@ -189,7 +203,6 @@
     "Images/Pasted image 20240825220926.png",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.2 Heaps.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.1 Off By One.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
     "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
