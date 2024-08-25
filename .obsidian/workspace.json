@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/Untitled.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/Untitled.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md"
               }
             }
           }
@@ -264,9 +264,10 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/Untitled.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
@@ -294,7 +295,6 @@
     "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
     "Content/Computer Science/Software Development & Project/Project/meeting 1.md",
-    "Content/Computer Science/Software Development & Project/Project/Kick off Meeting.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
