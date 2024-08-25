@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/4.1.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/4.1.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md"
               }
             }
           }
@@ -172,8 +172,8 @@
   },
   "active": "c27825f146420d02",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/Operating Systems/Notes/4.1.md",
+    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
