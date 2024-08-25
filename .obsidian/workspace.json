@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.1.md"
               }
             }
           }
@@ -264,8 +264,15 @@
   },
   "active": "75f37614d7f21e59",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.1.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
+    "Images/Pasted image 20240825220952.png",
+    "Images/Pasted image 20240825220926.png",
+    "Content/Computer Science/Secure Programming/Lecture Notes/4.2 Heaps.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/4.1 Off By One.md",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
     "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
@@ -289,7 +296,6 @@
     "Content/Projects/log.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Notes/1.5 Scrum.md",
-    "Content/Projects/Dictionarry/DStandard.md",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
     "Images/Pasted image 20240813170957.png",
@@ -297,12 +303,6 @@
     "Images/Pasted image 20240813170636.png",
     "Images/Pasted image 20240813170214.png",
     "Images/Pasted image 20240813165751.png",
-    "Images/Pasted image 20240813165420.png",
-    "Images/Pasted image 20240813152249.png",
-    "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
-    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
-    "Content/Computer Science/Operating Systems/Notes/3.2 Memory Data Structures.md",
-    "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
     "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Tutorials",
