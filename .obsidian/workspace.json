@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md"
               }
             }
           }
@@ -172,9 +172,10 @@
   },
   "active": "c27825f146420d02",
   "lastOpenFiles": [
-    "Images/Pasted image 20240826041749.png",
-    "Content/Computer Science/Operating Systems/Notes/4.1.md",
+    "Content/Computer Science/Operating Systems/Notes/Untitled.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+    "Images/Pasted image 20240826041749.png",
+    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
@@ -210,7 +211,6 @@
     "Images/Pasted image 20240813170655.png",
     "Images/Pasted image 20240813170636.png",
     "Images/Pasted image 20240813170214.png",
-    "Images/Pasted image 20240813165751.png",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
     "Content/Computer Science/Operating Systems/Quizzes",
     "Content/Computer Science/Operating Systems/Tutorials",
