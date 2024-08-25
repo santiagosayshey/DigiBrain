@@ -4,115 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3aec72d85d4ad5e9",
+        "id": "27344076ef5b2ce2",
         "type": "tabs",
         "children": [
           {
-            "id": "c31e82eb892070eb",
+            "id": "c27825f146420d02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03ab7271130242fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19ea04b5140c2547",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1c7f266ff2cc6c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/justification.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75f37614d7f21e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b1d2bcc125045f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "153080fe5875e4c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "135a295118ad8199",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Computer Science.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/4.1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/4.1.md"
               }
             }
           }
@@ -262,17 +170,18 @@
       "media-extended:Open media": false
     }
   },
-  "active": "75f37614d7f21e59",
+  "active": "c27825f146420d02",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
+    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+    "Content/Computer Science/Operating Systems/Notes/4.1.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
-    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
@@ -294,7 +203,6 @@
     "System Architecture.png",
     "Content/Computer Science/Software Development & Project/Notes/4.2 Architecture Design.md",
     "Content/Computer Science/Software Development & Project/Notes/2.6 Requirements Documentation.md",
-    "Content/Computer Science/Software Development & Project/Notes/2.4 Requirements Engineering.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
