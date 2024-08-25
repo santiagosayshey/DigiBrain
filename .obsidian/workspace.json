@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/4.2 Context Switching.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/4.2 Context Switching.md"
               }
             }
           }
@@ -185,8 +185,9 @@
   },
   "active": "c27825f146420d02",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
+    "Content/Computer Science/Operating Systems/Notes/4.2 Context Switching.md",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Operating Systems/Notes/Untitled.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Images/Pasted image 20240826041749.png",
@@ -216,7 +217,6 @@
     "Content/Computer Science/Software Development & Project/Notes/4.1 System Modelling.md",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "System Architecture.png",
-    "Content/Computer Science/Software Development & Project/Notes/4.2 Architecture Design.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20240813172550.png",
     "Images/Pasted image 20240813171208.png",
