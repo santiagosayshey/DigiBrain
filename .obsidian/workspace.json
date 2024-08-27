@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf553c05cf692b74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.1 Asymptotic Notation.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md"
               }
             }
           },
@@ -133,13 +120,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "b91970642a49714c",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-todoist",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 473.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,10 +145,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05a1fb00ea7c220c",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
+    "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Images/Pasted image 20240828055549.png",
     "Images/Pasted image 20240828055529.png",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.1 Asymptotic Notation.md",
