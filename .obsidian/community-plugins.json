@@ -1,17 +1,4 @@
 [
-  "pomodoro-timer",
-  "obsidian-discordrpc",
-  "editing-toolbar",
-  "obsidian-excel-to-markdown-table",
-  "execute-code",
-  "obsidian-git",
-  "hotkeysplus-obsidian",
   "obsidian-functionplot",
-  "obsidian-sortable",
-  "obsidian-style-settings",
-  "obsidian-icon-folder",
-  "obsidian-custom-frames",
-  "media-extended",
-  "obsidian-pandoc",
-  "OA-file-hider"
+  "obsidian-git"
 ]
