@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "1141fab3c24119b8",
+    "id": "5a60d1e1213c4e7c",
     "type": "split",
     "children": [
       {
-        "id": "27344076ef5b2ce2",
+        "id": "6575a7c9600243be",
         "type": "tabs",
         "children": [
           {
-            "id": "c27825f146420d02",
+            "id": "05a1fb00ea7c220c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Quizzes/Quiz 2.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "3d6b2971644dd59b",
+            "id": "cf553c05cf692b74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
+                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.1 Asymptotic Notation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "86f67e2968be30d9",
+    "id": "598e343cfcde125a",
     "type": "split",
     "children": [
       {
-        "id": "6c6d76b9ea2c6daf",
+        "id": "67861793d5061fa5",
         "type": "tabs",
         "children": [
           {
-            "id": "4f3df35495624a56",
+            "id": "3f0fa8cfce46dbb7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,33 +57,25 @@
             }
           },
           {
-            "id": "3acc7c0aa4314478",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "ea281581eaad221b",
+            "id": "cedd67da0bc47203",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "project vision",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "d8aec310cd7b15e8",
+            "id": "de58042bceb6de8b",
             "type": "leaf",
             "state": {
-              "type": "custom-frames-plex",
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -91,50 +83,39 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50499725341797
+    "width": 300
   },
   "right": {
-    "id": "055570dad7c5894a",
+    "id": "b96eeaa6dedc74b7",
     "type": "split",
     "children": [
       {
-        "id": "812749e182b41584",
+        "id": "f8c7f126a3f43153",
         "type": "tabs",
-        "dimension": 30.726256983240223,
         "children": [
           {
-            "id": "78df8c00d10661e2",
+            "id": "34c735ff2efc1376",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
-            "id": "263cda17628adc49",
+            "id": "1f3b7863326c1b97",
             "type": "leaf",
             "state": {
-              "type": "timer-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "e3305afbc550e67d",
-        "type": "tabs",
-        "dimension": 69.27374301675978,
-        "children": [
-          {
-            "id": "163992d3886f8820",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-todoist",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md"
+              }
             }
           },
           {
-            "id": "3d5b92bec3504f53",
+            "id": "c87e866331466ff9",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -146,100 +127,80 @@
             }
           },
           {
-            "id": "69a6e5e6226c1d9c",
+            "id": "048aebd30a716395",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "03eed31f552162a8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Quizzes/Quiz 2.md"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "media-extended:Open media": false
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "c27825f146420d02",
+  "active": "048aebd30a716395",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
+    "Images/Pasted image 20240828055549.png",
+    "Images/Pasted image 20240828055529.png",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.1 Asymptotic Notation.md",
+    "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
+    "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
+    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
+    "Content/Computer Science/Operating Systems/Notes/4.3 Smaller Page Tables.md",
+    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
+    "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
+    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+    "Content/Computer Science/Software Development & Project/Notes/6.1 Testing II.md",
+    "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
+    "Content/Computer Science/Operating Systems/Quizzes/Quiz 2.md",
     "Images/Pasted image 20240826060932.png",
     "Images/Pasted image 20240826060925.png",
     "Images/Pasted image 20240826060911.png",
-    "Content/Computer Science/Operating Systems/Notes/4.3 Smaller Page Tables.md",
-    "Content/Computer Science/Operating Systems/Quizzes/Quiz 2.md",
-    "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
-    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
-    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Images/Pasted image 20240826041749.png",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.1.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.2 Heaps.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/4.1 Off By One.md",
-    "Content/Computer Science/Computer Science.md",
-    "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
-    "Content/Computer Science/Object Oriented Programming/Major Project/Project Plan.md",
-    "Content/Computer Science/MongoDB/Notes/1.1 Intro.md",
-    "Content/Computer Science/Software Development & Project/Notes/5.1 Real Time Software.md",
-    "5.2 Testing =.md",
-    "Untitled 1.md",
-    "Content/Computer Science/Software Development & Project/Project/Authentication.md",
-    "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
-    "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "System Architecture.png",
-    "Content/Projects/Dictionarry/Architecture.canvas",
-    "Images/Pasted image 20240813172550.png",
-    "Images/Pasted image 20240813171208.png",
-    "Images/Pasted image 20240813170957.png",
-    "Images/Pasted image 20240813170655.png",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Quiz 1.pdf",
-    "Content/Computer Science/Operating Systems/Quizzes",
-    "Content/Computer Science/Operating Systems/Tutorials",
-    "Content/Computer Science/Docker/Notes",
-    "Content/Computer Science/Docker",
-    "Content/Computer Science/Operating Systems/Assignments",
-    "Content/Computer Science/Software Development & Project/Project",
-    "Images/fff-378-junction-refinery.mp4",
+    "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
+    "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
+    "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
+    "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
+    "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
+    "Content/Computer Science/Secure Programming/Textbook.pdf",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
+    "Images/out.bmp",
+    "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 1 - Intro to Wireshark.pdf",
+    "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 4 - TCP.pdf",
     "Images/fff-378-junction-refinery.mkv",
-    "Content/Computer Science/Operating Systems/Notes",
-    "Content/Computer Science/Software Development & Project/Notes/1.1 Software Processes.canvas",
-    "Untitled 3.canvas",
-    "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Content/Projects/Dictionarry/Untitled.canvas"
+    "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+    "Content/Projects/Dictionarry/Untitled.canvas",
+    "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
+    "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
   ]
 }

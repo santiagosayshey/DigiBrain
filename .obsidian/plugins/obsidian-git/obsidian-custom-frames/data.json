@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://app.todoist.com/app/upcoming",
+      "displayName": "Todoist",
+      "icon": "list-checks",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ".calendar {\n  display: none;\n}\n\n.upcoming_view__calendar__controls__nav {\n  display: none !important;\n}\n\n#content {\n  background-color: #181c20 !important;\n}\n\n.fwBw5Mb {\n  background-color: #181c20 !important;\n}\n\nh2 {\n  background-color: #181c20 !important;\n}\n\n.task_list_item__body {\n  background-color: #181c20 !important;\n}\n\n#content {\n  overflow-y: scroll !important;\n  scrollbar-width: none !important;\n}\n\n.container::-webkit-scrollbar { \n    display: none !important;\n}",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}
