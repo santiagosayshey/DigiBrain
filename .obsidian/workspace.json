@@ -96,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Micro-Architectural Attacks.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,10 +143,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05a1fb00ea7c220c",
+  "active": "b91970642a49714c",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Micro-Architectural Attacks.md",
+    "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Images/Pasted image 20240828055549.png",
