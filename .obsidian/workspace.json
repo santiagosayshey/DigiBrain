@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 365.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
               }
             }
           },
@@ -145,10 +145,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "05a1fb00ea7c220c",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
+    "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Images/Pasted image 20240828055549.png",
     "Images/Pasted image 20240828055529.png",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.1 Asymptotic Notation.md",
