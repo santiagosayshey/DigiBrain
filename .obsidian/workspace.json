@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/6.1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/6.1.md"
               }
             }
           },
@@ -148,13 +148,14 @@
   "active": "05a1fb00ea7c220c",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/6.1.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
+    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Images/Pasted image 20240828055549.png",
     "Images/Pasted image 20240828055529.png",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.1 Asymptotic Notation.md",
     "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
     "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
-    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
     "Content/Computer Science/Operating Systems/Notes/4.3 Smaller Page Tables.md",
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
@@ -181,7 +182,6 @@
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.2 Heaps.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
     "System Architecture.png",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
