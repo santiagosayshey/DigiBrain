@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7e82953ae00bcd8b",
+        "id": "cbafc9801d8e0cb8",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d32e0249843435",
+            "id": "b3d4cbd9e864943c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md"
               }
             }
           },
@@ -145,8 +145,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3d32e0249843435",
+  "active": "b3d4cbd9e864943c",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
     "Content/Computer Science/Algorithm Design and Data Structures/Notes/11.2 Algorithmic Strategies.md",
@@ -176,8 +178,6 @@
     "Content/Computer Science/Software Development & Project/Notes/2.2 Test Driven Development.md",
     "Content/Computer Science/Operating Systems/Notes/4.3 Smaller Page Tables.md",
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
-    "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
-    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20240826060932.png",
     "Images/Pasted image 20240826060925.png",
