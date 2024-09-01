@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md",
+                "file": "Content/Media Server/Docker Volumes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md"
+                "file": "Content/Media Server/Docker Volumes.md"
               }
             }
           },
@@ -147,8 +147,11 @@
   },
   "active": "05a1fb00ea7c220c",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
+    "Images/docker-volumes.jpg",
     "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md",
+    "Content/Media Server/Docker Volumes.md",
+    "Content/Media Server",
+    "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Side Channels.md",
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
@@ -178,8 +181,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.1.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
     "System Architecture.png",
@@ -193,7 +194,6 @@
     "Images/out.bmp",
     "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 1 - Intro to Wireshark.pdf",
     "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 4 - TCP.pdf",
-    "Images/fff-378-junction-refinery.mkv",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
