@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6575a7c9600243be",
+        "id": "7e82953ae00bcd8b",
         "type": "tabs",
         "children": [
           {
-            "id": "05a1fb00ea7c220c",
+            "id": "b3d32e0249843435",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Media Server/Docker Volumes.md",
+                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Media Server/Docker Volumes.md"
+                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md"
               }
             }
           },
@@ -145,11 +145,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05a1fb00ea7c220c",
+  "active": "b3d32e0249843435",
   "lastOpenFiles": [
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
+    "Content/Computer Science/Algorithm Design and Data Structures/Notes/11.2 Algorithmic Strategies.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/1.1 Computer Networks.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/1.2 Network Delays.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/3.3 Sockets.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/12.5 MPLS.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/13.1 Network Address Translation.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/13.2 Security.md",
+    "Content/Computer Science/Computer Networks & Applications/Notes/13.5 Hashing.md",
+    "Content/Computer Science/Object Oriented Programming/Notes/6.1 Polymorphism.md",
+    "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
+    "Content/Computer Science/Object Oriented Programming/Notes/4.1 Classes and Objects.md",
+    "Content/Media Server/Docker Volumes.md",
     "Images/docker-volumes.jpg",
     "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md",
-    "Content/Media Server/Docker Volumes.md",
     "Content/Media Server",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Side Channels.md",
@@ -165,22 +178,11 @@
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
-    "Content/Computer Science/Software Development & Project/Notes/6.1 Testing II.md",
-    "Content/Computer Science/Software Development & Project/Notes/5.2 Testing.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.7 Address Space Layout Randomisation.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
-    "Content/Computer Science/Operating Systems/Quizzes/Quiz 2.md",
     "Images/Pasted image 20240826060932.png",
     "Images/Pasted image 20240826060925.png",
     "Images/Pasted image 20240826060911.png",
     "Images/Pasted image 20240826041749.png",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
     "System Architecture.png",
@@ -188,10 +190,8 @@
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
     "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
-    "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
-    "Images/out.bmp",
     "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 1 - Intro to Wireshark.pdf",
     "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 4 - TCP.pdf",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
