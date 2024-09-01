@@ -2,7 +2,7 @@
   "accentColor": "#0056d6",
   "cssTheme": "Things",
   "theme": "obsidian",
-  "textFontFamily": "",
+  "textFontFamily": "Noto Serif",
   "enabledCssSnippets": [
     "App",
     "blocks",
