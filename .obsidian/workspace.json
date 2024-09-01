@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md"
               }
             }
           },
@@ -147,8 +147,9 @@
   },
   "active": "05a1fb00ea7c220c",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Side Channels.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
+    "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Side Channels.md",
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
@@ -179,7 +180,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.1.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
     "Images/Pasted image 20240825220952.png",
     "Images/Pasted image 20240825220926.png",
     "System Architecture.png",
