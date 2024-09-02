@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.2 Locks with Interrupts.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.2 Locks with Interrupts.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md"
               }
             }
           },
@@ -147,9 +147,9 @@
   },
   "active": "b3d4cbd9e864943c",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/6.2 Locks with Interrupts.md",
     "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
     "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
-    "Content/Computer Science/Operating Systems/Notes/6.2 Locks with Interrupts.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
