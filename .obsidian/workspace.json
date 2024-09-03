@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.6.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.6.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md"
               }
             }
           },
@@ -161,7 +161,7 @@
   "active": "b3d4cbd9e864943c",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
-    "Content/Computer Science/Operating Systems/Notes/6.6.md",
+    "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Futex.md",
     "Content/Computer Science/Operating Systems/Notes/6.3 Blocking Locks.md",
     "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md",
