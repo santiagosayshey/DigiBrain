@@ -16,6 +16,10 @@ mjx-container[display="true"] {
   margin-right: auto;
 }
 
+div.mermaid {
+    text-align: center;
+}
+
 :root table {
   max-width: 100% !important;
   width: 100% !important;
