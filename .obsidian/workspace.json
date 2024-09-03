@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md",
+                "file": "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md"
+                "file": "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md"
               }
             }
           },
@@ -161,6 +161,8 @@
   },
   "active": "0ad7cb13a21af2da",
   "lastOpenFiles": [
+    "Content/Computer Science/Computer Systems/Notes/8.1 High Level Languages.md",
+    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Peterson's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/9.2 Dijkstra's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/8.7 Kosaraju's Algorithm.md",
@@ -185,8 +187,6 @@
     "Content/Computer Science/Computer Networks & Applications/Notes/12.5 MPLS.md",
     "Content/Computer Science/Computer Networks & Applications/Notes/13.1 Network Address Translation.md",
     "Content/Computer Science/Computer Networks & Applications/Notes/13.2 Security.md",
-    "Content/Computer Science/Computer Networks & Applications/Notes/13.5 Hashing.md",
-    "Content/Computer Science/Object Oriented Programming/Notes/6.1 Polymorphism.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
