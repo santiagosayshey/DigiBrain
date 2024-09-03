@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 453.5,
+    "collapsed": true
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -147,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 472.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3d4cbd9e864943c",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
