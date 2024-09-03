@@ -135,3 +135,32 @@
 > c) The buffer contains 1 item, and the consumer reads that item.
 > 
 > **Answer:**
+> 
+> a) When the buffer is full and the producer wants to put one item:
+>    - The producer acquires the lock M.
+>    - It checks the condition `(in + 1) % n == out`, which is true (buffer is full).
+>    - The producer calls `pt_cond_wait(&Out_CV, &M)`, which:
+>      1. Releases the lock M
+>      2. Puts the producer thread to sleep, waiting on Out_CV
+>      3. When awakened, it will reacquire the lock M
+>    - The producer remains asleep until a consumer signals Out_CV after consuming an item.
+> 
+> b) When the buffer contains 3 items and the consumer reads one item:
+>    - The consumer acquires the lock M.
+>    - It checks the condition `in == out`, which is false (buffer is not empty).
+>    - The consumer reads the item from `b[out]`.
+>    - It updates `out = (out + 1) % n`.
+>    - The consumer releases the lock M.
+>    - It signals Out_CV, potentially waking up a waiting producer.
+>    - The consumer then processes the read item.
+> 
+> c) When the buffer contains 1 item and the consumer reads that item:
+>    - The consumer acquires the lock M.
+>    - It checks the condition `in == out`, which is false (buffer is not empty).
+>    - The consumer reads the item from `b[out]`.
+>    - It updates `out = (out + 1) % n`.
+>    - After this update, `in == out` becomes true, indicating an empty buffer.
+>    - The consumer releases the lock M.
+>    - It signals Out_CV, potentially waking up a waiting producer.
+>    - The consumer then processes the read item.
+>    - The next time a consumer tries to read, it will wait on In_CV until a producer adds an item.
