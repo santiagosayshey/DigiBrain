@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   },
   "active": "b3d4cbd9e864943c",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
+    "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
     "Content/Computer Science/Operating Systems/Notes/6.7 Ticket Locks.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Locks with Compare-and-Swap.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Locks with Test-and-Set.md",
@@ -184,8 +186,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
     "Content/Computer Science/Algorithm Design and Data Structures/Notes/11.2 Algorithmic Strategies.md",
-    "Content/Computer Science/Computer Networks & Applications/Notes/1.1 Computer Networks.md",
-    "Content/Computer Science/Computer Networks & Applications/Notes/1.2 Network Delays.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
