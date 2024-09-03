@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/6.11 Futex.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/6.11 Futex.md"
               }
             }
           },
@@ -160,8 +160,10 @@
   },
   "active": "b3d4cbd9e864943c",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
+    "Content/Computer Science/Operating Systems/Notes/6.10 Spin-and-Wait vs Block-and-Sleep.md",
+    "Content/Computer Science/Operating Systems/Notes/6.11 Futex.md",
     "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md",
+    "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
     "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
     "Content/Computer Science/Operating Systems/Notes/6.7 Ticket Locks.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Locks with Compare-and-Swap.md",
@@ -184,8 +186,6 @@
     "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
     "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
