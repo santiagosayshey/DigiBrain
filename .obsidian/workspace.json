@@ -11,8 +11,13 @@
             "id": "e31e781684c9afd8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -91,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md"
+              }
             }
           },
           {
@@ -140,6 +147,7 @@
   },
   "active": "e31e781684c9afd8",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
@@ -165,7 +173,6 @@
     "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
-    "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
