@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "800a72d36ebdff1a",
+            "id": "0ad7cb13a21af2da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
+                "file": "Content/Computer Science/Computer Science.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.4 Peterson's Algorithm.md"
+                "file": "Content/Computer Science/Computer Science.md"
               }
             }
           },
@@ -158,10 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3d4cbd9e864943c",
+  "active": "0ad7cb13a21af2da",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Peterson's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/9.2 Dijkstra's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/8.7 Kosaraju's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
+    "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
     "Content/Computer Science/Operating Systems/Notes/6.2 Locks with Interrupts.md",
     "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
@@ -183,12 +188,8 @@
     "Content/Computer Science/Computer Networks & Applications/Notes/13.5 Hashing.md",
     "Content/Computer Science/Object Oriented Programming/Notes/6.1 Polymorphism.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
-    "Content/Computer Science/Object Oriented Programming/Notes/4.1 Classes and Objects.md",
-    "Content/Media Server/Docker Volumes.md",
     "Images/docker-volumes.jpg",
-    "Content/Computer Science/Software Development & Project/Notes/6.2 Project Management.md",
     "Content/Media Server",
-    "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
     "Images/Pasted image 20240828055549.png",
     "Images/Pasted image 20240828055529.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
