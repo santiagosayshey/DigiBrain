@@ -1,6 +1,6 @@
 > [!exercise] Question 1: Concurrent Threads and Shared Variables
 > The following program consists of two concurrent threads that shared the variable x.
-> ```c
+> ```
 > int x = 1;
 > Thread T1: Do_something; x = x*2; print x
 > Thread T2: Read 4 values; x = x+4;
@@ -8,11 +8,32 @@
 > Give all possible final values of the variable x after the two threads run.
 > 
 > **Answer:**
-> What are the scenarios?
-> Both run at once. Only T1 saves. 
-> Both run at once. Only T2 saves.
-> T1 runs before T2
-> T2 runs before T1
+> There are several possible scenarios due to the concurrent nature of the threads:
+> 
+> 1. T1 runs completely before T2:
+>    - x = 1 * 2 = 2 (T1)
+>    - x = 2 + 4 = 6 (T2)
+>    - Final value: 6
+> 
+> 2. T2 runs completely before T1:
+>    - x = 1 + 4 = 5 (T2)
+>    - x = 5 * 2 = 10 (T1)
+>    - Final value: 10
+> 
+> 3. T1 and T2 interleave, T1 reads x before T2 modifies it:
+>    - T1 reads x (1), T2 modifies x (1 + 4 = 5), T1 completes (1 * 2 = 2)
+>    - Final value: 2
+> 
+> 4. T1 and T2 interleave, T2 modifies x before T1 reads it:
+>    - T2 modifies x (1 + 4 = 5), T1 reads and modifies x (5 * 2 = 10)
+>    - Final value: 10
+> 
+> 5. T1 and T2 read the initial value simultaneously:
+>    - Both threads read x as 1
+>    - T1 sets x to 2, T2 sets x to 5
+>    - Final value depends on which thread writes last: either 2 or 5
+> 
+> Therefore, the possible final values of x are: 2, 5, 6, and 10.
 
 > [!exercise] Question 2: Extended Concurrent Threads with Locks
 > The program was extended to three concurrent threads and two locks were added.
@@ -33,6 +54,32 @@
 > c) Can you fix the use of the locks to achieve the desired outcome.
 > 
 > **Answer:**
+> 
+> a) An order that works well:
+>    T1 -> T2 -> T3
+>    This order ensures that each thread completes its operation before the next one starts, avoiding any race conditions.
+>    
+>    An order that results in a race condition:
+>    T2 acquires lc2, T3 acquires lc1, T1 attempts to acquire both locks
+>    This can lead to a deadlock as T1 waits for lc2 (held by T2) and T2 waits for lc1 (held by T3).
+> 
+> b) The use of a multicore processor would **increase** the chance of encountering a race condition. With multiple cores, threads can truly run in parallel, increasing the likelihood of interleaved executions and potential race conditions.
+> 
+> c) To fix the use of locks and achieve the desired outcome:
+>    - Implement a consistent order of lock acquisition across all threads to prevent deadlocks.
+>    - Use a single lock for all critical sections to ensure mutual exclusion.
+>    
+>    Modified code:
+>    ```
+>    int x = 1;
+>    lock_t lock;
+>    
+>    Thread T1: Do_something; lock(lock); x = x*2; unlock(lock);
+>    Thread T2: lock(lock); x = x+4; unlock(lock);
+>    Thread T3: lock(lock); x = x*x; unlock(lock);
+>    ```
+>    
+>    This ensures that only one thread can modify x at a time, preventing race conditions and maintaining data consistency.
 
 > [!exercise] Question 3: Producer-Consumer Problem with Condition Variables
 > Below you can read a solution of the Producer-Consumer Problem that uses a lock M in combination with two condition variables to make the producer sleep when the buffer is full, and to make the consumer sleep when the buffer is empty.
