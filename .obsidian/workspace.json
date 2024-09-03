@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.11 Futex.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.11 Futex.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md"
               }
             }
           },
@@ -160,15 +160,18 @@
   },
   "active": "b3d4cbd9e864943c",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/6.10 Spin-and-Wait vs Block-and-Sleep.md",
-    "Content/Computer Science/Operating Systems/Notes/6.11 Futex.md",
+    "Content/Computer Science/Operating Systems/Notes/6.6.md",
+    "Content/Computer Science/Operating Systems/Notes/6.5 Futex.md",
+    "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
+    "Content/Computer Science/Operating Systems/Notes/6.3 Blocking Locks.md",
     "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md",
     "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
-    "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
-    "Content/Computer Science/Operating Systems/Notes/6.7 Ticket Locks.md",
+    "Content/Computer Science/Operating Systems/Notes/6.2 Spin Locks.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Locks with Compare-and-Swap.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Locks with Test-and-Set.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Peterson's Algorithm.md",
+    "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
+    "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Content/Computer Science/Computer Systems/Notes/8.1 High Level Languages.md",
     "Content/Computer Science/Computer Science.md",
@@ -176,8 +179,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/8.7 Kosaraju's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
-    "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
-    "Content/Computer Science/Operating Systems/Notes/6.2 Locks with Interrupts.md",
     "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
@@ -185,7 +186,6 @@
     "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
     "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
     "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.2 Karatsuba's Algorithm.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
