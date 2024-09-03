@@ -164,3 +164,5 @@
 >    - It signals Out_CV, potentially waking up a waiting producer.
 >    - The consumer then processes the read item.
 >    - The next time a consumer tries to read, it will wait on In_CV until a producer adds an item.
+
+![[Pasted image 20240903215802.png]]
