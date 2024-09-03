@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "800a72d36ebdff1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Operating Systems/Notes/6.3 Locks with Flags.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
