@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Abusing Permissions.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Abusing Permissions.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md"
               }
             }
           },
@@ -148,7 +148,7 @@
   "active": "33d67490e1da6d3a",
   "lastOpenFiles": [
     "Content/Computer Science/Secure Programming/Lecture Notes/7.1 Unix Permissions.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Abusing Permissions.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
