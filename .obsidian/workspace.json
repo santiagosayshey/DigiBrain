@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.1 Unix Permissions.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Abusing Permissions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.1 Unix Permissions.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Abusing Permissions.md"
               }
             }
           },
@@ -147,8 +147,9 @@
   },
   "active": "33d67490e1da6d3a",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.1 Unix Permissions.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Abusing Permissions.md",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
@@ -173,7 +174,6 @@
     "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
     "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
     "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
-    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
