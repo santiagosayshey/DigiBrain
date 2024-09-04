@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ec59a10b7837bd",
+        "id": "53f29e32799a4869",
         "type": "tabs",
         "children": [
           {
-            "id": "e31e781684c9afd8",
+            "id": "33d67490e1da6d3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -145,7 +140,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e31e781684c9afd8",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
