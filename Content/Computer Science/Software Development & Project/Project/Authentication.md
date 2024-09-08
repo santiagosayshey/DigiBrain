@@ -1,83 +1,106 @@
 ```mermaid
 sequenceDiagram
-    participant U as User
-    participant R as React Frontend
-    participant F as Flask Backend
-    
-    Note over U,F: Registration Process
-    U->>R: Enter registration details
-    R->>F: POST /register (username, password, etc.)
-    F->>F: Validate input
-    F->>F: Create new user
-    F-->>R: Return success/failure
-    R-->>U: Display registration result
+    participant User
+    participant Frontend
+    participant Backend
+    participant UserDB
+    participant InfluxDB
 
-    Note over U,F: Login Process
-    U->>R: Enter credentials
-    R->>F: POST /login (username, password)
-    F->>F: Verify credentials
-    F->>F: Generate JWT
-    F-->>R: Return JWT
-    R->>R: Store JWT (e.g., localStorage)
-    
-    Note over U,F: Accessing Protected Resources
-    U->>R: Request protected resource
-    R->>F: GET /protected (with JWT in header)
-    F->>F: Validate JWT
-    F-->>R: Return protected data
-    R-->>U: Display protected data
-    
-    Note over R,F: Subsequent requests include JWT
+    User->>Frontend: Login Request
+    Frontend->>Backend: Send Credentials
+    Backend->>UserDB: Validate Credentials
+    UserDB-->>Backend: Validation Result
+    alt is valid
+        Backend->>Backend: Generate JWT
+        Backend-->>Frontend: Return JWT
+        Frontend-->>User: Login Successful
+    else is invalid
+        Backend-->>Frontend: Auth Error
+        Frontend-->>User: Login Failed
+    end
+
+    User->>Frontend: Make Data Request
+    Frontend->>Backend: Send Request with JWT
+    Backend->>Backend: Validate JWT
+    alt JWT valid
+        Backend->>UserDB: Fetch User's InfluxDB API Key
+        UserDB-->>Backend: Return API Key
+        Backend->>InfluxDB: Query with API Key
+        InfluxDB-->>Backend: Return Data
+        Backend-->>Frontend: Send Data
+        Frontend-->>User: Display Data
+    else JWT invalid
+        Backend-->>Frontend: Authorization Error
+        Frontend-->>User: Request Failed
+    end
 ```
 
-```python
-# backend/app/user_db.py
-import hashlib
-import os
+Certainly! I'd be happy to document this process with both a Mermaid diagram and explanatory text. Let's start with the diagram and then follow up with a detailed textual explanation.
 
-USER_DATA_FILE = 'users.txt'
 
-def hash_password(password):
-    return hashlib.sha256(password.encode()).hexdigest()
 
-def register_user(username, password):
-    hashed_password = hash_password(password)
-    with open(USER_DATA_FILE, 'a') as file:
-        file.write(f"{username}:{hashed_password}\n")
-    print(f"User {username} registered successfully.")
+```mermaid
+sequenceDiagram
+    participant User
+    participant Frontend
+    participant Backend
+    participant UserDB
+    participant InfluxDB
 
-def authenticate_user(username, password):
-    hashed_password = hash_password(password)
-    with open(USER_DATA_FILE, 'r') as file:
-        for line in file:
-            stored_username, stored_password = line.strip().split(':')
-            if username == stored_username and hashed_password == stored_password:
-                return True
-    return False
+    User->>Frontend: Login Request
+    Frontend->>Backend: Send Credentials
+    Backend->>UserDB: Validate Credentials
+    UserDB-->>Backend: Validation Result
+    alt is valid
+        Backend->>Backend: Generate JWT
+        Backend-->>Frontend: Return JWT
+        Frontend-->>User: Login Successful
+    else is invalid
+        Backend-->>Frontend: Auth Error
+        Frontend-->>User: Login Failed
+    end
+
+    User->>Frontend: Make Data Request
+    Frontend->>Backend: Send Request with JWT
+    Backend->>Backend: Validate JWT
+    alt JWT valid
+        Backend->>UserDB: Fetch User's InfluxDB API Key
+        UserDB-->>Backend: Return API Key
+        Backend->>InfluxDB: Query with API Key
+        InfluxDB-->>Backend: Return Data
+        Backend-->>Frontend: Send Data
+        Frontend-->>User: Display Data
+    else JWT invalid
+        Backend-->>Frontend: Authorization Error
+        Frontend-->>User: Request Failed
+    end
+
 ```
 
+1. User Authentication:
+   - The user initiates the process by sending login credentials to the frontend.
+   - The frontend forwards these credentials to the backend.
+   - The backend checks the credentials against the UserDB.
+   - If valid, the backend generates a JWT and sends it back to the frontend.
+   - The frontend stores the JWT (usually in local storage or a secure cookie) for future requests.
 
-```python
-# backend/app/auth.py
-from flask import Blueprint, request, jsonify
-from .user_db import register_user, authenticate_user
+2. Data Request Flow:
+   - The authenticated user makes a data request through the frontend.
+   - The frontend includes the JWT in the request to the backend.
+   - The backend validates the JWT.
+   - If the JWT is valid, the backend retrieves the user's InfluxDB API key from the UserDB.
+   - The backend then uses this API key to query InfluxDB.
+   - InfluxDB returns the requested data to the backend.
+   - The backend processes the data if necessary and sends it to the frontend.
+   - The frontend displays the data to the user.
 
-auth_bp = Blueprint('auth', __name__)
+3. Security Considerations:
+   - The InfluxDB API key is never exposed to the frontend or the user.
+   - Each user has their own InfluxDB API key, allowing for fine-grained access control.
+   - The JWT has an expiration time, requiring periodic re-authentication.
+   - If a JWT is invalidated (e.g., on logout), the user loses access without needing to change the InfluxDB API key.
 
-@auth_bp.route('/api/register', methods=['POST'])
-def register():
-    data = request.json
-    username = data.get('username')
-    password = data.get('password')
-
-    if not username or not password:
-        return jsonify({'error': 'Username and password are required'}), 400
-
-    # TODO: Check if username already exists
-
-    try:
-        register_user(username, password)
-        return jsonify({'message': 'User registered successfully'}), 201
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
-```
+4. Error Handling:
+   - Invalid login attempts are rejected at the authentication stage.
+   - Requests with invalid or expired JWTs are denied by the backend.
+   - Any issues with InfluxDB queries (e.g., permission problems, network issues) are handled by the backend, with appropriate error messages sent to the frontend.
