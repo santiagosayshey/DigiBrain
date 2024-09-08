@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md"
               }
             }
           },
@@ -148,10 +148,13 @@
   "active": "33d67490e1da6d3a",
   "lastOpenFiles": [
     "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditions.md",
+    "conflict-files-obsidian-git.md",
+    "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md",
+    "Content/Computer Science/Software Development & Project/Project/Untitled.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditiona.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/Untitled.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.1 Unix Permissions.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/7.2 Privilege Separation.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
@@ -171,9 +174,6 @@
     "Content/Computer Science/Computer Systems/Notes/8.1 High Level Languages.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/9.2 Dijkstra's Algorithm.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/8.7 Kosaraju's Algorithm.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
