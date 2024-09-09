@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/7.2 Concurrency Bugs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/7.2 Concurrency Bugs.md"
               }
             }
           },
@@ -147,10 +147,11 @@
   },
   "active": "f36d3370f7bc97c5",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
+    "Content/Computer Science/Operating Systems/Notes/7.2 Concurrency Bugs.md",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
-    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditions.md",
     "conflict-files-obsidian-git.md",
@@ -193,7 +194,6 @@
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
     "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 1 - Intro to Wireshark.pdf",
-    "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 4 - TCP.pdf",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
