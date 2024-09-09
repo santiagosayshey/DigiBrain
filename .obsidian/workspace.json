@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md"
               }
             }
           },
@@ -161,10 +161,11 @@
   },
   "active": "a734e152edb50dc7",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
+    "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
     "Images/Pasted image 20240910050914.png",
     "Images/Pasted image 20240910050428.png",
     "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
-    "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
     "Content/Computer Science/Operating Systems/Notes/7.2 Therac-25.md",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
@@ -200,7 +201,6 @@
     "Images/Pasted image 20240826060925.png",
     "Images/Pasted image 20240826060911.png",
     "Images/Pasted image 20240826041749.png",
-    "Images/Pasted image 20240825220952.png",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
     "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
