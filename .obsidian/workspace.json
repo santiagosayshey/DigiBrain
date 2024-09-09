@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md"
               }
             }
           },
