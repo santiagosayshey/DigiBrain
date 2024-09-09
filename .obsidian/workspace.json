@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md"
               }
             }
           },
@@ -159,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d71deb308c4ebb9",
+  "active": "1ed7d7734c65786e",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditions.md",
@@ -174,7 +174,6 @@
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
-    "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Futex.md",
     "Content/Computer Science/Operating Systems/Notes/6.3 Blocking Locks.md",
