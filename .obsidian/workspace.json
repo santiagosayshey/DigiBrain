@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md"
               }
             }
           },
@@ -161,8 +161,9 @@
   },
   "active": "a734e152edb50dc7",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
+    "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
+    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
     "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
     "Images/Pasted image 20240910050914.png",
@@ -190,7 +191,6 @@
     "Content/Computer Science/Operating Systems/Notes/6.2 Spin Locks.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Locks with Compare-and-Swap.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Locks with Test-and-Set.md",
-    "Content/Computer Science/Operating Systems/Notes/6.4 Peterson's Algorithm.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
