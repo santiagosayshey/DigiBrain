@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8e1a8384b5101830",
+        "id": "85b6e343beb42484",
         "type": "tabs",
         "children": [
           {
-            "id": "f36d3370f7bc97c5",
+            "id": "b6306c809eb0cc56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a734e152edb50dc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md",
+                "file": "Content/Projects/Dictionarry/Commit Message Standard.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md"
+                "file": "Content/Projects/Dictionarry/Commit Message Standard.md"
               }
             }
           },
@@ -159,13 +145,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a734e152edb50dc7",
+  "active": "b6306c809eb0cc56",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
+    "Content/Projects/Dictionarry/Commit Message Standard.md",
+    "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
     "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md",
+    "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
-    "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
     "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
     "Images/Pasted image 20240910050914.png",
     "Images/Pasted image 20240910050428.png",
@@ -190,7 +177,6 @@
     "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md",
     "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
     "Content/Computer Science/Operating Systems/Notes/6.2 Spin Locks.md",
-    "Content/Computer Science/Operating Systems/Notes/6.6 Locks with Compare-and-Swap.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
