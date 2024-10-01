@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Commit Message Standard.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b86dcde766c73512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Computer Science.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md"
               }
             }
           },
@@ -159,9 +145,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b86dcde766c73512",
+  "active": "b6306c809eb0cc56",
   "lastOpenFiles": [
     "Content/Projects/Dictionarry/Commit Message Standard.md",
+    "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
+    "Content/Computer Science/Computer Science.md",
+    "9.2 Ethics.md",
+    "9.1 Ethics.md",
     "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
     "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md",
     "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
@@ -187,10 +177,6 @@
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Futex.md",
-    "Content/Computer Science/Operating Systems/Notes/6.3 Blocking Locks.md",
-    "Content/Computer Science/Operating Systems/Notes/6.9 Locks with Block-and-Wait.md",
-    "Content/Computer Science/Operating Systems/Notes/6.8 Ticket Locks with Yields.md",
-    "Content/Computer Science/Operating Systems/Notes/6.2 Spin Locks.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
