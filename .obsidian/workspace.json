@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
+                "file": "Content/Computer Science/Software Development & Project/Notes/9.1 Ethics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md"
+                "file": "Content/Computer Science/Software Development & Project/Notes/9.1 Ethics.md"
               }
             }
           },
@@ -147,8 +147,9 @@
   },
   "active": "b6306c809eb0cc56",
   "lastOpenFiles": [
-    "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
+    "Content/Computer Science/Software Development & Project/Notes/9.1 Ethics.md",
+    "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Computer Science/Computer Science.md",
     "9.2 Ethics.md",
     "9.1 Ethics.md",
@@ -176,7 +177,6 @@
     "Content/Computer Science/Software Development & Project/Notes/7.1 Risk Management.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
-    "Content/Computer Science/Operating Systems/Notes/6.5 Futex.md",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
