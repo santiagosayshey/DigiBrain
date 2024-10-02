@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "b6306c809eb0cc56",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
+    "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
