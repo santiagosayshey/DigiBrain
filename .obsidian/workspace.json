@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d45086015a8c1ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -147,10 +160,12 @@
   },
   "active": "b6306c809eb0cc56",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
+    "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
+    "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
     "Content/Computer Science/Operating Systems/Notes/8.3 Kernel Device Structure.md",
-    "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
     "Content/Computer Science/Operating Systems/Notes/7.2 Therac-25.md",
     "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md",
     "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
@@ -161,7 +176,6 @@
     "9.2 Ethics.md",
     "9.1 Ethics.md",
     "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
     "Images/Pasted image 20240910050914.png",
@@ -185,8 +199,6 @@
     "Images/Pasted image 20240828055529.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20240826060932.png",
-    "Images/Pasted image 20240826060925.png",
-    "Images/Pasted image 20240826060911.png",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
     "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
