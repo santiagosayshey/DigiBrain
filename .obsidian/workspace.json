@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   "active": "b6306c809eb0cc56",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
+    "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md",
     "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Images/Pasted image 20241003072858.png",
@@ -191,7 +192,6 @@
     "Content/Computer Science/Software Development & Project/Project/Untitled.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditiona.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.1 Unix Permissions.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
