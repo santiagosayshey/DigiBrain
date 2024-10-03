@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85b6e343beb42484",
+        "id": "44d51ed15251351a",
         "type": "tabs",
         "children": [
           {
-            "id": "b6306c809eb0cc56",
+            "id": "db277f03ae99391a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d45086015a8c1ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Computer Science.md"
+                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md"
               }
             }
           },
@@ -158,13 +145,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6306c809eb0cc56",
+  "active": "db277f03ae99391a",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
+    "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
     "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md",
     "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
     "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
@@ -175,7 +163,6 @@
     "Content/Computer Science/Software Development & Project/Notes/9.1 Ethics.md",
     "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
-    "Content/Computer Science/Computer Science.md",
     "9.2 Ethics.md",
     "9.1 Ethics.md",
     "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
