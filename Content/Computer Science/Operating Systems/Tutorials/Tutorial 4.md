@@ -1,10 +1,11 @@
-I understand. I will format my response as proper exercise callouts without any additional overviews or plans.
-
 > [!exercise] Q1: Thread-Process Relationship
 > Describe the relationship between threads and processes. Consider the following:
 > - How threads and processes are related
 > - The role of threads within a process
 > - Resource sharing between threads in a process
+> 
+> **Answer:**
+> A thread is a subset of a process. They enable a process to concurrently execute different streams of instructions at once, with shared resources. Separate processes however, do not share resources. 
 
 > [!exercise] Q2: Kernel-Level Threads
 > Discuss the advantages and disadvantages of supporting multi-threaded applications with kernel-level threads:
