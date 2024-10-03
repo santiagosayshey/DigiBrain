@@ -1,94 +1,158 @@
-> [!exercise] Q1: Thread-Process Relationship
-> Describe the relationship between threads and processes. Consider the following:
-> - How threads and processes are related
-> - The role of threads within a process
-> - Resource sharing between threads in a process
-> 
+> [!exercise] Q1
+> What is the relationship between threads and processes?
+>
 > **Answer:**
-> A thread is a subset of a process. They enable a process to concurrently execute different streams of instructions at once, with shared resources. Separate processes however, do not share resources. 
+>
+> Threads are the smallest units of execution within a process. A process is an instance of a running program that may contain one or more threads. All threads within a process share the same process resources, such as memory space and open files, but each thread has its own stack and execution context. Threads allow for parallelism within a process, enabling concurrent operations and efficient utilization of system resources.
 
-> [!exercise] Q2: Kernel-Level Threads
-> Discuss the advantages and disadvantages of supporting multi-threaded applications with kernel-level threads:
-> - **Advantages**: 
->   - Kernel-level scheduling
->   - Parallelism on multiprocessor systems
->   - Preemptive multitasking
-> - **Disadvantages**:
->   - Increased kernel complexity
->   - Higher overhead for thread management
->   - Potential for resource contention
+---
+
+> [!exercise] Q2
+> Discuss advantages and disadvantages of supporting multi-threaded applications with (kernel-level) threads.
 >
 > **Answer:**
 >
 > **Advantages:**
 >
-> - **Kernel-level scheduling**: Since the kernel is aware of all threads, it can manage them directly. This allows for efficient scheduling decisions based on the system's overall workload and priorities, leading to optimized CPU utilization.
->
-> - **Parallelism on multiprocessor systems**: Kernel-level threads can run simultaneously on multiple processors or cores. The kernel can distribute threads across processors, enabling true parallel execution and improving performance in multiprocessor environments.
->
-> - **Preemptive multitasking**: The kernel can preempt threads at any time to ensure that higher-priority tasks receive CPU time promptly. This enhances system responsiveness and allows for better control over task execution, which is crucial for real-time applications.
+> - **True Parallelism:** Kernel-level threads can be scheduled on multiple processors, allowing true concurrent execution on multiprocessor systems.
+> - **Blocking System Calls:** If one thread performs a blocking operation, other threads can continue executing, improving application responsiveness.
+> - **Resource Sharing:** Threads within the same process can easily share resources like memory and file descriptors.
 >
 > **Disadvantages:**
 >
-> - **Increased kernel complexity**: Managing threads at the kernel level adds complexity to the operating system. The kernel must handle thread creation, synchronization, scheduling, and termination, which can make the system more difficult to develop, maintain, and debug.
->
-> - **Higher overhead for thread management**: Operations on kernel-level threads often require system calls, leading to context switches between user mode and kernel mode. This incurs additional overhead compared to user-level threads, potentially reducing performance, especially in applications with a large number of threads or frequent thread operations.
->
-> - **Potential for resource contention**: With multiple threads running in parallel, there's an increased risk of threads competing for shared resources like memory, I/O devices, or locks. This can lead to synchronization issues such as deadlocks and race conditions, requiring careful management and potentially impacting system performance.
+> - **Overhead:** Managing kernel-level threads can introduce significant overhead due to context switching and kernel data structures.
+> - **Complexity:** Increased complexity in the kernel can lead to potential bugs and maintenance challenges.
+> - **Scalability Issues:** A large number of threads can strain system resources, leading to performance degradation.
 
-> [!exercise] Q3: Security Checks in C Library
-> Evaluate whether putting security checks in the C library is a good or bad idea:
-> - Consider the implications for system security
-> - Discuss the role of the C library in the software stack
-> - Analyze potential vulnerabilities and attack vectors
+---
+
+> [!exercise] Q3
+> Is putting security checks in the C library a good or a bad idea? Why?
 >
 > **Answer:**
 >
-> Placing security checks within the C library has both benefits and drawbacks.
+> **Good Idea:**
 >
-> **Implications for system security:**
+> - **Uniform Security Measures:** Incorporating security checks into the C library ensures that all applications using these libraries benefit from standard security practices.
+> - **Ease of Implementation:** Developers can rely on built-in security features without implementing them individually.
 >
-> Incorporating security checks into the C library can enhance overall system security by providing a uniform layer of protection against common vulnerabilities like buffer overflows and improper memory access. This approach ensures that all applications using the library benefit from these protections without requiring individual modifications.
+> **Bad Idea:**
 >
-> However, if the C library itself contains flaws or if applications bypass standard library functions, the security benefits may be compromised. Relying solely on the library for security can create a false sense of safety.
+> - **Bypass Potential:** Applications that do not use standard library functions or use them incorrectly may bypass these security checks.
+> - **Performance Overhead:** Introducing security checks can impact the performance of all applications, even those that may not require stringent security.
+> - **Lack of Flexibility:** Different applications may have varying security needs that standardized library checks cannot accommodate.
 >
-> **Role of the C library in the software stack:**
->
-> The C library serves as a foundational component, offering essential functions for application development. By embedding security checks, the library can enforce good practices and reduce the burden on developers to implement their own checks. This promotes consistency and can help prevent widespread vulnerabilities.
->
-> On the downside, adding security checks can increase the complexity of the library and may introduce performance overhead. Developers of performance-critical applications might find this unacceptable, potentially leading them to avoid the standard library functions.
->
-> **Potential vulnerabilities and attack vectors:**
->
-> While security checks can mitigate certain risks, they might introduce new vulnerabilities if not implemented carefully. Attackers could exploit predictable security mechanisms or target the checks themselves. Additionally, if security features can be disabled or configured improperly, they may fail to provide the intended protection.
->
-> **Conclusion:**
->
-> Integrating security checks into the C library is generally a positive step toward enhancing system security. It provides a baseline level of protection and promotes safer programming practices. However, it should be part of a multi-layered security strategy that includes secure coding at the application level and robust system security measures. Careful implementation is crucial to avoid introducing new vulnerabilities or unacceptable performance impacts.
+> Overall, while adding security checks to the C library can enhance baseline security, it should not be the sole security mechanism relied upon.
 
-> [!exercise] Q4: Race Conditions
-> Explain the concept of a race condition and provide an example:
-> - **Definition**: A situation where the behavior of a program depends on the relative timing of events
-> - **Example**: Two threads accessing a shared variable simultaneously without proper synchronization, leading to unexpected results
+---
 
-> [!exercise] Q5: Banker's Algorithm Prerequisites
-> Identify what the banker's algorithm must know a priori to prevent deadlock:
-> - Resource allocation state
-> - Maximum resource demand for each process
-> - Currently available resources
+> [!exercise] Q4
+> What is a race condition? Give an example.
+>
+> **Answer:**
+>
+> A race condition occurs when multiple threads or processes access and manipulate shared data concurrently, and the final outcome depends on the sequence of execution. This can lead to unpredictable and erroneous behavior.
+>
+> **Example:**
+>
+> Suppose two threads are incrementing a shared counter variable:
+>
+> ```c
+> // Shared counter variable
+> int counter = 0;
+>
+> // Thread 1
+> counter++; // Reads counter, increments, writes back
+>
+> // Thread 2
+> counter++; // Reads counter, increments, writes back
+> ```
+>
+> If both threads read the value of `counter` simultaneously when it is `0`, increment it to `1`, and write it back, the final value of `counter` will be `1` instead of `2`. This happens because the increment operations overlap, demonstrating a race condition.
 
-> [!exercise] Q6: Deadlock Prevention Strategy
-> Describe the general strategy behind deadlock prevention and give an example of a practical deadlock prevention method:
-> - **Strategy**: Ensure that at least one of the necessary conditions for deadlock cannot hold
-> - **Example**: Resource ordering - Require processes to request resources in a specific order to prevent circular wait conditions
+---
 
-> [!exercise] Q7: Implementing Device Interface
-> Identify which statements about implementing a device interface in a device controller rather than the OS kernel are INCORRECT.
+> [!exercise] Q5
+> What must the banker's algorithm know a priori in order to prevent deadlock?
+>
+> **Answer:**
+>
+> The banker's algorithm requires prior knowledge of:
+>
+> - **Maximum Resource Demand:** The maximum number of each resource type that each process may request.
+> - **Available Resources:** The total number of each resource type available in the system.
+> - **Current Allocation:** The number of resources of each type currently allocated to each process.
+>
+> With this information, the algorithm can simulate resource allocation for each process and ensure that the system remains in a safe state, thus preventing deadlocks by denying requests that could lead to an unsafe state.
 
-> [!exercise] Q8: Direct Memory Access (DMA)
-> Determine which statement about direct memory access (DMA) is CORRECT:
-> - The DMA controller operates the memory bus independently to perform transfers without the main CPU
-> - The host writes a DMA command block to memory to initiate a DMA transfer
-> - DMA allows I/O operations to proceed in parallel with CPU operations, increasing system concurrency
-> - Using DMA requires more complex hardware to allow the DMA controller to be a bus master
-> - All the above statements are correct
+---
+
+> [!exercise] Q6
+> Describe the general strategy behind deadlock prevention and give an example of a practical deadlock prevention method.
+>
+> **Answer:**
+>
+> **General Strategy:**
+>
+> Deadlock prevention involves designing the system in such a way that at least one of the necessary conditions for deadlock cannot occur. The four necessary conditions are mutual exclusion, hold and wait, no preemption, and circular wait.
+>
+> **Example of Practical Method:**
+>
+> - **Resource Ordering (Preventing Circular Wait):** Assign a global ordering to all resources, and require that processes request resources in ascending order of enumeration. This eliminates the possibility of a circular wait condition because it prevents a cyclic dependency among processes waiting for resources.
+
+---
+
+> [!exercise] Q7
+> Consider implementing a device interface (i.e., handling communication between CPU and a device) in a device controller rather than in the OS kernel. Which of the following statements is/are INCORRECT?
+> 
+> A. Performance can be improved by hard-coded algorithms and utilising dedicated hardware.
+> B. Device controller can introduce additional data buffering.
+> C. The kernel is simplified by moving algorithms out of it.
+> D. Improving algorithms requires a hardware update rather than just a device driver update.
+> E. Bugs are less likely to cause an OS crash, and bugs are easier to fix.
+>
+> **Answer:**
+>
+> **Incorrect Statement:**
+>
+> - **E. Bugs are less likely to cause an OS crash, and bugs are easier to fix.**
+>
+> **Explanation:**
+>
+> - Bugs in the device controller firmware can be more challenging to fix because they may require hardware firmware updates, which are more complex than updating software drivers.
+> - Such bugs can cause significant system issues, including crashes, since the device operates at a low level within the system architecture.
+>
+> **Correct Statements:**
+>
+> - **A.** Performance improvements are possible through dedicated hardware algorithms.
+> - **B.** Additional data buffering can be introduced by the device controller.
+> - **C.** Moving algorithms out of the kernel simplifies the kernel.
+> - **D.** Updating algorithms would require hardware updates rather than just driver updates.
+
+---
+
+> [!exercise] Q8
+> Which statement about direct memory access (DMA) is CORRECT?
+> 
+> A. The DMA controller operates the memory bus by placing addresses on the bus to perform transfers with the help of the main CPU.
+> B. To initiate a DMA transfer, the host reads a DMA command block from the memory.
+> C. DMA increases system concurrency by allowing executing instructions in parallel for a larger number of processes.
+> D. In order to use DMA, hardware design becomes more complicated because the system must allow the DMA controller to be a bus master.
+> E. All the above statements are correct.
+>
+> **Answer:**
+>
+> **Correct Statement:**
+>
+> - **D. In order to use DMA, hardware design becomes more complicated because the system must allow the DMA controller to be a bus master.**
+>
+> **Explanation:**
+>
+> - **A.** Incorrect because the DMA controller operates independently of the CPU during data transfer and does not require the CPU's help once initiated.
+> - **B.** Incorrect because the host writes a DMA command block to the DMA controller to initiate the transfer, not reads.
+> - **C.** Incorrect because DMA increases concurrency by offloading data transfer tasks from the CPU, not by allowing execution of instructions in parallel for more processes.
+> - **E.** Incorrect because not all statements are correct.
+>
+> Therefore, only statement **D** accurately describes a characteristic of DMA.
+
+---
