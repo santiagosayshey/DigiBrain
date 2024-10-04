@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md"
               }
             }
           },
@@ -186,8 +186,10 @@
   },
   "active": "db277f03ae99391a",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
     "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md",
+    "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
+    "Images/Pasted image 20241004101741.png",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
     "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md",
     "Content/Computer Science/Operating Systems/Notes/8.3 Kernel Device Structure.md",
     "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
@@ -217,7 +219,6 @@
     "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
     "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditions.md",
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
@@ -225,7 +226,6 @@
     "Images/Pasted image 20240828055549.png",
     "Images/Pasted image 20240828055529.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
-    "Images/Pasted image 20240826060932.png",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
     "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
