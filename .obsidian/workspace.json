@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.4 Worms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.4 Worms.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.4 Worms.md",
+    "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md",
     "Images/Pasted image 20241006071537.png",
     "Images/Pasted image 20241006071533.png",
@@ -192,7 +193,6 @@
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md",
-    "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
