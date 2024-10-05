@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9f05100dddd913f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -147,6 +160,8 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
+    "Content/AI Prompt.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
     "Content/Computer Science/Operating Systems/Notes/9.3 RAID-0.md",
     "Content/Computer Science/Operating Systems/Notes/9.6 RAID-5.md",
@@ -160,7 +175,6 @@
     "Content/Journal/Untitled.md",
     "9.1 Ethics.md",
     "9.2 Ethics.md",
-    "Content/AI Prompt.md",
     "Content/Journal",
     "System Architecture.png",
     "Untitled.md",
@@ -171,7 +185,6 @@
     "Content/Computer Science/Operating Systems/Notes/8.3 Kernel Device Structure.md",
     "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 3.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md",
     "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
