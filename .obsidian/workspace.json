@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md"
               }
             }
           },
@@ -160,11 +160,12 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md",
     "Images/Pasted image 20241006071537.png",
     "Images/Pasted image 20241006071533.png",
     "Images/Pasted image 20241006071513.png",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md",
     "Content/AI Prompt.md",
     "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
     "Content/Computer Science/Operating Systems/Notes/9.3 RAID-0.md",
@@ -196,7 +197,6 @@
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
     "Images/Pasted image 20240910050914.png",
-    "Images/Pasted image 20240910050428.png",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Content/Media Server",
