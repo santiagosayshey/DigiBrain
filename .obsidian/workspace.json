@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
+                "file": "Content/Journal/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md"
+                "file": "Content/Journal/Untitled.md"
               }
             }
           },
@@ -186,8 +186,16 @@
   },
   "active": "db277f03ae99391a",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md",
+    "Content/AI Prompt.md",
+    "Content/Journal/Untitled.md",
+    "Content/Journal",
+    "System Architecture.png",
+    "Untitled.md",
+    "README.md",
+    "9.2 Ethics.md",
+    "9.1 Ethics.md",
     "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
+    "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md",
     "Images/Pasted image 20241004101741.png",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
     "Content/Computer Science/Operating Systems/Notes/8.2 Canonical Devices.md",
@@ -209,22 +217,15 @@
     "Content/Computer Science/Software Development & Project/Notes/9.1 Ethics.md",
     "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
-    "9.2 Ethics.md",
-    "9.1 Ethics.md",
     "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
-    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Images/Pasted image 20240910050914.png",
     "Images/Pasted image 20240910050428.png",
     "Images/factorio_semaphore_trains.mp4",
-    "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
-    "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
-    "Content/Computer Science/Software Development & Project/Notes/7.2 Quality Management.md",
     "Images/Pasted image 20240903215802.png",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
     "Images/Pasted image 20240828055549.png",
-    "Images/Pasted image 20240828055529.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
@@ -232,7 +233,6 @@
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
-    "Content/Computer Science/Computer Networks & Applications/Wireshark Labs/Quiz 1 - Intro to Wireshark.pdf",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
