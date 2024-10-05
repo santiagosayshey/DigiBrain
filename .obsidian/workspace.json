@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "90ce62cf076a0ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Operating Systems/Notes/9.6 RAID-5.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b00dc5642667e57e",
             "type": "leaf",
             "state": {
@@ -46,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.7 RAID Comparison.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/9.6 RAID-5.md"
               }
             }
           },
@@ -171,10 +185,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f788a3384385af03",
+  "active": "90ce62cf076a0ab1",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
     "Content/Computer Science/Operating Systems/Notes/9.7 RAID Comparison.md",
+    "Images/Pasted image 20241006052720.png",
+    "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
     "Content/Computer Science/Operating Systems/Notes/9.6 RAID-5.md",
     "Content/Computer Science/Operating Systems/Notes/9.5 RAID-4.md",
     "Content/Computer Science/Operating Systems/Notes/9.4 RAID-1.md",
@@ -204,7 +219,6 @@
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
-    "Content/Computer Science/Operating Systems/Notes/7.2 Therac-25.md",
     "Images/Pasted image 20240910050914.png",
     "Images/Pasted image 20240910050428.png",
     "Images/factorio_semaphore_trains.mp4",
@@ -212,7 +226,6 @@
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Images/docker-volumes.jpg",
     "Content/Media Server",
-    "Images/Pasted image 20240828055549.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
