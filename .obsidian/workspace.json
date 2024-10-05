@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.4 RAID 1.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/9.5 RAID-4.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.3 RAID 0.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/9.3 RAID-0.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/9.4 RAID 1.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/9.5 RAID-4.md"
               }
             }
           },
@@ -173,8 +173,9 @@
   },
   "active": "f788a3384385af03",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/9.3 RAID 0.md",
-    "Content/Computer Science/Operating Systems/Notes/9.4 RAID 1.md",
+    "Content/Computer Science/Operating Systems/Notes/9.4 RAID-1.md",
+    "Content/Computer Science/Operating Systems/Notes/9.3 RAID-0.md",
+    "Content/Computer Science/Operating Systems/Notes/9.5 RAID-4.md",
     "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
     "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
     "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
@@ -204,7 +205,6 @@
     "Content/Computer Science/Operating Systems/Notes/7.2 Therac-25.md",
     "Content/Computer Science/Operating Systems/Notes/8.1 IO Devices.md",
     "Content/Computer Science/Software Development & Project/Notes/9.1 Ethics.md",
-    "Content/Computer Science/Software Development & Project/Notes/8.1 Configuration Management.md",
     "Images/Pasted image 20240910050914.png",
     "Images/Pasted image 20240910050428.png",
     "Images/factorio_semaphore_trains.mp4",
