@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md"
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
+    "Content/AI Prompt.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.5 Payloads.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.4 Worms.md",
@@ -192,7 +193,6 @@
     "Images/Pasted image 20241004101741.png",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
     "Content/Computer Science/Operating Systems/Notes/8.3 Kernel Device Structure.md",
-    "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
