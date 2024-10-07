@@ -1,5 +1,3 @@
-I apologize for the confusion. Here's the review template with only sections 2 and 5 filled out, along with recommendations for tools in steps 3 and 4, as requested:
-
 ## 1. Project Overview
 - Group Members:
 	- a1744126
@@ -11,7 +9,7 @@ I apologize for the confusion. Here's the review template with only sections 2 a
 
 ## 2. Manual Code Review
 - Architecture and Design:
-  - [ ] Protocol implementation adherence
+  - Protocol implementation adherence
     - The code does not implement the OLAF/Neighbourhood protocol at all. It appears to be a generic WebSocket chat application.
     - Example of missing protocol implementation:
       ```python
@@ -23,7 +21,7 @@ I apologize for the confusion. Here's the review template with only sections 2 a
       #     "signature": "<Base64 encoded (signature of (data JSON concatenated with counter))>"
       # }
       ```
-  - [ ] Security measures (encryption, authentication, etc.)
+  - Security measures (encryption, authentication, etc.)
     - Encryption is not implemented according to protocol specifications.
     - Authentication is weak and not used:
       ```python
@@ -33,7 +31,7 @@ I apologize for the confusion. Here's the review template with only sections 2 a
           return False
       ```
 - Code Quality:
-  - [ ] Readability and organization
+  - Readability and organization
     - Code appears to be AI-generated and lacks coherence.
     - Unused functions present:
       ```python
@@ -43,10 +41,10 @@ I apologize for the confusion. Here's the review template with only sections 2 a
       def generate_iv():
           return os.urandom(16)
       ```
-  - [ ] Error handling and logging
+  - Error handling and logging
     - Minimal error handling, no logging implemented.
 - Security-specific checks:
-  - [ ] Input validation
+  - Input validation
     - Almost non-existent, e.g., in handle_chat function:
       ```python
       async def handle_chat(data, websocket):
@@ -54,17 +52,34 @@ I apologize for the confusion. Here's the review template with only sections 2 a
           message = data["message"]
           # No validation of recipient_id or message
       ```
-  - [ ] Access control
+  - Access control
     - Not implemented
-  - [ ] Cryptographic implementations
+  - Cryptographic implementations
     - Insecure use of subprocess for encryption:
       ```python
       def encrypt_message_cpp(message):
           result = subprocess.run(['./encryption_program', 'encrypt', message], capture_output=True, text=True)
           return result.stdout.strip()
       ```
-  - [ ] Secure data storage and transmission
+  - Secure data storage and transmission
     - No implementation of secure storage or transmission as per protocol requirements
+
+## 3. Static Analysis
+- Tool(s) used:
+- Key findings:
+  - Potential vulnerabilities:
+  - Code quality issues:
+  - Security misconfigurations:
+
+## 4. Dynamic Analysis
+- Testing environment:
+- Functional testing:
+  - Basic functionality (message sending, file transfer, etc.)
+  - Error handling and edge cases
+- Security testing:
+  - Network traffic analysis
+  - Fuzzing results
+  - Penetration testing attempts
 
 ## 5. Backdoor/Vulnerability Assessment
 - Suspected backdoors or vulnerabilities:
@@ -92,20 +107,24 @@ I apologize for the confusion. Here's the review template with only sections 2 a
   - Lack of proper authentication and input validation leaves the system open to various attacks
   - Insecure communication could expose user messages to interception
 
-Recommendations for tools in steps 3 and 4:
-
-## 3. Static Analysis
-- Tool(s) recommended:
-  1. Bandit: Specifically designed for Python security issues
-  2. Pylint: For general code quality and some security checks
-  3. SonarQube: Comprehensive code quality and security analysis
-
-## 4. Dynamic Analysis
-- Tool(s) recommended:
-  1. OWASP ZAP: For web application security testing
-  2. Burp Suite: For intercepting and analyzing web traffic
-  3. Wireshark: For detailed analysis of network communications
-
 ## 6. Results Summary
+- Strengths:
+- Areas for improvement:
+- Critical issues:
 
 ## 7. Recommendations
+- Security enhancements:
+- Code quality improvements:
+- Additional testing suggested:
+
+Recommendations for tools in steps 3 and 4:
+
+For Static Analysis (step 3):
+1. Bandit
+2. Pylint
+3. SonarQube
+
+For Dynamic Analysis (step 4):
+1. OWASP ZAP
+2. Burp Suite
+3. Wireshark
