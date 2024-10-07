@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Shebremedhin.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Shebremedhin.md"
               }
             }
           },
@@ -173,8 +173,9 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Shebremedhin.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
@@ -205,7 +206,6 @@
     "Content/Journal",
     "System Architecture.png",
     "Untitled.md",
-    "README.md",
     "Images/Pasted image 20241004101741.png",
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
