@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md"
               }
             }
           },
@@ -173,10 +173,12 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
     "Content/AI Prompt.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.5 Payloads.md",
@@ -204,7 +206,6 @@
     "System Architecture.png",
     "Untitled.md",
     "README.md",
-    "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md",
     "Images/Pasted image 20241004101741.png",
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
@@ -219,7 +220,6 @@
     "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Secure Programming/Textbook.pdf",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Algorithms & Data Structures Analysis.pdf",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
