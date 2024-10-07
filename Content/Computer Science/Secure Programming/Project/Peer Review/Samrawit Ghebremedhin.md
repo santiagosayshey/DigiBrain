@@ -6,15 +6,15 @@
   - a1915043
 
 - **Reviewers:**
-  - [Reviewer Names]
+  - Samuel Chau (a1799298)
 
 ## 2. Manual Code Review
 
 ### Architecture and Design
 
-| **Aspect**                         | **Status** | **Comments**                                                                                                                                                                                                                                                    |
-|------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Protocol Implementation Adherence** | ❌ Not Adhered | The provided code does not implement the OLAF/Neighbourhood protocol as specified. Key protocol features such as message signing, encryption, fingerprint verification, and proper routing through neighborhood servers are missing or improperly implemented. For example, the `handle_chat` function does not handle end-to-end encryption as outlined in the protocol. Additionally, the client-server communication does not follow the defined JSON structures for different message types. |
+| **Aspect**                         | **Status**          | **Comments**                                                                                                                                                                                                                                                    |
+|------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Protocol Implementation Adherence** | ❌ Not Adhered      | The provided code does not implement the OLAF/Neighbourhood protocol as specified. Key protocol features such as message signing, encryption, fingerprint verification, and proper routing through neighborhood servers are missing or improperly implemented. For example, the `handle_chat` function does not handle end-to-end encryption as outlined in the protocol. Additionally, the client-server communication does not follow the defined JSON structures for different message types. |
 | **Security Measures**              | ⚠️ Partially Implemented | Some basic security measures are present, such as the use of WebSockets for communication. However, critical security features like proper authentication and encryption are either missing or incorrectly implemented. The `vulnerable_authentication` function is a placeholder and does not follow secure practices. Moreover, the use of plaintext messages in public chats contradicts the protocol's emphasis on securing communications.                                                                                                   |
 
 ### Code Quality
@@ -34,14 +34,48 @@
 | **Secure Data Storage and Transmission** | ❌ Insecure Transmission | While WebSockets are used for communication, there is no implementation of secure WebSockets (`wss://`). Data transmitted is not adequately encrypted, especially in public chats where messages are sent in plaintext. The protocol emphasizes end-to-end encryption and secure transmission channels, which are not implemented in the current codebase.                                                                                                                           |
 
 ## 3. Static Analysis
-- **TODO**
+- **Recommended Tools:**
+
+  ### **Bandit (for Python)**
+  - **Description:** A security-oriented static analysis tool that scans Python code to find common security issues.
+  - **Usage:** `bandit -r path/to/code`
+
+  ### **SonarQube**
+  - **Description:** A platform for continuous inspection of code quality and security vulnerabilities across multiple programming languages.
+  - **Usage:** Integrate with CI/CD pipelines or run locally for detailed reports.
+
+  ### **Flake8**
+  - **Description:** A tool for enforcing coding standards and identifying syntax errors and potential bugs in Python code.
+  - **Usage:** `flake8 path/to/code`
+
+  ### **Pylint**
+  - **Description:** An extensive code analysis tool that checks for errors, enforces a coding standard, and looks for code smells.
+  - **Usage:** `pylint path/to/code`
 
 ## 4. Dynamic Analysis
-- **TODO**
+- **Recommended Tools:**
+
+  ### **OWASP ZAP (Zed Attack Proxy)**
+  - **Description:** A full-featured security tool for finding vulnerabilities in web applications through automated and manual testing.
+  - **Usage:** Run the proxy, configure the application to use it, and perform various attacks to identify security flaws.
+
+  ### **Burp Suite**
+  - **Description:** An integrated platform for performing security testing of web applications, offering a range of tools like a proxy, scanner, and intruder.
+  - **Usage:** Use the proxy to intercept and manipulate traffic, and the scanner to automate vulnerability detection.
+
+  ### **Wireshark**
+  - **Description:** A network protocol analyzer that captures and interactively browses the traffic running on a computer network.
+  - **Usage:** Monitor and analyze network traffic to identify insecure data transmission or unexpected behaviors.
+
+  ### **Fuzzers (e.g., AFL, Peach Fuzzer)**
+  - **Description:** Tools that automate the input of large amounts of random data to applications to uncover vulnerabilities like buffer overflows and crashes.
+  - **Usage:** Configure the fuzzer to target specific functions or APIs within the chat application.
+
+  ### **Metasploit Framework**
+  - **Description:** A powerful tool for developing and executing exploit code against a remote target machine.
+  - **Usage:** Use existing modules or create custom exploits to test the security of the chat application.
 
 ## 5. Backdoor/Vulnerability Assessment
-
-### Suspected Backdoors or Vulnerabilities
 
 1. **Subprocess Command Execution:**
    - **Location:** `encrypt_message_cpp` and `decrypt_message_cpp` functions.
@@ -57,27 +91,6 @@
    - **Location:** Throughout the message handling functions.
    - **Description:** Messages, especially public chats, are sent in plaintext without proper encryption, contrary to the protocol's specifications. This allows any eavesdropper to read the messages easily.
    - **Example:** An attacker monitoring the network traffic can intercept and read all public chat messages, compromising user privacy and the integrity of communications.
-
-### Methods Used for Identification
-
-- **Code Inspection:** Manually reviewing the code to identify functions that handle sensitive operations such as authentication and encryption.
-- **Comment Analysis:** Noting the presence of comments indicating vulnerabilities and placeholder implementations, such as in the `vulnerable_authentication` function.
-- **Functionality Testing:** Understanding the flow of data through the `encrypt_message_cpp` and `decrypt_message_cpp` functions revealed the use of subprocess calls, which are inherently insecure.
-- **Protocol Comparison:** Comparing the implemented features against the OLAF/Neighbourhood protocol specifications highlighted significant discrepancies and missing security measures.
-
-### Potential Impact
-
-1. **Subprocess Command Execution:**
-   - **Impact:** High. Allows attackers to execute arbitrary commands on the server, leading to potential full system compromise.
-   - **Exploitation Scenario:** An attacker could inject commands that read, modify, or delete server files, install malware, or pivot to other systems within the network.
-
-2. **Vulnerable Authentication Mechanism:**
-   - **Impact:** High. Enables unauthorized access to the system, potentially exposing all user data and allowing the attacker to manipulate chat messages or user lists.
-   - **Exploitation Scenario:** An attacker could log in as an admin, send fraudulent messages, or disrupt the chat service by modifying the client list, leading to a loss of trust and service availability.
-
-3. **Lack of Proper Encryption:**
-   - **Impact:** Medium to High. Compromises the confidentiality and integrity of user communications.
-   - **Exploitation Scenario:** An attacker can intercept and read all public chat messages, potentially extracting sensitive information, personal data, or confidential discussions.
 
 ## 6. Results Summary
 - **TODO**
