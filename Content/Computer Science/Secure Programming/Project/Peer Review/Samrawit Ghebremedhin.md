@@ -43,30 +43,13 @@ The static analysis was performed using **Bandit**, a security-oriented static a
 | B603  | Low      | High       | chat_server.py:71 | Subprocess calls without `shell=True` can be exploited if untrusted input is passed.           | Avoid using `subprocess.run` with untrusted input or use safer alternatives. If `shell=True` is necessary, ensure that the input is thoroughly sanitized. | [Link](https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html)   |
 | B603  | Low      | High       | chat_server.py:76 | Same as above.                                                                                 | Same as above.                                                                                                                                            | [Link](https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html)   |
 
+## 4. Dynamic Analysis
 
-- **Recommended Tools:**
-
-  ### **OWASP ZAP (Zed Attack Proxy)**
-  - **Description:** A full-featured security tool for finding vulnerabilities in web applications through automated and manual testing.
-  - **Usage:** Run the proxy, configure the application to use it, and perform various attacks to identify security flaws.
-
-  ### **Burp Suite**
-  - **Description:** An integrated platform for performing security testing of web applications, offering a range of tools like a proxy, scanner, and intruder.
-  - **Usage:** Use the proxy to intercept and manipulate traffic, and the scanner to automate vulnerability detection.
-
-  ### **Wireshark**
-  - **Description:** A network protocol analyzer that captures and interactively browses the traffic running on a computer network.
-  - **Usage:** Monitor and analyze network traffic to identify insecure data transmission or unexpected behaviors.
-
-  ### **Fuzzers (e.g., AFL, Peach Fuzzer)**
-  - **Description:** Tools that automate the input of large amounts of random data to applications to uncover vulnerabilities like buffer overflows and crashes.
-  - **Usage:** Configure the fuzzer to target specific functions or APIs within the chat application.
-
-  ### **Metasploit Framework**
-  - **Description:** A powerful tool for developing and executing exploit code against a remote target machine.
-  - **Usage:** Use existing modules or create custom exploits to test the security of the chat application.
+The provided code is unfinished and poorly documented, so dynamic analysis was not suitable for this review. The reviewer did attempt to get the application running and send messages, however, most of the protocol remains in a placeholder state so nothing substantial can be said about the application. 
 
 ## 5. Backdoor/Vulnerability Assessment
+
+Note that the following vulnerabilities are only *theoretically* possible because the application seems mostly unfinished and doesnt actually implement the protocol. I have written this section under the implication that these functions exist and operate in a finished implementation.
 
 1. **Subprocess Command Execution:**
    - **Location:** `encrypt_message_cpp` and `decrypt_message_cpp` functions.
