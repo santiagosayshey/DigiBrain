@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md"
               }
             }
           },
@@ -198,7 +197,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18a94d78c755e685",
+  "active": "594b594fcfd4013f",
   "lastOpenFiles": [
     "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md",
