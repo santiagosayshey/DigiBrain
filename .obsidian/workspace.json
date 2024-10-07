@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Shebremedhin.md"
               }
             }
           },
@@ -185,10 +184,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18a94d78c755e685",
+  "active": "594b594fcfd4013f",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Shebremedhin.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Shebremedhin.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
