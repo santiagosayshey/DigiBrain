@@ -1,11 +1,7 @@
 ## 1. Project Overview
 - Group Members:
-	- a1744126
-	- a1851092
-	- a1810859
-a1915043
-- Reviewers: Samuel Chau
 
+- Reviewers: 
 
 ## 2. Manual Code Review
 - Architecture and Design:
@@ -51,8 +47,3 @@ a1915043
 - Security enhancements:
 - Code quality improvements:
 - Additional testing suggested:
-
-## 8. Feedback on Implementation
-- Clarity of code and documentation:
-- Innovative aspects:
-- Overall impression:
