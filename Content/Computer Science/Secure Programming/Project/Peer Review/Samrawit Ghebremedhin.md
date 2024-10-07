@@ -5,9 +5,6 @@
   - a1810859
   - a1915043
 
-- **Reviewers:**
-  - Samuel Chau (a1799298)
-
 ## 2. Manual Code Review
 
 ### Architecture and Design
@@ -49,7 +46,7 @@ The provided code is unfinished and poorly documented, so dynamic analysis was n
 
 ## 5. Backdoor/Vulnerability Assessment
 
-Note that the following vulnerabilities are only *theoretically* possible because the application seems mostly unfinished and doesnt actually implement the protocol. I have written this section under the implication that these functions exist and operate in a finished implementation.
+Note that the following vulnerabilities are only *theoretically* possible because the application seems mostly unfinished and doesn't actually implement the protocol. The reviewer has written this section under the implication that these functions exist and operate in a finished implementation.
 
 1. **Subprocess Command Execution:**
    - **Location:** `encrypt_message_cpp` and `decrypt_message_cpp` functions.
