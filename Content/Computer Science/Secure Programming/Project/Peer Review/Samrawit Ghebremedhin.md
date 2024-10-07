@@ -34,25 +34,16 @@
 | **Secure Data Storage and Transmission** | ❌ Insecure Transmission | While WebSockets are used for communication, there is no implementation of secure WebSockets (`wss://`). Data transmitted is not adequately encrypted, especially in public chats where messages are sent in plaintext. The protocol emphasizes end-to-end encryption and secure transmission channels, which are not implemented in the current codebase.                                                                                                                           |
 
 ## 3. Static Analysis
-- **Recommended Tools:**
 
-  ### **Bandit (for Python)**
-  - **Description:** A security-oriented static analysis tool that scans Python code to find common security issues.
-  - **Usage:** `bandit -r path/to/code`
+The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis of `chat_server.py`:
 
-  ### **SonarQube**
-  - **Description:** A platform for continuous inspection of code quality and security vulnerabilities across multiple programming languages.
-  - **Usage:** Integrate with CI/CD pipelines or run locally for detailed reports.
+| Issue | Severity | Confidence | Location          | Description                                                                                    | Recommendation                                                                                                                                            | More Info                                                                                                |
+| ----- | -------- | ---------- | ----------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| B404  | Low      | High       | chat_server.py:4  | Usage of the `subprocess` module can lead to security vulnerabilities if not handled properly. | Avoid using subprocess with untrusted input or ensure that all inputs are properly sanitized.                                                             | [Link](https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess) |
+| B603  | Low      | High       | chat_server.py:71 | Subprocess calls without `shell=True` can be exploited if untrusted input is passed.           | Avoid using `subprocess.run` with untrusted input or use safer alternatives. If `shell=True` is necessary, ensure that the input is thoroughly sanitized. | [Link](https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html)   |
+| B603  | Low      | High       | chat_server.py:76 | Same as above.                                                                                 | Same as above.                                                                                                                                            | [Link](https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html)   |
 
-  ### **Flake8**
-  - **Description:** A tool for enforcing coding standards and identifying syntax errors and potential bugs in Python code.
-  - **Usage:** `flake8 path/to/code`
 
-  ### **Pylint**
-  - **Description:** An extensive code analysis tool that checks for errors, enforces a coding standard, and looks for code smells.
-  - **Usage:** `pylint path/to/code`
-
-## 4. Dynamic Analysis
 - **Recommended Tools:**
 
   ### **OWASP ZAP (Zed Attack Proxy)**
