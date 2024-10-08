@@ -135,7 +135,7 @@ Global User List Size : 1
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Message Parsing Vulnerability**         | The method of parsing commands by searching for substrings (e.g., using `find` within a message string) is dangerous. If a user includes certain keywords (e.g., "public:") in their message, it can trigger unintended behaviors, such as broadcasting a private message publicly. This represents a significant security and privacy concern. |
 
-### Summary of Dynamic Analysis
+#### Summary of Dynamic Analysis
 
 The dynamic analysis reveals that the application is largely non-functional and does not adhere to the expected behavior as defined by the OLAF/Neighbourhood protocol. Critical features such as public chats, private / group chats, client updates, and proper handling of client connections are either broken or not implemented correctly. The lack of proper error handling and input validation leads to crashes and inconsistent states, making the application unreliable and insecure for practical use.
 
