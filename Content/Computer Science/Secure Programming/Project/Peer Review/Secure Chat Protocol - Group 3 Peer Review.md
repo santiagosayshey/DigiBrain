@@ -155,33 +155,38 @@ No further intentional backdoors were identified in the code. However, the appli
 
 ## 6. Results Summary
 
-**Strengths:**
+### Strengths
 
-- **Fingerprint Calculation:** The application correctly calculates the fingerprint of the public key by hashing the PEM-encoded public key and then Base64-encoding it, aligning with the protocol's definition.
-- **Basic Structure in Place:** The code includes foundational elements such as key generation, message handling functions, and basic client-server communication setup.
+| **Strength**                 | **Description**                                                                                                                                                                                                |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Fingerprint Calculation**  | The application correctly calculates the fingerprint of the public key by hashing the PEM-encoded public key and then Base64-encoding it, aligning with the protocol's definition.                             |
+| **Basic Structure in Place** | The code includes foundational elements such as key generation, message handling functions, and basic client-server communication setup.                                                                       |
 
-**Areas for Improvement:**
+### Areas for Improvement
 
-- **Protocol Adherence:** The application significantly deviates from the OLAF/Neighbourhood protocol specifications in critical areas such as message signing, counter handling, and message structures.
-- **Cryptographic Implementations:** Incorrect use of cryptographic functions, including improper message signing and the use of deprecated libraries, undermines security.
-- **Code Organization and Readability:** The code lacks proper organization, modularization, and documentation, making it difficult to understand and maintain.
-- **Input Validation and Error Handling:** Minimal input validation and inadequate error handling lead to application crashes and vulnerabilities.
+| **Area for Improvement**             | **Description**                                                                                                                                                                                                            |
+|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Protocol Adherence**               | The application significantly deviates from the OLAF/Neighbourhood protocol specifications in critical areas such as message signing, counter handling, and message structures.                                             |
+| **Cryptographic Implementations**    | Incorrect use of cryptographic functions, including improper message signing and the use of deprecated libraries, undermines security.                                                                                     |
+| **Code Organization and Readability**| The code lacks proper organization, modularization, and documentation, making it difficult to understand and maintain.                                                                                                    |
+| **Input Validation and Error Handling** | Minimal input validation and inadequate error handling lead to application crashes and vulnerabilities.                                                                                                                      |
 
-**Final Note:** A good effort all around to provide a strong foundation, but needs lots of improvement before the final deadline. 
+**Final Note:** A good effort all around to provide a strong foundation, but needs lots of improvement before the final deadline.
+
 ## 7. Recommendations
 
-**Security Enhancements:**
+### Security Enhancements
 
-- **Adhere to Protocol Specifications:** Strictly follow the OLAF/Neighbourhood protocol for message signing, counter usage, and message formats to ensure security compliance.
-- **Proper Cryptographic Practices:**
-  - Implement RSA-PSS with SHA-256 for message signing using the private key.
-  - Replace deprecated libraries like PyCrypto with modern alternatives such as `cryptography`.
-  - Use correct key sizes and cryptographic parameters as specified by the protocol.
-- **Secure Communication Channels:** Use TLS (`wss://`) for WebSocket connections to encrypt data in transit and protect against interception.
+| **Recommendation**                | **Description**                                                                                                                                                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Adhere to Protocol Specifications** | Strictly follow the OLAF/Neighbourhood protocol for message signing, counter usage, and message formats to ensure security compliance.                                                                         |
+| **Proper Cryptographic Practices**    | - Implement RSA-PSS with SHA-256 for message signing using the private key.<br>- Replace deprecated libraries like PyCrypto with modern alternatives such as `cryptography`.<br>- Use correct key sizes and cryptographic parameters as specified by the protocol. |
+| **Secure Communication Channels**     | Use TLS (`wss://`) for WebSocket connections to encrypt data in transit and protect against interception.                                                                                                      |
 
-**Code Quality Improvements:**
+### Code Quality Improvements
 
-- **Refactor Codebase:** Organize the code into modular, reusable components with clear separation of concerns. Remove obsolete or irrelevant code segments.
-- **Enhance Readability:** Add comprehensive comments and documentation to explain code functionality.
-- **Improve Error Handling:** Implement robust error handling to catch and manage exceptions gracefully, preventing application crashes.
-
+| **Recommendation**         | **Description**                                                                                                                     |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Refactor Codebase**      | Organize the code into modular, reusable components with clear separation of concerns. Remove obsolete or irrelevant code segments. |
+| **Enhance Readability**    | Add comprehensive comments and documentation to explain code functionality.                                                         |
+| **Improve Error Handling** | Implement robust error handling to catch and manage exceptions gracefully, preventing application crashes.                          |
