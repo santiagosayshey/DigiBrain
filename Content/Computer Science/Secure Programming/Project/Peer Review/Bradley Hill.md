@@ -52,3 +52,7 @@ No issues identified.
 - private, group and public messages seem to be working as intended
 
 ![[Pasted image 20241008162345.png]]
+
+### Security Testing
+- logs do indeed indicate that client lists are being encoded in base64 rather than raw PEM keys before being sent
+- 
