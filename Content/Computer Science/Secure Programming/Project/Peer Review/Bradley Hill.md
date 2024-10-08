@@ -87,3 +87,70 @@ I HAVE RECEIVED A REQUEST FROM A CLIENT FOR A LIST
 The server accepted and broadcast the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a critical vulnerability where a malicious actor can impersonate a server and send unauthorized messages.
 
 ![Vulnerability Demonstration](Pasted%20image%2020241008171947.png)
+
+## 5. Backdoor/Vulnerability Assessment
+
+### Identified Intentional Backdoors:
+
+| **Backdoor**                                  | **Description**                                                                                                                                                                                                                                        | **Impact**                                                                                                                                                                                                                 |
+|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Server Spoofing via `server_hello` Messages** | Any client can impersonate a server by sending a `server_hello` message. This sets the `is_server` flag to `True` in their session, allowing them to bypass signature verification for subsequent messages.                                             | Attackers can send unsigned or malicious messages, impersonate servers, and disrupt secure communication channels.                                                                                                          |
+
+### Additional Observations:
+
+After an exhaustive review of the provided code, no further intentional backdoors could be found.
+
+---
+
+## 6. Results Summary
+
+### Strengths:
+
+| **Aspect**                 | **Details**                                                                                                                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Functional Implementation** | - The application implements core functionalities like messaging, file transfer, and a graphical user interface.<br>- Adherence to many aspects of the OLAF/Neighbourhood protocol, demonstrating a solid understanding of the required features. |
+| **User Interface**            | - The Tkinter GUI is user-friendly and provides clear instructions, enhancing the overall user experience.                                                                                                                                  |
+
+### Areas for Improvement:
+
+| **Aspect**            | **Details**                                                                                                                                                                                                                                                   |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Security Measures** | - Lack of robust authentication and authorization mechanisms.<br>- Inadequate input validation and error handling.<br>- Cryptographic implementations do not strictly adhere to protocol specifications.                                                         |
+| **Code Quality**      | - The code could benefit from better organization and more descriptive variable names.<br>- Additional comments and documentation would improve readability and maintainability.                                                                                |
+
+### Critical Issues:
+
+| **Issue Category**             | **Details**                                                                                                                                                                                                                                                  |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Intentional Backdoors**      | - **Server Spoofing via `server_hello` Messages.**                                                                                                                                                                                                           |
+| **Security Vulnerabilities**   | - Running the Flask application in debug mode, exposing it to potential attacks.<br>- Weak cryptographic practices, such as using RSA with PKCS1v15 padding instead of RSA-PSS with SHA-256.<br>- Clients do not verify the signatures of incoming messages. |
+
+
+---
+
+## 7. Recommendations
+
+### Security Enhancements:
+
+| **Recommendation**                                       | **Details**                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Implement Strict Authentication and Authorization** | - **For Clients:**<br>  - Ensure that all clients verify the signatures of incoming messages to prevent the acceptance of malicious data.<br>  - Implement counter checks to prevent replay attacks.<br>- **For Servers:**<br>  - Review the use ofients to set the `is_server` flag via messages. |
+| **2. Enhance Cryptographic Practices**                   | - Use RSA-PSS with SHA-256 for digital signatures, as specified by the protocol.<br>- Switch to AES in GCM mode for symmetric encryption to provide both confidentiality and integrity.<br>- Ensure that all cryptographic keys and operations follow best practices to prevent vulnerabilities.   |
+| **3. Secure the Flask Application**                      | - Disable debug mode by setting `debug=False` and use a production-ready server.<br>- Implement authentication for file upload and download endpoints to prevent unauthorized access.<br>- Validate and sanitize all inputs to the Flask application to prevent injection attacks.                 |
+| **4. Improve Input Validation and Error Handling**       | - Validate all incoming data on both client and server sides to ensure it conforms to expected formats.<br>- Implement comprehensive error handling to manage exceptions gracefully without exposing sensitive information.                                                                        |
+
+### Code Quality Improvements:
+
+| **Recommendation**                              | **Details**                                                                                                                                                                                                                                                                |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Refactor Code for Clarity and Maintainability** | - Use descriptive variable and function names to enhance readability.<br>- Organize code into modules or classes where appropriate.<br>- Add comments and documentation to explain complex sections.                                                                         |
+| **Implement Robust Logging Mechanisms**         | - Utilize Python's `logging` library to log events with appropriate severity levels.<br>- Ensure that logs do not contain sensitive information that could be exploited.                                                                                                    |
+| **Enhance Exception Handling**                  | - Catch and handle specific exceptions rather than using broad exception handlers.<br>- Provide meaningful error messages to users and log technical details for developers.                                                                                                |
+
+### Additional Testing Suggested:
+
+| **Testing Type**           | **Details**                                                                                                                                                                                                                                              |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Security Testing**       | - Conduct penetration testing to identify and address potential security weaknesses.<br>- Use automated tools to scan for common vulnerabilities such as SQL injection, XSS, and CSRF.                                                                 |
+| **Compliance Testing**     | - Verify that the application complies with all aspects of the OLAF/Neighbourhood protocol.<br>- Ensure that cryptographic implementations meet industry standards.                                                                                      |
+| **User Acceptance Testing** | - Engage users in testing the application to gather feedback on usability and functionality.<br>- Iterate on the design and features based on user feedback to improve the overall experience.                                                         |
