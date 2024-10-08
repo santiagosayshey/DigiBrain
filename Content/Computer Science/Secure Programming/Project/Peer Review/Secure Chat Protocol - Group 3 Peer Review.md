@@ -2,9 +2,10 @@ dynamic analysis
 - instructions arent clear, had to email group just to figure out which files to run
 - code written in python and c for some reason
 - most of code isnt even used and irrelavant to the actual working code
-- no readme provided to actually say how to use the program
-- ports and addresses hardcoded, which means i can only have 1 server and 1 client
 
+- ports and addresses hardcoded, which means i can only have 1 server and 1 client
+- no readme provided to actually say how to use the program
+	- during dynamic analysis making assumptions on how it works by reading code, may or may not be correct
 client update breaks
 
 ```
@@ -37,3 +38,18 @@ Traceback (most recent call last):
 KeyError: 'clients'
 
 ```
+
+- seems that connecting two clients to the same server even if they have the same public key?
+  
+```
+User added. Total Users in Local List: 2
+Global User List Size : 0
+User added. Total Users in Global List: 1
+Global User List Size : 1
+Global User List Size : 1
+Global User List Size : 0
+User added. Total Users in Global List: 1
+Global User List Size : 1
+Global User List Size : 1
+```
+
