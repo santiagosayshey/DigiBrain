@@ -1,11 +1,4 @@
-## 1. Project Overview
-- **Group Members:**
-  - a1744126
-  - a1851092
-  - a1810859
-  - a1915043
-
-## 2. Manual Code Review
+## 1. Manual Code Review
 
 ### Architecture and Design
 
@@ -30,7 +23,7 @@
 | **Cryptographic Implementations**        | ❌ Incorrect Implementation | The cryptographic functions `encrypt_message_cpp` and `decrypt_message_cpp` are placeholders and do not implement the specified encryption protocols (RSA, AES-GCM). Additionally, the use of subprocess calls for encryption is insecure and opens avenues for exploitation. The protocol specifies detailed encryption and signing mechanisms which are not adhered to in the code.           |
 | **Secure Data Storage and Transmission** | ❌ Insecure Transmission    | While WebSockets are used for communication, there is no implementation of secure WebSockets (`wss://`). Data transmitted is not adequately encrypted, especially in public chats where messages are sent in plaintext. The protocol emphasizes end-to-end encryption and secure transmission channels, which are not implemented in the current codebase.                                      |
 
-## 3. Static Analysis
+## 2. Static Analysis
 
 The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis of `chat_server.py`:
 
@@ -40,11 +33,11 @@ The static analysis was performed using **Bandit**, a security-oriented static a
 | B603  | Low      | High       | chat_server.py:71 | Subprocess calls without `shell=True` can be exploited if untrusted input is passed.           | Avoid using `subprocess.run` with untrusted input or use safer alternatives. If `shell=True` is necessary, ensure that the input is thoroughly sanitized. | [Link](https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html)   |
 | B603  | Low      | High       | chat_server.py:76 | Same as above.                                                                                 | Same as above.                                                                                                                                            | [Link](https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html)   |
 
-## 4. Dynamic Analysis
+## 3. Dynamic Analysis
 
 The provided code is unfinished and poorly documented, so dynamic analysis was not suitable for this review. The reviewer did attempt to get the application running and send messages, however, most of the protocol remains in a placeholder state so nothing substantial can be said about the application. 
 
-## 5. Backdoor/Vulnerability Assessment
+## 4. Backdoor/Vulnerability Assessment
 
 Note that the following vulnerabilities are only *theoretically* possible because the application seems mostly unfinished and doesn't actually implement the protocol. The reviewer has written this section under the implication that these functions exist and operate in a finished implementation.
 
@@ -63,7 +56,7 @@ Note that the following vulnerabilities are only *theoretically* possible becaus
    - **Description:** Messages, especially public chats, are sent in plaintext without proper encryption, contrary to the protocol's specifications. This allows any eavesdropper to read the messages easily.
    - **Example:** An attacker monitoring the network traffic can intercept and read all public chat messages, compromising user privacy and the integrity of communications.
 
-## 6. Results Summary
+## 5. Results Summary
 
 | **Category**            | **Details**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,7 +64,7 @@ Note that the following vulnerabilities are only *theoretically* possible becaus
 | **Areas for Improvement** | - **Protocol Non-Adherence:** Does not implement the OLAF/Neighbourhood protocol, missing essential features like message signing and proper encryption.<br>- **Security Shortcomings:** Lacks proper authentication, encryption, and input validation; uses hardcoded credentials and insecure subprocess calls.<br>- **Code Organization:** Poor structure with scattered functions and placeholder implementations; lacks modularity and clear separation of concerns.<br>- **Error Handling:** Minimal and inconsistent error handling; insufficient logging for debugging and monitoring. |
 | **Critical Issues**     | - **Insecure Authentication:** Hardcoded credentials in `vulnerable_authentication` function pose a high security risk.<br>- **Unsafe Subprocess Usage:** `encrypt_message_cpp` and `decrypt_message_cpp` functions use subprocess calls that can be exploited for code injection.<br>- **Plaintext Transmission:** Messages are sent without encryption, exposing them to interception and violating protocol requirements.<br>- **Lack of Input Validation:** Increases susceptibility to injection attacks and processing of malicious data.                                                                 |
 
-## 7. Recommendations
+## 6. Recommendations
 
 | **Recommendation Category**     | **Actions**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

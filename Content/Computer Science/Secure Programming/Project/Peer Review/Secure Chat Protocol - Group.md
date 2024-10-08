@@ -1,13 +1,5 @@
-## 1. Project Overview
-- **Group Members:**
-  - Bradley Hill
-  - James Nguyen
-  - Natanand Akomsoontorn
-  - Vincent Scaffidi-Muta
 
-
-## 2. Manual Code Review
-
+## 1. Manual Code Review
 ### Architecture and Design
 
 | **Aspect**                                               | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -30,7 +22,7 @@
 | **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic implementations do not align with the protocol specifications. For signing, the code uses RSA with PKCS1v15 padding instead of the required RSA-PSS with SHA-256. For symmetric encryption, AES in CBC mode with PKCS7 padding is used, whereas the protocol specifies AES in GCM mode.                                                                                                                                                                                |
 | **Secure Data Storage and Transmission** | Insecure Transmission    | Data transmission is not secured at the transport layer. The server communicates over plain TCP sockets without TLS encryption, and the Flask application for file uploads/downloads operates over HTTP rather than HTTPS. This exposes sensitive data to potential interception and eavesdropping. The lack of secure channels undermines the application's security measures.                                                                                                          |
 **Note:** While this review focuses on areas for improvement from a security perspective, it's important to acknowledge the overall quality of this implementation. The team has successfully created a functional system that adheres to most aspects of the OLAF/Neighbourhood protocol. The identified issues provide opportunities for enhancement, but they should not overshadow the considerable effort demonstrated so far!
-## 3. Static Analysis
+## 2. Static Analysis
 
 The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis:
 
@@ -44,7 +36,7 @@ The static analysis was performed using **Bandit**, a security-oriented static a
 
 No issues identified.
 
-## 4. Dynamic Analysis
+## 3. Dynamic Analysis
 
 ### Functional Testing
 
@@ -88,7 +80,7 @@ The server accepted and broadcast the unsigned message to other clients without 
 
 ![Vulnerability Demonstration](Pasted%20image%2020241008171947.png)
 
-## 5. Backdoor/Vulnerability Assessment
+## 4. Backdoor/Vulnerability Assessment
 
 ### Identified Intentional Backdoors:
 
@@ -102,7 +94,7 @@ After an exhaustive review of the provided code, no further intentional backdoor
 
 ---
 
-## 6. Results Summary
+## 5. Results Summary
 
 ### Strengths:
 
@@ -113,31 +105,24 @@ After an exhaustive review of the provided code, no further intentional backdoor
 
 ### Areas for Improvement:
 
-| **Aspect**            | **Details**                                                                                                                                                                                                                                                   |
-|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Security Measures** | - Lack of robust authentication and authorization mechanisms.<br>- Inadequate input validation and error handling.<br>- Cryptographic implementations do not strictly adhere to protocol specifications.                                                         |
-| **Code Quality**      | - The code could benefit from better organization and more descriptive variable names.<br>- Additional comments and documentation would improve readability and maintainability.                                                                                |
-
-### Critical Issues:
-
-| **Issue Category**             | **Details**                                                                                                                                                                                                                                                  |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Intentional Backdoors**      | - **Server Spoofing via `server_hello` Messages.**                                                                                                                                                                                                           |
-| **Security Vulnerabilities**   | - Running the Flask application in debug mode, exposing it to potential attacks.<br>- Weak cryptographic practices, such as using RSA with PKCS1v15 padding instead of RSA-PSS with SHA-256.<br>- Clients do not verify the signatures of incoming messages. |
+| **Aspect**            | **Details**                                                                                                                                                                      |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Security Measures** | - Inadequate input validation and error handling.                                                                                                                                |
+| **Code Quality**      | - The code could benefit from better organization and more descriptive variable names.<br>- Additional comments and documentation would improve readability and maintainability. |
 
 
 ---
 
-## 7. Recommendations
+## 6. Recommendations
 
 ### Security Enhancements:
 
-| **Recommendation**                                       | **Details**                                                                                                                                                                                                                                                                                        |
-| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Implement Strict Authentication and Authorization** | - **For Clients:**<br>  - Ensure that all clients verify the signatures of incoming messages to prevent the acceptance of malicious data.<br>  - Implement counter checks to prevent replay attacks.<br>- **For Servers:**<br>  - Review the use ofients to set the `is_server` flag via messages. |
-| **2. Enhance Cryptographic Practices**                   | - Use RSA-PSS with SHA-256 for digital signatures, as specified by the protocol.<br>- Switch to AES in GCM mode for symmetric encryption to provide both confidentiality and integrity.<br>- Ensure that all cryptographic keys and operations follow best practices to prevent vulnerabilities.   |
-| **3. Secure the Flask Application**                      | - Disable debug mode by setting `debug=False` and use a production-ready server.<br>- Implement authentication for file upload and download endpoints to prevent unauthorized access.<br>- Validate and sanitize all inputs to the Flask application to prevent injection attacks.                 |
-| **4. Improve Input Validation and Error Handling**       | - Validate all incoming data on both client and server sides to ensure it conforms to expected formats.<br>- Implement comprehensive error handling to manage exceptions gracefully without exposing sensitive information.                                                                        |
+| **Recommendation**                                       | **Details**                                                                                                                                                                                                                                                                                      |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1. Implement Strict Authentication and Authorization** | - **For Clients:**<br>  - Ensure that all clients verify the signatures of incoming messages to prevent the acceptance of malicious data.<br>  - Implement counter checks to prevent replay attacks.<br>- **For Servers:**<br>  - Review the use of `is_server` flag via messages.               |
+| **2. Enhance Cryptographic Practices**                   | - Use RSA-PSS with SHA-256 for digital signatures, as specified by the protocol.<br>- Switch to AES in GCM mode for symmetric encryption to provide both confidentiality and integrity.<br>- Ensure that all cryptographic keys and operations follow best practices to prevent vulnerabilities. |
+| **3. Secure the Flask Application**                      | - Disable debug mode by setting `debug=False` and use a production-ready server.<br>- Implement authentication for file upload and download endpoints to prevent unauthorized access.                                                                                                            |
+| **4. Improve Input Validation and Error Handling**       | - Validate all incoming data on both client and server sides to ensure it conforms to expected formats.<br>- Implement comprehensive error handling to manage exceptions gracefully without exposing sensitive information.                                                                      |
 
 ### Code Quality Improvements:
 
@@ -146,11 +131,3 @@ After an exhaustive review of the provided code, no further intentional backdoor
 | **Refactor Code for Clarity and Maintainability** | - Use descriptive variable and function names to enhance readability.<br>- Organize code into modules or classes where appropriate.<br>- Add comments and documentation to explain complex sections.                                                                         |
 | **Implement Robust Logging Mechanisms**         | - Utilize Python's `logging` library to log events with appropriate severity levels.<br>- Ensure that logs do not contain sensitive information that could be exploited.                                                                                                    |
 | **Enhance Exception Handling**                  | - Catch and handle specific exceptions rather than using broad exception handlers.<br>- Provide meaningful error messages to users and log technical details for developers.                                                                                                |
-
-### Additional Testing Suggested:
-
-| **Testing Type**           | **Details**                                                                                                                                                                                                                                              |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Security Testing**       | - Conduct penetration testing to identify and address potential security weaknesses.<br>- Use automated tools to scan for common vulnerabilities such as SQL injection, XSS, and CSRF.                                                                 |
-| **Compliance Testing**     | - Verify that the application complies with all aspects of the OLAF/Neighbourhood protocol.<br>- Ensure that cryptographic implementations meet industry standards.                                                                                      |
-| **User Acceptance Testing** | - Engage users in testing the application to gather feedback on usability and functionality.<br>- Iterate on the design and features based on user feedback to improve the overall experience.                                                         |
