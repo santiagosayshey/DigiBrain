@@ -1,3 +1,7 @@
+This implementation demonstrates a commendable effort in establishing the foundational elements of a secure chat application. Notably, the fingerprint calculation aligns correctly with the protocol's specifications, and essential components such as key generation and basic client-server communication are effectively implemented. These strengths provide a solid base for building a functional and secure system.
+
+However, there are significant deviations from the OLAF/Neighbourhood protocol, particularly in cryptographic implementations and message signing processes. Addressing these discrepancies will be crucial in enhancing the application's security and ensuring full compliance with the established protocol standards. The following sections delve deeper into these aspects, offering detailed feedback and recommendations for improvement.
+
 **Reviewed By:**
 - Samuel Chau (a1799298)
 ## 1. Manual Code Review

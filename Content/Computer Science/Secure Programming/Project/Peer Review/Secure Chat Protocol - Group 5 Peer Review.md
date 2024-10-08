@@ -1,3 +1,7 @@
+This implementation stands out with its impressive adherence to the OLAF/Neighbourhood protocol and the incorporation of a functional graphical user interface, which greatly enhances user experience. Core features such as messaging, file transfer, and client list management are well-executed, demonstrating a thorough understanding of the protocol's requirements and effective application of its specifications.
+
+However, a critical security vulnerability has been identified concerning access control, where clients can impersonate servers by sending unauthorized `server_hello` messages. This flaw poses a significant risk to the application's integrity and security. Addressing this vulnerability, along with improving input validation and cryptographic practices, will be essential in fortifying the system against potential attacks. The following sections provide a comprehensive analysis and actionable recommendations to help mitigate these issues.
+
 **Reviewed By:**
 - Samuel Chau (a1799298)
 ## 1. Manual Code Review
