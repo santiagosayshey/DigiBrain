@@ -1,0 +1,50 @@
+## 1. Project Overview
+- **Group Members:**
+  - Bradley Hill
+  - James Nguyen
+  - Natanand Akomsoontorn
+  - Vincent Scaffidi-Muta
+
+
+## 2. Manual Code Review
+
+### Architecture and Design
+
+| **Aspect**                                               | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Protocol Implementation Adherence**                    | Mostly Adhered           | The code attempts to implement the OLAF/Neighbourhood protocol and handles specified message types such as `hello`, `chat`, `public_chat`, `client_list_request`, and `client_update`. However, there is a discrepancy in the `client_update` message format. The code sends the `clients` field as a list of base64-encoded PEM strings, whereas the protocol specifies it should be a list of PEM-formatted public keys without base64 encoding. This inconsistency may lead to interoperability issues with other implementations strictly following the protocol. Further verification during dynamic analysis will be conducted to verify. However, this is a minor issue and adherence is otherwise exemplary. |
+
+### Code Quality
+
+| **Aspect**                       | **Status**        | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Readability and Organization** | Needs Refactoring | The code is generally organized into functions and classes, making it somewhat readable. However, there are areas where refactoring could improve clarity and maintainability. Variable names are sometimes non-descriptive, and there is a lack of inline comments explaining complex sections, which may hinder understanding for new developers.                                                                      |
+| **Error Handling and Logging**   | Well integrated   | Error handling is present and correctly captures most communication across servers and clients.  Most logs seem to be development focused - i.e. message arrived here, sending here, etc. While this is generally sufficient, a more robust and verbose logging scheme could be beneficial for production. Moreover, exceptions are occasionally caught and printed, but not always handled appropriately or propagated. |
+
+### Security-specific Checks
+
+| **Aspect**                               | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ---------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Input Validation**                     | Potential Vulnerability  | Input validation is minimal throughout the code. In functions like `process_message`, the code assumes that incoming data is well-formed without thorough validation of message structures or contents. This lack of validation could lead to the processing of malformed or malicious data, potentially causing unexpected behavior or security vulnerabilities.                                                                                                                        |
+| **Access Control**                       | Potential Backdoor       | The `is_server` variable in the `ClientSession` class poses a security risk. Any client can send a `server_hello` message, causing their session to be marked as `is_server = True`, which bypasses signature verification in subsequent messages. This could allow an attacker to send unsigned or malicious messages without proper authentication. The code lacks robust mechanisms to authenticate and verify the identities of servers versus clients, compromising access control. |
+| **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic implementations do not align with the protocol specifications. For signing, the code uses RSA with PKCS1v15 padding instead of the required RSA-PSS with SHA-256. For symmetric encryption, AES in CBC mode with PKCS7 padding is used, whereas the protocol specifies AES in GCM mode.                                                                                                                                                                                |
+| **Secure Data Storage and Transmission** | Insecure Transmission    | Data transmission is not secured at the transport layer. The server communicates over plain TCP sockets without TLS encryption, and the Flask application for file uploads/downloads operates over HTTP rather than HTTPS. This exposes sensitive data to potential interception and eavesdropping. The lack of secure channels undermines the application's security measures.                                                                                                          |
+**Note:** While this review focuses on areas for improvement from a security perspective, it's important to acknowledge the overall quality of this implementation. The team has successfully created a functional system that adheres to most aspects of the OLAF/Neighbourhood protocol. The identified issues provide opportunities for enhancement, but they should not overshadow the considerable effort demonstrated so far!
+## 3. Static Analysis
+
+The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis:
+
+### server.py
+
+| **Issue ID** | **Severity** | **Confidence** | **Location**     | **Description**                                                                                                                                               | **Recommendation**                                                                                                                                                             | **More Info**                                                                                                    |
+|--------------|--------------|----------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| B201         | High         | Medium         | server.py:429    | A Flask app appears to be run with `debug=True`, which exposes the Werkzeug debugger and allows the execution of arbitrary code.                              | Disable debug mode in production by setting `debug=False`. Ensure that the Flask app is not run with debug mode enabled in any deployment or production environment.            | [Link](https://bandit.readthedocs.io/en/latest/plugins/b201_flask_debug_true.html)                               |
+
+### client.py
+
+No issues identified.
+
+## Dynamic Analysis
+
+### Functional Testing
+- 
