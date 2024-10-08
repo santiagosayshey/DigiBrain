@@ -1,3 +1,5 @@
+**Reviewed By:**
+- Samuel Chau (a1799298)
 ## 1. Manual Code Review
 ### Architecture and Design
 
@@ -89,8 +91,6 @@ The server accepted and broadcast the unsigned message to other clients without 
 
 ![Vulnerability Demonstration](Pasted%20image%2020241008171947.png)
 
-
-
 <div style="page-break-after: always;"></div>
 
 ## 4. Backdoor/Vulnerability Assessment
@@ -123,7 +123,7 @@ After an exhaustive review of the provided code, no further intentional backdoor
 | **Code Quality**      | - The code could benefit from better organization and more descriptive variable names.<br>- Additional comments and documentation would improve readability and maintainability. |
 
 <div style="page-break-after: always;"></div>
-
+**Final Note:** It should be iterated that this is a very, very good implementation, even despite the (hopefully) constructive criticism presented in this review. 
 ## 6. Recommendations
 
 ### Security Enhancements:
