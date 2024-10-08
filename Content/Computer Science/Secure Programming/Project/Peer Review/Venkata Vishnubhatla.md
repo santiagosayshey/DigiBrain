@@ -29,4 +29,18 @@
 | **Access Control**                       | Potential Backdoor       | The `is_server` variable in the `ClientSession` class poses a security risk. Any client can send a `server_hello` message, causing their session to be marked as `is_server = True`, which bypasses signature verification in subsequent messages. This could allow an attacker to send unsigned or malicious messages without proper authentication. The code lacks robust mechanisms to authenticate and verify the identities of servers versus clients, compromising access control. |
 | **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic implementations do not align with the protocol specifications. For signing, the code uses RSA with PKCS1v15 padding instead of the required RSA-PSS with SHA-256. For symmetric encryption, AES in CBC mode with PKCS7 padding is used, whereas the protocol specifies AES in GCM mode.                                                                                                                                                                                |
 | **Secure Data Storage and Transmission** | Insecure Transmission    | Data transmission is not secured at the transport layer. The server communicates over plain TCP sockets without TLS encryption, and the Flask application for file uploads/downloads operates over HTTP rather than HTTPS. This exposes sensitive data to potential interception and eavesdropping. The lack of secure channels undermines the application's security measures.                                                                                                          |
-A
+**Note:** While this review focuses on areas for improvement from a security perspective, it's important to acknowledge the overall quality of this implementation. The team has successfully created a functional system that adheres to most aspects of the OLAF/Neighbourhood protocol. The identified issues provide valuable opportunities for enhancement, but they should not overshadow the considerable effort demonstrated so far!
+## 3. Static Analysis
+
+The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis:
+
+### server.py
+
+| **Issue ID** | **Severity** | **Confidence** | **Location**     | **Description**                                                                                                                                               | **Recommendation**                                                                                                                                                             | **More Info**                                                                                                    |
+|--------------|--------------|----------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| B201         | High         | Medium         | server.py:429    | A Flask app appears to be run with `debug=True`, which exposes the Werkzeug debugger and allows the execution of arbitrary code.                              | Disable debug mode in production by setting `debug=False`. Ensure that the Flask app is not run with debug mode enabled in any deployment or production environment.            | [Link](https://bandit.readthedocs.io/en/latest/plugins/b201_flask_debug_true.html)                               |
+
+### client.py
+
+No issues identified.
+
