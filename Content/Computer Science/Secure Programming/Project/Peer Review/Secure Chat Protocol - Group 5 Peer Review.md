@@ -12,6 +12,8 @@
 | **Readability and Organization** | Needs Refactoring | The code is generally organized into functions and classes, making it somewhat readable. However, there are areas where refactoring could improve clarity and maintainability. Variable names are sometimes non-descriptive, and there is a lack of inline comments explaining complex sections, which may hinder understanding for new developers.                                                                      |
 | **Error Handling and Logging**   | Well integrated   | Error handling is present and correctly captures most communication across servers and clients.  Most logs seem to be development focused - i.e. message arrived here, sending here, etc. While this is generally sufficient, a more robust and verbose logging scheme could be beneficial for production. Moreover, exceptions are occasionally caught and printed, but not always handled appropriately or propagated. |
 
+<div style="page-break-after: always;"></div>
+
 ### Security-specific Checks
 
 | **Aspect**                               | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -21,7 +23,6 @@
 | **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic implementations do not align with the protocol specifications. For signing, the code uses RSA with PKCS1v15 padding instead of the required RSA-PSS with SHA-256. For symmetric encryption, AES in CBC mode with PKCS7 padding is used, whereas the protocol specifies AES in GCM mode.                                                                                                                                                                                |
 | **Secure Data Storage and Transmission** | Insecure Transmission    | Data transmission is not secured at the transport layer. The server communicates over plain TCP sockets without TLS encryption, and the Flask application for file uploads/downloads operates over HTTP rather than HTTPS. This exposes sensitive data to potential interception and eavesdropping. The lack of secure channels undermines the application's security measures.                                                                                                          |
 **Note:** While this review focuses on areas for improvement from a security perspective, it's important to acknowledge the overall quality of this implementation. The team has successfully created a functional system that adheres to most aspects of the OLAF/Neighbourhood protocol. The identified issues provide opportunities for enhancement, but they should not overshadow the considerable effort demonstrated so far!
-
 
 <div style="page-break-after: always;"></div>
 
@@ -50,10 +51,10 @@ No issues identified.
 | Messaging | Functional | Private, group, and public messages appear to be working as intended. |
 | Protocol Adherence | Deviation noted | Logs indicate that client lists are being encoded in base64 rather than raw PEM keys before being sent, which deviates from the protocol specification. |
 
+<div style="page-break-after: always;"></div>
+
 ![GUI Screenshot](Pasted%20image%2020241008162345.png)
 
-
-<div style="page-break-after: always;"></div>
 
 #### Sample Log Output
 ```
@@ -62,6 +63,8 @@ client_list_request
 I HAVE RECEIVED A REQUEST FROM A CLIENT FOR A LIST
 {"type": "client_list", "servers": [{"address": "127.0.0.1:12346", "clients": ["LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUExLzhCNHBXVWc1NSt6cllKL1Ruagp6cG5uNkRtRER4enkzMk9uOGEydCtoeHV0ekY1bVYrKzhkSnMwVWxlVzZyS0M4cHRBcEFqSmRKNDUxSDRGakhjCm9RRWVQaHNYNEcwU2lXVnV4d2cwdEY5Y3UzYzlMUkVYU3ZkN1JsSGVUNEdydjVEYUt2UFlFQ3c5VFluTW5EdS8KdUZHREVETjBwYzB4OHR3MHNjY0VYd0k3OHJ5UmZ0S1lFYlE3RURSTER2eVczQlZIdCtwczhqN0R3L250dk9abQpWS3lNU2lycytaSkoyRFEvM1FjL2RIK2dtWG5EVitwNmpUd0tLVHZCYlBZNTFraEhUa1BqQ2MrL0F5Y2pTb1dBCkMzOEJaeW9DbmVLTVBsQVZoeWd3ZUs1Zk9aZ1NEVExPZFRlYklCLy9JdTBWVlMvdEZoT2RZeUFDOHk2QjJpdjUKZVFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="]}, {"address": "127.0.0.1:12345", "clients": ["LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFscWRqMGFFTVNvZkloeW0zeWpyRQp6bTlydUY2Qis2QmMzRWNjdElUUEQzRUlsblZsa3Z5M3JqcEcvandNUWpPdWpnUTBlcFI4WHZXeHltNkhEUXJyClBxR2RXZzhnbGZ4YnBvN0g5MWVQL29ud3FCQVVUWTIyTVh4OWdkSU1XL3BrOEJpMU1PNkkwQlU2Zm45enIyRjQKV1h5R1FDU2VuYnV2dWtGbnVINDcrNkdtOUQ2V3ZBVUFVR1lLOURWN09IQnJqclVQMW1iTk1seHZsVFZhQmV5RgplZ1IvSFV1dVJjRDFLMG51VGtKZWNKTXpRSm8vUTVBVmszNFdQT3FXYVV1UWlBNUxONWpoZm9JK0xFeVdBS05iCmszVXdlbUVhNHRhbHc5REFGdytqL1V3b1hMU01oOUgyNXlwb2JzN2MwUkttaFBwTnk5ZGxDeEJBbGRWSTcrSHUKb1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="]}]}
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Security Testing
 
@@ -102,7 +105,6 @@ The server accepted and broadcast the unsigned message to other clients without 
 
 After an exhaustive review of the provided code, no further intentional backdoors could be found.
 
----
 
 ## 5. Results Summary
 
@@ -120,8 +122,7 @@ After an exhaustive review of the provided code, no further intentional backdoor
 | **Security Measures** | - Inadequate input validation and error handling.                                                                                                                                |
 | **Code Quality**      | - The code could benefit from better organization and more descriptive variable names.<br>- Additional comments and documentation would improve readability and maintainability. |
 
-
----
+<div style="page-break-after: always;"></div>
 
 ## 6. Recommendations
 
