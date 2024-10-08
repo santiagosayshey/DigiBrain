@@ -39,7 +39,7 @@ KeyError: 'clients'
 
 ```
 
-- seems that connecting two clients to the same server even if they have the same public key?
+- seems that connecting two clients to the same server is possible even if they have the same public key?
   
 ```
 User added. Total Users in Local List: 2
@@ -52,4 +52,21 @@ User added. Total Users in Global List: 1
 Global User List Size : 1
 Global User List Size : 1
 ```
+
+- fingerprints are encoded wrong, this is not base 64. looks like an excerpt of the PEM key
+- client update list only shows "key" of 1 connected client, not both
+
+![[Pasted image 20241009083709.png]]
+
+- public chats do not work
+
+![[Pasted image 20241009083857.png]]
+
+- /exit seems to work client side, but server does not recognise this or send out any updates
+
+![[Pasted image 20241009083942.png]]
+
+- error handling does not handle non graceful shutdowns
+
+![[Pasted image 20241009084023.png]]
 
