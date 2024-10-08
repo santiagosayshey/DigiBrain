@@ -85,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md"
               }
             }
           },
@@ -211,11 +212,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "594b594fcfd4013f",
+  "active": "4efedf85d082d989",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md",
     "Images/Pasted image 20241008162345.png",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
@@ -250,7 +251,6 @@
     "Images/Pasted image 20241003072858.png",
     "Images/Pasted image 20241003072448.png",
     "Images/Pasted image 20241003071903.png",
-    "Images/Pasted image 20240910050914.png",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
     "Content/Media Server",
