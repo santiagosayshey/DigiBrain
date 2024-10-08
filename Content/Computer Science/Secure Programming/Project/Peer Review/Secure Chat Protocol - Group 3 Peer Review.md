@@ -1,3 +1,82 @@
+static analysis
+- bandit results
+
+/SEP-server_final-1/SEP-server_final ] $ bandit -r client.py
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.12.3
+[node_visitor]  INFO    Unable to find qualified name for module: client.py
+Run started:2024-10-08 22:12:37.899124
+
+Test results:
+>> Issue: [B413:blacklist] The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+   Severity: High   Confidence: High
+   Location: client.py:14
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b413-import-pycrypto
+13      from cryptography.hazmat.primitives import serialization, hashes
+14      from Crypto.Cipher import AES
+15      from Crypto.Random import get_random_bytes
+
+--------------------------------------------------
+>> Issue: [B413:blacklist] The pyCrypto library and its module get_random_bytes are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+   Severity: High   Confidence: High
+   Location: client.py:15
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b413-import-pycrypto
+14      from Crypto.Cipher import AES
+15      from Crypto.Random import get_random_bytes
+16
+17      SERVER_ADDR = "127.0.0.1:8080"
+
+--------------------------------------------------
+
+Code scanned:
+        Total lines of code: 247
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 2.0
+        Total issues (by confidence):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 2.0
+Files skipped (0):
+(myenv) [ 1 08:42:37 sam-chau ~/Documents/OMesh/Venkata Vishnubhatla/SEP-server_final-1/SEP-server_final ] $ bandit -r server.py
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.12.3
+[node_visitor]  INFO    Unable to find qualified name for module: server.py
+Run started:2024-10-08 22:12:44.292452
+
+Test results:
+        No issues identified.
+
+Code scanned:
+        Total lines of code: 217
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 0.0
+        Total issues (by confidence):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 0.0
+Files skipped (0):
+(myenv) [ 0 08:42:44 sam-chau ~/Documents/OMesh/Venkata Vishnubhatla/SEP-server_final-1/SEP-server_final ] $ 
+
 dynamic analysis
 - instructions arent clear, had to email group just to figure out which files to run
 - code written in python and c for some reason
@@ -6,7 +85,8 @@ dynamic analysis
 - ports and addresses hardcoded, which means i can only have 1 server and 1 client
 - no readme provided to actually say how to use the program
 	- during dynamic analysis making assumptions on how it works by reading code, may or may not be correct
-client update breaks
+
+- client update breaks when sent manually
 
 ```
 # Client
@@ -70,3 +150,4 @@ Global User List Size : 1
 
 ![[Pasted image 20241009084023.png]]
 
+- chat system is completely broken. There needs to be a better way of selecting options. Using find within a message string is extremely dangerous. What if someone had "public:" in their private message to someone? this would broadcast their private message to everybody
