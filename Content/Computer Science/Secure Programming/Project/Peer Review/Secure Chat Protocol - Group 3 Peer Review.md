@@ -1,3 +1,5 @@
+**Reviewed By:**
+- Samuel Chau (a1799298)
 ## 1. Manual Code Review
 
 ### Architecture and Design
@@ -149,3 +151,37 @@ The dynamic analysis reveals that the application is largely non-functional and 
 ### Additional Observations:
 
 No further intentional backdoors were identified in the code. However, the application contains significant vulnerabilities due to improper implementation of cryptographic functions, lack of input validation, and failure to adhere to protocol specifications. These vulnerabilities severely compromise the security of the application and must be addressed promptly.
+
+
+## 6. Results Summary
+
+**Strengths:**
+
+- **Fingerprint Calculation:** The application correctly calculates the fingerprint of the public key by hashing the PEM-encoded public key and then Base64-encoding it, aligning with the protocol's definition.
+- **Basic Structure in Place:** The code includes foundational elements such as key generation, message handling functions, and basic client-server communication setup.
+
+**Areas for Improvement:**
+
+- **Protocol Adherence:** The application significantly deviates from the OLAF/Neighbourhood protocol specifications in critical areas such as message signing, counter handling, and message structures.
+- **Cryptographic Implementations:** Incorrect use of cryptographic functions, including improper message signing and the use of deprecated libraries, undermines security.
+- **Code Organization and Readability:** The code lacks proper organization, modularization, and documentation, making it difficult to understand and maintain.
+- **Input Validation and Error Handling:** Minimal input validation and inadequate error handling lead to application crashes and vulnerabilities.
+
+**Final Note:** A good effort all around to provide a strong foundation, but needs lots of improvement before the final deadline. 
+## 7. Recommendations
+
+**Security Enhancements:**
+
+- **Adhere to Protocol Specifications:** Strictly follow the OLAF/Neighbourhood protocol for message signing, counter usage, and message formats to ensure security compliance.
+- **Proper Cryptographic Practices:**
+  - Implement RSA-PSS with SHA-256 for message signing using the private key.
+  - Replace deprecated libraries like PyCrypto with modern alternatives such as `cryptography`.
+  - Use correct key sizes and cryptographic parameters as specified by the protocol.
+- **Secure Communication Channels:** Use TLS (`wss://`) for WebSocket connections to encrypt data in transit and protect against interception.
+
+**Code Quality Improvements:**
+
+- **Refactor Codebase:** Organize the code into modular, reusable components with clear separation of concerns. Remove obsolete or irrelevant code segments.
+- **Enhance Readability:** Add comprehensive comments and documentation to explain code functionality.
+- **Improve Error Handling:** Implement robust error handling to catch and manage exceptions gracefully, preventing application crashes.
+
