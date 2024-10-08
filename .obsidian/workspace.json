@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md"
               }
             }
           },
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 472.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +213,10 @@
   },
   "active": "594b594fcfd4013f",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
