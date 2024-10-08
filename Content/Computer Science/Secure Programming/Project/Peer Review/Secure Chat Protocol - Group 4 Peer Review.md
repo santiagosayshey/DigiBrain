@@ -1,3 +1,5 @@
+**Reviewed By:**
+- Samuel Chau (a1799298)
 ## 1. Manual Code Review
 
 ### Architecture and Design
@@ -21,7 +23,7 @@
 | **Input Validation**                     | Insufficient             | There is minimal input validation throughout the code. For example, the `vulnerable_authentication` function does not properly sanitize or validate user inputs, making it susceptible to injection attacks. Additionally, message handling functions do not thoroughly validate the structure and content of incoming messages, increasing the risk of processing malformed or malicious data. |
 | **Access Control**                       | Missing                  | The code does not implement robust access control mechanisms. Users are not properly authenticated or authorized to perform actions, allowing potential unauthorized access. The `vulnerable_authentication` function uses hardcoded credentials, which can be easily bypassed, and there are no role-based access controls to restrict functionalities based on user privileges.               |
 | **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic functions `encrypt_message_cpp` and `decrypt_message_cpp` are placeholders and do not implement the specified encryption protocols (RSA, AES-GCM). Additionally, the use of subprocess calls for encryption is insecure and opens avenues for exploitation. The protocol specifies detailed encryption and signing mechanisms which are not adhered to in the code.           |
-| **Secure Data Storage and Transmission** | ❌ Insecure Transmission  | While WebSockets are used for communication, there is no implementation of secure WebSockets (`wss://`). Data transmitted is not adequately encrypted, especially in public chats where messages are sent in plaintext. The protocol emphasizes end-to-end encryption and secure transmission channels, which are not implemented in the current codebase.                                      |
+| **Secure Data Storage and Transmission** | Insecure Transmission    | While WebSockets are used for communication, there is no implementation of secure WebSockets (`wss://`). Data transmitted is not adequately encrypted, especially in public chats where messages are sent in plaintext. The protocol emphasizes end-to-end encryption and secure transmission channels, which are not implemented in the current codebase.                                      |
 
 ## 2. Static Analysis
 
@@ -41,20 +43,11 @@ The provided code is unfinished and poorly documented, so dynamic analysis was n
 
 Note that the following vulnerabilities are only *theoretically* possible because the application seems mostly unfinished and doesn't actually implement the protocol. The reviewer has written this section under the implication that these functions exist and operate in a finished implementation.
 
-1. **Subprocess Command Execution:**
-   - **Location:** `encrypt_message_cpp` and `decrypt_message_cpp` functions.
-   - **Description:** These functions utilize `subprocess.run` to execute external encryption/decryption programs. This allows for the execution of arbitrary commands if user input is not properly sanitized.
-   - **Example:** A malicious user could send a specially crafted message that includes shell commands, potentially leading to remote code execution. For instance, sending a message like `"; rm -rf / #` could exploit the subprocess call to delete critical server files.
-
-2. **Vulnerable Authentication Mechanism:**
-   - **Location:** `vulnerable_authentication` function.
-   - **Description:** The authentication function uses hardcoded credentials (`username == "admin" && password == "password"`), making it trivial for attackers to gain unauthorized access.
-   - **Example:** An attacker can easily bypass authentication by using the known credentials, gaining access to administrative functionalities or sensitive data. This could *potentially* allow the attacker to send fraudulent messages, manipulate user lists, or disrupt the chat service.
-
-3. **Lack of Proper Encryption:**
-   - **Location:** Throughout the message handling functions.
-   - **Description:** Messages, especially public chats, are sent in plaintext without proper encryption, contrary to the protocol's specifications. This allows any eavesdropper to read the messages easily.
-   - **Example:** An attacker monitoring the network traffic can intercept and read all public chat messages, compromising user privacy and the integrity of communications.
+| **Vulnerability**                       | **Location**                                               | **Description**                                                                                                                                                                           | **Example**                                                                                                                                                                                                                                                                   |
+| --------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Subprocess Command Execution**        | `encrypt_message_cpp` and `decrypt_message_cpp` functions. | These functions utilize `subprocess.run` to execute external encryption/decryption programs. This allows for the execution of arbitrary commands if user input is not properly sanitized. | A malicious user could send a specially crafted message that includes shell commands, potentially leading to remote code execution. For instance, sending a message like `"; rm -rf / #` could exploit the subprocess call to delete critical server files.                   |
+| **Vulnerable Authentication Mechanism** | `vulnerable_authentication` function.                      | The authentication function uses hardcoded credentials (`username == "admin" && password == "password"`), making it trivial for attackers to gain unauthorized access.                    | An attacker can easily bypass authentication by using the known credentials, gaining access to administrative functionalities or sensitive data. This could *potentially* allow the attacker to send fraudulent messages, manipulate user lists, or disrupt the chat service. |
+| **Lack of Proper Encryption**           | Throughout the message handling functions.                 | Messages, especially public chats, are sent in plaintext without proper encryption, contrary to the protocol's specifications. This allows any eavesdropper to read the messages easily.  | An attacker monitoring the network traffic can intercept and read all public chat messages, compromising user privacy and the integrity of communications.                                                                                                                    |
 
 ## 5. Results Summary
 
