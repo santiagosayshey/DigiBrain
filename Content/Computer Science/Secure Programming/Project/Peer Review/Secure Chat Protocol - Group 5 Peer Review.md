@@ -1,4 +1,3 @@
-
 ## 1. Manual Code Review
 ### Architecture and Design
 
@@ -22,6 +21,10 @@
 | **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic implementations do not align with the protocol specifications. For signing, the code uses RSA with PKCS1v15 padding instead of the required RSA-PSS with SHA-256. For symmetric encryption, AES in CBC mode with PKCS7 padding is used, whereas the protocol specifies AES in GCM mode.                                                                                                                                                                                |
 | **Secure Data Storage and Transmission** | Insecure Transmission    | Data transmission is not secured at the transport layer. The server communicates over plain TCP sockets without TLS encryption, and the Flask application for file uploads/downloads operates over HTTP rather than HTTPS. This exposes sensitive data to potential interception and eavesdropping. The lack of secure channels undermines the application's security measures.                                                                                                          |
 **Note:** While this review focuses on areas for improvement from a security perspective, it's important to acknowledge the overall quality of this implementation. The team has successfully created a functional system that adheres to most aspects of the OLAF/Neighbourhood protocol. The identified issues provide opportunities for enhancement, but they should not overshadow the considerable effort demonstrated so far!
+
+
+<div style="page-break-after: always;"></div>
+
 ## 2. Static Analysis
 
 The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis:
@@ -48,6 +51,9 @@ No issues identified.
 | Protocol Adherence | Deviation noted | Logs indicate that client lists are being encoded in base64 rather than raw PEM keys before being sent, which deviates from the protocol specification. |
 
 ![GUI Screenshot](Pasted%20image%2020241008162345.png)
+
+
+<div style="page-break-after: always;"></div>
 
 #### Sample Log Output
 ```
@@ -79,6 +85,10 @@ I HAVE RECEIVED A REQUEST FROM A CLIENT FOR A LIST
 The server accepted and broadcast the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a critical vulnerability where a malicious actor can impersonate a server and send unauthorized messages.
 
 ![Vulnerability Demonstration](Pasted%20image%2020241008171947.png)
+
+
+
+<div style="page-break-after: always;"></div>
 
 ## 4. Backdoor/Vulnerability Assessment
 
