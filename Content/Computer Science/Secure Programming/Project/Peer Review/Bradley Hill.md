@@ -79,3 +79,5 @@ During penetration testing, we discovered a critical access control vulnerabilit
    ```
 
 The server accepted and broadcasted the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a significant vulnerability where a malicious actor can impersonate a server and send unauthorized messages. 
+
+![[Pasted image 20241008171947.png]]
