@@ -47,14 +47,17 @@ No issues identified.
 ## Dynamic Analysis
 
 ### Functional Testing
-- ttinker gui is superb. Instructions are clear and overall interface looks very professional.
-- client list could be integrated into main window for ease of use
-- private, group and public messages seem to be working as intended
 
-![[Pasted image 20241008162345.png]]
+| Aspect | Observation | Comments |
+|--------|-------------|----------|
+| GUI | Excellent | The Ttinker GUI is superb. Instructions are clear, and the overall interface looks very professional. |
+| Client List | Room for improvement | The client list could be integrated into the main window for ease of use. |
+| Messaging | Functional | Private, group, and public messages appear to be working as intended. |
+| Protocol Adherence | Deviation noted | Logs indicate that client lists are being encoded in base64 rather than raw PEM keys before being sent, which deviates from the protocol specification. |
 
-- logs do indeed indicate that client lists are being encoded in base64 rather than raw PEM keys before being sent
+![GUI Screenshot](Pasted%20image%2020241008162345.png)
 
+#### Sample Log Output
 ```
 Received message: {'type': 'client_list_request'}
 client_list_request
@@ -64,20 +67,25 @@ I HAVE RECEIVED A REQUEST FROM A CLIENT FOR A LIST
 
 ### Security Testing
 
-During penetration testing, we discovered a critical access control vulnerability using Netcat. By sending a `server_hello` message directly to the server, we set the `is_server` flag to `True` for our session. The messages sent were:
+| Test | Method | Result | Implications |
+|------|--------|--------|--------------|
+| Access Control Bypass | Netcat | Successful | Critical vulnerability allowing unauthorized access and message broadcasting |
+
+#### Penetration Testing Steps:
 
 1. **Setting `is_server` to `True`:**
-
    ```bash
    echo '{"type":"server_hello","sender":"127.0.0.1:12347"}' | nc 127.0.0.1 12345
    ```
 
 2. **Sending an unsigned `public_chat` message:**
-
    ```bash
    echo '{"type":"signed_data","data":{"type":"public_chat","sender":"malicious_client","message":"This is an unsigned message"},"counter":1,"signature":""}' | nc 127.0.0.1 12345
    ```
 
-The server accepted and broadcasted the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a significant vulnerability where a malicious actor can impersonate a server and send unauthorized messages. 
+#### Vulnerability Impact:
+The server accepted and broadcasted the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a critical vulnerability where a malicious actor can impersonate a server and send unauthorized messages.
 
-![[Pasted image 20241008171947.png]]
+![Vulnerability Demonstration](Pasted%20image%2020241008171947.png)
+
+This security flaw allows potential attackers to bypass authentication mechanisms and inject unauthorized messages into the system, compromising the integrity and confidentiality of the communication platform.
