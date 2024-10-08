@@ -44,7 +44,7 @@ The static analysis was performed using **Bandit**, a security-oriented static a
 
 No issues identified.
 
-## Dynamic Analysis
+## 4. Dynamic Analysis
 
 ### Functional Testing
 
@@ -84,8 +84,6 @@ I HAVE RECEIVED A REQUEST FROM A CLIENT FOR A LIST
    ```
 
 #### Vulnerability Impact:
-The server accepted and broadcasted the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a critical vulnerability where a malicious actor can impersonate a server and send unauthorized messages.
+The server accepted and broadcast the unsigned message to other clients without verifying the signature, even when no client application was open. This demonstrates a critical vulnerability where a malicious actor can impersonate a server and send unauthorized messages.
 
 ![Vulnerability Demonstration](Pasted%20image%2020241008171947.png)
-
-This security flaw allows potential attackers to bypass authentication mechanisms and inject unauthorized messages into the system, compromising the integrity and confidentiality of the communication platform.
