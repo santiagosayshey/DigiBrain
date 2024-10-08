@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md"
               }
             }
           },
@@ -212,12 +212,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4efedf85d082d989",
+  "active": "7d8f30c111f160e8",
   "lastOpenFiles": [
     "Content/Computer Science/Secure Programming/Project/Peer Review/Bradley Hill.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
     "Images/Pasted image 20241008162345.png",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Venkata Vishnubhatla.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Samrawit Ghebremedhin.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
