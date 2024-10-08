@@ -47,4 +47,8 @@ No issues identified.
 ## Dynamic Analysis
 
 ### Functional Testing
-- 
+- ttinker gui is superb. Instructions are clear and overall interface looks very professional.
+- client list could be integrated into main window for ease of use
+- private, group and public messages seem to be working as intended
+
+![[Pasted image 20241008162345.png]]
