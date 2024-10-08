@@ -1,0 +1,34 @@
+## 1. Project Overview
+
+- **Group Members:**
+  - Bradley Hill
+  - James Nguyen
+  - Natanand Akomsoontorn
+  - Vincent Scaffidi-Muta
+
+## 2. Manual Code Review
+
+### Architecture and Design
+
+| **Aspect**                            | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Protocol Implementation Adherence** | ⚠️ **Partially Adhered** | The implementation generally follows the OLAF/Neighbourhood protocol v1.1.3. However, there's a specific issue with the `clients` field in `client_update` and `client_list` messages; The code sends a list of client fingerprints (seemingly Base64-encoded SHA-256 hashes of public keys) instead of the required PEM-encoded public keys. According to the protocol, the `clients` field should contain a list of PEM-encoded public keys of connected clients. Sending fingerprints prevents clients from obtaining the necessary public keys to establish secure communication. |
+| **Security Measures**                 | ✅ **Implemented**        | The application correctly implements RSA and AES encryption as specified. Messages are signed, and counters are used to prevent replay attacks. Key generation and management appear secure.                                                                                                                                                                                                                                                                                                                                                                                          |
+
+### Code Quality
+
+| **Aspect**                       | **Status**               | **Comments**                                                                                                                                                                                                                                                        |
+| -------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Readability and Organization** | ⚠️ **Needs Improvement** | The code lacks sufficient comments and documentation, making it harder to understand. Variable and function names could be more descriptive. Organizing the code into modules or classes would improve readability and maintainability.                             |
+| **Error Handling and Logging**   | ⚠️ **Inadequate**        | Error handling is inconsistent. Exceptions are sometimes caught and printed without proper handling. The use of `print` statements is insufficient for logging in production. Implementing a logging framework would improve debugging and monitoring capabilities. |
+
+### Security-specific Checks
+
+| **Aspect**                               | **Status**                   | **Comments**                                                                                                                                                                                                                                                                                                                                                  |
+| ---------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Input Validation**                     | ⚠️ **Insufficient**          | User inputs are not thoroughly validated. For example, message contents and commands are processed without sanitization. This could lead to unexpected behavior or security vulnerabilities. Input validation should be implemented to ensure robustness and prevent potential injection attacks.                                                             |
+| **Access Control**                       | ⚠️ **Basic Implementation**  | Authentication is based on exchanging public keys, but there's no verification of the legitimacy of public keys. Implementing a trusted key distribution mechanism or certificates could enhance security. There is no authorization mechanism to enforce different access levels.                                                                            |
+| **Cryptographic Implementations**        | ✅ **Correctly Implemented**  | The application uses RSA for asymmetric encryption and signing, and AES in CBC mode for symmetric encryption, following the protocol. Key sizes and padding schemes are appropriate. However, due to the incorrect sharing of public keys in client lists, secure communication between clients may be compromised.                                           |
+| **Secure Data Storage and Transmission** | ⚠️ **Partially Implemented** | While messages are encrypted end-to-end, the connections between clients and servers are not secured with TLS, which could expose metadata to eavesdroppers. File transfers are not authenticated or encrypted beyond the uniqueness of the URL. Implementing TLS for socket connections and securing file transfer endpoints would enhance overall security. |
+
+---
