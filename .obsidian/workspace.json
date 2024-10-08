@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 3 Peer Review.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 3 Peer Review.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 4 Peer Review.md"
               }
             }
           },
@@ -171,11 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1369210ffd51c73a",
+  "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Untitled.md",
+    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 3 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 5 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 4 Peer Review.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 3 Peer Review.md",
     "Images/Pasted image 20241009084023.png",
     "Images/Pasted image 20241009083942.png",
     "Images/Pasted image 20241009083857.png",

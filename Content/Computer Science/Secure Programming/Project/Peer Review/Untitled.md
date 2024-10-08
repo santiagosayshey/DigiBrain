@@ -1,0 +1,130 @@
+## 1. Manual Code Review
+
+### Architecture and Design
+
+| **Aspect**                            | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Protocol Implementation Adherence** | ❌ Not Adhered            | The codebase shows significant deviations from the OLAF/Neighbourhood protocol specifications. Key discrepancies include:<br><br>1. **Message Signing**: The protocol specifies that messages should be signed using RSA-PSS with SHA-256, and the signature should be the Base64-encoded result of signing the concatenation of the data JSON and the counter. However, the code uses a simple SHA-256 hash of the data concatenated with the counter and then Base64-encodes it, without using the private key for RSA-PSS signing. This does not provide the necessary cryptographic assurance specified by the protocol.<br><br>2. **Counter Handling**: The protocol requires that message counters be monotonically increasing integers to prevent replay attacks. While the code includes a counter, there is no implementation for tracking and verifying the counters of incoming messages to ensure they are greater than the previous value, as required by the protocol.<br><br>3. **Cryptographic Specifications**: The code does not adhere to the specified cryptographic parameters. For instance, AES keys are generated with a length of 32 bytes (256 bits), whereas the protocol specifies a key length of 16 bytes (128 bits). Additionally, the code uses PyCrypto, which is deprecated, instead of a current cryptographic library.<br><br>4. **Message Structures**: Some message formats deviate from the protocol. For example, the `public_chat` message in the code includes a `sender` field with the `fingerprint`, but the message content is not correctly processed or displayed. Moreover, the code lacks implementation for handling certain message types like `client_update_request` and proper handling of `client_update`.<br><br>5. **Error Handling and Protocol Compliance**: The code assumes well-formed inputs and lacks comprehensive validation of incoming messages against the protocol specifications. This can lead to unexpected behavior when messages do not conform exactly to the expected format.<br><br>The disorganized state of the code, including remnants from previous iterations, contributes to these deviations. The absence of a README or proper documentation further complicates the ability to set up and verify protocol adherence.
+
+### Code Quality
+
+| **Aspect**                       | **Status**           | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| -------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Readability and Organization** | ⚠️ Poor Organization | The codebase is disorganized and difficult to navigate. It contains code from previous iterations that are not relevant to the current implementation, leading to confusion. There is a lack of modularization, and functions are not well-separated or documented. The absence of a README or documentation makes it challenging to understand how to set up and run the application. Hardcoded addresses and ports are scattered throughout the code, making it inflexible and hard to configure for different environments. Overall, the code lacks structure and clarity, impeding maintainability and scalability. |
+| **Error Handling and Logging**   | ⚠️ Inadequate        | Error handling is insufficient and inconsistent. The application will almost **certainly** crash when unexpected inputs are provided or when network errors occur, without graceful recovery or informative error messages. Logging is minimal, relying primarily on print statements that are not systematically used throughout the code. This makes debugging and monitoring the application difficult. Critical errors are not properly caught, and exceptions can lead to the application terminating unexpectedly, which poses reliability and security concerns.                                                 |
+
+### Security-specific Checks
+
+| **Aspect**                               | **Status**                 | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Input Validation**                     | ❌ Insufficient             | There is minimal input validation across the application. User inputs are not properly sanitized or validated, increasing the risk of injection attacks and crashes due to unexpected inputs. The code assumes well-formed inputs, which is not safe in a production environment. For example, message parsing relies on searching for substrings within user input to determine the type of message to send (e.g., using `find` on "public:"). This method is dangerous because if a user includes certain keywords in their message unintentionally, it could trigger unintended behaviors, such as broadcasting a private message publicly. This represents a significant security and privacy concern. Proper command parsing and input validation should be implemented to mitigate this risk. |
+| **Access Control**                       | ❌ Missing                  | The application lacks proper access control mechanisms. Any user can connect to the server without authentication, and there are no checks to prevent unauthorized actions. This opens up the application to potential abuse, where malicious users could send arbitrary messages or commands. Additionally, multiple clients can connect using the same public key, which should not be permitted, as each client should have a unique key pair to ensure proper identification and secure communication. Allowing multiple clients with the same key undermines the ability to uniquely identify and authenticate users, leading to potential impersonation and security breaches.                                                                                                                                          |
+| **Cryptographic Implementations**        | ❌ Incorrect Implementation | The cryptographic implementations in the code do not fully comply with the protocol specifications:<br><br>1. **Message Signing**: The protocol requires RSA-PSS with SHA-256 for digital signatures. The code, however, uses a simple SHA-256 hash of the data concatenated with the counter, without involving the private key for signing. This means that message signatures are not secure, as anyone can compute the SHA-256 hash without possessing the private key.<br><br>2. **AES Key Length and Mode**: The code generates AES keys of 32 bytes (256 bits), whereas the protocol specifies a key length of 16 bytes (128 bits). Although AES-256 is secure, deviating from the protocol can cause interoperability issues. Additionally, the code uses AES in GCM mode, which aligns with the protocol.<br><br>3. **Use of Deprecated Libraries**: The code imports `AES` and `get_random_bytes` from the `Crypto` library (PyCrypto), which is deprecated and no longer maintained. This poses security risks due to potential unpatched vulnerabilities. The protocol suggests using current and secure libraries for cryptographic operations.<br><br>4. **Fingerprint Calculation**: The code calculates the fingerprint by hashing the PEM-encoded public key and then Base64-encoding it, which aligns with the protocol's definition. This aspect appears to be correctly implemented.<br><br>Overall, the incorrect implementation of cryptographic operations undermines the security guarantees provided by the protocol. |
+| **Secure Data Storage and Transmission** | ❌ Insecure Transmission    | Data transmission is insecure due to the use of hardcoded addresses and ports, which cannot be easily configured for secure channels. The application communicates over unencrypted WebSocket connections (`ws://`), without using TLS (`wss://`), leaving the data susceptible to interception. Additionally, public chats are non-functional, and when attempted, they do not work correctly, indicating issues with data handling and transmission. Private chats are also not fully implemented or are unreliable due to the aforementioned cryptographic issues. The lack of secure communication protocols undermines the confidentiality and integrity of the data exchanged between clients and the server.                                                                                                                                                                   |
+
+## 2. Static Analysis
+
+The static analysis was performed using **Bandit**, a security-oriented static analysis tool for Python. Below are the findings from the analysis:
+
+### `client.py`
+
+| **Issue ID** | **Severity** | **Confidence** | **Location** | **Description**                                                                                                                                                      | **Recommendation**                                                                                     | **More Info**                                                                                          |
+| ------------ | ------------ | -------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| B413         | High         | High           | client.py:14 | The `pyCrypto` library and its module `AES` are deprecated and no longer maintained. Using deprecated libraries can introduce security vulnerabilities.              | Replace `pyCrypto` with a maintained library such as `pyca/cryptography` for cryptographic operations. | [Link](https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b413-import-pycrypto) |
+
+### `server.py`
+
+No issues identified.
+
+## 3. Dynamic Analysis
+
+### Testing Environment Setup
+
+Due to the lack of documentation and absence of a README file, setting up the testing environment was challenging. The codebase contains many files and even a subfolder containing an entire previous iteration, adding to the confusion. This made it extremely difficult to figure out how to run the application and where to start. After contacting group members, I was informed that only `client.py` and `server.py` were needed to run the application. While this information was helpful, such guidance should be clearly provided in documentation or a README file.
+
+Moreover, the hardcoded addresses and ports limit the ability to test the application in a multi-server or multi-client setup. After inspecting the code, I attempted to run the `server.py` and `client.py` files to evaluate the application's functionality.
+
+### Functional Testing Observations
+
+| **Aspect**                      | **Observation**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Application Setup**           | The lack of setup instructions made it difficult to run the application. Assumptions had to be made based on the code, and without proper documentation, it was challenging to understand the intended usage and capabilities of the application.                                                                                                                                                                                                                                                                      |
+| **Hardcoded Addresses and Ports** | The application uses hardcoded addresses and ports (`127.0.0.1:8080`), which restricts testing to a single server and client. This limitation prevents testing of the application's behavior in a distributed environment, which is essential for the OLAF/Neighbourhood protocol that involves multiple servers and clients.                                                                                                                                                                                         |
+| **Client Update Handling**      | Sending a client update manually from the client causes the application to crash. The client and server output the following errors:
+
+Client Output:
+
+```
+# Client
+Enter message: client update:
+Enter message: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<receive_messages() done, defined at /home/.../client.py:167> exception=ConnectionClosedError(Close(code=1011, reason=''), Close(code=1011, reason=''), True)>
+Traceback (most recent call last):
+  File "/home/.../client.py", line 172, in receive_messages
+    response = await websocket.recv()
+  File "/home/.../websockets/protocol.py", line 562, in recv
+    await self.ensure_open()
+  File "/home/.../websockets/protocol.py", line 938, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: received 1011 (internal error); then sent 1011 (internal error)
+```
+
+Server Output:
+
+```
+# Server
+Traceback (most recent call last):
+  File "/home/.../websockets/server.py", line 245, in handler
+    await self.ws_handler(self)
+  File "/home/.../server.py", line 325, in websocket_handler
+    await handle_message(message, websocket)
+  File "/home/.../server.py", line 308, in handle_message
+    await handle_client_update(data, websocket)
+  File "/home/.../server.py", line 182, in handle_client_update
+    client_keys = data["clients"]
+KeyError: 'clients'
+```
+
+This indicates that the application lacks proper error handling and validation when processing `client_update` messages.
+
+| **Multiple Clients with Same Public Key** | The application allows multiple clients to connect to the same server using the same public key. This should not be permitted, as each client should have a unique key pair to ensure proper identification and secure communication. The server output indicates that two users with the same public key are added to the local and global user lists.
+
+Server Output:
+
+```
+User added. Total Users in Local List: 2
+Global User List Size : 0
+User added. Total Users in Global List: 1
+Global User List Size : 1
+Global User List Size : 1
+Global User List Size : 0
+User added. Total Users in Global List: 1
+Global User List Size : 1
+Global User List Size : 1
+```
+
+| **Incorrect Fingerprint Encoding** | The fingerprints are not correctly encoded. Instead of being Base64-encoded SHA-256 hashes of the public keys, they appear to be excerpts of the PEM keys. This deviates from the protocol specification and can lead to identification issues.
+
+| **Incomplete Client Update List** | The client update list only shows the "key" of one connected client, even when multiple clients are connected. This indicates a problem with the synchronization of client states across the server and clients.
+
+![[Pasted image 20241009083709.png]]
+
+| **Public Chats Non-functional** | Public chats do not work as intended. Attempting to send a public chat results in errors or no action at all. This feature is crucial for the application's functionality as per the protocol.
+
+![[Pasted image 20241009083857.png]]
+
+| **Exit Command Handling** | The `/exit` command works on the client side, closing the client application. However, the server does not recognize the client's disconnection or send out any updates to other clients or servers. This lack of communication about client disconnections can lead to inconsistent client lists and stale state information across the network.
+
+![[Pasted image 20241009083942.png]]
+
+| **Error Handling on Shutdown** | The application does not handle non-graceful shutdowns properly. If a client or server terminates unexpectedly, the other side does not handle the exception gracefully, leading to unhandled exceptions and potential crashes.
+
+![[Pasted image 20241009084023.png]]
+
+| **Message Parsing Vulnerability** | The method of parsing commands by searching for substrings (e.g., using `find` within a message string) is dangerous. If a user includes certain keywords (e.g., "public:") in their message, it can trigger unintended behaviors, such as broadcasting a private message publicly. This represents a significant security and privacy concern.
+
+### Summary of Dynamic Analysis
+
+The dynamic analysis reveals that the application is largely non-functional and does not adhere to the expected behavior as defined by the OLAF/Neighbourhood protocol. Critical features such as public chats, private/group chats, client updates, and proper handling of client connections are either broken or not implemented correctly. The lack of proper error handling and input validation leads to crashes and inconsistent states, making the application unreliable and insecure for practical use.
+
+(Note: The images have been kept in Obsidian format as per the user's request.)
