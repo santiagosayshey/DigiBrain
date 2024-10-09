@@ -1,4 +1,4 @@
-Your team has made a solid start in developing the core structure of the chat application, successfully setting up the WebSocket server and implemented a frontend GUI. These elements are crucial for facilitating basic communication between clients and servers, showcasing a clear understanding of the system's essential requirements.
+Group 4 has made a solid start in developing the core structure of the chat application, successfully setting up the WebSocket server and implemented a frontend GUI. These elements are crucial for facilitating basic communication between clients and servers.
 
 Despite these foundational strengths, the current implementation appears to be incomplete and exhibits several critical security shortcomings. Key features such as robust message signing, comprehensive encryption, and proper authentication mechanisms are either missing or inadequately addressed. Enhancing these areas will significantly improve the application's security posture and ensure adherence to the OLAF/Neighbourhood protocol. Detailed observations and suggestions are provided in the subsequent sections to guide your development efforts.
 
