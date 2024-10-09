@@ -1,12 +1,9 @@
 {
   "accentColor": "#0056d6",
-  "cssTheme": "Atom",
-  "theme": "obsidian",
+  "cssTheme": "Things",
+  "theme": "moonstone",
   "textFontFamily": "",
-  "enabledCssSnippets": [
-    "App",
-    "blocks"
-  ],
+  "enabledCssSnippets": [],
   "interfaceFontFamily": "",
   "monospaceFontFamily": "IBM Plex Mono",
   "baseFontSize": 14
