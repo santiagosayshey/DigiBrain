@@ -29,7 +29,7 @@ Despite these foundational strengths, the current implementation appears to be i
 | **Cryptographic Implementations**        | Incorrect Implementation | The cryptographic functions `encrypt_message_cpp` and `decrypt_message_cpp` are placeholders and do not implement the specified encryption protocols (RSA, AES-GCM). Additionally, the use of subprocess calls for encryption is insecure and opens avenues for exploitation. The protocol specifies detailed encryption and signing mechanisms which are not adhered to in the code.           |
 | **Secure Data Storage and Transmission** | Insecure Transmission    | While WebSockets are used for communication, there is no implementation of secure WebSockets (`wss://`). Data transmitted is not adequately encrypted, especially in public chats where messages are sent in plaintext. The protocol emphasizes end-to-end encryption and secure transmission channels, which are not implemented in the current codebase.                                      |
 
-
+<div style="page-break-after: always;"></div>
 
 ## 2. Static Analysis
 
@@ -45,6 +45,8 @@ The static analysis was performed using **Bandit**, a security-oriented static a
 
 The provided code is unfinished and poorly documented, so dynamic analysis was not suitable for this review. The reviewer did attempt to get the application running and send messages, however, most of the protocol remains in a placeholder state so nothing substantial can be said about the application. 
 
+<div style="page-break-after: always;"></div>
+
 ## 4. Backdoor/Vulnerability Assessment
 
 Note that the following vulnerabilities are only *theoretically* possible because the application seems mostly unfinished and doesn't actually implement the protocol. The reviewer has written this section under the implication that these functions exist and operate in a finished implementation.
@@ -54,6 +56,7 @@ Note that the following vulnerabilities are only *theoretically* possible becaus
 | **Subprocess Command Execution**        | `encrypt_message_cpp` and `decrypt_message_cpp` functions. | These functions utilize `subprocess.run` to execute external encryption/decryption programs. This allows for the execution of arbitrary commands if user input is not properly sanitized. | A malicious user could send a specially crafted message that includes shell commands, potentially leading to remote code execution. For instance, sending a message like `"; rm -rf / #` could exploit the subprocess call to delete critical server files.                   |
 | **Vulnerable Authentication Mechanism** | `vulnerable_authentication` function.                      | The authentication function uses hardcoded credentials (`username == "admin" && password == "password"`), making it trivial for attackers to gain unauthorized access.                    | An attacker can easily bypass authentication by using the known credentials, gaining access to administrative functionalities or sensitive data. This could *potentially* allow the attacker to send fraudulent messages, manipulate user lists, or disrupt the chat service. |
 
+<div style="page-break-after: always;"></div>
 
 ## 5. Results Summary
 
