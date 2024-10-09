@@ -18,8 +18,6 @@ However, a (small) critical security vulnerability has been identified concernin
 | **Readability and Organization** | Needs Refactoring | The code is generally organized into functions and classes, making it somewhat readable. However, there are areas where refactoring could improve clarity and maintainability. Variable names are sometimes non-descriptive, and there is a lack of inline comments explaining complex sections, which may hinder understanding for new developers.                                                                      |
 | **Error Handling and Logging**   | Well integrated   | Error handling is present and correctly captures most communication across servers and clients.  Most logs seem to be development focused - i.e. message arrived here, sending here, etc. While this is generally sufficient, a more robust and verbose logging scheme could be beneficial for production. Moreover, exceptions are occasionally caught and printed, but not always handled appropriately or propagated. |
 
-<div style="page-break-after: always;"></div>
-
 ### Security-specific Checks
 
 | **Aspect**                               | **Status**               | **Comments**                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -114,10 +112,10 @@ After an exhaustive review of the provided code, no further intentional backdoor
 
 ### Strengths:
 
-| **Aspect**                    | **Details**                                                                                                                                                                        |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Functional Implementation** | - The application implements core functionalities like messaging, file transfer, and a graphical user interface.<br>- Adherence to many aspects of the OLAF/Neighbourhood protocol |
-| **User Interface**            | - The Tkinter GUI is user-friendly and provides clear instructions, enhancing the overall user experience.                                                                         |
+| **Aspect**                    | **Details**                                                                                                                                                                              |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Functional Implementation** | - The application implements core functionalities like messaging, file transfer, and a graphical user interface.<br>- Adherence to almost all aspects of the OLAF/Neighbourhood protocol |
+| **User Interface**            | - The Tkinter GUI is user-friendly and provides clear instructions, enhancing the overall user experience.                                                                               |
 
 ### Areas for Improvement:
 
@@ -134,9 +132,9 @@ After an exhaustive review of the provided code, no further intentional backdoor
 
 | **Recommendation**                                       | **Details**                                                                                                                                                                                                                                                                                      |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **1. Implement Strict Authentication and Authorization** | - **For Clients:**<br>  - Ensure that all clients verify the signatures of incoming messages to prevent the acceptance of malicious data.<br>  - Implement counter checks to prevent replay attacks.<br>- **For Servers:**<br>  - Review the use of `is_server` flag via messages.               |
+| **1. Implement Strict Authentication and Authorization** | - **For Servers:**<br>  - Review the use of `is_server` flag via messages.                                                                                                                                                                                                                       |
 | **2. Enhance Cryptographic Practices**                   | - Use RSA-PSS with SHA-256 for digital signatures, as specified by the protocol.<br>- Switch to AES in GCM mode for symmetric encryption to provide both confidentiality and integrity.<br>- Ensure that all cryptographic keys and operations follow best practices to prevent vulnerabilities. |
-| **3. Secure the Flask Application**                      | - Disable debug mode by setting `debug=False` and use a production-ready server.<br>- Implement authentication for file upload and download endpoints to prevent unauthorized access.                                                                                                            |
+| **3. Secure the Flask Application**                      | - Disable debug mode by setting `debug=False`<br>- Implement authentication for file upload and download endpoints to prevent unauthorized access.                                                                                                                                               |
 | **4. Improve Input Validation and Error Handling**       | - Validate all incoming data on both client and server sides to ensure it conforms to expected formats.<br>- Implement comprehensive error handling to manage exceptions gracefully without exposing sensitive information.                                                                      |
 
 ### Code Quality Improvements:
