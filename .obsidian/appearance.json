@@ -3,7 +3,11 @@
   "cssTheme": "Things",
   "theme": "obsidian",
   "textFontFamily": "",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "App",
+    "blocks",
+    "table"
+  ],
   "interfaceFontFamily": "",
   "monospaceFontFamily": "IBM Plex Mono",
   "baseFontSize": 14
