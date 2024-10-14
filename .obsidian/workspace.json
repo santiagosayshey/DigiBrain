@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Secure Protocol Reflection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Secure Protocol Reflection.md"
               }
             }
           },
@@ -175,8 +174,10 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
+    "Content/Computer Science/Secure Programming/Project/Brainstorming.md",
+    "Content/Computer Science/Secure Programming/Project/Secure Protocol Reflection.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
+    "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 3 Peer Review.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.2 human aspects.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Lecture Notes.md",
@@ -210,8 +211,6 @@
     "Content/Computer Science/Operating Systems/Notes/9.3 RAID-0.md",
     "Content/Computer Science/Operating Systems/Notes/9.6 RAID-5.md",
     "Content/Computer Science/Operating Systems/Notes/9.7 RAID Comparison.md",
-    "Content/Computer Science/Operating Systems/Notes/9.5 RAID-4.md",
-    "Content/Computer Science/Operating Systems/Notes/9.4 RAID-1.md",
     "Content/Journal",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
