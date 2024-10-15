@@ -72,7 +72,7 @@ Images showing my implementation successfully connecting to and speaking (!!!) t
 #### Test 5
 
 ## Backdoors
-Our group implemented 4 intentional backdoors that aim to compromise key parts of the protocol. The following section provides a concise description, techincal details as well as objectives for each backdoor. Code snippets and a detailed exploitat
+Our group implemented 4 intentional backdoors that aim to compromise key parts of the protocol. The following section provides a concise description, techincal details as well as objectives and a proof of exploitation for each backdoor. 
 ### Backdoor 1: Data Exfiltration
 
 #### Description
