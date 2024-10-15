@@ -28,4 +28,11 @@
 	- Clients / servers could be integrated into a single module so that user's have less settings to deal with.
 	- Users not familiar with docker / compose might have a difficult time to get it running - although this did not seem to be a problem for peer reviews.
 - After the compose files are setup, users just need to create the client containers and they have full access to the application (reword this please)
+- users can then navigate to the web interfaces and begin messaging:
+
+![[Pasted image 20241015182829.png]]
+
+image showing 3 clients. public chats ( all 3 see them), private chat (beween 2) and a public file transfer pictured. This is my own implementation working with itself.
+
+
 
