@@ -83,3 +83,58 @@ graph TD
     B --- D
 
 ```
+
+
+### Design Choices
+
+For our protocol implementation, we opted to write the entire backend in Python and use a React frontend, all deployed using Vite and Docker. The decision to use Docker played a pivotal role in our deployment strategy, enabling us to dynamically configure deployment parameters like message retention, ports, and IP addresses. Docker's containerization not only ensures consistency across different environments but also mitigates many of the dependency issues that were prevalent in the other implementations we reviewed. This approach allows our solution to be deployed seamlessly, with minimal setup required beyond Docker itself.
+
+A significant benefit of using Docker was its ability to eliminate device-specific issues by packaging everything into containers. Many other implementations faced challenges with missing dependencies or ambiguous setup instructions, but Docker resolves these by bundling the entire environment. This also means our implementation could, theoretically, be deployed straight out of the box.
+
+In terms of language choices, we stuck to those we were most familiar with, primarily Python for the backend. While I considered experimenting with Rust or Go to gain some hands-on experience with those languages, the limited timeframe and the need to keep the codebase accessible to my team deterred me from doing so. Instead, I focused on ensuring that our implementation was as modular as possible. We created shared utilities, such as message structure and cryptographic compliance modules, which could be independently unit tested before being integrated into the larger system. This approach aligns with the test-driven development (TDD) methodology we followed, where our tests ensured compliance with the protocol and security standards even before the client-server architecture was fully built.
+
+A particular challenge we faced was addressing the issue of public chat broadcast storms, as we had to strictly adhere to the protocol without introducing extra fields. To prevent broadcast storms, we implemented a strategy where public messages were split into individual messages with a specific recipient in mind. This design ensured that once a server received a message, it wouldn’t forward it, avoiding the broadcast loop that would have otherwise occurred.
+
+Our implementation can also run headlessly, without the React frontend, which means that the API layer is robust enough to allow direct interaction with clients. However, this decision introduced a tradeoff between security and functionality, particularly with regard to the choice of using Flask's API versus WebSockets for communication. While Flask simplifies the architecture, it could potentially be a weaker point in terms of security, though we ensured that it remains protocol-compliant and secure for the majority of use cases.
+
+### Code Demonstration
+
+For this section, I will walk through the actual deployment steps rather than the simplified ones we used for testing purposes, where premade Docker Compose files and setup scripts were provided to streamline the process for reviewers.
+
+1. **Initial Setup**: Users need to configure their Docker Compose files according to their preferred settings—such as IP addresses, ports, and message retention policies. While this process could be more user-friendly, it wasn't feasible within the project timeline to implement a more seamless solution. Ideally, the client-server module could be unified, reducing the number of settings users need to adjust.
+   
+   - _Note_: Users unfamiliar with Docker or Compose may find this setup slightly challenging, though this was not flagged as an issue during peer reviews.
+   
+2. **Deployment**: Once the Compose files are configured, users can create the necessary client containers, which gives them full access to the application. After setting up the containers, users can navigate to the web interface and begin messaging with other clients.
+   
+   _In hindsight, integrating the clients and servers into a single module would simplify the user experience, especially for those less familiar with Docker. This is something we would have liked to explore further given more time._
+
+3. **Interaction**: The system supports both public and private messaging, as well as file transfers between clients. Below is an example of the system running with three clients, demonstrating public chats visible to all participants, private chats between two clients, and a public file transfer.
+
+- Placeholder for image 1 (showing 3 clients communicating)
+- Placeholder for image 2 (showing public file transfer)
+
+### Interoperability Testing
+
+Our testing process involved manual exchanges of public keys, IP addresses, and ports, as specified by the protocol. To facilitate this, we added routes for sharing internal public keys and downloading external ones. I set up an external Hetzner server running a basic Ubuntu virtual machine to host the client-server for these tests. All tests were conducted in an isolated environment.
+
+Once the necessary information was exchanged, the servers attempted to establish WebSocket connections, and we tested message exchanges and file transfers. We performed interoperability testing with five different groups, and the results are detailed below.
+
+#### Group 38 (Chun Hon Chan, Lok To Lo, Yin Cyrus Hui, Zachary Sobarzo)
+- Our initial testing revealed significant issues for both our group and theirs. Our group mistakenly sent base64-encoded client updates and hellos, rather than PEM-encoded lists, causing issues with client lists on both sides. On the other hand, their group failed to include counters in their messages, which triggered our system’s replay attack detection, preventing those messages from being processed.
+
+- Placeholder for image 3 (showing message interactions and discrepancies)
+
+#### Group 17 (Gregorius Baswara Wira Nuraga, Kyle Johnston, Ivan Tranquilan)
+- After addressing the issues from the previous tests, this group’s testing was much smoother. A minor issue we identified in our implementation was the need to request client updates when connecting, rather than waiting for one to be sent. Their group had issues with generating public/private keys for receiving private messages and adding signatures to private messages, but these were quickly resolved.
+
+- Placeholder for image 4 (showing private message exchange)
+- Placeholder for image 5 (showing successful connection and message exchange)
+
+#### Test 4  
+(Placeholder for results)
+
+#### Test 5  
+(Placeholder for results)
+
+This section outlines the major interoperability testing we conducted. More details, including images and specific examples of successful message exchanges, are provided in the appendices and README documentation.
