@@ -25,6 +25,7 @@
 - All of this is outlined in detail in the code's readme (link to appendix).
 - Deployment is really easy, user just needs to setup their client / server compose files as they want - ip addresses, ports, message retention etc.
 	- In retrospect, this process could be made more user friendly but doing this requires actual testing and more time than we had. 
-	- Clients / servers could be integrated into a single module so that user's have less settings to deal with
+	- Clients / servers could be integrated into a single module so that user's have less settings to deal with.
+	- Users not familiar with docker / compose might have a difficult time to get it running - although this did not seem to be a problem for peer reviews.
 - After the compose files are setup, users just need to create the client containers and they have full access to the application (reword this please)
-- 
+
