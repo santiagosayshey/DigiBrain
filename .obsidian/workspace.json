@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Reflection Notes.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Reflection.md"
               }
             }
           },
@@ -172,12 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18c69075dacf7149",
+  "active": "5591af0e5b7bca99",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
     "Images/Pasted image 20241015235859.png",
     "Images/Pasted image 20241015235857.png",
     "Content/Computer Science/Secure Programming/Project/Reflection.md",
-    "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
     "Content/Computer Science/Secure Programming/Project/README.md",
     "Images/Pasted image 20241015184656.png",
     "Images/Pasted image 20241015183240.png",
@@ -198,7 +198,6 @@
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 4 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Untitled.md",
-    "Images/Pasted image 20241009084023.png",
     "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",

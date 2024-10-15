@@ -89,17 +89,32 @@ Here’s a revised version that reflects your design and demonstration notes but
 
 ---
 
-### Design Choices
+Here’s a more structured, introspective, and coherent design reflection based on your notes:
 
-Our implementation of the secure overlay chat system centers on practicality, scalability, and ease of deployment. We opted to develop the back end (protocol compliance, cryptography library) entirely in Python, utilizing Flask for API interactions from the front end, which itself was developed in React + Tailwind for ease of development. One of our most significant design choices was leveraging Docker for containerization. Docker allows us to overcome environment-specific issues that other groups encountered, particularly around dependency management and setup consistency. With Docker, all components—server, client and front end—are self-contained, ensuring that our system runs seamlessly across different machines and operating systems.
+---
 
-What makes Docker particularly impactful in this project is its ability to dynamically configure deployments. We can set message retention policies, ports, and IP addresses without needing to manually adjust code or system settings. This flexibility not only simplifies the deployment process but also ensures that our implementation is highly modular and adaptable. While other teams faced issues related to missing dependencies or undocumented system requirements, Docker allowed us to sidestep these challenges entirely. 
+### Reflection on Design Choices
 
-Another critical aspect of our design is modularity. Early on, we adopted a test-driven development (TDD) approach to ensure that key components like message structure and cryptographic functions were independently tested before integrating them into the broader system. This decision allowed us to focus on protocol compliance and security from the outset, significantly reducing the risk of last-minute integration issues.
+In developing our secure overlay chat system, we made deliberate choices in terms of language, tools, and architecture, each of which came with its own set of benefits and limitations. Our decision to implement the protocol in Python with a React frontend was largely driven by familiarity and the practicality of time constraints. While exploring languages like Rust or Go could have been beneficial, the steep learning curve and the potential burden it would place on the team outweighed any hypothetical gains in performance or security.
 
-In terms of messaging, a significant challenge we faced was handling public chat broadcast storms—where messages get forwarded repeatedly, causing network congestion. Because the protocol mandated strict compliance without additional fields, we devised a solution by splitting public messages into separate ones, each targeted at a single recipient. This ensured that messages wouldn’t get forwarded indefinitely, resolving the broadcast storm issue while remaining within protocol boundaries.
+Docker played an integral role in our deployment strategy. It provided an environment where dependencies and configuration issues were handled uniformly, ensuring our system could be deployed seamlessly. This is something that stood out compared to other implementations we reviewed, which often struggled with undocumented dependencies or device-specific issues. The ability to specify options dynamically, like message retention or port configuration, adds flexibility that would be difficult to achieve otherwise. Despite this, the process could still be refined to be more user-friendly—particularly for those unfamiliar with Docker, who might find the setup cumbersome. With more time, integrating client and server settings into a single module could have streamlined this process further.
 
-Lastly, we made a conscious decision to enable our implementation to run headlessly. While our primary interface is a React frontend, the system’s API layer allows for interactions directly via Flask, making it possible to operate without the frontend. This was a trade-off, balancing simplicity with security, as the decision to use Flask APIs rather than WebSockets was made to reduce architectural complexity. Although Flask offers solid security measures, it may introduce certain vulnerabilities that WebSockets could have avoided—something we acknowledged but accepted given our time constraints and focus on protocol compliance.
+Security was a significant consideration in our design. While our implementation could function headless—allowing interaction via its API layer—this also presented a security trade-off. The decision to use Flask's API instead of WebSockets simplified frontend communication but opened potential vulnerabilities. Although our solution adheres to protocol specifications, the API layer may still be a weak link. Security versus functionality is a delicate balance, and this is an area that we may revisit if given more time.
+
+The modular design of our system was intentional, allowing for easier testing and compliance with secure coding practices. We employed Test-Driven Development (TDD) extensively, where the tests guided the implementation of critical shared libraries before moving on to the client-server architecture. This approach helped us ensure protocol and security compliance early on, reducing integration headaches later.
+
+### Lessons Learned
+
+Our key takeaway from this project was the importance of planning. We made several attempts to dive straight into coding without a clear plan, only to realize the process was too complex without a solid framework in place. Planning before coding is essential, especially for a system of this scale, and is a lesson we learned the hard way. Containerization, too, proved invaluable—not just for our system but as a general practice. Comparing our Docker-based solution to others solidified our belief that containerization should be a standard approach in all large-scale projects.
+
+We also learned that writing “good” code—code that not only works but is secure, maintainable, and scalable—is incredibly difficult. Despite over 100 hours of collective effort, there are still areas where our code could be improved, such as the frontend's context management or the server module's architecture. But we see this dissatisfaction as a positive sign. The constant need for improvement indicates that we are writing code thoughtfully, critically assessing our work instead of settling for "good enough."
+
+### Use of AI
+
+AI played a critical role in our brainstorming, design, and even some of the coding processes. Tools like Claude 3.5 and o1 preview helped us draft initial plans, suggesting libraries, structuring code, and guiding modularization efforts. However, AI wasn’t a silver bullet. Its output often seemed accurate but missed crucial protocol details, such as signing server hellos. This demonstrates the current limitations of AI in specialized, secure programming contexts.
+
+One of the more frustrating limitations was AI's context rot. As our project grew in complexity, we found it increasingly difficult to get coherent answers from AI models when feeding them large codebases. This required extensive manual intervention, particularly in reviewing cryptographic modules. While AI accelerated the planning and implementation process, it couldn't fully replace human oversight and critical thinking—especially in areas as nuanced as secure programming.
+
 
 ### Code Demonstration
 
