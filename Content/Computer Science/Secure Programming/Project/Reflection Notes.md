@@ -131,3 +131,14 @@ graph TD
     B --- D
 ```
 
+
+```json
+{
+    "data": {
+        "type": "public_chat",
+        "sender": "<Fingerprint of sender>",
+        "message": "<Plaintext message>",
+        "from": <
+    }
+}
+```
