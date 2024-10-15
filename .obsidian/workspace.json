@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Reflection.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Reflection Notes.md"
               }
             }
           },
@@ -172,13 +172,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5591af0e5b7bca99",
+  "active": "18c69075dacf7149",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Project/README.md",
+    "Content/Computer Science/Secure Programming/Project/Reflection.md",
     "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
     "Images/Pasted image 20241015235859.png",
     "Images/Pasted image 20241015235857.png",
-    "Content/Computer Science/Secure Programming/Project/Reflection.md",
-    "Content/Computer Science/Secure Programming/Project/README.md",
     "Images/Pasted image 20241015184656.png",
     "Images/Pasted image 20241015183240.png",
     "Images/Pasted image 20241015183109.png",
