@@ -1,5 +1,3 @@
-# Backdoor 4: Unauthorised Access
-
 ## Description
 
 This backdoor allows any server to join any neighbourhood, regardless of whether they were allowed to or not.

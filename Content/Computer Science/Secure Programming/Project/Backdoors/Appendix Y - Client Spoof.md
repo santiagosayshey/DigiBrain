@@ -1,5 +1,3 @@
-# Backdoor 3: Client Spoof
-
 ## Description
 
 This backdoor allows any malicious client to impersonate any other client known to the neighborhood. It enables them to send messages as another client, without alerting the impersonated client of this activity.
