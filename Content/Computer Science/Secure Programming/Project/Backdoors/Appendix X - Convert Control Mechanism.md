@@ -1,5 +1,3 @@
-# Backdoor 2: Covert Control Mechanism (Potential Ransomware Vector)
-
 ## Description
 
 This backdoor implements a covert distributed control mechanism disguised as a maintenance mode feature. While it appears to be a legitimate administrative tool, it's actually designed to allow an administrator (or any user who knows the commands) to control other servers for their own gain. It could potentially be exploited in a ransomware-like attack, enabling the disruption of services across multiple servers and the ability to demand payment for restoration.

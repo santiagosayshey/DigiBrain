@@ -1,5 +1,3 @@
-# Backdoor 1: Data Exfiltration
-
 ## Description
 
 This backdoor exploits a persistent cross-site scripting (XSS) vulnerability to exfiltrate stored client-side data, compromising the confidentiality of users in the chat system.
