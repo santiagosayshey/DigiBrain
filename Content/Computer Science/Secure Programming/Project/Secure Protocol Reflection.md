@@ -9,4 +9,9 @@
 - but for the most part, the protocol worked! It was absolutely incredible to test our implementation against other implementations in a psuedo black box (each side only knows their own code) and actually be able to send protected messages over the internet. That is a feeling I will remember for the rest of my life. 
 
 ## Design Choices
-- Decided to write the protocol implementation entirely in python, wi
+- Decided to write the protocol implementation entirely in python, with a react frontend.
+- Deployed using vite + docker. Flask powers frontend communication with the backend.
+- Just used the langauges I was most comfortable with. I would like to have delved into Rust / Go for this assignment just to get some experience with them, but ultimately did not have enough time and didn't want to burden other group members with an unfamiliar language.
+- Tried to be as modular as possible - creating shared utilities such as message structure and crypto compliance so that they can be unit tested, rather than only through integration
+- Used TDD. Tests determine protocol / security compliance for shared libraries before I even began implementing the actual skeleton of the client / server architecture. 
+- 
