@@ -36,6 +36,10 @@ image showing 3 clients. public chats ( all 3 see them), private chat (beween 2)
 
 ### Interoperability Testing
 
+- Followed a pretty simple process - manually exchange public keys, ip addresses and ports (as per the protocol specification). I tried to make this a bit easier, setting up routes to share internal pub keys and download external ones.
+- I setup an external hetzner server running a simple ubuntu VM which hosted my client / server. All tests were conducted in this isolate environment. 
+- Once we exchanged the information 
+
 Tested with 5 groups
 - Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo) + [leave as placeholder]
 	- Revealed some major issues with both groups
