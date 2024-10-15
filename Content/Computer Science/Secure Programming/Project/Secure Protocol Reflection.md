@@ -41,7 +41,9 @@ Tested with 5 groups
 - Revealed some major issues with both groups
 	- My group was sending base 64 encoded client updates + hellos (not PEM encoded lists). This screwed up client lists on both sides because we were attempting to decrypt them differently (base 64 decode, then find fingerprint)
 	- Their group wasn't adding counters to messages and my implementation successfully stopped those messages from coming through (recognising them as potential replay attacks)
-	- 
+
+![[Pasted image 20241015184656.png]]
+image shows messages being sent from 3 seperate implementations (1 from each group). Messages are sent, recieved and decoded pr
 
 ![[Pasted image 20241015183053.png]]
 
