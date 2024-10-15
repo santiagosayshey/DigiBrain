@@ -19,7 +19,9 @@
 - Used TDD. Tests determine protocol / security compliance for shared libraries before I even began implementing the actual skeleton of the client / server architecture. 
 - The actual implementation can run completely headless (without the react frontend), so theoretically anyone can interact with a client via it's API layer. This is a tradeoff I made - security vs functionality (flask api vs websockets) to reduce the complexity of frontend communication. While it's still protocol compliant and for the most part safe, it can still potentially be the weakest link in terms of security. 
 - lessons learned:
-	- plan first. We tried many times to jump head first into writing code before planning anything out and this failed, every single time. The process was just too complicated
+	- plan first. We tried many times to jump head first into writing code before planning anything out and this failed, every single time. The process was just too complicated without a solid plan backing us up.
+	- containerisation is underrated. We already knew this, but reviewing other people's code just proved us even more right. Use docker, kubernetees, etc for *everything*. You will thank yourself later.
+	- Writing actually good code that works, is almost impossible, and  While our group members are no slouch when it comes to coding, we learnt first hand how hard it is to actually get something at this scale working. It took over 100 hours of collective effort to write our implementation, and we still don't feel like it's good enough.  
 - Use of AI. 
 	- AI was used extensively in our implementation. o1 preview was primarily used to help brainstorm our development process - how we should modularise our code, what should be tested, what libraries should be used, etc. While extremely helpful in reducing time spent planning, we still needed to extensive intervention to come up with a solid plan. All initial plans / drafts done using AI often seem correct, but was usually missing a clear distinction in some way or another. For instance, *all* LLMs we tried missed the fact that server hellos are meant to be signed data structures. 
 	- Using the joint brainstorming plan, the group used Claude 3.5 Sonnet + o1 preview to help write the actual code. AI drafts were often necessary in many programming tasks as the group was quite unfamiliar with secure programming practices at this scale. 
@@ -27,8 +29,6 @@
 	- A massive drawback with using AI at such a scale is context rot. Past a certain point, we just couldn't add any more words (or code) to our prompts for feedback, because the LLMs would fail to produce a coherent response. For instance, after finishing up our Cryptography module, we sent in the entire file, plus the protocol specification to check for adherence, and it completely failed to return a coherent answer. Asking an LLM to extrapolate intent and adherence to something it has not been trained on ( a custom chat protocol) was like expecting pigs to fly. 
 	- In fact, after sending in an extremely long response (our entire code base at the time - 2000+ lines) for review, sonnet quite literally returned with a nonsense response because it didn't know else to respond. 
 	- So while an extremely helpful tool planning and reviewing wise, we still often needed to step in, thoroughly fact check and tidy / clean up ourselves.
-
-![[Pasted image 20241015235859.png]]
 ### Demonstration
 - For demonstration purposes, I will go over the *real* deployment steps, not the testing steps (which include premade compose files and setup scripts to make marking easier).
 - All of this is outlined in detail in the code's readme (link to appendix).
