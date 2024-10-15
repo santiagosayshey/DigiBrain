@@ -93,3 +93,19 @@ This backdoor violates several key security principles:
 - Authentication: The backdoor bypasses any authentication measures in place for accessing private messages.
 - Trust: It undermines the trust users place in the system's ability to keep their communications private.
 
+```json
+{
+    "data": {
+        "type": "hello",
+        "public_key": "<Exported PEM of RSA public key>"
+    }
+}
+
+{
+   "data": {
+        "type": "server_hello",
+        "sender": "<server IP connecting>"
+   }
+}
+```
+
