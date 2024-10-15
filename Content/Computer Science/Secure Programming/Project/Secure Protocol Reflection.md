@@ -7,3 +7,6 @@
 - moreover, the protocol documentation was quite vague in places. There could definitely be more work done to explain integration between messages. Ie - server sends hello, then client asks for update, then server sends update, etc. Things like this would reduce confusion and improve interoperability
 - I also felt like there were was a major issue in terms of broadcast storms that should have been dealt with protocol side, rather than implementation side. More specifically, when a server recieve a public message, it forwards this message to every other server. Then those servers forward it to every other server. To fix it, the servers would need to split the message apart and individually send messages to each other server. This puts a lot of strain on the sending server, which IMO defeats the purpose of a mesh network. All of this could be fixed by adding a simple from: field in the message structure to stop broadcast storms.
 - but for the most part, the protocol worked! It was absolutely incredible to test our implementation against other implementations in a psuedo black box (each side only knows their own code) and actually be able to send protected messages over the internet. That is a feeling I will remember for the rest of my life. 
+
+## Design Choices
+- Decided to write the protocol implementation entirely in python, wi
