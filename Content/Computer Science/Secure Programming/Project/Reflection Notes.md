@@ -138,7 +138,7 @@ graph TD
         "type": "public_chat",
         "sender": "<Fingerprint of sender>",
         "message": "<Plaintext message>",
-        "from": <
+        "origin": "<server identifier>"
     }
 }
 ```
