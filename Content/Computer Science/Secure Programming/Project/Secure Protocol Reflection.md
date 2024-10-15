@@ -11,7 +11,10 @@
 ## Design Choices
 - Decided to write the protocol implementation entirely in python, with a react frontend.
 - Deployed using vite + docker. Flask powers frontend communication with the backend.
+	- Docker was a really big part of our implementation and personally I think it makes it stand out from the rest.
+	- It allowed us to dynamically set options in our deployments - message retention, ports, ip addresses, etc. I think our implementation could work straight out of the box and be deployed as its currently implemented. 
+	- Every other implementation I reviewed had some kind of a device issue that didn't outline a specific library or dependancy that needed to be installed first. Docker fixes all of these issues.
 - Just used the langauges I was most comfortable with. I would like to have delved into Rust / Go for this assignment just to get some experience with them, but ultimately did not have enough time and didn't want to burden other group members with an unfamiliar language.
 - Tried to be as modular as possible - creating shared utilities such as message structure and crypto compliance so that they can be unit tested, rather than only through integration
 - Used TDD. Tests determine protocol / security compliance for shared libraries before I even began implementing the actual skeleton of the client / server architecture. 
-- 
+- As spoken about in the previous section, a huge issue we faced during implementation were public chat broadcast storms. Since we needed to strictly comply with the protocol and not add extra fields, we needed to come up with a clever way to only forward messages once. To fix
