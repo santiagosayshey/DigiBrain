@@ -70,3 +70,26 @@ Images showing my implementation successfully connecting to and speaking (!!!) t
 #### Test 4
 
 #### Test 5
+
+## Backdoors
+Our group implemented 4 intentional backdoors that aim to compromise key parts of the protocol. The following section provides a concise description, techincal details as well as objectives for each backdoor. Code snippets and a detailed exploitat
+### Backdoor 1: Data Exfiltration
+
+#### Description
+
+This backdoor exploits a persistent cross-site scripting (XSS) vulnerability to exfiltrate stored client-side data, compromising the confidentiality of users in the chat system.
+
+#### Technical Details
+
+Messages are stored client-side in a volume that users can retain for a configurable duration. The frontend retrieves these messages using a `/get_messages` endpoint, which extracts a message JSON object from a Docker volume. These messages are then displayed inside a React component using `dangerouslySetInnerHTML`. By sending a message containing malicious script, whether public or private, an attacker can force the receiving clients to execute this script whenever they view their messages. In the case of a private message, this allows targeted attacks on specific users.
+
+Crucially, this malicious script can itself call `/get_messages`, but instead of displaying the data, it can exfiltrate the messages to an unauthorized remote server. The code snippets at the end of this document provide a comprehensive understanding of the vulnerability enabling this backdoor.
+
+#### Objectives
+
+This backdoor violates several key security principles:
+
+- Confidentiality: It allows unauthorized access to private messages intended only for specific recipients.
+- Authentication: The backdoor bypasses any authentication measures in place for accessing private messages.
+- Trust: It undermines the trust users place in the system's ability to keep their communications private.
+
