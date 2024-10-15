@@ -18,4 +18,13 @@
 - Tried to be as modular as possible - creating shared utilities such as message structure and crypto compliance so that they can be unit tested, rather than only through integration
 - Used TDD. Tests determine protocol / security compliance for shared libraries before I even began implementing the actual skeleton of the client / server architecture. 
 - As spoken about in the previous section, a huge issue we faced during implementation were public chat broadcast storms. Since we needed to strictly comply with the protocol and not add extra fields, we needed to come up with a clever way to only forward messages once. To fix this, we made sending servers split public messages into seperate messages, with one intended recipient each. This way, when a receiving server got a message, it wouldn't try to forward it other servers and create a broadcast storm.
-- The actual implementation can run completely headless (without the react frontend), so theoretically anyone can interact with a client via it's API layer. This is a tradeoff I made - security vs functionality (flask api vs websockets) 
+- The actual implementation can run completely headless (without the react frontend), so theoretically anyone can interact with a client via it's API layer. This is a tradeoff I made - security vs functionality (flask api vs websockets) to reduce the complexity of frontend communication. While it's still protocol compliant and for the most part safe, it can still potentially be the weakest link in terms of security. 
+
+### Demonstration
+- For demonstration purposes, I will go over the *real* deployment steps, not the testing steps (which include premade compose files and setup scripts to make marking easier).
+- All of this is outlined in detail in the code's readme (link to appendix).
+- Deployment is really easy, user just needs to setup their client / server compose files as they want - ip addresses, ports, message retention etc.
+	- In retrospect, this process could be made more user friendly but doing this requires actual testing and more time than we had. 
+	- Clients / servers could be integrated into a single module so that user's have less settings to deal with
+- After the compose files are setup, users just need to create the client containers and they have full access to the application (reword this please)
+- 
