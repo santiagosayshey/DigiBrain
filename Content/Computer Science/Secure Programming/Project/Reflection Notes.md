@@ -18,7 +18,9 @@
 - Tried to be as modular as possible - creating shared utilities such as message structure and crypto compliance so that they can be unit tested, rather than only through integration
 - Used TDD. Tests determine protocol / security compliance for shared libraries before I even began implementing the actual skeleton of the client / server architecture. 
 - The actual implementation can run completely headless (without the react frontend), so theoretically anyone can interact with a client via it's API layer. This is a tradeoff I made - security vs functionality (flask api vs websockets) to reduce the complexity of frontend communication. While it's still protocol compliant and for the most part safe, it can still potentially be the weakest link in terms of security. 
-
+- lessons learned:
+	- plan first. We tried many times to jump head first into writing code before planning anything out and this failed, every single time. The process was just too complicated
+- Use of AI. AI was used extensively in our implementation. o1 preview was primarily used to help brainstorm our development process - how we should modularise our code, what should be tested, what libraries should be used, etc. While extremely helpful in reducing time spent planning, we still needed to extensive intervention to come up with a solid plan. All initial plans / drafts done using AI often seem correct, but was usually missing a clear distinction. For instance, *all* LLMs we tried missed the fact that server hellos are meant to be signed data structures. 
 ### Demonstration
 - For demonstration purposes, I will go over the *real* deployment steps, not the testing steps (which include premade compose files and setup scripts to make marking easier).
 - All of this is outlined in detail in the code's readme (link to appendix).
