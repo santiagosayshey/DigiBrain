@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Backdoors/covert-control.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Backdoors/client-spoof.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Backdoors/covert-control.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Backdoors/client-spoof.md"
               }
             }
           },
@@ -171,9 +171,9 @@
   },
   "active": "18c69075dacf7149",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Project/Backdoors/client-spoof.md",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/covert-control.md",
     "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix  L - Data Exfiltration - Proof of Concept.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/covert-control.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/client-spoof.md",
     "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
     "Content/Computer Science/Secure Programming/Project/Backdoors/unauth-access.md",
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/server.js",
