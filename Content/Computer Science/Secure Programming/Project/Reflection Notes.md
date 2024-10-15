@@ -21,11 +21,14 @@
 - lessons learned:
 	- plan first. We tried many times to jump head first into writing code before planning anything out and this failed, every single time. The process was just too complicated
 - Use of AI. 
-	- AI was used extensively in our implementation. o1 preview was primarily used to help brainstorm our development process - how we should modularise our code, what should be tested, what libraries should be used, etc. While extremely helpful in reducing time spent planning, we still needed to extensive intervention to come up with a solid plan. All initial plans / drafts done using AI often seem correct, but was usually missing a clear distinction in some way or another. For instance, *all* LLMs we tried missed the fact that server hellos are meant to be signed data structures. So while an extremely helpful tool, we still often needed to step in, thoroughly fact check and tidy / clean up the remaining tasks to actually be feasible. 
+	- AI was used extensively in our implementation. o1 preview was primarily used to help brainstorm our development process - how we should modularise our code, what should be tested, what libraries should be used, etc. While extremely helpful in reducing time spent planning, we still needed to extensive intervention to come up with a solid plan. All initial plans / drafts done using AI often seem correct, but was usually missing a clear distinction in some way or another. For instance, *all* LLMs we tried missed the fact that server hellos are meant to be signed data structures. 
 	- Using the joint brainstorming plan, the group used Claude 3.5 Sonnet + o1 preview to help write the actual code. AI drafts were often necessary in many programming tasks as the group was quite unfamiliar with secure programming practices at this scale. 
-	- After providing example code excerpts, we implemented the proper tasks ourselves, with feedback from Claude + o1 when needed.
+	- After providing example code excerpts, we implemented the tasks ourselves, with feedback from Claude + o1 when needed.
 	- A massive drawback with using AI at such a scale is context rot. Past a certain point, we just couldn't add any more words (or code) to our prompts for feedback, because the LLMs would fail to produce a coherent response. For instance, after finishing up our Cryptography module, we sent in the entire file, plus the protocol specification to check for adherence, and it completely failed to return a coherent answer. Asking an LLM to extrapolate intent and adherence to something it has not been trained on ( a custom chat protocol) was like expecting pigs to fly. 
-	- In fact, after sending in an extremely long response (2000+
+	- In fact, after sending in an extremely long response (our entire code base at the time - 2000+ lines) for review, sonnet quite literally returned with a nonsense response because it didn't know else to respond. 
+	- So while an extremely helpful tool planning and reviewing wise, we still often needed to step in, thoroughly fact check and tidy / clean up ourselves.
+
+![[Pasted image 20241015235859.png]]
 ### Demonstration
 - For demonstration purposes, I will go over the *real* deployment steps, not the testing steps (which include premade compose files and setup scripts to make marking easier).
 - All of this is outlined in detail in the code's readme (link to appendix).
