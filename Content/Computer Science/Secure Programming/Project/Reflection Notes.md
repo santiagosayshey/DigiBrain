@@ -109,3 +109,25 @@ This backdoor violates several key security principles:
 }
 ```
 
+
+```mermaid
+graph TD
+    subgraph "IP: 192.168.1.1"
+        A[Server A]
+        C1[Client 1]
+        C2[Client 2]
+    end
+    subgraph "IP: 192.168.1.2"
+        B[Server B]
+        C3[Client 3]
+    end
+    subgraph "IP: 192.168.1.3"
+        D[Server D]
+        C4[Client 4]
+        C5[Client 5]
+    end
+    A --- B
+    A --- D
+    B --- D
+```
+
