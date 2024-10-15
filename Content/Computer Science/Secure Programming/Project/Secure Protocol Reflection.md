@@ -47,7 +47,8 @@ Tested with 5 groups
 image shows messages being sent from 3 seperate implementations (1 from each group). Messages are sent, recieved and decoded properly, but each group had different fingerprints for everybody!
 
 - Group 17 (Gregorius Baswara Wira Nuraga, Kyle Johnston, Ivan Tranquilan)
-	- After fixing the issues found in testing with the previous 2 groups
+	- After fixing the issues found in testing with the previous 2 groups this test was way more straight forward
+	- I found a small issue with my implementation - I needed to ask for a client update when connecting myself, rather than waiting on one
 
 ![[Pasted image 20241015183053.png]]
 
