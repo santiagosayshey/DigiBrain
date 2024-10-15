@@ -38,23 +38,23 @@ image showing 3 clients. public chats ( all 3 see them), private chat (beween 2)
 
 - Followed a pretty simple process - manually exchange public keys, ip addresses and ports (as per the protocol specification). I tried to make this a bit easier, setting up routes to share internal pub keys and download external ones.
 - I setup an external hetzner server running a simple ubuntu VM which hosted my client / server. All tests were conducted in this isolate environment. 
-- Once we exchanged the information 
+- Once we exchanged the information, attempted to run our servers which would attempt to create websocket connections between servers. Then we exchange messages and attempt to initiate file tranfers. 
+- Tested with 5 groups, results are shown below.
 
-Tested with 5 groups
-- Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo) + [leave as placeholder]
-	- Revealed some major issues with both groups
-		- My group was sending base 64 encoded client updates + hellos (not PEM encoded lists). This screwed up client lists on both sides because we were attempting to decrypt them differently (base 64 decode, then find fingerprint)
-		- Their group wasn't adding counters to messages and my implementation successfully stopped those messages from coming through (recognising them as potential replay attacks)
+#### Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo) + [leave as placeholder for extra group, still need to get their names]
+- Revealed some major issues with both groups
+	- My group was sending base 64 encoded client updates + hellos (not PEM encoded lists). This screwed up client lists on both sides because we were attempting to decrypt them differently (base 64 decode, then find fingerprint)
+	- Their group wasn't adding counters to messages and my implementation successfully stopped those messages from coming through (recognising them as potential replay attacks)
 
 ![[Pasted image 20241015184656.png]]
 
 image shows messages being sent from 3 seperate implementations (1 from each group). Messages are sent, recieved and decoded properly, but each group had different fingerprints for everybody!
 
-- Group 17 (Gregorius Baswara Wira Nuraga, Kyle Johnston, Ivan Tranquilan)
-	- After fixing the issues found in testing with the previous 2 groups this test was way more straight forward
-	- I found a small issue with my implementation - I needed to ask for a client update when connecting myself, rather than waiting on one from the connecting server
-	- Group 17 found a couple issues with their implementation - they needed to add a way to generate public / private keys so they could recieve my private messages. They also needed to add signatures to their private messages.
-	- To get messages sending, I had to temporarily disable signature verification but I was able to recieve private messages from their client! public messages and file transfers also worked flawlessly
+#### Group 17 (Gregorius Baswara Wira Nuraga, Kyle Johnston, Ivan Tranquilan)
+- After fixing the issues found in testing with the previous 2 groups this test was way more straight forward
+- I found a small issue with my implementation - I needed to ask for a client update when connecting myself, rather than waiting on one from the connecting server
+- Group 17 found a couple issues with their implementation - they needed to add a way to generate public / private keys so they could recieve my private messages. They also needed to add signatures to their private messages.
+- To get messages sending, I had to temporarily disable signature verification but I was able to recieve private messages from their client! public messages and file transfers also worked flawlessly
 
 ![[Pasted image 20241015183053.png]]
 
@@ -67,3 +67,6 @@ image shows messages being sent from 3 seperate implementations (1 from each gro
 
 Images showing my implementation successfully connecting to and speaking (!!!) to a friends implementation. This was a psuedo black box test without even seeing each others code. 
 
+#### Test 4
+
+#### Test 5
