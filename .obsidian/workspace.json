@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix  L - Data Exfiltration - Proof of Concept.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Reflection Notes.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix  L - Data Exfiltration - Proof of Concept.md"
               }
             }
           },
@@ -169,22 +169,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "18c69075dacf7149",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Project/Backdoors",
-    "Images/Pasted image 20241015182829.png",
-    "Content/Computer Science/Secure Programming/Project/Reflection.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/covert-control.md",
     "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/unauth-access.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix  L - Data Exfiltration - Proof of Concept.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/client-spoof.md",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/server.js",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 4.2.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 4.1.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 3.3.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 3.2.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 3.1.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 2.2.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 2.1.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 1.4.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 1.3.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 1.2.png",
+    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix",
+    "Content/Computer Science/Secure Programming/Project/Backdoors",
+    "Content/Computer Science/Secure Programming/Project/Reflection.md",
     "Content/Computer Science/Secure Programming/Project/README.md",
-    "Images/Pasted image 20241015235859.png",
-    "Images/Pasted image 20241015235857.png",
-    "Images/Pasted image 20241015184656.png",
-    "Images/Pasted image 20241015183240.png",
-    "Images/Pasted image 20241015183109.png",
-    "Images/Pasted image 20241015183103.png",
-    "Images/Pasted image 20241015183053.png",
-    "Images/Pasted image 20241015183040.png",
-    "Images/Pasted image 20241015182547.png",
     "Content/Computer Science/Computer Science.md",
     "Content/Computer Science/Secure Programming/Project/Brainstorming.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
@@ -204,10 +210,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.5 Payloads.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/8.4 Worms.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.1 Malware.md",
-    "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
     "Content/Journal",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
@@ -215,9 +217,6 @@
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Valentina Alto - Modern Generative AI with ChatGPT and OpenAI Models_ Leverage the capabilities of OpenAI's LLM for productivity and innovation w (2023, Packt Publishing) - libgen.li.pdf",
     "Content/Computer Science/Computer Systems/Textbook/elements-of-computing-systems.pdf",
-    "Content/Computer Science/Computer Networks & Applications/Textbooks/Computer Networking - A Top Down Approach 8th ED.pdf",
-    "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
-    "Content/Computer Science/Secure Programming/Textbook.pdf",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
