@@ -37,9 +37,11 @@ image showing 3 clients. public chats ( all 3 see them), private chat (beween 2)
 ### Interoperability Testing
 
 Tested with 5 groups
-- Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo)
+- Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo) and 
 - Revealed some major issues with both groups
-	- My group was sending base 64 encoded client updates + hellos (not PEM encoded lists). 
+	- My group was sending base 64 encoded client updates + hellos (not PEM encoded lists). This screwed up client lists on both sides because we were attempting to decrypt them differently (base 64 decode, then find fingerprint)
+	- Their group wasn't adding counters to messages and my implementation successfully stopped those messages from coming through (recognising them as potential replay attacks)
+	- 
 
 ![[Pasted image 20241015183053.png]]
 
