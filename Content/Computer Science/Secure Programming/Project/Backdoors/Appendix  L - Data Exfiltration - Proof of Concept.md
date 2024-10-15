@@ -1,10 +1,30 @@
+# Appendix  L: Data Exfiltration - Proof of Concept
+
+## Description
+
+This backdoor exploits a persistent cross-site scripting (XSS) vulnerability to exfiltrate stored client-side data, compromising the confidentiality of users in the chat system.
+
+## Technical Details
+
+Messages are stored client-side in a volume that users can retain for a configurable duration. The frontend retrieves these messages using a `/get_messages` endpoint, which extracts a message JSON object from a Docker volume. These messages are then displayed inside a React component using `dangerouslySetInnerHTML`. By sending a message containing malicious script, whether public or private, an attacker can force the receiving clients to execute this script whenever they view their messages. In the case of a private message, this allows targeted attacks on specific users.
+
+Crucially, this malicious script can itself call `/get_messages`, but instead of displaying the data, it can exfiltrate the messages to an unauthorized remote server. The code snippets at the end of this document provide a comprehensive understanding of the vulnerability enabling this backdoor.
+
+## Objectives
+
+This backdoor violates several key security principles:
+
+- Confidentiality: It allows unauthorized access to private messages intended only for specific recipients.
+- Authentication: The backdoor bypasses any authentication measures in place for accessing private messages.
+- Trust: It undermines the trust users place in the system's ability to keep their communications private.
+
 ## Exploitation Method (Proof of Concept)
 
 1. Attacker identifies that messages are displayed using `innerHTML` and not `innerText`.
 
 ![Image 1.1](appendix/Image%201.1.png)
 
-<p align="center"><em>Figure 1.1: A simple XSS test. The attacker refreshes the page and realises that the message is stored, so it's persistent</em></p>
+<p align="center"><em>Figure 3.1: A simple XSS test. The attacker refreshes the page and realises that the message is stored, so it's persistent</em></p>
 
 2. Attacker monitors their network tab to see what request the frontend is making to the backend.
 
