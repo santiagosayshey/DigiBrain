@@ -37,7 +37,7 @@ image showing 3 clients. public chats ( all 3 see them), private chat (beween 2)
 ### Interoperability Testing
 
 Tested with 5 groups
-- Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo) + 
+- Group 38 (Chun Hon Chan, Lok To Lo. Yin Cyrus Hui and Zachary Sobarzo) + [leave as placeholder]
 	- Revealed some major issues with both groups
 		- My group was sending base 64 encoded client updates + hellos (not PEM encoded lists). This screwed up client lists on both sides because we were attempting to decrypt them differently (base 64 decode, then find fingerprint)
 		- Their group wasn't adding counters to messages and my implementation successfully stopped those messages from coming through (recognising them as potential replay attacks)
@@ -48,7 +48,9 @@ image shows messages being sent from 3 seperate implementations (1 from each gro
 
 - Group 17 (Gregorius Baswara Wira Nuraga, Kyle Johnston, Ivan Tranquilan)
 	- After fixing the issues found in testing with the previous 2 groups this test was way more straight forward
-	- I found a small issue with my implementation - I needed to ask for a client update when connecting myself, rather than waiting on one
+	- I found a small issue with my implementation - I needed to ask for a client update when connecting myself, rather than waiting on one from the connecting server
+	- Group 17 found a couple issues with their implementation - they needed to add a way to generate public / private keys so they could recieve my private messages. They also needed to add signatures to their private messages.
+	- To get messages sending, I had to temporarily disable signature verification but I was able to recieve private messages from their client! public messages and file transfers also worked flawlessly
 
 ![[Pasted image 20241015183053.png]]
 
