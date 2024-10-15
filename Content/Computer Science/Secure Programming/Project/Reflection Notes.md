@@ -155,3 +155,35 @@ graph TD
 
 
 
+#### Group 38 (Chun Hon Chan, Lok To Lo, Yin Cyrus Hui, Zachary Sobarzo)
+
+- **Issues Found**:
+    
+    - Our implementation sent base64-encoded client updates and hellos instead of PEM-encoded lists, which caused issues with decryption. Both groups were attempting to decrypt the client lists differently (base64 decoding followed by fingerprint retrieval), leading to mismatched data.
+    - Their implementation did not include message counters, which caused our system to block their messages, identifying them as potential replay attacks.
+- **Fixes/Observations**:
+    
+    - We resolved the issue by switching to PEM encoding for the client updates and hellos.
+    - Group 38 added message counters, allowing our system to correctly process their messages.
+
+> (See Appendix: Image 1 - Showing messages being sent from three implementations, each group displaying different fingerprints.)
+
+#### Group 17 (Gregorius Baswara Wira Nuraga, Kyle Johnston, Ivan Tranquilan)
+
+- **Issues Found**:
+    
+    - We encountered a small issue in our system: I needed to request client updates immediately upon connecting rather than waiting for the connecting server.
+    - Group 17 needed to implement public/private key generation for receiving private messages. Additionally, they required signatures on private messages for proper functionality.
+- **Fixes/Observations**:
+    
+    - To facilitate message exchanges, I temporarily disabled signature verification. This allowed private messages to be exchanged, and both public messages and file transfers worked flawlessly.
+
+> (See Appendix: Images 2-5 - Illustrating the successful connection and message exchange between our implementation and Group 17's.)
+
+#### Test 4
+
+- Pending
+
+#### Test 5
+
+- Pending
