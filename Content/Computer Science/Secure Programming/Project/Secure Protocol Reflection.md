@@ -34,5 +34,16 @@
 
 image showing 3 clients. public chats ( all 3 see them), private chat (beween 2) and a public file transfer pictured. This is my own implementation working with itself.
 
+### Interoperability Testing
 
+![[Pasted image 20241015183053.png]]
+
+![[Pasted image 20241015183103.png]]
+
+
+![[Pasted image 20241015183240.png]]
+
+![[Pasted image 20241015183109.png]]
+
+Images showing my implementation successfully connecting to and speaking (!!!) to a friends implementation. This was a psuedo black box test without even seeing each others code. 
 
