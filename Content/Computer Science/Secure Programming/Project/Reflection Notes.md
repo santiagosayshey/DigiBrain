@@ -145,7 +145,11 @@ graph TD
 ```json
 {
     "data": {
-        "type": "public_chat",
+        "type": "public_chat",[/home/sam-chau/Documents/OMesh/backdoor/appendix
+/home/sam-chau/Documents/OMesh/backdoor/client-spoof.md
+/home/sam-chau/Documents/OMesh/backdoor/covert-control.md
+/home/sam-chau/Documents/OMesh/backdoor/data-exfiltration.md
+/home/sam-chau/Documents/OMesh/backdoor/unauth-access.md](file:///home/sam-chau/Documents/OMesh/backdoor/client-spoof.md)
         "sender": "<Fingerprint of sender>",
         "message": "<Plaintext message>",
         "origin": "<server identifier>"
