@@ -1,3 +1,5 @@
 ## Standardised Protocol
 
-Before the cohort even began theorising potential implementations for such a protocol, myself, and quite a few friends found the focus to be quite ambitious. To not only get class wide consensus on something as complicated as a messaging protocol, but to then give us the freedom to implement it however we want and then finally expect us to make our implementations work together, was quite overwhelming. 
+- even before coming up with a protocol, we found the entire idea quite ambitious. 200 people with varying experience and ambition agreeing on something as complicated as a messaging protocol will be very difficult
+- did it work in the end? for the most part yes, we got a working agreed upon protocol. However, like with most things in life, the majority if it's implementation was implemented by a small group of the cohort, rather than everyone. I think it would be naiive to expect every single person to have some input, but I feel like we should have had a better way to get input from a variety of people, rather than just the ones who took the assignment head on. 
+- As for the protocol itself, I mostly have no issues with it. I do feel as though the message structures are bloated
