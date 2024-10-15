@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Secure Protocol Reflection.md",
+                "file": "Content/Computer Science/Secure Programming/Project/Reflection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Project/Secure Protocol Reflection.md"
+                "file": "Content/Computer Science/Secure Programming/Project/Reflection.md"
               }
             }
           },
@@ -147,6 +147,8 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
+    "Content/Computer Science/Secure Programming/Project/Reflection.md",
     "Images/Pasted image 20241015184656.png",
     "Images/Pasted image 20241015183240.png",
     "Images/Pasted image 20241015183109.png",
@@ -156,7 +158,6 @@
     "Images/Pasted image 20241015182829.png",
     "Images/Pasted image 20241015182547.png",
     "Content/Computer Science/Computer Science.md",
-    "Content/Computer Science/Secure Programming/Project/Secure Protocol Reflection.md",
     "Content/Computer Science/Secure Programming/Project/Brainstorming.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
     "Content/Computer Science/Operating Systems/Notes/8.4 Hard Disks.md",
@@ -169,7 +170,6 @@
     "Content/Computer Science/Secure Programming/Project/Peer Review/Untitled.md",
     "Images/Pasted image 20241009084023.png",
     "Images/Pasted image 20241009083942.png",
-    "Images/Pasted image 20241009083857.png",
     "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
