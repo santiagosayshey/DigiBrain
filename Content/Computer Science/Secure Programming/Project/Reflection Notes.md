@@ -209,3 +209,35 @@ course cirriculem context - notes
 - its often said that the big bucks lie in cybersecurity - this programming assingment offers a really nuanced look into that. Secure programming, is hard. There's no way around it. From our perspective, it often seems you need the ability of a senior software engineer in order to be on top of everything. You need to be on top of the latest technologies, you need to be able to think architecturally, you need to be well versed in low level programming, high level programming, web design. Planning this assignment, likewise, was hard. We spent almost a week just planning it before we could even start programming it!
 - massive appreciation for the low level programming that I learnt in systems programming, computer systems and even OS. While I've always had a soft spot for Bash as a glue language, I've struggled to like lower level programming in C. While I still think it's archaic at times, I have a new found respect for all the developers out there that write device drivers, kernels, etc. There are some real smart cookies out there fighting the fight that most people don't even know is happening. 
 - AI, specifically LLMs are a terrific tool that should be used sparingly. I don't like that most classes have academic integrity constraints against AI and i really appreciate how it was used in the context of this assignment. It can obviously be abused, especially as they get more advanced, but completely blocking and alienating their use, is in my opinion, wrong. I think this assignment (and a report I wrote for Databases and Ethical Data) get it so right. Let us use AI, but make us think about *how* it's used. Let us reflect on our interactions with it. Make us understand it's limitations and shortcomings but still acknowledge that it's an incredible learning tool in the right hands! Students will abuse AI to do their assignments for them, that's going to be an issue for the next century, in fact, half of the peer reviews we received were so obviously AI generated, but I think perhaps a little bit of naivety to let the right people in, can go a long way. 
+
+
+
+In client.py, there may be some potential flaws which are worth checking:
+
+1)
+- Potential flaw: 
+    - Race Conditions in Message Handling
+- Testing method:
+    - Simulate concurrent message handling (e.g., receive messages while cleaning up old messages).
+    - Check if the program crashes or behaves unexpectedly when multiple operations are performed on self.incoming_messages simultaneously.
+- Suggestion:
+    - Ensure that access to shared resources (e.g., self.incoming_messages, self.message_lock) is properly synchronized, including read and write operations.
+    - Use asyncio.Lock in conjunction with asynchronous programming to ensure that operations on shared state are atomic.
+- Description:
+    - The message_lock is used to synchronize access to messages (self.incoming_messages), but there is no explicit locking in all message handling sections. If multiple threads (such as message cleanup and message reception) attempt to modify the list at the same time, it can lead to race conditions and inconsistent state (e.g., messages might be lost, overwritten, or cause crashes).
+    - While the code appears to use a threading.Lock to prevent race conditions, the lock is not used consistently in all places where the list self.incoming_messages is modified. Without proper locking around all operations that modify shared resources, you could run into unpredictable behavior in a multi-threaded environment.
+    
+
+2)
+- Potential flaw: 
+    - Inadequate Error Handling and Logging
+- Exploitation: 
+    - The error handling for critical operations like decryption, key loading, and message parsing may expose sensitive information (such as stack traces or private keys) through logging. Exposing detailed error information can provide attackers with insights into the system's internal workings or cryptographic operations.
+Testing method:
+    - Simulate a failure during key decryption or message parsing.
+    - Verify that the logging does not expose sensitive data such as private keys or full stack traces in production logs.
+Suggestion:
+    - Avoid logging sensitive information like private keys or full stack traces in production environments.
+    - Use generic error messages in logs and handle exceptions gracefully without exposing internal states.
+Description: 
+    - Logging sensitive information, such as private key usage or detailed error traces, can lead to potential information leakage. It’s important to sanitize logs to avoid disclosing cryptographic materials or stack traces that could assist an attacker in exploiting the system.
