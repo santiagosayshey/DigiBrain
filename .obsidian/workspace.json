@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/10. File Linking.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/10. File Linking.md"
               }
             }
           },
@@ -147,8 +147,8 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/10.3 Hardlinks.md",
     "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md",
+    "Content/Computer Science/Operating Systems/Notes/10. File Linking.md",
     "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
     "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Images/Pasted image 20241017175557.png",
