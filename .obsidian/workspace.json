@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
     "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md",
+    "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
+    "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
     "Content/AI Prompt.md",
     "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
@@ -198,7 +199,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/10.2 human aspects.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Lecture Notes.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 5 Peer Review.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 4 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Journal",
     "Images/factorio_semaphore_trains.mp4",
