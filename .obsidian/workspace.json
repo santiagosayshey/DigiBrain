@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/10.2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/10.2.md"
               }
             }
           },
@@ -147,12 +147,13 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
+    "Content/Computer Science/Operating Systems/Notes/10.2.md",
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
     "Images/Pasted image 20241017175239.png",
     "Content/Computer Science/Secure Programming/Project/README.md",
-    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 3 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Reflection Notes.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Programming Code Review Template.md",
@@ -167,7 +168,6 @@
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 3.2.png",
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 3.1.png",
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 2.2.png",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 2.1.png",
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix",
     "Content/Computer Science/Secure Programming/Project/Backdoors",
     "Content/Computer Science/Secure Programming/Project/Reflection.md",
