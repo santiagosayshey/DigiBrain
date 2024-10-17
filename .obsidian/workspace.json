@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "33563a5232f4b679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -147,8 +160,9 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
+    "Content/AI Prompt.md",
     "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
+    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
     "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
@@ -185,7 +199,6 @@
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 5 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Secure Chat Protocol - Group 4 Peer Review.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review/Untitled.md",
-    "Content/AI Prompt.md",
     "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Journal",
     "Images/factorio_semaphore_trains.mp4",
