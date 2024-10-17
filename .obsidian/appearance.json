@@ -1,10 +1,14 @@
 {
   "accentColor": "#0056d6",
   "cssTheme": "Things",
-  "theme": "moonstone",
-  "textFontFamily": "Times New Roman",
-  "enabledCssSnippets": [],
-  "interfaceFontFamily": "Times New Roman",
-  "monospaceFontFamily": "IBM Plex Mono",
+  "theme": "obsidian",
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "table",
+    "blocks",
+    "App"
+  ],
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
   "baseFontSize": 14
 }
