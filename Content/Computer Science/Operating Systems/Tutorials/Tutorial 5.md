@@ -3,7 +3,7 @@
 >
 > *Answer:*
 > 
-> 1. **Bitmap:** Uses a bit array where each bit represents a disk block.  
+> 1. **Bitmap:** Uses a bit array where each bit represents the status of a disk block.  
 >    *Advantage:* Efficient in space and allows quick allocation and deallocation.
 > 
 > 2. **Linked List:** Maintains a linked list of free blocks.  
