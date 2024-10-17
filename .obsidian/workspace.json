@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.2.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.2.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md"
               }
             }
           },
@@ -148,7 +148,7 @@
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
     "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
-    "Content/Computer Science/Operating Systems/Notes/10.2.md",
+    "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
