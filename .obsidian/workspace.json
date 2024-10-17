@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md"
+                "file": "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md"
               }
             }
           },
@@ -147,8 +147,10 @@
   },
   "active": "f4c159d7aa8f3415",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
+    "Content/Computer Science/Operating Systems/Notes/10.3 Hardlinks.md",
+    "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md",
     "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
+    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
@@ -185,8 +187,6 @@
     "Content/Computer Science/Secure Programming/Project/Peer Review",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.5 Payloads.md",
     "Content/Journal",
     "Images/factorio_semaphore_trains.mp4",
     "Content/Computer Science/Object Oriented Programming/Notes/2.1 Memory, Arrays and Pointers.pdf",
