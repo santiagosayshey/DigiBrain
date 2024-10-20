@@ -144,3 +144,45 @@ After an exhaustive review of the provided code, no further intentional backdoor
 | **Refactor Code for Clarity and Maintainability** | - Use descriptive variable and function names to enhance readability.<br>- Organize code into modules or classes where appropriate.<br>- Add comments and documentation to explain complex sections.                                                                         |
 | **Implement Robust Logging Mechanisms**         | - Utilize Python's `logging` library to log events with appropriate severity levels.<br>- Ensure that logs do not contain sensitive information that could be exploited.                                                                                                    |
 | **Enhance Exception Handling**                  | - Catch and handle specific exceptions rather than using broad exception handlers.<br>- Provide meaningful error messages to users and log technical details for developers.                                                                                                |
+
+# Overall Progress for Sprint 4
+
+During this sprint, I focused on three major issues and provided assistance on an additional task. These efforts have significantly advanced our project, bringing us closer to completion with only a few outstanding items remaining.
+
+## Major Issues Addressed
+
+### Issue #17 - Create a Query Builder Component
+- Developed a React component for drag-and-drop query building
+- Implemented functionality to automatically generate Flux queries from user selections
+- Set up different views for:
+  - Query builder
+  - Flux generator
+  - Raw results
+  - Grafana visualization (not yet implemented)
+
+### Issue #43 - Integrate Schema Display with Database
+- Took on this outstanding task from the previous sprint due to time constraints of other team members
+- Successfully connected the frontend schema component to the backend schema endpoint
+
+### Issue #44 - Major Code Refactor
+This was the most substantial task of the sprint, involving a comprehensive overhaul of our project architecture:
+- Rebuilt bucket and schema components from the ground up
+- Rewrote the authentication module using SQLite
+- Modularized data selection in both frontend and backend
+- Split schema selection into multiple endpoints (measurements, fields, tags, etc.)
+- Implemented systematic querying of the backend only when necessary
+- Achievements:
+  - Improved backend performance
+  - Enhanced code reusability
+
+## Additional Contribution
+
+### Issue #12 - Implement a Data Query Endpoint
+- Assisted with integrating the endpoint into the rest of the application
+- Note: The core logic for this task was entirely implemented by Kyle
+
+## Project Status
+With the completion of these tasks, the majority of the project is now finished. Only a few small outstanding issues remain for the next sprint. The final major milestone is the Grafana visualization, for which we have allocated sufficient time in our schedule.
+
+## Reflection
+This sprint saw significant progress in both feature implementation and code quality. The major refactor, while time-consuming, has set a strong foundation for the project's future development and maintenance. Our team's ability to adapt and take on additional tasks when needed demonstrates our commitment to meeting project goals.
