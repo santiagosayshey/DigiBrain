@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
+                "file": "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Threads"
+              "title": "Cheatsheet"
             }
           }
         ]
@@ -165,10 +165,12 @@
   },
   "active": "a358da3bad370b43",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
-    "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
-    "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
+    "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
+    "Content/Computer Science/Operating Systems/Revision",
+    "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
+    "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
+    "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 5.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 4.md",
     "Content/Computer Science/Operating Systems/Notes/11.4 Log File Systems.md",
@@ -203,14 +205,12 @@
     "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/8.5 Solid State Disks.md",
     "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
-    "Content/Computer Science/Operating Systems/Notes/10.4 Symbolic Links.md",
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
     "Images/Pasted image 20241017175239.png",
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/server.js",
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 4.2.png",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/appendix",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
