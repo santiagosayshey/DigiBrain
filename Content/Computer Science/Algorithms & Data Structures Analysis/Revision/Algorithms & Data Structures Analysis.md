@@ -1,4 +1,4 @@
-![[Cheatsheet]]
+![[Content/Computer Science/Algorithms & Data Structures Analysis/Revision/Cheatsheet]]
 # Notes
 
 ![[1.1 Asymptotic Notation]]
