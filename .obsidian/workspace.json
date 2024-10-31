@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cheatsheet"
+              "title": "1.4 Kernel"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "a358da3bad370b43",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
     "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
+    "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
     "Content/Computer Science/Operating Systems/Revision",
     "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
     "Content/Computer Science/Operating Systems/Notes/1.3 Threads.md",
