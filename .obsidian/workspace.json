@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.6 Summary So Far"
+              "title": "2.5 Scheduling"
             }
           }
         ]
@@ -165,10 +165,10 @@
   },
   "active": "a358da3bad370b43",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
     "Content/Computer Science/Operating Systems/Notes/2.2 System Calls.md",
-    "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Content/Computer Science/Operating Systems/Notes/1.1 Operating Systems.md",
     "Content/Computer Science/Operating Systems/Notes/1.4 Kernel.md",
     "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
