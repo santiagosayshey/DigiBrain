@@ -37,8 +37,7 @@
               "title": "Tutorial 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0490ed2de95cc269",
+  "active": "a358da3bad370b43",
   "lastOpenFiles": [
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
     "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
