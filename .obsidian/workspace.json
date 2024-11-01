@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/5.3 Address Space Optimisations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 1"
+              "title": "5.3 Address Space Optimisations"
             }
           },
           {
@@ -211,9 +211,18 @@
   },
   "active": "85a837ba1fb126ee",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/5.2 Page Replacement Algorithms.md",
+    "Content/Computer Science/Operating Systems/Notes/5.1 Demand Paging.md",
+    "Content/Computer Science/Operating Systems/Notes/4.3 Smaller Page Tables.md",
+    "Content/Computer Science/Operating Systems/Notes/4.2 TLB Context Switching.md",
+    "Content/Computer Science/Operating Systems/Notes/4.1 Translation Lookaside Buffer.md",
+    "Content/Computer Science/Operating Systems/Notes/3.5 Paging.md",
+    "Content/Computer Science/Operating Systems/Notes/3.4 Virtual Segmentation.md",
+    "Content/Computer Science/Operating Systems/Notes/3.3 Buffer Overflows.md",
+    "Content/Computer Science/Operating Systems/Notes/3.1 Address Space Translation.md",
+    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Operating Systems/Notes/6.1 Concurrency.md",
     "Content/Computer Science/Operating Systems/Notes/2.5 Scheduling.md",
-    "Content/Computer Science/Operating Systems/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Operating Systems/Tutorials/Tutorial 2.md",
     "Content/Computer Science/Operating Systems/Notes/2.6 Summary So Far.md",
     "Content/Computer Science/Operating Systems/Notes/2.3 Dispatching.md",
@@ -231,7 +240,6 @@
     "Images/Pasted image 20241031075245.png",
     "Content/Computer Science/Operating Systems/Notes/11.3 Journalling.md",
     "Content/Computer Science/Operating Systems/Notes/11.2 File System Check.md",
-    "Content/Computer Science/Operating Systems/Notes/11.1 Fast File Systems.md",
     "Images/Pasted image 20241031065044.png",
     "Images/cylinder-groups-diagram 1.svg",
     "Images/cylinder-groups-diagram.svg",
@@ -243,14 +251,6 @@
     "Content/Computer Science/Computer Systems/Revision/Week 4 Worksheet.pdf",
     "Content/Computer Science/Computer Systems/Revision/Week 3 Worksheet.pdf",
     "Content/Computer Science/Computer Systems/Revision/Week 2 Worksheet.pdf",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Sam - Group 5 Peer Review.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Sam - Group 4 Peer Review.md",
-    "Content/Computer Science/Secure Programming/Project/Peer Review/Sam - Group 3 Peer Review.md",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix Z - Unauthorised Access.md",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix Y - Client Spoof.md",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix X - Convert Control Mechanism.md",
-    "Content/Computer Science/Secure Programming/Project/Backdoors/Appendix W - Data Exfiltration.md",
-    "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
