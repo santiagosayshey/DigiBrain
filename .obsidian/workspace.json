@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,13 +239,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61fe1c5303daa5e1",
+  "active": "aeab03dc7ffe9fe7",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
     "Content/Computer Science/Operating Systems/Notes/7.4 Banker's Algorithm.md",
     "Content/Computer Science/Operating Systems/Notes/7.3 Deadlocks.md",
     "Content/Computer Science/Operating Systems/Notes/7.2 Therac-25.md",
-    "Content/Computer Science/Operating Systems/Notes/7.1 Semaphores.md",
     "Content/Computer Science/Operating Systems/Notes/6.6 Condition Variables.md",
     "Content/Computer Science/Operating Systems/Notes/6.5 Futex.md",
     "Content/Computer Science/Operating Systems/Notes/6.4 Spin vs Block.md",
