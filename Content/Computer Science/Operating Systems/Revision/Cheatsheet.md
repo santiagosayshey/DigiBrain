@@ -71,39 +71,3 @@
   2. Check if the request is less than or equal to the available resources.
   3. Temporarily allocate resources and check for a safe state.
   4. If safe, grant the request; otherwise, the thread waits.
-
-**Summary**:
-
-- **Race Conditions**: Solved by protecting critical sections with locks.
-- **Locks**: Ensure mutual exclusion; implemented using atomic instructions.
-- **Condition Variables**: Coordinate execution order among threads; used with locks.
-- **Semaphores**: Control access to resources and synchronize threads.
-- **Deadlock**: Prevented by eliminating one of the four necessary conditions or using algorithms like the Banker's Algorithm.
-
-# Short Examples
-
-**Dispatching**: Transfer control of the CPU to a process selected by the scheduler via context switches—save the current process state, load the next process state in kernel mode, then switch to user mode to execute the process.
-
-**Allow Processes to Yield Control**: Can lead to malicious programs monopolizing resources and never yielding.
-
-**Allow OS to Interrupt Running Processes**: Lets other processes take control.
-
-**Process States**: Manage underutilization of the CPU due to slow I/O (blocked) and give control to other processes waiting on the CPU (ready) so they can begin execution (running).
-
-**Scheduling Strategies**:
-
-- **First-In-First-Out (FIFO)**: Executes processes to completion in the order they arrive.
-
-  - **Advantages**: Simple to implement; low overhead; predictable.
-  - **Issue**: Short jobs wait for long jobs to finish (convoy problem).
-
-- **Shortest Job First**: Executes the shortest available job next to minimize average waiting time.
-
-  - **Advantages**: Reduces average waiting time.
-  - **Issues**:
-    - **Timing**: Long jobs may wait indefinitely if short jobs keep arriving.
-    - **Knowledge**: Hard to know execution time in advance.
-
----
-
-By structuring the content in concise paragraphs and single-level bullet points, this cheatsheet aligns with your preferred style and provides a clear, compact overview of concurrency concepts.
