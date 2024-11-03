@@ -163,13 +163,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/11.1 Fast File Systems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.3 File Linking"
+              "title": "11.1 Fast File Systems"
             }
           }
         ],
@@ -316,15 +316,15 @@
   },
   "active": "c6d9cce1c416e2d8",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
+    "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
+    "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
     "Content/Computer Science/Operating Systems/Notes/11.2 File System Check.md",
     "Content/Computer Science/Operating Systems/Notes/11.1 Fast File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
     "Content/Computer Science/Operating Systems/Notes/11.4 Log File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/11.3 Journalling.md",
     "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md",
-    "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
-    "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
-    "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
     "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
     "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/9.7 RAID Comparison.md",
