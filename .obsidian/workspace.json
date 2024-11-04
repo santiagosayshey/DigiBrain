@@ -4,173 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4f92f3648892d7be",
+        "id": "15ecff423f6c09e5",
         "type": "tabs",
         "children": [
           {
-            "id": "cb36e6d4e991b3e5",
+            "id": "dee16462a9d62d80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
+                "file": "Content/Computer Science/Operating Systems/Notes/1.2 Processes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.1 File Systems"
-            }
-          },
-          {
-            "id": "4c0a5b7a72ba3d45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10.2 Forks"
-            }
-          },
-          {
-            "id": "48a4a69cd237ba56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10.3 File Linking"
-            }
-          },
-          {
-            "id": "0604b3117fd26146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10.4 Many File Systems"
-            }
-          },
-          {
-            "id": "acbdaa2dfb62c9ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10.5 FS Implementation"
-            }
-          },
-          {
-            "id": "989916540d31569b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10.6 File Data Structures"
-            }
-          },
-          {
-            "id": "252ce124e303728c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10.7 File Operations"
-            }
-          },
-          {
-            "id": "40199f64b948c10c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/11.1 Fast File Systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11.1 Fast File Systems"
-            }
-          },
-          {
-            "id": "a9860d40e81edb8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/11.2 File System Check.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11.2 File System Check"
-            }
-          },
-          {
-            "id": "66dddc815a26367b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Notes/11.3 Journalling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11.3 Journalling"
-            }
-          },
-          {
-            "id": "c6d9cce1c416e2d8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Operating Systems - Cheatsheet"
+              "title": "1.2 Processes"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "guid",
+                "query": "process control block",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -311,11 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "dee16462a9d62d80",
   "lastOpenFiles": [
+    "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
     "Content/Computer Science/Operating Systems/Notes/11.4 Log File Systems.md",
-    "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
-    "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
     "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
     "Content/Computer Science/Operating Systems/Notes/11.1 Fast File Systems.md",
     "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
