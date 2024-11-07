@@ -36,9 +36,24 @@
               "icon": "lucide-file",
               "title": "10.1 Fuzzing"
             }
+          },
+          {
+            "id": "c8de777c6284c30b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/10.2 human aspects.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10.2 human aspects"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,10 +194,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8338a5381387d7c3",
+  "active": "c8de777c6284c30b",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/10.2 human aspects.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/10.2 human aspects.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
