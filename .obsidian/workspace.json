@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/10.3 Usable Security.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/11.2 DevOps.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.3 Usable Security"
+              "title": "11.2 DevOps"
             }
           }
         ],
@@ -211,8 +211,10 @@
   },
   "active": "13bf4301984ce8e5",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/10.2  Human Aspects.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/11.1 Software Development Lifecycle.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/11.2 DevOps.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.3 Usable Security.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/10.2  Human Aspects.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
@@ -236,8 +238,6 @@
     "Content/Computer Science/Operating Systems/Notes/9.4 RAID-1.md",
     "Content/Computer Science/Operating Systems/Notes/9.3 RAID-0.md",
     "Content/Computer Science/Operating Systems/Notes/9.2 RAID.md",
-    "Content/Computer Science/Operating Systems/Notes/9.1 Sockets.md",
-    "Content/Computer Science/Operating Systems/Notes/8.6 IO Schedulers.md",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
     "Images/Pasted image 20241031075245.png",
