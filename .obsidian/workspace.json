@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Revision/Canvas.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Canvas"
+              "title": "2.3 CSRF Example"
             }
           }
         ],
@@ -114,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "process control block",
+                "query": "dirty cow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -224,10 +225,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bd400798a55583a",
+  "active": "cedd67da0bc47203",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md",
     "Content/Computer Science/Secure Programming/Revision",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.4 Who Is The Opponent.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.2 Threat Modelling.md",
@@ -252,8 +255,6 @@
     "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
     "Content/Computer Science/Operating Systems/Notes/11.3 Journalling.md",
     "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md",
-    "Content/Computer Science/Operating Systems/Notes/10.2 Forks.md",
-    "Content/Computer Science/Operating Systems/Notes/10.1 File Systems.md",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
     "Images/Pasted image 20241031075245.png",

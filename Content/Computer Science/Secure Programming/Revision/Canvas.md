@@ -50,6 +50,14 @@
 
 - **Opponents in Cybersecurity**:
 
+| Strategy       | Explanation                                               | Real-Life Example                                           |
+|----------------|-----------------------------------------------------------|-------------------------------------------------------------|
+| **Avoidance**      | Eliminate the risk entirely by removing its cause.          | **Apple's removal of Flash support** due to security issues. |
+| **Transference**   | Shift the risk to a third party better equipped to handle it. | **Using cloud services like AWS**, transferring infrastructure risks. |
+| **Mitigation**     | Reduce the likelihood or impact of the risk through proactive measures. | **Implementing HTTPS** across all websites to secure communications. |
+| **Acceptance**     | Acknowledge and accept the risk without action, often for minor risks.     | **Accepting minor UI bugs** in a non-critical application.    |
+
+
 | Opponent Type      | Motives/Actions                                      | Real-Life Example                                             |
 |--------------------|------------------------------------------------------|---------------------------------------------------------------|
 | **Nation-States**  | Espionage, sabotage, political gain through advanced persistent threats (APTs). | **Stuxnet (2010)**: Malware attack on Iranian nuclear facilities. |
