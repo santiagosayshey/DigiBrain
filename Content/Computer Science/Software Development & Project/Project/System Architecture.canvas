@@ -44,8 +44,8 @@
 		{"id":"9f94633680a7ed64","type":"text","text":"React","x":-2022,"y":-184,"width":120,"height":60,"color":"#0091ff"},
 		{"id":"f6ca7129aacae657","type":"text","text":"","x":-1738,"y":-287,"width":50,"height":50},
 		{"id":"b32f4e59da91f5f0","type":"text","text":"ChartJS","x":-1812,"y":-294,"width":127,"height":60,"color":"#0091ff"},
-		{"id":"1e0f9132acbb29f8","type":"text","text":"System Administrator","x":-2299,"y":888,"width":200,"height":60,"color":"6"},
-		{"id":"6c23d6f5aec73df6","type":"text","text":"Business User","x":-2297,"y":727,"width":200,"height":60,"color":"6"}
+		{"id":"6c23d6f5aec73df6","type":"text","text":"Business User","x":-2297,"y":727,"width":200,"height":60,"color":"6"},
+		{"id":"1e0f9132acbb29f8","type":"text","text":"System Administrator","x":-2295,"y":803,"width":200,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"1992c8a6cc503ea4","fromNode":"06b9423de01a8bff","fromSide":"bottom","toNode":"81d95da0fc65b1d9","toSide":"top","label":"Formats / Lints"},
