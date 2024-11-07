@@ -116,17 +116,15 @@
             "id": "8cae997744b29dc3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
-                "viewState": {
-                  "x": -1350,
-                  "y": 328,
-                  "zoom": -0.10775618035588296
-                }
+                "file": "Content/Computer Science/Software Development & Project/Project/Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "System Architecture"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -273,8 +271,10 @@
   },
   "active": "8cae997744b29dc3",
   "lastOpenFiles": [
-    "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
+    "Images/Pasted image 20241107225910.png",
+    "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
+    "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
     "Content/Computer Science/Software Development & Project/Project/Untitled.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
@@ -300,7 +300,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
     "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
@@ -322,7 +321,6 @@
     "Content/Computer Science/Secure Programming/Project/Backdoors/appendix/Image 4.2.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
-    "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
   ]
 }
