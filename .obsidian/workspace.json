@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.1 Exploit Mitigations"
+              "title": "5.4 Return Oriented Programming"
             }
           }
         ],
@@ -181,6 +181,7 @@
   },
   "active": "aa76b28063228e9c",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.6 Pointer Authentication.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
@@ -188,7 +189,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.2 Non Executable Pages.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/5.1 Exploit Mitigations.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.1 Off By One.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.2 Heaps.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
