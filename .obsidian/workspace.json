@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.3 CSRF Example"
+              "title": "7.3 Race Conditions"
             }
           }
         ],
@@ -225,8 +225,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cedd67da0bc47203",
+  "active": "9bd400798a55583a",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
@@ -254,7 +255,6 @@
     "Content/Computer Science/Operating Systems/Notes/11.2 File System Check.md",
     "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
     "Content/Computer Science/Operating Systems/Notes/11.3 Journalling.md",
-    "Content/Computer Science/Operating Systems/Notes/10.6 File Data Structures.md",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
     "Images/Pasted image 20241031075245.png",
