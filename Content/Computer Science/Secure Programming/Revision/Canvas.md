@@ -65,38 +65,31 @@
 | **Hacktivists**    | Ideological motives, protest via DDoS attacks, defacements. | **Anonymous (2010)**: Attacks on PayPal and others supporting anti-piracy. |
 | **Insider Threats**| Employees causing harm intentionally or accidentally. | **Edward Snowden (2013)**: Leaked classified NSA documents.     |
 | **Script Kiddies** | Novices using existing tools for fun or recognition. | **TalkTalk Hack (2015)**: Teenager exploited vulnerabilities causing data breach. |
-**Week 2 Cheat Sheet: Injection Flaws**
 
-**Types of Injection Attacks with Examples and Mitigations**
+**Injection Flaws: Types, Examples, and Mitigations**
 
-| **Attack Type**       | **Description**                                      | **Vulnerable Code Example**                                                                                                                | **Attack Input**                            | **Effect**                                                                                           | **Mitigation Code Example**                                                                                                              |
-|-----------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **SQL Injection**     | Untrusted input alters SQL queries                   | ```sql<br>query = "SELECT * FROM users WHERE username = '" + username + "'";<br>```                                                       | `username = "' OR '1'='1"`                 | Bypasses authentication, attacker logs in without valid credentials                                 | ```sql<br>query = "SELECT * FROM users WHERE username = ?";<br>stmt.execute(username);<br>```                                            |
-| **Command Injection** | Untrusted input executed as system commands          | ```javascript<br>exec("ping " + ipAddress);<br>```                                                                                        | `ipAddress = "8.8.8.8; rm -rf /"`          | Executes unintended commands, potential system compromise                                           | ```javascript<br>if (isValidIP(ipAddress)) { exec("ping " + ipAddress); }<br>```                                                         |
-| **XSS (Cross-Site Scripting)** | Malicious scripts injected into webpages             | ```html<br><div>User comment: ' + comment + '</div><br>```                                                                               | `comment = "<script>alert('XSS');</script>"` | Attacker's script runs in users' browsers, stealing data or hijacking sessions                      | ```html<br><div>User comment: ' + escape(comment) + '</div><br>```                                                                       |
-| **CSRF (Cross-Site Request Forgery)** | Unauthorized actions performed on behalf of a user | **Server lacks CSRF protection on sensitive endpoints**                                                                                   | User visits malicious site with hidden form | Attacker forces authenticated users to execute unwanted actions (e.g., fund transfer)               | **Implement CSRF tokens:** Include a hidden token in forms and verify it server-side                                                     |
+| **Attack Type** | **Description** | **Vulnerable Code Example** | **Attack Input** | **Effect** | **Mitigation Example** |
+|-----------------|-----------------|-----------------------------|------------------|------------|------------------------|
+| **SQL Injection** | Untrusted input alters SQL queries | `query = "SELECT * FROM users WHERE username = '" + username + "'";` | `username = "' OR '1'='1"` | Bypasses authentication; attacker logs in without credentials | Use parameterized queries: `query = "SELECT * FROM users WHERE username = ?";` |
+| **Command Injection** | Untrusted input executed as system commands | `exec("ping " + ipAddress);` | `ipAddress = "8.8.8.8; rm -rf /"` | Executes unintended commands; system compromise | Validate input: ensure `ipAddress` is a valid IP; avoid using `exec` with user input |
+| **XSS (Cross-Site Scripting)** | Malicious scripts injected into webpages | Renders user input directly: `<div>User: ` + userInput + `</div>` | `userInput = "<script>alert('XSS');</script>"` | Attacker's script runs in users' browsers | Encode output: escape `userInput` before rendering |
+| **CSRF (Cross-Site Request Forgery)** | Unauthorized actions performed on behalf of a user | Sensitive actions without CSRF protection | User visits malicious site with hidden form | Attacker forces user to execute unwanted actions (e.g., fund transfer) | Implement CSRF tokens: include in forms and verify server-side |
 
-**Key Points:**
+**Consequences of Injection Attacks**:
 
-- **Consequences of Injection Attacks:**
-  - Data breaches (e.g., **Sony PSN breach 2011** via SQL injection exposed 77 million accounts)
-  - Unauthorized access and data manipulation
-  - Service disruptions and system compromises
+- Data breaches (e.g., **Sony PSN breach 2011** via SQL injection exposed 77 million accounts)
+- Unauthorized access and data manipulation
+- Service disruptions and system compromises
 
-- **Mitigation Strategies:**
-  - **Parameterized Queries/Prepared Statements:** Prevent SQL injection by separating code from data
-  - **Input Validation and Sanitization:** Ensure inputs match expected patterns (e.g., using regex)
-  - **Output Encoding:** Escape data before rendering to prevent XSS
-  - **Use Safe APIs:** Avoid executing shell commands with user input
-  - **Implement CSRF Protection:** Use tokens to validate legitimate requests
-  - **Principle of Least Privilege:** Limit permissions to minimize potential damage
+**Mitigation Strategies**:
 
-**Summary:**
-
-- **Injection flaws occur when untrusted input is treated as code or commands**
-- **Always validate and sanitize user inputs**
-- **Use security best practices to prevent exploitation**
+- **Parameterized Queries/Prepared Statements**: Prevent SQL injection by separating code from data
+- **Input Validation and Sanitization**: Ensure inputs match expected patterns
+- **Output Encoding**: Escape data before rendering to prevent XSS
+- **Use Safe APIs**: Avoid executing shell commands with user input
+- **Implement CSRF Protection**: Use tokens to validate legitimate requests
+- **Principle of Least Privilege**: Limit permissions to minimize potential damage
 
 ---
 
-*This cheat sheet presents the essential information on injection flaws, including concise examples and mitigations, organized in a table to maximize space and facilitate quick reference during exams.*
+*This concise cheat sheet provides essential information on injection flaws, including inline code examples within the table, and avoids unnecessary headings or wasted space, fitting within your space constraints.*
