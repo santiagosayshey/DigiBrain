@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Backend.md",
+                "file": "Content/Computer Science/Software Development & Project/Project/Context Model.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backend"
+              "title": "Context Model"
             }
           }
         ],
@@ -271,10 +271,11 @@
   },
   "active": "8cae997744b29dc3",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Project/Backend.md",
+    "Content/Computer Science/Software Development & Project/Project/Context Model.md",
     "Content/Computer Science/Software Development & Project/Project/API.md",
     "Content/Computer Science/Software Development & Project/Project/Frontend.md",
     "Content/Computer Science/Software Development & Project/Project/General.md",
-    "Content/Computer Science/Software Development & Project/Project/Backend.md",
     "Images/Pasted image 20241107230235.png",
     "Images/Pasted image 20241107225910.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
@@ -301,7 +302,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/11.1 Software Development Lifecycle.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.3 Usable Security.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.2  Human Aspects.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
     "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
