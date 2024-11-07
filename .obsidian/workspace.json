@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/12.1 Logging & Auditing.md",
+                "file": "Content/Computer Science/Secure Programming/Revision/Canvas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.1 Logging & Auditing"
+              "title": "Canvas"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "4e24d7b42e39f0fd",
   "lastOpenFiles": [
-    "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/12.1 Logging & Auditing.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/1.1 Security Engineering.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.2 Covert Channels.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/6.1 Side Channels.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.4 Return Oriented Programming.md",
