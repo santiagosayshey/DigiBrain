@@ -41,39 +41,39 @@
 
 - **Responding to Risks**:
 
-| Strategy       | Explanation                                               | Real-Life Example                                           |
-|----------------|-----------------------------------------------------------|-------------------------------------------------------------|
-| **Avoidance**      | Eliminate the risk entirely by removing its cause.          | **Apple's removal of Flash support** due to security issues. |
-| **Transference**   | Shift the risk to a third party better equipped to handle it. | **Using cloud services like AWS**, transferring infrastructure risks. |
-| **Mitigation**     | Reduce the likelihood or impact of the risk through proactive measures. | **Implementing HTTPS** across all websites to secure communications. |
-| **Acceptance**     | Acknowledge and accept the risk without action, often for minor risks.     | **Accepting minor UI bugs** in a non-critical application.    |
+| Strategy         | Explanation                                                             | Real-Life Example                                                     |
+| ---------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Avoidance**    | Eliminate the risk entirely by removing its cause.                      | **Apple's removal of Flash support** due to security issues.          |
+| **Transference** | Shift the risk to a third party better equipped to handle it.           | **Using cloud services like AWS**, transferring infrastructure risks. |
+| **Mitigation**   | Reduce the likelihood or impact of the risk through proactive measures. | **Implementing HTTPS** across all websites to secure communications.  |
+| **Acceptance**   | Acknowledge and accept the risk without action, often for minor risks.  | **Accepting minor UI bugs** in a non-critical application.            |
 
 - **Opponents in Cybersecurity**:
 
-| Strategy       | Explanation                                               | Real-Life Example                                           |
-|----------------|-----------------------------------------------------------|-------------------------------------------------------------|
-| **Avoidance**      | Eliminate the risk entirely by removing its cause.          | **Apple's removal of Flash support** due to security issues. |
-| **Transference**   | Shift the risk to a third party better equipped to handle it. | **Using cloud services like AWS**, transferring infrastructure risks. |
-| **Mitigation**     | Reduce the likelihood or impact of the risk through proactive measures. | **Implementing HTTPS** across all websites to secure communications. |
-| **Acceptance**     | Acknowledge and accept the risk without action, often for minor risks.     | **Accepting minor UI bugs** in a non-critical application.    |
+| Strategy         | Explanation                                                             | Real-Life Example                                                     |
+| ---------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Avoidance**    | Eliminate the risk entirely by removing its cause.                      | **Apple's removal of Flash support** due to security issues.          |
+| **Transference** | Shift the risk to a third party better equipped to handle it.           | **Using cloud services like AWS**, transferring infrastructure risks. |
+| **Mitigation**   | Reduce the likelihood or impact of the risk through proactive measures. | **Implementing HTTPS** across all websites to secure communications.  |
+| **Acceptance**   | Acknowledge and accept the risk without action, often for minor risks.  | **Accepting minor UI bugs** in a non-critical application.            |
 
 
-| Opponent Type      | Motives/Actions                                      | Real-Life Example                                             |
-|--------------------|------------------------------------------------------|---------------------------------------------------------------|
-| **Nation-States**  | Espionage, sabotage, political gain through advanced persistent threats (APTs). | **Stuxnet (2010)**: Malware attack on Iranian nuclear facilities. |
-| **Cybercriminals** | Financial gain via ransomware, data theft, fraud.    | **WannaCry (2017)**: Ransomware affecting 200,000+ systems globally. |
-| **Hacktivists**    | Ideological motives, protest via DDoS attacks, defacements. | **Anonymous (2010)**: Attacks on PayPal and others supporting anti-piracy. |
-| **Insider Threats**| Employees causing harm intentionally or accidentally. | **Edward Snowden (2013)**: Leaked classified NSA documents.     |
-| **Script Kiddies** | Novices using existing tools for fun or recognition. | **TalkTalk Hack (2015)**: Teenager exploited vulnerabilities causing data breach. |
+| Opponent Type       | Motives/Actions                                                                 | Real-Life Example                                                                 |
+| ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Nation-States**   | Espionage, sabotage, political gain through advanced persistent threats (APTs). | **Stuxnet (2010)**: Malware attack on Iranian nuclear facilities.                 |
+| **Cybercriminals**  | Financial gain via ransomware, data theft, fraud.                               | **WannaCry (2017)**: Ransomware affecting 200,000+ systems globally.              |
+| **Hacktivists**     | Ideological motives, protest via DDoS attacks, defacements.                     | **Anonymous (2010)**: Attacks on PayPal and others supporting anti-piracy.        |
+| **Insider Threats** | Employees causing harm intentionally or accidentally.                           | **Edward Snowden (2013)**: Leaked classified NSA documents.                       |
+| **Script Kiddies**  | Novices using existing tools for fun or recognition.                            | **TalkTalk Hack (2015)**: Teenager exploited vulnerabilities causing data breach. |
 
 **Injection Flaws: Types, Examples, and Mitigations**
 
-| **Attack Type** | **Description** | **Vulnerable Code Example** | **Attack Input** | **Effect** | **Mitigation Example** |
-|-----------------|-----------------|-----------------------------|------------------|------------|------------------------|
-| **SQL Injection** | Untrusted input alters SQL queries | `query = "SELECT * FROM users WHERE username = '" + username + "'";` | `username = "' OR '1'='1"` | Bypasses authentication; attacker logs in without credentials | Use parameterized queries: `query = "SELECT * FROM users WHERE username = ?";` |
-| **Command Injection** | Untrusted input executed as system commands | `exec("ping " + ipAddress);` | `ipAddress = "8.8.8.8; rm -rf /"` | Executes unintended commands; system compromise | Validate input: ensure `ipAddress` is a valid IP; avoid using `exec` with user input |
-| **XSS (Cross-Site Scripting)** | Malicious scripts injected into webpages | Renders user input directly: `<div>User: ` + userInput + `</div>` | `userInput = "<script>alert('XSS');</script>"` | Attacker's script runs in users' browsers | Encode output: escape `userInput` before rendering |
-| **CSRF (Cross-Site Request Forgery)** | Unauthorized actions performed on behalf of a user | Sensitive actions without CSRF protection | User visits malicious site with hidden form | Attacker forces user to execute unwanted actions (e.g., fund transfer) | Implement CSRF tokens: include in forms and verify server-side |
+| **Attack Type**                       | **Description**                                    | **Vulnerable Code Example**                                          | **Attack Input**                               | **Effect**                                                             | **Mitigation Example**                                                               |
+| ------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **SQL Injection**                     | Untrusted input alters SQL queries                 | `query = "SELECT * FROM users WHERE username = '" + username + "'";` | `username = "' OR '1'='1"`                     | Bypasses authentication; attacker logs in without credentials          | Use parameterized queries: `query = "SELECT * FROM users WHERE username = ?";`       |
+| **Command Injection**                 | Untrusted input executed as system commands        | `exec("ping " + ipAddress);`                                         | `ipAddress = "8.8.8.8; rm -rf /"`              | Executes unintended commands; system compromise                        | Validate input: ensure `ipAddress` is a valid IP; avoid using `exec` with user input |
+| **XSS (Cross-Site Scripting)**        | Malicious scripts injected into webpages           | Renders user input directly: `<div>User: ` + userInput + `</div>`    | `userInput = "<script>alert('XSS');</script>"` | Attacker's script runs in users' browsers                              | Encode output: escape `userInput` before rendering                                   |
+| **CSRF (Cross-Site Request Forgery)** | Unauthorized actions performed on behalf of a user | Sensitive actions without CSRF protection                            | User visits malicious site with hidden form    | Attacker forces user to execute unwanted actions (e.g., fund transfer) | Implement CSRF tokens: include in forms and verify server-side                       |
 
 **Consequences of Injection Attacks**:
 

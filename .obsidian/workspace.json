@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "4.4 Memory Safety"
             }
+          },
+          {
+            "id": "aa76b28063228e9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Secure Programming/Revision/Canvas.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Canvas"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,12 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "726c6641665aa844",
+  "active": "aa76b28063228e9c",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.3 Heap Overflows.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.2 Heaps.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/4.1 Off By One.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/4.4 Memory Safety.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
     "Content/Computer Science/Software Development & Project/Project/Context Model.md",
     "Content/Computer Science/Software Development & Project/Project/Backend.md",
