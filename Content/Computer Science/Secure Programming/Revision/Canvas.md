@@ -122,11 +122,11 @@ I apologize for not following your instructions earlier. I will avoid one-line b
 
 **Authentication Factors, Attacks, and Mitigations**
 
-| **Factor**            | **Attack Methods**                         | **Examples**                                    | **Mitigations**                                                                                                                                   |
-|-----------------------|--------------------------------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Something You Know** | Stealing passwords via phishing, keyloggers, network sniffing | Phishing emails, keylogger malware, intercepted credentials | Use strong, unique passwords; enable multi-factor authentication (MFA); avoid transmitting passwords in plaintext; educate users about phishing. |
-| **Something You Have** | Cloning tokens, SIM swapping              | Duplicating access cards, SIM cloning           | Secure physical tokens; use tamper-resistant devices; monitor account activity; implement hardware security modules (HSMs).                      |
-| **Something You Are**  | Replicating biometrics                    | Fake fingerprints, 3D-printed fingerprints, masks to fool facial recognition | Implement liveness detection in biometric systems; combine with other factors (MFA); regularly update and secure biometric templates.            |
+| **Factor**             | **Attack Methods**                                            | **Examples**                                                                 | **Mitigations**                                                                                                                                  |
+| ---------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Something You Know** | Stealing passwords via phishing, keyloggers, network sniffing | Phishing emails, keylogger malware, intercepted credentials                  | Use strong, unique passwords; enable multi-factor authentication (MFA); avoid transmitting passwords in plaintext; educate users about phishing. |
+| **Something You Have** | Cloning tokens, SIM swapping                                  | Duplicating access cards, SIM cloning                                        | Secure physical tokens; use tamper-resistant devices; monitor account activity; implement hardware security modules (HSMs).                      |
+| **Something You Are**  | Replicating biometrics                                        | Fake fingerprints, 3D-printed fingerprints, masks to fool facial recognition | Implement liveness detection in biometric systems; combine with other factors (MFA); regularly update and secure biometric templates.            |
 
 ---
 
