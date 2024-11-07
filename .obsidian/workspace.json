@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
+                "file": "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.3 CSRF Example"
+              "title": "3.6 Format String Attack"
             }
           }
         ],
@@ -241,11 +241,16 @@
   },
   "active": "c683969fc9aa5a75",
   "lastOpenFiles": [
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.5 Integer Overflow.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.4 Buffer Overflow.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.3 Stack Frames.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/3.1 Diffie-Hellman Key Exchange.md",
+    "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.2 Shellcode Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/2.1 Input Sanitisation.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/7.3 Race Conditions.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/2.3 CSRF Example.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.3 Attack Trees.md",
     "Content/Computer Science/Secure Programming/Revision",
     "Content/Computer Science/Secure Programming/Lecture Notes/1.4 Who Is The Opponent.md",
@@ -264,11 +269,6 @@
     "Content/Computer Science/Operating Systems/Notes/11.4 Log File Systems.md",
     "Content/Computer Science/Operating Systems/Revision/Cheatsheet.md",
     "Content/Computer Science/Operating Systems/Notes/11.1 Fast File Systems.md",
-    "Content/Computer Science/Operating Systems/Notes/10.5 FS Implementation.md",
-    "Content/Computer Science/Operating Systems/Notes/10.4 Many File Systems.md",
-    "Content/Computer Science/Operating Systems/Notes/10.3 File Linking.md",
-    "Content/Computer Science/Operating Systems/Notes/11.2 File System Check.md",
-    "Content/Computer Science/Operating Systems/Notes/10.7 File Operations.md",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
     "Images/Pasted image 20241031075245.png",
