@@ -109,7 +109,7 @@ I apologize for not following your instructions earlier. I will avoid one-line b
 | 2    | Selects private `a=6`, computes `A = g^a mod p = 8`.         | Selects private `b=15`, computes `B = g^b mod p = 19`.      |
 | 3    | Receives `B=19`, computes shared secret `s = B^a mod p = 2`. | Receives `A=8`, computes shared secret `s = A^b mod p = 2`. |
 | 4    | Shared secret `s=2`.                                         | Shared secret `s=2`.                                        |
-|      |                                                              |                                                             |
+
 
 | Step | Alice                                                        | Bob                                                         |
 | ---- | ------------------------------------------------------------ | ----------------------------------------------------------- |
