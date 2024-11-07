@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Software Development & Project/Project/Untitled.md",
+                "file": "Content/Computer Science/Software Development & Project/Project/Backend.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Backend"
             }
           }
         ],
@@ -271,12 +271,15 @@
   },
   "active": "8cae997744b29dc3",
   "lastOpenFiles": [
+    "Content/Computer Science/Software Development & Project/Project/API.md",
+    "Content/Computer Science/Software Development & Project/Project/Frontend.md",
+    "Content/Computer Science/Software Development & Project/Project/General.md",
+    "Content/Computer Science/Software Development & Project/Project/Backend.md",
     "Images/Pasted image 20241107230235.png",
     "Images/Pasted image 20241107225910.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Project/Initial Report.md",
-    "Content/Computer Science/Software Development & Project/Project/Untitled.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.2 Authentication.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/3.6 Format String Attack.md",
@@ -299,8 +302,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/10.3 Usable Security.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.2  Human Aspects.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
     "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
     "Content/Computer Science/Operating Systems/Revision",
     "Images/Pasted image 20241031081643.png",
@@ -318,7 +319,6 @@
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
-    "Images/Pasted image 20241017175239.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
