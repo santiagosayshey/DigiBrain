@@ -5,9 +5,8 @@ graph TB
         SA[System Administrator]
     end
 
-    subgraph
+    subgraph System Architecture
         QB[Query Builder Interface]
-        VIS[ChartsJS]
         AUTH[Authentication System]
         AD[Admin Dashboard]
     end
@@ -25,9 +24,6 @@ graph TB
     SA -->|Configure Permissions| AUTH
     SA -->|Monitor System| AD
     SA -->|Manage Buckets| DB
-
-	%% Core Feature Integrations
-	QB -->|Visualises| VIS
 
     %% System Connections
     QB -->|Generate Flux| DB
