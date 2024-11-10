@@ -5,23 +5,20 @@ graph TB
         SA[System Administrator]
     end
 
-    subgraph Core Features
+    subgraph
         QB[Query Builder Interface]
-        VIS[Visualization Tools]
+        VIS[ChartsJS]
         AUTH[Authentication System]
         AD[Admin Dashboard]
     end
 
     subgraph Data Access
         DB[(InfluxDB)]
-        GR[Grafana Integration]
     end
 
     %% Business User Interactions
     BU -->|Login/Register| AUTH
     BU -->|Create Queries| QB
-    BU -->|View/Export Data| VIS
-    BU -->|Save Visualizations| GR
 
     %% System Administrator Interactions
     SA -->|Manage Users| AD
@@ -29,9 +26,10 @@ graph TB
     SA -->|Monitor System| AD
     SA -->|Manage Buckets| DB
 
+	%% Core Feature Integrations
+	QB -->|Visualises| VIS
+
     %% System Connections
     QB -->|Generate Flux| DB
-    VIS -->|Fetch Data| DB
-    GR -->|Display Dashboards| VIS
 ```
 
