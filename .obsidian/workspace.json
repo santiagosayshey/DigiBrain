@@ -13,29 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Qualities.md",
+                "file": "Content/Projects/Dictionarry/Streaming Services v2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Qualities"
-            }
-          },
-          {
-            "id": "30cdab84921d217c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Streaming Services v2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,11 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30cdab84921d217c",
+  "active": "f139e2c2072be1d2",
   "lastOpenFiles": [
     "Content/Projects/Dictionarry/Qualities.md",
-    "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Projects/Dictionarry/Project Workflow.md",
+    "Content/Projects/Dictionarry/Profile Master List.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
+    "Content/Projects/Dictionarry/Streaming Services v2.md",
+    "Content/Projects/Dictionarry/Commit Message Standard.md",
+    "Content/Projects/Dictionarry/Importarr v2.md",
+    "Content/Projects/Dictionarry/DStandard.md",
     "Content/Computer Science/Software Development & Project/Project/Context Model.md",
     "Content/Computer Science/Software Development & Project/Project/General.md",
     "Content/Computer Science/Secure Programming/Revision/Canvas.md",
@@ -199,11 +191,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.4 Taint Analysis.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.3 Symbolic Execution.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.3 Metamorphic Code.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.2 Polymorphic Code.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.4 Worms.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/8.5 Payloads.md",
     "Images/Pasted image 20241107230235.png",
     "Images/Pasted image 20241107225910.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
@@ -226,7 +213,6 @@
     "Images/Pasted image 20241017175557.png",
     "Images/Pasted image 20241017175420.png",
     "Images/Pasted image 20241017175241.png",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
   ]
