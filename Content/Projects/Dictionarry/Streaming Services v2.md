@@ -230,3 +230,44 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | W Network                                       | WNET         | Canada         |
 | WatchMe                                         | WME          | United States  |
 | WWE Network                                     | WWEN         | Global         |
+`Scooby-Doo.In.Wheres.My.Mummy.2005.1080p.MA.WEB-DL.DDP5.1.H264-HHWEB.mkv`
+
+MA Regex
+
+x265
+
+Format Applies
+
+Last run: 12/2/2024, 4:38:32 PM
+
+`Speak.No.Evil.2024.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv`
+
+MA Regex
+
+x265
+
+Format Applies
+
+Last run: 12/2/2024, 4:38:32 PM
+
+`The.Super.Mario.Bros.Movie.2023.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-CMaRioG.mkv`
+
+MA Regex
+
+x265
+
+Format Does Not Apply
+
+Last run: 12/2/2024, 4:38:32 PM
+
+`Interstellar.2014.UHD.BluRay.2160p.DTS-HD.MA.5.1.HEVC.REMUX-FraMeSToR.mkv`
+
+MA Regex
+
+x265
+
+Format Does Not Apply
+
+Last run: 12/2/2024, 4:38:32 PM
+
+`The.Amazing.Spider-Man.2012.1080p.Remastered.BluRay.DTSHD-MA.x264.D-Z0N3.mkv`
