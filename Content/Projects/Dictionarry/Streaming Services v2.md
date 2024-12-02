@@ -10,22 +10,22 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 
 # Main Ranking (North America)
 
-| Rank | Streaming Service | Abbreviation | 4k Bitrate | 1080p Bitrate | Complete? |
-| ---- | ----------------- | ------------ | ---------- | ------------- | --------- |
-|      | Movies Anywhere   |              |            |               |           |
-|      | Amazon            |              |            |               |           |
-|      | Apple TV+         |              |            |               |           |
-|      | Disney+           |              |            |               |           |
-|      | **Peacock**       |              |            |               |           |
-|      | **Max**           |              |            |               |           |
-|      | HBO Max           |              |            |               |           |
-|      | Netflix           |              |            |               |           |
-|      | Paramount+        |              |            |               |           |
-|      | Criterion         |              |            |               |           |
-|      | **Hulu**          |              |            |               |           |
-|      | **Roku**          |              |            |               |           |
-|      | **iTunes**        |              |            |               |           |
-|      | **VRV**           |              |            |               |           |
+| Rank | Streaming Service | Abbreviation | 4k Bitrate | 1080p Bitrate | 720p Bitrate | SD Bitrate |
+| ---- | ----------------- | ------------ | ---------- | ------------- | ------------ | ---------- |
+| 1    | Movies Anywhere   | MA           | 25-32      | 8-10          | N/A          | N/A        |
+|      | Amazon            | AMZN, Amazon |            |               |              |            |
+|      | Apple TV+         |              |            |               |              |            |
+|      | Disney+           |              |            |               |              |            |
+| 2    | **Peacock**       |              |            |               |              |            |
+|      | **Max**           |              |            |               |              |            |
+|      | HBO Max           |              |            |               |              |            |
+|      | Netflix           |              |            |               |              |            |
+|      | Paramount+        |              |            |               |              |            |
+|      | Criterion         |              |            |               |              |            |
+| 3    | **Hulu**          |              |            |               |              |            |
+|      | **Roku**          |              |            |               |              |            |
+|      | **iTunes**        |              |            |               |              |            |
+|      | **VRV**           |              |            |               |              |            |
 
 # Complete
 
