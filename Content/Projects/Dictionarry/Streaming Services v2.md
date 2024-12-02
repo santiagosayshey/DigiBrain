@@ -8,24 +8,44 @@ This list has been compiled using a number of custom formats from the [TRaSH Gui
 
 Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons.  Services in bold have been added based on similar bitrates. 
 
-# Main Ranking (North America)
+#  1080p Ranking (North America)
 
-| Rank | Streaming Service | Abbreviation | 4k Bitrate | 1080p Bitrate | 720p Bitrate | SD Bitrate |
-| ---- | ----------------- | ------------ | ---------- | ------------- | ------------ | ---------- |
-| 1    | Movies Anywhere   | MA           | 25-32      | 8-10          | N/A          | N/A        |
-|      | Amazon            | AMZN, Amazon |            |               |              |            |
-|      | Apple TV+         |              |            |               |              |            |
-|      | Disney+           |              |            |               |              |            |
-| 2    | **Peacock**       |              |            |               |              |            |
-|      | **Max**           |              |            |               |              |            |
-|      | HBO Max           |              |            |               |              |            |
-|      | Netflix           |              |            |               |              |            |
-|      | Paramount+        |              |            |               |              |            |
-|      | Criterion         |              |            |               |              |            |
-| 3    | **Hulu**          |              |            |               |              |            |
-|      | **Roku**          |              |            |               |              |            |
-|      | **iTunes**        |              |            |               |              |            |
-|      | **VRV**           |              |            |               |              |            |
+| Rank | Streaming Service | Bitrate (Mbps) |
+| ---- | ----------------- | -------------- |
+| 1    | Movies Anywhere   | 8-10           |
+|      | Amazon            | 10 (2018+)     |
+|      | Apple TV+         |                |
+|      | Disney+           |                |
+| 2    | **Peacock**       |                |
+|      | **Max**           |                |
+|      | HBO Max           |                |
+|      | Netflix           |                |
+|      | Paramount+        |                |
+|      | Criterion         |                |
+| 3    | **Hulu**          |                |
+|      | **Roku**          |                |
+|      | **iTunes**        |                |
+|      | **VRV**           |                |
+
+#  4K Ranking (North America)
+
+| Rank | Streaming Service | 4K Bitrate |
+| ---- | ----------------- | ---------- |
+| 1    | Movies Anywhere   | 8-10       |
+|      | Amazon            |            |
+|      | Apple TV+         |            |
+|      | Disney+           |            |
+| 2    | **Peacock**       |            |
+|      | **Max**           |            |
+|      | HBO Max           |            |
+|      | Netflix           |            |
+|      | Paramount+        |            |
+|      | Criterion         |            |
+| 3    | **Hulu**          |            |
+|      | **Roku**          |            |
+|      | **iTunes**        |            |
+|      | **VRV**           |            |
+
 
 # Complete
 
