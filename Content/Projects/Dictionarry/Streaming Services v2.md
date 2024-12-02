@@ -14,7 +14,7 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | ---- | ----------------- | -------------- |
 | 1    | Movies Anywhere   | 8-10           |
 |      | Amazon            | 10 (2018+)     |
-|      | Apple TV+         |                |
+|      | Apple TV+         | 8-10           |
 |      | Disney+           |                |
 | 2    | **Peacock**       |                |
 |      | **Max**           |                |
