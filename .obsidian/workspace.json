@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "Qualities"
             }
+          },
+          {
+            "id": "30cdab84921d217c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +176,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f139e2c2072be1d2",
+  "active": "30cdab84921d217c",
   "lastOpenFiles": [
     "Content/Projects/Dictionarry/Qualities.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
