@@ -8,22 +8,24 @@ This list has been compiled using a number of custom formats from the [TRaSH Gui
 
 Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full understanding of these rankings, please review their comparisons.  Services in bold have been added based on similar bitrates. 
 
-| Rank | North America   | South Korea | Australia | Japan        | India       | Hong Kong | Netherlands     | United Kingdom  | Canada    | Latin America |
-| ---- | --------------- | ----------- | --------- | ------------ | ----------- | --------- | --------------- | --------------- | --------- | ------------- |
-| 1    | Movies Anywhere |             |           |              |             |           |                 |                 |           |               |
-|      | Amazon          |             |           |              |             |           |                 |                 |           |               |
-|      | Apple TV+       |             |           |              |             |           |                 |                 |           |               |
-|      | Disney+         |             |           |              |             |           |                 |                 |           |               |
-| 2    | **Peacock**     | **tvN**     |           |              |             |           |                 |                 |           |               |
-|      | **Max**         | **WAVVE**   |           |              |             |           |                 |                 |           |               |
-|      | HBO Max         | **TVING**   |           |              |             |           |                 |                 |           |               |
-|      | Netflix         | **IQiyi**   |           |              |             |           |                 |                 |           |               |
-|      | Paramount+      | **Hotstar** |           |              |             |           |                 |                 |           |               |
-|      | Criterion       | **KOCOWA**  |           |              |             |           |                 |                 |           |               |
-| 3    | **Hulu**        | **VIKI**    | **Stan**  | **Fuji ToD** | **Hotstar** |           | **Pathé Thuis** | **ITVX**        | **Crave** | **Star+**     |
-|      | **Roku**        | **KBS**     |           | **U-NEXT**   |             |           |                 | **NOW**         |           |               |
-|      | **iTunes**      |             |           | **TVer**     |             | **VIU**   |                 | **BBC iPlayer** |           |               |
-|      | **VRV**         |             |           |              |             |           |                 |                 |           |               |
+# Main Ranking (North America)
+
+| Rank | Streaming Service | Abbreviation | 4k Bitrate | 1080p Bitrate | Complete? |
+| ---- | ----------------- | ------------ | ---------- | ------------- | --------- |
+|      | Movies Anywhere   |              |            |               |           |
+|      | Amazon            |              |            |               |           |
+|      | Apple TV+         |              |            |               |           |
+|      | Disney+           |              |            |               |           |
+|      | **Peacock**       |              |            |               |           |
+|      | **Max**           |              |            |               |           |
+|      | HBO Max           |              |            |               |           |
+|      | Netflix           |              |            |               |           |
+|      | Paramount+        |              |            |               |           |
+|      | Criterion         |              |            |               |           |
+|      | **Hulu**          |              |            |               |           |
+|      | **Roku**          |              |            |               |           |
+|      | **iTunes**        |              |            |               |           |
+|      | **VRV**           |              |            |               |           |
 
 # Complete
 
