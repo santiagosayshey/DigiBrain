@@ -12,4 +12,11 @@ Enter 'Profile Tweaks'. These are simple check boxes you can enable / disable an
 - Allow Dolby Vision without Fallback
 - Allow bleeding edge codecs (AV-1, H266)
 
-If anyone has any tweak ideas (even super specific ones), please let me know and I'll work on getting it integrated!
+If anyone has any tweak ideas (even super specific ones), please let me know and I'll work on getting it integrated! Here's an image of the Tweaks Tab:
+![[Pasted image 20241203190613.png]]
+
+I'd also like to get some feedback on which Tweaks should be enabled by default. Vote below!
+
+## Profilarr Progress
+- Progress is steady, I've been working on it every day since my semester ended. It's taken way, way longer than I've expected (sorry!) but I'm happy with how it's starting to look. 
+- Git integration is com
