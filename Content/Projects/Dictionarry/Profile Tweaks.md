@@ -19,4 +19,7 @@ I'd also like to get some feedback on which Tweaks should be enabled by default.
 
 ## Profilarr Progress
 - Progress is steady, I've been working on it every day since my semester ended. It's taken way, way longer than I've expected (sorry!) but I'm happy with how it's starting to look. 
-- Git integration is com
+- Git integration is complete and working, but needs lots of testing.
+- Data modules (custom formats, regex patterns, quality profiles) are complete and fully implement the existing logic from Radarr / Sonarr. 
+- I am currently in the progress of porting existing data to the new database (https://github.com/Dictionarry-Hub/database/tree/stable) in the new profilarr standard format. This is going to take a while, as I have to write descriptions, add tags, test cases, etc.
+- Finally, I am starting to work on the compilation engine (https://discord.com/channels/1202375791556431892/1246504849265266738/1272756617041154049) and the import module. Once these things are complete, and I'm 
