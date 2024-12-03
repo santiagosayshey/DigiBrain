@@ -26,7 +26,11 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 |      | **Roku**          |                |
 |      | **iTunes**        |                |
 |      | **VRV**           |                |
+[
 
+The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265 10bit EAC3 5 1 - Goki)[TAoE]
+
+](https://www.torrentleech.cc/torrent/241380426 "The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265 10bit EAC3 5 1 - Goki)[TAoE]")
 #  4K Ranking (North America)
 
 | Rank | Streaming Service | 4K Bitrate |
