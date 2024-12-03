@@ -15,9 +15,6 @@ Enter 'Profile Tweaks'. These are simple check boxes you can enable / disable an
 If anyone has any tweak ideas (even super specific ones), please let me know and I'll work on getting it integrated! Here's an image of the Tweaks Tab:
 ![[Pasted image 20241203190613.png]]
 
-## Testing / Contributing
-
-
 ## Profilarr Progress
 - Progress is steady, I've been working on it every day since my semester ended. It's taken way, way longer than I've expected (sorry!) but I'm happy with how it's starting to look. 
 - Git integration is complete and working, but needs lots of testing.
