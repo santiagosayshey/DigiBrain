@@ -25,7 +25,7 @@ Major Rankings are based on [capeshit.lol](https://capeshit.lol/). For a full un
 | 3    | **Hulu**          |                |
 |      | **Roku**          |                |
 |      | **iTunes**        |                |
-|      | **VRV**           |                |
+|      |                   |                |
 [
 
 The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265 10bit EAC3 5 1 - Goki)[TAoE]
