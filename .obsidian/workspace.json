@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "velocity points",
+                "query": "DISP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19926a88e21a303e",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Content/Projects/Dictionarry/Profile Tweaks.md",
     "Images/Pasted image 20241203190613.png",
