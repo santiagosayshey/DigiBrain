@@ -21,4 +21,6 @@ It's taken a huge effort the past 4 months, and I still have to actually connect
 
 The current GPPi algorithm is strong, but fundamentally flawed. It does not take into consideration release groups who have no data. There are terrific new groups (ZoroSenpai for example) who should be tier ~2 at least, but aren't simply because they have no data. How do we fix this? 
 
-### 
+### Popularity
+
+For every encode at a specific resolution for a movie / tv show that is currently popular (via PTP / BTN top 100 monthly), a release group receives +1 score to their GPPi. At the end of every month, the score is normalised / 10, and added to their permanent GPPi score. 
