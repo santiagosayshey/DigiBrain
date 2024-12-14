@@ -1,4 +1,4 @@
-hey @everyone, I just wanted to share a small accomplishment from today as well as some metric changes. 
+hey @everyone, small log for today!
 
 ## Vision (almost) Realized
 
@@ -33,4 +33,4 @@ The previous 'tiers' for release groups was just natural intuitive grouping. Hum
 
 ## Thank You!
 
-That's all for today, I hope everyone's enjoying the holidays and doing alright! 
+That's all for today, I hope everyone's doing alright and enjoying the holidays :)
