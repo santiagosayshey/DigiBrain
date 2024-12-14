@@ -23,7 +23,7 @@ The current GPPi algorithm is strong, but fundamentally flawed. It does not take
 
 ### Popularity
 
-For every encode at a specific resolution for a movie / tv show that is currently popular (via PTP / BTN top 100 monthly), a release group receives +1 score to their GPPi. At the end of every month, the score is reset, and the previous score is normalized (tbd on how) and added to their permanent GPPi score. 
+For every encode at a specific resolution for a movie / tv show that is currently popular (via PTP / BTN top 100 monthly), a release group receives +1 score to their GPPi. At the end of every month, the score is reset, and the previous score is normalized (tbd on how) and added to their permanent GPPi score (up to a certain point and probably never past tier ~3)
 
 This process will be completely automatic and will hopefully solve the problem of new good release groups. 
 
