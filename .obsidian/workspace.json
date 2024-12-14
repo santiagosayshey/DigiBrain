@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
+                "file": "Content/Projects/Dictionarry/dev log.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.3 Recurrence Relations"
+              "title": "dev log"
             }
           }
         ],
@@ -181,6 +181,8 @@
   },
   "active": "19926a88e21a303e",
   "lastOpenFiles": [
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
+    "Content/Projects/Dictionarry/dev log.md",
     "Content/Projects/Dictionarry/Profile Tweaks.md",
     "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Images/Pasted image 20241203190613.png",
@@ -210,7 +212,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.5 Dynamic Analysis.md",
     "Images/Pasted image 20241107230235.png",
     "Images/Pasted image 20241107225910.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
