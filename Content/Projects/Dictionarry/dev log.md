@@ -29,4 +29,8 @@ This process will be completely automatic and will hopefully solve the problem o
 
 ### Grouping
 
-The previous 'tiers' for release groups was just natural intuitive grouping 
+The previous 'tiers' for release groups was just natural intuitive grouping. Humans are surprisingly very, very good at pattern recognition so it was never really a problem. However, it was manual, and we dont like manual around here. Enter 'K Means Clustering'. Essentially it's just a fancy algorithm that finds natural break points between groups of numbers. Using K means, I've dropped the number of 1080p Tiers from 7 down to 5 which in turn has increased immutability. Small changes, but will be important in the long run. 
+
+## Thank You!
+
+That's all for today, I hope everyone's enjoying the holidays and doing alright! 
