@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/dev log.md",
+                "file": "Content/Journal/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dev log"
+              "title": "Untitled"
             }
           }
         ],
@@ -181,8 +181,13 @@
   },
   "active": "19926a88e21a303e",
   "lastOpenFiles": [
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
+    "System Architecture.png",
+    "Content/Mathematics/Notes/Polynomials.md",
+    "Content/AI Prompt.md",
+    "Content/index.md",
+    "Content/Journal/Untitled.md",
     "Content/Projects/Dictionarry/dev log.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
     "Content/Projects/Dictionarry/Profile Tweaks.md",
     "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Images/Pasted image 20241203190613.png",
@@ -207,11 +212,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/5.3 Return-To-libc.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/11.2 DevOps.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/11.1 Software Development Lifecycle.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/10.3 Usable Security.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/10.2  Human Aspects.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/10.1 Fuzzing.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.1 Code Review.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/9.2 Static Analysis.md",
     "Images/Pasted image 20241107230235.png",
     "Images/Pasted image 20241107225910.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
