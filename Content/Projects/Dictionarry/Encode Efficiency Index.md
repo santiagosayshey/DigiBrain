@@ -1,6 +1,4 @@
-# Understanding Encoding Efficiency Thresholds
-
-This metric helps identify and rank release groups based on their ability to produce encodes that meet specific efficiency standards.
+This metric is aimed at identifying and ranking release groups based on their propensity to release an encode that meets a certain efficiency threshold.
 
 ## What is an Efficiency Threshold?
 
@@ -31,3 +29,8 @@ The 40% ceiling is based on where HEVC's efficiency advantages are most pronounc
 **BD-Rate**: Measures average bitrate difference between two encodings across quality levels. A BD-Rate of -30% means one codec achieves the same quality at 30% lower bitrate.
 
 The 40% threshold represents a practical maximum that ensures quality while taking advantage of modern codec efficiency. BD-Rate analysis across VMAF scores of 80-95 helps verify that encodes maintain competitive quality within this limit.
+
+
+https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
+
+https://www.mdpi.com/2079-9292/13/5/953
