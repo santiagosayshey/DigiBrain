@@ -8,8 +8,9 @@ This metric is aimed at identifying and ranking release groups based on their pr
 
 ## What is an Efficiency Threshold?
 
-In it's simplest definition, it's just how big an encode is, compared to it's most likely source; typically a 1080p remux. For instance, if MovieA.encode is 10gb, and MovieB.remux is 40gb, then MovieA.encode's efficiency threshold is 25% (40/10 \*100)
+In it's simplest definition, it's just how big an encode is, compared to it's most likely source; typically a 1080p remux. For instance, if MovieA.encode is 10gb, and MovieA.remux is 40gb, then MovieA.encode's efficiency threshold is 25% (40/10 \*100)
 
 ## How do you determine what the best Efficiency Threshold Is?
 
-We don't. We set a maximum limit (40%) based on data that compares 
+We don't. We set a maximum limit (40%) ... explain IN DETAIL why here based on this conversation
+
