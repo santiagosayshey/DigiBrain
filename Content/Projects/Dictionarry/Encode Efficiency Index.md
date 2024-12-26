@@ -13,6 +13,16 @@ Understanding efficiency thresholds helps balance two competing needs: maintaini
 - Different codecs have different efficiency curves
 - Release groups need clear standards for quality vs. size trade-offs
 
+## What Threshold is Best?
+
+There's no one-size-fits-all answer when it comes to choosing the perfect efficiency threshold. The "best" threshold depends entirely on the end user's priorities and constraints:
+
+- Space-conscious users might prefer smaller files around 5-10% of source size, accepting some quality trade-offs
+- Quality-focused users might push towards 30-40% of source size for more transparent results
+- Most users find a sweet spot in the middle, balancing quality and size
+
+While users can choose their preferred balance, a maximum threshold is still needed to maintain standards in the community.
+
 ## Why Set a Maximum Threshold of 40%?
 
 The 40% ceiling is based on where HEVC's efficiency advantages are most pronounced. Below this threshold:
