@@ -8,7 +8,12 @@ In its simplest form, it's the size of an encode compared to its likely source (
 
 ## Why Is This Important?
 
-... somehow get to why w
+Understanding efficiency thresholds helps balance two competing needs: maintaining high video quality while minimizing file size. Modern codecs like HEVC have a "sweet spot" where they deliver excellent quality with significant size savings. Finding this optimal point is crucial because:
+
+- Storage and bandwidth are always limited resources
+- Going beyond certain bitrates provides diminishing quality returns
+- Different codecs have different efficiency curves
+- Release groups need clear standards for quality vs. size trade-offs
 
 ## Why Set a Maximum Threshold of 40%?
 
@@ -26,8 +31,3 @@ The 40% ceiling is based on where HEVC's efficiency advantages are most pronounc
 **BD-Rate**: Measures average bitrate difference between two encodings across quality levels. A BD-Rate of -30% means one codec achieves the same quality at 30% lower bitrate.
 
 The 40% threshold represents a practical maximum that ensures quality while taking advantage of modern codec efficiency. BD-Rate analysis across VMAF scores of 80-95 helps verify that encodes maintain competitive quality within this limit.
-
-
-https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
-
-https://www.mdpi.com/2079-9292/13/5/953
