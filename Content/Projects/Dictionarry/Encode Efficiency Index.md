@@ -22,7 +22,7 @@ However, there's a clear technical limit where going larger becomes pointless - 
 
 ## Why Set a Maximum Threshold of 40%?
 
-The 40% ceiling exists because we can roughly measure  where HEVC stops being more efficient than older codecs. We do this using three key video quality measurements:
+The 40% ceiling exists because we can roughly measure where HEVC stops being more efficient than older codecs. We do this using three key video quality metrics:
 
 VMAF, developed by Netflix, analyzes how humans perceive video quality and scores it from 0-100. SSIM looks at how similar two images are on a scale of 0-1, focusing on what we actually see rather than just comparing pixels. BD-Rate tells us how much smaller one encode is compared to another while maintaining the same quality level.
 
@@ -30,10 +30,11 @@ Using these tools together shows us that:
 - HEVC achieves 20-40% smaller files in the mid-bitrate range (~2-10 Mbps for 1080p)
 - These space savings are consistent across different quality levels
 - Beyond this point, both old and new codecs reach nearly perfect quality, making HEVC's advantages disappear
-- Within these optimal bitrates, HEVC consistently scores above 90 on VMAF (excellent quality) while keeping files well under 40% of the source size
 
-Would you like me to clarify any part of this explanation?
 
 https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
 
 https://www.mdpi.com/2079-9292/13/5/953
+
+
+## How Do We Apply 
