@@ -1,4 +1,4 @@
-This metric is aimed at identifying and ranking release groups based on their propensity to release an encode that meets a certain efficiency threshold. Since HEVC offers the greatest efficiency gains in specific bitrate ranges, this is particularly useful for finding groups that understand how to leverage HEVC's advantages effectively.
+This metric is aimed at identifying and ranking release groups based on their propensity to release encodes that meet efficiency thresholds, with particular focus on HEVC releases where optimal efficiency occurs in specific bitrate ranges. By ranking these groups, we effectively.... 
 
 ## What is an Efficiency Threshold?
 In its simplest form, it's the size of an encode compared to its likely source (typically a 1080p remux). For example, if MovieA.encode is 10GB and MovieA.remux is 40GB, then MovieA.encode's efficiency threshold is 25% (10GB/40GB × 100).
@@ -12,8 +12,8 @@ Understanding efficiency thresholds helps balance two competing needs: maintaini
 
 ## What Threshold is Best?
 There's no one-size-fits-all answer when it comes to choosing the perfect efficiency threshold. The "best" threshold depends entirely on the end user's priorities and constraints:
-- Space-conscious users might prefer smaller files around 15-20% of source size, accepting some quality trade-offs
-- Quality-focused users might push towards 35-40% of source size for more transparent results
+- Space-conscious users might prefer smaller files around 5-10% of source size, accepting some quality trade-offs
+- Quality-focused users might push towards 30-40% of source size for more transparent results
 - Most users find a sweet spot in the middle, balancing quality and size
 However, there's a clear technical limit where going larger becomes pointless - this is where we get to our maximum threshold of 40%.
 
