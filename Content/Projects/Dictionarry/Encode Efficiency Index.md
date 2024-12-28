@@ -2,7 +2,7 @@ This metric is aimed at identifying and ranking release groups based on their pr
 
 ## What is a Compression Ratio?
 
-A compression ratio is a special metric we created specifically for evaluating encodes against their sources. We express this as the encoded file size as a percentage of its source size (typically a 1080p remux or 4k WEB-DL).
+A compression ratio is a (made up) metric that evaluates encodes against their sources. We express this as the encoded file size as a percentage of its source size (typically a 1080p remux or 4k WEB-DL).
 
 For example:
 
@@ -90,6 +90,8 @@ The ranking system works by calculating how close each Release Group / Streaming
 | 4    | PSA                     | 7.89%      | 17.11 |
 
 This system clearly shows how groups' effectiveness shifts based on your target ratio. For example, iVy and PSA excel at high compression (10%) with Tier 1 placement but fall to Tier 4 when targeting 25%, while groups like QxR and BRiAN show the opposite pattern, moving from Tier 3 to Tier 1. Streaming services show interesting variations too - Movies Anywhere performs better at higher bitrates (Tier 1 at 25%) while Amazon Prime maintains mid-tier performance in both scenarios.
+
+These examples only show a very small fraction (1%) of the actual release groups & streaming services that are used in this metric. 
 
 ## Frequently Asked Questions
 
