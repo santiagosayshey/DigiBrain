@@ -46,3 +46,8 @@ https://www.mdpi.com/2079-9292/13/5/953
 
 ## How Do We Apply This Index?
 
+It's very simple, you take a desired compression ratio, then you calculate the distance from that ratio to the actual efficiency of each Release Group and Streaming Service. The smaller the distance, the better the group is.
+
+Then, we take these distances, apply k means clustering, and out pops efficiency tiers unique to a user's desired compression ratio. 
+
+Boom. 
