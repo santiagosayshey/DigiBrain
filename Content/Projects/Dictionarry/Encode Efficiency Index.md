@@ -58,48 +58,38 @@ The ranking system works by calculating how close each Release Group / Streaming
    - Recalculating centers based on group assignments
    - Repeating until stable
 
-This creates natural tiers like "Excellent", "Good", "Fair" based on how well groups match our target ratio.
+### **Example 1:** For users prioritizing storage efficiency, targeting 10% compression:
 
-Let's look at two practical examples with different target ratios:
+| Tier | Group                   | Efficiency | Delta |
+| ---- | ----------------------- | ---------- | ----- |
+| 1    | iVy                     | 9.37%      | 0.63  |
+| 1    | PSA                     | 7.89%      | 2.11  |
+| 2    | Vyndros                 | 16.08%     | 6.08  |
+| 2    | Chivaman                | 16.80%     | 6.80  |
+| 2    | Amazon Prime (H.265)    | 16.15%     | 6.15  |
+| 3    | Disney+ (H.265)         | 20.32%     | 10.32 |
+| 3    | TAoE                    | 22.78%     | 12.78 |
+| 3    | QxR                     | 23.25%     | 13.25 |
+| 3    | BRiAN                   | 25.16%     | 15.16 |
+| 3    | Movies Anywhere (H.265) | 26.05%     | 16.05 |
+| 4    | MainFrame               | 37.63%     | 27.63 |
+| 4    | NAN0                    | 37.71%     | 27.71 |
 
-Sorry - you're absolutely right. Let me use exactly your headers:
+### **Example 2:** For users seeking a balance of quality and size, targeting 25% compression:
 
-- **Example 1:** For users prioritizing storage efficiency, targeting 10% compression:
-
-| Tier | Group | Efficiency | Delta |
-|------|-------|------------|-------|
-| 1 | iVy | 9.37% | 0.63 |
-| 1 | PSA | 7.89% | 2.11 |
-| 2 | Vyndros | 16.08% | 6.08 |
-| 2 | Chivaman | 16.80% | 6.80 |
-| 2 | Amazon Prime (H.265) | 16.15% | 6.15 |
-| 2 | Disney+ (H.265) | 20.32% | 10.32 |
-| 3 | TAoE | 22.78% | 12.78 |
-| 3 | QxR | 23.25% | 13.25 |
-| 3 | BRiAN | 25.16% | 15.16 |
-| 3 | Movies Anywhere (H.265) | 26.05% | 16.05 |
-| 5 | MainFrame | 37.63% | 27.63 |
-| 5 | NAN0 | 37.71% | 27.71 |
-
-- **Example 2:** For users seeking a balance of quality and size:
-
-| Tier | Group | Efficiency | Delta |
-|------|-------|------------|-------|
-| 1 | Movies Anywhere (H.265) | 26.05% | 1.05 |
-| 1 | BRiAN | 25.16% | 0.16 |
-| 1 | QxR | 23.25% | 1.75 |
-| 1 | TAoE | 22.78% | 2.22 |
-| 2 | Disney+ (H.265) | 20.32% | 4.68 |
-| 3 | Amazon Prime (H.265) | 16.15% | 8.85 |
-| 3 | Chivaman | 16.80% | 8.20 |
-| 3 | Vyndros | 16.08% | 8.92 |
-| 3 | MainFrame | 37.63% | 12.63 |
-| 3 | NAN0 | 37.71% | 12.71 |
-| 4 | iVy | 9.37% | 15.63 |
-| 4 | PSA | 7.89% | 17.11 |
+| Tier | Group                   | Efficiency | Delta |
+| ---- | ----------------------- | ---------- | ----- |
+| 1    | BRiAN                   | 25.16%     | 0.16  |
+| 1    | Movies Anywhere (H.265) | 26.05%     | 1.05  |
+| 1    | QxR                     | 23.25%     | 1.75  |
+| 1    | TAoE                    | 22.78%     | 2.22  |
+| 2    | Disney+ (H.265)         | 20.32%     | 4.68  |
+| 3    | Amazon Prime (H.265)    | 16.15%     | 8.85  |
+| 3    | Chivaman                | 16.80%     | 8.20  |
+| 3    | Vyndros                 | 16.08%     | 8.92  |
+| 3    | MainFrame               | 37.63%     | 12.63 |
+| 3    | NAN0                    | 37.71%     | 12.71 |
+| 4    | iVy                     | 9.37%      | 15.63 |
+| 4    | PSA                     | 7.89%      | 17.11 |
 
 This system clearly shows how groups' effectiveness shifts based on your target ratio. For example, iVy and PSA excel at high compression (10%) with Tier 1 placement but fall to Tier 4 when targeting 25%, while groups like QxR and BRiAN show the opposite pattern, moving from Tier 3 to Tier 1. Streaming services show interesting variations too - Movies Anywhere performs better at higher bitrates (Tier 1 at 25%) while Amazon Prime maintains mid-tier performance in both scenarios.
-
-This system clearly shows which groups consistently hit near your desired ratio. For example, QxR and TAoE excel at mid-range ratios around 25%, while groups like PSA and iVy are better choices for high-compression targets around 10%.
-
-Streaming services tend to cluster in the middle range (15-25%), suggesting they optimize for a balance of quality and bandwidth efficiency.
