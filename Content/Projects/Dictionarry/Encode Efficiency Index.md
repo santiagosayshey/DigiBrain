@@ -39,7 +39,7 @@ Using these tools together shows us that:
 - These space savings are consistent across different quality levels
 - Beyond this point, both old and new codecs saturate at near transparent quality, making HEVC's advantages disappear
 
-Give these articles a read to better understand how VMAF and BD-Rate tell us how efficient a codec is.
+Give these articles a read to better understand how VMAF and BD-Rate tell us how efficient a codec is (and how we )
 
 https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
 https://www.mdpi.com/2079-9292/13/5/953
