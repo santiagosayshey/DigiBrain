@@ -44,10 +44,63 @@ Give these articles a read to better understand how VMAF and BD-Rate tell us how
 https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
 https://www.mdpi.com/2079-9292/13/5/953
 
+I'll help improve that section with more detail and concrete examples. Here's a clearer explanation:
+
 ## How Do We Apply This Index?
 
-It's very simple, you take a desired compression ratio, then you calculate the distance from that ratio to the actual efficiency of each Release Group and Streaming Service. The smaller the distance, the better the group is.
+The ranking system works by calculating how close each Release Group / Streaming Service comes to achieving a user's desired compression ratio. This is done through a few key steps:
 
-Then, we take these distances, apply k means clustering, and out pops efficiency tiers unique to a user's desired compression ratio. 
+1. **Delta Calculation**: We calculate the absolute difference (delta) between a group's average compression ratio and the target ratio. For example, if a group averages 25% compression and our target is 20%, their delta would be |25 - 20| = 5 percentage points.
 
-Boom. 
+2. **K-means Clustering**: We use k-means clustering to automatically group release groups into tiers based on their deltas. K-means works by:
+   - Starting with k random cluster centers
+   - Assigning each group to its nearest center
+   - Recalculating centers based on group assignments
+   - Repeating until stable
+
+This creates natural tiers like "Excellent", "Good", "Fair" based on how well groups match our target ratio.
+
+Let's look at two practical examples with different target ratios:
+
+- **Example 1:** For users prioritizing storage efficiency, targeting 10% compression:
+
+```
+Excellent Tier (±2%):
+- PSA (7.89%)          Δ2.11
+- iVy (9.37%)          Δ0.63
+- Max (H.265) (15.91%) Δ5.91
+
+Good Tier (±5%):
+- QxR (23.25%)         Δ13.25
+- TAoE (22.78%)        Δ12.78
+- Disney+ (20.32%)     Δ10.32
+
+Fair Tier (>±5%):
+- HONE (26.90%)        Δ16.90
+- NAN0 (37.71%)        Δ27.71
+- MainFrame (37.63%)   Δ27.63
+```
+
+- **Example 1:** For users seeking a balance of quality and size:
+
+```
+Excellent Tier (±2%):
+- QxR (23.25%)         Δ1.75
+- TAoE (22.78%)        Δ2.22
+- BRiAN (25.16%)       Δ0.16
+
+Good Tier (±5%):
+- HONE (26.90%)        Δ1.90
+- Disney+ (20.32%)     Δ4.68
+- iTunes (21.29%)      Δ3.71
+
+Fair Tier (>±5%):
+- NAN0 (37.71%)        Δ12.71
+- MainFrame (37.63%)   Δ12.63
+- PSA (7.89%)          Δ17.11
+- iVy (9.37%)          Δ15.63
+```
+
+This system clearly shows which groups consistently hit near your desired ratio. For example, QxR and TAoE excel at mid-range ratios around 25%, while groups like PSA and iVy are better choices for high-compression targets around 10%.
+
+Streaming services tend to cluster in the middle range (15-25%), suggesting they optimize for a balance of quality and bandwidth efficiency.
