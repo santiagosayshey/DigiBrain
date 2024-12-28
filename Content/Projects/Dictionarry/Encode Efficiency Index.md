@@ -62,44 +62,43 @@ This creates natural tiers like "Excellent", "Good", "Fair" based on how well gr
 
 Let's look at two practical examples with different target ratios:
 
+Sorry - you're absolutely right. Let me use exactly your headers:
+
 - **Example 1:** For users prioritizing storage efficiency, targeting 10% compression:
 
-```
-Excellent Tier (±2%):
-- PSA (7.89%)          Δ2.11
-- iVy (9.37%)          Δ0.63
-- Max (H.265) (15.91%) Δ5.91
+| Tier | Group | Efficiency | Delta |
+|------|-------|------------|-------|
+| 1 | iVy | 9.37% | 0.63 |
+| 1 | PSA | 7.89% | 2.11 |
+| 2 | Vyndros | 16.08% | 6.08 |
+| 2 | Chivaman | 16.80% | 6.80 |
+| 2 | Amazon Prime (H.265) | 16.15% | 6.15 |
+| 2 | Disney+ (H.265) | 20.32% | 10.32 |
+| 3 | TAoE | 22.78% | 12.78 |
+| 3 | QxR | 23.25% | 13.25 |
+| 3 | BRiAN | 25.16% | 15.16 |
+| 3 | Movies Anywhere (H.265) | 26.05% | 16.05 |
+| 5 | MainFrame | 37.63% | 27.63 |
+| 5 | NAN0 | 37.71% | 27.71 |
 
-Good Tier (±5%):
-- QxR (23.25%)         Δ13.25
-- TAoE (22.78%)        Δ12.78
-- Disney+ (20.32%)     Δ10.32
+- **Example 2:** For users seeking a balance of quality and size:
 
-Fair Tier (>±5%):
-- HONE (26.90%)        Δ16.90
-- NAN0 (37.71%)        Δ27.71
-- MainFrame (37.63%)   Δ27.63
-```
+| Tier | Group | Efficiency | Delta |
+|------|-------|------------|-------|
+| 1 | Movies Anywhere (H.265) | 26.05% | 1.05 |
+| 1 | BRiAN | 25.16% | 0.16 |
+| 1 | QxR | 23.25% | 1.75 |
+| 1 | TAoE | 22.78% | 2.22 |
+| 2 | Disney+ (H.265) | 20.32% | 4.68 |
+| 3 | Amazon Prime (H.265) | 16.15% | 8.85 |
+| 3 | Chivaman | 16.80% | 8.20 |
+| 3 | Vyndros | 16.08% | 8.92 |
+| 3 | MainFrame | 37.63% | 12.63 |
+| 3 | NAN0 | 37.71% | 12.71 |
+| 4 | iVy | 9.37% | 15.63 |
+| 4 | PSA | 7.89% | 17.11 |
 
-- **Example 1:** For users seeking a balance of quality and size:
-
-```
-Excellent Tier (±2%):
-- QxR (23.25%)         Δ1.75
-- TAoE (22.78%)        Δ2.22
-- BRiAN (25.16%)       Δ0.16
-
-Good Tier (±5%):
-- HONE (26.90%)        Δ1.90
-- Disney+ (20.32%)     Δ4.68
-- iTunes (21.29%)      Δ3.71
-
-Fair Tier (>±5%):
-- NAN0 (37.71%)        Δ12.71
-- MainFrame (37.63%)   Δ12.63
-- PSA (7.89%)          Δ17.11
-- iVy (9.37%)          Δ15.63
-```
+This system clearly shows how groups' effectiveness shifts based on your target ratio. For example, iVy and PSA excel at high compression (10%) with Tier 1 placement but fall to Tier 4 when targeting 25%, while groups like QxR and BRiAN show the opposite pattern, moving from Tier 3 to Tier 1. Streaming services show interesting variations too - Movies Anywhere performs better at higher bitrates (Tier 1 at 25%) while Amazon Prime maintains mid-tier performance in both scenarios.
 
 This system clearly shows which groups consistently hit near your desired ratio. For example, QxR and TAoE excel at mid-range ratios around 25%, while groups like PSA and iVy are better choices for high-compression targets around 10%.
 
