@@ -2,9 +2,18 @@ This metric is aimed at identifying and ranking release groups based on their pr
 
 ## What is a Compression Ratio?
 
-In its simplest form, it's the size of an encode compared to its likely source (typically a 1080p remux). For example, if MovieA.encode is 10GB and MovieA.remux is 40GB, then MovieA.encode's compression ratio is 25% (10GB/40GB × 100).
+A compression ratio is a special metric we created specifically for evaluating encodes against their sources. We express this as the encoded file size as a percentage of its source size (typically a 1080p remux).
+
+For example:
+
+| Movie   | Source (Remux) | Encode | Compression Ratio |
+| ------- | -------------- | ------ | ----------------- |
+| Movie A | 40 GB          | 10 GB  | 25%               |
+| Movie B | 30 GB          | 6 GB   | 20%               |
+| Movie C | 50 GB          | 15 GB  | 30%               |
 
 ## Why Is This Important?
+
 Understanding compression ratios helps balance two competing needs: maintaining high video quality while minimizing file size. Modern codecs like HEVC have a "sweet spot" where they deliver excellent quality with significant size savings. Finding this optimal point is crucial because:
 - Storage and bandwidth are always limited resources
 - Going beyond certain bitrates provides diminishing quality returns
@@ -12,6 +21,7 @@ Understanding compression ratios helps balance two competing needs: maintaining 
 - Release groups need clear standards for quality vs. size trade-offs
 
 ## What Ratio is Best?
+
 There's no one-size-fits-all answer when it comes to choosing the perfect compression ratio. The "best" ratio depends entirely on the end user's priorities and constraints:
 - Space-conscious users might prefer smaller files around 5-10% of source size, accepting some quality trade-offs
 - Quality-focused users might push towards 30-40% of source size for more transparent results
@@ -19,12 +29,15 @@ There's no one-size-fits-all answer when it comes to choosing the perfect compre
 However, there's a clear technical limit where going larger becomes pointless - this is where we get to our maximum ratio of 40%.
 
 ## Why Set a Maximum Ratio of 40%?
+
 The 40% ceiling exists because we can roughly measure where HEVC stops being more efficient than older codecs. We do this using three key video quality metrics:
 VMAF, developed by Netflix, analyzes how humans perceive video quality and scores it from 0-100. SSIM looks at how similar two images are on a scale of 0-1, focusing on what we actually see rather than just comparing pixels. BD-Rate tells us how much smaller one encode is compared to another while maintaining the same quality level.
 Using these tools together shows us that:
 - HEVC achieves 20-40% smaller files in the mid-bitrate range (~2-10 Mbps for 1080p)
 - These space savings are consistent across different quality levels
-- Beyond this point, both old and new codecs reach nearly perfect quality, making HEVC's advantages disappear
+- Beyond this point, both old and new codecs saturate at near transparent quality, making HEVC's advantages disappear
+
+![[Pasted image 20241229012220.png]]
 
 https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
 https://www.mdpi.com/2079-9292/13/5/953
