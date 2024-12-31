@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Journal/Untitled.md",
+                "file": "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Encode Efficiency Index"
             }
           }
         ],
@@ -182,6 +182,7 @@
   },
   "active": "19926a88e21a303e",
   "lastOpenFiles": [
+    "Content/Journal/Untitled.md",
     "Content/Projects/Dictionarry/Efficiency/Results.md",
     "Images/Pasted image 20241229081452.png",
     "Images/Pasted image 20241229081441.png",
@@ -197,7 +198,6 @@
     "Content/Projects/Gratitude/2024-W01.md",
     "Content/Projects/Gratitude/2024-W02.md",
     "Content/Projects/Journal/Monday, May 28, 2024.md",
-    "Content/Journal/Untitled.md",
     "System Architecture.png",
     "Content/Mathematics/Notes/Polynomials.md",
     "Content/AI Prompt.md",
