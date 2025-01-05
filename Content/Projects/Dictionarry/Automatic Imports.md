@@ -16,4 +16,4 @@ we need settings for:
 	- add a new task, toggle should say whether or not task is enabled and should run
 - automatic import
 	- doesnt run if the repo is in a merge state
-	- 
+	- setting inside external app modal - import on pull, import on schedule. choose schedule - gets added as a task in the database.
