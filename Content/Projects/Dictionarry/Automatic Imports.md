@@ -30,4 +30,5 @@ FOR TOMORROW SAM
 	- hash setting inside arr modal 
 - need to parse changes better
 - need to improve styling for view changes / conflicts
-- 
+- CUTOFF NOT BEING COMPILED PROPERLY FOR 2160p REMUX!!!!
+- currently working on TESTING 2160p REMUX
