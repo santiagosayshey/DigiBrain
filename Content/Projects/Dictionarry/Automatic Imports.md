@@ -1,0 +1,9 @@
+- Task to automatically pull
+	- 
+- Task to automatically import based on???
+	- external app - new section for choosing which things to import
+		- import as unique (generate a hash of the name + name of app and append to name of data)
+		- find unique imports by hashing again, getting existing, hashing those and looking for matches
+	- when does this run?
+		- on pull
+		- on schedule
