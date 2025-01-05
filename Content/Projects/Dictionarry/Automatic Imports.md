@@ -24,4 +24,7 @@ FOR TOMORROW SAM
 - need to update arr settings to add:
 	- data to sync
 	- when to sync it - on pull (how do we know? does it need to alert the task?), on schedule
-- this needs to get saved as an actual task, so that it shows up in the tas 
+- this needs to get saved as an actual task, so that it shows up in the tasks endpoints and can be ran manually from the tasks menu
+- when we update the arr settings, it needs to update the task / delete it. 
+- hashing module for imports
+	- hash setting inside arr modal 
