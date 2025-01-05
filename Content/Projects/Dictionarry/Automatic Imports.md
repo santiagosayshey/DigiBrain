@@ -28,3 +28,6 @@ FOR TOMORROW SAM
 - when we update the arr settings, it needs to update the task / delete it. 
 - hashing module for imports
 	- hash setting inside arr modal 
+- need to parse changes better
+- need to improve styling for view changes / conflicts
+- 
