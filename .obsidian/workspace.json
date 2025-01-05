@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Streaming Services v2.md",
+                "file": "Content/Projects/Dictionarry/Automatic Imports.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Streaming Services v2"
+              "title": "Automatic Imports"
             }
           }
         ],
@@ -181,6 +181,7 @@
   },
   "active": "fac3b95b58a99156",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Content/Projects/Dictionarry/Project Workflow.md",
     "Content/Projects/Dictionarry/Profile Tweaks.md",
     "Content/Projects/Dictionarry/Profile Master List.md",
@@ -208,7 +209,6 @@
     "Content/index.md",
     "Content/Projects/Dictionarry/dev log.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
-    "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
     "Content/Projects/Dictionarry/Qualities.md",
