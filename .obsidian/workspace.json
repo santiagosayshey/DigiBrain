@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Automatic Imports.md",
+                "file": "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automatic Imports"
+              "title": "Encode Efficiency Index"
             }
           },
           {
@@ -211,13 +211,13 @@
   },
   "active": "fac3b95b58a99156",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Automatic Imports.md",
     "Content/Projects/Dictionarry/dev log.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Projects/Dictionarry/old/Profiles/x265 Groups.md",
     "Content/Projects/Dictionarry/old/Profiles/Testing.md",
     "Content/Projects/Dictionarry/old/Profiles/Master List.md",
     "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
-    "Content/Projects/Dictionarry/Automatic Imports.md",
     "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Content/Projects/Dictionarry/Project Workflow.md",
     "Content/Projects/Dictionarry/Profile Tweaks.md",
