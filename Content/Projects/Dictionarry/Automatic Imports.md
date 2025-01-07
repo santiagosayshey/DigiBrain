@@ -27,6 +27,6 @@ FOR TOMORROW SAM
 - this needs to get saved as an actual task, so that it shows up in the tasks endpoints and can be ran manually from the tasks menu
 - when we update the arr settings, it needs to update the task / delete it. 
 - hashing module for imports
-	- hash setting inside arr modal 
-- need to parse changes better
-- need to improve styling for view changes / conflicts
+	- hash setting inside arr modal
+	- import as unique (generate a hash of the name + name of app and append to name of data)
+	- also needed to check HOW in sync profilarr is with external app. hash everything that should be synced vs everything in the app, if its the same, then theyre fully in sync
