@@ -18,8 +18,6 @@ we need settings for:
 	- doesnt run if the repo is in a merge state
 	- setting inside external app modal - import on pull, import on schedule. choose schedule - gets added as a task in the database.
 
-
-FOR TOMORROW SAM
 - automatic pull done
 - need to update arr settings to add:
 	- data to sync
