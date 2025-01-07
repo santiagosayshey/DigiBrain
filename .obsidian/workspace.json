@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,8 +209,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aad779f84166042e",
+  "active": "fac3b95b58a99156",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/dev log.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Projects/Dictionarry/old/Profiles/x265 Groups.md",
     "Content/Projects/Dictionarry/old/Profiles/Testing.md",
@@ -240,7 +241,6 @@
     "Content/Mathematics/Notes/Polynomials.md",
     "Content/AI Prompt.md",
     "Content/index.md",
-    "Content/Projects/Dictionarry/dev log.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
