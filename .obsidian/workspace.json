@@ -26,15 +26,17 @@
             "id": "fac3b95b58a99156",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Content/Projects/Dictionarry/Architecture.canvas",
+                "viewState": {
+                  "x": 173.65932939745204,
+                  "y": 730.9204910978559,
+                  "zoom": -1.1003834601992972
+                }
               },
-              "icon": "lucide-file",
-              "title": "Encode Efficiency Index"
+              "icon": "lucide-layout-dashboard",
+              "title": "Architecture"
             }
           },
           {
@@ -211,13 +213,13 @@
   },
   "active": "fac3b95b58a99156",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
     "Content/Projects/Dictionarry/Automatic Imports.md",
     "Content/Projects/Dictionarry/dev log.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Projects/Dictionarry/old/Profiles/x265 Groups.md",
     "Content/Projects/Dictionarry/old/Profiles/Testing.md",
     "Content/Projects/Dictionarry/old/Profiles/Master List.md",
-    "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
     "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Content/Projects/Dictionarry/Project Workflow.md",
     "Content/Projects/Dictionarry/Profile Tweaks.md",
