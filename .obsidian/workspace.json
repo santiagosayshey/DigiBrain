@@ -26,17 +26,15 @@
             "id": "fac3b95b58a99156",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Architecture.canvas",
-                "viewState": {
-                  "x": 173.65932939745204,
-                  "y": 730.9204910978559,
-                  "zoom": -1.1003834601992972
-                }
+                "file": "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Architecture"
+              "icon": "lucide-file",
+              "title": "Encode Efficiency Index"
             }
           },
           {
@@ -213,6 +211,7 @@
   },
   "active": "fac3b95b58a99156",
   "lastOpenFiles": [
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
     "Content/Projects/Dictionarry/Automatic Imports.md",
     "Content/Projects/Dictionarry/dev log.md",
@@ -247,10 +246,8 @@
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
     "Content/Projects/Dictionarry/Qualities.md",
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Importarr v2.md",
     "Content/Projects/Dictionarry/DStandard.md",
-    "Content/Computer Science/Software Development & Project/Project/Context Model.md",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Computer Science/Secure Programming/Revision",
