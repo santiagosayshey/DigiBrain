@@ -2,7 +2,7 @@ This metric is aimed at identifying and ranking release groups based on their pr
 
 ## What is a Compression Ratio?
 
-A compression ratio is a (made up) metric that evaluates encodes against their sources. We express this as the encoded file size as a percentage of its source size (typically a 1080p remux or 4k WEB-DL).
+A compression ratio is a (made up) metric that evaluates encodes against their sources. We express this as the encoded file size as a percentage of its source size (typically a remux or WEB-DL).
 
 For example:
 
@@ -22,11 +22,11 @@ Understanding compression ratios helps balance two competing needs: maintaining 
 
 ## What Ratio is Best?
 
-There's no one-size-fits-all answer when it comes to choosing the perfect compression ratio. The "best" ratio depends entirely on the end user's priorities and constraints:
+There's no one-size-fits-all answer when it comes to choosing the perfect compression ratio. The "best" ratio depends entirely on the end user's priorities and constraints. At 1080p:
 - Space-conscious users might prefer smaller files around 5-10% of source size, accepting quality trade-offs
 - Quality-focused users might push towards 30-40% of source size for more transparent results
 - Most users find a sweet spot in the middle, balancing quality and size
-However, there's a clear technical limit where going larger becomes pointless - this is where we get to our maximum ratio of 40%.
+However, there are clear technical limits where going larger becomes pointless - this is where we get to our maximum ratios of 40% and 60% for 1080p and 2160p, respectively.
 
 ## Why Set a Maximum Ratio of 40%?
 
