@@ -26,23 +26,35 @@ There's no one-size-fits-all answer when it comes to choosing the perfect compre
 - Space-conscious users might prefer smaller files around 5-10% of source size, accepting quality trade-offs
 - Quality-focused users might push towards 30-40% of source size for more transparent results
 - Most users find a sweet spot in the middle, balancing quality and size
-However, there are clear technical limits where going larger becomes pointless - this is where we get to our maximum ratios of 40% and 60% for 1080p and 2160p, respectively.
+However, there are clear technical limits where going larger becomes pointless - this is where we get to our maximum ratios of 40% and 60% for 1080p and 2160p, respectively?
 
-## Why Set a Maximum Ratio of 40%?
+## Why Set Maximum Ratios of 40% and 60%?
 
-The 40% ceiling exists because we can roughly measure where HEVC stops being more efficient than older codecs. We do this using two key video quality metrics:
-- **VMAF,** developed by Netflix, analyzes how humans perceive video quality and scores it from 0-100. 
-- **BD-Rate** tells us how much smaller one encode is compared to another while maintaining the same quality level.
+The compression ratio ceilings are set based on different factors for 1080p and 2160p content:
+### 1080p (40% Maximum)
+
+The 40% ceiling for 1080p exists because we can roughly measure where h265 stops being more efficient than h264. We do this using two key video quality metrics:
+- **VMAF,** developed by Netflix, analyzes how humans perceive video quality and scores it from 0-100
+- **BD-Rate** tells us how much smaller one encode is compared to another while maintaining the same quality level
 
 Using these tools together shows us that:
 - HEVC achieves 20-40% smaller files in the mid-bitrate range (~2-10 Mbps for 1080p)
 - These space savings are consistent across different quality levels
 - Beyond this point, both old and new codecs saturate at near transparent quality, making HEVC's advantages disappear
+- At ratios above 40%, x264 becomes the preferred choice as encodes are easier to produce and typically undergo more rigorous quality control
 
-Give these articles a read to better understand how VMAF and BD-Rate tell us how efficient a codec is (and why we decided on a 40% ceiling)
+### 2160p (60% Maximum)
 
-https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
-https://www.mdpi.com/2079-9292/13/5/953
+The 60% ceiling for 2160p content is based on different considerations:
+- This is approximately where transparency becomes achievable for most 2160p content
+- Higher ratios provide diminishing returns in perceived quality
+- At this compression level, most content achieves VMAF scores above 95
+- Storage efficiency becomes particularly important at 2160p due to the larger base file sizes
+- The relationship between bitrate and perceived quality is non-linear, with improvements becoming increasingly subtle beyond this point
+
+Give these articles a read to better understand how VMAF and BD-Rate tell us how efficient a codec is:
+- https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
+- https://www.mdpi.com/2079-9312/13/5/953
 ## How Do We Apply This Index?
 
 The ranking system works by calculating how close each Release Group / Streaming Service comes to achieving a user's desired compression ratio. This is done through a few key steps:
@@ -55,7 +67,16 @@ The ranking system works by calculating how close each Release Group / Streaming
    - Recalculating centers based on group assignments
    - Repeating until stable
 
-### **Example 1:** Users prioritizing storage efficiency, targeting 10% compression:
+# Example Rankings
+
+## 1080p Examples
+
+### Example 1: Users prioritizing storage efficiency (10% target)
+Users might choose this very aggressive compression target when:
+- Managing large libraries on limited storage
+- Collecting complete series where total size is a major concern
+- Primarily viewing on mobile devices or smaller screens
+- Dealing with bandwidth caps or slow internet connections
 
 | Tier | Group                   | Efficiency | Delta |
 | ---- | ----------------------- | ---------- | ----- |
@@ -72,7 +93,12 @@ The ranking system works by calculating how close each Release Group / Streaming
 | 4    | MainFrame               | 37.63%     | 27.63 |
 | 4    | NAN0                    | 37.71%     | 27.71 |
 
-### **Example 2:** Users seeking a balance of quality and size, targeting 25% compression:
+### Example 2: Users seeking balanced quality and size (25% target)
+This moderate compression target appeals to users who:
+- Have reasonable storage capacity but still want efficiency
+- Watch on mid to large screens where quality becomes more noticeable
+- Want a good balance between visual quality and practical file sizes
+- Need reliable playback on mid-range devices
 
 | Tier | Group                   | Efficiency | Delta |
 | ---- | ----------------------- | ---------- | ----- |
@@ -89,9 +115,63 @@ The ranking system works by calculating how close each Release Group / Streaming
 | 4    | iVy                     | 9.37%      | 15.63 |
 | 4    | PSA                     | 7.89%      | 17.11 |
 
-This system clearly shows how groups' effectiveness shifts based on your target ratio. For example, iVy and PSA excel at high compression (10%) with Tier 1 placement but fall to Tier 4 when targeting 25%, while groups like QxR and BRiAN show the opposite pattern, moving from Tier 3 to Tier 1. Streaming services show interesting variations too - Movies Anywhere performs better at higher bitrates (Tier 1 at 25%) while Amazon Prime maintains mid-tier performance in both scenarios.
+## 2160p Examples
 
-These examples only show a very small fraction (1%) of the actual release groups & streaming services that are used in this metric. 
+### Example 3: Extreme Space Saving (20% target)
+This aggressive 2160p compression appeals to users who:
+- Want to maintain a 4K library on limited storage
+- Primarily view content at typical viewing distances where subtle quality differences are less noticeable
+- Need to conserve bandwidth while still enjoying 4K resolution
+- Have a large collection of 4K content and need to balance quality with practical storage constraints
+
+| Tier | Group                   | Efficiency | Delta |
+| ---- | ----------------------- | ---------- | ----- |
+| 1    | HONE                    | 19.45%     | 0.55  |
+| 1    | FRANKeNCODE             | 21.12%     | 1.12  |
+| 2    | Amazon Prime (2160p)    | 25.33%     | 5.33  |
+| 2    | FLUX                    | 26.18%     | 6.18  |
+| 3    | RARBG                   | 31.55%     | 11.55 |
+| 3    | Disney+ (2160p)         | 32.87%     | 12.87 |
+| 4    | TRiToN                  | 45.22%     | 25.22 |
+| 4    | VΕRUS                   | 48.95%     | 28.95 |
+
+### Example 4: Balanced 4K (40% target)
+This middle-ground approach is ideal for users who:
+- Have decent storage capacity but still want reasonable efficiency
+- Watch on larger screens where quality differences become more apparent
+- Want to maintain high quality while still keeping files manageable
+- Need reliable HDR performance without excessive file sizes
+
+| Tier | Group                   | Efficiency | Delta |
+| ---- | ----------------------- | ---------- | ----- |
+| 1    | TRiToN                  | 45.22%     | 5.22  |
+| 1    | WhoDunIt                | 42.15%     | 2.15  |
+| 2    | Disney+ (2160p)         | 32.87%     | 7.13  |
+| 2    | FLUX                    | 26.18%     | 13.82 |
+| 3    | HONE                    | 19.45%     | 20.55 |
+| 3    | FRANKeNCODE             | 21.12%     | 18.88 |
+| 4    | VΕRUS                   | 48.95%     | 8.95  |
+| 4    | DEPTH                   | 52.33%     | 12.33 |
+
+### Example 5: Near Transparent Quality (60% target)
+This higher bitrate target is chosen by users who:
+- Have ample storage and prioritize maximum quality
+- Watch on high-end displays where subtle quality differences are noticeable
+- Want to maintain archive-quality collections
+- Focus on difficult-to-encode content where compression artifacts are more visible
+
+| Tier | Group                   | Efficiency | Delta |
+| ---- | ----------------------- | ---------- | ----- |
+| 1    | VΕRUS                   | 48.95%     | 11.05 |
+| 1    | DEPTH                   | 52.33%     | 7.67  |
+| 2    | TRiToN                  | 45.22%     | 14.78 |
+| 2    | WhoDunIt                | 42.15%     | 17.85 |
+| 3    | Disney+ (2160p)         | 32.87%     | 27.13 |
+| 3    | FLUX                    | 26.18%     | 33.82 |
+| 4    | HONE                    | 19.45%     | 40.55 |
+| 4    | FRANKeNCODE             | 21.12%     | 38.88 |
+
+These examples demonstrate how different groups excel at different target ratios, and how streaming services tend to maintain consistent compression approaches regardless of user preferences. The rankings help users quickly identify which releases will best match their specific quality and size requirements.
 
 ## Frequently Asked Questions
 
