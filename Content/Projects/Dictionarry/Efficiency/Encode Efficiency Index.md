@@ -54,7 +54,7 @@ The 60% ceiling for 2160p content is based on different considerations:
 
 Give these articles a read to better understand how VMAF and BD-Rate tell us how efficient a codec is:
 - https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
-- https://www.mdpi.com/2079-9312/13/5/953
+- https://www.mdpi.com/2079-9292/13/5/953
 ## How Do We Apply This Index?
 
 The ranking system works by calculating how close each Release Group / Streaming Service comes to achieving a user's desired compression ratio. This is done through a few key steps:
