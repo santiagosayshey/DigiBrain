@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
+                "file": "Content/Projects/Dictionarry/Quality Profile UI Improvements.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encode Efficiency Index"
+              "title": "Quality Profile UI Improvements"
             }
           },
           {
@@ -211,8 +211,9 @@
   },
   "active": "fac3b95b58a99156",
   "lastOpenFiles": [
-    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
+    "Content/Projects/Dictionarry/Quality Profile UI Improvements.md",
+    "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Automatic Imports.md",
     "Content/Projects/Dictionarry/dev log.md",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
