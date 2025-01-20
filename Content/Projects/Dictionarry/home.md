@@ -11,4 +11,7 @@ Welcome to Dictionarry! This project aims to wiki-fy and simplify media automati
 
 ## Motivation
 
-Navigating the world of niche quality terms like "re"
+Navigating the world of **niche quality terms** like "Remux", or "HEVC" or "Dolby Vision" can be quite daunting when all you want to do is setup a media server to watch some content. If often **feels like you need a masters in audio / video just to grab the latest blockbuster.** Dictionarry aims not to answer these questions, but **abstract them into more approachable ones** that don't require extensive knowledge or experience. 
+
+How do we this? **Custom Formats & Quality Profiles**
+
