@@ -40,13 +40,13 @@ Dictionarry's database of tested profiles and formats handles the technical deci
 
 ## Tooling
 
-The database by itself, does nothing. Custom Formats and Quality Profiles need to be imported and configured in your individual arr installations. Rather than leaving you to manually create everything yourself, we've created `Profilarr` to automate this process.
+The database by itself, does nothing. Custom Formats and Quality Profiles need to be imported and configured in your individual arr installations. Rather than leaving you to manually create everything yourself based on this site, we've created **Profilarr** to automate this process.
 
 ### Profilarr
 
 Profilarr is a configuration management tool for Radarr and Sonarr that can interface with ANY remote configuration database (not just Dictionarry's!). It automatically:
 
-- Pulls new updates from your chosen configuration database
+- Pulls new updates from your chosen database
 - Compiles the database format into specific arr formats
 - Imports them to your arr installations
 - Manages version control of your configurations
@@ -64,4 +64,4 @@ The architecture was specifically built like this to put user choice first. We b
 - Different users have different requirements (storage constraints, hardware capabilities, quality preferences)
 - The ability to customize should never be sacrificed for convenience
 
-Profilarr empowers you to use Dictionarr's database (or anyone elses!) as a foundation while maintaining the freedom to adapt it to your specific needs.
+Profilarr empowers you to use Dictionarry's database (or anyone elses!) as a foundation while maintaining the freedom to adapt it to your specific needs.
