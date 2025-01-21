@@ -66,10 +66,9 @@ Profilarr empowers you to use Dictionarry's database (or anyone elses!) as a fou
 
 ## Getting Started
 
-**IN PROGRESS**
-
 From here you have multiple options:
+
 - You can browse the wiki articles / development logs to learn more about our process / philosophy
 - You can head to the Profile Recommender to find a profile that suits you
 - You can view the Profile master list to look at all our profiles
-- You can get started with setting up Profilarr / connecting to a database 
+- You can get started with setting up Profilarr / connecting to a database / importing configs
