@@ -38,14 +38,15 @@ The database by itself, does nothing. Custom Formats and Quality Profiles need t
 Profilarr is a configuration management tool for Radarr and Sonarr that can interface with ANY remote configuration database (not just Dictionarry's!). It automatically:
 
 - Pulls new updates from your chosen configuration database
-- Imports them to your arr installation
+- Compiles the database format into specific arr formats
+- Imports them to your arr installations
 - Manages version control of your configurations
 
 Built on top of git, Profilarr treats your configurations like code, allowing you to:
 
 - Track changes over time
 - Maintain your own customizations while still receiving database updates
-- Resolve conflicts when they arise
+- Resolve conflicts between local / remote changes when they arise
 
 The architecture was specifically built like this to put user choice first. We believe that:
 
@@ -54,4 +55,4 @@ The architecture was specifically built like this to put user choice first. We b
 - Different users have different requirements (storage constraints, hardware capabilities, quality preferences)
 - The ability to customize should never be sacrificed for convenience
 
-Profilarr empowers you to use Dictionarr's database as a foundation while maintaining the freedom to adapt it to your specific needs.no 
+Profilarr empowers you to use Dictionarr's database (or anyone elses!) as a foundation while maintaining the freedom to adapt it to your specific needs.
