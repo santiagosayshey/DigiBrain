@@ -28,4 +28,6 @@ Dictionarry leverages two key features of Radarr and Sonarr to simplify media au
    - Automatically upgrade to better versions
    - Avoid problematic releases
 
-Think of it like shopping for a car: Instead of needing to understand every technical specification, Dictionarry helps you focus on what matters to you (like "great sound" or "best picture quality") and handles the technical details behind the scenes.
+Think of Dictionarry as your personal car-buying expert: Instead of researching every technical specification and test-driving dozens of vehicles, you get access to a curated showroom of pre-vetted options that match what you're looking for. Whether you want "maximum quality 4K HDR remuxes with Atmos," "efficient x265 encodes that save space," "transparent 1080p releases," or anything in between, Dictionarry's database of tested profiles and formats handles the technical decisions for you.
+
+## To
