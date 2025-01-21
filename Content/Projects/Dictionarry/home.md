@@ -15,7 +15,17 @@ Navigating the world of **niche quality terms** like "Remux", or "HEVC" or "Dolb
 
 ## How?
 
-Radarr and Sonarr grab content using mult
+Dictionarry leverages two key features of Radarr and Sonarr to simplify media automation:
 
-1. Custom Formats - explain
-2. Quality Profiles - explain
+1. **Custom Formats** - Think of these as smart filters that scan release titles for specific patterns. They help identify important characteristics of your media, such as:
+   - Video quality (4K, HDR, Dolby Vision)
+   - Audio formats (Atmos, DTS, TrueHD)
+   - Source types (Remux, Web-DL, Blu-ray)
+   - Potential issues (upscaled content, poor encodes)
+
+2. **Quality Profiles** - These act like a scoring system that ranks releases based on their Custom Format matches. You can:
+   - Prioritize what matters most to you
+   - Automatically upgrade to better versions
+   - Avoid problematic releases
+
+Think of it like shopping for a car: Instead of needing to understand every technical specification, Dictionarry helps you focus on what matters to you (like "great sound" or "best picture quality") and handles the technical details behind the scenes.
