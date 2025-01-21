@@ -30,4 +30,10 @@ Dictionarry leverages two key features of Radarr and Sonarr to simplify media au
 
 Think of Dictionarry as your personal car-buying expert: Instead of researching every technical specification and test-driving dozens of vehicles, you get access to a curated showroom of pre-vetted options that match what you're looking for. Whether you want "maximum quality 4K HDR remuxes with Atmos," "efficient x265 encodes that save space," "transparent 1080p releases," or anything in between, Dictionarry's database of tested profiles and formats handles the technical decisions for you.
 
-## To
+## Tooling
+
+The database by itself, does nothing. Custom Formats and Quality profiles still need to be imported and setup in your own individual arr installations. Of course we could be mean and tell you to look at all the profiles / formats on site and build things for yourself, but instead we created `Profilarr` as a way to automate this.
+
+### Profilarr
+
+Profilarr is a configuration tool for Radarr and Sonarr that interfaces with ANY remote configuration database (not just Dictionarry's!) and automatically pulls new updates / imports them to your arr installation. Profilarr is built on top of git to take advantage of ... talk about version control... merge conflicts... etc. This important architecture decision allows users to EDIT 
