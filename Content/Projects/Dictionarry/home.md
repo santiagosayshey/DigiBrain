@@ -11,9 +11,9 @@ Welcome to Dictionarry! This project aims to wiki-fy and simplify media automati
 
 ## Motivation
 
-Navigating the world of **niche quality terms** like "Remux", or "HEVC" or "Dolby Vision" can be quite daunting when all you want to do is setup a media server to watch some content. If often **feels like you need a masters in audio / video just to grab the latest blockbuster.** Dictionarry aims not to answer these questions, but **abstract them into more approachable ones** that don't require extensive knowledge or experience. 
+Navigating the world of **niche quality terms** like "Remux", or "HEVC" or "Dolby Vision" can be quite daunting when all you want to do is setup a media server to watch some content. If often **feels like you need a masters in audio / video just to grab the latest blockbuster.** Dictionarry aims not to explain these concepts in detail, but **abstract them into more approachable ideas** that don't require extensive knowledge or experience. 
 
-## How?
+### How?
 
 Dictionarry leverages two key features of Radarr and Sonarr to simplify media automation:
 
@@ -38,11 +38,9 @@ Think of Dictionarry as your personal car-buying expert: Instead of researching 
 
 Dictionarry's database of tested profiles and formats handles the technical decisions for you.
 
-## Tooling
+### Profilarr
 
 The database by itself, does nothing. Custom Formats and Quality Profiles need to be imported and configured in your individual arr installations. Rather than leaving you to manually create everything yourself based on this site, we've created **Profilarr** to automate this process.
-
-### Profilarr
 
 Profilarr is a configuration management tool for Radarr and Sonarr that can interface with ANY remote configuration database (not just Dictionarry's!). It automatically:
 
@@ -65,3 +63,13 @@ The architecture was specifically built like this to put user choice first. We b
 - The ability to customize should never be sacrificed for convenience
 
 Profilarr empowers you to use Dictionarry's database (or anyone elses!) as a foundation while maintaining the freedom to adapt it to your specific needs.
+
+## Getting Started
+
+**IN PROGRESS**
+
+From here you have multiple options:
+- You can browse the wiki articles / development logs to learn more about our process / philosophy
+- You can head to the Profile Recommender to find a profile that suits you
+- You can view the Profile master list to look at all our profiles
+- You can get started with setting up Profilarr / connecting to a database 
