@@ -29,11 +29,29 @@ Dictionarry leverages two key features of Radarr and Sonarr to simplify media au
    - Avoid problematic releases
 
 Think of Dictionarry as your personal car-buying expert: Instead of researching every technical specification and test-driving dozens of vehicles, you get access to a curated showroom of pre-vetted options that match what you're looking for. Whether you want "maximum quality 4K HDR remuxes with Atmos," "efficient x265 encodes that save space," "transparent 1080p releases," or anything in between, Dictionarry's database of tested profiles and formats handles the technical decisions for you.
-
 ## Tooling
 
-The database by itself, does nothing. Custom Formats and Quality profiles still need to be imported and setup in your own individual arr installations. Of course we could be mean and tell you to look at all the profiles / formats on site and build things for yourself, but instead we created `Profilarr` as a way to automate this.
+The database by itself, does nothing. Custom Formats and Quality Profiles need to be imported and configured in your individual arr installations. Rather than leaving you to manually implement everything, we've created `Profilarr` to automate this process.
 
 ### Profilarr
 
-Profilarr is a configuration tool for Radarr and Sonarr that interfaces with ANY remote configuration database (not just Dictionarry's!) and automatically pulls new updates / imports them to your arr installation. Profilarr is built on top of git to take advantage of ... talk about version control... merge conflicts... etc. This important architecture decision allows users to EDIT 
+Profilarr is a configuration management tool for Radarr and Sonarr that can interface with ANY remote configuration database (not just Dictionarry's!). It automatically:
+
+- Pulls new updates from your chosen configuration database
+- Imports them to your arr installation
+- Manages version control of your configurations
+
+Built on top of git, Profilarr treats your configurations like code, allowing you to:
+
+- Track changes over time
+- Maintain your own customizations while still receiving database updates
+- Resolve conflicts when they arise
+
+The architecture was specifically built like this to put user choice first. We believe that:
+
+- Your media setup should reflect your needs, not our opinions
+- Updates should enhance your configuration, not override it
+- Different users have different requirements (storage constraints, hardware capabilities, quality preferences)
+- The ability to customize should never be sacrificed for convenience
+
+Profilarr empowers you to use Dictionarr's database as a foundation while maintaining the freedom to adapt it to your specific needs.no 
