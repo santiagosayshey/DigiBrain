@@ -34,11 +34,13 @@ Think of Dictionarry as your personal car-buying expert: Instead of researching 
 - **2160p Quality** - Transparent 4K HDR encodes selected using the Encode Efficiency Index
 - **1080p Quality** - Transparent 1080p encodes optimized using the Golden Popcorn Performance Index
 - **1080p Efficient** - Efficient x265 1080p Encodes optimized to save space using the Encode Efficiency Index 
+- And More....
 
 Dictionarry's database of tested profiles and formats handles the technical decisions for you.
+
 ## Tooling
 
-The database by itself, does nothing. Custom Formats and Quality Profiles need to be imported and configured in your individual arr installations. Rather than leaving you to manually implement everything, we've created `Profilarr` to automate this process.
+The database by itself, does nothing. Custom Formats and Quality Profiles need to be imported and configured in your individual arr installations. Rather than leaving you to manually create everything yourself, we've created `Profilarr` to automate this process.
 
 ### Profilarr
 
