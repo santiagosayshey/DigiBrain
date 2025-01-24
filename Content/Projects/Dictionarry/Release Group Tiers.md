@@ -5,12 +5,16 @@ Well, first we need to understand that we're trying to automate the subjective a
 So, new question - how do we measure quality and efficiency? You might think we'd want to parse releases and find their technical properties; resolution, bitrate, video / audio codecs, hdr, etc. 
 
 ```
-Release 1: Blockbuster Movie A 2022 Hybrid 1080p WEBRip DDPA5.1 x264-group A
+Release 1 (25.2 GiB): Blockbuster Movie A 2022 Hybrid 1080p WEBRip DDPA5.1 x264-group A
 
-Release 2: Blockbuster Movie A.1080p.WEBRip.DD+7.1.x264-group B
+Release 2 (27.3 GiB): Blockbuster Movie A.1080p.WEBRip.DD+7.1.x264-group B
 ```
 
-Looking at these two releases, you'll notice that they both have the EXACT same technical specification and would rank equally! So using technical properties to measure quality / efficiency can be effective, but is largely limited by the information that they convey. 
+Looking at these two releases, you'll notice that they both have the EXACT same technical specification and would rank equally! But they're different sizes... so which is better? Using technical properties to measure quality / efficiency can be effective, but is largely limited by the information that they convey. You can't adequately answer which is better just by looking at these releases in isolation. 
+
+So how do we not do that, how do we not look at these releases in isolation? Or rather, how do we extrapolate information that isn't already there? 
+
+The easiest way to do this is lo
 
 - rank release groups
 - release groups are the most consistent and simple way to measure how "good" something is. 
