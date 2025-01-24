@@ -1,8 +1,6 @@
-So, how does Dictionarry *actually simplify media automation.?*
+So, how does Dictionarry *actually simplify media automation?*
 
-Well, first we need to understand that we're trying to automate the subjective analysis of how "good" a release is, and even more so, automating what "good", even means. 
-
-Instead of relying on technical specifications; like if
+Well, first we need to understand that we're trying to automate the subjective analysis of how "good" a release is. To do that, we need to first define what "good" even means. To some people, it could mean how well something looks on their screen, or sounds through speakers; we define this as quality. To others, it means how many releases t
 
 - rank release groups
 - release groups are the most consistent and simple way to measure how "good" something is. 
