@@ -10,11 +10,15 @@ Release 1 (25.2 GiB): Blockbuster Movie A 2022 Hybrid 1080p WEBRip DDPA5.1 x264-
 Release 2 (27.3 GiB): Blockbuster Movie A.1080p.WEBRip.DD+7.1.x264-group B
 ```
 
-Looking at these two releases, you'll notice that they both have the EXACT same technical specification and would rank equally! But they're different sizes... so which is better? Using technical properties to measure quality / efficiency can be effective, but is largely limited by the information that they convey. You can't adequately answer which is better just by looking at these releases in isolation. 
+Looking at these two releases, you'll notice that they both have the EXACT same technical specification and would rank equally! But they're different sizes... so which is better? Using technical properties to measure quality / efficiency can be effective, but is largely limited by the information that they convey. You can't adequately answer which is better just by looking at these releases in isolation. So how do we not do that, how do we not look at these releases in isolation? Or rather, how do we extrapolate information that isn't already there? 
 
-So how do we not do that, how do we not look at these releases in isolation? Or rather, how do we extrapolate information that isn't already there? 
+Our answer lies in the little bit of information at the end of every release - it's group tag.  
 
-The easiest way to do this is lo
+The easiest way to do this is to look at the group who released it and compare them against OTHER release groups, based on their historic performance 
+
+Dictionarry employs two data driven metrics to do this: 
+
+
 
 - rank release groups
 - release groups are the most consistent and simple way to measure how "good" something is. 
