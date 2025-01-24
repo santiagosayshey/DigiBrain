@@ -1,1 +1,1 @@
-So, how does Dictionarry *actually simplify media automation?* Instead of focusing on every small thing that might discern release A from release B, 
+So, how does Dictionarry *actually simplify media automation...?* We quantify data
