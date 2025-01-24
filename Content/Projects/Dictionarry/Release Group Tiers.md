@@ -17,9 +17,9 @@ Our answer lies in the little bit of information at the end of every release - i
 1. Golden Popcorn Performance Index (GPPi): How many golden popcorns a release group has, as a ratio of their total number of releases
 2. Encode Efficiency Index (EEi): The average size of a release group's encode compared to it's likely source. 
 
-These metrics are objective, data driven and d
+These metrics are evidence based, data driven and objective. They DO NOT rely on reputation or word of mouth or any subjective means of measurement. 
 
-
+So now we have our answer! Dictionarry simplifies media automation by prioritizing release groups that achieve quantifiable levels of quality and efficiency through objective measurement. These release group rankings are built and maintained as custom formats to be scored in individual qual
 
 - rank release groups
 - release groups are the most consistent and simple way to measure how "good" something is. 
