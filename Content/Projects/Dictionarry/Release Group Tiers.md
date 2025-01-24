@@ -12,11 +12,12 @@ Release 2 (27.3 GiB): Blockbuster Movie A.1080p.WEBRip.DD+7.1.x264-group B
 
 Looking at these two releases, you'll notice that they both have the EXACT same technical specification and would rank equally! But they're different sizes... so which is better? Using technical properties to measure quality / efficiency can be effective, but is largely limited by the information that they convey. You can't adequately answer which is better just by looking at these releases in isolation. So how do we not do that, how do we not look at these releases in isolation? Or rather, how do we extrapolate information that isn't already there? 
 
-Our answer lies in the little bit of information at the end of every release - it's group tag.  
+Our answer lies in the little bit of information at the end of every release - it's group tag. Dictionarry tracks historic release group data in order to rank groups based on their propensity to reach quantifiable levels of quality and efficiency. We do this using two metrics:
 
-The easiest way to do this is to look at the group who released it and compare them against OTHER release groups, based on their historic performance 
+1. Golden Popcorn Performance Index (GPPi): How many golden popcorns a release group has, as a ratio of their total number of releases
+2. Encode Efficiency Index (EEi): The average size of a release group's encode compared to it's likely source. 
 
-Dictionarry employs two data driven metrics to do this: 
+These metrics are objective, data driven and d
 
 
 
