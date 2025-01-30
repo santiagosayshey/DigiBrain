@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Release Group Tiers.md",
+                "file": "Content/Projects/Dictionarry/Website 2.0.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Group Tiers"
+              "title": "Website 2.0"
             }
           },
           {
@@ -226,8 +226,9 @@
   },
   "active": "877bda73bff8bc55",
   "lastOpenFiles": [
-    "Content/Projects/Dictionarry/home.md",
     "Content/Projects/Dictionarry/Release Group Tiers.md",
+    "Content/Projects/Dictionarry/Website 2.0.md",
+    "Content/Projects/Dictionarry/home.md",
     "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
     "Content/Projects/Dictionarry/Automatic Imports.md",
     "Content/Projects/Dictionarry/dev log.md",
@@ -263,7 +264,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/2.3 Recurrence Relations.md",
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
-    "Content/Projects/Dictionarry/Qualities.md",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Computer Science/Secure Programming/Revision",
