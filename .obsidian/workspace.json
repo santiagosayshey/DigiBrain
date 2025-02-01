@@ -45,11 +45,23 @@
               "state": {
                 "file": "Content/Projects/Dictionarry/Website 2.0.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Website 2.0"
+            }
+          },
+          {
+            "id": "cd4517e94f660925",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           },
           {
@@ -83,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -224,7 +237,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "877bda73bff8bc55",
+  "active": "cd4517e94f660925",
   "lastOpenFiles": [
     "Content/Projects/Dictionarry/Release Group Tiers.md",
     "Content/Projects/Dictionarry/Website 2.0.md",
