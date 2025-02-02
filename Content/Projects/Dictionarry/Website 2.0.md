@@ -39,6 +39,14 @@ Why is this important?
 
 If you parse the efficiency of a release group directly, then you know youre getting something at a file size you want. This means we don't have to use h265 / x265 as a ridiculous proxy baseline to find content we want anymore. We can just downrank all h264 instead which is much more reliable
 
-#### 2160p Encode Profile + Release Group Tierlist!!!!!!!!
+#### 2160p Quality (Encode) Profile + Release Group Tierlist!!!!!!!!
 
-Using EEI, we target 4k release groups at 55% target ratio to discern transparency. No golden popcorns needed, no complex trump parsing crap. N
+Using EEI, we target 4k release groups at 55% target ratio to discern transparency. No golden popcorns needed, no complex trump parsing crap. No "popular" vote. Whenever something isn't documented, we simply add that movie / tv show to the data source and groupings update automatically. It's almost like magic. 
+
+This metric has made the 2160p Quality profile possible and i dare say it's the most comprehensive one I've worked on thus far. Give the quality profile and tier lists a read here:
+- [216p Quality Profile](https://dictionarry.dev/profiles/2160p-quality)
+- [2160p Quality Release Group Tiers](https://dictionarry.dev/tiers/2160p/quality)
+
+#### Thanks
+- Thanks to @seraphys for helping out with the profile creation / giving constant feedback.
+- Thanks to er
