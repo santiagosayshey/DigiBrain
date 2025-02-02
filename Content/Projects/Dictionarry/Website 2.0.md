@@ -53,3 +53,9 @@ This metric has made the 2160p Quality profile possible and i dare say it's the 
 - Thanks to @erphise for being a tester / the catalyst for the creation of this metric. If they hadn't been testing out the HEVC profile, we never would have talked about compression ratios which never meant I got the idea for the metric in the first place.
 
 Show them some love. 
+
+## Profilarr
+
+Almost done, I took a break for a couple weeks to finish up the website but I'm gonna get rolling again soon. I just finalized authentication, database migrations and the pull module. The only major thing left is getting everything ready for production. This means setting up the docker image, unraid template, etc, etc. It's hard to say how long this is gonna take since I'm basically learning it all on the fly so bare with me on this. But, it's almost done and a beta test will be out soon (hopefully)
+
+
