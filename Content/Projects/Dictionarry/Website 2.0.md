@@ -28,4 +28,17 @@ In it's place is the "Profile Builder" (maybe also a terrible name). It still at
 
 ## Encode Efficiency Index
 
-Here we go, meat and potatoes. This is another release group metric, just like the Golden Popcorn Performance Index. It evaluates release groups on their average compression ratio (how big their encode is compared to a source), to discern quality and 
+Here we go, meat and potatoes. This is another release group metric just like the Golden Popcorn Performance Index. Heres's the play-by-play:
+- It evaluates release groups on their average compression ratio (how big their encode is compared to a source), to discern quality and/or efficiency.
+- It can discern transparency by targeting ratios at which a codec begins to "saturate"
+- It can discern efficiency by targeting ratios at which a codec reaches it's "efficiency apex"
+
+Why is this important?
+
+#### No More Parsing Codecs!!!!
+
+If you parse the efficiency of a release group directly, then you know youre getting something at a file size you want. This means we don't have to use h265 / x265 as a ridiculous proxy baseline to find content we want anymore. We can just downrank all h264 instead which is much more reliable
+
+#### 2160p Encode Profile + Release Group Tierlist!!!!!!!!
+
+Using EEI, we target 4k release groups at 55% target ratio to discern transparency. No golden popcorns needed, no complex trump parsing crap. N
