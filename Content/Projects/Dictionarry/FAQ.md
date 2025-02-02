@@ -1,9 +1,5 @@
 This entry is dedicated to providing answers to the most frequently asked questions about Dictionarry / Profilarr.
 
-I'll create a markdown table summarizing questions 4, 5, and 7 from the FAQ.
-
-
-
 | Question | Answer |
 |----------|---------|
 | Why isn't the highest scored release being grabbed? | You may have prefer propers and repacks on. This option forces releases with a proper / repack flag to be grabbed, even if it's Custom Format score is not the highest. To turn it off, navigate to Settings > Media Management > File Management and set Prefer Propers / Repacks to Do Not Prefer. |
