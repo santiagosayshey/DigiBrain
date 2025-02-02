@@ -5,9 +5,12 @@ Hey everyone, medium-ish update today.
 I've wanted to transition away from the old site / mkdocs for a while now as its quite hard to maintain and keep everything up to date, so I built a new site using Next.js that uses ISR to rebuild its content using the dictionarry database. Basically this just means:
 - Database gets an update -> Website sees its data is stale -> Website rebuilds itself with new data -> Santiago smiles in not needing to do anything
 
-This all ties into the whole "write once" philosophy that I instilled with Profilarr and has made development much easier. 
+This all ties into the whole "write once" philosophy that I instilled with Profilarr and has made development much easier. There are still quite a few layout issues and perhaps a devlog refactor I need to fit in somewhere, but I'm happy to share it with you guys as it is.
 
-[Website 2.0]
+[Website 2.0](https://dictionarry.dev/)
+
+The old site will go down soon, sorry if I broke anyone's workflows D: 
+
 ### Profile Selector?
 
 This idea has gone through many iterations since i started Dictionarry last year.
@@ -21,4 +24,8 @@ Results were pretty good but I felt that it abstracted *too much* of what made a
 
 ### Profile Builder!
 
-In it's place is the "Profile Builder" (maybe also a terrible name). It still attempts to abstract audio/video down into more quantifiable groupings, but limits itself to explanations of certain things where more abstraction is detrimental. It's pretty self explanatory once you use it, but basically you choose through increasingly niche groupings -> resolution -> compression -> encode type -> codec -> HDR. At each step, a list of recommended profiles will be shown. I think this new system helps to fix the "trying to get the profile I want" issue as it starts pretty broad and gets increasingly more specific the more things you choose. It's up now, give it a playwith; let me know if its good / bad / needs changes: [Profile Buid]
+In it's place is the "Profile Builder" (maybe also a terrible name). It still attempts to abstract audio/video down into more quantifiable groupings, but limits itself to explanations of certain things where more abstraction is detrimental. It's pretty self explanatory once you use it, but basically you choose through increasingly niche groupings -> resolution -> compression -> encode type -> codec -> HDR. At each step, a list of recommended profiles will be shown. I think this new system helps to fix the "trying to get the profile I want" issue as it starts pretty broad and gets increasingly more specific the more things you choose. It's up now, give it a playwith; let me know if its good / bad / needs changes: [Profile Buider](https://dictionarry.dev/builder)
+
+## Encode Efficiency Index
+
+Here we go, meat and potatoes. This is another release group metric, just like the Golden Popcorn Performance Index. It evaluates release groups on their average compression ratio (how big their encode is compared to a source), to discern quality and 
