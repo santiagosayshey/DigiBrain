@@ -9,4 +9,7 @@ This all ties into the whole "write once" philosophy that I instilled with Profi
 
 ### Profile Builder
 
-Going back to the very first dev log i wrote in June last year, I wrote about "profile selector v3" and this very abstract triangular 
+This idea has gone through many iterations since i started Dictionarry last year.
+1. A static flowchart with not nearly enough information / choice: https://github.com/santiagosayshey/website/blob/030f3631b4f6fffdb7fa9f4696e5d12defc84a46/docs/Profiles/flowchart.png
+2. The "Profile Selector" (terrible name): https://selectarr.pages.dev/
+3. Frankenstein's triangle: 
