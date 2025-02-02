@@ -7,6 +7,7 @@ I've wanted to transition away from the old site / mkdocs for a while now as its
 
 This all ties into the whole "write once" philosophy that I instilled with Profilarr and has made development much easier. 
 
+[Website 2.0]
 ### Profile Selector?
 
 This idea has gone through many iterations since i started Dictionarry last year.
@@ -20,7 +21,4 @@ Results were pretty good but I felt that it abstracted *too much* of what made a
 
 ### Profile Builder!
 
-In it's place is the "Profile Builder" (maybe also a terrible name). It still attempts to abstract audio/video down into more quantifiable groupings, but limits itself to explanations of certain things where more abstraction isn't worthwhile. It's pretty self explanatory once you use it, but basically you choose through increasingly niche groupings -> resolution -> compression -> encode type -> codec -> HDR. At each step, a list of recommended profiles will be shown. I think this new system helps to fix the "trying to get the profile I want" issue as it starts pretty broad and gets increasingly more specific the more things you choose. It's up now, give it a playwith; let me know if its good / bad / needs changes. 
-
-#### Modules
-
+In it's place is the "Profile Builder" (maybe also a terrible name). It still attempts to abstract audio/video down into more quantifiable groupings, but limits itself to explanations of certain things where more abstraction is detrimental. It's pretty self explanatory once you use it, but basically you choose through increasingly niche groupings -> resolution -> compression -> encode type -> codec -> HDR. At each step, a list of recommended profiles will be shown. I think this new system helps to fix the "trying to get the profile I want" issue as it starts pretty broad and gets increasingly more specific the more things you choose. It's up now, give it a playwith; let me know if its good / bad / needs changes: [Profile Buid]
