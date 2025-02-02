@@ -33,7 +33,7 @@ Here we go, meat and potatoes. This is another release group metric just like th
 - It can discern transparency by targeting ratios at which a codec begins to "saturate"
 - It can discern efficiency by targeting ratios at which a codec reaches it's "efficiency apex"
 
-Why is this important?
+This is a heavily watered down explanation of the metric, you can read about it (with examples), in very heavy detail [here](https://dictionarry.dev/wiki/EEi). Months of research and iteration has gone into this, and I really think this is Dictionarry's biggest asset so far. When AV1 profiles become a thing, this metric is ready for it. 
 
 #### No More Parsing Codecs!!!!
 
@@ -44,9 +44,12 @@ If you parse the efficiency of a release group directly, then you know youre get
 Using EEI, we target 4k release groups at 55% target ratio to discern transparency. No golden popcorns needed, no complex trump parsing crap. No "popular" vote. Whenever something isn't documented, we simply add that movie / tv show to the data source and groupings update automatically. It's almost like magic. 
 
 This metric has made the 2160p Quality profile possible and i dare say it's the most comprehensive one I've worked on thus far. Give the quality profile and tier lists a read here:
+
 - [216p Quality Profile](https://dictionarry.dev/profiles/2160p-quality)
 - [2160p Quality Release Group Tiers](https://dictionarry.dev/tiers/2160p/quality)
 
 #### Thanks
 - Thanks to @seraphys for helping out with the profile creation / giving constant feedback.
-- Thanks to er
+- Thanks to @erphise for being a tester / the catalyst for the creation of this metric. If they hadn't been testing out the HEVC profile, we never would have talked about compression ratios which never meant I got the idea for the metric in the first place.
+
+Show them some love. 
