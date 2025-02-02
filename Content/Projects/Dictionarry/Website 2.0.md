@@ -9,6 +9,8 @@ This all ties into the whole "write once" philosophy that I instilled with Profi
 
 [Website 2.0](https://dictionarry.dev/)
 
+![website2.0](https://i.imgur.com/eORTwml.png)
+
 The old site will go down soon, sorry if I broke anyone's workflows D: 
 
 ### Profile Selector?
@@ -25,6 +27,8 @@ Results were pretty good but I felt that it abstracted *too much* of what made a
 ### Profile Builder!
 
 In it's place is the "Profile Builder" (maybe also a terrible name). It still attempts to abstract audio/video down into more quantifiable groupings, but limits itself to explanations of certain things where more abstraction is detrimental. It's pretty self explanatory once you use it, but basically you choose through increasingly niche groupings -> resolution -> compression -> encode type -> codec -> HDR. At each step, a list of recommended profiles will be shown. I think this new system helps to fix the "trying to get the profile I want" issue as it starts pretty broad and gets increasingly more specific the more things you choose. It's up now, give it a playwith; let me know if its good / bad / needs changes: [Profile Buider](https://dictionarry.dev/builder)
+
+![Profile Builder](https://i.imgur.com/ka8KSHl.png)
 
 ## Encode Efficiency Index
 
