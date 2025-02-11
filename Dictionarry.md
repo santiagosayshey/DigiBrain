@@ -15,4 +15,6 @@ There's nothing wrong this these posts, but they fail to capture our full experi
 
 I worked on Dictionarry and Profilarr for 2 years. I used every bit of knowledge I've learned so far in my 3 years of computer science. I built a website. Then i built a better website. Then I built a full stack development platform with git integration, authentication and a custom compiler!
 
-At no point, did I *ever* feel like I knew what i was doing. I constantly felt like an impostor; that what i was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my optimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. 
+At no point, did I *ever* feel like I knew what i was doing. I constantly felt like an impostor; that what i was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. 
+
+My brain still convinces me that these are facts sometimes. Even after I look at the 3000+ commits on GitHub, the community I've built on Discord and even the optional donations I've received. I still see the few harsh comments from the occasional user and/or competitors and convince myself that it's on me to change their mind ab 
