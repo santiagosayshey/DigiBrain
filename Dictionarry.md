@@ -23,8 +23,12 @@ I'll see a LinkedIn / Facebook / Instagram post and think to myself - "Wow! This
 
 But what I'm starting to understand, is that none of those things really matter. It's not actually on me to convince every single person on the planet that my project is good. What somebody else is doing with their life shouldn't influence how I go about living mine. None of those things matter, because I'm already doing the best I can, and that is enough. That's what I want people to take away from this post - if you're doing the best you can, then nothing else matters. Pat yourself on the back. Pat other people on the back too. 
 
-With that being said, I introduce Dictionarry. It's a self hosting companion that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven analysis. 
-- The database is the core of the project and contains all the user configurations and wiki articles: https://github.com/Dictionarry-Hub/database
-- The website documents this database, 
+With that being said, I introduce Dictionarry. It's a self hosting companion ecosystem that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven configurations. 
+
+- The database is the core of the project and contains all the user configurations and wiki articles: https://github.com/Dictionarry-Hub/database. Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. 
+- The website acts as documentation for this database and allows users to interact with it to find their desired configurations. It's build using next.js as a full static website and rebuilds itself using incremental static regeneration whenever the database receives an update.  
+- Profilarr is a companion tool that allows end users to:
+	- Easily connect our configurations with their existing setups
+	- Directly interface with the database and submit improvements / new features
 
 go check out the new website: https://dictionarry.dev/. It's built using next.js 15, rebuilds itself whenever my proprietary database:  receives an update, acts as both documentation and learning resource and mirrors 
