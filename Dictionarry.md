@@ -39,7 +39,7 @@ With that being said, I introduce Dictionarry. It's a self hosting companion eco
 	- React powers the frontend, Flask in the backend. 
 	- https://github.com/Dictionarry-Hub/profilarr (currently sitting at 272 stars, go check it out!!)
 
-Dictionarry is the culmination of two years of very hard work. I poured my heart and my soul into this project because I wanted to help people. I have spent probably spent 2000+ hours coding, researching and designing. I have 4000+ commits in the past year alone on my personal GitHub. I make no money working on this, and it drives me insane sometimes. 
+Dictionarry is the culmination of two years of very hard work. I poured my heart and my soul into this project because I wanted to help people. I have spent probably spent 2000+ hours coding, researching and designing. I have 4000+ commits in the past year alone on my personal GitHub. I make no money working on this, it drives me insane and I sometimes think about deleting it all and disappearing to a cabin in the woods. 
 
 
 This was a long post, but I hope anyone that reads it takes at least something of benefit away from it
