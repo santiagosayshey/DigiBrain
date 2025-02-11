@@ -1,0 +1,1 @@
+Hello, I'd like to share the passion project I've been working on for the past 2 years of my life. I often see that many posts here on linkedin are often self congratulatory and indulge in celebrating each other's careers, goals and 
