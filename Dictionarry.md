@@ -1,4 +1,4 @@
-Hello, I'd like to share the passion project I've been working on for the past 2 years of my life. I often see that many posts here on linkedin are often self congratulatory and indulge in celebrating each other's careers, goals and achievements. This is a good thing, this platform is meant to be a place in which we can show ourselves off and convince our future employers - hire me! 
+Hello, I'd like to share the passion project I've been working on for the past 2 years of my life. I often see that many posts here on linkedin are self congratulatory and indulge in celebrating each other's careers, goals and achievements. This is a good thing, this platform is meant to be a place in which we can show ourselves off and convince our future employers - hire me! 
 
 I feel like its the expected culture at this point:
 
@@ -11,7 +11,7 @@ here's what i learned
 - something about the importance of learning
 ```
 
-There's nothing wrong this these posts, but they fail to capture our full experiences. They fail to show that real achievement and growth is hard, doesn't usually happen, and requires more than just hard work. In this post, I want to share my genuine experience in working on something that actually meant something to me. Not so that I can wallow in my misery, or get engagement by being different, but so that I can help encourage people to keep doing what they're doing, and not feel intimidated or scared or less than, for not following the status quo. 
+There's nothing wrong with this these posts, but they fail to capture our full experiences. They fail to show that real achievement and growth is hard, doesn't usually happen, and requires more than just hard work. In this post, I want to share my genuine experience in working on something that actually meant something to me. Not so that I can wallow in my misery, or get engagement by being different, but so that I can help encourage people to keep doing what they're doing, and not feel intimidated or scared or less than, for not following the status quo. 
 
 I worked on Dictionarry and Profilarr for 2 years. I used every bit of knowledge I've learned so far in my 3 years of computer science. I built a website. Then I built a better website. Then I built a full stack development platform with git integration, authentication and a custom compiler!
 
@@ -21,12 +21,14 @@ My brain still convinces me that these are facts sometimes. Even after I look at
 
 I'll see a LinkedIn / Facebook / Instagram post and think to myself - "Wow! This person really has their stuff together, I need to be more like them." That this person has ended up in this terrific new situation of growth and money and all these great things we want, simply because they are a better person than I am. 
 
-But what I'm starting to understand, is that none of those things really matter. It's not actually on me to convince every single person on the planet that my project is good. What somebody else is doing with their life shouldn't influence how I go about living mine. None of those things matter, because I'm already doing the best I can, and that is enough. That's what I want people to take away from this post - if you're doing the best you can, then nothing else matters. Pat yourself on the back. Pat other people on the back too. 
+But what I'm starting to understand, is that none of those things really matter. It's not actually on me to convince every single person on the planet that my project is good. What somebody else is doing with their life shouldn't influence how I go about living mine. None of those things matter, because I'm already doing the best I can, and that is enough. That's what I want people to take away from this post - if you're doing the best you can, then nothing else matters. 
+
+Pat yourself on the back. Pat others on the back too. 
 
 With that being said, I introduce Dictionarry. It's a self hosting companion ecosystem that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven configurations. 
 
 - The database is the core of the project and contains all the user configurations and wiki articles
-	- Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. ACID compliance is built directly
+	- Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. 
 	- https://github.com/Dictionarry-Hub/database
 - The website acts as documentation for this database and allows users to interact with it to find their desired configurations.
 	- Using Next.js, we build a fully static website that can be rebuilt using incremental static regeneration whenever the database receives an update.  
@@ -35,4 +37,6 @@ With that being said, I introduce Dictionarry. It's a self hosting companion eco
 	- Easily connect our configurations with their existing setups
 	- Directly interface with the database and submit improvements / new features
 	- React powers the frontend, Flask in the backend. 
-	- https://github.com/Dictionarry-Hub/profilarr
+	- https://github.com/Dictionarry-Hub/profilarr (currently sitting at 272 stars, go check it out!!)
+
+Dictionarry is the culmination of two years of very hard work. I poured my heart and my soul into this project because I wanted to help people.  I will continue to do so, probably for the rest of my life. This was a long post, but I hope anyone that reads it takes at least something of benefit away from it
