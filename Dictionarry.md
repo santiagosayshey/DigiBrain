@@ -3,5 +3,13 @@ Hello, I'd like to share the passion project I've been working on for the past 2
 I feel like its the expected culture at this point:
 
 ```
-im 
+im <emotional adjective> to share that i'm <verb>ing as a <superfluous title> at <prestigious company>.
+
+here's what i learned
+- something about teamwork
+- something about overcoming challenges
+- something about the importance of learning
 ```
+
+There's nothing wrong this these posts, but they fail to capture our full experiences. 
+
