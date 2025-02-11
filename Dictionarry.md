@@ -11,5 +11,6 @@ here's what i learned
 - something about the importance of learning
 ```
 
-There's nothing wrong this these posts, but they fail to capture our full experiences. 
+There's nothing wrong this these posts, but they fail to capture our full experiences. They fail to show that real achievement and growth is hard, doesn't usually happen 
 
+continuing way more, but goes into all the bad things that happened during development. why its important that im sharing these things - so that others can see that its normal, so they dont feel inferrior, and so that we stop propagating toxing work cultures, expectations and be kinder to each other.
