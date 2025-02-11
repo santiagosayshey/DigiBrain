@@ -11,7 +11,7 @@ here's what i learned
 - something about the importance of learning
 ```
 
-There's nothing wrong with this these posts, but they fail to capture our full experiences. They fail to show that real achievement and growth is hard, doesn't usually happen, and requires more than just hard work. In this post, I want to share my genuine experience in working on something that actually meant something to me. Not so that I can wallow in my misery, or get engagement by being different, but so that I can help encourage people to keep doing what they're doing, and not feel intimidated or scared or less than, for not following the status quo. 
+On the surface level, there's nothing wrong with this these posts, but they fail to capture our full experiences and perpetuate invisible issues that plague the tech world. They fail to show that real achievement and growth is hard, doesn't usually happen, and requires more than just hard work. In this post, I want to share my genuine experience in working on something that actually meant something to me. Not so that I can wallow in my misery, or get engagement by being different, but so that I can help encourage people to keep doing what they're doing, and not feel intimidated or scared or less than, for not following the status quo. 
 
 I worked on Dictionarry and Profilarr for 2 years. I used every bit of knowledge I've learned so far in my 3 years of computer science. I built a website. Then I built a better website. Then I built a full stack development platform with git integration, authentication and a custom compiler!
 
@@ -39,6 +39,6 @@ With that being said, I introduce Dictionarry. It's a self hosting companion eco
 	- React powers the frontend, Flask in the backend. 
 	- https://github.com/Dictionarry-Hub/profilarr (currently sitting at 272 stars, go check it out!!)
 
-Dictionarry is the culmination of two years of very hard work. I poured my heart and my soul into this project because I wanted to help people. I have spent 2000+ hours coding, researching and designing. I have 4000+ commits in the past year alone on my personal GitHub. I make no money working on this, it drives me insane and I sometimes think about deleting it all and disappearing to a cabin in the woods. I'm not writing code that solves world hunger. I'm not building a startup worth a billion dollars. I'm building a very niche solution to a very niche problem that matters to me. And that's okay. 
+Dictionarry is the culmination of two years of very hard work. I poured my heart and my soul into this project because I wanted to help people. I have spent 2000+ hours coding, researching and designing. I have 4000+ commits in the past year alone on my personal GitHub. I make no money working on this, it drives me insane and I sometimes think about deleting it all and disappearing to a cabin in the woods. I'm not writing code that solves world hunger.
 
-But I keep going. Not because I need to prove anything to anyone, but because this is what doing my best looks like. And that's worth celebrating just as much as any polished LinkedIn success story.
+But I keep going. Not because I need to prove anything to anyone, but because this is what doing my best looks like. I'm not building a startup worth a billion dollars - I'm building a very niche solution to a very niche problem that matters to me. And that's worth celebrating just as much as any polished LinkedIn success story.
