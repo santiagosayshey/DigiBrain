@@ -19,4 +19,6 @@ At no point, did I *ever* feel like I knew what i was doing. I constantly felt l
 
 My brain still convinces me that these are facts sometimes. Even after I look at the 3000+ commits on GitHub, the community I've built on Discord and even the optional donations I've received. I still see the few harsh comments from the occasional entitled user and/or competitors and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to *do better*. 
 
-But what I'm starting to understand is, that it's not on me. It's not on me, because I'm already doing the best I can. That's what I want people to take away from this post - that nothing really matters if you're already doing the best you can. These posts often portray a sense of ... I'm better than you and here's why. 
+I'll see a LinkedIn / Facebook / Instagram post and think to myself - "Wow! This person really has their stuff together, I need to be more like them." That this person has ended up in this terrific new situation of growth and money and all these great things we want, simply because they are a better person than I am. 
+
+But what I'm starting to understand is, that none of those things really because I'm already doing the best I can. That's what I want people to take away from this post - that nothing really matters if you're already doing the best you can. These posts often portray a sense of ... I'm better than you just by existing, 
