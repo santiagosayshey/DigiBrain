@@ -25,10 +25,14 @@ But what I'm starting to understand, is that none of those things really matter.
 
 With that being said, I introduce Dictionarry. It's a self hosting companion ecosystem that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven configurations. 
 
-- The database is the core of the project and contains all the user configurations and wiki articles: https://github.com/Dictionarry-Hub/database. Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. 
-- The website acts as documentation for this database and allows users to interact with it to find their desired configurations. It's build using next.js as a full static website and rebuilds itself using incremental static regeneration whenever the database receives an update.  
+- The database is the core of the project and contains all the user configurations and wiki articles
+	- Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. ACID compliance is built directly
+	- https://github.com/Dictionarry-Hub/database
+- The website acts as documentation for this database and allows users to interact with it to find their desired configurations.
+	- Using Next.js, we build a fully static website that can be rebuilt using incremental static regeneration whenever the database receives an update.  
+	- https://dictionarry.dev/
 - Profilarr is a companion tool that allows end users to:
 	- Easily connect our configurations with their existing setups
 	- Directly interface with the database and submit improvements / new features
-
-go check out the new website: https://dictionarry.dev/. It's built using next.js 15, rebuilds itself whenever my proprietary database:  receives an update, acts as both documentation and learning resource and mirrors 
+	- React powers the frontend, Flask in the backend. 
+	- https://github.com/Dictionarry-Hub/profilarr
