@@ -17,7 +17,7 @@ Hello, I'd like to share Dictionarry, a passion project I've been working on for
     - Open development model enabling direct community contributions
     - https://github.com/Dictionarry-Hub/profilarr
 
-On LinkedIn, this would be where everyone comments 'Congratulations!' and moves on - not because my post deserves a congratulations, but have you ever
+On LinkedIn, this would be where everyone comments 'Congratulations!' and moves on. Not because this post deserves special praise - but that's just what we do here, isn't it?
 
 ```
 im <emotional adjective> to share that i'm <verb>ing as a <superfluous title> at <prestigious company>.
@@ -27,10 +27,10 @@ here's what i learned
 - something about overcoming challenges
 - something about the importance of learning
 
-re: Congrats <person I probably barely know!>
+re: Congrats <person I barely know!>
 ```
 
-But this skips over the real story. I want to share my full experience- not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
+But this skips over the real story. I want to share my full experience - not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
 
 I started with a simple website. Then I built a better website. Then I built a full stack development platform. At no point did I *ever* feel like I knew what I was doing. I constantly felt like an impostor; that what I was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. One night, I was so stressed about the merge conflict module that I literally dreamed about getting into a fight with someone who was furious about how badly it worked.
 
