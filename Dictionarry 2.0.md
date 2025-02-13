@@ -17,9 +17,8 @@ Hello, I'd like to share Dictionarry, a passion project I've been working on for
     - Open development model enabling direct community contributions
     - https://github.com/Dictionarry-Hub/profilarr
 
-I'm proud of what I've built here and , but it isn't the full story. I often see many self congratulatory, indulgent posts here on LinkedIn that on the surface, celebrate our careers, goals and achievements. After all, LinkedIn is meant to be a platform for which we show ourselves off and convince our employers to hire us.
+On LinkedIn, this would be where everyone comments 'Congratulations!' and moves on. 
 
-It's become almost a template at this point:
 ```
 im <emotional adjective> to share that i'm <verb>ing as a <superfluous title> at <prestigious company>.
 
@@ -27,9 +26,11 @@ here's what i learned
 - something about teamwork
 - something about overcoming challenges
 - something about the importance of learning
+
+re: Congrats <person I probably barely know!>
 ```
 
-There's nothing wrong with these posts, but they fail to capture our full experiences. I want to share my full experience with you all - not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
+But this skips over the real story. I want to share my full experience with you all - not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
 
 I started with a simple website. Then I built a better website. Then I built a full stack development platform. At no point did I *ever* feel like I knew what I was doing. I constantly felt like an impostor; that what I was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. One night, I was so stressed about the merge conflict module that I literally dreamed about getting into a fight with someone who was furious about how badly it worked.
 
