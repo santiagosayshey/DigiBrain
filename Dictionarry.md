@@ -11,15 +11,15 @@ here's what i learned
 - something about the importance of learning
 ```
 
-There's nothing wrong with this these posts, but they fail to capture our full experiences. They fail to show that real achievement and growth is hard, doesn't usually happen, and requires more than just hard work. I want to share my genuine experience in working on something that actually meant something to me. Not so that I can wallow in my misery, or get engagement by being different, but so that I can help encourage people to keep doing what they're doing, and not feel intimidated or scared or less than, for not following the status quo. 
+There's nothing wrong with this these posts, but they fail to capture our full experiences. I want to share my full experience with you all - not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
 
 I worked on Dictionarry and Profilarr for 2 years. I used every bit of knowledge I've learned so far in my 3 years of computer science. I built a website. Then I built a better website. Then I built a full stack development platform with git integration, authentication and a custom compiler.
 
 At no point, did I *ever* feel like I knew what i was doing. I constantly felt like an impostor; that what i was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. One night, I was so stressed about the merge conflict module that I literally dreamed about getting into a fight with someone who was furious about how badly it worked.
 
-My brain still convinces me that these are facts sometimes. Even after I look at the 3000+ commits on GitHub, the community I've built on Discord and even the optional donations I've received, I still see the few harsh comments from entitled users / disgruntled competitors and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to *do better*. 
+My brain still convinces me that these are facts sometimes. Even after all the positive feedback and community support, I still fixate on the few harsh comments and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to _do better_.
 
-I'll see a LinkedIn / Facebook / Instagram post and think to myself - "Wow! This person really has their stuff together, I need to be more like them." That this person has ended up in this terrific new situation of growth and money and status and all these great things we want, simply because they are a better person than I am. 
+I'll see posts on social media and think to myself - 'Wow! This person really has their life figured out.' As if their success and growth came naturally to them, while I'm still here struggling with the basics.
 
 But what I'm starting to understand, is that none of those things really matter. It's not actually on me to convince every single person on the planet that my project is good. What somebody else is doing with their life shouldn't influence how I go about living mine. None of those things matter, because I'm already doing the best I can, and that is enough. That's what I want people to take away from this post - if you're doing the best you can, then nothing else matters. 
 
