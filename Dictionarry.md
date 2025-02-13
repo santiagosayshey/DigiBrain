@@ -17,13 +17,9 @@ I worked on Dictionarry and Profilarr for 2 years. I used every bit of knowledge
 
 At no point, did I *ever* feel like I knew what i was doing. I constantly felt like an impostor; that what i was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. One night, I was so stressed about the merge conflict module that I literally dreamed about getting into a fight with someone who was furious about how badly it worked.
 
-My brain still convinces me that these are facts sometimes. Even after all the positive feedback and community support, I still fixate on the few harsh comments and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to _do better_.
+My brain still convinces me that these are facts sometimes. Even after all the positive feedback and community support, I still fixate on the few harsh comments and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to _do better_. I'll see posts on social media and think to myself - 'Wow! This person really has their life figured out.' As if their success and growth came naturally to them, while I'm still here struggling with the basics.
 
-I'll see posts on social media and think to myself - 'Wow! This person really has their life figured out.' As if their success and growth came naturally to them, while I'm still here struggling with the basics.
-
-But what I'm starting to understand, is that none of those things really matter. It's not actually on me to convince every single person on the planet that my project is good. What somebody else is doing with their life shouldn't influence how I go about living mine. None of those things matter, because I'm already doing the best I can, and that is enough. That's what I want people to take away from this post - if you're doing the best you can, then nothing else matters. 
-
-Pat yourself on the back. Pat others on the back too. 
+But what I'm starting to understand is that none of that really matters. It's not about convincing everyone that what I'm doing is worthwhile. Someone else's path doesn't need to define mine. I'm doing the best I can, and that's enough. That's what I hope people take away from this - your best is enough.
 
 With that being said, I introduce Dictionarry. It's a self hosting companion ecosystem that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven configurations. 
 
@@ -39,6 +35,6 @@ With that being said, I introduce Dictionarry. It's a self hosting companion eco
 	- React powers the frontend, Flask in the backend. 
 	- https://github.com/Dictionarry-Hub/profilarr (currently sitting at 272 stars, go check it out!!)
 
-Dictionarry is the culmination of two years of very hard work. I poured my heart and my soul into this project because I wanted to help people. I have spent 2000+ hours coding, researching and designing. I have 4000+ commits in the past year alone on my personal GitHub. I make no money working on this, it drives me insane and I sometimes think about deleting it all and disappearing to a cabin in the woods.
+Dictionarry represents two years of learning and building. I've poured countless hours into this project because I wanted to create something helpful. It's been rewarding, but I sometimes think about deleting it all and disappearing to a cabin in the woods.
 
-But I keep going. Not because I need to prove anything to anyone, but because this is what doing my best looks like. I'm not building a startup worth a billion dollars - I'm building a very niche solution to a very niche problem that matters to me. And that's worth celebrating just as much as any polished LinkedIn success story.
+I'm not building a startup worth a billion dollars - I'm building a very niche solution to a very niche problem that matters to me. And I think that's worth celebrating just as much as any polished LinkedIn success story.
