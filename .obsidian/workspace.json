@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/FAQ.md",
+                "file": "Dictionarry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "FAQ"
+              "title": "Dictionarry"
             }
           },
           {
@@ -28,13 +28,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionarry.md",
+                "file": "Dictionarry 2.0.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dictionarry"
+              "title": "Dictionarry 2.0"
+            }
+          },
+          {
+            "id": "257777c4d2cd6d81",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -183,6 +193,7 @@
   "active": "df816570faa280f5",
   "lastOpenFiles": [
     "Dictionarry.md",
+    "Dictionarry 2.0.md",
     "Content/Projects/Dictionarry/FAQ.md",
     "Content/Projects/Dictionarry/Website 2.0.md",
     "Content/Projects/Dictionarry/Release Group Tiers.md",
@@ -217,7 +228,6 @@
     "Content/Projects/Journal/Monday, May 28, 2024.md",
     "System Architecture.png",
     "Content/Mathematics/Notes/Polynomials.md",
-    "Content/AI Prompt.md",
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
