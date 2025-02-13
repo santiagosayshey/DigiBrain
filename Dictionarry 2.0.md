@@ -20,14 +20,14 @@ Hello, I'd like to share Dictionarry, a passion project I've been working on for
 On LinkedIn, this would be where everyone comments 'Congratulations!' and moves on. Not because this post deserves special praise - but that's just what we do here, isn't it?
 
 ```
-im <emotional adjective> to share that i'm <verb>ing as a <superfluous title> at <prestigious company>.
+I'm <Emotional Adjective> to share that i'm <Verb>ing as a <Superfluous Title> at <Prestigious Company>.
 
-here's what i learned
-- something about teamwork
-- something about overcoming challenges
-- something about the importance of learning
+Here's what i learned
+- Something about teamwork
+- Something about overcoming challenges
+- Something about the importance of learning
 
-re: Congrats <person I barely know!>
+RE: Congrats <Person I barely know!>
 ```
 
 But this skips over the real story. I want to share my full experience - not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
