@@ -17,7 +17,7 @@ I worked on Dictionarry and Profilarr for 2 years. I used every bit of knowledge
 
 At no point, did I *ever* feel like I knew what i was doing. I constantly felt like an impostor; that what i was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. One night, I was so stressed about the merge conflict module that I literally dreamed about getting into a fight with someone who was furious about how badly it worked.
 
-My brain still convinces me that these are facts sometimes. Even after I look at the 3000+ commits on GitHub, the community I've built on Discord and even the optional donations I've received. I still see the few harsh comments from entitled users / disgruntled competitors and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to *do better*. 
+My brain still convinces me that these are facts sometimes. Even after I look at the 3000+ commits on GitHub, the community I've built on Discord and even the optional donations I've received, I still see the few harsh comments from entitled users / disgruntled competitors and convince myself that it's on me to change their mind. It's on me to write better code. It's on me to *do better*. 
 
 I'll see a LinkedIn / Facebook / Instagram post and think to myself - "Wow! This person really has their stuff together, I need to be more like them." That this person has ended up in this terrific new situation of growth and money and status and all these great things we want, simply because they are a better person than I am. 
 
@@ -30,7 +30,7 @@ With that being said, I introduce Dictionarry. It's a self hosting companion eco
 - The database is the core of the project and contains all the user configurations and wiki articles
 	- Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. 
 	- https://github.com/Dictionarry-Hub/database
-- The website acts as documentation for this database and allows users to interact with it to find their desired configurations.
+- The website acts as documentation for this database and allows users to interact with a 'Profile Builder' to find their desired configurations.
 	- Using Next.js, I built a fully static website that can be rebuilt using incremental static regeneration whenever the database receives an update.  
 	- https://dictionarry.dev/
 - Profilarr is a companion tool that allows end users to:
