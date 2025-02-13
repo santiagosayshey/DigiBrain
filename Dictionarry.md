@@ -21,19 +21,25 @@ My brain still convinces me that these are facts sometimes. Even after all the p
 
 But what I'm starting to understand is that none of that really matters. It's not about convincing everyone that what I'm doing is worthwhile. Someone else's path doesn't need to define our own. I'm doing the best I can, and that's enough. That's what I hope people take away from this - your best is enough.
 
-With that being said, I introduce Dictionarry. It's a self hosting companion ecosystem that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven configurations. 
+With that being said, I introduce Dictionarry. It's a self hosting companion ecosystem that aims to abstract complex audio / video concepts into quantifiable needs through objective, data driven configurations. It consists of three core components:
 
-- The database is the core of the project and contains all the user configurations and wiki articles
-	- Rather than using any traditional sql / nosql database, I opted for plain yml so that we could version control the configurations and let end users make custom changes that could be persisted. 
-	- https://github.com/Dictionarry-Hub/database
-- The website acts as documentation for this database and allows users to interact with a 'Profile Builder' to find their desired configurations.
-	- Using Next.js, I built a fully static website that can be rebuilt using incremental static regeneration whenever the database receives an update.  
-	- https://dictionarry.dev/
-- Profilarr is a companion tool that allows end users to:
-	- Easily connect our database with their existing setups
-	- Directly interface with the database and submit improvements / new features
-	- React powers the frontend, Flask in the backend. 
-	- https://github.com/Dictionarry-Hub/profilarr (currently sitting at 272 stars, go check it out!!)
+- A Git-based Configuration Store
+    - Leverages version-controlled YAML files instead of traditional databases
+    - Enables direct user modifications and configuration persistence
+    - https://github.com/Dictionarry-Hub/database
+
+- An Interactive Documentation Platform
+    - Built with Next.js as a static site with incremental regeneration
+    - Features a Profile Builder for configuration discovery
+    - https://dictionarry.dev/
+
+- Profilarr: Integration & Management Tool
+	- Full-featured platform for database integration and contribution
+    - Supports custom database implementations and community extensions
+    - Built with React and Flask for robust frontend and backend operations
+    - Open development model enabling direct community contributions
+    - https://github.com/Dictionarry-Hub/profilarr
+
 
 Dictionarry represents two years of learning and building. I've poured countless hours into this project because I wanted to create something helpful. It's been rewarding, but I sometimes think about deleting it all and disappearing to a cabin in the woods.
 
