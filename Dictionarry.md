@@ -1,4 +1,4 @@
-Hello, I'd like to share a passion project I've been working on for the past 2 years - Dictionarry. I often see that many posts here on LinkedIn are self congratulatory and indulge in celebrating each other's careers, goals and achievements. This is a good thing, this platform is meant to be a place in which we can show ourselves off and convince our future employers - hire me! 
+Hello, I'd like to share a passion project I've been working on for the past 2 years - Dictionarry. I often see many self congratulatory, indulgent posts here on LinkedIn that on the surface, celebrate our careers, goals and achievements. LinkedIn is meant to be a platform for which we show ourselves off and convince our employers to hire us. 
 
 I feel like its the expected culture at this point:
 
@@ -13,7 +13,7 @@ here's what i learned
 
 There's nothing wrong with this these posts, but they fail to capture our full experiences. I want to share my full experience with you all - not for engagement, but to encourage others who might feel intimidated by the endless stream of polished success stories.
 
-I've worked on Dictionarry for 2 years. I used every bit of knowledge I've learned so far in my 3 years of computer science. I built a website. Then I built a better website. Then I built a full stack development platform with git integration, authentication and a custom compiler.
+I've worked on Dictionarry for 2 years. I've used every bit of knowledge I've learned so far in my 3 years of computer science. I built a website. Then I built a better website. Then I built a full stack development platform with git integration, authentication and a custom compiler.
 
 At no point, did I *ever* feel like I knew what i was doing. I constantly felt like an impostor; that what i was building was impossible, nobody would appreciate and would ultimately be forgotten. People would see through my unoptimized, non factory pattern singleton functional code and not recognize me as a developer, but as a fraud. Somebody who is somehow deceiving us for monetary gain and clout. One night, I was so stressed about the merge conflict module that I literally dreamed about getting into a fight with someone who was furious about how badly it worked.
 
