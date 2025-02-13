@@ -17,7 +17,7 @@ Hello, I'd like to share Dictionarry, a passion project I've been working on for
     - Open development model enabling direct community contributions
     - https://github.com/Dictionarry-Hub/profilarr
 
-On LinkedIn, this would be where everyone comments 'Congratulations!' and moves on. 
+On LinkedIn, this would be where everyone comments 'Congratulations!' and moves on - not because my post deserves a congratulations, but have you ever
 
 ```
 im <emotional adjective> to share that i'm <verb>ing as a <superfluous title> at <prestigious company>.
