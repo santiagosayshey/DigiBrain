@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,11 +195,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "257777c4d2cd6d81",
+  "active": "df816570faa280f5",
   "lastOpenFiles": [
+    "Dictionarry.md",
     "Content/Projects/Dictionarry/ToDo.md",
     "Dictionarry 2.0.md",
-    "Dictionarry.md",
     "Content/Projects/Dictionarry/FAQ.md",
     "Content/Projects/Dictionarry/Website 2.0.md",
     "Content/Projects/Dictionarry/Release Group Tiers.md",
