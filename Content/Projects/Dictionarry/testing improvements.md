@@ -1,0 +1,2 @@
+- when a regex pattern is updated, run tests on every format that uses the regex and report back if any test cases start failing
+- add generic testing endpoint that handles an array of test cases
