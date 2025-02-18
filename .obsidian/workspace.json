@@ -38,6 +38,18 @@
             }
           },
           {
+            "id": "7bf52e7cbb419abe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
+          },
+          {
             "id": "257777c4d2cd6d81",
             "type": "leaf",
             "state": {
@@ -53,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,7 +207,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df816570faa280f5",
+  "active": "7bf52e7cbb419abe",
   "lastOpenFiles": [
     "Dictionarry 2.0.md",
     "Content/Projects/Dictionarry/testing improvements.md",
