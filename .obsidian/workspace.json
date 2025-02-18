@@ -41,12 +41,15 @@
             "id": "7bf52e7cbb419abe",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "Content/Journal/Feb 19, 2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "Feb 19, 2025"
             }
           },
           {
@@ -209,6 +212,7 @@
   },
   "active": "7bf52e7cbb419abe",
   "lastOpenFiles": [
+    "Content/Journal/Feb 19, 2025.md",
     "Dictionarry 2.0.md",
     "Content/Projects/Dictionarry/testing improvements.md",
     "Dictionarry.md",
@@ -243,7 +247,6 @@
     "Images/Pasted image 20241229012220.png",
     "Content/Projects/Factorio/Space Need.md",
     "Content/Projects/Gratitude/2024-W01.md",
-    "Content/Projects/Gratitude/2024-W02.md",
     "System Architecture.png",
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
