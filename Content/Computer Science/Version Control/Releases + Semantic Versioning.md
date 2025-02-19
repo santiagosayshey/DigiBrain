@@ -39,3 +39,5 @@ git tag -a <tag-name> -m"<message describing tag>" [commit]
 
 - The combination of annotated tags and semantic versioning
 - Versions *as* Tags
+
+
