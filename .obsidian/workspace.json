@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Projects/Dictionarry/Profilarr.md",
+                "file": "Content/Computer Science/Version Control/Releases + Semantic Versioning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Profilarr"
+              "title": "Releases + Semantic Versioning"
             }
           }
         ]
@@ -166,8 +166,10 @@
   },
   "active": "583c6d5a3f2fcc82",
   "lastOpenFiles": [
-    "Content/Journal/Feb 19, 2025.md",
     "Content/Projects/Dictionarry/Profilarr.md",
+    "Content/Computer Science/Version Control/Releases + Semantic Versioning.md",
+    "Content/Computer Science/Version Control",
+    "Content/Journal/Feb 19, 2025.md",
     "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Dictionarry 2.0.md",
     "Content/Projects/Dictionarry/testing improvements.md",
@@ -192,7 +194,6 @@
     "Content/Projects/Dictionarry/Profile Master List.md",
     "Content/Journal/Untitled.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/8.7 Kosaraju's Algorithm.md",
-    "Content/Projects/Dictionarry/Efficiency/Results.md",
     "Images/Pasted image 20241229081452.png",
     "Images/Pasted image 20241229081441.png",
     "Images/Pasted image 20241229074614.png",
@@ -214,7 +215,6 @@
     "Content/Computer Science/Computer Systems/Revision/Week 6 Worksheet.pdf",
     "Content/Computer Science/Computer Systems/Revision/Week 5 Worksheet.pdf",
     "Content/Computer Science/Computer Systems/Revision/Week 4 Worksheet 2.pdf",
-    "Content/Computer Science/Computer Systems/Revision/Week 4 Worksheet.pdf",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
   ]
