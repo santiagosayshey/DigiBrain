@@ -18,3 +18,19 @@ MAJOR.MINOR.PATCH
 ## Git Tags
 
 - it's just a way to apply a marker to a commit
+
+### Lightweight Tags
+
+- A basic named pointer to a commit
+
+```bash
+git tag <tag-name> [commit]
+```
+
+### Annotated Tags
+
+- A more advanced pointer (description, checksum, GPG) to a commit
+
+```bash
+git tag -a <tag-name> -m"<message describing tag>" [commit] 
+```
