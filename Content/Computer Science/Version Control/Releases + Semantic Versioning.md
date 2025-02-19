@@ -34,3 +34,8 @@ git tag <tag-name> [commit]
 ```bash
 git tag -a <tag-name> -m"<message describing tag>" [commit] 
 ```
+
+## Semantic Releases
+
+- The combination of annotated tags and semantic versioning
+- Versions *as* Tags
