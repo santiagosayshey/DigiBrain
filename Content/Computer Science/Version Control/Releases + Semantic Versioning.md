@@ -41,3 +41,4 @@ git tag -a <tag-name> -m"<message describing tag>" [commit]
 - Versions *as* Tags
 
 
+thats cool! I should start looking into grad roles too lol.  I have 1 project I've been working on for a while- just some open source self hosting tools:
