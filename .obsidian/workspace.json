@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "22458bef301f3ca4",
+        "id": "4ff6326c39271b1f",
         "type": "tabs",
         "children": [
           {
-            "id": "583c6d5a3f2fcc82",
+            "id": "348a42f24386ca99",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "System Architecture.png"
+                "file": "Special vs Theatrical.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "System Architecture"
+              "icon": "lucide-file",
+              "title": "Special vs Theatrical"
             }
           }
         ]
@@ -161,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "583c6d5a3f2fcc82",
+  "active": "348a42f24386ca99",
   "lastOpenFiles": [
-    "Special vs Theatrical.md",
     "README.md",
+    "System Architecture.png",
+    "Special vs Theatrical.md",
     "Profilarr.md",
     "Dictionarry 2.0.md",
     "Dictionarry.md",
@@ -190,7 +194,6 @@
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Content/Projects/Dictionarry/old/Profiles/x265 Groups.md",
-    "Content/Projects/Dictionarry/old/Profiles/Testing.md",
     "Images/Pasted image 20241229081452.png",
     "Images/Pasted image 20241229081441.png",
     "Images/Pasted image 20241229074614.png",
@@ -199,7 +202,6 @@
     "Images/Pasted image 20241229064627.png",
     "Content/Projects/Dictionarry/Efficiency",
     "Images/Pasted image 20241229012220.png",
-    "System Architecture.png",
     "Images/Pasted image 20241203190613.png",
     "Images/Pasted image 20241203190444.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
