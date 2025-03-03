@@ -6,7 +6,8 @@
   "enabledCssSnippets": [
     "App",
     "blocks",
-    "table"
+    "table",
+    "canvas"
   ],
   "interfaceFontFamily": "",
   "monospaceFontFamily": "",
