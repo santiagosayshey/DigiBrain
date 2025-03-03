@@ -11,12 +11,15 @@
             "id": "348a42f24386ca99",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+                "file": "Content/Philosophy/Goals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Hands-On Machine Learning - Third edition"
+              "icon": "lucide-file",
+              "title": "Goals"
             }
           }
         ]
@@ -163,8 +166,10 @@
   },
   "active": "348a42f24386ca99",
   "lastOpenFiles": [
-    "Special vs Theatrical.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Philosophy/Goals.md",
+    "Content/Philosophy",
+    "Special vs Theatrical.md",
     "Content/Computer Science/Using Machine Learning Tools",
     "Content/Computer Science/Untitled.md",
     "README.md",
@@ -192,7 +197,6 @@
     "Content/Projects/Dictionarry/dev log.md",
     "Content/Projects/Dictionarry/Quality Profile UI Improvements.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
-    "Content/Projects/Dictionarry/Commit Message Standard.md",
     "Images/Pasted image 20241229081452.png",
     "Images/Pasted image 20241229081441.png",
     "Images/Pasted image 20241229074614.png",
@@ -210,7 +214,6 @@
     "Content/Computer Science/Operating Systems/Revision",
     "Content/Computer Science/Computer Systems/Revision/Week+10+worksheet.pdf",
     "Content/Computer Science/Computer Systems/Revision/Week 8+9 Worksheet.pdf",
-    "Content/Computer Science/Computer Systems/Revision/Week 6 Worksheet.pdf",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
   ]
