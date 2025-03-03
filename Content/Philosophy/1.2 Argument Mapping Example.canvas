@@ -1,8 +1,18 @@
 {
 	"nodes":[
-		{"id":"8231016c0427e547","type":"text","text":"Climate Change Regulation Argument Map","x":-100,"y":-680,"width":360,"height":50},
 		{"id":"0a00fe1c6f8defc6","type":"text","text":"**Main Conclusion:**\nAddressing climate change through regulations is environmentally necessary and economically beneficial","x":-120,"y":-560,"width":400,"height":120,"color":"4"},
-		{"id":"6baf6e0b9cc7dc63","type":"text","text":"**Sub-Conclusion 1**\n","x":-580,"y":-340,"width":400,"height":120,"color":"4"}
+		{"id":"85188390f5ccc59e","type":"text","text":"**Sub-Conclusion 2**\nRegulations are economically beneficial in the long run\n","x":100,"y":-240,"width":400,"height":100,"color":"#0091ff"},
+		{"id":"6baf6e0b9cc7dc63","type":"text","text":"**Sub-Conclusion 1**\nGovernments must implement stricter carbon emission regulations\n","x":-340,"y":-240,"width":400,"height":100,"color":"#0091ff"},
+		{"id":"8231016c0427e547","type":"text","text":"# Climate Change Regulation Argument Map","x":-220,"y":-760,"width":600,"height":60},
+		{"id":"3dd0efd679ee85f3","type":"text","text":"**Joint Premise 1B**\nChanges threaten coastal community and ecosystems","x":-380,"y":160,"width":300,"height":80,"color":"6"},
+		{"id":"82d0d438781a6420","type":"text","text":"**Joint Premise 1A**\nClimate change is a serious global threat","x":-800,"y":-60,"width":300,"height":80,"color":"6"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"c00ab1671d113831","fromNode":"6baf6e0b9cc7dc63","fromSide":"top","toNode":"0a00fe1c6f8defc6","toSide":"bottom"},
+		{"id":"8404173e3c39aa78","fromNode":"85188390f5ccc59e","fromSide":"top","toNode":"0a00fe1c6f8defc6","toSide":"bottom"},
+		{"id":"3b4a43e29febe99c","fromNode":"82d0d438781a6420","fromSide":"right","toNode":"3dd0efd679ee85f3","toSide":"left"},
+		{"id":"be25c32f9dff4e15","fromNode":"3dd0efd679ee85f3","fromSide":"left","toNode":"82d0d438781a6420","toSide":"right"},
+		{"id":"eb35d6bfcc0a3015","fromNode":"82d0d438781a6420","fromSide":"top","toNode":"6baf6e0b9cc7dc63","toSide":"bottom"},
+		{"id":"0ebc7df6d04f751e","fromNode":"3dd0efd679ee85f3","fromSide":"top","toNode":"6baf6e0b9cc7dc63","toSide":"bottom"}
+	]
 }
