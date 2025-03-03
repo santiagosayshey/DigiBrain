@@ -15,9 +15,9 @@
               "state": {
                 "file": "Content/Philosophy/1.2 Argument Mapping Example.canvas",
                 "viewState": {
-                  "x": 7.454164685474057,
-                  "y": -55.51534603746028,
-                  "zoom": 0.6348516420255821
+                  "x": -84,
+                  "y": -243,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -168,10 +168,10 @@
   },
   "active": "348a42f24386ca99",
   "lastOpenFiles": [
+    "Content/Philosophy/Goals.md",
     "Content/Philosophy/1.1 Argument Mapping.md",
     "Content/Philosophy/1.2 Argument Mapping Example.canvas",
     "Content/Philosophy/Untitled.md",
-    "Content/Philosophy/Goals.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy",
     "Special vs Theatrical.md",
