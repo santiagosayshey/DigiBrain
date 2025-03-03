@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Critical Thinking.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.7 Relativism.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Critical Thinking"
+              "title": "1.7 Relativism"
             }
           }
         ]
@@ -32,16 +32,49 @@
             "id": "47ac4315d171dbef",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf"
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.7 Relativism.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Chatfield, T (2018) Critical Thinking, pp 3-17"
+              "icon": "lucide-file",
+              "title": "1.7 Relativism"
             }
           },
           {
             "id": "730358f460540be5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.7 Relativism.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1.7 Relativism"
+            }
+          },
+          {
+            "id": "9af71043754a70a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Prompt"
+            }
+          },
+          {
+            "id": "3890d031382c0fb1",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -51,24 +84,9 @@
               "icon": "lucide-file-text",
               "title": "Law, S (2003) The Philosophy Gym, Ch 5 Into the Lair of the Relativist"
             }
-          },
-          {
-            "id": "3890d031382c0fb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "12.2 Reduction"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,15 +228,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3890d031382c0fb1",
+  "active": "c8a9391377ad3842",
   "lastOpenFiles": [
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
-    "Content/Philosophy/Argument & Critical Thinking/Readings/Law, S (2003) The Philosophy Gym, Ch 5 Into the Lair of the Relativist.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Critical Thinking.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.6 Dogmatism.md",
+    "Content/Philosophy/Argument & Critical Thinking/Readings/Law, S (2003) The Philosophy Gym, Ch 5 Into the Lair of the Relativist.pdf",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
     "Content/AI Prompt.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Bias.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.7 Relativism.md",
     "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.6 Dogmatism.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Bias.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Objectivity and Skepticism.md",
     "Content/Philosophy/Argument & Critical Thinking/Readings",
     "Content/Philosophy/Argument & Critical Thinking/Notes.md",
@@ -230,7 +250,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/Untitled",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/6.2 Skip Lists.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Argument Mapping Example.canvas",
@@ -247,7 +266,6 @@
     "Dictionarry 2.0.md",
     "Dictionarry.md",
     "blog idea.md",
-    "Content/index.md",
     "Content/Computer Science/Version Control",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20241229081452.png",
