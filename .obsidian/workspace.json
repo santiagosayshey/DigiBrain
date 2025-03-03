@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Objectivity and Skepticism.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Bias.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.4 Objectivity and Skepticism"
+              "title": "1.5 Bias"
             }
           }
         ]
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -186,8 +185,10 @@
   },
   "active": "c8a9391377ad3842",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf",
+    "Content/AI Prompt.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Bias.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Objectivity and Skepticism.md",
+    "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Readings/Law, S (2003) The Philosophy Gym, Ch 5 Into the Lair of the Relativist.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Readings",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Critical Thinking.md",
@@ -206,7 +207,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/6.2 Skip Lists.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Argument Mapping Example.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Argument Mapping.md",
-    "Content/AI Prompt.md",
     "Content/Philosophy/Goals.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy",
