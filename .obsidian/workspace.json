@@ -8,6 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "47ac4315d171dbef",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Chatfield, T (2018) Critical Thinking, pp 3-17"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c673774f69e52537",
+        "type": "tabs",
+        "children": [
+          {
             "id": "c8a9391377ad3842",
             "type": "leaf",
             "state": {
@@ -20,24 +38,6 @@
               },
               "icon": "lucide-file",
               "title": "1.5 Bias"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9650ed4f7461f273",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "47ac4315d171dbef",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Chatfield, T (2018) Critical Thinking, pp 3-17"
             }
           }
         ]
