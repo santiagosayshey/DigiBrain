@@ -1,7 +1,8 @@
 {
 	"nodes":[
-		{"id":"0a00fe1c6f8defc6","type":"text","text":"**Main Conclusion:**\nAddressing climate change through regulations is environmentally necessary and economically beneficial","x":-300,"y":-460,"width":400,"height":120,"color":"4"},
-		{"id":"8231016c0427e547","type":"text","text":"awdasd","x":-118,"y":-86,"width":250,"height":60,"color":"#0091ff"}
+		{"id":"8231016c0427e547","type":"text","text":"Climate Change Regulation Argument Map","x":-100,"y":-680,"width":360,"height":50},
+		{"id":"0a00fe1c6f8defc6","type":"text","text":"**Main Conclusion:**\nAddressing climate change through regulations is environmentally necessary and economically beneficial","x":-120,"y":-560,"width":400,"height":120,"color":"4"},
+		{"id":"6baf6e0b9cc7dc63","type":"text","text":"**Sub-Conclusion 1**\n","x":-580,"y":-340,"width":400,"height":120,"color":"4"}
 	],
 	"edges":[]
 }
