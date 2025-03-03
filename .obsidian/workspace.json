@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/1.3 Critical Thinking.md",
+                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Critical Thinking"
+              "title": "11.1 Decidability"
             }
           },
           {
@@ -197,8 +197,18 @@
   },
   "active": "348a42f24386ca99",
   "lastOpenFiles": [
-    "Content/Philosophy/1.4 Objectivity and Skepticism.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.2 Turing Machines.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/Untitled",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/6.2 Skip Lists.md",
     "Content/Philosophy/1.3 Critical Thinking.md",
+    "Content/Philosophy/1.4 Objectivity and Skepticism.md",
     "Content/Philosophy/1.2 Argument Mapping Example.canvas",
     "Content/Philosophy/1.1 Argument Mapping.md",
     "Content/AI Prompt.md",
@@ -220,14 +230,6 @@
     "Content/Computer Science/Version Control/Releases + Semantic Versioning.md",
     "Content/Projects/Dictionarry/Profilarr.md",
     "Content/Computer Science/Version Control",
-    "Content/Journal/Feb 19, 2025.md",
-    "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
-    "Content/Projects/Dictionarry/testing improvements.md",
-    "Content/Projects/Dictionarry/ToDo.md",
-    "Content/Projects/Dictionarry/FAQ.md",
-    "Content/Projects/Dictionarry/Website 2.0.md",
-    "Content/Projects/Dictionarry/home.md",
-    "Content/Projects/Dictionarry/Efficiency/Encode Efficiency Index.md",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20241229081452.png",
     "Images/Pasted image 20241229081441.png",
@@ -245,7 +247,6 @@
     "Content/Computer Science/Operating Systems/Revision/Operating Systems - Cheatsheet.pdf",
     "Content/Computer Science/Operating Systems/Revision",
     "Content/Computer Science/Computer Systems/Revision/Week+10+worksheet.pdf",
-    "Content/Computer Science/Computer Systems/Revision/Week 8+9 Worksheet.pdf",
     "Content/Projects/Dictionarry/Untitled.canvas",
     "Content/Computer Science/Cybersecurity Fundamentals/Untitled.canvas"
   ]
