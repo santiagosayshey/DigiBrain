@@ -5,7 +5,7 @@
   ) !important; /* Forces this color even if other styles try to override it */
 }
 
-.canvas-node-container .cm-content .cm-strong {
+.cm-content .cm-strong {
   color: rgb(var(--canvas-color)) !important;
 }
 
