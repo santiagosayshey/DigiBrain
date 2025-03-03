@@ -1,16 +1,25 @@
+/* Make bold text match the border color */
 .canvas-node-container strong {
+  color: rgb(
+    var(--canvas-color)
+  ) !important; /* Forces this color even if other styles try to override it */
+}
+
+.canvas-node-container .cm-content .cm-strong {
   color: rgb(var(--canvas-color)) !important;
 }
 
+/* ===== Text Alignment Rules ===== */
+
+/* Default paragraph alignment */
 .canvas-node-content p {
-  text-align: left;
+  text-align: left; /* Sets all paragraphs to be left-aligned by default */
 }
 
-/* Target paragraphs that don't have any line breaks */
+/* Single-line paragraph special handling */
 .canvas-node-content p:not(:has(br)) {
-  /* Additional check for single-line text */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
+  white-space: nowrap; /* Prevents text from wrapping to a new line */
+  overflow: hidden; /* Hides any text that overflows the container */
+  text-overflow: ellipsis; /* Shows an ellipsis (...) when text is cut off */
+  text-align: center; /* Centers the text if it's a single line (no <br> tags) */
 }
