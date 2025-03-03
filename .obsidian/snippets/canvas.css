@@ -1,0 +1,16 @@
+.canvas-node-container strong {
+  color: rgb(var(--canvas-color)) !important;
+}
+
+.canvas-node-content p {
+  text-align: left;
+}
+
+/* Target paragraphs that don't have any line breaks */
+.canvas-node-content p:not(:has(br)) {
+  /* Additional check for single-line text */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
