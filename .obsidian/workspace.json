@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/1.1 Argument Mapping.md",
-                "mode": "preview",
+                "file": "Content/Philosophy/1.3 Critical Thinking.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Argument Mapping"
+              "title": "1.3 Critical Thinking"
             }
           }
         ]
@@ -166,11 +166,11 @@
   },
   "active": "348a42f24386ca99",
   "lastOpenFiles": [
-    "Content/Philosophy/1.2 Argument Mapping Example.canvas",
     "Content/Philosophy/1.1 Argument Mapping.md",
+    "Content/Philosophy/1.3 Critical Thinking.md",
+    "Content/Philosophy/1.2 Argument Mapping Example.canvas",
     "Content/AI Prompt.md",
     "Content/Philosophy/Goals.md",
-    "Content/Philosophy/Untitled.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy",
     "Special vs Theatrical.md",
