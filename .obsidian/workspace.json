@@ -11,17 +11,15 @@
             "id": "348a42f24386ca99",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/1.2 Argument Mapping Example.canvas",
-                "viewState": {
-                  "x": 620.1479235943489,
-                  "y": 107.98225104737196,
-                  "zoom": 0.2697032840511641
-                }
+                "file": "Content/Philosophy/1.1 Argument Mapping.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "1.2 Argument Mapping Example"
+              "icon": "lucide-file",
+              "title": "1.1 Argument Mapping"
             }
           }
         ]
@@ -168,9 +166,10 @@
   },
   "active": "348a42f24386ca99",
   "lastOpenFiles": [
-    "Content/Philosophy/Goals.md",
-    "Content/Philosophy/1.1 Argument Mapping.md",
     "Content/Philosophy/1.2 Argument Mapping Example.canvas",
+    "Content/Philosophy/1.1 Argument Mapping.md",
+    "Content/AI Prompt.md",
+    "Content/Philosophy/Goals.md",
     "Content/Philosophy/Untitled.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy",
@@ -184,7 +183,6 @@
     "Dictionarry.md",
     "blog idea.md",
     "Content/index.md",
-    "Content/AI Prompt.md",
     "Content/Projects/Dictionarry/Streaming Services v2.md",
     "Content/Projects/Dictionarry/Release Group Tiers.md",
     "Content/Computer Science/Version Control/Releases + Semantic Versioning.md",
