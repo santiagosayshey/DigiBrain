@@ -32,3 +32,23 @@ Reading philosophy helps us to witness these thinking processes in action throug
 |                    | Strongest Objection      | Write the best argument against the author's main point                                 | Author claims people are naturally selfish, but many help strangers with no benefit                                                            |
 |                    | Personal Connection      | Explain how this relates to a problem in your own life                                  | This discussion of fairness relates to dividing chores with roommates                                                                          |
 |                    | Worth Keeping            | Write down the single most useful idea from the text                                    | Listening well to others is an ethical action, not just a social skill                                                                         |
+## Text Excerpt
+
+"We should ban private cars in city centers. Private vehicles cause significant air pollution, which leads to respiratory diseases and premature deaths in urban areas. Additionally, cars take up valuable space that could be used for housing, businesses, or public amenities. Studies show that cities with car-free zones experience economic benefits as pedestrians spend more time (and money) in local businesses. Furthermore, the availability of public transportation, cycling infrastructure, and walking paths makes private cars unnecessary for most urban travel."
+
+## Argument Map
+
+```
+[Premise: Private vehicles         [Premise: Cars take up        [Premise: Cities with       [Premise: Public transport,
+ cause air pollution]               valuable urban space]         car-free zones see          cycling, and walking are
+        |                                   |                      economic benefits]          available alternatives]
+        |                                   |                           |                            |
+        v                                   v                           v                            v
+[Premise: Air pollution                                                                       [Premise: Private cars are
+ causes diseases and                                                                           unnecessary for urban
+ premature deaths]                                                                             travel]
+        |                                   |                           |                            |
+        |                                   |                           |                            |
+        v                                   v                           v                            v
+                           [CONCLUSION: We should ban private cars in city centers]
+```
