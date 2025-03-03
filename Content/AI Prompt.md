@@ -1,10 +1,16 @@
 Hello!
 
-I would like your assistance in writing concise, modular notes on the topic of [topic] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
+I would like your assistance in writing concise, modular notes on the topic of [Dogmatism] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
 I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
 
-[additional context]
+only do these callouts, nothing extra
+
+motivation - the oppposite of critical thinking
+
+idea - dogamitism
+
+example
 
 [IMPORTANT INSTRUCTIONS]
 - The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
