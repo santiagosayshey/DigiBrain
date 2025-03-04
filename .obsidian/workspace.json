@@ -62,12 +62,10 @@
             "id": "79c10a37e6e7a894",
             "type": "leaf",
             "state": {
-              "type": "video",
-              "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Week 1"
+              "title": "New tab"
             }
           }
         ]
@@ -213,10 +211,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba7bab98627f5d7b",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
+    "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
     "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes",
