@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/1.1 Moral Reasoning.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Moral Reasoning"
+              "title": "1.1 Critical Thinking"
             }
           }
         ]
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 472.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,35 +201,35 @@
   },
   "active": "c8a9391377ad3842",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Relativism.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Dogmatism.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Bias.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
+    "Content/Philosophy/Tools/Notes/1.1 Argument Mapping.md",
+    "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
+    "Content/Philosophy/Tools/Notes",
+    "Content/Philosophy/Tools",
     "Content/Philosophy/Moral Problems/Notes/1.1 Moral Reasoning.md",
+    "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
     "Content/AI Prompt.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.7 Relativism.md",
     "Content/Philosophy/Moral Problems/Readings",
     "Content/Philosophy/Moral Problems/Notes",
     "Content/Philosophy/Moral Problems",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Critical Thinking.md",
     "Content/Philosophy/Argument & Critical Thinking/Readings/Law, S (2003) The Philosophy Gym, Ch 5 Into the Lair of the Relativist.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
     "Content/Philosophy/Argument & Critical Thinking/Readings/Chatfield, T (2018) Critical Thinking, pp 3-17.pdf",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.6 Dogmatism.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Bias.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Objectivity and Skepticism.md",
     "Content/Philosophy/Argument & Critical Thinking/Readings",
     "Content/Philosophy/Argument & Critical Thinking/Notes.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes",
-    "Content/Philosophy/Argument & Critical Thinking",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.2 Turing Machines.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/Untitled",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/6.2 Skip Lists.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Argument Mapping Example.canvas",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Argument Mapping.md",
     "Content/Philosophy/Goals.md",
     "Special vs Theatrical.md",
     "Content/Computer Science/Untitled.md",
