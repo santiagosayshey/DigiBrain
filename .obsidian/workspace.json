@@ -178,8 +178,8 @@
             "state": {
               "type": "custom-frames-todoist",
               "state": {},
-              "icon": "lucide-list-checks",
-              "title": "Todoist"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -199,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8a9391377ad3842",
+  "active": "51479ad449d0c9d7",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Relativism.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Dogmatism.md",
