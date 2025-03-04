@@ -6,7 +6,6 @@
       {
         "id": "c438661ca0d1b707",
         "type": "tabs",
-        "dimension": 39.62639109697933,
         "children": [
           {
             "id": "e34996c0dd034383",
@@ -21,25 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "1.1 Critical Thinking"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9230e3546b31643a",
-        "type": "tabs",
-        "dimension": 60.37360890302067,
-        "children": [
-          {
-            "id": "79d8c85cf3c5f51f",
-            "type": "leaf",
-            "state": {
-              "type": "video",
-              "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Lectures/Week1-Tuesday.mp4"
-              },
-              "icon": "lucide-file",
-              "title": "Week1-Tuesday"
             }
           }
         ]
@@ -99,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -185,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79d8c85cf3c5f51f",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials",
+    "Content/Philosophy/Argument & Critical Thinking/Untitled.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
     "Content/Philosophy/Argument & Critical Thinking/Lectures/Week1-Tuesday.mp4",
     "Content/Philosophy/Argument & Critical Thinking/Lectures",
@@ -222,7 +203,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.3 Kruskal's Algorithm.md",
     "System Architecture.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20241229081452.png",
