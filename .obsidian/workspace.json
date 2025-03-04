@@ -24,7 +24,7 @@
             }
           },
           {
-            "id": "ba7bab98627f5d7b",
+            "id": "41379f5e25d67d09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,13 +59,15 @@
         "dimension": 62.08267090620032,
         "children": [
           {
-            "id": "79c10a37e6e7a894",
+            "id": "ba7bab98627f5d7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "video",
+              "state": {
+                "file": "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4"
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week 1"
             }
           }
         ]
@@ -211,11 +213,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "ba7bab98627f5d7b",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
-    "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
     "Content/AI Prompt.md",
+    "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
