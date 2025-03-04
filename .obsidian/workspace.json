@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Critical Thinking"
+              "title": "Tutorial 1"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "AI Prompt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,11 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71249856406dad69",
+  "active": "e34996c0dd034383",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/AI Prompt.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials",
     "Content/Philosophy/Argument & Critical Thinking/Untitled.md",
     "Content/Philosophy/Argument & Critical Thinking/Lectures/Week1-Tuesday.mp4",
