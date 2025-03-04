@@ -50,7 +50,8 @@
               "title": "Hands-On Machine Learning - Third edition"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "01020049fbc2f7b9",
@@ -213,7 +214,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71249856406dad69",
+  "active": "79c10a37e6e7a894",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/AI Prompt.md",

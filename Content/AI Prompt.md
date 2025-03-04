@@ -1,14 +1,10 @@
 Hello!
 
-I would like your assistance in writing concise, modular notes on the topic of [Machine Learning 101] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
+I would like your assistance in writing concise, modular notes on the topic of [NOTES] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure exactly, if i say motivation, then idea callout, you do that. nothing more, nothing less. If you write a callout that i did not ask for you would have failed the task and NOT HELPED ME. YOUR TASK IS TO HELP ME. If you understand this, then clearly write what callouts ive asked for at the start of your response.
+I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure exactly, if i say motivation, then idea callout, you do that. nothing more, nothing less.
 
-Additional Context:
-
-motivation - coding to solve problems. talk about how in imperative programming, we write algorithms to solve problems, but in machine learning, we write programs to learn how to solve problems. why do we want to do this? this is the crux of the motivation you should talk about. dont even even mention machine learning yet.
-
-CREATE ONLY ONE MOTIVATION CALLOUT. DO NOT CREATE ANY OTHER CALLOUTS.
+[ADDITIONAL CONTEXT]
 
 [IMPORTANT INSTRUCTIONS]
 - The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
