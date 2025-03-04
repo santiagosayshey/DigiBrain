@@ -48,7 +48,7 @@
 > 
 > Critical thinking helps us achieve objectivity: understanding things as they actually are. The opposite of objectivity is bias. What is bias?
 > 
-> **Answer:**
+> **Answer:** Bias is when our underlying assumptions and knowledge, whether consciously or not, dictate our actions, thoughts and judgements towards other things. 
 
 > [!example] Question 4
 > 
@@ -56,8 +56,12 @@
 > 
 > **a.** The prime minister's spokesperson insisted that the prime minister acted in good faith and with the best of intentions, unlike her cowardly critics.
 > 
-> **Answer:**
+> 
+> 
+> **Answer:** A spokesperson's job is to speak (kindly) for / of someone else. They are consciously aware of this fact. 
 > 
 > **b.** Voters across the country tend to prefer the taller and more conventionally good-looking of two candidates when comparing their photographs.
 > 
-> **Answer:**
+> **Answer:** Voters are associating good politicians with attractiveness. They are not consciously aware of this fact. 
+
+

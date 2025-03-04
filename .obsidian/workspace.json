@@ -82,8 +82,7 @@
               "title": "AI Prompt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,8 +224,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03bb62b02f7f4689",
+  "active": "e34996c0dd034383",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Bias.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
     "Content/AI Prompt.md",
@@ -245,7 +245,6 @@
     "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Relativism.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Dogmatism.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Bias.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
     "Content/Philosophy/Tools/Notes/1.1 Argument Mapping.md",
     "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
