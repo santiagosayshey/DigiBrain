@@ -2,7 +2,7 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [NOTES] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write:
+I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure e
 
 [ADDITIONAL CONTEXT]
 

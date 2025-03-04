@@ -29,17 +29,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/Untitled.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "1.1 Machine Learning 101"
+            }
+          },
+          {
+            "id": "ff0a1845f6804ef2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "01020049fbc2f7b9",
@@ -202,10 +213,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79c10a37e6e7a894",
+  "active": "71249856406dad69",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/Untitled.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.QQ7O90xe.mp4.part",
@@ -232,7 +244,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
     "Content/Philosophy/Tools/Notes/1.1 Argument Mapping.md",
     "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
-    "Content/Philosophy/Tools/Notes",
     "Content/Philosophy/Moral Problems/Notes/1.1 Moral Reasoning.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
