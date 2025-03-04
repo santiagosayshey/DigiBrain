@@ -1,10 +1,12 @@
 Hello!
 
-I would like your assistance in writing concise, modular notes on the topic of [NOTES] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
+I would like your assistance in writing concise, modular notes on the topic of [Machine Learning 101] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure e
+I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure exactly, if i say motivation, then idea callout, you do that. nothing more, nothing less. If you write a callout that i did not ask for you would have failed the task and NOT HELPED ME. YOUR TASK IS TO HELP ME.
 
-[ADDITIONAL CONTEXT]
+Additional Context:
+
+motivation - coding to solve problems. talk about how in imperative programming, we write algorithms to solve problems, but in machine learning, we write programs to learn how to solve problems. why do we want to do this? this is the crux of the motivation you should talk about. dont even even mention machine learning yet.
 
 [IMPORTANT INSTRUCTIONS]
 - The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
@@ -13,6 +15,7 @@ I have provided additional context on the desired notes below. Please use this i
 	  - I DO NOT WANT CALLOUTS ON CALLOUTS THAT ARE ENTIRELY PARAGRAPHS. THESE ARE USELESS.
 	  - I DO NOT WANT CALLOUTS THAT ARE ENTIRELY DOTPOINTS
 	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
+	  - DO NOT PUT NON HEADER TEXT ON THE SAME LINE AS THE HEADER. START A NEW LINE INSIDE THE CALLOUT WHEN YOUVE FINISHED THE HEADER. 
   - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
   - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
   - It is vital that these notes are objective. 
