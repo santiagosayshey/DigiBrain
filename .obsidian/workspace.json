@@ -62,12 +62,15 @@
             "id": "ba7bab98627f5d7b",
             "type": "leaf",
             "state": {
-              "type": "video",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4"
+                "file": "Content/Philosophy/Moral Problems/Notes/1.1 Moral Reasoning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Week 1"
+              "title": "1.1 Moral Reasoning"
             }
           }
         ]
@@ -127,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -216,8 +218,8 @@
   },
   "active": "ba7bab98627f5d7b",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes",
