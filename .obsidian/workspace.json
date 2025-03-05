@@ -6,7 +6,6 @@
       {
         "id": "8fed100394da2837",
         "type": "tabs",
-        "dimension": 39.705882352941174,
         "children": [
           {
             "id": "cbb2b56d637cfbd8",
@@ -21,25 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "1.1 Moral Reasoning"
-            }
-          }
-        ]
-      },
-      {
-        "id": "05252af525932a0d",
-        "type": "tabs",
-        "dimension": 60.29411764705882,
-        "children": [
-          {
-            "id": "ff0a1845f6804ef2",
-            "type": "leaf",
-            "state": {
-              "type": "video",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Lectures/Week1-Wednesday.mp4"
-              },
-              "icon": "lucide-file",
-              "title": "Week1-Wednesday"
             }
           }
         ]
@@ -99,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -174,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +163,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
+  },
+  "floating": {
+    "id": "c386377fa36aac0a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "862ae9cef84b19ef",
+        "type": "window",
+        "children": [
+          {
+            "id": "fd2e9088cb681d60",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ff0a1845f6804ef2",
+                "type": "leaf",
+                "state": {
+                  "type": "video",
+                  "state": {
+                    "file": "Content/Philosophy/Moral Problems/Lectures/Week1-Wednesday.mp4"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Week1-Wednesday"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4883,
+        "y": 59,
+        "width": 1517,
+        "height": 1368,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
   },
   "active": "ff0a1845f6804ef2",
   "lastOpenFiles": [
