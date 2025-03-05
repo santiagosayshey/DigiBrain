@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c438661ca0d1b707",
+        "id": "8fed100394da2837",
         "type": "tabs",
-        "dimension": 37.91732909379968,
         "children": [
           {
-            "id": "71249856406dad69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/AI Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Prompt"
-            }
-          },
-          {
-            "id": "41379f5e25d67d09",
+            "id": "ff0a1845f6804ef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,48 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "1.1 Machine Learning 101"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "8fed100394da2837",
-        "type": "tabs",
-        "dimension": 31.041335453100157,
-        "children": [
-          {
-            "id": "ff0a1845f6804ef2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Hands-On Machine Learning - Third edition"
-            }
-          }
-        ]
-      },
-      {
-        "id": "01020049fbc2f7b9",
-        "type": "tabs",
-        "dimension": 31.041335453100157,
-        "children": [
-          {
-            "id": "ba7bab98627f5d7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/1.1 Moral Reasoning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1.1 Moral Reasoning"
             }
           }
         ]
@@ -225,11 +167,11 @@
   },
   "active": "ff0a1845f6804ef2",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy/Moral Problems/Notes/1.1 Moral Reasoning.md",
     "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.mp4",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/AI Prompt.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.QQ7O90xe.mp4.part",
