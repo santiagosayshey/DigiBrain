@@ -6,6 +6,7 @@
       {
         "id": "8fed100394da2837",
         "type": "tabs",
+        "dimension": 38.3147853736089,
         "children": [
           {
             "id": "cbb2b56d637cfbd8",
@@ -20,6 +21,25 @@
               },
               "icon": "lucide-file",
               "title": "1.1 Formal Logic"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a106aef4c825ed9a",
+        "type": "tabs",
+        "dimension": 61.685214626391094,
+        "children": [
+          {
+            "id": "ff0a1845f6804ef2",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Lectures/Week1-Wednesday.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "Week1-Wednesday"
             }
           }
         ]
@@ -79,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 453.5,
+    "collapsed": true
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -153,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 472.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,48 +186,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "c386377fa36aac0a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "862ae9cef84b19ef",
-        "type": "window",
-        "children": [
-          {
-            "id": "fd2e9088cb681d60",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ff0a1845f6804ef2",
-                "type": "leaf",
-                "state": {
-                  "type": "video",
-                  "state": {
-                    "file": "Content/Philosophy/Moral Problems/Lectures/Week1-Wednesday.mp4"
-                  },
-                  "icon": "lucide-file",
-                  "title": "Week1-Wednesday"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4883,
-        "y": 59,
-        "width": 1517,
-        "height": 1368,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "cbb2b56d637cfbd8",
+  "active": "ff0a1845f6804ef2",
   "lastOpenFiles": [
-    "Images/Pasted image 20250306003238.png",
-    "Content/Philosophy/Moral Problems/Lectures/Week1-Wednesday.mp4",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
+    "Content/Philosophy/Moral Problems/Lectures/Week1-Wednesday.mp4",
+    "Images/Pasted image 20250306003238.png",
     "Images/Pasted image 20250306001642.png",
     "Images/Pasted image 20250306001053.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
@@ -250,7 +235,6 @@
     "Images/Pasted image 20241229071428.png",
     "Images/Pasted image 20241229065638.png",
     "Images/Pasted image 20241229064627.png",
-    "Images/Pasted image 20241229012220.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
