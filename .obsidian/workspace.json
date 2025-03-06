@@ -46,12 +46,15 @@
             "id": "5d74239de4d817e2",
             "type": "leaf",
             "state": {
-              "type": "video",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.mp4"
+                "file": "Content/Philosophy/Moral Problems/Quizzes/Logic Quiz.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Week1-Thursday"
+              "title": "Logic Quiz"
             }
           }
         ],
@@ -112,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -201,8 +203,10 @@
   },
   "active": "5d74239de4d817e2",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.mp4",
+    "Content/Philosophy/Moral Problems/Quizzes/Logic Quiz.md",
+    "Content/Philosophy/Moral Problems/Quizzes",
+    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
     "Content/Philosophy/Argument & Critical Thinking/Lectures/Week1-Wednesday.mp4",
     "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.N0DmGD1L.mp4.part",
@@ -223,7 +227,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.QQ7O90xe.mp4.part",
-    "Content/Computer Science/Using Machine Learning Tools/Lectures/Week 1.YRBow2bm.mp4.part",
     "Content/Philosophy/Argument & Critical Thinking/Untitled.md",
     "Content/Media Server/Docker Volumes.md",
     "conflict-files-obsidian-git.md",
@@ -239,7 +242,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.2 Turing Machines.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
     "System Architecture.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20241229081452.png",
