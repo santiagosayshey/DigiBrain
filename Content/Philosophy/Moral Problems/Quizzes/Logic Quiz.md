@@ -1,1 +1,2 @@
-# Logical Forms
+![[Logical Forms.png]]
+

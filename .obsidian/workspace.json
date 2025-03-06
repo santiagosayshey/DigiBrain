@@ -56,9 +56,21 @@
               "icon": "lucide-file",
               "title": "Logic Quiz"
             }
+          },
+          {
+            "id": "02939161b3581606",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "Week1-Thursday"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,12 +212,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbb2b56d637cfbd8",
+  "active": "02939161b3581606",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Quizzes/Logic Quiz.md",
+    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
+    "Images/Logical Forms.png",
     "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.mp4",
     "Content/Philosophy/Moral Problems/Quizzes",
-    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
     "Content/Philosophy/Argument & Critical Thinking/Lectures/Week1-Wednesday.mp4",
     "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.N0DmGD1L.mp4.part",
@@ -249,7 +261,6 @@
     "Images/Pasted image 20241229074614.png",
     "Images/Pasted image 20241229071428.png",
     "Images/Pasted image 20241229065638.png",
-    "Images/Pasted image 20241229064627.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
