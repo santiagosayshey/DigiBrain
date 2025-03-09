@@ -38,24 +38,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "4fa354dda84fbece",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1d1e266437697f0f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -198,6 +180,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
+  },
+  "floating": {
+    "id": "7b46b86e7f54b4e3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d72bf2eaab876619",
+        "type": "window",
+        "children": [
+          {
+            "id": "0c26843f79614ed5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1d1e266437697f0f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 5142,
+        "y": 55,
+        "width": 1258,
+        "height": 1368,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
   },
   "active": "1d1e266437697f0f",
   "lastOpenFiles": [
