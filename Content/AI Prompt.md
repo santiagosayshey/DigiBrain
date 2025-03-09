@@ -177,7 +177,7 @@ You may also include the following elements in the callouts:
 
 $$
 E = mc^2
-$$
+$$$
 
 <hr>
 
