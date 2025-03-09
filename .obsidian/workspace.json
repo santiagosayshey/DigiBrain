@@ -11,10 +11,12 @@
             "id": "ce816ce73c54fd3a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "J.J.C. Smart, “Extreme and Restricted Utilitarianism”"
             }
           }
         ]
@@ -159,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "ce816ce73c54fd3a",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, “The Good Will and the Categorical Imperative”.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
