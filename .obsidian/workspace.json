@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2.3 Pipelines"
+              "title": "2.4 Linear Regression"
             }
           },
           {
@@ -181,10 +181,11 @@
   },
   "active": "0858707a5e017609",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.2 Scaling Data.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.1 Missing Data.md",
     "Content/AI Prompt.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.2 Scaling Data.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.1 Missing Data.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.3 ML Approaches.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.2 Learning Types.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Fundamentals of ML.md",
@@ -221,7 +222,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Untitled.md",
     "Content/Media Server/Docker Volumes.md",
-    "conflict-files-obsidian-git.md",
     "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
     "System Architecture.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
