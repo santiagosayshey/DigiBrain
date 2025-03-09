@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5,
-    "collapsed": true
+    "width": 453.5
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -218,7 +217,7 @@
       }
     ]
   },
-  "active": "1d1e266437697f0f",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
