@@ -28,16 +28,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/AI Prompt.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI Prompt"
+              "title": "2.5 Hyperparameters"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,9 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0858707a5e017609",
+  "active": "2455ae38661dabbb",
   "lastOpenFiles": [
     "Content/AI Prompt.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.2 Scaling Data.md",
@@ -221,7 +223,6 @@
     "Images/Pasted image 20250306001053.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Untitled.md",
-    "Content/Media Server/Docker Volumes.md",
     "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
     "System Architecture.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
