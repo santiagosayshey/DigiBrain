@@ -56,12 +56,15 @@
             "id": "f4e1cd90dacfa9b0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf"
+                "file": "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Immanuel Kant, _The Good Will And The Categorical Imperative_-1"
+              "icon": "lucide-file",
+              "title": "2.3 Categorical Imperative"
             }
           }
         ],
@@ -209,6 +212,9 @@
   },
   "active": "f4e1cd90dacfa9b0",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/2.2 Good Will.md",
+    "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
+    "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/AI Prompt.md",
@@ -224,7 +230,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.6 Workflow.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
-    "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
@@ -248,8 +253,6 @@
     "Images/Pasted image 20250306003238.png",
     "Images/Pasted image 20250306001642.png",
     "Images/Pasted image 20250306001053.png",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 1.md",
-    "Content/Philosophy/Argument & Critical Thinking/Untitled.md",
     "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
     "System Architecture.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
