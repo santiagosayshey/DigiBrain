@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "c17e913f9881c155",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Immanuel Kant, _The Good Will And The Categorical Imperative_-1"
+            }
+          },
+          {
             "id": "83c21a38f8231e28",
             "type": "leaf",
             "state": {
@@ -37,7 +49,8 @@
               "title": "AI Prompt"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,8 +172,8 @@
             "state": {
               "type": "custom-frames-todoist",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-list-checks",
+              "title": "Todoist"
             }
           }
         ],
@@ -168,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,47 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "7b46b86e7f54b4e3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d72bf2eaab876619",
-        "type": "window",
-        "children": [
-          {
-            "id": "0c26843f79614ed5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1d1e266437697f0f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 5142,
-        "y": 55,
-        "width": 1258,
-        "height": 1368,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "ce816ce73c54fd3a",
+  "active": "c17e913f9881c155",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
+    "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/AI Prompt.md",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
