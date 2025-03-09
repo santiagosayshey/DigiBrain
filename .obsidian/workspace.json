@@ -178,8 +178,8 @@
             "state": {
               "type": "custom-frames-todoist",
               "state": {},
-              "icon": "lucide-list-checks",
-              "title": "Todoist"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -199,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce816ce73c54fd3a",
+  "active": "1d1e266437697f0f",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
