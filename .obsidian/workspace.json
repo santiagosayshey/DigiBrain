@@ -51,9 +51,21 @@
               "icon": "lucide-file",
               "title": "2.1 Utilitarianism"
             }
+          },
+          {
+            "id": "f4e1cd90dacfa9b0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Immanuel Kant, _The Good Will And The Categorical Imperative_-1"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -195,8 +207,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58b75a6aec020647",
+  "active": "f4e1cd90dacfa9b0",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
@@ -211,7 +224,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.6 Workflow.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
-    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
