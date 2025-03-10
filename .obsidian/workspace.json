@@ -210,11 +210,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4e1cd90dacfa9b0",
+  "floating": {
+    "id": "45f1c72df4a869e3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ca247f4a3ce72a28",
+        "type": "window",
+        "children": [
+          {
+            "id": "c58432362ddc85c6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a7c38db8e7fb4e9b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Immanuel Kant, _The Good Will And The Categorical Imperative_-1"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4810,
+        "y": 55,
+        "width": 1590,
+        "height": 1368,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a7c38db8e7fb4e9b",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/2.2 Good Will.md",
     "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
+    "Content/Philosophy/Moral Problems/Notes/2.2 Good Will.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/AI Prompt.md",
@@ -249,7 +286,6 @@
     "Images/LogicQuiz.png",
     "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.mp4",
     "Images/Logical Forms.png",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
     "Images/Pasted image 20250306003238.png",
     "Images/Pasted image 20250306001642.png",
     "Images/Pasted image 20250306001053.png",
