@@ -68,6 +68,36 @@
             }
           },
           {
+            "id": "f5b17f468a8700ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Argument Mapping"
+            }
+          },
+          {
+            "id": "59f4b68416c18b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Argument Mapping"
+            }
+          },
+          {
             "id": "1b404f1a64e2f2ee",
             "type": "leaf",
             "state": {
@@ -83,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -225,10 +255,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95b6153dec5debe2",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
     "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Relativism.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Dogmatism.md",
@@ -254,12 +286,10 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Machine Learning 101.md",
     "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
-    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, “The Good Will and the Categorical Imperative”.pdf",
     "Content/Philosophy/Moral Problems/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
     "Content/Philosophy/Moral Problems/Immanuel Kant, “The Good Will and the Categorical Imperative”.pdf",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
     "Content/Philosophy/Argument & Critical Thinking/Lectures/Week1-Wednesday.mp4",
     "Content/Philosophy/Argument & Critical Thinking/Notes/Extras",
     "Images/LogicQuiz.png",
@@ -268,7 +298,6 @@
     "Images/Pasted image 20250306003238.png",
     "Images/Pasted image 20250306001642.png",
     "Images/Pasted image 20250306001053.png",
-    "Content/Philosophy/Tools/Notes/1.2 Argument Mapping Example.canvas",
     "System Architecture.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Images/Pasted image 20241229081452.png",
