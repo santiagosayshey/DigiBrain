@@ -58,17 +58,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2.3 Categorical Imperative"
+              "title": "2.2 The Good Will"
+            }
+          },
+          {
+            "id": "38711239fdc6ea05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Prompt"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -238,23 +253,23 @@
           }
         ],
         "direction": "vertical",
-        "x": 4481,
-        "y": 267,
-        "width": 1590,
-        "height": 1368,
-        "maximize": true,
+        "x": 3840,
+        "y": 32,
+        "width": 1280,
+        "height": 1408,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "a7c38db8e7fb4e9b",
+  "active": "38711239fdc6ea05",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
-    "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
-    "Content/Philosophy/Moral Problems/Notes/2.2 Good Will.md",
-    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
+    "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/AI Prompt.md",
+    "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
+    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
+    "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.2 Scaling Data.md",
