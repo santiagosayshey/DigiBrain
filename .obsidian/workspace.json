@@ -238,8 +238,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 4810,
-        "y": 55,
+        "x": 4481,
+        "y": 267,
         "width": 1590,
         "height": 1368,
         "maximize": true,
@@ -247,10 +247,10 @@
       }
     ]
   },
-  "active": "a7c38db8e7fb4e9b",
+  "active": "f4e1cd90dacfa9b0",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
+    "Content/Philosophy/Moral Problems/Notes/2.3 Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 Good Will.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
