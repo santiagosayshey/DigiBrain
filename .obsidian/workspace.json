@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2.3 The Categorical Imperative"
+              "title": "2.2 The Good Will"
             }
           },
           {
@@ -277,14 +277,14 @@
       }
     ]
   },
-  "active": "f4e1cd90dacfa9b0",
+  "active": "a7c38db8e7fb4e9b",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
-    "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
-    "Content/AI Prompt.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
+    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
+    "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
+    "Untitled.md",
+    "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
@@ -313,7 +313,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Objectivity and Skepticism.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 How Things Are.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/Extras",
-    "Content/Philosophy/Moral Problems/Quizzes/Logic Quiz.md",
     "Images/LogicQuiz.png",
     "Content/Philosophy/Moral Problems/Lectures/Week1-Thursday.mp4",
     "Images/Logical Forms.png",
