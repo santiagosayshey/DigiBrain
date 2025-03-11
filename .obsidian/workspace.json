@@ -98,6 +98,23 @@
             }
           },
           {
+            "id": "0b53ac5f9c0d1f0a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
+                "viewState": {
+                  "x": -60,
+                  "y": -290,
+                  "zoom": -0.43110048723572614
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "2.4 Argument Mapping Example"
+            }
+          },
+          {
             "id": "1b404f1a64e2f2ee",
             "type": "leaf",
             "state": {
@@ -255,7 +272,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "59f4b68416c18b25",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
