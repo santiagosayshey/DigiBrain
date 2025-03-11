@@ -195,43 +195,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "45f1c72df4a869e3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ca247f4a3ce72a28",
-        "type": "window",
-        "children": [
-          {
-            "id": "c58432362ddc85c6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a7c38db8e7fb4e9b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Immanuel Kant, _The Good Will And The Categorical Imperative_-1"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3840,
-        "y": 32,
-        "width": 942,
-        "height": 1408,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "9838b4fa61f12cf7",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
