@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "97d257af618c863b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Notes/1.1 Jobs To Be Done.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1.1 Jobs To Be Done"
-            }
-          },
-          {
             "id": "0f802d8713bf1183",
             "type": "leaf",
             "state": {
@@ -36,8 +21,24 @@
               "icon": "lucide-file",
               "title": "AI Prompt"
             }
+          },
+          {
+            "id": "b88ac8ca966d9b85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Argument Mapping"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,15 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97d257af618c863b",
+  "active": "b88ac8ca966d9b85",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
     "Content/Computer Science/Tech eChallenge/Notes/1.1 Jobs To Be Done.md",
+    "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
     "Content/Computer Science/Tech eChallenge/Notes",
     "Content/Computer Science/Tech eChallenge",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Relativism.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Dogmatism.md",
