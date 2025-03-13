@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2.3 Argument Mapping"
+              "title": "Tutorial 2"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "b88ac8ca966d9b85",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 2.md",
+    "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Computer Science/Tech eChallenge/Notes/1.1 Jobs To Be Done.md",
