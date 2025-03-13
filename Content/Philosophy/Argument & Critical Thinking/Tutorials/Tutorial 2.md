@@ -23,7 +23,8 @@
 > 
 > **Answer:**
 > - a's conclusion: You should definitely let me look after your cat
-> - b's conclusion: 
+> - b's conclusion: something may be seriously wrong with the system of peer review and publication of clinical trials.
+> - c's conclusion: this one is weird. maybe its stating that finance is "an insecure profession full of horrible people", but rebuts this with "But we do go out for some excellent dinners!" . i'm saying this is not an argument because the actual conclusion being implied is not stated. 
 
 > [!example] Information Without Persuasion
 > 
