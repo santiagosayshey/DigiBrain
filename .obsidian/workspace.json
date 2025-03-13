@@ -41,21 +41,19 @@
             "id": "f835783afceb94d6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
-                "viewState": {
-                  "x": -60,
-                  "y": -460.5143998607796,
-                  "zoom": -0.7430738091723293
-                }
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2.4 Argument Mapping Example"
+              "icon": "lucide-file",
+              "title": "2.3 Argument Mapping"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,13 +195,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f835783afceb94d6",
+  "active": "b88ac8ca966d9b85",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
-    "Content/Computer Science/Tech eChallenge/Notes/1.1 Jobs To Be Done.md",
     "Content/AI Prompt.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
+    "Content/Computer Science/Tech eChallenge/Notes/1.1 Jobs To Be Done.md",
     "Content/Computer Science/Tech eChallenge/Notes",
     "Content/Computer Science/Tech eChallenge",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
