@@ -9,7 +9,7 @@
 > c. I have plenty of work experience from around the world; I'm a great worker.
 > 
 > **Answer:**
-> B seems the most vo
+> B seems the most correct - im the right person for the job seems more of a conclusion than "im a great worker". the semi colon does suggest that "i have plenty of work experience from around the world" is a premise for "im a great worker", but lacks any clear statement aimed at the reasoning. 
 
 > [!example] Spotting Conclusions
 > 
@@ -22,6 +22,8 @@
 > c. I have a few friends who work in the finance industry; an insecure profession full of horrible people. But we do go out for some excellent dinners!
 > 
 > **Answer:**
+> - a's conclusion: You should definitely let me look after your cat
+> - b's conclusion: 
 
 > [!example] Information Without Persuasion
 > 
