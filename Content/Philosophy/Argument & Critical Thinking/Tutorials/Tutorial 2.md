@@ -58,3 +58,6 @@
 > c. I've worked with major-league disruptors in the disintermediation space, and I know how to radically rethink verticals in this horizontals-focused climate. I'm your guy.
 > 
 > **Answer:**
+> a uses feat statements to make their point, c uses buzzwords to sound like they have expertise. B is the only argument that relies solely on reasons. 
+
+
