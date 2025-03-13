@@ -41,6 +41,11 @@
 > e. By 'incredibly cheap clothing', I mean clothing that is priced so low that, if it is new, it can only have been produced at a loss or by abusing the workers in some way.
 > 
 > **Answer:**
+> a: making a statement
+> b: also making a statement
+> c: this seems like an argument, but its not really trying to persuade you of anything. 
+> d: this is a better argument
+> e: this is a statement
 
 > [!example] Persuasion Without Reasons
 > 
