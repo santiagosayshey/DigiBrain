@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
-                "mode": "source",
+                "file": "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 5 - Advanced Web Exploits & Digital Forensics.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2.3 The Categorical Imperative"
+              "title": "Assignment 5 - Advanced Web Exploits & Digital Forensics"
             }
           },
           {
@@ -41,12 +41,15 @@
             "id": "5afb3072c4a5c14f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf"
+                "file": "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.1 Javascript.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "W.D. Ross, _What Makes Right Acts Right__"
+              "icon": "lucide-file",
+              "title": "9.1 Javascript"
             }
           },
           {
@@ -109,8 +112,7 @@
               "title": "2.3 Argument Mapping"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,15 +254,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5afb3072c4a5c14f",
+  "active": "0f802d8713bf1183",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.1 Javascript.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.2 Cross Site Scripting.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/5.2 Buffer Overflow.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/5.1 Control Hijacking Attacks.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/4.2 Scanning.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/4.1 Networks.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/3.1 Security Assessment and Testing.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/2.1 Applied Cryptography.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/1.1 Cybersecurity Overview.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 5 - Advanced Web Exploits & Digital Forensics.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 4 - Network Attacks & Web Security.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 3 - Memory Attacks.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 2 - OSINT, Recon & Network Scanning.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 1 - Intro & Cryptography.md",
+    "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
     "Content/AI Prompt.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/Philosophy/Moral Problems/Notes/2.3 Maxims.md",
     "Content/Philosophy/Moral Problems/Notes/2.4 Right vs Good.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
-    "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 2.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
@@ -270,21 +286,7 @@
     "Content/Computer Science/Tech eChallenge",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.5 Relativism.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.4 Dogmatism.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.3 Bias.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Arguments.md",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
-    "Untitled.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.2 Scaling Data.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.1 Missing Data.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/1.3 ML Approaches.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/1.2 Learning Types.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Fundamentals of ML.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/1.4 Challenges.md",
     "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
