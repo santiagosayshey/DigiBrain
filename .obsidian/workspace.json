@@ -49,8 +49,7 @@
               "title": "3.1 What Makes Right Acts, Right?"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,10 +191,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f802d8713bf1183",
+  "active": "af3d04e9c209386d",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
     "Content/Philosophy/Moral Problems/Notes/3.1 What Makes Right Acts, Right?.md",
+    "Content/AI Prompt.md",
     "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/1.1 Cybersecurity Overview.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
@@ -220,7 +219,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.1 Cyber Legality.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.2 Cyber Ethics.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.3 Legal vs. Ethical.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Revision/Compiled Notes CSF.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Computer Science/Tech eChallenge/Notes",
