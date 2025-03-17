@@ -11,15 +11,12 @@
             "id": "0f802d8713bf1183",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Computer Science/Cybersecurity Fundamentals/Notes/1.1 Cybersecurity Overview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1.1 Cybersecurity Overview"
+              "icon": "lucide-file-text",
+              "title": "W.D. Ross, _What Makes Right Acts Right__"
             }
           },
           {
@@ -256,6 +253,7 @@
   },
   "active": "0f802d8713bf1183",
   "lastOpenFiles": [
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/1.1 Cybersecurity Overview.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
@@ -282,7 +280,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Condensed Notes CSF.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
-    "Content/Computer Science/Cybersecurity Fundamentals/Workshops/Workshop 6.md",
     "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Computer Science/Tech eChallenge/Notes",
