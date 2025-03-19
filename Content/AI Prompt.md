@@ -185,3 +185,59 @@ $$$
 
 
 Thanks!
+
+
+
+> first of all: Nice project! Thank you for your work! 
+
+You're very welcome :) 
+
+> "Add Format" --> "Add condition" tab. 
+
+This is a good suggestion and I've been wanting to implement it for a while. However, there are some pretty big hurdles we need to clear first.
+
+**Context:** Profilarr uses a hierarchical database -> profiles depend on custom formats which depend on regex patterns. You'll notice that if we want to import something above regex patterns, we also need to import _everything_ below it. In the example below, if someone wants to import `some profile`, they also need to import `some format` and `some regex` by extension.
+
+```
+name: some profile
+formats:
+    some format: 100
+```
+
+```
+name: some format
+type: release_title
+regex: some regex
+```
+
+```
+name: some regex
+pattern: a regex pattern
+```
+
+So we need to answer these questions:
+
+1. Where are we getting stuff to import from?
+2. From these places, how can we ensure that they give all the information needed for import and in the format Profilarr expects?
+
+Let's consider a few potential import sources:
+
+|Source|Advantages|Challenges|
+|---|---|---|
+|**Databases on GitHub**|Version controlled, public access|Static files with no dynamic consolidation of dependencies|
+|**Database Frontends** (like dictionarry.dev)|Can dynamically bundle dependencies|Not all databases have dedicated frontends|
+|**Radarr/Sonarr Exports**|Direct compatibility with those apps|Only supports formats (not profiles), format may vary by version|
+|**Profilarr Cross-Instance**|Perfect format preservation|Limited practical use as people rarely share their instances|
+|**Community Platforms**|Wide variety of formats available|Lack standardization and dependency information|
+
+From this analysis, I think the most sensible implementation path would be:
+
+- Write a workflow script that bundles data together for exports, including all dependencies
+- Implement this bundling functionality on database frontends for one-click exports
+- Develop an import module in Profilarr that can handle both:
+    1. Our special bundled format with complete dependencies
+    2. Native Radarr/Sonarr format exports for direct compatibility
+
+This would give users the flexibility to import from their existing setups while also setting the foundation for more robust sharing within the community. The import functionality would need validation to ensure all dependencies are present and properly linked.
+
+What do you think of this approach? Would you prioritize support for one import source over others for the initial implementation?

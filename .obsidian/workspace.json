@@ -49,7 +49,8 @@
               "title": "3.1 What Makes Right Acts, Right?"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,11 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3d04e9c209386d",
+  "active": "2e1eb65c26adc46c",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
     "Content/Philosophy/Moral Problems/Notes/3.1 What Makes Right Acts, Right?.md",
     "Content/AI Prompt.md",
-    "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/1.1 Cybersecurity Overview.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
