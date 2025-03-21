@@ -11,12 +11,15 @@
             "id": "b13d8243d1ebabb0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf"
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "W.D. Ross, _What Makes Right Acts Right__"
+              "icon": "lucide-file",
+              "title": "3.1 Validity"
             }
           },
           {
@@ -193,8 +196,9 @@
   },
   "active": "b13d8243d1ebabb0",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/3.1 What Makes Right Acts, Right?.md",
     "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
+    "Content/Philosophy/Moral Problems/Notes/3.1 What Makes Right Acts, Right?.md",
     "Content/AI Prompt.md",
     "Untitled.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/1.1 Cybersecurity Overview.md",
@@ -218,7 +222,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.2 Information Security and Risk Management.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.3 Security Operations.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.1 Cyber Legality.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.2 Cyber Ethics.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Computer Science/Tech eChallenge/Notes",
