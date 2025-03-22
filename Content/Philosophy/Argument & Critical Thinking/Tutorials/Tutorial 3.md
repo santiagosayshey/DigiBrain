@@ -46,7 +46,12 @@
 > Mary was alone in the house when she went to bed, and when she is alone she always leaves the hall light on, so it should still have been on when Dave got home. But he swears it was off. That means that somebody else must have turned it off.
 > 
 > **Your answer:**
-> 1: 
+> 1: Mary was alone in the house when she went to bed; premise
+> 2: when she is alone she always leaves the hall light on; premise
+> 3: so it should still have been on when Dave got home; sub conclusion
+> 4: But he swears it was off; premise
+> ________________________________________________________
+> 5: somebody else must have turned it off; conclusion
 
 > [!example] Complex Arguments
 > 
