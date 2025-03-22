@@ -108,4 +108,10 @@
 3. 52 Victorian police officers from a workforce of around 12,800 have been stood down
 4. should perhaps come as no surprise.
 
- The number represents 0.42 per cent of the total police workforce. Yet the fact that this is a record number does not necessarily suggest that Victoria's police officers have suddenly become more dishonest. What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.
+5. The number represents 0.42 per cent of the total police workforce. 
+6. this is a record number does not necessarily suggest that Victoria's police officers have suddenly become more dishonest. 
+7. What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.
+
+
+
+
