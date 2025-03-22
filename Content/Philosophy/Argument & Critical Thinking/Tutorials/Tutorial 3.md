@@ -106,12 +106,4 @@
 5. The fact that this is a record number does not necessarily suggest that Victoria's police officers have suddenly become more dishonest.
 6. What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.
 
-Analysis:
-
-
-
-Argument Structure:
-
-- Premises: 1, 2, 3, 4
-- Sub-conclusion: 5
-- Main conclusion: 6
+![[Pasted image 20250322122210.png]]

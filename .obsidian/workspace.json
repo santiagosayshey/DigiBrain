@@ -203,47 +203,13 @@
         "height": 600,
         "maximize": true,
         "zoom": 0.5
-      },
-      {
-        "id": "0a49c55045d19ac1",
-        "type": "window",
-        "children": [
-          {
-            "id": "474858e009f878f3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2d3bf960b4d79e60",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
-                    "viewState": {
-                      "x": 368.0670310262225,
-                      "y": 290.9509805083473,
-                      "zoom": 0.6348516420255821
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "Tutorial 3 Complex Argument Diagram"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4704,
-        "y": 60,
-        "width": 1366,
-        "height": 1245,
-        "maximize": false,
-        "zoom": 0.5
       }
     ]
   },
-  "active": "f81dc2d5af11f42d",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Quizzes",
+    "Images/Pasted image 20250322122210.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Untitled.md",
@@ -291,7 +257,6 @@
     "Images/Pasted image 20241229081452.png",
     "Images/Pasted image 20241229081441.png",
     "Images/Pasted image 20241229074614.png",
-    "Images/Pasted image 20241229071428.png",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
     "Content/Projects/Dictionarry/Untitled.canvas",
