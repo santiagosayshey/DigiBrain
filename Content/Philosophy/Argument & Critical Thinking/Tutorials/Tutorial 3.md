@@ -99,19 +99,19 @@
 > 
 > **Your answer:**
 
-
-
-
-1. A record number of accusations does not necessarily suggest a bent police force. 
+1. A record number of accusations does not necessarily suggest a bent police force.
 2. There have always been dishonest, sometimes corrupt police in Victoria, just as in other jurisdictions.
+3. 52 Victorian police officers from a workforce of around 12,800 have been stood down while being investigated for criminal acts.
+4. The number represents 0.42 per cent of the total police workforce.
+5. The fact that this is a record number does not necessarily suggest that Victoria's police officers have suddenly become more dishonest.
+6. What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.
 
-3. 52 Victorian police officers from a workforce of around 12,800 have been stood down
-4. should perhaps come as no surprise.
-
-5. The number represents 0.42 per cent of the total police workforce. 
-6. this is a record number does not necessarily suggest that Victoria's police officers have suddenly become more dishonest. 
-7. What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.
-
+Analysis:
 
 
 
+Argument Structure:
+
+- Premises: 1, 2, 3, 4
+- Sub-conclusion: 5
+- Main conclusion: 6

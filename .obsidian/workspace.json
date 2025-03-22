@@ -203,13 +203,49 @@
         "height": 600,
         "maximize": true,
         "zoom": 0.5
+      },
+      {
+        "id": "0a49c55045d19ac1",
+        "type": "window",
+        "children": [
+          {
+            "id": "474858e009f878f3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2d3bf960b4d79e60",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
+                    "viewState": {
+                      "x": 148.1496273272748,
+                      "y": 232.70452944544513,
+                      "zoom": 0.7302967159488359
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Tutorial 3 Complex Argument Diagram"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4704,
+        "y": 60,
+        "width": 1366,
+        "height": 1245,
+        "maximize": true,
+        "zoom": 0.5
       }
     ]
   },
-  "active": "f81dc2d5af11f42d",
+  "active": "2d3bf960b4d79e60",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Untitled.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
