@@ -1,11 +1,20 @@
 {
 	"nodes":[
-		{"id":"d08581a627a4d9f6","type":"text","text":"**Conclusion:** What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.","x":-500,"y":280,"width":700,"height":50,"color":"#007bff"},
 		{"id":"6c7fd9ae08b23128","type":"text","text":"**Premise: **  52 Victorian police officers from a workforce of \naround 12,800 have been stood down while being investigated for criminal acts.","x":-640,"y":40,"width":600,"height":80,"color":"4"},
-		{"id":"6530173432c843f1","type":"text","text":"**Premise: **  The number represents 0.42 per cent of the total police workforce.","x":60,"y":50,"width":600,"height":60,"color":"4"}
+		{"id":"6530173432c843f1","type":"text","text":"**Premise: **  The number represents 0.42 per cent of the total police workforce.","x":60,"y":50,"width":600,"height":60,"color":"4"},
+		{"id":"f34dac08e14f73df","type":"text","text":"**Premise: **  There have always been dishonest, sometimes corrupt \npolice in Victoria, just as in other jurisdictions.","x":720,"y":35,"width":500,"height":90,"color":"4"},
+		{"id":"84701525dc021713","type":"text","text":"**Sub-Conclusion:** A record number of accusations does not necessarily suggest a bent police force.","x":320,"y":300,"width":758,"height":50,"color":"#007bff"},
+		{"id":"6fdfca0ade6d3fd9","type":"text","text":"**Sub-Conclusion:** The fact that this is a record number does not necessarily \nsuggest that Victoria's police officers have suddenly become more dishonest.","x":-400,"y":288,"width":579,"height":75,"color":"#007bff"},
+		{"id":"d08581a627a4d9f6","type":"text","text":"**Conclusion:** What it does suggest is that their transgressions are being more rigorously investigated and prosecuted.","x":-80,"y":560,"width":700,"height":50,"color":"4"}
 	],
 	"edges":[
 		{"id":"b33a93553c6306f3","fromNode":"6530173432c843f1","fromSide":"left","toNode":"6c7fd9ae08b23128","toSide":"right"},
-		{"id":"f97751d5ae32116b","fromNode":"6c7fd9ae08b23128","fromSide":"right","toNode":"6530173432c843f1","toSide":"left"}
+		{"id":"f97751d5ae32116b","fromNode":"6c7fd9ae08b23128","fromSide":"right","toNode":"6530173432c843f1","toSide":"left"},
+		{"id":"321ee5a18c05b3ec","fromNode":"6530173432c843f1","fromSide":"right","toNode":"f34dac08e14f73df","toSide":"left"},
+		{"id":"aee3c5dd91cd9f5a","fromNode":"f34dac08e14f73df","fromSide":"left","toNode":"6530173432c843f1","toSide":"right"},
+		{"id":"aea18bb17971dc72","fromNode":"6530173432c843f1","fromSide":"bottom","toNode":"84701525dc021713","toSide":"top"},
+		{"id":"a8b3bb4272059a46","fromNode":"6c7fd9ae08b23128","fromSide":"bottom","toNode":"6fdfca0ade6d3fd9","toSide":"top"},
+		{"id":"ddf7361765e5ce2c","fromNode":"6fdfca0ade6d3fd9","fromSide":"bottom","toNode":"d08581a627a4d9f6","toSide":"top"},
+		{"id":"0f11dd1624116745","fromNode":"84701525dc021713","fromSide":"bottom","toNode":"d08581a627a4d9f6","toSide":"top"}
 	]
 }
