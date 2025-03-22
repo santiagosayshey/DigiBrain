@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "Tutorial 3"
             }
+          },
+          {
+            "id": "45127e81de411be3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/1.1 Critical Thinking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Critical Thinking"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,12 +222,12 @@
       }
     ]
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "45127e81de411be3",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3.md",
     "Content/Philosophy/Argument & Critical Thinking/Quizzes",
     "Images/Pasted image 20250322122210.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Untitled.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
@@ -246,7 +262,6 @@
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, “The Good Will and the Categorical Imperative”.pdf",
-    "Content/Philosophy/Moral Problems/J.J.C. Smart, “Extreme and Restricted Utilitarianism”.pdf",
     "Images/LogicQuiz.png",
     "Images/Logical Forms.png",
     "Images/Pasted image 20250306003238.png",
