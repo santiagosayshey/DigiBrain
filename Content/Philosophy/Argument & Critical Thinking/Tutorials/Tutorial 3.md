@@ -17,13 +17,21 @@
 > Violence in movies is not evidence of people's declining moral standards as some critics claim. Ancient myths, medieval biographies of saints, Shakespeare's plays, and nineteenth-century novels like Dracula are all full of bloodshed and mayhem. People have always been attracted to fictionalized violence.
 > 
 > **Your answer:**
-> 4. 
+> 
+> 2: Ancient myths, medieval biographies of saints, Shakespeare's plays, and nineteenth-century novels like Dracula are all full of bloodshed and mayhem; premise
+> 3: People have always been attracted to fictionalized violence; premise
+> ________________________________________________
+> 1: Violence in movies is not evidence of people's declining moral standards; conclusion
 > 
 > **c. Spending and Taxes**
 > 
 > We have to either reduce spending or raise taxes. We can't raise taxes, so we'll reduce spending.
 > 
 > **Your answer:**
+> 1: We have to either reduce spending or raise taxes; premise
+> 2: We can't raise taxes; premise
+> _________________________________________________
+> 3: we'll reduce spending; conclusion
 > 
 > **d. Drought in Australia**
 > 
