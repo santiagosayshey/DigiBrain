@@ -36,6 +36,8 @@
 > **d. Drought in Australia**
 > 
 > In 2004, rains came too late to save regional Australia from the worst drought in a century, as figures later showed that grain farmers suffered their lowest harvests in 20 years.
+> 1: rains came too late to save regional Australia from the worst drought in a century; premise
+> 2:  farmers suffered their lowest harvests in 20 years; premise
 > 
 > **Your answer:**
 > 
@@ -44,6 +46,7 @@
 > Mary was alone in the house when she went to bed, and when she is alone she always leaves the hall light on, so it should still have been on when Dave got home. But he swears it was off. That means that somebody else must have turned it off.
 > 
 > **Your answer:**
+> 1: 
 
 > [!example] Complex Arguments
 > 
