@@ -210,50 +210,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "5a94d7b36495bac8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "154f5a495917a4cb",
-        "type": "window",
-        "children": [
-          {
-            "id": "8e9959d2d8881933",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b13d8243d1ebabb0",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
-                    "viewState": {
-                      "x": 0,
-                      "y": 0,
-                      "zoom": 0
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "Tutorial 3 Complex Argument Diagram"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 977,
-        "y": 716,
-        "width": 600,
-        "height": 600,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "b13d8243d1ebabb0",
+  "active": "04f18fc27058412b",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Moral Problems/Notes/3.1 Rossian Pluralism.md",
     "Content/Philosophy/Moral Problems/Notes/3.2 Rossian Pluralism.md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
@@ -264,7 +223,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3.md",
     "Content/Philosophy/Argument & Critical Thinking/Quizzes",
     "Images/Pasted image 20250322122210.png",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Untitled.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
@@ -283,7 +241,6 @@
     "Content/Computer Science/Computer Networks & Applications/Notes/12.3 Spanning Tree Protocol.md",
     "Content/Computer Science/Computer Networks & Applications/Notes/11.1 Cyclic Redundancy Check.md",
     "Content/Computer Science/Computer Networks & Applications/Notes/10.2 Software Defined Networking.md",
-    "Content/Computer Science/Computer Networks & Applications/Notes/9.4 IPv6.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Computer Science/Tech eChallenge/Notes",
