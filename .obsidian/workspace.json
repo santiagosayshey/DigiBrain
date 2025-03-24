@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Error.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4.3 Generalisation Error"
+              "title": "4.3 Generalisation Errors"
             }
           },
           {
@@ -213,7 +213,7 @@
   "active": "6b7f9e63b71127fb",
   "lastOpenFiles": [
     "Content/AI Prompt.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Error.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
     "Images/Pasted image 20250324211532.png",
     "Images/Pasted image 20250324210137.png",
