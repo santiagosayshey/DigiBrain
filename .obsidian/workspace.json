@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Decision Trees.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.2 Decision Trees"
+              "title": "3.1 Classification"
             }
           }
         ],
@@ -182,8 +182,9 @@
   },
   "active": "6b7f9e63b71127fb",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
+    "Images/Pasted image 20250324131007.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Decision Trees.md",
+    "Content/AI Prompt.md",
     "Images/Pasted image 20250324124301.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
