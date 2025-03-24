@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Error.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4.2 Gradient Descent"
+              "title": "4.3 Generalisation Error"
             }
           },
           {
@@ -212,13 +212,14 @@
   },
   "active": "6b7f9e63b71127fb",
   "lastOpenFiles": [
+    "Content/AI Prompt.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Error.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
     "Images/Pasted image 20250324211532.png",
     "Images/Pasted image 20250324210137.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.1 Training Models.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
     "Images/Pasted image 20250324205107.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.6 Regression Performance Metrics.md",
-    "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
@@ -259,7 +260,6 @@
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, “The Good Will and the Categorical Imperative”.pdf",
     "Images/LogicQuiz.png",
     "Images/Logical Forms.png",
-    "Images/Pasted image 20250306003238.png",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
