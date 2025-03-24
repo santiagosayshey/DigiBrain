@@ -37,7 +37,8 @@
               "title": "3.2 Classification Metrics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,15 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c186dfb2f57207c",
+  "active": "6b7f9e63b71127fb",
   "lastOpenFiles": [
+    "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
     "Untitled 1.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.3 Decision Trees.md",
     "Images/Pasted image 20250324151634.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.6 Regression Performance Metrics.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
-    "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
     "Images/Pasted image 20250324131007.png",
     "Images/Pasted image 20250324124301.png",
