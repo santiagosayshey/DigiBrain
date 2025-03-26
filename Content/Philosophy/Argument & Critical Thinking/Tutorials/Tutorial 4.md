@@ -1,5 +1,3 @@
-I apologize for misunderstanding. Let me format the questions properly with each option on a completely separate line:
-
 > [!example] Validity and Venn Diagrams - Questions
 > 
 > 1. Which of the following kinds of argument _must be_ **invalid**?
