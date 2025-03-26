@@ -44,8 +44,8 @@
 > 	- Some humans are not smart, so some smart people are not human. 
 >     
 > - b. No prime number is even. Therefore, all odd numbers are primes. _Note:_ Every odd number is _not even_ (divisible by 2) and _vice versa_.
-> 	- No X is Y. Therefore, no X is not Y. 
-> 	- 
+> 	- No X is Y. Therefore, everything that is not Y is X. 
+> 	- No bird is a crocodile. Therefore, a duck is not a bird. 
 >     
 > - c. Latvians regard lamprey as a delicacy and lamprey are fish. So, if pike are fish, Latvians should also regard them as a delicacy.
 >     
