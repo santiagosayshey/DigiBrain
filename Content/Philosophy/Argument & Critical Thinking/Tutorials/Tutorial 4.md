@@ -13,7 +13,7 @@
 > - d. An argument with all premises false and a true conclusion.
 >     
 > 
-> 1. Describe in your own words the difference between a **valid** argument and a **sound** argument.
+> 2. Describe in your own words the difference between a **valid** argument and a **sound** argument.
 > 
 > A valid argument exists when a conclusion MUST be true when all premises are true. I.e. there exists no scenario where the conclusion is false if the premises are true. A sound argument is a valid argument where all the premises are true too. 
 >     
@@ -23,11 +23,15 @@
 > 3. Apply the **method of counterexample** to show that the following arguments are _invalid_.
 >     
 > 
-> - a. Chelsea played Arsenal today. Apparently, Chelsea didn't win, so Arsenal must have won.
->     
+> - a. Chelsea played Arsenal today. Apparently, Chelsea didn't win, so Arsenal must have won. 
+> 	- The game could have been postponed in which neither team won.
+> 
+> 
 > - b. Madonna is annoying - she's a singer and lots of singers are really self-obsessed and irritating.
+> 	- Plenty of singers who aren't annoying. Like Weird Al. Yes. Weird Al.
 >     
 > - c. If Jones was the getaway driver, then Jones was involved in the robbery. But Jones can't drive a car, so Jones obviously _wasn't_ involved.
+> 	- He could have planned the robbery. He could have robbed the place and been part of the inside crew. 
 >     
 
 > [!example] Method of Analogy - Questions
