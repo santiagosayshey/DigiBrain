@@ -1,6 +1,4 @@
 
----
-
 > [!example] Validity and Venn Diagrams - Questions
 > 
 > 1. Which of the following kinds of argument _must be_ **invalid**?
@@ -10,12 +8,14 @@
 >     
 > - b. An argument with premises that are _all_ false.
 >     
-> - c. An argument with all premises true and a false conclusion.
+> - ** c. An argument with all premises true and a false conclusion.**
 >     
 > - d. An argument with all premises false and a true conclusion.
 >     
 > 
-> 2. Describe in your own words the difference between a **valid** argument and a **sound** argument.
+> 1. Describe in your own words the difference between a **valid** argument and a **sound** argument.
+> 
+> A valid argument exists when a conclusion MUST be true when all premises are true. I.e. there exists no scenario where the conclusion is false if the premises are true. A sound argument is a valid argument where all the premises are true too. 
 >     
 
 > [!example] Method of Counterexample - Questions
