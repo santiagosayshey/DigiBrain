@@ -78,11 +78,16 @@
 > 
 > - a. Some stars are red giants. So, all red giants are stars.
 > 	- invalid. the premise is an x in the intersection. the conclusion is the shaded red giant side that is not stars.
+> 
+> ![[6a.png|400]]
 >     
 > - b. All Lutherans are protestants and as no protestant is a Catholic, Lutherans aren't Catholics.
 > 	- This is valid.
 > 	![[6b.png|400]]
 >  
 > - c. Some foresters are not Greens. Some Tasmanians are foresters, which means some Tasmanians are not Greens.
+> 	- This is invalid. The conclusion requires an X to be on the line of forest and tasmanians. 
+> 
+> ![[6c.png|400]]
 
 
