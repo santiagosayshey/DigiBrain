@@ -59,11 +59,17 @@
 >     
 > 
 > - a. No tutors (T) are wealthy (W).
+> 
+> ![[5a.png|500]]
 >     
 > - b. Some billionaires (B) are self-made (S).
+> 
+> ![[5b.png|500]]
 >     
 > - c. Every mudblood (M) is a wizard or a witch (W).
 >     
+![[5c.png|500]]
+
 
 > [!example] Venn Diagrams for Arguments - Questions
 > 
@@ -71,6 +77,7 @@
 >     
 > 
 > - a. Some stars are red giants. So, all red giants are stars.
+> 	- inval
 >     
 > - b. All Lutherans are protestants and as no protestant is a Catholic, Lutherans aren't Catholics.
 >     
