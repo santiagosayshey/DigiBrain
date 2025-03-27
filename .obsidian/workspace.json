@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -199,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b7f9e63b71127fb",
+  "active": "b91970642a49714c",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 1 Revision.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
