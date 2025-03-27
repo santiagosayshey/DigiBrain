@@ -34,39 +34,85 @@
 
 # Methods to Convert Seasons to One-Hot Encoding
 
-| Method                  | Code                                                                                                                                                                   | Explanation                                     |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| Loop and Equality       | `for season in ['Winter', 'Spring', 'Summer', 'Autumn']:`<br> `data[season] = (data['Seasons'] == season).astype(int)`<br>`data.drop('Seasons', axis=1, inplace=True)` | Creates separate columns manually               |
-| get_dummies             | `season_dummies = pd.get_dummies(data['Seasons'])`<br>`data = pd.concat([data, season_dummies], axis=1)`<br>`data.drop('Seasons', axis=1, inplace=True)`               | Creates all dummy columns at once               |
-| get_dummies with prefix | `data = pd.get_dummies(data, columns=['Seasons'], prefix='', prefix_sep='')`<br>`# No need to drop original column, it's dropped automatically`                        | One-step approach with automatic column removal |
+## Method 1: Loop and Equality
+
+```python
+for season in ['Winter', 'Spring', 'Summer', 'Autumn']:
+    data[season] = (data['Seasons'] == season).astype(int)
+data.drop('Seasons', axis=1, inplace=True)
+```
+
+_Explanation:_ Creates separate columns manually
+
+## Method 2: get_dummies
+
+```python
+season_dummies = pd.get_dummies(data['Seasons'])
+data = pd.concaNOPW YUt([data, season_dummies], axis=1)
+data.drop('Seasons', axis=1, inplace=True)
+```
+
+_Explanation:_ Creates all dummy columns at once
+
+## Method 3: get_dummies with prefix
+
+```python
+data = pd.get_dummies(data, columns=['Seasons'], prefix='', prefix_sep='')
+# No need to drop original column, it's dropped automatically
+```
+
+_Explanation:_ One-step approach with automatic column **removal**# Methods to Convert Date to Weekday Feature in Pandas
 # Methods to Convert Date to Weekday Feature in Pandas
+## Method 1: dt.dayofweek + comparison
 
-# Methods to Convert Date to Weekday Feature in Pandas
+```python
+data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek
+data['Weekday'] = (data['Weekday'] >= 5).astype(int)
+```
 
-|Method|Code|Explanation|
-|---|---|---|
-|dt.dayofweek + comparison|```python||
-|data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek|||
-|data['Weekday'] = (data['Weekday'] >= 5).astype(int)|||
+_Explanation:_ Convert to datetime, extract day of week (0-6), then mark weekends (5-6) as 1
 
-````|
-| dt.day_name + isin | ```python
+## Method 2: dt.day_name + isin
+
+```python
 data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.day_name()
 data['Weekday'] = data['Weekday'].isin(['Saturday', 'Sunday']).astype(int)
-``` | Convert to day names and check if in weekend list |
-| dt.weekday + comparison | ```python
+```
+
+_Explanation:_ Convert to day names and check if in weekend list
+
+## Method 3: dt.weekday + comparison
+
+```python
 data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.weekday > 4
 data['Weekday'] = data['Weekday'].astype(int)
-``` | Simplified version using boolean comparison with automatic type conversion |
-| numpy where | ```python
+```
+
+_Explanation:_ Simplified version using boolean comparison with automatic type conversion
+
+## Method 4: numpy where
+
+```python
 data['Weekday'] = np.where(pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek >= 5, 1, 0)
-``` | Single-line approach using numpy's conditional function |
-| apply + lambda | ```python
+```
+
+_Explanation:_ Single-line approach using numpy's conditional function
+
+## Method 5: apply + lambda
+
+```python
 data['Weekday'] = data['Date'].apply(lambda x: 1 if pd.to_datetime(x, format='%d/%m/%Y').weekday() >= 5 else 0)
-``` | Using apply with lambda function for row-wise processing |
-| map + custom function | ```python
+```
+
+_Explanation:_ Using apply with lambda function for row-wise processing
+
+## Method 6: map + custom function
+
+```python
 def is_weekend(date_str):
     return int(pd.to_datetime(date_str, format='%d/%m/%Y').weekday() >= 5)
 data['Weekday'] = data['Date'].map(is_weekend)
-``` | Using a named function with map for clarity and reusability |
-````
+```
+
+_Explanation:_ Using a named function with map for clarity and reusability
+
