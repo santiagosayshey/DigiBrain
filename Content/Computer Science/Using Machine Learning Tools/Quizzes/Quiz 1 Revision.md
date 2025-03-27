@@ -30,87 +30,103 @@ df = df[df['Functioning Day'] == 'Yes'].copy()  # Create a filtered copy
 df.drop('Functioning Day', axis=1, inplace=True)  # Remove column with inplace parameter
 ```
 
-# Methods to Remove Columns in Pandas
-
-|Method|Code|Explanation|
-|---|---|---|
-|drop Method|`data = data.drop("Functioning Day", axis=1)`|Standard method to remove columns. Returns new DataFrame.|
-|drop Inplace|`data.drop("Functioning Day", axis=1, inplace=True)`|Same as above but modifies DataFrame in place without reassignment.|
-|del Operator|`del data["Functioning Day"]`|Python's deletion operator. Removes column in place. Cannot be chained.|
-|pop Method|`functioning_day = data.pop("Functioning Day")`|Removes column and returns it. Useful if you need the column data. In-place.|
-|Column Subset|`data = data[[col for col in data.columns if col != "Functioning Day"]]`|Creates new DataFrame with subset of columns, excluding the unwanted one.|
-|drop with list|`data = data.drop(columns=["Functioning Day"])`|Modern pandas syntax using 'columns' parameter instead of axis.|
-|iloc with positions|`cols = [i for i, col in enumerate(data.columns) if col != "Functioning Day"]`<br>`data = data.iloc[:, cols]`|Selects columns by integer position excluding unwanted column.|
-|rename + drop|`data = data.rename(columns={"Functioning Day": "_drop_me"}).drop("_drop_me", axis=1)`|Renames then drops. Useful in complex pipelines or to avoid string errors.|
-# Methods to Convert Holiday Feature to Binary
-
-|Method|Code|Explanation|
-|---|---|---|
-|map Method|`data['Holiday'] = data['Holiday'].map({'No Holiday': 0, 'Holiday': 1})`|Direct mapping of values|
-|replace Method|`data['Holiday'] = data['Holiday'].replace({'No Holiday': 0, 'Holiday': 1})`|Uses replace function|
-|Boolean Conversion|`data['Holiday'] = (data['Holiday'] == 'Holiday').astype(int)`|Boolean test converted to int|
-|numpy where|`data['Holiday'] = np.where(data['Holiday'] == 'Holiday', 1, 0)`|Conditional assignment|
-
-# Methods to Convert Seasons to One-Hot Encoding
-
-## Method 1: Loop and Equality
+## Methods For Converting "Holiday" to Binary (0/1)
 
 ```python
-for season in ['Winter', 'Spring', 'Summer', 'Autumn']:
-    data[season] = (data['Seasons'] == season).astype(int)
-data.drop('Seasons', axis=1, inplace=True)
+# Method 1: Using map() function
+df['Holiday'] = df['Holiday'].map({'No': 0, 'Yes': 1})  # Maps 'No' to 0 and 'Yes' to 1
+
+# Method 2: Using replace() function
+df['Holiday'] = df['Holiday'].replace({'No': 0, 'Yes': 1})  # Replaces values according to dictionary
+
+# Method 3: Using get_dummies() and selecting one column
+df['Holiday'] = pd.get_dummies(df['Holiday'], drop_first=True)  # Creates dummy variables and keeps only one column (1 for 'Yes')
+
+# Method 4: Using astype() after equality comparison
+df['Holiday'] = (df['Holiday'] == 'Yes').astype(int)  # Compares to 'Yes', returns True/False, converts to 1/0
+
+# Method 5: Using numpy where
+import numpy as np
+df['Holiday'] = np.where(df['Holiday'] == 'Yes', 1, 0)  # Returns 1 where 'Yes', 0 otherwise
+
+# Method 6: Using lambda function
+df['Holiday'] = df['Holiday'].apply(lambda x: 1 if x == 'Yes' else 0)  # Applies the lambda to each element
 ```
 
-_Explanation:_ Creates separate columns manually
-
-## Method 2: get_dummies
+## Methods For Converting "Season" to One-Hot Encoding
 
 ```python
-season_dummies = pd.get_dummies(data['Seasons'])
-data = pd.concaNOPW YUt([data, season_dummies], axis=1)
-data.drop('Seasons', axis=1, inplace=True)
+# Method 1: Using get_dummies() and concat
+season_dummies = pd.get_dummies(df['Season'], prefix='')  # Create dummies with empty prefix
+season_dummies.columns = ['Winter', 'Spring', 'Summer', 'Autumn']  # Rename columns
+df = pd.concat([df, season_dummies], axis=1)  # Add to DataFrame
+df = df.drop('Season', axis=1)  # Remove original column
+
+# Method 2: Using get_dummies() directly with column renaming
+season_dummies = pd.get_dummies(df['Season'])  # Create dummies
+season_dummies.columns = ['Winter', 'Spring', 'Summer', 'Autumn']  # Rename columns 
+df = pd.concat([df, season_dummies], axis=1)  # Add to DataFrame
+df = df.drop('Season', axis=1)  # Remove original column
+
+# Method 3: Manual creation with dictionary mapping
+season_mapping = {'Winter': 'Winter', 'Spring': 'Spring', 'Summer': 'Summer', 'Autumn': 'Autumn'}
+for season in season_mapping.keys():
+    df[season] = (df['Season'] == season).astype(int)  # Create column for each season
+df = df.drop('Season', axis=1)  # Remove original column
+
+# Method 4: Using pandas crosstab
+seasons = pd.crosstab(df.index, df['Season'])  # Create crosstab with index and Season
+seasons.columns = ['Winter', 'Spring', 'Summer', 'Autumn']  # Rename columns
+df = pd.concat([df, seasons], axis=1)  # Add to DataFrame
+df = df.drop('Season', axis=1)  # Remove original column
+
+# Method 5: Using sklearn OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder
+encoder = OneHotEncoder(sparse=False)
+season_encoded = encoder.fit_transform(df[['Season']])  # Encode Season
+season_df = pd.DataFrame(season_encoded, columns=['Winter', 'Spring', 'Summer', 'Autumn'])  # Convert to DataFrame
+df = pd.concat([df, season_df], axis=1)  # Add to DataFrame
+df = df.drop('Season', axis=1)  # Remove original column
+
+# Method 6: Using for loop with iterative assignment
+seasons = ['Winter', 'Spring', 'Summer', 'Autumn']
+for season in seasons:
+    df[season] = 0  # Initialize with zeros
+    df.loc[df['Season'] == season, season] = 1  # Set to 1 where Season matches
+df = df.drop('Season', axis=1)  # Remove original column
 ```
-
-_Explanation:_ Creates all dummy columns at once
-
-## Method 3: get_dummies with prefix
+## Methods For Converting Date to Weekday Binary Feature
 
 ```python
-data = pd.get_dummies(data, columns=['Seasons'], prefix='', prefix_sep='')
-# No need to drop original column, it's dropped automatically
+# Method 1: Using pandas dt.dayofweek accessor
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime if not already
+df['Weekday'] = (df['Date'].dt.dayofweek < 5).astype(int)  # 0-4 are weekdays (Mon-Fri), 5-6 are weekend
+df = df.drop('Date', axis=1)  # Remove the original Date column
+
+# Method 2: Using pandas dt.weekday accessor with comparison
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime if not already
+df['Weekday'] = (~df['Date'].dt.weekday.isin([5, 6])).astype(int)  # Not in [5,6] means weekday
+df = df.drop('Date', axis=1)  # Remove the original Date column
+
+# Method 3: Using numpy where with weekday check
+import numpy as np
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime if not already
+df['Weekday'] = np.where(df['Date'].dt.weekday < 5, 1, 0)  # 1 for weekday, 0 for weekend
+df = df.drop('Date', axis=1)  # Remove the original Date column
+
+# Method 4: Using apply with a lambda function
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime if not already
+df['Weekday'] = df['Date'].apply(lambda x: 1 if x.weekday() < 5 else 0)  # 1 for weekday, 0 for weekend
+df = df.drop('Date', axis=1)  # Remove the original Date column
+
+# Method 5: Using pandas dt.dayofweek with map
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime if not already
+df['Weekday'] = df['Date'].dt.dayofweek.map(lambda x: 1 if x < 5 else 0)  # Map 0-4 to 1, 5-6 to 0
+df = df.drop('Date', axis=1)  # Remove the original Date column
+
+# Method 6: Using pandas dt.day_name with conditional logic
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime if not already
+weekend_days = ['Saturday', 'Sunday']
+df['Weekday'] = (~df['Date'].dt.day_name().isin(weekend_days)).astype(int)  # Not in weekend days is weekday
+df = df.drop('Date', axis=1)  # Remove the original Date column
 ```
-
-_Explanation:_ One-step approach with automatic column **removal**# Methods to Convert Date to Weekday Feature in Pandas
-# Methods to Convert Date to Weekday Feature in Pandas
-
-```python
-# Method 1: dt.dayofweek + comparison
-data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek
-data['Weekday'] = (data['Weekday'] >= 5).astype(int)
-data = data.drop('Date', axis=1)
-
-# Method 2: dt.day_name + isin
-data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.day_name()
-data['Weekday'] = data['Weekday'].isin(['Saturday', 'Sunday']).astype(int)
-data = data.drop('Date', axis=1)
-
-# Method 3: dt.weekday + comparison
-data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.weekday > 4
-data['Weekday'] = data['Weekday'].astype(int)
-data = data.drop('Date', axis=1)
-
-# Method 4: numpy where
-data['Weekday'] = np.where(pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek >= 5, 1, 0)
-data = data.drop('Date', axis=1)
-
-# Method 5: apply + lambda
-data['Weekday'] = data['Date'].apply(lambda x: 1 if pd.to_datetime(x, format='%d/%m/%Y').weekday() >= 5 else 0)
-data = data.drop('Date', axis=1)
-
-# Method 6: map + custom function
-def is_weekend(date_str):
-    return int(pd.to_datetime(date_str, format='%d/%m/%Y').weekday() >= 5)
-data['Weekday'] = data['Date'].map(is_weekend)
-data = data.drop('Date', axis=1)
-```
-
