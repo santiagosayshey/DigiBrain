@@ -99,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "analogous",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +120,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,7 +209,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c186dfb2f57207c",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 4.md",
