@@ -1,15 +1,34 @@
-# Methods to Filter Rows by Condition in Pandas
+## Methods For Filtering Rows and Removing Column
 
-| Method                         | Code                                                                                                                                                              | Explanation                                                                       |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Boolean Indexing               | `data = data[data["Functioning Day"] == "Yes"]`                                                                                                                   | Creates a boolean mask and uses it to filter the DataFrame. Most common approach. |
-| query Method                   | `data = data.query("`Functioning Day `== 'Yes'")`                                                                                                                 | Uses SQL-like syntax for filtering. Readable for simple conditions.               |
-| loc Indexer                    | `data = data.loc[data["Functioning Day"] == "Yes"]`                                                                                                               | Location-based indexer with boolean condition.                                    |
-| drop with indices              | `data = data.drop(data[data["Functioning Day"] == "No"].index)`                                                                                                   | Identifies indices where condition is false and drops those rows.                 |
-| Boolean Indexing (inplace alt) | `data = data[data["Functioning Day"] == "Yes"].copy()`                                                                                                            | Similar to first method but creates a new copy explicitly.                        |
-| mask + dropna                  | `data["_temp"] = data["Functioning Day"].mask(data["Functioning Day"] != "Yes")`<br>`data = data.dropna(subset=["_temp"])`<br>`data = data.drop("_temp", axis=1)` | Creates temporary masked column and drops rows with NaN.                          |
-| filter Method                  | `data = data.filter(items=data.index[data["Functioning Day"] == "Yes"], axis=0)`                                                                                  | Uses filter method with pre-computed index locations.                             |
-| df.where                       | `data = data.where(data["Functioning Day"] == "Yes").dropna()`                                                                                                    | Replaces non-matching rows with NaN, then drops NaN rows.                         |
+```python
+# Method 1: Boolean indexing + drop
+df = df[df['Functioning Day'] == 'Yes']  # Filter rows where business is open
+df = df.drop('Functioning Day', axis=1)  # Remove the column using drop method
+
+# Method 2: query() method + drop columns parameter
+df = df.query("Functioning Day == 'Yes'")  # Filter using query method
+df = df.drop(columns=['Functioning Day'])  # Remove column using columns parameter
+
+# Method 3: loc indexer + del statement
+df = df.loc[df['Functioning Day'] == 'Yes']  # Filter using loc accessor
+del df['Functioning Day']  # Remove column using Python's del keyword
+
+# Method 4: Chained operations
+df = df[df['Functioning Day'] == 'Yes'].drop('Functioning Day', axis=1)  # Filter and remove in one line
+
+# Method 5: Boolean indexing + pop method
+filtered_df = df[df['Functioning Day'] == 'Yes']  # Filter to new variable
+filtered_df.pop('Functioning Day')  # Remove column with pop method
+df = filtered_df  # Assign back to original variable name
+
+# Method 6: Boolean indexing + columns selection
+df = df[df['Functioning Day'] == 'Yes']  # Filter first
+df = df[df.columns.drop('Functioning Day')]  # Keep all columns except specified one
+
+# Method 7: Boolean indexing + inplace drop
+df = df[df['Functioning Day'] == 'Yes'].copy()  # Create a filtered copy
+df.drop('Functioning Day', axis=1, inplace=True)  # Remove column with inplace parameter
+```
 
 # Methods to Remove Columns in Pandas
 
@@ -63,56 +82,35 @@ data = pd.get_dummies(data, columns=['Seasons'], prefix='', prefix_sep='')
 
 _Explanation:_ One-step approach with automatic column **removal**# Methods to Convert Date to Weekday Feature in Pandas
 # Methods to Convert Date to Weekday Feature in Pandas
-## Method 1: dt.dayofweek + comparison
 
 ```python
+# Method 1: dt.dayofweek + comparison
 data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek
 data['Weekday'] = (data['Weekday'] >= 5).astype(int)
-```
+data = data.drop('Date', axis=1)
 
-_Explanation:_ Convert to datetime, extract day of week (0-6), then mark weekends (5-6) as 1
-
-## Method 2: dt.day_name + isin
-
-```python
+# Method 2: dt.day_name + isin
 data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.day_name()
 data['Weekday'] = data['Weekday'].isin(['Saturday', 'Sunday']).astype(int)
-```
+data = data.drop('Date', axis=1)
 
-_Explanation:_ Convert to day names and check if in weekend list
-
-## Method 3: dt.weekday + comparison
-
-```python
+# Method 3: dt.weekday + comparison
 data['Weekday'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.weekday > 4
 data['Weekday'] = data['Weekday'].astype(int)
-```
+data = data.drop('Date', axis=1)
 
-_Explanation:_ Simplified version using boolean comparison with automatic type conversion
-
-## Method 4: numpy where
-
-```python
+# Method 4: numpy where
 data['Weekday'] = np.where(pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.dayofweek >= 5, 1, 0)
-```
+data = data.drop('Date', axis=1)
 
-_Explanation:_ Single-line approach using numpy's conditional function
-
-## Method 5: apply + lambda
-
-```python
+# Method 5: apply + lambda
 data['Weekday'] = data['Date'].apply(lambda x: 1 if pd.to_datetime(x, format='%d/%m/%Y').weekday() >= 5 else 0)
-```
+data = data.drop('Date', axis=1)
 
-_Explanation:_ Using apply with lambda function for row-wise processing
-
-## Method 6: map + custom function
-
-```python
+# Method 6: map + custom function
 def is_weekend(date_str):
     return int(pd.to_datetime(date_str, format='%d/%m/%Y').weekday() >= 5)
 data['Weekday'] = data['Date'].map(is_weekend)
+data = data.drop('Date', axis=1)
 ```
-
-_Explanation:_ Using a named function with map for clarity and reusability
 
