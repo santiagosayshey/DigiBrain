@@ -11,12 +11,15 @@
             "id": "4cecdf8abb7f8ded",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Hands-On Machine Learning - Third edition"
+              "icon": "lucide-file",
+              "title": "2.5 Hyperparameters"
             }
           }
         ]
@@ -51,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "grid search",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,6 +172,11 @@
   },
   "active": "4cecdf8abb7f8ded",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.1 Training Models.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/1.1 Fundamentals of ML.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 1 Revision.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.3 Pipelines.md",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Untitled",
@@ -177,8 +186,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.6 Regression Performance Metrics.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.5 Validation.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/1.4 Challenges.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/4.2 Syllogisms.md",
@@ -199,13 +206,11 @@
     "Images/Pasted image 20250327030756.png",
     "Images/Pasted image 20250327030738.png",
     "Content/Philosophy/Moral Problems/Notes/4.1 Child Euthanasia.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/4.1 Training Models.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
     "Untitled 1.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.3 Decision Trees.md",
-    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Quizzes",
     "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
@@ -215,7 +220,6 @@
     "Content/Computer Science/Tech eChallenge",
     "Content/Philosophy/Moral Problems/Readings/Immanuel Kant, _The Good Will And The Categorical Imperative_-1.pdf",
     "Content/Philosophy/Moral Problems/Readings/Russ Shafer-Landau, _Moral Reasoning_.pdf",
-    "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
     "Content/Computer Science/Software Development & Project/Project/System Architecture.canvas",
