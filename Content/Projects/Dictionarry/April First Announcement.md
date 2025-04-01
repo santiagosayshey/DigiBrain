@@ -13,5 +13,6 @@ Along with Profilarr, the Dictionarry database has also got an overhaul. We intr
 ### Tweaks 🔧
 
 I talked about tweaks in detail [here](https://dictionarry.dev/devlog/profile_tweaks) and had actually implemented some of them into Profilarr, but decided to remove them at the last minute. On paper, it's an interesting system. In practice, it's confusing and really hard to program for. It's meant to be a database agnostic feature, but was hardcoded into Profilarr's profile system. I'm going to keep this feature on the roadmap as a maybe for now, but I'm gonna have to completely rethink how to implement it from the ground up. 
+
 ## Housekeeping
 
