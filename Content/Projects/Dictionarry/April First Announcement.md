@@ -10,9 +10,9 @@ I talked about tweaks in detail [here](https://dictionarry.dev/devlog/profile_tw
 
 ### Databases
 
-Along with Profilarr, the Dictionarry database has also got an overhaul. We introduced the new encode efficiency index, 2160p Quality and Balanced profiles as well as other small improvements like editions,
-
-@seraphys has also been working on a scoring refactor that introduces 720p fallback, fixes streaming service names, and groups similar releases together better. 
+Along with Profilarr, the Dictionarry database has also got an overhaul. We introduced the new encode efficiency index, 2160p Quality and Balanced profiles as well as other small improvements like editions, repacks and freeleech. Here are some scattered thoughts that you might also be interested in: 
+- @seraphys has been working on a scoring refactor that introduces 720p fallback, fixes streaming service names, and groups similar releases together better. It's a huge change that I haven't been able to fully test myself, but I've merged into a separate branch because I know people are pretty antsy to start testing. 
+- I'm personally not too happy with the state of the current database - poorly named files and renames/imports weren't taken into enough consideration and it's causing way too many download loops. I'm still trying to figure out exactly how I want to tackle these problems, but I 
 
 
 
