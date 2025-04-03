@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/5.3 Euthanasia.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/5.2 Active vs. Passive.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5.3 Euthanasia"
+              "title": "5.2 Active vs. Passive"
             }
           },
           {
@@ -202,10 +202,11 @@
   },
   "active": "c6e3561de9ef971e",
   "lastOpenFiles": [
-    "Content/AI Prompt.md",
-    "Content/Philosophy/Moral Problems/Notes/5.3 Euthanasia.md",
-    "Content/Philosophy/Moral Problems/Notes/5.2 The Killing Difference.md",
+    "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
+    "Content/Philosophy/Moral Problems/Notes/5.2 Active vs. Passive.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 The Difference Thesis.md",
+    "Content/AI Prompt.md",
+    "Content/Philosophy/Moral Problems/Notes/5.2 The Killing Difference.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
     "Images/Group 11.png",
     "Images/Frame 4 1.png",
@@ -234,7 +235,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.6 Regression Performance Metrics.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/1.5 Validation.md",
     "Images/6a.png",
     "Images/6c.png",
     "Images/6b.png",
