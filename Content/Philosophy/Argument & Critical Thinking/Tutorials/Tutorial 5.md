@@ -22,11 +22,11 @@
 > Using the Venn diagram from Exercise 1 with "All snakes are reptiles" as true, determine if these arguments are valid:
 > 
 > a. All S are R Therefore, some S are R
-> - invalid.
+> - invalid. all humans breathe, therefore some humans are breathing right now. highly likely, but still potentially wrong. 
 > 
 > b. All S are R Therefore, no S are not R
-> - valid.
+> - valid. all humans breathe, therefore there are no humans that don't breathe. 
 > 
 > c. All S are R Therefore, some not-R are S
-> - invalid. 
+> - invalid. all humans breathe, therefore some non breathing things are human. 
 
