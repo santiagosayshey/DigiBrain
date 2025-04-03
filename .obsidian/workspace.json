@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/5.x The Difference Thesis.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/5.3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5.x The Difference Thesis"
+              "title": "5.3"
             }
           },
           {
@@ -200,11 +200,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "c6e3561de9ef971e",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/5.2 The Killing Difference.md",
-    "Content/Philosophy/Moral Problems/Notes/5.x The Difference Thesis.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
+    "Content/Philosophy/Moral Problems/Notes/5.3.md",
+    "Content/Philosophy/Moral Problems/Notes/5.x The Difference Thesis.md",
+    "Content/Philosophy/Moral Problems/Notes/5.2 The Killing Difference.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
@@ -234,7 +235,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.1 Missing Data.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.4 Linear Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.6 Regression Performance Metrics.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
     "Images/6a.png",
     "Images/6c.png",
     "Images/6b.png",
