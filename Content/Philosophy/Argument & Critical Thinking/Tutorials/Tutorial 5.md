@@ -7,27 +7,26 @@
 > Draw Venn diagrams and determine if these statements are True, False, or Could Be Either:
 > 
 > a. "Some snakes are reptiles"
-> - Could be either, we don't have enough info. It would be true if we also knew if at least 1 snake exists. 
+> - Could be either, we don't have enough info. It would be true if we also knew if at least 1 snake exists. It would be false if no snakes exist. 
 > 
 > b. "No snakes are not reptiles"
-> - This is true. 
+> - This is true. This is logically equivalent to the premise. 
 > 
 > c. "Some things that are not reptiles are snakes"
+> - Could be true, but we only have information about snakes and reptiles and snakes
 > 
-> ```image_goes_here
-> Draw two overlapping circles:
-> - One circle labeled S for Snakes
-> - One circle labeled R for Reptiles
-> - Show the given statement "All snakes are reptiles" by placing S entirely within R
-> ```
+
 
 > [!example] Venn Exercise 2
 > 
 > Using the Venn diagram from Exercise 1 with "All snakes are reptiles" as true, determine if these arguments are valid:
 > 
 > a. All S are R Therefore, some S are R
+> - invalid.
 > 
 > b. All S are R Therefore, no S are not R
+> - valid.
 > 
 > c. All S are R Therefore, some not-R are S
+> - invalid. 
 
