@@ -6,4 +6,4 @@
 
 Scenario: A doctor has agreed to meet with a friend for lunch, but on the way there, encounters a car crash that requires their immediate medical assistance. The doctor decides to stay and provide medical attention but in doing so, breaks their promise to meet with their friend. 
 
-This action provides a greater overall utility, i.e. potentially saving a life over keeping a promise. Act utilitarianism judges this as the correct moral choice. 
+This action provides a greater overall utility to society and would therefore be judged as morally correct by act utilitarianism. justifies this intuitively; potentially saving a life is more important than keeping a promise. On the other hand, 
