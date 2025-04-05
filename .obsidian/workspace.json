@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,10 +242,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "307ebdd8061d272c",
+  "active": "df061c9882aa3950",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
+    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
     "Content/Philosophy/Moral Problems/Quizzes/Logic Quiz.md",
     "Content/Philosophy/Moral Problems/Exams",
     "Content/Philosophy/Moral Problems/Notes/2.4 Right vs Good.md",
