@@ -6,5 +6,4 @@
 
 Scenario: A doctor has agreed to meet with a friend for lunch, but on the way there, encounters a car crash that requires their immediate medical assistance. The doctor decides to stay and provide medical attention but in doing so, breaks their promise to meet with their friend. 
 
-Act utilitarianism says that the doctor 
-
+This action provides a greater overall utiility, i.e. 
