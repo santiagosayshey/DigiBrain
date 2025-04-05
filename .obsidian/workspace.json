@@ -11,15 +11,12 @@
             "id": "c6e3561de9ef971e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "5.5 Perspective Summary"
+              "icon": "lucide-file-text",
+              "title": "J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1"
             }
           },
           {
@@ -124,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 585.5026054382324
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -216,12 +213,13 @@
   },
   "active": "c6e3561de9ef971e",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
+    "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/Philosophy/Moral Problems/Notes/3.1 Rossian Pluralism.md",
-    "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.1 Reasoning with Reasons.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 The Killing Difference.md",
@@ -248,7 +246,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Untitled",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.2 Scaling Data.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/2.1 Missing Data.md",
     "Images/6a.png",
     "Images/6c.png",
     "Images/6b.png",
