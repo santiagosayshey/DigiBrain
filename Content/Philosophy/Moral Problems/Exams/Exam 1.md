@@ -14,14 +14,14 @@ On the other hand, rule utilitarianism judges this as morally wrong because it v
 
 **Explain the difference between acting for the sake of duty versus acting merely in accordance with duty. As part of your explanation, provide an example of each.**
 
-In Kantian ethics, the moral worth of an action depends on the motivation behind it, not merely its outcome. Acting "for the sake of duty" means performing an action solely because one recognises it as the culmination of their 'Good Will', This contrasts with acting "merely in accordance with duty," where one's actions conform to moral law but are motivated by inclination, self-interest, or other non-moral reasons.
+In Kantian ethics, the moral worth of an action depends on the motivation behind it, not merely its outcome. Acting "for the sake of duty" means performing an action solely because one recognises it as morally required by reason, which expresses Kant's concept of the Good Will; the only thing that is good without qualification. This contrasts with acting "merely in accordance with duty," where one's actions align with moral requirements but are motivated by inclination, self-interest, or other non-moral reasons.
 
-For Kant, only actions done for the sake of duty possess genuine moral worth. When we act from duty, we act out of respect for the moral law itself, demonstrating our rational nature and autonomy as moral agents capable of self-governance through reason.
+For Kant, only actions done for the sake of duty possess genuine moral worth. When we act from duty, we act from the Good Will itself, demonstrating our rational capacity to recognise and follow moral law out of respect for it alone.
 
 Consider two people helping an elderly woman cross a busy street:
 
-Person A is late for an important meeting but stops to help because they recognize a universal duty to assist vulnerable individuals when possible. Despite the personal inconvenience, they act purely out of a sense of moral obligation. This represents acting for the sake of duty.
+Person A is late for a lecture but stops to help because they recognise a universal duty to assist vulnerable individuals when possible. Despite the personal inconvenience, they act purely out of a sense of moral obligation. This represents acting for the sake of duty and manifests the Good Will.
 
-Person B helps the elderly woman because they enjoy the feeling of being charitable and want others to see them as virtuous. While their action conforms to duty and produces good outcomes, it is motivated by inclination and self-satisfaction rather than respect for the moral law itself. This represents acting merely in accordance with duty.
+Person B helps the elderly woman because they enjoy the feeling of being charitable and want others to see them as virtuous. While their action conforms to duty and produces good outcomes, it is motivated by inclination and self-satisfaction rather than respect for duty itself. This represents acting merely in accordance with duty.
 
-Kant would argue that Person A's action has genuine moral worth because it stems from pure respect for moral law, even against competing desires. Person B's action, while beneficial, lacks moral worth because it's contingently motivated by personal satisfaction rather than recognition of moral duty itself.
+Kant would argue that Person A's action has genuine moral worth because it stems from pure respect for duty, even against competing desires. Person B's action, while beneficial, lacks moral worth because it's contingently motivated by personal satisfaction rather than from the Good Will's recognition of moral duty itself.
