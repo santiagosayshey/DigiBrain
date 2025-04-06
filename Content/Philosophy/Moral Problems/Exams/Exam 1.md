@@ -26,3 +26,8 @@ Person B helps the elderly woman because they enjoy the feeling of being charita
 
 
 ## Essay
+
+Certain moral duties bind us absolutely, for better or worse, requiring unwavering commitment precisely because once we allow exceptions based on subjective judgments of better outcomes, we risk sliding down a slippery slope where any obligation can be rationalized away. Kantian ethics formalizes this concern through the concept of perfect duties. Promise keeping represents one such duty; an absolute moral requirement that cannot be broken even for seemingly better outcomes.
+
+
+While intuition might suggest that some promises could be justifiably broken when doing so leads to significantly better outcomes, such reasoning undermines the very foundation of moral obligations. In this essay, I will argue that from a Kantian perspective, both Sam and Bob acted immorally by breaking their promises, regardless of their intentions or the consequences they sought to achieve. First, I will analyze Sam's case using Kant's categorical imperative to demonstrate why redirecting his friend's fortune violated perfect duties. Next, I will apply the same framework to Bob's case to show why his delayed repayment was similarly impermissible. I will then address a consequentialist objection that might be raised against both analyses, and finally defend the Kantian approach by explaining why allowing exceptions to promise-keeping creates an untenable moral framework."
