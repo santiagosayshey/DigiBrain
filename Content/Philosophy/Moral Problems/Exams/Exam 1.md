@@ -23,5 +23,3 @@ Consider two people helping an elderly woman cross a busy street:
 Person A is late for a lecture but stops to help because they recognise a universal duty to assist vulnerable individuals when possible. Despite the personal inconvenience, they act purely out of a sense of moral obligation. This represents acting for the sake of duty and manifests the Good Will.
 
 Person B helps the elderly woman because they enjoy the feeling of being charitable and want others to see them as virtuous. While their action conforms to duty and produces good outcomes, it is motivated by inclination and self-satisfaction rather than respect for duty itself. This represents acting merely in accordance with duty.
-
-Kant would argue that Person A's action has genuine moral worth because it stems from pure respect for duty, even against competing desires. Person B's action, while beneficial, lacks moral worth because it's contingently motivated by personal satisfaction rather than from the Good Will's recognition of moral duty itself.
