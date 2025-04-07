@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "bb34d0983ce93508",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
+            }
+          },
+          {
             "id": "93dc9690dae4f4f9",
             "type": "leaf",
             "state": {
@@ -82,7 +94,8 @@
               "title": "3.1 Rossian Pluralism"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,11 +242,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "307ebdd8061d272c",
+  "active": "bb34d0983ce93508",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Exams/Essay.md",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
-    "Content/Philosophy/Moral Problems/Exams/Essay.md",
     "Content/Philosophy/Moral Problems/Notes/3.1 Rossian Pluralism.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
