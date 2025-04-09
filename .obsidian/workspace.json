@@ -26,15 +26,12 @@
             "id": "7584d97efae4ba42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf"
               },
-              "icon": "lucide-file",
-              "title": "6.2 Evaluation"
+              "icon": "lucide-file-text",
+              "title": "2024 Practice Exam"
             }
           },
           {
@@ -202,8 +199,9 @@
   },
   "active": "7584d97efae4ba42",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
     "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.2 Reasoning with Uncertainty.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
@@ -235,7 +233,6 @@
     "Images/Group 11.png",
     "Images/Frame 4 1.png",
     "Images/Frame 4.png",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
     "Content/Computer Science/Tech eChallenge/MVP",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Untitled",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes",
