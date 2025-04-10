@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Exam 1"
+              "title": "6.1 World Hunger (Singer)"
             }
           },
           {
@@ -155,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324
+    "width": 428.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -234,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 472.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,10 +249,10 @@
   },
   "active": "7584d97efae4ba42",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
-    "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
-    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger ().md",
+    "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
+    "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
+    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/AI Prompt.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
