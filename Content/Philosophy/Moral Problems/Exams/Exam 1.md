@@ -27,6 +27,9 @@ Person B helps the elderly woman because they enjoy the feeling of being charita
 
 ## Essay
 
+
+There exists the idea of a 'perfect duty'; a moral obligation that must be followed, regardless of it's consequences. When we allow our subjective perception of these consequences to dictate whether we adhere to these duties, we lose sight of what makes something morally permissible in the first place. 
+
 Certain moral duties bind us absolutely, requiring unwavering commitment regardless of potential outcomes. 
 
 When we allow exceptions to perfect duties like promise-keeping based on what we perceive to be more favourable consequences, we lose sight of what makes something morally permissible in the first place. 
