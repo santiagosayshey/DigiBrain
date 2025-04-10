@@ -36,7 +36,9 @@ Similarly, Bob's promise to pay Amy back, knowing full well that he could never 
 
 A consequentialist would object that Kant's rigid adherence to promise-keeping leads to arguably worse outcomes in both cases. From this perspective, Sam's re-purposing of funds to a children's hospital maximises utility by saving lives, rather than merely supporting entertainment at a jockey club. Similarly, a consequentialist would argue that Bob's delay creates greater overall happiness; Amy suffers minimal harm from waiting, while his daughter gains significant joy from a once-in-a-lifetime experience. 
 
-However, this objection misses the fundamental danger in permitting exceptions to perfect duties based on subjective judgements of better outcomes. 
+However, this objection misses why perfect du
+
+fundamental danger in permitting exceptions to perfect duties based on subjective judgements of better outcomes. 
 
 Once we allow ourselves to break promises whenever they personally determine that doing so would produce more good, we create a slippery slope that ultimately undermines all moral obligations. Consider how quickly this reasoning deteriorates: If Sam can redirect Dan's fortune based on subjective judgement of "better outcomes," what prevents a contractor from breaking agreements to use cheaper materials, or a judge from ignoring legal precedent? There is no principled stopping point once subjective judgement becomes the deciding factor. Binding obligations at every level, from personal promises to constitutional protections, could be overridden by claiming a marginally better outcome elsewhere.
 
