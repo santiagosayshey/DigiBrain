@@ -26,12 +26,15 @@
             "id": "7584d97efae4ba42",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf"
+                "file": "Content/Philosophy/Moral Problems/Notes/6.1 Peter Singer - World Hunger.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "2024 Practice Exam"
+              "icon": "lucide-file",
+              "title": "6.1 Peter Singer - World Hunger"
             }
           },
           {
@@ -199,10 +202,12 @@
   },
   "active": "7584d97efae4ba42",
   "lastOpenFiles": [
+    "Content/AI Prompt.md",
+    "Content/Philosophy/Moral Problems/Notes/6.1 Peter Singer - World Hunger.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
-    "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.2 Reasoning with Uncertainty.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
@@ -229,7 +234,6 @@
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.1 Reasoning with Reasons.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 The Killing Difference.md",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
     "Images/Group 11.png",
     "Images/Frame 4 1.png",
     "Images/Frame 4.png",
@@ -244,8 +248,6 @@
     "Images/5a.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Quizzes",
-    "Content/Philosophy/Moral Problems/Readings/W.D. Ross, _What Makes Right Acts Right__.pdf",
-    "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
     "Content/Computer Science/Software Development & Project/Project/Untitled.canvas",
