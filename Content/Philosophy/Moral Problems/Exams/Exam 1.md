@@ -36,7 +36,7 @@ Similarly, Bob's promise to Amy to pay her back, knowing he couldn't, was likewi
 
 By knowingly changing the terms of their agreement without Amy's consent, Bob instrumentalises Amy's resources for his own purposes, disregarding her autonomy to his priorities. 
 
-Bob takes advantage of this agreem
+Bob takes advantage of this agreement by changing it's terms without Amy's consent 
 
 This creates a moral asymmetry where Bob privileges his daughter's happiness over his moral obligation to Amy. Though Bob might justify this as choosing between two ends; his daughter and Amy, Kant's framework does not permit such trade-offs when they involve breaking perfect duties. Furthermore, Bob's maxim of "I will delay repaying debts when doing so allows me to bring joy to someone else" suffers from the same contradiction in conception as Sam's case. If universalised, this principle would undermine the practice of lending, as lenders could never rely on timely repayment if borrowers found alternative uses they deemed more valuable or pressing.
 
