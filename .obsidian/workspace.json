@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,10 +247,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8922f6669456a577",
+  "active": "7584d97efae4ba42",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/AI Prompt.md",
+    "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
