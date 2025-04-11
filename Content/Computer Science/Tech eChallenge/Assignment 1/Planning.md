@@ -30,7 +30,9 @@ Here's a clear, practically focused outline structured into actionable steps wit
 |                                                           | **Step 3: Writing Part 3**                                                                          | _(To be addressed later, no immediate research required.)_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 ## Task 1.1: Research and Notes
 
-**Prompt (ChatGPT 4.5 + Deep Research):** Hi, can you please me to conduct deep research into the JTBD framework? Here are the key questions you should aim to answer:
+**Prompt (ChatGPT 4.5 + Deep Research):** 
+
+Hi, can you please me to conduct deep research into the JTBD framework? Here are the key questions you should aim to answer:
 
 - What is the JTBD framework?
 - Origin and foundational texts (key authors, seminal works).
@@ -112,3 +114,32 @@ Type: Food/Drink
 |**Functional**|Provides caffeine to increase alertness, improve focus, reduce tiredness, and satisfy thirst.|
 |**Emotional**|Creates feelings of comfort, pleasure, satisfaction, relaxation, or reduces feelings of stress and irritability.|
 |**Social**|Signals social identity, status, or competence (e.g., being perceived as sophisticated, productive, or connected).|
+## Task 2.2: Research and Notes
+
+**Prompt (ChatGPT 4.5 + Deep Research):** 
+
+Hi, can we please conduct deep research into coffee products in the context of the JTBD framework?  We need need to research: 
+• Clear outline of the job(s) the products have been created for  
+• Identifying customer characteristics  
+• Mapping design features to the job
+
+Part 2: Applying JTBD to a real-world example. For this section, you will apply the JTBD framework to a real-world product example. You must select one of the provided examples: image.png image.png image.png image.png. Once you have chosen your example, analyse the product by identifying the job it was designed to fulfil. Consider the following aspects:  
+• Functional Goals: What specific task is the product helping the customer complete?  
+• Emotional Goals: How does using this product make the customer feel?  
+• Social Goals: How does the product influence how others perceive the customer?
+
+To structure your analysis, use Figure 1: JTBD Story Canvas. This framework will help you break down the situation (When ____), the motivation (I want to ____), and the expected outcome (So I can ____). Your analysis should demonstrate an understanding of how customer needs and desires drive product adoption. Support your analysis with external research, referencing similar products and their market positioning. Consider what features were designed to meet specific customer goals and discuss any limitations in the product’s ability to fulfil its intended job.
+
+So you essentially need to research:  
+• Structure clearly using JTBD Story Canvas (Situation, Motivation, Outcome)  
+• Functional Goals: What exact task is the product designed to address?  
+• Emotional Goals: What feelings or experiences does the product create?  
+• Social Goals: How does the product affect others' perceptions of users?  
+• Identify key product features explicitly targeting these goals  
+• Briefly examine market positioning and similar competing products  
+• Discuss product limitations or criticisms regarding job fulfilment  
+• Situation clearly stated ("When ....")  
+• Motivation clearly defined ("I want to ....")  
+• Expected Outcome clearly articulated ("So I can ....")
+
+No words cut, no format broken. Let me know if you want this as a .doc or anything else.
