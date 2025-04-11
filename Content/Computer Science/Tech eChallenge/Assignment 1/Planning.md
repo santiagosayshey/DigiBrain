@@ -1,9 +1,11 @@
-## 
+## Initial Plan
 
-**Prompt (Claude Sonnet 3.7 w/ Extended Thinking):** Hi, can you please review the following assignment specification and help me outline a clear, practical plan of attack?
+**Prompt (Claude Sonnet 3.7 w/ Extended Thinking):** 
+
+Hi, can you please review the following assignment specification and help me outline a clear, practical plan of attack?
 
 - Break down each part into manageable steps. For example: begin by conducting research, answer specific research questions, build a structured outline based on this research, and then use this outline as a basis for my writing.
-- The main goal is to provide a concise, straightforward plan. Include only tasks directly relevant to completing the assignment—avoid unnecessary padding. Be comprehensive regarding the tasks I've specified, but keep the scope focused and practical.
+- The main goal is to provide a concise, straightforward plan. Include only tasks directly relevant to completing the assignment. Avoid unnecessary padding. Be comprehensive regarding the tasks I've specified, but keep the scope focused and practical.
 - I will use ChatGPT's deep research as a starting point. Clearly structure the research phase of this outline to align with that process. In particular, include all possible questions or relevant topic areas that we should address through research.
 - For now, focus specifically on tasks 1 and 2, especially regarding research.
 - Do not include unnecessary formatting, emojis, or detailed explanations. I need a clear, practically focused outline that I can easily refer to and mark as complete. Tables are preferred.
@@ -26,5 +28,17 @@ Here's a clear, practically focused outline structured into actionable steps wit
 | **3. Using JTBD to Develop Own Product**(to tackle later) | **Step 1: Product Conceptualisation**                                                               | _(To be addressed later, no immediate research required.)_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                           | **Step 2: Job Statement Canvas**                                                                    | _(To be addressed later, no immediate research required.)_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                           | **Step 3: Writing Part 3**                                                                          | _(To be addressed later, no immediate research required.)_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-Task 1.1: Research and Notes:
+## Task 1.1: Research and Notes
 
+**Prompt (ChatGPT 4.5 + Deep Research):** Hi, can you please me to conduct deep research into the JTBD framework? Here are the key questions you should aim to answer:
+
+- What is the JTBD framework?
+- Origin and foundational texts (key authors, seminal works).
+- Core concepts: Job, "hiring" products, functional/emotional/social goals.
+- How JTBD differs from demographic segmentation.
+- Real-world examples from academic literature and credible industry case studies.
+- How JTBD helps identify customer motivations and opportunities for innovation.
+- Role of JTBD in shaping business strategy and influencing emerging technologies.
+- Briefly mention limitations/critiques of JTBD.
+
+Your goal is not to provide an articulate examination of these topics, but to find as much relevant information as you can, and present it back to me so that I can read, reflect, and reference in my own writing. 

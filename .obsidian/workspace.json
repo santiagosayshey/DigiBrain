@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 1 Revision.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Quiz 1 Revision"
+              "title": "Outline of Planning"
             }
           },
           {
@@ -245,7 +245,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7584d97efae4ba42",
+  "active": "b91970642a49714c",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
