@@ -156,30 +156,21 @@ Coffee stands as one of the world's most widely consumed beverages, with a globa
 
 Coffee fulfils multiple goals that explain its widespread popularity across different contexts.
 
-| **Goal Type** | **Key Examples** |
-|---------------|-----------------|
-| **Functional Goals** | • Increasing alertness and focus during work or study<br>• Boosting physical energy to combat fatigue<br>• Enhancing concentration for extended periods<br>• Managing caffeine withdrawal symptoms<br>• Improving athletic performance during workouts |
-| **Emotional Goals** | • Creating comfort through warmth and familiar aroma<br>• Establishing a calming ritual and sense of normalcy<br>• Offering a mood enhancement and mental uplift<br>• Providing sensory pleasure through taste<br>• Creating moments of indulgence and self-care |
-| **Social Goals** | • Catalyzing conversations in social settings<br>• Demonstrating hospitality when hosting guests<br>• Participating in cultural traditions and rituals<br>• Signaling professional identity or status<br>• Creating shared experiences that foster belonging |
+| **Goal Type**        | **Key Examples**                                                                                                                                                                                                                                                 |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Functional Goals** | • Increasing alertness and focus during work or study<br>• Boosting physical energy to combat fatigue<br>• Enhancing concentration for extended periods<br>• Managing caffeine withdrawal symptoms<br>• Improving athletic performance during workouts           |
+| **Emotional Goals**  | • Creating comfort through warmth and familiar aroma<br>• Establishing a calming ritual and sense of normalcy<br>• Offering a mood enhancement and mental uplift<br>• Providing sensory pleasure through taste<br>• Creating moments of indulgence and self-care |
+| **Social Goals**     | • Catalyzing conversations in social settings<br>• Demonstrating hospitality when hosting guests<br>• Participating in cultural traditions and rituals<br>• Signaling professional identity or status<br>• Creating shared experiences that foster belonging     |
 
-## References
-
-Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
-
-Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages. (2018). PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6096549/
-
-A World of Coffee: Brewing Traditions Across Cultures. (2022). The Mocha Monkey. https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures
-
-## References
-
-Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
-
-Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages. (2018). PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6096549/
-
-A World of Coffee: Brewing Traditions Across Cultures. (2022). The Mocha Monkey. https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures
 
 **References:**
 
 Coffee Market Size, Growth, Trends & Demand by 2033. (2024). Straits Research. https://straitsresearch.com/report/coffee-market
 
 Caffeine Use and Attentional Engagement in Everyday Life. (2024). Science Direct. https://www.sciencedirect.com/science/article/pii/S2666518224000068
+
+Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
+
+Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages. (2018). PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6096549/
+
+A World of Coffee: Brewing Traditions Across Cultures. (2022). The Mocha Monkey. https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures

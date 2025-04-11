@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb34d0983ce93508",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "6.1 Abduction"
-            }
-          },
-          {
             "id": "7584d97efae4ba42",
             "type": "leaf",
             "state": {
@@ -35,6 +20,21 @@
               },
               "icon": "lucide-file",
               "title": "Planning"
+            }
+          },
+          {
+            "id": "64758a5d12e4fe90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Draft"
             }
           },
           {
@@ -51,84 +51,8 @@
               "icon": "lucide-file",
               "title": "Research Task 2"
             }
-          },
-          {
-            "id": "4905dcb791df3eda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Research Task 1"
-            }
-          },
-          {
-            "id": "8922f6669456a577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/AI Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Prompt"
-            }
-          },
-          {
-            "id": "13294bf1e37705a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2.2 The Good Will"
-            }
-          },
-          {
-            "id": "fe28a68769e194f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2.2 The Good Will"
-            }
-          },
-          {
-            "id": "dcdf6b271f7cf38b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2.3 The Categorical Imperative"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,9 +201,11 @@
   },
   "active": "7584d97efae4ba42",
   "lastOpenFiles": [
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
+    "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
@@ -287,7 +213,6 @@
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
-    "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
@@ -311,7 +236,6 @@
     "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
-    "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Images/Group 11.png",
     "Images/Frame 4 1.png",
     "Images/Frame 4.png",
