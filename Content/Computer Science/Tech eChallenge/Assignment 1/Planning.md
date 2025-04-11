@@ -57,9 +57,13 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 |Impact on Business Strategy and Future Implications|• "Job as North Star": aligns teams around job outcomes<br>• Real-world success: Cox Automotive achieved 20x user growth via job-focused roadmap<br>• Redefines market boundaries around jobs<br>• Allows adaptive strategy in changing technology landscapes (Nike, SNHU cases)<br>• End-to-end journey alignment with jobs<br>• Marketing messages resonate by highlighting job-related outcomes (Moen faucets, OnStar)<br>• Integration with emerging technologies (AI, IoT) to better serve jobs<br>• Continuous evolution and refinement of jobs as societal and technological contexts evolve<br>• Ongoing relevance as markets increasingly prioritize customer-centric innovation|
 ## Task 1.3: Initial Draft
 
-**Definition and Context:**
-Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers aim to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases in the first place - what job do they need done? The framework provides a methodology for uncovering the actual circumstances and motivations that drive customer decisions, which can be understood through three key dimensions that influence their choices .
+**Definition and Context:** 
+Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers aim to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases in the first place - what job do they need done? (Christensen et al., 2016). The framework provides a methodology for uncovering the actual circumstances that drive customer decisions, which can be understood through three key dimensions that influence their choices:
 
-1. Functional
-2. Emotional
-3. Social
+1. **Functional:** The practical aspects of what customers are trying to accomplish. This includes the objective tasks, problems to be solved, or improvements to existing solutions. 
+2. **Emotional:** The feelings and sentiments customers want to experience or avoid. Products often serve to make customers feel a certain way - confident, secure, accomplished, or relieved from anxiety.
+3. **Social:** How customers want to be perceived by others when using the product or service. This includes how the product affects one's social status, reinforces group membership, expresses personal identity, and shapes how others perceive the user.
+
+This multi-dimensional view provides a comprehensive understanding of customer motivations beyond mere functionality.
+
+**Brief History and Origins:**
