@@ -68,13 +68,11 @@ In JTBD, a "job" is defined as "a statement that describes, with precision, what
 
 - **Functional** (the practical objectives that need to be accomplished - what literally needs to get done)
 - **Emotional** (how customers want to feel or avoid feeling during the process, such as confidence, satisfaction, or avoiding frustration)
-- **Social** (how customers want to be perceived by others, including considerations of status, identity, and competence) 
+- **Social** (how customers want to be perceived by others, including considerations of status, identity, and competence)
 
-Christensen emphasises that understanding all three dimensions is essential for developing solutions that address the complete job (HBS Working Knowledge, 2006).
+Understanding these three dimensions allows companies to see beyond surface-level customer attributes and focus on underlying motivations. This is why JTBD moves past traditional demographic segmentation - it identifies why products are hired regardless of who does the hiring.
 
-JTBD transcends traditional demographic segmentation by focusing on why products are hired regardless of who does the hiring. Consider how a 24-year-old urban professional with limited cooking skills and a 60-year-old suburban retiree with mobility challenges might both hire the same meal delivery service. Despite their demographic differences, they share the job of "having a convenient, high-quality meal without the burden of shopping, preparation, and cleanup." This explains why demographic profiles often fail to predict purchasing behavior—the causal mechanism is the job, not customer attributes.
-
-The framework reframes customer "needs" as specific success criteria for accomplishing jobs. These precise outcome statements (e.g., "minimize preparation time" rather than "convenience") provide clear targets for product development, making innovation more predictable and directly informing product requirements.
+For example, a 24-year-old urban professional with limited cooking skills and a 60-year-old suburban retiree with mobility challenges might both hire the same meal delivery service. Despite their demographic differences, they share the job of "having a convenient, high-quality meal without the burden of shopping, preparation, and cleanup." Demographic profiles fail to predict this purchasing behaviour because the causal mechanism is the job itself, not customer attributes.
 
 **References:**
 
@@ -85,3 +83,6 @@ Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" 
 Strategyn (n.d.). "Jobs-to-be-Done: The Theory & Methodology." [https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/](https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/)
 
 Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. [https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb](https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb)
+
+HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. [https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products](https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products)
+
