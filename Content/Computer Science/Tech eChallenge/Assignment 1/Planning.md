@@ -68,16 +68,6 @@ This concept was later formalised by two key pioneers. Tony Ulwick developed Out
 
 Simultaneously, Clayton Christensen was developing Jobs Theory. Christensen's influential HBR piece "Marketing Malpractice" (2005) argued that marketers had been "losing the forest for the trees" by focusing on demographic segments instead of fundamental customer jobs (HBS Working Knowledge, 2006). He later popularized JTBD through "Competing Against Luck" (2016), which formally presented Jobs Theory as a framework for predictable innovation (Strategy+Business, 2016).
 
-At the heart of the JTBD framework is the concept of a "job." A job is formally defined as "a statement that describes, with precision, what a group of people are trying to achieve or accomplish in a given situation" (Ulwick, 2020). Unlike traditional product-focused or customer attribute-based thinking, jobs are solution-agnostic; they represent the progress or outcome a customer seeks, independent of any particular product or service.
-
-Every job contains multiple dimensions. As Christensen observes, "with few exceptions, every job people need or want to do has a functional, a social, and an emotional dimension" (HBS Working Knowledge, 2006). 
-- The **functional dimension** represents the practical task to accomplish. 
-- The **emotional dimension** involves how customers want to feel while getting the job done. 
-- The **social dimension** relates to how customers want to be perceived by others when using the solution. 
-
-JTBD transcends demographics by making the job, not the customer segment, the primary unit of analysis. This perspective reveals why products are "hired" across traditional demographic boundaries. As Ulwick explains, "markets should be seen as groups of people trying to get a job done" (Ulwick, 2020). This explains why people from vastly different demographics might hire the same product for the same job, while individuals within a single demographic group might have entirely different jobs they need done (AWA Digital, 2023).
-
-The framework also reframes customer "needs" as criteria for successfully accomplishing the job. In JTBD, needs are not vague desires but can be described as measurable "desired outcomes" of the job (e.g., "minimize the time to accomplish X," "increase the likelihood of Y outcome") (Ulwick, 2020). These outcome statements remain remarkably stable over time if the job itself is stable, providing companies with consistent targets for innovation even as technologies evolve.
 
 **References:**
 
