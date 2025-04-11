@@ -118,7 +118,7 @@ Type: Food/Drink
 
 **Prompt (ChatGPT 4.5 + Deep Research):** 
 
-Hi, can we please conduct deep research into coffee in the context of the JTBD framework? 
+Hi, can we please conduct deep research into coffee (the drink) in the context of the JTBD framework? 
 
 - What are customers needs and how does this drive product adoption? 
 	- Functional Goals: What exact task is the product designed to address?  
@@ -129,10 +129,11 @@ Hi, can we please conduct deep research into coffee in the context of the JTBD f
 	- Motivation clearly defined ("I want to ....")  
 	- Expected Outcome clearly articulated ("So I can ....")
 - What similar products exist to fulfil these goals (coffee pills, etc)?
-	- what is their market position relative to coffee?
-- what features exist in each of these products?
-	- how well do they meet customer needs?
-	- what limitations do they have? 
+	- What is their market position relative to coffee?
+	- What features exist in each of these products?
+	- How well do they meet customer needs?
+	- What limitations do they have? 
+	- Make sure to include coffee (the drink) itself in this analysis
 
 **Answer:** [[Research Task 2]]
 
