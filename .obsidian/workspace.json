@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Research Task 2"
+              "title": "Planning"
             }
           },
           {
@@ -216,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Research Task 2"
+              "title": "Outline of Planning"
             }
           },
           {
@@ -277,8 +277,8 @@
   },
   "active": "23fddda4e1874a4f",
   "lastOpenFiles": [
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",

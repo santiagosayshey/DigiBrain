@@ -118,17 +118,16 @@ Type: Food/Drink
 
 **Prompt (ChatGPT 4.5 + Deep Research):** 
 
-Hi, can we please conduct deep research into coffee products in the context of the JTBD framework? 
-• Structure clearly using JTBD Story Canvas (Situation, Motivation, Outcome)  
-• Functional Goals: What exact task is the product designed to address?  
-• Emotional Goals: What feelings or experiences does the product create?  
-• Social Goals: How does the product affect others' perceptions of users?  
-• Identify key product features explicitly targeting these goals  
-• Briefly examine market positioning and similar competing products  
-• Discuss product limitations or criticisms regarding job fulfilment  
-• Situation clearly stated ("When ....")  
-• Motivation clearly defined ("I want to ....")  
-• Expected Outcome clearly articulated ("So I can ....")
+Hi, can we please conduct deep research into coffee in the context of the JTBD framework? 
+
+- Understanding how customer needs and desires drive product adoption through:
+	- Functional Goals: What exact task is the product designed to address?  
+	- Emotional Goals: What feelings or experiences does the product create?  
+	- Social Goals: How does the product affect others' perceptions of users?
+- Written in the form: 
+	- Situation clearly stated ("When ....")  
+	- Motivation clearly defined ("I want to ....")  
+	- Expected Outcome clearly articulated ("So I can ....")
 
 **Answer:** [[Research Task 2]]
 
