@@ -58,8 +58,27 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 | Final Notes on Flow                                     | Start by challenging conventional segmentation and setting up why we need a new framework; Move into where JTBD came from historically, but only in service to clarifying its modern relevance; Outline the fundamentals of the framework, showing how it redefines needs and solves real problems; Provide examples to ground the theory in reality; Connect it all to product innovation, strategy, and future directions—highlighting the framework’s practical power; Close with key takeaways and stress the importance of citations and deeper research. This structure avoids the rigid bullet-by-bullet sequence from either the spec or the research. Instead, it blends all must-cover topics into a naturally flowing narrative, from the problem (misguided segmentation) → solution (JTBD) → proof (examples) → broader strategic application → final wrap-up.                                                                                                                                                                                                                                                         |
 ## Task 1.3: Initial Draft
 
-Despite collecting vast amounts of customer data, companies often struggle with innovation success. The culprit? An over-reliance on demographic and psychographic segmentation that reveals *who* buys products but fails to uncover *why* purchases occur. As Christensen observed, firms "know more about their customers than ever, yet innovation success remains hit-or-miss" because they focus on correlations in data instead of the causal mechanism behind purchases (Christensen et al., 2016).
+Despite collecting vast amounts of customer data, companies often struggle with innovation success. The culprit? An over-reliance on demographic research that reveals *who* buys products but fails to uncover *why* purchases occur. Clayton Christensen, renowned innovation expert and author of "Competing Against Luck," observed that firms "know more about their customers than ever, yet innovation success remains hit-or-miss" because they focus on correlations in data instead of the causal mechanism behind purchases (Christensen et al., 2016).
 
 The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?" This perspective recognizes that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (HBS Online, 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al., 2016).
 
-This motivational shift illuminates the causal factors behind purchasing decisions, providing organizations with deeper customer insights that demographic profiles alone cannot deliver.
+The roots of Jobs to Be Done thinking trace back decades in marketing theory. Harvard professor Theodore Levitt famously observed: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted marketers' focus from product attributes to customer outcomes; the job that customers needed done.
+
+This concept was later formalised by two key pioneers. Tony Ulwick developed Outcome-Driven Innovation (ODI) and applied a jobs-focused approach as early as 1991-1993 at Cordis Corporation, helping the company dramatically improve its product success. Cordis grew its angioplasty balloon market share from 1% to over 20% by targeting undeserved jobs (Ulwick, 2020). Ulwick introduced JTBD concepts in his 2002 Harvard Business Review article "Turn Customer Input into Innovation," followed by "What Customers Want" (2005), noted as the first book on JTBD theory (Ulwick, 2020).
+
+Simultaneously, Clayton Christensen was developing Jobs Theory. Christensen's influential HBR piece "Marketing Malpractice" (2005) argued that marketers had been "losing the forest for the trees" by focusing on demographic segments instead of fundamental customer jobs (HBS Working Knowledge, 2006). He later popularized JTBD through "Competing Against Luck" (2016), which formally presented Jobs Theory as a framework for predictable innovation (Strategy+Business, 2016).
+
+
+**References:**
+
+Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/
+
+Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" – Gavin, M. https://online.hbs.edu/blog/post/jobs-to-be-done-examples
+
+Strategyn (n.d.). "Jobs-to-be-Done: The Theory & Methodology." https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/
+
+Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb
+
+HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products
+
+Strategy+Business (2016). "The 'Jobs to Be Done' Theory of Innovation" – Kinni, T. https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation
