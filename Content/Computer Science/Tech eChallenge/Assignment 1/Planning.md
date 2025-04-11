@@ -118,19 +118,7 @@ Type: Food/Drink
 
 **Prompt (ChatGPT 4.5 + Deep Research):** 
 
-Hi, can we please conduct deep research into coffee products in the context of the JTBD framework?  We need need to research: 
-• Clear outline of the job(s) the products have been created for  
-• Identifying customer characteristics  
-• Mapping design features to the job
-
-Part 2: Applying JTBD to a real-world example. For this section, you will apply the JTBD framework to a real-world product example. You must select one of the provided examples: image.png image.png image.png image.png. Once you have chosen your example, analyse the product by identifying the job it was designed to fulfil. Consider the following aspects:  
-• Functional Goals: What specific task is the product helping the customer complete?  
-• Emotional Goals: How does using this product make the customer feel?  
-• Social Goals: How does the product influence how others perceive the customer?
-
-To structure your analysis, use Figure 1: JTBD Story Canvas. This framework will help you break down the situation (When ____), the motivation (I want to ____), and the expected outcome (So I can ____). Your analysis should demonstrate an understanding of how customer needs and desires drive product adoption. Support your analysis with external research, referencing similar products and their market positioning. Consider what features were designed to meet specific customer goals and discuss any limitations in the product’s ability to fulfil its intended job.
-
-So you essentially need to research:  
+Hi, can we please conduct deep research into coffee products in the context of the JTBD framework? 
 • Structure clearly using JTBD Story Canvas (Situation, Motivation, Outcome)  
 • Functional Goals: What exact task is the product designed to address?  
 • Emotional Goals: What feelings or experiences does the product create?  
@@ -142,4 +130,8 @@ So you essentially need to research:
 • Motivation clearly defined ("I want to ....")  
 • Expected Outcome clearly articulated ("So I can ....")
 
-No words cut, no format broken. Let me know if you want this as a .doc or anything else.
+**Answer:** [[Research Task 2]]
+
+## Task 2.3: JTBD Story Canvas + Outline
+
+
