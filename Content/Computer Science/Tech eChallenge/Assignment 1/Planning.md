@@ -68,4 +68,6 @@ Jobs to be Done (JTBD) is a knowledge framework that aims to understand the unde
 
 **References:**
 - https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/#:~:text=Firms%20have%20never%20known%20more,is%20trying%20to%20get%20done
-- 
+- https://online.hbs.edu/blog/post/jobs-to-be-done-examples#:~:text=This%20idea%20is%20the%20crux,%E2%80%9D
+- https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=Christensen%20and%20his%20coauthors%20think,will%20yield%20a%20winning%20ticket
+
