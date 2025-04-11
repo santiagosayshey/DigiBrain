@@ -69,3 +69,30 @@ Be specific in your design rationale. For example, if you are developing a fitne
 
 Answer:
 
+Here's a clear, practically focused outline structured into actionable steps with relevant questions you'll use to guide ChatGPT's deep research. Use this table to mark completion:
+
+|Task|Actionable Steps|Research Questions / Points to Cover|
+|---|---|---|
+|**1. Understanding JTBD Framework**|**Step 1: Research & Notes**- Conduct focused ChatGPT deep research session.|- What is the JTBD framework?- Origin and foundational texts (key authors and seminal works).- Core concepts (job, hiring products, functional/emotional/social goals).- How JTBD differs from demographic segmentation.- Real-world examples from academic literature and credible industry cases.- How JTBD helps identify customer motivations and business innovation opportunities.- Role of JTBD in shaping business strategy and influencing emerging technologies.- Limitations and critiques (briefly).|
+||**Step 2: Outline Preparation**- Use research answers to create structured outline.|- Definition and context.- Brief history/origins.- Comparison with traditional segmentation.- JTBD’s significance for consumer insights and innovation.- Examples from literature or cases.- Impact on strategy and future implications.|
+||**Step 3: Writing Part 1**- Write section using structured outline and research notes.|- Write clearly, referencing researched sources directly.|
+|**2. Applying JTBD to Real-World Example**|**Step 1: Product Selection & Initial Research**- Choose product example provided by assignment.|- Clearly define chosen product (name, type, brief context).|
+||**Step 2: Deep Research & Analysis**- Conduct JTBD analysis using ChatGPT.|- JTBD Story Canvas structure (Situation, Motivation, Outcome).- Functional goals: What exact task does product address?- Emotional goals: Customer feelings/experiences associated with product use.- Social goals: Influence on customer perception by others.- What features explicitly target these goals?- Market positioning and competition analysis (brief).- Product limitations or criticisms in fulfilling JTBD.|
+||**Step 3: Organise Analysis Using JTBD Story Canvas**|- Situation clearly stated ("When…").- Motivation defined clearly ("I want to…").- Expected Outcome clearly stated ("So I can…").|
+||**Step 4: Writing Part 2**- Write using canvas structure and research notes.|- Explicitly connect features/design to identified JTBD aspects.|
+|**3. Using JTBD to Develop Own Product**_(to tackle later)_|**Step 1: Product Conceptualisation**|_(To be addressed later, no immediate research required.)_|
+||**Step 2: Job Statement Canvas**|_(To be addressed later, no immediate research required.)_|
+||**Step 3: Writing Part 3**|_(To be addressed later, no immediate research required.)_|
+
+- **Actionable Next Steps (Immediate)**:
+    
+    - Initiate focused deep research session with ChatGPT to gather answers to Part 1 and 2 research questions above.
+        
+    - Produce an outline using gathered research for Part 1.
+        
+    - Start writing Part 1 based on clear, structured notes and outlines.
+        
+    - Select and analyse your chosen real-world product for Part 2 clearly using JTBD Story Canvas structure provided.
+        
+
+Use this straightforward checklist to keep track of your progress clearly.
