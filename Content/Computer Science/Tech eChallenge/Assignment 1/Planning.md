@@ -79,6 +79,18 @@ Simultaneously, Clayton Christensen, Bob Moesta and Taddy Hall, were developing 
 
 While both schools share the core premise that understanding customer jobs brings predictability to innovation, they differ in methodology. Ulwick's ODI approach emphasizes identifying and quantifying desired outcomes, while Christensen and Moesta's method focuses on in-depth customer interviews to uncover job "stories." Together, these complementary approaches have revolutionized how businesses think about innovation and customer needs.
 
+**JTBD's Impact on Innovation and Market Strategy:**
+
+Traditional market research often leads companies astray by focusing on correlations rather than causes. Demographic segmentation might tell you who buys your product, but JTBD reveals why they buy it - and more importantly, what might make them "fire" it for a better solution. This shift from correlation to causation fundamentally changes how businesses innovate and compete.
+
+Consider how JTBD transforms market definition itself. Rather than competing in "product categories," companies serve "jobs markets" - groups of people trying to accomplish similar goals. This reframing often reveals unexpected competitors and opportunities. A drill manufacturer isn't just competing with other drill makers, but with any solution that helps people make holes - from laser cutters to handyman services. Similarly, when Intuit developed QuickBooks, they weren't competing against other accounting software, but against any solution that helped small businesses "get their books done," including manual spreadsheets and accountants.
+
+This perspective brings predictability to innovation by anchoring it in stable customer jobs rather than shifting technologies or trends. When SNHU (Southern New Hampshire University) examined why working adults struggled with traditional higher education, they discovered a job that hadn't changed: "advance my career while maintaining my current life commitments." By designing around this job - offering flexible online programs, credit for work experience, and proactive coaching - SNHU grew dramatically while many traditional universities stagnated.
+
+The most powerful aspect of JTBD might be how it reveals opportunity in non-consumption - areas where customers cope with inadequate solutions because nothing properly serves their job. Before QuickBooks, many small businesses were non-consumers of accounting software, cobbling together makeshift solutions because existing products were too complex. By focusing on the true job ("just get my books done" rather than "do advanced accounting"), Intuit tapped this vast underserved market.
+
+As emerging technologies create new ways to accomplish traditional jobs, JTBD becomes even more valuable. Whether evaluating AI assistants, autonomous vehicles, or augmented reality tools, success will depend not on technical sophistication but on how well these innovations help customers progress in their jobs. Companies that understand these fundamental jobs - which remain more stable than any particular solution - can innovate more systematically in rapidly changing markets.
+
 
 **References:**
 - https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/#:~:text=Firms%20have%20never%20known%20more,is%20trying%20to%20get%20done
