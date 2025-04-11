@@ -62,46 +62,9 @@ Despite collecting vast amounts of customer data, companies often struggle with 
 
 The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?" This perspective recognises that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (HBS Online, 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al., 2016).
 
-The roots of Jobs to Be Done thinking trace back decades in marketing theory. Harvard professor Theodore Levitt famously observed: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted marketers' focus from product attributes to customer outcomes; the job that customers needed done.
-
-This concept was later formalised by two key pioneers. Tony Ulwick developed Outcome-Driven Innovation (ODI) and applied a jobs-focused approach as early as 1991-1993 at Cordis Corporation, helping the company dramatically improve its product success. Cordis grew its angioplasty balloon market share from 1% to over 20% by targeting undeserved jobs (Ulwick, 2020). Ulwick introduced JTBD concepts in his 2002 Harvard Business Review article "Turn Customer Input into Innovation," followed by "What Customers Want" (2005), noted as the first book on JTBD theory (Ulwick, 2020).
-
-Simultaneously, Clayton Christensen was developing Jobs Theory. Christensen's influential HBR piece "Marketing Malpractice" (2005) argued that marketers had been "losing the forest for the trees" by focusing on demographic segments instead of fundamental customer jobs (HBS Working Knowledge, 2006). He later popularized JTBD through "Competing Against Luck" (2016), which formally presented Jobs Theory as a framework for predictable innovation (Strategy+Business, 2016).
-
-In Jobs to Be Done theory, a "job" represents the fundamental progress or outcome a customer seeks in a specific context, independent of any product solution. As Ulwick defines it, a Job-to-be-Done is "a statement that describes, with precision, what a group of people are trying to achieve or accomplish in a given situation" (Ulwick, 2020). This solution-agnostic perspective forms the primary unit of analysis for understanding customer behavior.
-
-Christensen identifies three essential dimensions in every job that customers need done (HBS Working Knowledge, 2006). A comprehensive understanding of these dimensions provides a complete view of customer motivation:
-
-- **Functional Dimension:** Addresses the practical tasks and objectives customers need to accomplish; the core problem they're trying to solve or outcome they want to achieve.
-- **Emotional Dimension:** Encompasses how customers want to feel (or avoid feeling) when getting the job done; confidence, security, satisfaction, or avoiding frustration, anxiety, and embarrassment.
-- **Social Dimension:** Relates to how customers want to be perceived by others when using a solution;  considerations of status, identity, belonging, and social acceptance in relevant contexts.
-
-This framework transcends traditional demographic segmentation by recognizing that people from vastly different demographic profiles often hire products for identical jobs. The key insight is that a 24-year-old and a 60-year-old might hire the same solution to accomplish the same job, despite their demographic differences.
-
-JTBD also reframes customer "needs" as specific criteria for job success. These aren't vague desires but measurable outcomes that directly shape product requirements—like speed, convenience, or emotional reassurance (Strategyn, n.d.). This precision allows companies to design solutions that truly satisfy the job's requirements rather than chasing demographic assumptions.
 
 **References:**
 
-Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/
+Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
 
-Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" – Gavin, M. https://online.hbs.edu/blog/post/jobs-to-be-done-examples
-
-Strategyn (n.d.). "Jobs-to-be-Done: The Theory & Methodology." https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/
-
-Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb
-
-HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products
-
-Strategy+Business (2016). "The 'Jobs to Be Done' Theory of Innovation" – Kinni, T. https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation
-
-Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb
-
-HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products
-
-AWA Digital (2023). "Introduction to Jobs To Be Done." (Blog) https://www.awa-digital.com/blog/jobs-to-be-done/
-
-HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products
-
-Strategyn (n.d.). "Jobs-to-be-Done: The Theory & Methodology." https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/
-
-Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb
+Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" – Gavin, M. [https://online.hbs.edu/blog/post/jobs-to-be-done-examples](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)
