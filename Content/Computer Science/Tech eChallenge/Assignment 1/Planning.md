@@ -74,6 +74,10 @@ Understanding these three dimensions allows companies to see beyond surface-leve
 
 For example, a 24-year-old urban professional with limited cooking skills and a 60-year-old suburban retiree with mobility challenges might both hire the same meal delivery service. Despite their demographic differences, they share the job of "having a convenient, high-quality meal without the burden of shopping, preparation, and cleanup." Demographic profiles fail to predict this purchasing behaviour because the causal mechanism is the job itself, not customer attributes.
 
+This principle has proven powerful when applied in business settings. Christensen's famous "milkshake morning" case study illustrates how identifying the true job transforms product development. A fast-food chain discovered that many customers purchased milkshakes early in the morning, consuming them alone during their commutes. These customers weren't hiring the milkshake for taste or nutrition, but to make a long, boring drive more bearable while staying full until lunch. The thick, viscous texture allowed it to last throughout the commute and was easier to consume while driving than alternatives like bagels (too crumbly) or bananas (consumed too quickly). Once the company understood this job, they focused on making shakes thicker and speeding up the purchase process—improvements that directly addressed the job requirements rather than demographic preferences (HBS Working Knowledge, 2006).
+
+Similarly, Intuit's QuickBooks emerged from recognizing that small-business owners didn't want to become accountants; they simply wanted their "books done" with minimal effort. This insight led Intuit to develop a product with deliberately less functionality than competitors but in a simpler package that better accomplished the core job. QuickBooks quickly captured the majority of its market because it addressed what customers truly needed rather than offering feature parity with competitors (Strategy+Business, 2016).
+
 **References:**
 
 Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
@@ -86,3 +90,4 @@ Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. [https://jo
 
 HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. [https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products](https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products)
 
+Strategy+Business (2016). "The 'Jobs to Be Done' Theory of Innovation" – Kinni, T. [https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation)
