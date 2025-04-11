@@ -137,6 +137,13 @@ Hi, can we please conduct deep research into coffee (the drink) in the context o
 
 **Answer:** [[Research Task 2]]
 
-## Task 2.3: JTBD Story Canvas + Outline
+## Task 2.3: Structured Outline
 
-
+|**Section**|**Content**|
+|---|---|
+|**I. Introduction & Product Selection**|**Identify the Chosen Product**: Briefly introduce which example you picked and why. Mention its market category, target users, and relevance.<br><br>**Context for JTBD**: Provide a concise rationale for applying the JTBD lens to this product.|
+|**II. Defining the "Job to Be Done"**|**Situation → Motivation → Outcome**: Use the JTBD Story Canvas ("When... I want to... So I can...") to define the job. Highlight the typical use scenario and user objectives.<br><br>**Link to Core Customer Need**: Emphasize the central pain point or opportunity the product addresses, distinguishing it from purely demographic considerations.|
+|**III. Goals: Functional, Emotional, Social**|**Functional Goals**: Outline the tasks or practical objectives the product fulfills (e.g., convenience, speed, performance).<br><br>**Emotional Goals**: Describe how it makes customers feel—comfort, excitement, relief, etc.<br><br>**Social Goals**: Show how it influences the user's image or social standing (e.g., status, belonging).|
+|**IV. Product Features & Limitations**|**Key Features Meeting Each Goal**: Detail specific design elements, service attributes, or branding aspects that help achieve the functional, emotional, and social outcomes identified.<br><br>**Identified Gaps or Shortcomings**: Mention any constraints or negative feedback from users (e.g., complexity, cost, missing functionality), and how these limit the product's ability to fully deliver on the job.|
+|**V. External Research & Market Comparison**|**Relevant Studies or Industry Examples**: Cite credible sources or data that affirm how consumers view or adopt such a product; compare it briefly with alternatives (if applicable).<br><br>**Market Position**: Summarize how this product competes—its strengths and weaknesses—versus similar offerings aimed at the same job.|
+|**VI. Conclusion & Strategic Insights**|**Overall JTBD Insights**: Recap how well the product addresses users' underlying needs and where there's room to improve.<br><br>**Reflections on Customer Adoption**: Tie back to the big question of "why" people hire this product, and note any strategic or design implications for future iterations.|
