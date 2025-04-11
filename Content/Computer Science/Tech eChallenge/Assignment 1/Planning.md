@@ -58,16 +58,14 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 ## Task 1.3: Initial Draft
 
 **Definition and Context:** 
-Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers aim to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases in the first place - what job do they need done? (Christensen et al., 2016). The framework provides a methodology for uncovering the actual circumstances that drive customer decisions, which can be understood through three key dimensions that influence their choices:
+Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers want to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases in the first place - what job do they need done? The framework provides a methodology for uncovering the actual circumstances that drive customer decisions, which can be understood through three key dimensions that influence their choices:
 
 1. **Functional:** The practical aspects of what customers are trying to accomplish. This includes the objective tasks, problems to be solved, or improvements to existing solutions. 
 2. **Emotional:** The feelings and sentiments customers want to experience or avoid. Products often serve to make customers feel a certain way - confident, secure, accomplished, or relieved from anxiety.
 3. **Social:** How customers want to be perceived by others when using the product or service. This includes how the product affects one's social status, reinforces group membership, expresses personal identity, and shapes how others perceive the user.
 
-This multi-dimensional view provides a comprehensive understanding of customer motivations beyond mere functionality.
-
 **Brief History and Origins:**
 
 **References:**
-- Christensen, C. M., Hall, T., Dillon, K., & Duncan, D. (2016). _Competing Against Luck: The Story of Innovation and Customer Choice_. HarperBusiness. ([The “Jobs to Be Done” Theory of Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=Christensen%20and%20his%20coauthors%20think,will%20yield%20a%20winning%20ticket)) ([The “Jobs to Be Done” Theory of Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=SNHU%20is%20only%20one%20of,There%E2%80%99s%20GM%E2%80%99s%20OnStar))
-- Ulwick, A. W. (2002). _Turn Customer Input into Innovation_. **Harvard Business Review**, 80(1), 91–97. ([What Is Jobs-to-be-Done?. Is Jobs-to-be-Done a theory? A lens? A… | by Tony Ulwick | JTBD + Outcome-Driven Innovation](https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb#:~:text=The%20first%20documented%20success%20achieved,percent%20to%20over%2020%20percent)) ([Jobs-to-be-Done Examples and Applications](https://strategyn.com/jobs-to-be-done/jobs-to-be-done-examples/#:~:text=Cordis%20Corporation%20gives%20us%20a,to%20over%2020))
+- https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/#:~:text=Firms%20have%20never%20known%20more,is%20trying%20to%20get%20done
+- 
