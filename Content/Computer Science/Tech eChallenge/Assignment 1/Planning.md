@@ -101,3 +101,9 @@ Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. [https://jo
 HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. [https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products](https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products)
 
 Strategy+Business (2016). "The 'Jobs to Be Done' Theory of Innovation" – Kinni, T. [https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation)
+
+## Task 2.1: Product Selection
+
+Name: Coffee
+Type: Food/Drink
+Brief Context: 
