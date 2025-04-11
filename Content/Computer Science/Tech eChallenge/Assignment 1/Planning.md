@@ -139,20 +139,46 @@ Hi, can we please conduct deep research into coffee (the drink) in the context o
 
 ## Task 2.3: Structured Outline
 
-| **Section**                                   | **Content**                                                                                                                                                                                                                                                                                                                                                                                                           |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **I. Introduction & Product Selection**       | **Identify the Chosen Product**: Briefly introduce which example you picked and why. Mention its market category, target users, and relevance.<br><br>**Context for JTBD**: Provide a concise rationale for applying the JTBD lens to this product.                                                                                                                                                                   |
-| **II. Defining the "Job to Be Done"**         | **Situation → Motivation → Outcome**: Use the JTBD Story Canvas ("When... I want to... So I can...") to define the job. Highlight the typical use scenario and user objectives.<br><br>**Link to Core Customer Need**: Emphasize the central pain point or opportunity the product addresses, distinguishing it from purely demographic considerations.                                                               |
-| **III. Goals: Functional, Emotional, Social** | **Functional Goals**: Outline the tasks or practical objectives the product fulfills (e.g., convenience, speed, performance).<br><br>**Emotional Goals**: Describe how it makes customers feel—comfort, excitement, relief, etc.<br><br>**Social Goals**: Show how it influences the user's image or social standing (e.g., status, belonging).                                                                       |
-| **IV. Product Features & Limitations**        | **Key Features Meeting Each Goal**: Detail specific design elements, service attributes, or branding aspects that help achieve the functional, emotional, and social outcomes identified.<br><br>**Identified Gaps or Shortcomings**: Mention any constraints or negative feedback from users (e.g., complexity, cost, missing functionality), and how these limit the product's ability to fully deliver on the job. |
-| **V. External Research & Market Comparison**  | **Relevant Studies or Industry Examples**: Cite credible sources or data that affirm how consumers view or adopt such a product; compare it briefly with alternatives (if applicable).<br><br>**Market Position**: Summarize how this product competes—its strengths and weaknesses—versus similar offerings aimed at the same job.                                                                                   |
-| **VI. Conclusion & Strategic Insights**       | **Overall JTBD Insights**: Recap how well the product addresses users' underlying needs and where there's room to improve.<br><br>**Reflections on Customer Adoption**: Tie back to the big question of "why" people hire this product, and note any strategic or design implications for future iterations.                                                                                                          |
+| **Section**                                  | **Content**                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **I. Introduction & Product Selection**      | **Identify the Chosen Product**: Briefly introduce which example you picked and why. Mention its market category, target users, and relevance.<br><br>**Context for JTBD**: Provide a concise rationale for applying the JTBD lens to this product.                                                                                                                                                                   |
+| **II. Goals: Functional, Emotional, Social** | **Functional Goals**: Outline the tasks or practical objectives the product fulfills (e.g., convenience, speed, performance).<br><br>**Emotional Goals**: Describe how it makes customers feel—comfort, excitement, relief, etc.<br><br>**Social Goals**: Show how it influences the user's image or social standing (e.g., status, belonging).                                                                       |
+| **III. Defining the "Job to Be Done"**       | **Situation → Motivation → Outcome**: Use the JTBD Story Canvas ("When... I want to... So I can...") to define the job. Highlight the typical use scenario and user objectives.<br><br>**Link to Core Customer Need**: Emphasize the central pain point or opportunity the product addresses, distinguishing it from purely demographic considerations.                                                               |
+| **IV. Product Features & Limitations**       | **Key Features Meeting Each Goal**: Detail specific design elements, service attributes, or branding aspects that help achieve the functional, emotional, and social outcomes identified.<br><br>**Identified Gaps or Shortcomings**: Mention any constraints or negative feedback from users (e.g., complexity, cost, missing functionality), and how these limit the product's ability to fully deliver on the job. |
+| **V. External Research & Market Comparison** | **Relevant Studies or Industry Examples**: Cite credible sources or data that affirm how consumers view or adopt such a product; compare it briefly with alternatives (if applicable).<br><br>**Market Position**: Summarize how this product competes—its strengths and weaknesses—versus similar offerings aimed at the same job.                                                                                   |
+| **VI. Conclusion & Strategic Insights**      | **Overall JTBD Insights**: Recap how well the product addresses users' underlying needs and where there's room to improve.<br><br>**Reflections on Customer Adoption**: Tie back to the big question of "why" people hire this product, and note any strategic or design implications for future iterations.                                                                                                          |
 ## Task 2.4: Initial Draft
 
 **Introduction** 
 Coffee stands as one of the world's most widely consumed beverages, with a global market valued at approximately $100 billion in 2024 (Coffee Market Size, 2024). This caffeinated drink serves diverse consumer segments from students and professionals to parents and athletes across varied cultural contexts. Coffee's universal appeal makes it an ideal candidate for Jobs-to-Be-Done analysis, which reveals why consumers "hire" coffee. By understanding the functional tasks coffee helps accomplish, emotional experiences it provides, and social roles it plays, we gain insight into its popularity despite numerous alternatives entering the market (Caffeine Use and Attentional Engagement, 2024).
 
+**Functional, Emotional, Social Goals:**
+
+Coffee fulfils multiple goals that explain its widespread popularity across different contexts.
+
+| **Goal Type** | **Key Examples** |
+|---------------|-----------------|
+| **Functional Goals** | • Increasing alertness and focus during work or study<br>• Boosting physical energy to combat fatigue<br>• Enhancing concentration for extended periods<br>• Managing caffeine withdrawal symptoms<br>• Improving athletic performance during workouts |
+| **Emotional Goals** | • Creating comfort through warmth and familiar aroma<br>• Establishing a calming ritual and sense of normalcy<br>• Offering a mood enhancement and mental uplift<br>• Providing sensory pleasure through taste<br>• Creating moments of indulgence and self-care |
+| **Social Goals** | • Catalyzing conversations in social settings<br>• Demonstrating hospitality when hosting guests<br>• Participating in cultural traditions and rituals<br>• Signaling professional identity or status<br>• Creating shared experiences that foster belonging |
+
 ## References
+
+Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
+
+Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages. (2018). PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6096549/
+
+A World of Coffee: Brewing Traditions Across Cultures. (2022). The Mocha Monkey. https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures
+
+## References
+
+Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
+
+Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages. (2018). PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6096549/
+
+A World of Coffee: Brewing Traditions Across Cultures. (2022). The Mocha Monkey. https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures
+
+**References:**
 
 Coffee Market Size, Growth, Trends & Demand by 2033. (2024). Straits Research. https://straitsresearch.com/report/coffee-market
 
