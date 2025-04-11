@@ -67,3 +67,7 @@ Jobs to be Done (JTBD) is a knowledge framework that aims to understand the unde
 This multi-dimensional view provides a comprehensive understanding of customer motivations beyond mere functionality.
 
 **Brief History and Origins:**
+
+**References:**
+- Christensen, C. M., Hall, T., Dillon, K., & Duncan, D. (2016). _Competing Against Luck: The Story of Innovation and Customer Choice_. HarperBusiness. ([The “Jobs to Be Done” Theory of Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=Christensen%20and%20his%20coauthors%20think,will%20yield%20a%20winning%20ticket)) ([The “Jobs to Be Done” Theory of Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=SNHU%20is%20only%20one%20of,There%E2%80%99s%20GM%E2%80%99s%20OnStar))
+- Ulwick, A. W. (2002). _Turn Customer Input into Innovation_. **Harvard Business Review**, 80(1), 91–97. ([What Is Jobs-to-be-Done?. Is Jobs-to-be-Done a theory? A lens? A… | by Tony Ulwick | JTBD + Outcome-Driven Innovation](https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb#:~:text=The%20first%20documented%20success%20achieved,percent%20to%20over%2020%20percent)) ([Jobs-to-be-Done Examples and Applications](https://strategyn.com/jobs-to-be-done/jobs-to-be-done-examples/#:~:text=Cordis%20Corporation%20gives%20us%20a,to%20over%2020))
