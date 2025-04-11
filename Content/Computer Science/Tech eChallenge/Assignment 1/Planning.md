@@ -58,4 +58,7 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 ## Task 1.3: Initial Draft
 
 **Definition and Context:**
-Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers aim to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases - what job do they need done? 
+Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers aim to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases in the first place - what job do they need done? The framework's core premise that customers will 'hire' products to perform specific jobs, and will subsequently 'fire' them if they perform poorly (Christensen et al., 2016). To achieve this, JTBD considers 3 dimensions of every job:
+1. Functional
+2. Emotional
+3. 
