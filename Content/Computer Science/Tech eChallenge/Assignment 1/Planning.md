@@ -62,7 +62,7 @@ Jobs to be Done (JTBD) is a knowledge framework that aims to understand the unde
 
 In JTBD, a "job" is precisely defined as the fundamental problem, task, or goal that a customer seeks to accomplish in a given circumstance. It is solution-agnostic, meaning it does not depend on any particular product or service. People will pursue these jobs using whatever solution is available or convenient, including products, services, or even DIY solutions.
 
-The JTBD framework uses a metaphor of customers "hiring" products or services to perform specific jobs. When a customer faces a job to be done, they "hire" a product much like hiring an employee. If the product effectively fulfills the job, it continues to be "hired"; if not, it gets "fired" in favor of another solution.
+The JTBD framework uses a metaphor of customers "hiring" products or services to perform specific jobs. When a customer faces a job to be done, they "hire" a product much like hiring an employee. If the product effectively fulfils the job, it continues to be "hired"; if not, it gets "fired" in favor of another solution.
 
 The framework provides a methodology for uncovering the actual circumstances driving customer decisions, which can be understood through three key dimensions:
 
@@ -71,6 +71,14 @@ The framework provides a methodology for uncovering the actual circumstances dri
 3. **Social:** How customers want to be perceived by others when using the product or service. This includes effects on social status, reinforcement of group membership, personal identity expression, and shaping how others perceive the user.
 
 **Brief History and Origins:**
+"People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" This simple observation by Harvard professor Theodore Levitt captures the fundamental insight that would eventually evolve into the Jobs To Be Done (JTBD) framework. The statement eloquently illustrates that customers aren't inherently interested in products themselves, but rather in what those products help them accomplish. A drill is merely a means to an end – the real desire is to create a hole, perhaps to hang a picture or install a shelf.
+
+The modern JTBD theory developed along two parallel paths in the 1990s and early 2000s. Tony Ulwick pioneered the Outcome-Driven Innovation (ODI) approach while working at Cordis Corporation from 1991-1993. His methodology helped the company dramatically increase its market share in angioplasty balloons from 1% to over 20% by focusing on addressing unmet needs of cardiologists. Ulwick formalized these ideas in his seminal 2002 Harvard Business Review article "Turn Customer Input into Innovation" and his 2005 book "What Customers Want."
+
+Simultaneously, Clayton Christensen and his collaborators, including Bob Moesta and Taddy Hall, were developing their own Jobs Theory framework. Christensen's influential 2005 article "Marketing Malpractice: The Cause and the Cure" argued that companies should focus on understanding the fundamental job customers need done rather than demographic segments. This approach was further developed in the 2016 book "Competing Against Luck," which presented a comprehensive theory of customer choice centred around jobs to be done.
+
+While both schools share the core premise that understanding customer jobs brings predictability to innovation, they differ in methodology. Ulwick's ODI approach emphasizes identifying and quantifying desired outcomes, while Christensen and Moesta's method focuses on in-depth customer interviews to uncover job "stories." Together, these complementary approaches have revolutionized how businesses think about innovation and customer needs.
+
 
 **References:**
 - https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/#:~:text=Firms%20have%20never%20known%20more,is%20trying%20to%20get%20done
