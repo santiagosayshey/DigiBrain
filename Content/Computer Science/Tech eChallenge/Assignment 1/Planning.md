@@ -106,4 +106,9 @@ Strategy+Business (2016). "The 'Jobs to Be Done' Theory of Innovation" – Kinni
 
 Name: Coffee
 Type: Food/Drink
-Brief Context: 
+
+|Dimension|Context for Coffee|
+|---|---|
+|**Functional**|Provides caffeine to increase alertness, improve focus, reduce tiredness, and satisfy thirst.|
+|**Emotional**|Creates feelings of comfort, pleasure, satisfaction, relaxation, or reduces feelings of stress and irritability.|
+|**Social**|Signals social identity, status, or competence (e.g., being perceived as sophisticated, productive, or connected).|
