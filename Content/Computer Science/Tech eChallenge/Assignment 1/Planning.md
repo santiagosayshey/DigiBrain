@@ -62,9 +62,14 @@ Despite collecting vast amounts of customer data, companies often struggle with 
 
 The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?" This perspective recognises that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (HBS Online, 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al., 2016).
 
+The JTBD framework can be traced back to Harvard professor Theodore Levitt's famous observation: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted focus from products to outcomes, laying groundwork for future innovation thinking. Two pioneers formalised this concept into today's framework: Tony Ulwick, who applied jobs-focused approaches at Cordis Corporation in the early 1990s and published the first JTBD book "What Customers Want" (2005); and Clayton Christensen, whose "Marketing Malpractice" (2005) article and subsequent book "Competing Against Luck" (2016) established Jobs Theory as a cornerstone of innovation thinking (Ulwick, 2020). Their work transformed a simple insight into a powerful framework that consistently uncovers why customers make purchase decisions.
 
 **References:**
 
 Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
 
 Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" – Gavin, M. [https://online.hbs.edu/blog/post/jobs-to-be-done-examples](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)
+
+Strategyn (n.d.). "Jobs-to-be-Done: The Theory & Methodology." [https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/](https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/)
+
+Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. [https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb](https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb)
