@@ -120,7 +120,7 @@ Type: Food/Drink
 
 Hi, can we please conduct deep research into coffee in the context of the JTBD framework? 
 
-- Understanding how customer needs and desires drive product adoption through:
+- What are customers needs and how does this drive product adoption? 
 	- Functional Goals: What exact task is the product designed to address?  
 	- Emotional Goals: What feelings or experiences does the product create?  
 	- Social Goals: How does the product affect others' perceptions of users?
@@ -128,6 +128,11 @@ Hi, can we please conduct deep research into coffee in the context of the JTBD f
 	- Situation clearly stated ("When ....")  
 	- Motivation clearly defined ("I want to ....")  
 	- Expected Outcome clearly articulated ("So I can ....")
+- What similar products exist to fulfil these goals (coffee pills, etc)?
+	- what is their market position relative to coffee?
+- what features exist in each of these products?
+	- how well do they meet customer needs?
+	- what limitations do they have? 
 
 **Answer:** [[Research Task 2]]
 
