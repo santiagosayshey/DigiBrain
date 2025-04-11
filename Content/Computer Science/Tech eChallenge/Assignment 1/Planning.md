@@ -57,12 +57,18 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 |Impact on Business Strategy and Future Implications|• "Job as North Star": aligns teams around job outcomes<br>• Real-world success: Cox Automotive achieved 20x user growth via job-focused roadmap<br>• Redefines market boundaries around jobs<br>• Allows adaptive strategy in changing technology landscapes (Nike, SNHU cases)<br>• End-to-end journey alignment with jobs<br>• Marketing messages resonate by highlighting job-related outcomes (Moen faucets, OnStar)<br>• Integration with emerging technologies (AI, IoT) to better serve jobs<br>• Continuous evolution and refinement of jobs as societal and technological contexts evolve<br>• Ongoing relevance as markets increasingly prioritize customer-centric innovation|
 ## Task 1.3: Initial Draft
 
-**Definition and Context:** 
-Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals that customers want to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases in the first place - what job do they need done? The framework provides a methodology for uncovering the actual circumstances that drive customer decisions, which can be understood through three key dimensions that influence their choices:
+**Definition and Context:**  
+Jobs to be Done (JTBD) is a knowledge framework that aims to understand the underlying goals customers want to accomplish when they 'hire' a product or service. Instead of pigeonholing customers into misleading demographic categories like age, income, or location, JTBD examines why customers make purchases—focusing on the specific "job" they need done.
 
-1. **Functional:** The practical aspects of what customers are trying to accomplish. This includes the objective tasks, problems to be solved, or improvements to existing solutions. 
-2. **Emotional:** The feelings and sentiments customers want to experience or avoid. Products often serve to make customers feel a certain way - confident, secure, accomplished, or relieved from anxiety.
-3. **Social:** How customers want to be perceived by others when using the product or service. This includes how the product affects one's social status, reinforces group membership, expresses personal identity, and shapes how others perceive the user.
+In JTBD, a "job" is precisely defined as the fundamental problem, task, or goal that a customer seeks to accomplish in a given circumstance. It is solution-agnostic, meaning it does not depend on any particular product or service. People will pursue these jobs using whatever solution is available or convenient, including products, services, or even DIY solutions.
+
+The JTBD framework uses a metaphor of customers "hiring" products or services to perform specific jobs. When a customer faces a job to be done, they "hire" a product much like hiring an employee. If the product effectively fulfills the job, it continues to be "hired"; if not, it gets "fired" in favor of another solution.
+
+The framework provides a methodology for uncovering the actual circumstances driving customer decisions, which can be understood through three key dimensions:
+
+1. **Functional:** The practical aspects of what customers are trying to accomplish, including objective tasks, problems to solve, or improvements to existing solutions.
+2. **Emotional:** The feelings and sentiments customers want to experience or avoid. Products often serve to make customers feel confident, secure, accomplished, or relieved from anxiety.
+3. **Social:** How customers want to be perceived by others when using the product or service. This includes effects on social status, reinforcement of group membership, personal identity expression, and shaping how others perceive the user.
 
 **Brief History and Origins:**
 
