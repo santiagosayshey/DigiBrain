@@ -54,11 +54,11 @@ These goals manifest in specific scenarios that reveal how consumers "hire" coff
 **Market Comparison:**
 This section examines how coffee compares to key market alternatives, analysing how each product address different 'jobs' while identifying their respective limitations and competitive positioning.
 
-|Product|Functional Goals|Emotional Goals|Social Goals|Limitations|
-|---|---|---|---|---|
-|**Coffee** - Traditional caffeinated beverage with global dominance|Reliable alertness and focus enhancement; versatile preparation for different intensity needs|Strong comfort through aroma and warmth; creates satisfying daily rituals|Deeply embedded in professional and social cultures; universally accepted|Can cause jitters/anxiety; may cause digestive issues; leads to tolerance|
-|**Caffeine Pills** - Pharmaceutical alternative with pure stimulant|Precise, fast-acting stimulation; consistent potency without dilution; portable for emergency alertness|No sensory experience or pleasure; purely utilitarian approach|Not a social activity; often private or stigmatized|Easy to overconsume; lacks beneficial compounds; no sensory enjoyment|
-|**Energy Drinks** - Ready-to-drink beverages with caffeine + stimulants|Rapid energy boost with additional performance enhancers; ready-to-consume convenience|Limited comfort; associated with temporary energy rush; youth-focused|Accepted in specific contexts (gaming, sports); inappropriate professionally|High sugar/artificial ingredients; cardiovascular concerns; immature image|
+|Product|Functional Goals|Emotional Goals|Social Goals|Limitations|Market Positioning|
+|---|---|---|---|---|---|
+|**Coffee** - Traditional caffeinated beverage with global dominance|Reliable alertness and focus enhancement; versatile preparation for different intensity needs|Strong comfort through aroma and warmth; creates satisfying daily rituals|Deeply embedded in professional and social cultures; universally accepted|Can cause jitters/anxiety; may cause digestive issues; leads to tolerance|Dominant market leader ($100B global value); appeals across demographics; positioned as essential daily companion|
+|**Caffeine Pills** - Pharmaceutical alternative with pure stimulant|Precise, fast-acting stimulation; consistent potency without dilution; portable for emergency alertness|No sensory experience or pleasure; purely utilitarian approach|Not a social activity; often private or stigmatized|Easy to overconsume; lacks beneficial compounds; no sensory enjoyment|Niche market serving utilitarian needs; positioned as functional supplement rather than lifestyle product; appeals to shift workers and students|
+|**Energy Drinks** - Ready-to-drink beverages with caffeine + stimulants|Rapid energy boost with additional performance enhancers; ready-to-consume convenience|Limited comfort; associated with temporary energy rush; youth-focused|Accepted in specific contexts (gaming, sports); inappropriate professionally|High sugar/artificial ingredients; cardiovascular concerns; immature image|Rapidly growing market ($80B globally); positions as performance enhancer; targets younger demographics through extreme sports and gaming associations|
 
 
 # Part 3: Using JTBD to Develop Your Own Product
