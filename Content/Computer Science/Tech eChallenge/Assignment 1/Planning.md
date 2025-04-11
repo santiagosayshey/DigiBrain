@@ -64,6 +64,18 @@ The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from c
 
 The JTBD framework can be traced back to Harvard professor Theodore Levitt's famous observation: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted focus from products to outcomes, laying groundwork for future innovation thinking. Two pioneers formalised this concept into today's framework: Tony Ulwick, who applied jobs-focused approaches at Cordis Corporation in the early 1990s and published the first JTBD book "What Customers Want" (2005); and Clayton Christensen, whose "Marketing Malpractice" (2005) article and subsequent book "Competing Against Luck" (2016) established Jobs Theory as a cornerstone of innovation thinking (Ulwick, 2020). Their work transformed a simple insight into a powerful framework that consistently uncovers why customers make purchase decisions.
 
+In JTBD, a "job" is defined as "a statement that describes, with precision, what people are trying to accomplish in a given situation" (Ulwick, 2020). Each job encompasses three critical dimensions:
+
+- **Functional** (the practical objectives that need to be accomplished - what literally needs to get done)
+- **Emotional** (how customers want to feel or avoid feeling during the process, such as confidence, satisfaction, or avoiding frustration)
+- **Social** (how customers want to be perceived by others, including considerations of status, identity, and competence) 
+
+Christensen emphasises that understanding all three dimensions is essential for developing solutions that address the complete job (HBS Working Knowledge, 2006).
+
+JTBD transcends traditional demographic segmentation by focusing on why products are hired regardless of who does the hiring. Consider how a 24-year-old urban professional with limited cooking skills and a 60-year-old suburban retiree with mobility challenges might both hire the same meal delivery service. Despite their demographic differences, they share the job of "having a convenient, high-quality meal without the burden of shopping, preparation, and cleanup." This explains why demographic profiles often fail to predict purchasing behavior—the causal mechanism is the job, not customer attributes.
+
+The framework reframes customer "needs" as specific success criteria for accomplishing jobs. These precise outcome statements (e.g., "minimize preparation time" rather than "convenience") provide clear targets for product development, making innovation more predictable and directly informing product requirements.
+
 **References:**
 
 Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
