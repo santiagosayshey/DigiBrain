@@ -86,6 +86,9 @@ While both schools share the core premise that understanding customer jobs bring
 - https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=Christensen%20and%20his%20coauthors%20think,will%20yield%20a%20winning%20ticket
 - https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/
 - https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb
+- https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products
+
+
 
 
 
