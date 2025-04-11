@@ -71,11 +71,11 @@ The framework provides a methodology for uncovering the actual circumstances dri
 3. **Social:** How customers want to be perceived by others when using the product or service. This includes effects on social status, reinforcement of group membership, personal identity expression, and shaping how others perceive the user.
 
 **Brief History and Origins:**
-"People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" This simple observation by Harvard professor Theodore Levitt captures the fundamental insight that would eventually evolve into the Jobs To Be Done (JTBD) framework. The statement eloquently illustrates that customers aren't inherently interested in products themselves, but rather in what those products help them accomplish. A drill is merely a means to an end – the real desire is to create a hole, perhaps to hang a picture or install a shelf.
+"People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" This observation by Harvard professor Theodore Levitt captures the fundamental insight that would eventually evolve into the JTBD framework. Rather than focusing on product features or customer demographics, JTBD examines the underlying motivations driving purchases. A drill isn't bought for its own sake - it's bought to create holes for hanging pictures or installing shelves.
 
 The modern JTBD theory developed along two parallel paths in the 1990s and early 2000s. Tony Ulwick pioneered the Outcome-Driven Innovation (ODI) approach while working at Cordis Corporation from 1991-1993. His methodology helped the company dramatically increase its market share in angioplasty balloons from 1% to over 20% by focusing on addressing unmet needs of cardiologists. Ulwick formalized these ideas in his seminal 2002 Harvard Business Review article "Turn Customer Input into Innovation" and his 2005 book "What Customers Want."
 
-Simultaneously, Clayton Christensen and his collaborators, including Bob Moesta and Taddy Hall, were developing their own Jobs Theory framework. Christensen's influential 2005 article "Marketing Malpractice: The Cause and the Cure" argued that companies should focus on understanding the fundamental job customers need done rather than demographic segments. This approach was further developed in the 2016 book "Competing Against Luck," which presented a comprehensive theory of customer choice centred around jobs to be done.
+Simultaneously, Clayton Christensen, were developing their own Jobs Theory framework. Christensen's influential 2005 article "Marketing Malpractice: The Cause and the Cure" argued that companies should focus on understanding the fundamental job customers need done rather than demographic segments. This approach was further developed in the 2016 book "Competing Against Luck," which presented a comprehensive theory of customer choice centred around jobs to be done.
 
 While both schools share the core premise that understanding customer jobs brings predictability to innovation, they differ in methodology. Ulwick's ODI approach emphasizes identifying and quantifying desired outcomes, while Christensen and Moesta's method focuses on in-depth customer interviews to uncover job "stories." Together, these complementary approaches have revolutionized how businesses think about innovation and customer needs.
 
@@ -84,4 +84,8 @@ While both schools share the core premise that understanding customer jobs bring
 - https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/#:~:text=Firms%20have%20never%20known%20more,is%20trying%20to%20get%20done
 - https://online.hbs.edu/blog/post/jobs-to-be-done-examples#:~:text=This%20idea%20is%20the%20crux,%E2%80%9D
 - https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation#:~:text=Christensen%20and%20his%20coauthors%20think,will%20yield%20a%20winning%20ticket
+- https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/
+- https://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb
+
+
 
