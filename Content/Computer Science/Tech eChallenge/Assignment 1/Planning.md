@@ -58,4 +58,7 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 ## Task 1.3: Initial Draft
 
 **Definition and Context:**
+Jobs to be Done (JTBD) is a knowledge framework that aims to understand 
 
+
+focuses on understanding the underlying goals customers aim to accomplish when they 'hire' a product. 
