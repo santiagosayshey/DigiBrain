@@ -26,12 +26,15 @@
             "id": "7584d97efae4ba42",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf"
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "The C Programming Language, 2nd Edition (Revised with bookmarks)"
+              "icon": "lucide-file",
+              "title": "Planning"
             }
           },
           {
@@ -183,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The C Programming Language, 2nd Edition (Revised with bookmarks)"
+              "title": "Outline of Planning"
             }
           },
           {
@@ -244,6 +247,7 @@
   },
   "active": "7584d97efae4ba42",
   "lastOpenFiles": [
+    "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
@@ -277,7 +281,6 @@
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/5.1 Reasoning with Reasons.md",
     "Images/Group 11.png",
     "Images/Frame 4 1.png",
     "Images/Frame 4.png",
