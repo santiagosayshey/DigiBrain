@@ -165,4 +165,25 @@ Synapsis transforms complex technical content into engaging video summaries with
 
 Your goal is not to provide an articulate examination of these topics, but to find as much relevant information as you can, and present it back to me so that I can read, reflect, and reference in my own writing. 
 
-**Answer:** The response is well over 10,000 lines long, so it would be unsuitable to be kept in this report. 
+**Answer:** The response is well over 10,000 lines long, so it would be unsuitable to be kept in this report. Here is a direct link to the exported/shared conversation history: https://chatgpt.com/share/67fa3ff5-0e84-8011-a831-6f59074128ac
+
+## Appendix C - ChatGPT Deep Research (Coffee)
+
+**Prompt (ChatGPT 4.5 + Deep Research):** Hi, can we please conduct deep research into coffee (the drink) in the context of the JTBD framework? 
+
+- What are customers needs and how does this drive product adoption? 
+	- Functional Goals: What exact task is the product designed to address?  
+	- Emotional Goals: What feelings or experiences does the product create?  
+	- Social Goals: How does the product affect others' perceptions of users?
+- Written in the form: 
+	- Situation clearly stated ("When ....")  
+	- Motivation clearly defined ("I want to ....")  
+	- Expected Outcome clearly articulated ("So I can ....")
+- What similar products exist to fulfil these goals (coffee pills, etc)?
+	- What is their market position relative to coffee?
+	- What features exist in each of these products?
+	- How well do they meet customer needs?
+	- What limitations do they have? 
+	- Make sure to include coffee (the drink) itself in this analysis
+
+**Answer:** Like Appendix B, the response is well over 10,000 lines long, so it would be unsuitable to be kept in this report. Here is a direct link to the exported/shared conversation history: https://chatgpt.com/share/67fa3ff5-0e84-8011-a831-6f59074128ac
