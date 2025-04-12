@@ -9,7 +9,7 @@ The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from c
 The JTBD framework can be traced back to Harvard professor Theodore Levitt's famous observation: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted focus from products to outcomes, laying groundwork for future innovation thinking. Two pioneers formalised this concept into today's framework: Tony Ulwick, who applied jobs-focused approaches at Cordis Corporation in the early 1990s and published the first JTBD book "What Customers Want" (2005); and Clayton Christensen, whose "Marketing Malpractice" (2005) article and subsequent book "Competing Against Luck" (2016) established Jobs Theory as a cornerstone of innovation thinking (Ulwick, 2020). Their work transformed a simple insight into a powerful framework that consistently uncovers why customers make purchase decisions.
 
 **Defining JTBD**
-In JTBD, a "job" is defined as "a statement that describes, with precision, what people are trying to accomplish in a given situation" (Ulwick, 2020). Each job encompasses three critical dimensions:
+In JTBD, a "job" is defined as "a statement that describes, with precision, what people are trying to accomplish in a given situation" (Ulwick, 2020). Each job encompasses three dimensions:
 
 - **Functional** (the practical objectives that need to be accomplished - what literally needs to get done)
 - **Emotional** (how customers want to feel or avoid feeling during the process, such as confidence, satisfaction, or avoiding frustration)
@@ -33,7 +33,7 @@ The Jobs to Be Done framework transforms how businesses understand customer beha
 # Part 2: Applying JTBD to a Real-World example
 
 **Introduction** 
-Coffee stands as one of the most widely consumed beverages, with a market valued at approximately $100 billion (Coffee Market Size, 2024). Coffee's universal appeal makes it an ideal candidate for Jobs-to-Be-Done analysis, revealing why consumers "hire" coffee.
+Coffee stands as one of the most widely consumed beverages, with a market valued at approximately $100 billion (Coffee Market Size, 2024). Coffee's universal appeal makes it an ideal candidate for a JTBD analysis, revealing why consumers "hire" coffee.
 
 **Jobs and Goals:**
 Coffee fulfils multiple customer needs that can be categorised across functional, emotional, and social dimensions.
