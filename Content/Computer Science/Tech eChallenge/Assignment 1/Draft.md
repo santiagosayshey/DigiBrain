@@ -88,7 +88,7 @@ The following table details Synapsis's features and how they address the previou
 | **5. Voice & Image Generation**       | Generates voice narration from the final script and AI images from sentence tags.                                                        | **Job 2**          | **Functional**: Adds audio-visual clarity.<br>**Emotional**: Reduces anxiety about losing audience attention; increases satisfaction in the output.<br>**Social**: Enhances perception as a skilled and engaging communicator. |
 | **6. Video Synthesis**                | Interpolates between images to build visual transitions, aligns visuals with narration, and outputs the final video.                     | **Job 2**          | **Functional**: Delivers a polished, ready-to-share video.<br>**Emotional**: Provides pride and relief at producing a coherent result.<br>**Social**: Demonstrates fluency in communicating complex ideas with modern tools.   |
 **Market Comparison**
-Existing solutions fall short in comprehensive knowledge processing (*As researched by ChatGPT 4.5 in Appendix D*):
+Existing solutions fall short in comprehensive knowledge processing:
 
 - **Text summarizers** (Scholarcy, Elicit): Produce static content requiring significant cognitive effort
 - **Academic video abstracts**: Require costly professional production
@@ -116,7 +116,7 @@ Synapsis transforms complex technical content into engaging video summaries with
 - Kruger, TB, Dixon, MJ & Smilek, D 2024, 'Caffeine Use and Attentional Engagement in Everyday Life', Current Research in Behavioral Sciences, vol. 7, article no. 100152
 - Choi, J 2020, 'Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality', Nutrients, vol. 12, no. 4, article no. 953
 - Ágoston, C, Urbán, R, Király, O, Griffiths, MD, Rogers, PJ & Demetrovics, Z 2017, 'Why Do You Drink Caffeine? The Development of the Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages', International Journal of Mental Health and Addiction, vol. 16, no. 4, pp. 981-999
-- 'A World of Coffee: Brewing Traditions Across Cultures' 2025, Buzz, Blog Post, 3 April, viewed 11 April 2025, [https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures](https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures)
+- 'A World of Coffee: Brewing Traditions Across Cultures' 2025, Buzz, Blog Post, viewed 11 April 2025, [https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures](https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures)
 - Weasler, P 2024, 'Switching From Coffee to Caffeine Pills: Is It Worth It?', Very Well Health, 24 August, viewed 11 April 2025, [https://www.verywellhealth.com/caffeine-pills-7497810](https://www.verywellhealth.com/caffeine-pills-7497810)
 - 'Energy Drinks Market Size, Share & Trend Analysis Report By Product (Energy Drinks, Energy Shots), By Type (Organic, Conventional), By Packaging, By Distribution Channel, By Region, And Segment Forecasts, 2024 - 2030' 2024, Grand View Research, viewed 11 April 2025, [https://www.grandviewresearch.com/industry-analysis/energy-drinks-market](https://www.grandviewresearch.com/industry-analysis/energy-drinks-market)
 - Loh, C 2023, 'Rise of Coffee Culture in China', Medium, Blog Post, 22 March, viewed 11 April 2025, [https://cheeloh.medium.com/from-tea-to-coffee-the-rise-of-coffee-culture-in-china-b5cef5ab488f](https://cheeloh.medium.com/from-tea-to-coffee-the-rise-of-coffee-culture-in-china-b5cef5ab488f).
@@ -165,7 +165,7 @@ Synapsis transforms complex technical content into engaging video summaries with
 
 Your goal is not to provide an articulate examination of these topics, but to find as much relevant information as you can, and present it back to me so that I can read, reflect, and reference in my own writing. 
 
-**Answer:** The response is well over 10,000 lines long, so it would be unsuitable to be kept in this report. Here is a direct link to the exported/shared conversation history: https://chatgpt.com/share/67fa3ff5-0e84-8011-a831-6f59074128ac
+**Response:** The response is well over 10,000 words long, so it would be unsuitable to be kept in this report. Here is a direct link to the exported/shared conversation history: https://chatgpt.com/share/67fa3ff5-0e84-8011-a831-6f59074128ac
 
 ## Appendix C - ChatGPT Deep Research (Coffee)
 
@@ -186,4 +186,4 @@ Your goal is not to provide an articulate examination of these topics, but to fi
 	- What limitations do they have? 
 	- Make sure to include coffee (the drink) itself in this analysis
 
-**Answer:** Like Appendix B, the response is well over 10,000 lines long, so it would be unsuitable to be kept in this report. Here is a direct link to the exported/shared conversation history: https://chatgpt.com/share/67fa3ff5-0e84-8011-a831-6f59074128ac
+**Response:** Like Appendix B, the response is well over 10,000 words long, so it would be unsuitable to be kept in this report. Here is a direct link to the exported/shared conversation history: https://chatgpt.com/share/67fa40d9-fa20-8011-86a5-a679cead5b3c
