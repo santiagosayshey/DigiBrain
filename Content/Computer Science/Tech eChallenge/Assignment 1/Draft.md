@@ -101,6 +101,7 @@ Synapsis transforms complex technical content into engaging video summaries with
 
 # References
 
+Acccessed 
 
 Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
 
@@ -113,6 +114,8 @@ Ulwick, A. (2020). "What Is Jobs-to-be-Done?" Medium/Strategyn Blog. [https://jo
 HBS Working Knowledge (2006). "What Customers Want from Your Products" – Excerpt of Christensen et al., Marketing Malpractice. [https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products](https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products)
 
 Strategy+Business (2016). "The 'Jobs to Be Done' Theory of Innovation" – Kinni, T. [https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation)
+
+
 
 Coffee Market Size, Growth, Trends & Demand by 2033. (2024). Straits Research. https://straitsresearch.com/report/coffee-market
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Planning"
+              "title": "Draft"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Planning"
+              "title": "Outline of Draft"
             }
           },
           {
@@ -201,10 +201,10 @@
   },
   "active": "7584d97efae4ba42",
   "lastOpenFiles": [
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
