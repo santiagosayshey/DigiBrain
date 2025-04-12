@@ -63,6 +63,21 @@ This section examines how coffee compares to key market alternatives, analysing 
 
 # Part 3: Using JTBD to Develop Your Own Product
 
+**Introduction**
+
+In today's information-rich world, individuals across all sectors struggle with the overwhelming volume of complex, technical content they must process daily. This challenge is particularly relevant for researchers, students, and authors who face dense, jargon-heavy academic literature that demands significant time and mental energy to comprehend effectively.
+
+AI offers an elegant solution by transforming how we interact with complex information. Synapsis leverages this technology to convert dense technical content into engaging video summaries with clear language and dynamic visuals, making knowledge consumption faster and more effective.
+
+**Jobs and Goals:**
+To transform how users interact with complex information, Synapsis addresses two jobs that emerge when processing dense informational content. 
+
+| Job Statement                                                                                                                                                                                 | Functional Goals                                                                                                                                                                                          | Emotional Goals                                                                                                                                                                         | Social Goals                                                                                                                                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Job 1: When faced with a dense research paper, I want to quickly grasp its key concepts and structure so I can determine its relevance to my work.**                                        | • Extract essential information efficiently<br>• Identify core arguments and evidence<br>• Understand the logical structure of complex content<br>• Save time in the research process                     | • Reduce cognitive overload<br>• Feel confident in understanding<br>• Experience relief from not missing important points<br>• Enjoy a sense of accomplishment                          | • Demonstrate research efficiency to peers<br>• Position oneself as current with literature<br>• Contribute meaningfully to discussions about the content                                                                  |
+| **Job 2: When preparing to communicate research findings, I want to distill complex concepts into clear, engaging explanations so I can effectively share knowledge with diverse audiences.** | • Transform technical content into accessible formats<br>• Identify visual representations for abstract concepts<br>• Organize information hierarchically<br>• Develop compelling knowledge-sharing tools | • Feel satisfaction from clear communication<br>• Gain confidence in presentation abilities<br>• Reduce stress about audience comprehension<br>• Experience pride in knowledge transfer | • Enhance reputation as an effective communicator<br>• Build rapport with audiences outside one's field<br>• Gain recognition for making complex topics accessible<br>• Increase influence through knowledge dissemination |
+
+
 # References
 
 
