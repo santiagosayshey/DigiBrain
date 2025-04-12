@@ -52,8 +52,7 @@
               "title": "Research Task 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Draft"
+              "title": "Outline of Planning"
             }
           },
           {
@@ -200,10 +199,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64758a5d12e4fe90",
+  "active": "7584d97efae4ba42",
   "lastOpenFiles": [
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
