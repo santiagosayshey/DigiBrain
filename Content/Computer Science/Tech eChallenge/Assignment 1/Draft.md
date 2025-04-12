@@ -87,6 +87,21 @@ The following table details Synapsis's features and how they address the previou
 | **4. Language Polishing**             | Uses AI to enhance grammar, style, and clarity for improved readability and tone.                                                        | **Job 1 & Job 2**  | **Functional**: Ensures clear, concise communication.<br>**Emotional**: Reinforces confidence that the explanation will be well-received.<br>**Social**: _None_                                                                |
 | **5. Voice & Image Generation**       | Generates voice narration from the final script and AI images from sentence tags.                                                        | **Job 2**          | **Functional**: Adds audio-visual clarity.<br>**Emotional**: Reduces anxiety about losing audience attention; increases satisfaction in the output.<br>**Social**: Enhances perception as a skilled and engaging communicator. |
 | **6. Video Synthesis**                | Interpolates between images to build visual transitions, aligns visuals with narration, and outputs the final video.                     | **Job 2**          | **Functional**: Delivers a polished, ready-to-share video.<br>**Emotional**: Provides pride and relief at producing a coherent result.<br>**Social**: Demonstrates fluency in communicating complex ideas with modern tools.   |
+**Market Comparison**
+Synapsis offers advantages over existing solutions in the knowledge processing space:
+
+Traditional text summarizers like Scholarcy and Elicit produce static content that still demands significant cognitive effort. Academic video abstracts exist but require costly professional production.
+
+Adjacent solutions include:
+
+- Text-based summary services (Semantic Scholar, Research Rabbit) that lack multimodal engagement
+- DIY video platforms (Canva, Powtoon) requiring users to first understand and simplify content themselves
+- AI presentation tools (Beautiful.ai, Tome) that generate slides but lack narrative cohesion and automated visual representation
+
+Unlike these partial solutions, Synapsis provides end-to-end automation from content ingestion to video production, uniquely addressing both comprehension and communication challenges simultaneously.
+
+**Conclusion**
+Synapsis transforms complex technical content into engaging video summaries with clear language and dynamic visuals. By addressing both rapid comprehension of dense material and effective knowledge sharing with diverse audiences, it revolutionises how professionals interact with and communicate complex information in today's information-saturated environment.
 
 # References
 
@@ -124,3 +139,11 @@ Rise of Coffee Culture in China. (2023). Medium. https://cheeloh.medium.com/from
 Wake Up and Smell the Modafinil. (2022). Emergency Physicians Monthly. https://epmonthly.com/article/wake-smell-modafinil/
 
 
+1. Elicit. (2024). [https://elicit.org/](https://elicit.org/)
+2. Scholarcy. (2024). [https://www.scholarcy.com/](https://www.scholarcy.com/)
+3. Semantic Scholar. (2024). [https://www.semanticscholar.org/](https://www.semanticscholar.org/)
+4. ResearchRabbit. (2024). [https://www.researchrabbit.ai/](https://www.researchrabbit.ai/)
+5. Canva. (2024). [https://www.canva.com/](https://www.canva.com/)
+6. Powtoon. (2024). [https://www.powtoon.com/](https://www.powtoon.com/)
+7. Beautiful.ai. (2024). [https://www.beautiful.ai/](https://www.beautiful.ai/)
+8. Tome. (2024). [https://tome.app/](https://tome.app/)
