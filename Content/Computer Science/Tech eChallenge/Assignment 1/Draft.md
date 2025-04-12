@@ -112,24 +112,19 @@ Synapsis transforms complex technical content into engaging video summaries with
 
 ## Part 2
 
-- 'Coffee Market Size, Share & Trends Analysis Report' 2025, Straits Research, viewed 11 April 2025, [https://straitsresearch.com/report/coffee-market](https://straitsresearch.com/report/coffee-market).
-- Kruger, TB, Dixon, MJ & Smilek, D 2024, 'Caffeine Use and Attentional Engagement in Everyday Life', Current Research in Behavioral Sciences, vol. 7, article no. 100152.
+- 'Coffee Market Size, Share & Trends Analysis Report' 2025, Straits Research, viewed 11 April 2025, [https://straitsresearch.com/report/coffee-market](https://straitsresearch.com/report/coffee-market)
+- Kruger, TB, Dixon, MJ & Smilek, D 2024, 'Caffeine Use and Attentional Engagement in Everyday Life', Current Research in Behavioral Sciences, vol. 7, article no. 100152
+- Choi, J 2020, 'Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality', Nutrients, vol. 12, no. 4, article no. 953
+- Ágoston, C, Urbán, R, Király, O, Griffiths, MD, Rogers, PJ & Demetrovics, Z 2017, 'Why Do You Drink Caffeine? The Development of the Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages', International Journal of Mental Health and Addiction, vol. 16, no. 4, pp. 981-999
+- 'A World of Coffee: Brewing Traditions Across Cultures' 2025, Buzz, Blog Post, 3 April, viewed 11 April 2025, [https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures](https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures)
+- Weasler, P 2024, 'Switching From Coffee to Caffeine Pills: Is It Worth It?', Very Well Health, 24 August, viewed 11 April 2025, [https://www.verywellhealth.com/caffeine-pills-7497810](https://www.verywellhealth.com/caffeine-pills-7497810).
 
-Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
 
-Motives for Caffeine Consumption Questionnaire (MCCQ) and Its Relationship with Gender, Age and the Types of Caffeinated Beverages. (2018). PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6096549/
-
-A World of Coffee: Brewing Traditions Across Cultures. (2022). The Mocha Monkey. https://themochamonkey.com/blogs/buzz/a-world-of-coffee-brewing-traditions-across-cultures
-
-Caffeine Pills: A Coffee or Energy Drink Replacement? (2023). Very Well Health. https://www.verywellhealth.com/caffeine-pills-7497810
-
-Coffee or Matcha: Which Is Better for Energy and Wellness? (2024). Very Well Health. https://www.verywellhealth.com/coffee-vs-matcha-11699930
 
 Energy Drinks Market Size, Share & Growth Report. (2024). Grand View Research. https://www.grandviewresearch.com/industry-analysis/energy-drinks-market
 
 Rise of Coffee Culture in China. (2023). Medium. https://cheeloh.medium.com/from-tea-to-coffee-the-rise-of-coffee-culture-in-china-b5cef5ab488f
 
-Wake Up and Smell the Modafinil. (2022). Emergency Physicians Monthly. https://epmonthly.com/article/wake-smell-modafinil/
 
 
 1. Elicit. (2024). [https://elicit.org/](https://elicit.org/)
