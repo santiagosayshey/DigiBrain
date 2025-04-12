@@ -1,9 +1,9 @@
 # Part 1: Understanding the JTBD Framework
 
 **Introduction**
-Despite collecting vast amounts of customer data, companies often struggle with product innovation. The culprit? An over-reliance on demographic research that reveals *who* buys products but fails to uncover *why* purchases occur. Clayton Christensen, innovation expert and author of "Competing Against Luck," observed that companies "know more about their customers than ever, yet innovation success remains hit-or-miss".
+Despite collecting vast amounts of customer data, companies often struggle with product innovation. The culprit? An over-reliance on demographic research that reveals *who* buys products but fails to uncover *why* purchases occur. Clayton Christensen, innovation expert and author of "Competing Against Luck," observed that companies "know more about their customers than ever, yet innovation success remains hit-or-miss" (Christensen et al., 2016).
 
-The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?" This perspective recognises that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (HBS Online, 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al., 2016).
+The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?". This perspective recognises that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (HBS Online, 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al., 2016).
 
 **History**
 The JTBD framework can be traced back to Harvard professor Theodore Levitt's famous observation: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted focus from products to outcomes, laying groundwork for future innovation thinking. Two pioneers formalised this concept into today's framework: Tony Ulwick, who applied jobs-focused approaches at Cordis Corporation in the early 1990s and published the first JTBD book "What Customers Want" (2005); and Clayton Christensen, whose "Marketing Malpractice" (2005) article and subsequent book "Competing Against Luck" (2016) established Jobs Theory as a cornerstone of innovation thinking (Ulwick, 2020). Their work transformed a simple insight into a powerful framework that consistently uncovers why customers make purchase decisions.
@@ -64,9 +64,9 @@ This section examines how coffee compares to key market alternatives, analysing 
 # Part 3: Using JTBD to Develop Your Own Product
 
 **Introduction**
-In today's information-rich world, individuals across all sectors struggle with the overwhelming volume of complex, technical content they must process daily. This challenge is particularly relevant for researchers, students, and authors who face dense, jargon-heavy academic literature that demands significant time and mental energy to comprehend effectively.
+In today's information-rich environment, professionals across sectors face the overwhelming challenge of processing technical writing efficiently. Researchers, students, and authors particularly struggle with dense, jargon-heavy academic literature that requires substantial cognitive resources to comprehend properly.
 
-AI offers an elegant solution by transforming how we interact with complex information. Synapsis leverages this technology to convert dense technical content into engaging video summaries with clear language and dynamic visuals, making knowledge consumption faster and more effective.
+AI offers an elegant solution to this problem by transforming how we interact with complex information. Synapsis leverages this technology to convert dense technical content into engaging video summaries with clear language and dynamic visuals, making knowledge consumption faster and more effective.
 
 **Jobs and Goals:**
 To transform how users interact with complex information, Synapsis addresses two jobs that emerge when processing dense informational content. 
@@ -88,15 +88,13 @@ The following table details Synapsis's features and how they address the previou
 | **5. Voice & Image Generation**       | Generates voice narration from the final script and AI images from sentence tags.                                                        | **Job 2**          | **Functional**: Adds audio-visual clarity.<br>**Emotional**: Reduces anxiety about losing audience attention; increases satisfaction in the output.<br>**Social**: Enhances perception as a skilled and engaging communicator. |
 | **6. Video Synthesis**                | Interpolates between images to build visual transitions, aligns visuals with narration, and outputs the final video.                     | **Job 2**          | **Functional**: Delivers a polished, ready-to-share video.<br>**Emotional**: Provides pride and relief at producing a coherent result.<br>**Social**: Demonstrates fluency in communicating complex ideas with modern tools.   |
 **Market Comparison**
-Synapsis offers advantages over existing solutions in the knowledge processing space:
+Existing solutions fall short in comprehensive knowledge processing:
 
-Traditional text summarizers like Scholarcy and Elicit produce static content that still demands significant cognitive effort. Academic video abstracts exist but require costly professional production.
-
-Adjacent solutions include:
-
-- Text-based summary services (Semantic Scholar, Research Rabbit) that lack multimodal engagement
-- DIY video platforms (Canva, Powtoon) requiring users to first understand and simplify content themselves
-- AI presentation tools (Beautiful.ai, Tome) that generate slides but lack narrative cohesion and automated visual representation
+- **Text summarizers** (Scholarcy, Elicit): Produce static content requiring significant cognitive effort
+- **Academic video abstracts**: Require costly professional production
+- **Text-based services** (Semantic Scholar, Research Rabbit): Lack multimodal engagement
+- **DIY platforms** (Canva, Powtoon): Require users to first understand and simplify content themselves
+- **AI presentation tools** (Beautiful.ai, Tome): Generate slides but lack narrative cohesion
 
 Unlike these partial solutions, Synapsis provides end-to-end automation from content ingestion to video production, uniquely addressing both comprehension and communication challenges simultaneously.
 
