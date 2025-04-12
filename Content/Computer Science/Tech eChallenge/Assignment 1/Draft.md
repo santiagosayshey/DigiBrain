@@ -100,10 +100,8 @@ Existing solutions fall short in comprehensive knowledge processing:
 Synapsis transforms complex technical content into engaging video summaries with clear language and dynamic visuals. By addressing both rapid comprehension of dense material and effective knowledge sharing with diverse audiences, it revolutionises how professionals interact with and communicate complex information in today's information-saturated environment.
 
 # References
+- Christensen, C, Dillon, K, Hall, T & Duncan, D 2016, Know your customers’ ‘jobs to be done’, Innosight, viewed 10 April 2025, <https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/>.
 
-Acccessed 
-
-Christensen, C. M., Dillon, K., Hall, T., & Duncan, D. (2016). "Know Your Customers' Jobs to Be Done." Harvard Business Review, 94(9), 54–62. [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
 
 Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" – Gavin, M. [https://online.hbs.edu/blog/post/jobs-to-be-done-examples](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)
 
