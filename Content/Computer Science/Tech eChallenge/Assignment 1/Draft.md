@@ -100,6 +100,9 @@ Existing solutions fall short in comprehensive knowledge processing:
 Synapsis transforms complex technical content into engaging video summaries with clear language and dynamic visuals. By addressing both rapid comprehension of dense material and effective knowledge sharing with diverse audiences, it revolutionises how professionals interact with and communicate complex information in today's information-saturated environment.
 
 # References
+
+## Part 1
+
 - Christensen, CM, Duncan, DS, Dillon, K & Hall, T 2016, 'Know your customers' "Jobs to Be Done"', Innosight, viewed 10 April 2025, [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
 - Gavin, M 2020, 'Jobs to Be Done: 4 Real-World Examples', Harvard Business School Online, viewed 10 April 2025, [https://online.hbs.edu/blog/post/jobs-to-be-done-examples](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)
 - 'JTBD Theory' n.d., Strategyn, viewed 10 April 2025, [https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/](https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/)
@@ -107,7 +110,7 @@ Synapsis transforms complex technical content into engaging video summaries with
 - Christensen, C 2006, 'What Customers Want from Your Products', Harvard Business School Working Knowledge, 16 January, viewed 10 April 2025, [https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products](https://www.library.hbs.edu/working-knowledge/what-customers-want-from-your-products).
 - Kinni, T 2016, 'The "Jobs to Be Done" Theory of Innovation', strategy+business, 31 August, viewed 10 April 2025, [https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation](https://www.strategy-business.com/article/The-Jobs-to-Be-Done-Theory-of-Innovation).
 
-
+## Part 2
 
 Coffee Market Size, Growth, Trends & Demand by 2033. (2024). Straits Research. https://straitsresearch.com/report/coffee-market
 
