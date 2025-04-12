@@ -217,4 +217,4 @@ In today's information-rich world, individuals across all sectors struggle with 
 
 AI offers an elegant solution by transforming how we interact with complex information. Synapsis leverages this technology to convert dense technical content into engaging video summaries with clear language and dynamic visuals, making knowledge consumption faster and more effective.
 
-As we explore Synapsis further, we will map its innovative features directly to the jobs researchers need done, demonstrating how our solution addresses both functional requirements and emotional needs in the knowledge consumption process.
+The JTBD framework will guide our analysis of how Synapsis meets these user needs.
