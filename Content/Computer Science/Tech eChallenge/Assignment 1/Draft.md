@@ -112,7 +112,7 @@ Synapsis transforms complex technical content into engaging video summaries with
 
 ## Part 2
 
-Coffee Market Size, Growth, Trends & Demand by 2033. (2024). Straits Research. https://straitsresearch.com/report/coffee-market
+- 'Coffee Market Size, Share & Trends Analysis Report' 2025, Straits Research, viewed 10 April 2025, [https://straitsresearch.com/report/coffee-market](https://straitsresearch.com/report/coffee-market).
 
 Caffeine Use and Attentional Engagement in Everyday Life. (2024). Science Direct. https://www.sciencedirect.com/science/article/pii/S2666518224000068
 
