@@ -1,9 +1,9 @@
 # Part 1: Understanding the JTBD Framework
 
 **Introduction**
-Despite collecting vast amounts of customer data, companies often struggle with product innovation. The culprit? An over-reliance on demographic research that reveals *who* buys products but fails to uncover *why* purchases occur. Clayton Christensen, innovation expert and author of "Competing Against Luck," observed that companies "know more about their customers than ever, yet innovation success remains hit-or-miss" (Christensen et al., 2016).
+Despite collecting vast amounts of customer data, companies often struggle with product innovation. The culprit? An over-reliance on demographic research that reveals *who* buys products but fails to uncover *why* purchases occur. Clayton Christensen, innovation expert and author of "Competing Against Luck," observed that companies "know more about their customers than ever, yet innovation success remains hit-or-miss" (Christensen et al. 2016).
 
-The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?". This perspective recognises that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (HBS Online, 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al., 2016).
+The Jobs to Be Done (JTBD) framework addresses this gap by shifting focus from customer attributes to customer objectives. Rather than asking "What kind of person would buy this product?" JTBD asks "What job is the customer trying to accomplish?". This perspective recognises that customers essentially "hire" products and services to help them make progress or solve problems in specific situations (Gavin 2020). When a product performs this job well, customers rehire it; when it performs poorly, they "fire" it and look for alternatives (Christensen et al. 2016).
 
 **History**
 The JTBD framework can be traced back to Harvard professor Theodore Levitt's famous observation: "People don't want to buy a quarter-inch drill. They want a quarter-inch hole!" (Strategyn, n.d.). This insight shifted focus from products to outcomes, laying groundwork for future innovation thinking. Two pioneers formalised this concept into today's framework: Tony Ulwick, who applied jobs-focused approaches at Cordis Corporation in the early 1990s and published the first JTBD book "What Customers Want" (2005); and Clayton Christensen, whose "Marketing Malpractice" (2005) article and subsequent book "Competing Against Luck" (2016) established Jobs Theory as a cornerstone of innovation thinking (Ulwick, 2020). Their work transformed a simple insight into a powerful framework that consistently uncovers why customers make purchase decisions.
@@ -100,12 +100,11 @@ Existing solutions fall short in comprehensive knowledge processing:
 Synapsis transforms complex technical content into engaging video summaries with clear language and dynamic visuals. By addressing both rapid comprehension of dense material and effective knowledge sharing with diverse audiences, it revolutionises how professionals interact with and communicate complex information in today's information-saturated environment.
 
 # References
-- Christensen, CM, Duncan, DS, Dillon, K & Hall, T 2016, 'Know your customers' "Jobs to Be Done"', Innosight, viewed 10 April 2025, [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/).
+- Christensen, CM, Duncan, DS, Dillon, K & Hall, T 2016, 'Know your customers' "Jobs to Be Done"', Innosight, viewed 10 April 2025, [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/)
+- Gavin, M 2020, 'Jobs to Be Done: 4 Real-World Examples', Harvard Business School Online, viewed 10 April 2025, [https://online.hbs.edu/blog/post/jobs-to-be-done-examples](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)
 
 
 
-
-Harvard Business School Online (2020). "Jobs to Be Done: 4 Real-World Examples" – Gavin, M. [https://online.hbs.edu/blog/post/jobs-to-be-done-examples](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)
 
 Strategyn (n.d.). "Jobs-to-be-Done: The Theory & Methodology." [https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/](https://strategyn.com/jobs-to-be-done/jobs-to-be-done-theory/)
 
