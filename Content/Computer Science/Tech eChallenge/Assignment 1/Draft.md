@@ -15,7 +15,7 @@ In JTBD, a "job" is defined as "a statement that describes, with precision, what
 - **Emotional** (how customers want to feel or avoid feeling during the process, such as confidence, satisfaction, or avoiding frustration)
 - **Social** (how customers want to be perceived by others, including considerations of status, identity, and competence)
 
-Understanding these three dimensions allows companies to see beyond surface-level customer attributes and focus on underlying motivations. This is why JTBD moves past traditional demographic segmentation - it identifies why products are hired regardless of who does the hiring.
+Understanding these three dimensions allows companies to see beyond surface-level customer attributes and focus on underlying motivations. This is why JTBD moves past traditional demographic analysis - it identifies why products are hired regardless of who does the hiring.
 
 For example, a 24-year-old marketing associate working long hours and a 60-year-old retiree with mobility challenges might both hire the same meal delivery service. Despite their demographic differences, they share the job of "having a convenient, high-quality meal without the burden of shopping, preparation, and cleanup." Demographic profiles fail to predict this purchasing behaviour because the causal mechanism is the job itself, not customer attributes.
 
@@ -88,12 +88,12 @@ The following table details Synapsis's features and how they address the previou
 | **5. Voice & Image Generation**       | Generates voice narration from the final script and AI images from sentence tags.                                                        | **Job 2**          | **Functional**: Adds audio-visual clarity.<br>**Emotional**: Reduces anxiety about losing audience attention; increases satisfaction in the output.<br>**Social**: Enhances perception as a skilled and engaging communicator. |
 | **6. Video Synthesis**                | Interpolates between images to build visual transitions, aligns visuals with narration, and outputs the final video.                     | **Job 2**          | **Functional**: Delivers a polished, ready-to-share video.<br>**Emotional**: Provides pride and relief at producing a coherent result.<br>**Social**: Demonstrates fluency in communicating complex ideas with modern tools.   |
 **Market Comparison**
-Existing solutions fall short in comprehensive knowledge processing:
+Existing solutions fall short in knowledge processing:
 
 - **Text summarizers** (Scholarcy, Elicit): Produce static content requiring significant cognitive effort
 - **Academic video abstracts**: Require costly professional production
 - **Text-based services** (Semantic Scholar, Research Rabbit): Lack multimodal engagement
-- **DIY platforms** (Canva, Powtoon): Require users to first understand and simplify content themselves
+- **DIY platforms** (Canva, Powtoon): Require users to simplify content themselves
 - **AI presentation tools** (Beautiful.ai, Tome): Generate slides but lack narrative cohesion
 
 **Conclusion**
