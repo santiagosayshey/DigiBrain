@@ -236,3 +236,22 @@ Each feature in Synapsis is directly tied to the structured text decomposition a
     Once each paragraph and sentence is properly classified, the bottom-up reconstruction engine assembles points into an argument tree (thesis, supporting points, counterpoints) and generates a polished summary with matching visuals. The final video includes narration drawn from the gist-based summary, stitched together with AI-generated illustrations. For _Job 1_, this video format allows lightning-fast triage of a paper’s relevance; for _Job 2_, it becomes a powerful tool to present findings to multidisciplinary audiences in a more engaging, digestible manner. Users can set the depth of coverage—brief overviews for quick scanning or expanded narratives for teaching and presentations—supporting both functional efficiency and emotional confidence in the completeness of their understanding.
 
 By integrating these features into a cohesive workflow, Synapsis not only streamlines the reading experience (minimizing time and mental strain) but also helps users shine in their professional and academic circles, demonstrating mastery through clear, visually compelling communication.
+
+
+1. **Text Acquisition & Processing**: Ingest text documents (research papers, technical content) through direct uploads or URL processing. Extract metadata (publication date, authors, keywords) for contextual understanding.
+2. **Structural Analysis**: Identify hierarchical structure using NLP to recognize headers, subheadings, argument patterns, and conclusion statements. Map relationships between concepts through semantic network analysis.
+3. **Content Distillation**: Generate concise summaries of each structural element using extractive followed by abstractive techniques. Prioritize key findings, methodologies, and implications while maintaining original document's logical flow.
+4. **Sentence-Level Decomposition**: Break paragraph summaries into discrete semantic units optimized for visual representation. Balance information density with clarity.
+5. **Visual Conceptualization**: For each semantic unit, generate detailed image prompts that visually represent both concrete and abstract concepts. Include style parameters, composition guidelines, and visual metaphors.
+6. **Narrative Construction**: Combine semantic units into cohesive narrative, adding transitional phrases and ensuring logical progression. Apply natural language generation to enhance flow and conversational tone.
+7. **Linguistic Refinement**: Process draft transcript through specialized language models for grammar correction, vocabulary enhancement, and prosody markers for natural speech patterns.
+8. **Voice Synthesis**: Convert refined transcript to audio using advanced text-to-speech technology with customizable voice characteristics (pitch, pace, emotional tone) matched to content type.
+9. **Visual Asset Creation**: Generate individual images from visual prompts using generative AI models. Optimize for visual consistency across frames while maintaining style coherence.
+10. **Visual Interpolation**: Create smooth transitions between keyframes through:
+    - Frame analysis to identify shared visual elements
+    - Motion vector calculation between corresponding elements
+    - Diffusion-based interpolation generating intermediary frames
+    - Style-consistent transition effects at conceptual boundaries
+    - Frame rate optimization for perceived smoothness
+11. **Audiovisual Synchronization**: Align generated visuals with voice track, ensuring visual transitions complement narrative pace. Implement timing adjustments for emphasis on complex concepts.
+12. **Final Output Creation**: Compile synchronized audio and visual components into production-ready video format with appropriate metadata, chapter markers, and interactive elements.
