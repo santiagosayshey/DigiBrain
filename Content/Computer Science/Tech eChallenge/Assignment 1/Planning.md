@@ -212,3 +212,9 @@ Wake Up and Smell the Modafinil. (2022). Emergency Physicians Monthly. https://e
 ## Task 3.2 Initial Draft
 
 **Introduction**
+
+Text-based information requires significant cognitive effort to process and understand, particularly as complexity increases. People generally comprehend and retain visual information more effectively than text alone. This challenge is especially acute for researchers, students, and authors who must extract key insights from dense research papers filled with technical terminology and complex structures.
+
+AI and language model technology offers a solution by systematically breaking text into core components and reconstructing it into more accessible formats that incorporate visual elements. This approach preserves critical information while reducing the time and mental effort needed for comprehension.
+
+Synapsis implements this solution by converting research papers into concise video summaries that combine clear language with relevant visuals. The following sections will examine how these capabilities address the specific jobs that researchers need to accomplish when working with academic literature.
