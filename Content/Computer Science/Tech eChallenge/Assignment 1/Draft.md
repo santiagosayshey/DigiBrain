@@ -112,9 +112,8 @@ Synapsis transforms complex technical content into engaging video summaries with
 
 ## Part 2
 
-- 'Coffee Market Size, Share & Trends Analysis Report' 2025, Straits Research, viewed 10 April 2025, [https://straitsresearch.com/report/coffee-market](https://straitsresearch.com/report/coffee-market).
-
-Caffeine Use and Attentional Engagement in Everyday Life. (2024). Science Direct. https://www.sciencedirect.com/science/article/pii/S2666518224000068
+- 'Coffee Market Size, Share & Trends Analysis Report' 2025, Straits Research, viewed 11 April 2025, [https://straitsresearch.com/report/coffee-market](https://straitsresearch.com/report/coffee-market).
+- Kruger, TB, Dixon, MJ & Smilek, D 2024, 'Caffeine Use and Attentional Engagement in Everyday Life', Current Research in Behavioral Sciences, vol. 7, article no. 100152.
 
 Motivations Influencing Caffeine Consumption Behaviors among College Students in Korea: Associations with Sleep Quality. (2020). MDPI. https://www.mdpi.com/2072-6643/12/4/953
 
