@@ -100,7 +100,7 @@ Existing solutions fall short in comprehensive knowledge processing:
 Synapsis transforms complex technical content into engaging video summaries with clear language and dynamic visuals. By addressing both rapid comprehension of dense material and effective knowledge sharing with diverse audiences, it revolutionises how professionals interact with and communicate complex information in today's information-saturated environment.
 
 # References
-- Christensen, C, Dillon, K, Hall, T & Duncan, D (2016), "Know Your Customers' Jobs to Be Done", Innosight, viewed 10 April 2025, <https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/>.
+- Christensen, CM, Duncan, DS, Dillon, K & Hall, T 2016, 'Know your customers' "Jobs to Be Done"', Innosight, viewed 10 April 2025, [https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/](https://www.innosight.com/insight/know-your-customers-jobs-to-be-done/).
 
 
 
