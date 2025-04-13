@@ -25,7 +25,7 @@ To demonstrate the logical absurdity of this reasoning, we can apply it to anoth
 
 The absurdity of this parallel argument reveals the fundamental contradiction in Koch's reasoning. An action cannot be both so morally wrong that it demands an equally just punishment, while also being morally permissible when used as that punishment.
 
-Finally, let us explore false dichotomy Koch presents. He suggests that we must either kill murderers, or let them keep killing people. Are these the only two choices we have? No! Let us go back to the sexual assault scenario. We have in place, many solutions to deal with this problem - incarceration, predator lists, therapy, intervention, all of which 
+Finally, let us explore false dichotomy Koch presents. He suggests that we must either kill murderers, or let them keep killing people. Are these the only two choices we have? No! Let us go back to the sexual assault scenario. We have in place, many solutions to deal with this problem - incarceration, predator lists, therapy, intervention, all of which aim not only to provide justice, but prevent from occuring in the first place. Why cannot it not be, that we have a solution in place that helps to prevent murder in the first place? Better education, mental health services, can all act as non contradictory solutions to the major source of actual homicides. 
 
 # References
 
