@@ -11,6 +11,12 @@ Koch's argument requires careful examination. He suggests that the death penalty
 
 Koch's argument fundamentally misunderstands the nature of killing; according to the U.S Department of Justice's studies on violent crime, approximately 90% of murders are committed by first-time offenders, while repeat offenders account for less than 1% of all homicides (*Prescott, Pyle & Starr 2020, p. 1670*). This empirical evidence directly contradicts Koch's first premise, undermining his entire argument. Even if we were to accept his logic that execution is necessary to prevent future murders, implementing the death penalty would, at most, prevent only 1% of future homicides. Furthermore, studies from states with and without capital punishment show no significant difference in murder rates, suggesting that the death penalty fails even as a deterrent (*Death Penalty Information Center 2023*). Koch's argument for public safety through execution collapses under the weight of statistical evidence.
 
+Let us now consider Koch's self contradictory premises to show how absurd his argument really is. When we map his argument to it's analogous form, we get:
+
+- P1: If Y will do X, then we must do X to Y to prevent X
+- P2: Y will X
+- C: Therefore, we must X to Y
+
 
 # References
 
