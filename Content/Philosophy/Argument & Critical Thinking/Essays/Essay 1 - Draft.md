@@ -1,7 +1,4 @@
 
 # Introduction
 
-Koch affirms that the death penalty prevents murderers from killing again. He argues that state sanctioned killing is morally justifiable 
-
-
-In this essay I will show why this public safety argument does not hold, and fails 
+Edward Koch argues in favour of the death penalty, suggesting that state sanctrio is a necessary requirement to ensure public safety
