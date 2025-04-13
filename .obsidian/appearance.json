@@ -3,13 +3,7 @@
   "cssTheme": "",
   "theme": "obsidian",
   "textFontFamily": "",
-  "enabledCssSnippets": [
-    "App",
-    "blocks",
-    "canvas",
-    "table",
-    "Video"
-  ],
+  "enabledCssSnippets": [],
   "interfaceFontFamily": "",
   "monospaceFontFamily": "",
   "baseFontSize": 14
