@@ -23,7 +23,7 @@ To demonstrate the logical absurdity of this reasoning, we can apply it to anoth
 - P2: Such rapists will sexually assault someone again
 - C: Therefore, we must sexually assault rapists
 
-The blunt absurdity of this similar argument reveals the fundamental contradiction in Koch's reasoning. His argument simultaneously holds that an act is so morally reprehensible it demands the ultimate response, yet then prescribes that very act as a legitimate form of retribution. This creates a logical contradiction: an action cannot be both so morally wrong that it demands an equally just punishment, while also being morally permissible when used as that punishment.
+The absurdity of this parallel argument reveals the fundamental contradiction in Koch's reasoning. An action cannot be both so morally wrong that it demands an equally just punishment, while also being morally permissible when used as that punishment.
 
 # References
 
