@@ -5,7 +5,7 @@ Koch argues that the death penalty helps affirm the value of human life rather t
 
 Koch's most powerful(?) reasoning for this is the public safety argument. It can be mapped as follows:
 
-- P1: Murderers will kill again, both in prison and after release
+- P1: Some murderers will kill again, both in prison and after release
 - P2: Only the death penalty guarantees a murderer will never kill again
 - C: The death penalty is necessary to protect innocent people
 
