@@ -30,7 +30,7 @@ Even if we set aside the statistical and logical failures, Koch's argument colla
 
 # Conclusion
 
-Koch's argument for the death penalty fails on multiple levels: it ignores empirical evidence about murder rates, relies on self-contradictory logic, and presents a false dichotomy between execution and inaction. His vision of a retributive society ultimately devolves into an emotional appeal for vengeance, rather than offering evidence-based solutions that could potentially prevent murder and protect human life.
+Koch's argument for the death penalty fails on multiple levels: it ignores empirical evidence about murder rates, relies on self-contradictory logic, and presents a false dichotomy between execution and inaction. His vision of a retributive society ultimately devolves into an emotional appeal for vengeance, rather than presenting a logically sound justification for capital punishment.
 
 # References
 
