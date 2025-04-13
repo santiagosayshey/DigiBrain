@@ -23,7 +23,7 @@ Koch's argument assumes killing is so morally wrong that it justifies killing in
 - P2: Rapists will rape again
 - C: Therefore, we must rape rapists
 
-The argument admits to the moral impermissibility of an action, then justifies the same action as a form of moral retribution. 
+The argument admits to the moral impermissibility of an action, then justifies the same action as a form of moral retribution. This reveals how Koch's argument contradicts itself: it can't coherently claim that an action is so wrong it justifies doing that exact action as punishment.
 
 # References
 
