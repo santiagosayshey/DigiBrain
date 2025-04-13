@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Exam 1"
+              "title": "The Death Penalty"
             }
           }
         ],
@@ -174,8 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "048aebd30a716395",
+  "active": "3f3c9a8ba21370d4",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
+    "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
+    "Content/Philosophy/Argument & Critical Thinking/Essays",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
@@ -194,7 +197,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.2 Reasoning with Uncertainty.md",
-    "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
     "Content/Philosophy/Argument & Critical Thinking/Email",
     "Images/Pasted image 20250407100105.png",
@@ -215,7 +217,6 @@
     "Images/Frame 4 1.png",
     "Images/Frame 4.png",
     "Content/Computer Science/Tech eChallenge/MVP",
-    "Content/Computer Science/Using Machine Learning Tools/Quizzes/Untitled",
     "Images/6a.png",
     "Images/6c.png",
     "Images/6b.png",
