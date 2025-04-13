@@ -17,6 +17,13 @@ Let us now consider Koch's self contradictory premises to show how absurd his ar
 - P2: Y will X
 - C: Therefore, we must X to Y
 
+Koch's argument assumes killing is so morally wrong that it justifies killing in response. Let us apply this logical reasoning to an equally reprehensible act: rape. 
+
+- P1: If a rapist will rape again, then we must rape them to prevent rape
+- P2: Rapists will rape again
+- C: Therefore, we must rape rapists
+
+The argument admits to the moral impermissibility of an action, then justifies the same action as a form of moral retribution. 
 
 # References
 
