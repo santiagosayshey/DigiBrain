@@ -3,7 +3,7 @@
 
 Edward Koch believes in a retributive society. He suggests that murder is so morally wrong that it deserves an equally just punishment - state sanctioned killing. He argues that killing murderers is a necessary requirement for public safety. In this essay, I will show why this argument ignores crucial statistical evidence about murder, relies on self contradictory premises, presents a false dichotomy of choice, and ultimately fails to justify its conclusion from both an empirical and logical standpoint. 
 
-Koch's argument requires careful examination. He suggests that the death penalty helps affirm the value of human life rather than diminishing it. It serves as the _only_ adequate response to murder by ensuring justice for victims and preventing murderers from killing again. While Koch makes several claims to support this position, his most substantial reasoning centres on public safety. This argument can be mapped as follows:
+Koch's central argument hinges on a striking paradox: he claims that executing murderers affirms rather than diminishes the value of human life. He presents capital punishment as the _only_ adequate response to murder, arguing it both delivers justice for victims and prevents future killings. While Koch offers several justifications for this position, his argument ultimately rests on a claim about public safety. His reasoning can be mapped as follows:
 
 - Premise 1: If a convicted murderer will murder again, then we must kill them to prevent murder.
 - Premise 2: A convicted murderer will murder again.
