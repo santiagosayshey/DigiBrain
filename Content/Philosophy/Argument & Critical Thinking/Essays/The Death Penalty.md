@@ -49,5 +49,15 @@ Rape Analogy:
 - P2: Rapists will rape again
 - C: Therefore, we must rape rapists
 
+The rape analogy not only shows the absurdity of Koch's logic but exposes a crucial hidden premise:
+
+Koch's argument assumes killing is so morally wrong that it justifies killing in response. When we apply this same moral reasoning to rape:
+
+- If rape is so morally wrong that it justifies the most extreme response...
+- And we use rape itself as that response...
+- Then we're admitting rape is simultaneously morally wrong AND morally justified
+
+This reveals how Koch's argument contradicts itself: it can't coherently claim that an action is so wrong it justifies doing that exact action as punishment.
+
 Counter Argument: 
-- Koch claims the death penalty is necessary to prevent murders by executing convicted murderers. However, this claim is demonstrably false: 90% of murders are committed by first-time offenders, while only 1% are by repeat offenders. This single counterexample proves that executing convicted murderers cannot prevent the majority of murders, since they haven't killed before. Even if we executed every convicted murderer, we would at best prevent only 1% of future murders, while being powerless to prevent the other 90%.
+- Koch claims the death penalty is necessary to prevent murders by executing convicted murderers. However, this claim is demonstrably false: 90% of murders are committed by first-time offenders, while only 1% are by repeat offenders. This single counterexample proves that executing convicted murderers cannot prevent the majority of murders, since they haven't killed before. Even if we executed every convicted murderer, we would at best prevent only 1% of future murders, while being powerless to prevent the other 90%. Furthermore, Koch presents a false choice between execution and allowing murders to occur, ignoring proven alternatives like life imprisonment, maximum security facilities, and rehabilitation programs. His argument not only fails to address the main source of murders (first-time offenders) but also falsely suggests execution is the only way to prevent the small percentage of repeat offenses.
