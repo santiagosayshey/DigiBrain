@@ -11,19 +11,19 @@ Koch's argument requires careful examination. He suggests that the death penalty
 
 Koch's argument fundamentally misunderstands the nature of killing; according to the U.S Department of Justice's studies on violent crime, approximately 90% of murders are committed by first-time offenders, while repeat offenders account for less than 1% of all homicides (*Prescott, Pyle & Starr 2020, p. 1670*). This empirical evidence directly contradicts Koch's first premise, undermining his entire argument. Even if we were to accept his logic that execution is necessary to prevent future murders, implementing the death penalty would, at most, prevent only 1% of future homicides. Furthermore, studies from states with and without capital punishment show no significant difference in murder rates, suggesting that the death penalty fails even as a deterrent (*Death Penalty Information Center 2023*). Koch's argument for public safety through execution collapses under the weight of statistical evidence.
 
-Let us now consider Koch's self contradictory premises to show how absurd his argument really is. When we map his argument to it's analogous form, we get:
+Let us now consider Koch's self-contradictory premises. When we map his argument to its analgous form, we get:
 
 - P1: If Y will do X, then we must do X to Y to prevent X
 - P2: Y will X
 - C: Therefore, we must X to Y
 
-Koch's argument assumes killing is so morally wrong that it justifies killing in response. Let us apply this logical reasoning to an equally reprehensible act: rape. 
+To demonstrate the logical absurdity of this reasoning, we can apply it to another serious crime. Consider how Koch's argument structure would apply to sexual assault:
 
-- P1: If a rapist will rape again, then we must rape them to prevent rape
-- P2: Rapists will rape again
-- C: Therefore, we must rape rapists
+- P1: If a rapist who has committed sexual assault will do so again, then we must sexually assault them to prevent future assaults
+- P2: Such rapists will sexually assault someone again
+- C: Therefore, we must sexually assault rapists
 
-The argument admits to the moral impermissibility of an action, then justifies the same action as a form of moral retribution. This reveals how Koch's argument contradicts itself: it can't coherently claim that an action is so wrong it justifies doing that exact action as punishment.
+The blunt absurdity of this similar argument reveals the fundamental contradiction in Koch's reasoning. His argument simultaneously holds that an act is so morally reprehensible it demands the ultimate response, yet then prescribes that very act as a legitimate form of retribution. This creates a logical contradiction: an action cannot be both so morally wrong that it demands an equally just punishment, while also being morally permissible when used as that punishment.
 
 # References
 
