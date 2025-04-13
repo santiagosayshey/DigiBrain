@@ -28,8 +28,17 @@ even closer:
 - P2: Killing people prevents them from killing in the first place
 - C: Therefore we should klill people to prevent people killing
 
+# More Formal Notes
 
-# Ideas for arguing against
-- Counterexample - the 90% of first time murderers will still have commited a murder - the death penalty will never have been able to prevent those. Can we also call this a hasty generalisation? 
-- analogy - reducing his argument down, then replacing killing with raping to show a reduction to absurdism. 
-- not sound - 
+Koch argues that the death penalty helps affirm the value of human life rather than diminishing it, serving as the only adequate response to heinous murder by ensuring justice for victims and preventing murderers from killing again.
+
+Koch's most powerful(?) reasoning for this is the public safety argument. It can be mapped as follows:
+- P1: If someone will murder, then we must kill them first to prevent them from murdering
+- P2: Somone will murder
+- C: Therefore, we must kill them first
+
+Mapped logically, this becomes:
+- P1: If someone will do x, then we must do x to them first to prevent x
+- P2: Someone will x
+- C: Therefore, we must x them first
+
