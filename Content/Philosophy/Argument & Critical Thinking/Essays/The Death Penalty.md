@@ -19,6 +19,11 @@ logical form
 - C: Therefore, we should do X to prevent X
 
 analogy:
-- P1: Some people will rape
+- P1: Some people will rape other people
 - P2: Raping rapists prevents them from raping again
 - C: Therefore, we should rape people to prevent rape
+
+even closer:
+- P1: Some people will kill other people (which by the data, is most murders, not just repeat offdenders)
+- P2: Killing people prevents them from killing in the first place
+- C: Therefore we should klill people to prevent people killing
