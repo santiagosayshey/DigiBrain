@@ -7,7 +7,7 @@ Koch's most powerful(?) reasoning for this is the public safety argument. It can
 
 - P1: Some murderers will kill again, both in prison and after release
 - P2: The death penalty guarantees a murderer will never kill again
-- C: The death penalty is necessary to protect innocent people
+- C: The death penalty is necessary to protect innocent people from murderers
 
 disproving data
 - data that says that 90% of murders in the US happen from a first time murdered (ie, there was no oppurtunity to sentence them to the death penalty because they had not murdered before).
@@ -32,3 +32,4 @@ even closer:
 # Ideas for arguing against
 - Counterexample - the 90% of first time murderers will still have commited a murder - the death penalty will never have been able to prevent those. Can we also call this a hasty generalisation? 
 - analogy - reducing his argument down, then replacing killing with raping to show a reduction to absurdism. 
+- not sound - 
