@@ -6,7 +6,7 @@ Koch argues that the death penalty helps affirm the value of human life rather t
 Koch's most powerful(?) reasoning for this is the public safety argument. It can be mapped as follows:
 
 - P1: Some murderers will kill again, both in prison and after release
-- P2: Only the death penalty guarantees a murderer will never kill again
+- P2: The death penalty guarantees a murderer will never kill again
 - C: The death penalty is necessary to protect innocent people
 
 disproving data
@@ -27,3 +27,8 @@ even closer:
 - P1: Some people will kill other people (which by the data, is most murders, not just repeat offdenders)
 - P2: Killing people prevents them from killing in the first place
 - C: Therefore we should klill people to prevent people killing
+
+
+# Ideas for arguing against
+- Counterexample - the 90% of first time murderers will still have commited a murder - the death penalty will never have been able to prevent those. Can we also call this a hasty generalisation? 
+- analogy - reducing his argument down, then replacing killing with raping to show a reduction to absurdism. 

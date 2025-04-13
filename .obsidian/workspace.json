@@ -38,6 +38,21 @@
             }
           },
           {
+            "id": "57262b6c81e7868e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Formal Logic"
+            }
+          },
+          {
             "id": "f2a971d9dc0be95e",
             "type": "leaf",
             "state": {
@@ -100,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "analogous",
+                "query": "counter ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,10 +222,10 @@
   },
   "active": "3f3c9a8ba21370d4",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
-    "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
+    "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
