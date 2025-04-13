@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Death Penalty"
+              "title": "Essay 1 - Notes"
             }
           }
         ]
@@ -34,13 +34,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Death Penalty"
+              "title": "Essay 1 - Draft"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "8c369b140f490892",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
+    "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
-    "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
@@ -216,7 +217,6 @@
     "Content/Philosophy/Moral Problems/Exams/Essay.md",
     "Content/Philosophy/Moral Problems/Notes/3.1 Rossian Pluralism.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
-    "Content/Philosophy/Moral Problems/Quizzes/Logic Quiz.md",
     "Content/Philosophy/Moral Problems/Exams",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Images/Group 11.png",
