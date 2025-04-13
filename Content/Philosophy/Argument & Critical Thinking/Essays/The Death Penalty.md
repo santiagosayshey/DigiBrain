@@ -37,7 +37,7 @@ Koch's most powerful reasoning centers on the public safety argument. It can be 
 Original Argument:
 - P1: If a convicted murderer will murder again, then we must kill them to prevent murder
 - P2: A convicted murderer will murder again
-- C: Therefore, we must kill them
+- C: Therefore, we must kill convicted murderers
 
 Mapped Logically:
 - P1: If Y will do X, then we must do X to Y to prevent X
@@ -47,4 +47,7 @@ Mapped Logically:
 Rape Analogy:
 - P1: If a rapist will rape again, then we must rape them to prevent rape
 - P2: Rapists will rape again
-- C: Therefore, we must rape them
+- C: Therefore, we must rape rapists
+
+Counter Argument: 
+- Koch claims the death penalty is necessary to prevent murders by executing convicted murderers. However, this claim is demonstrably false: 90% of murders are committed by first-time offenders, while only 1% are by repeat offenders. This single counterexample proves that executing convicted murderers cannot prevent the majority of murders, since they haven't killed before. Even if we executed every convicted murderer, we would at best prevent only 1% of future murders, while being powerless to prevent the other 90%.
