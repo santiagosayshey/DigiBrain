@@ -25,6 +25,8 @@ To demonstrate the logical absurdity of this reasoning, we can apply it to anoth
 
 The absurdity of this parallel argument reveals the fundamental contradiction in Koch's reasoning. An action cannot be both so morally wrong that it demands an equally just punishment, while also being morally permissible when used as that punishment.
 
+Finally, let us explore false dichotomy Koch presents. He suggests that we must either kill murderers, or let them keep killing people. Are these the only two choices we have? No! Let us go back to the sexual assault scenario. We have in place, many solutions to deal with this problem - incarceration, predator lists, therapy, intervention, all of which 
+
 # References
 
 - Prescott, JJ, Pyle, B & Starr, SB 2020, 'Understanding Violent-Crime Recidivism', Notre Dame Law Review, vol. 95, no. 4, pp. 1643-1698.
