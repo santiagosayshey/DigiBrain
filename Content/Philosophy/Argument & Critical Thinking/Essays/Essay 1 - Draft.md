@@ -9,4 +9,4 @@ Koch's argument requires careful examination. He suggests that the death penalty
 - Premise 2: A convicted murderer will murder again.
 - Conclusion: Therefore, we must kill convicted murderers. 
 
-The claim that we *must* kill murderers to prevent them from killing again is demonstrably false. Over 90% 
+The claim that we *must* kill murderers to prevent killing again is demonstrably false. 90% of murders are actually committed by first time murder offenders, while less than 1% are by repeat offenders ()
