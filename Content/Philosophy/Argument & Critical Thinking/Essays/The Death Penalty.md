@@ -13,7 +13,21 @@ disproving data
 - data that says that 90% of murders in the US happen from a first time murdered (ie, there was no oppurtunity to sentence them to the death penalty because they had not murdered before).
 - the numbers get increasingly lower for repeat offenders, roughly 1% of all murders occur from these people after either having served any amount of time or even while still incarcerated.
 
-
 logical form
-- P1: X will cause Y
-- P2: Z 
+- P1: Some x will y
+- p2: Doing y to x before they can y gurantees they will never y again
+- c: y is nessecary to protect x
+
+
+analogy
+
+- p1: some people will kill another person
+- p2: killing before they can kill another person prevents them from killing again
+- c: we should kill people to protect people
+
+more analogy
+
+
+p1: rapists will rape again
+p2: a rape penality will prevent a rapist from raping again
+c: we should sodomise rapists to protect people
