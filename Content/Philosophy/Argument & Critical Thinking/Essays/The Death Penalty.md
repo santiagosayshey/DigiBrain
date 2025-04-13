@@ -32,13 +32,19 @@ even closer:
 
 Koch argues that the death penalty helps affirm the value of human life rather than diminishing it, serving as the only adequate response to heinous murder by ensuring justice for victims and preventing murderers from killing again.
 
-Koch's most powerful(?) reasoning for this is the public safety argument. It can be mapped as follows:
-- P1: If someone will murder, then we must kill them first to prevent them from murdering
-- P2: Somone will murder
-- C: Therefore, we must kill them first
+Koch's most powerful reasoning centers on the public safety argument. It can be mapped as follows:
 
-Mapped logically, this becomes:
-- P1: If someone will do x, then we must do x to them first to prevent x
-- P2: Someone will x
-- C: Therefore, we must x them first
+Original Argument:
+- P1: If a convicted murderer will murder again, then we must kill them to prevent murder
+- P2: A convicted murderer will murder again
+- C: Therefore, we must kill them
 
+Mapped Logically:
+- P1: If Y will do X, then we must do X to Y to prevent X
+- P2: Y will X
+- C: Therefore, we must X to Y
+
+Rape Analogy:
+- P1: If a rapist will rape again, then we must rape them to prevent rape
+- P2: Rapists will rape again
+- C: Therefore, we must rape them
