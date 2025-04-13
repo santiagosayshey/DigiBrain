@@ -1,4 +1,3 @@
-
 # Introduction
 
 Edward Koch believes in a retributive society. He suggests that murder is so morally wrong that it deserves an equally just punishment - state sanctioned killing. He argues that killing murderers is a necessary requirement for public safety. In this essay, I will show why this argument ignores crucial statistical evidence about murder, relies on self contradictory premises, presents a false dichotomy of choice, and ultimately fails to justify its conclusion from both an empirical and logical standpoint. 
@@ -10,7 +9,7 @@ Koch's claims that executing murderers affirms rather than diminishes the value 
 - Premise 2: A convicted murderer will murder again.
 - Conclusion: Therefore, we must kill convicted murderers. 
 
-Koch's argument fundamentally fails the test of soundness because its key premise is demonstrably false; according to the U.S Department of Justice's studies on violent crime, approximately 90% of murders are committed by first-time murderers, while repeat offenders account for less than 1% of all homicides (_Prescott, Pyle & Starr 2020, p. 1670_). This empirical evidence directly contradicts Koch's second premise that convicted murderers will murder again, undermining his entire argument's soundness. Even if we were to accept his logic that execution is necessary to prevent future murders, implementing the death penalty would, at most, prevent only 1% of future homicides. Koch's argument for public safety through execution collapses because its premises fail to correspond with empirical reality, rendering the entire argument unsound regardless of its logical structure.
+Koch's argument fundamentally fails the test of soundness because its key premise is demonstrably false; according to the U.S Department of Justice's studies on violent crime, approximately 90% of murders are committed by first-time murderers, while repeat offenders account for less than 1% of all homicides (_Prescott, Pyle & Starr 2020, p. 1670_). This empirical evidence directly contradicts Koch's first premise that killing murderers will stop murders from occuring, undermining his entire argument's soundness. Even if we were to accept his logic that execution is necessary to prevent future murders, implementing the death penalty would, at most, prevent only 1% of future homicides. Koch's argument for public safety through execution collapses because its premises fail to correspond with empirical reality, rendering the entire argument unsound regardless of its logical structure.
 
 This evidence exposes Koch's empirical errors, but his argument suffers from an even deeper logical contradiction. When we map his argument to its analogous form, we get:
 
