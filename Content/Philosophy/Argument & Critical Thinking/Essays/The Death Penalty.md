@@ -5,4 +5,11 @@
 p1: killing people is wrong
 p2: people who do wrong things deserve to be punished
 p3: the death penalty is a suitable punishment
-c: we should subject murders to the death penalty
+c: we should subject murderers to the death penalty
+
+using analogy, we get:
+
+p1: raping people is wrong
+p2: people do wrong things deserve to be punished
+p3: a hypothetical rape penalty is a suitable punishment (????)
+c: we should sodomise
