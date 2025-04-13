@@ -27,6 +27,8 @@ The absurdity of this parallel argument reveals the fundamental contradiction in
 
 Even if we set aside the statistical and logical failures, Koch's argument collapses into a false dichotomy; either we execute murderers, or we accept that they will kill again. Society's approach to other serious crimes demonstrates why this is overly simplistic. When addressing sexual assault, society employs comprehensive strategies including incarceration, rehabilitation, and preventive education - none of which require committing the original offence as punishment. Similarly, we can address homicide through evidence-based approaches like mental health services and effective gun control measures. These preventive measures have proven far more effective at reducing murder rates than capital punishment, revealing how Koch's binary choice between execution and inaction ignores viable alternatives.
 
+# Conclusion
+
 Koch's argument for the death penalty fails on multiple levels: it ignores empirical evidence about murder rates, relies on self-contradictory logic, and presents a false dichotomy between execution and inaction. His vision of a retributive society ultimately devolves into an emotional appeal for vengeance, rather than offering evidence-based solutions that could actually prevent murder and protect human life.
 
 # References
