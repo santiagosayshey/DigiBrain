@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "straw man",
+                "query": "analogy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f3c9a8ba21370d4",
+  "active": "cedd67da0bc47203",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/The Death Penalty.md",

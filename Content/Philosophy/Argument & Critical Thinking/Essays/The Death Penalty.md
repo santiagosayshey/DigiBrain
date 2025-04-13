@@ -9,3 +9,5 @@ Koch's most powerful(?) reasoning for this is the public safety argument. It can
 - P2: Only the death penalty guarantees a murderer will never kill again
 - P3: Protecting innocent lives is a primary responsibility of government
 - C: The death penalty is necessary to protect innocent people
+
+
