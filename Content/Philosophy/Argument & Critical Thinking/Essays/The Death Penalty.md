@@ -14,20 +14,11 @@ disproving data
 - the numbers get increasingly lower for repeat offenders, roughly 1% of all murders occur from these people after either having served any amount of time or even while still incarcerated.
 
 logical form
-- P1: Some x will y
-- p2: Doing y to x before they can y gurantees they will never y again
-- c: y is nessecary to protect x
+- P1: Some people will do harmful act X
+- P2: Doing X to them first prevents them from doing X
+- C: Therefore, we should do X to prevent X
 
-
-analogy
-
-- p1: some people will kill another person
-- p2: killing before they can kill another person prevents them from killing again
-- c: we should kill people to protect people
-
-more analogy
-
-
-p1: rapists will rape again
-p2: a rape penality will prevent a rapist from raping again
-c: we should sodomise rapists to protect people
+analogy:
+- P1: Some people will rape
+- P2: Raping rapists prevents them from raping again
+- C: Therefore, we should rape people to prevent rape
