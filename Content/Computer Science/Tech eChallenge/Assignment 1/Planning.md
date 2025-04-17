@@ -1,4 +1,4 @@
-## Initial Plan
+s## Initial Plan
 
 **Prompt (Claude Sonnet 3.7 w/ Extended Thinking):** 
 
