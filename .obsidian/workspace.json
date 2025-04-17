@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f0e0557a66255dd3",
+        "id": "f293acd51c817d80",
         "type": "tabs",
         "children": [
           {
-            "id": "fe7189c4fdc54edf",
+            "id": "083a38cd14580ff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
+                "file": "Content/Computer Science/Tech eChallenge/Notes/Dev Workflow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Essay 1 - Notes"
-            }
-          }
-        ]
-      },
-      {
-        "id": "07e75a3d23fd8c59",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8c369b140f490892",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Essay 1"
+              "title": "Dev Workflow"
             }
           }
         ]
@@ -179,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "048aebd30a716395",
+  "active": "083a38cd14580ff6",
   "lastOpenFiles": [
+    "Content/Computer Science/Tech eChallenge/Notes/Dev Workflow.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
@@ -215,7 +195,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy/Moral Problems/Exams/Essay.md",
-    "Content/Philosophy/Moral Problems/Notes/3.1 Rossian Pluralism.md",
     "Content/Philosophy/Moral Problems/Exams",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
     "Images/Group 11.png",
