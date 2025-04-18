@@ -141,9 +141,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "4ee3f50c4c6f54d8",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-todoist",
+              "state": {},
+              "icon": "lucide-list-checks",
+              "title": "Todoist"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -158,15 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "083a38cd14580ff6",
+  "active": "4ee3f50c4c6f54d8",
   "lastOpenFiles": [
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Computer Science/Tech eChallenge/Notes/Dev Workflow.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Untitled 2.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/1.2 Objectivity and Skepticism.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
