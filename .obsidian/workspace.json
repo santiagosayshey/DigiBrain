@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Draft"
+              "title": "Tutorial 5"
             }
           }
         ]
@@ -168,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ee3f50c4c6f54d8",
+  "active": "083a38cd14580ff6",
   "lastOpenFiles": [
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
