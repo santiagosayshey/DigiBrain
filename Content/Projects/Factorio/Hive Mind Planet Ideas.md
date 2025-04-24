@@ -40,18 +40,18 @@ As the player expands from the safe landing zone, they discover active ant colon
 ### Technology Progression Path:
 
 1. **Basic Recycling** → Break down ant carcasses into raw components:
+    
     - Chitin Fragments (exoskeleton)
     - Neural Tissue (brain matter)
     - Organic Slurry (internal organs and fluids)
-2. **Neural Scanner** → Unlocked after analyzing enough neural tissue samples
-    - Reveals the quantum nature of ant neural networks
-    - Allows tracking of colony territories and queen locations
-3. **Biomolecular Assembler** → (renamed from "bioplant")
+2. **Biomolecular Assembler** → (renamed from "bioplant")
     
     - **Trigger Tech**: Unlocked after collecting a specific threshold of diverse neural tissue samples from multiple colonies
     - Allows combining organic components into advanced materials
     - Housed in a pulsating, brain-like organic structure that mimics the neural processing of the ants
-4. **Quantum Synthesis** → Combines neural tissue with electronic components to create:
+    - Features 100% productivity bonus (double the standard 50%) with 4 module slots
+    - Can be transported back to other planets for specialized processing
+3. **Quantum Synthesis** → Combines neural tissue with electronic components to create:
     
     - Quantum Processors (advanced circuits utilizing quantum properties of ant brains)
     - Colonial Synchronizers (communication devices that tap into the ant hivemind)
@@ -74,28 +74,94 @@ The "Entanglement Essence" science pack is created from processed neural tissue 
 - **Tradeoff**: Each Jump Clone requires a Queen Ganglion, meaning players must sacrifice entire colonies for interplanetary travel
     
 
-## Resource Processing Chain
+## Biomolecular Assembler Details
 
-### Chitin Processing (for Low Density Structure)
+The Biomolecular Assembler is a unique building that mimics the organizational capabilities of the ant hivemind. It appears as a pulsating, semi-transparent organic structure with visible neural pathways that light up during operation.
 
-1. Harvest worker ant exoskeletons
-2. Extract and purify chitin fibers using chemical processing
-3. Align the chitin molecules in helical structures (mimicking the natural arrangement)
-4. Combine with minimal metal reinforcement to create ultra-lightweight, durable panels
+### Special Features:
 
-### Neural Processing (for Processing Units)
+- **Enhanced Productivity**: 100% productivity bonus (double the standard 50%)
+- **Module Capacity**: 4 module slots
+- **Transportable**: Can be dismantled and rebuilt on other planets
+- **Organic Interface**: Requires organic materials for construction and maintenance
 
-1. Extract neural tissue from worker ants
-2. Process in Biomolecular Assembler to preserve quantum entanglement properties
-3. Combine with electronic components to create Quantum Processors
-4. Recycle Quantum Processors down to standard Processing Units for rocket components (effectively downgrading advanced technology for compatibility)
+### Key Recipes:
 
-### Organic Processing (for Rocket Fuel)
+#### Core Processing:
 
-1. Collect organic slurry from ant remains
-2. Condense and refine into crude oil using centrifugal separation
-3. Process using standard oil refining techniques
-4. Combine with water to produce rocket fuel components
+1. **Neural Refinement** - Processes raw neural tissue into purified quantum neural matter
+    
+    - Input: 5 Neural Tissue
+    - Output: 2 Quantum Neural Matter
+    - Time: 10 seconds
+2. **Chitin Molecular Alignment** - Restructures chitin into its optimal helical arrangement
+    
+    - Input: 10 Chitin Fragments, 1 Catalyst Solution
+    - Output: 5 Structured Chitin
+    - Time: 8 seconds
+3. **Hydrocarbon Synthesis** - Enhanced processing of organic matter into crude oil
+    
+    - Input: 20 Organic Slurry
+    - Output: 50 Crude Oil
+    - Time: 15 seconds
+
+#### Advanced Processing:
+
+4. **Oil Reclamation Loop** - Unique recipe that allows reprocessing of oil byproducts
+    
+    - Input: 100 Heavy Oil Residue, 50 Water
+    - Output: 80 Crude Oil
+    - Time: 30 seconds
+    - _This creates a sustainable oil cycle when transported back to resource-poor planets_
+5. **Queen Ganglion Processing** - Prepares queen neural tissue for jump clone technology
+    
+    - Input: 1 Queen Ganglion, 5 Advanced Circuits, 10 Quantum Neural Matter
+    - Output: 1 Consciousness Matrix
+    - Time: 60 seconds
+
+## Resource Processing Recipes
+
+### Quantum Processors:
+
+1. **Recipe**: (In Biomolecular Assembler)
+    
+    - 5 Quantum Neural Matter
+    - 2 Advanced Circuits
+    - 10 Copper Wire
+    - 5 Silicon
+    - Output: 1 Quantum Processor
+    - Time: 15 seconds
+2. **Processing Unit Conversion**: (In Assembling Machine)
+    
+    - 2 Quantum Processors
+    - Output: 5 Processing Units
+    - Time: 10 seconds
+    - _This represents breaking down the advanced quantum technology into standardized components_
+
+### Low Density Structure (LDS):
+
+1. **Structured Chitin Weaving**: (In Biomolecular Assembler)
+    - 10 Structured Chitin
+    - 5 Plastic Bars
+    - 2 Steel Plates
+    - Output: 3 Low Density Structure
+    - Time: 20 seconds
+    - _The unique molecular arrangement of the chitin creates an exceptionally strong yet lightweight material_
+
+### Rocket Fuel:
+
+1. **Enhanced Oil Processing**: (In Biomolecular Assembler)
+    
+    - 100 Crude Oil (from organic slurry)
+    - 50 Water
+    - Output: 50 Light Oil, 30 Heavy Oil, 20 Petroleum Gas
+    - Time: 15 seconds
+2. **Rocket Fuel Synthesis**: (Standard Chemical Plant)
+    
+    - 10 Light Oil
+    - 10 Solid Fuel
+    - Output: 1 Rocket Fuel
+    - Time: 30 seconds
 
 ## Strategic Gameplay Loop
 
