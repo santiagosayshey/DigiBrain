@@ -45,23 +45,13 @@ Key features of the Organic Synthesizer:
 - Self-sustaining once activated, allowing for transport to other planets
 - Unlocks crucial recipes for rocket construction and planetary escape
 
-Recipes:
-1. **Low Density Structure Creation**
-    - Input: 1 Reinforced Chitin Plate + 3 Iron Plates
-    - Output: 2 Low Density Structures
-    - Note: Iron plates must come from recycled chitin (processed in Recycler)
-2. **Quantum Processor Generation**
-    - Input: 2 Neural Matrix Clusters + 1 Electronic Circuit
-    - Output: 1 Quantum Processors
-    - Note: Electronic circuits must be made from recycled chitin's copper and iron
-3. **Crude Oil Production**
-    - Input: 50 Hydrocarbon Sacs
-    - Output: 1 Crude Oil
-    - Note: The initial extraction process is painfully inefficient. The organic synthesizer can barely convert the complex ant hydrocarbons without proper catalysts, wasting the vast majority of potential energy.
-4. **Enhanced Oil Production**
-    - Input: 10 Crude Oil + 1 Hydrocarbon Sac
-    - Output: 11 Crude Oil
-    - Note: By using existing crude oil as a base medium, the addition of fresh hydrocarbon sacs creates a small but sustainable increase. While the gain seems minimal, the ability to loop this process creates long-term sustainability.
+|Recipe|Inputs|Outputs|Properties & Lore|
+|---|---|---|---|
+|Low Density Structure Creation|1 Reinforced Chitin Plate + 2 Iron Plates + 2 Copper Plates|2 Low Density Structures|The Synthesizer weaves recycled iron and copper through the chitin's molecular matrix in a precise lattice pattern. The iron provides structural reinforcement while the copper creates conductive pathways that allow the material to dynamically redistribute stress loads. This dual-metal integration maintains the exoskeleton's incredible strength-to-weight ratio while adding adaptive resilience. The resulting structure is both lighter and stronger than either natural chitin or traditional metal alloys.|
+|Quantum Processor Generation|2 Neural Matrix Clusters + 1 Electronic Circuit|1 Quantum Processor|By interfacing conventional electronics with the quantum-entangled neural tissue, the Synthesizer creates processors that can perform quantum computations. The process is delicate - multiple neural clusters are needed to create a stable quantum state.|
+|Crude Oil Production|50 Hydrocarbon Sacs|1 Crude Oil|The initial conversion process is brutal and inefficient. The Synthesizer must completely break down the complex ant-based hydrocarbons into simpler molecules, losing most of the energy in the process. Without a proper medium to stabilize the conversion, most of the biological compounds are wasted.|
+|Enhanced Oil Production|10 Crude Oil + 1 Hydrocarbon Sac|11 Crude Oil|A breakthrough in efficiency. Using existing crude oil as a stabilizing medium, the Synthesizer can perfectly preserve the hydrocarbon sac's energy. The existing oil provides the exact molecular template needed for the biological compounds to transform cleanly. While the gain seems minimal, the sustainable loop creates unlimited potential.|
+|Quantum-Aligned Fuel|2 Neural Matrix Clusters + 5 Hydrocarbon Sacs|1 QAF|The neural clusters' quantum properties cause the hydrocarbons to align in impossible geometries, creating micro-singularities of fuel. The resulting material is so dense it can't achieve escape velocity, but produces enormous energy when burned. Power output equivalent to 50 standard solid fuel units.|
 
 The Organic Synthesizer must work in conjunction with other buildings:
 
@@ -73,7 +63,7 @@ All three rocket components can be manufactured entirely from ant-based resource
 
 | Rocket Part            | Resource Chain           | Processing Steps                                                                                                                                                                                                              |
 | ---------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Low Density Structures | Reinforced Chitin Plates | 1. Recycle some Chitin Plates into Iron and Copper Plates (2 Iron and 2 Copper plates per Chitin)<br>2. Combine in Organic Synthesizer: 1 Chitin + 2 Iron plates + 2 copper plates → 2 LDS (essentially 2 chitins)            |
+| Low Density Structures | Reinforced Chitin Plates | 1. Recycle some Chitin Plates into Iron and Copper Plates (2 Iron plates and 2 Copper plates per Chitin)<br>2. Combine in Organic Synthesizer: 1 Chitin + 2 Iron plates + 2 copper plates → 2 LDS (essentially 2 chitins)     |
 | Processing Units       | Neural Matrix Clusters   | 1. Recycle Chitin into Iron/Copper for circuits<br>2. Create Electronic Circuits from recycled metals<br>3. Synthesizer: 2 Clusters + 1 Circuit → 1Quantum Processors<br>4. Recycle: 1 Quantum Processors → 1 Processing Unit |
 | Rocket Fuel            | Hydrocarbon Sacs         | 1. Initial synthesis: 50 Sacs → 1 Crude Oil<br>2. Enhanced production: 10 Oil + 1 Sac → 11 Oil<br>3. Basic oil processing to get rocket fuel (as you do on other planets) (planet has water in abundance)                     |
 
