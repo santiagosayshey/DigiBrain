@@ -37,14 +37,12 @@ This living factory processes ant-based materials in unique ways, combining biol
 | Quantum-Aligned Fuel           | 1 Neural Matrix Clusters + 500 Hydrocarbon Sacs                             | 1 QAF                    | Creates impossibly dense fuel through quantum alignment of hydrocarbons.                                                                               |
 | Hive Science Pack              | 5 Neural Matrix Clusters + 2 Reinforced Chitin Plates + 10 Hydrocarbon Sacs | 5 Hive Science Packs     | Combines all three aspects of ant biology into a research substrate that unlocks their biological secrets.                                             |
 
-## Hive Science Research
+## Quantum Science Pack
 
 This unique science pack unlocks crucial technologies:
 
-- EMP technology
-- Queen combat preparations
-- Jump clone development paths
-
+- EMP Warheads - Disrupts ant neural networks
+- Jump Clone Technology - Create clones of the engineer and move them around the galaxy, switching between each's consciousnesses at will. 
 ## Rocket Construction
 
 Escape from Mentis requires adapting ant biology into traditional rocket components:
