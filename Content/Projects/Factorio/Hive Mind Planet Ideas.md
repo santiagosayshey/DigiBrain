@@ -6,6 +6,42 @@ The planet is dominated by highly evolved ant species that have become the apex 
 2. **Hydrocarbon-Rich Metabolism**: Their digestive systems have evolved to synthesize and store complex hydrocarbons as energy reserves. These biological compounds are remarkably similar to petroleum, allowing their processed remains to be converted into oil products.
 3. **Quantum Neural Network**: Perhaps their most extraordinary adaptation is their advanced neural system. Unlike Earth ants, these creatures have developed specialized neural ganglia that exhibit quantum entanglement properties. This allows the colony to function as a true hivemind, sharing information instantaneously across vast distances without conventional communication. Individual ants function as nodes in a distributed consciousness network.
 
+# Combat Mechanics & Defenses
+
+## Ant Combat Properties
+
+The highly evolved exoskeletons of these ants make them nearly impervious to traditional weapons:
+
+- **Bullet Immunity**: Their chitin-based armor doesn't just deflect bullets - it absorbs the kinetic energy and uses it to trigger localized regeneration. Each impact actually strengthens their exoskeleton.
+- **Missile Resistance**: Explosive damage is distributed through their exoskeleton's lattice structure, dissipating the force with minimal harm.
+- **Laser Deflection**: The unique molecular arrangement of their armor creates a reflective surface that scatters laser energy, rendering beam weapons ineffective.
+
+## Effective Combat Methods
+
+### Early Game: Tesla Defense
+
+The ants' greatest strength is also their critical weakness - their metallic-infused, conductive exoskeletons make them extremely vulnerable to electrical attacks:
+
+- Electric damage travels through their conductive armor
+- The current directly interferes with their neural networks
+- High voltage causes cascade failures in their quantum neural pathways
+- Tesla turrets and weapons become the primary early-game defense
+
+### Mid Game: EMP Innovation
+
+Research into the ants' quantum neural network leads to the development of specialized EMP warheads:
+
+- EMP rockets overload both their conductive exoskeletons and neural pathways
+- The electromagnetic pulse causes their quantum neural network to temporarily collapse
+- This controlled destruction preserves more of the valuable resources in their carcasses
+- Rocket turrets equipped with EMP warheads become the optimal harvesting method
+
+## Synthesizer EMP Recipe
+
+| Recipe                 | Inputs                                                     | Outputs       | Properties & Lore                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------------------- | ---------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EMP Warhead Production | 2 Neural Matrix Clusters + 5 Iron Plates + 2 Copper Plates | 5 EMP Rockets | The Synthesizer uses neural tissue to tune the EMP frequency to the ants' quantum signatures. The metallic components create a precisely shaped electromagnetic pulse that maximizes neural disruption while preserving valuable resources. Each warhead contains a small amount of neural material that resonates with the target's quantum field, amplifying the electromagnetic effect. |
+
 ## Territory and Queen Dynamics
 
 The planet's surface is divided into distinct territories, each controlled by a single queen ant. These territories function as effectively independent superorganisms:
