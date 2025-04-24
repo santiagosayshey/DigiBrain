@@ -2,7 +2,7 @@
 
 Welcome to Mentis, a name derived from the ancient word for "mind" or "consciousness." At first glance, this world appears to be dominated by what seems to be a simple insectoid species - highly evolved ants that have become the apex life form through millions of years of specialized evolution. But there is nothing simple about these beings.
 
-These ants have developed into a civilization far beyond their Earth counterparts. Vast colonies stretch across the planet's surface, each a superorganism of incredible complexity. Their social structure appears familiar - workers, soldiers, and queens - but their level of coordination defies conventional understanding. They operate with a single purpose, moving with impossible precision, as if every individual ant were merely an extension of a greater consciousness.
+These ants have developed into a civilization far beyond their Nauvis counterparts. Vast colonies stretch across the planet's surface, each a superorganism of incredible complexity. Their social structure appears familiar - workers, soldiers, and queens - but their level of coordination defies conventional understanding. They operate with a single purpose, moving with impossible precision, as if every individual ant were merely an extension of a greater consciousness.
 
 This world was not discovered by chance. Ancient ruins on Fulgora spoke of a "planet of infinite minds," where their civilization's greatest minds ventured but never returned. Their fragmentary records described attempts to harness some form of collective consciousness technology, but each expedition ended in silence. What they found were these ants - beings who had evolved to solve the quantum efficiency problem.
 
@@ -19,7 +19,7 @@ The rest of the planet's surface is divided into distinct territories, each cont
 The planet's dominant life form has evolved three remarkable adaptations that make them both a formidable threat and a valuable resource:
 
 **Reinforced Exoskeletons**  
-Their chitinous armor represents a leap in evolutionary engineering. The exoskeleton's molecular structure incorporates trace metals throughout, creating a material that surpasses any Earth-based equivalent in strength-to-weight ratio. This metallic integration makes their armor incredibly durable but also introduces a critical vulnerability to electrical attacks.
+Their chitinous armor represents a leap in evolutionary engineering. The exoskeleton's molecular structure incorporates trace metals throughout, creating a material that surpasses any Nauvis-based equivalent in strength-to-weight ratio. This metallic integration makes their armor incredibly durable but also introduces a critical vulnerability to electrical attacks.
 
 This unique chitin demonstrates extraordinary properties:
 
