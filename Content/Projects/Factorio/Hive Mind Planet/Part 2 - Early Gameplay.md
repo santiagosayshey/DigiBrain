@@ -9,7 +9,7 @@ However, their metallic-infused exoskeletons have a critical weakness - electric
 
 ## Resource Collection
 
-Upon defeating straggler ants, their carcasses can be broken down into three essential components:
+Upon defeating straggler ants, their carcasses can be recycled into three essential components:
 
 |Component|Description|Recycling Output|
 |---|---|---|
@@ -21,12 +21,14 @@ These resources form the foundation of your technological advancement on Mentis.
 
 ## The Organic Synthesizer
 
-After collecting sufficient components, you can construct your first major milestone: the Organic Synthesizer. This remarkable structure combines traditional machinery with living tissue, creating a hybrid system capable of complex biochemical reactions. The facility pulses with bioluminescent patterns that match the neural activity of living ant colonies, suggesting some form of quantum resonance with their neural networks.
+After collecting sufficient components, you can construct your first major milestone: the Organic Synthesizer. This nightmarish amalgamation of machinery and biological matter pulsates with an unsettling rhythm. Reinforced chitin plates form a skeletal framework, while exposed neural tissue writhes and sparks with quantum activity. Translucent tubes filled with amber hydrocarbon fluid pump through the structure like artificial veins, feeding into chambers where torn fragments of ant biology are stitched into new forms.
+
+The facility's core resembles a makeshift brain - dozens of neural matrix clusters suspended in a nutrient bath, their quantum signals synchronizing in haunting patterns of bioluminescence. Chitinous conduits thread through the structure, their surfaces etched with conductive pathways that carry both electrical and neural signals. The whole construction throbs with a life of its own, neither fully machine nor fully organic, but something altogether more disturbing.
 
 Construction Requirements:
 
-- 50 Reinforced Chitin Plates (processed into structure)
-- 25 Neural Matrix Clusters (forms the quantum computing core)
-- 100 Hydrocarbon Sacs (provides initial energy matrix)
+- 50 Reinforced Chitin Plates
+- 25 Neural Matrix Clusters
+- 100 Hydrocarbon Sacs
 
-Once operational, this semi-organic facility promises to unlock new possibilities in processing and combining the ant-based resources. However, its construction depletes the last of your gathered materials. With no more straggler ants in sight, you must prepare for the next phase: venturing into active ant colonies to secure more resources.
+This grotesque fusion of technology and biology represents your first step toward mastering Mentis's alien science. As the last components are sealed into place and the neural network sparks to life, you realize there's no turning back. The straggler ants are gone now - to gather more resources, you'll need to venture into the living colonies themselves.
