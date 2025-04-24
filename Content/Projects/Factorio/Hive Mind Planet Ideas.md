@@ -29,7 +29,7 @@ The player's crash landing site is strategically positioned in a "dead zone" - a
 Defeating straggler ants allows the player to harvest their carcasses, which can be broken down into three essential components:
 
 - **Reinforced Chitin Plates**: The processed form of their exceptional exoskeletons, serving as a primary building material
-    - When recycled: Breaks down into 2 Iron Plates and 1 Copper Plate
+    - When recycled: Breaks down into 2 Iron Plates and 2 Copper Plate
 - **Neural Matrix Clusters**: Fragments of their quantum-enabled neural tissue, still retaining trace amounts of entanglement properties
     - When recycled: Returns to its original form as Neural Matrix Clusters.
 - **Hydrocarbon Sacs**: Specialized organs containing concentrated biological hydrocarbons
@@ -52,7 +52,7 @@ Recipes:
     - Note: Iron plates must come from recycled chitin (processed in Recycler)
 2. **Quantum Processor Generation**
     - Input: 2 Neural Matrix Clusters + 1 Electronic Circuit
-    - Output: 3 Quantum Processors
+    - Output: 1 Quantum Processors
     - Note: Electronic circuits must be made from recycled chitin's copper and iron
 3. **Crude Oil Production**
     - Input: 50 Hydrocarbon Sacs
@@ -71,48 +71,11 @@ The Organic Synthesizer must work in conjunction with other buildings:
 
 All three rocket components can be manufactured entirely from ant-based resources, eliminating the need for importing materials from other planets.
 
-## Low Density Structures
-
-Production chain:
-
-1. Harvest Reinforced Chitin Plates from ant carcasses
-2. Recycle some plates into Iron Plates (2 Iron per Chitin)
-3. Combine in Organic Synthesizer:
-    - 1 Reinforced Chitin Plate + 3 Iron Plates → 2 Low Density Structures
-
-## Processing Units (Blue Circuits)
-
-Production chain:
-
-1. Harvest Neural Matrix Clusters from ant carcasses
-2. Recycle Chitin Plates into Iron and Copper (for electronic circuits)
-3. Create Electronic Circuits from recycled metals
-4. In Organic Synthesizer:
-    - 2 Neural Matrix Clusters + 1 Electronic Circuit → 3 Quantum Processors
-5. Recycle Quantum Processors:
-    - 2 Quantum Processors → 1 Processing Unit
-
-## Rocket Fuel
-
-Production chain:
-
-1. Harvest Hydrocarbon Sacs from ant carcasses
-2. Initial crude oil creation in Organic Synthesizer:
-    - 50 Hydrocarbon Sacs → 1 Crude Oil
-3. Once sufficient oil buffer is built, switch to enhanced production:
-    - 10 Crude Oil + 1 Hydrocarbon Sac → 11 Crude Oil
-4. Process in standard oil buildings:
-    - Basic Oil Processing: 10 Crude Oil → 3 Heavy Oil + 3 Light Oil + 4 Petroleum Gas
-    - Convert Light Oil: 3 Light Oil → 2 Solid Fuel
-    - Create Rocket Fuel: 2 Solid Fuel + 1 Light Oil → 1 Rocket Fuel
-
-## Resource Flow Summary
-
-- Reinforced Chitin Plates → Iron/Copper → Electronic Circuits + LDS
-- Neural Matrix Clusters → Quantum Processors → Processing Units
-- Hydrocarbon Sacs → Crude Oil → Light Oil → Rocket Fuel
-
-This closed system means players can escape the planet using only local resources, provided they can gather enough ant carcasses and manage the resource conversion chains efficiently.
+| Rocket Part            | Resource Chain           | Processing Steps                                                                                                                                                                                                              |
+| ---------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Low Density Structures | Reinforced Chitin Plates | 1. Recycle some Chitin Plates into Iron and Copper Plates (2 Iron and 2 Copper plates per Chitin)<br>2. Combine in Organic Synthesizer: 1 Chitin + 2 Iron plates + 2 copper plates → 2 LDS (essentially 2 chitins)            |
+| Processing Units       | Neural Matrix Clusters   | 1. Recycle Chitin into Iron/Copper for circuits<br>2. Create Electronic Circuits from recycled metals<br>3. Synthesizer: 2 Clusters + 1 Circuit → 1Quantum Processors<br>4. Recycle: 1 Quantum Processors → 1 Processing Unit |
+| Rocket Fuel            | Hydrocarbon Sacs         | 1. Initial synthesis: 50 Sacs → 1 Crude Oil<br>2. Enhanced production: 10 Oil + 1 Sac → 11 Oil<br>3. Basic oil processing to get rocket fuel (as you do on other planets) (planet has water in abundance)                     |
 
 ## Resource Depletion & Progression
 
