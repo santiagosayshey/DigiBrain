@@ -1,31 +1,19 @@
-## Creature: Evolved Ants
+## Planet Overview
 
-|Component|Real Biological Basis|In-Game Resource|Processing/Usage|
-|---|---|---|---|
-|**Exoskeleton**|Chitin-based armor found in ants, particularly reinforced in species like Cephalotes|Lightweight Durable Structure (LDS)|Harvested from worker ants, processed into building materials|
-|**Neural Tissue**|Ant neural ganglia and distributed colony intelligence|Quantum Processors|Extracted from ant brains, combined with electrical components|
-|**Internal Organs**|Fat bodies and biochemical processing systems|Crude Oil|Compressed ant remains processed into light oil products|
+The planet is dominated by highly evolved ant species that have become the apex life form through millions of years of specialized evolution. These ants have developed three remarkable biological adaptations that make them both a threat and a valuable resource:
 
-## Boss Fight: Queen Ant
+1. **Reinforced Exoskeletons**: Their chitinous armor has evolved into an incredibly lightweight yet durable structure. The unique molecular arrangement of their exoskeletons provides strength-to-weight ratios exceeding any natural Earth material. When processed, this chitin can be transformed into exceptional building materials.
+2. **Hydrocarbon-Rich Metabolism**: Their digestive systems have evolved to synthesize and store complex hydrocarbons as energy reserves. These biological compounds are remarkably similar to petroleum, allowing their processed remains to be converted into oil products.
+3. **Quantum Neural Network**: Perhaps their most extraordinary adaptation is their advanced neural system. Unlike Earth ants, these creatures have developed specialized neural ganglia that exhibit quantum entanglement properties. This allows the colony to function as a true hivemind, sharing information instantaneously across vast distances without conventional communication. Individual ants function as nodes in a distributed consciousness network.
 
-|Element|Biological Basis|Game Mechanic|
-|---|---|---|
-|**Queen Boss**|Specialized reproductive ant with enhanced biology|Challenging encounter requiring specific strategies|
-|**Colony Collapse**|Dependence of worker ants on queen pheromones|After queen death, worker ants disperse/die in that area, preventing further farming|
-|**Special Component**|Queen's specialized neural tissue|"Queen Ganglion" or "Colonial Neurophore" - rare drop from queen needed for jump clone technology|
+## Territory and Queen Dynamics
 
-## Jump Clone Technology
+The planet's surface is divided into distinct territories, each controlled by a single queen ant. These territories function as effectively independent superorganisms:
 
-|Concept|Biological Inspiration|Game Function|
-|---|---|---|
-|**Jump Clones**|Quantum entanglement theoretically present in specialized queen neural tissue|Allows player consciousness to transfer between bodies on different planets|
-|**Clone Construction**|Combination of "Queen Ganglion" with other advanced materials|Late-game technology enabling fast travel between planets|
-|**Consciousness Transfer**|Distributed intelligence seen in ant colonies|Player can instantly switch between established clones|
+- Each queen produces specialized pheromones that define her territory's boundaries
+- The queen's neural tissue contains the primary quantum entanglement nodes that maintain the colony's hivemind
+- Worker ants within a territory are completely dependent on the quantum connection to their queen
 
-## Gameplay Loop
+When a queen is killed, the entire neural network for that territory collapses. Without the queen's coordinating consciousness, the worker ants lose their hivemind connection, becoming disoriented and eventually dying off. This creates a strategic resource management decision - killing a queen yields valuable specialized neural tissue but permanently eliminates that territory as a source of regular ant resources.
 
-1. **Early Game**: Farm worker ants for basic resources (LDS, basic processing, oil)
-2. **Mid Game**: Develop technology to process ant components into more advanced materials
-3. **Late Game**: Defeat queen ant(s) to obtain special neural component
-4. **Decision Point**: Balance between maintaining ant farms (by keeping queens alive) vs. obtaining jump clone technology (requiring queen elimination)
-5. **Expansion**: Use jump clone technology to efficiently manage multi-planetary factory networks
+The queen's specialized neural organ (the Colonial Neurophore or Queen Ganglion) contains the most concentrated form of the quantum-entangled neural tissue, making it essential for advanced technologies that require consciousness transfer or instantaneous information sharing across vast distances.
