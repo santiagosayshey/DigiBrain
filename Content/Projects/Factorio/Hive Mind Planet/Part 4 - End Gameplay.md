@@ -19,14 +19,12 @@ As you expand across Mentis, you face a crucial decision with each ant colony en
 Confronting a queen requires careful preparation and represents one of the most challenging encounters on Mentis.
 
 **Colony Penetration**
-
 - Fight through dense waves of coordinated worker ants
 - Must establish forward bases with robust power networks
 - Tesla weapons become less effective deeper in colony
 - EMP rockets required to create safe corridors
 
 **Queen Encounter** A three-phase boss fight testing all your technological mastery:
-
 1. Queen's neural field negates electrical damage
 2. EMP warhead temporarily disrupts quantum shielding
 3. Conventional weapons damage phase (railgun/rockets)
@@ -52,8 +50,6 @@ The Colonial Neurophore contains the key to true parallel consciousness - the ab
 
 - True consciousness transfer between bodies
 - Instant switching between any active clones
-- Perfect memory and experience retention
-- Multiple clones can be active simultaneously
 - No range limitation due to quantum entanglement
 
 This technology represents mastery over the ant's most advanced adaptation - their quantum neural network. Through the Colonial Neurophore, you can achieve what the Fulgorans sought: the ability to truly exist in multiple places at once, overcoming the fundamental limits of space and consciousness.
