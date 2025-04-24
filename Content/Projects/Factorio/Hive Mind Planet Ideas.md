@@ -29,8 +29,11 @@ The player's crash landing site is strategically positioned in a "dead zone" - a
 Defeating straggler ants allows the player to harvest their carcasses, which can be broken down into three essential components:
 
 - **Reinforced Chitin Plates**: The processed form of their exceptional exoskeletons, serving as a primary building material
+    - When recycled: Breaks down into 2 Iron Plates and 1 Copper Plate
 - **Neural Matrix Clusters**: Fragments of their quantum-enabled neural tissue, still retaining trace amounts of entanglement properties
+    - When recycled: Returns to its original form as Neural Matrix Clusters.
 - **Hydrocarbon Sacs**: Specialized organs containing concentrated biological hydrocarbons
+    - When recycled: Returns to its original form as Hydrocarbon Sacs.
 
 ## The Organic Synthesizer
 
@@ -39,35 +42,33 @@ After collecting sufficient ant components, players can construct their first ma
 Key features of the Organic Synthesizer:
 
 - Functions as a biological manufacturing center
-- Contains specialized membrane-based filtration systems for liquid recycling
+- Contains specialized membrane-based filtration systems for liquid processing
 - Self-sustaining once activated, allowing for transport to other planets
 - Unlocks crucial recipes for rocket construction and planetary escape
 
-## Resource Processing Loops
+### Organic Synthesizer Recipes
 
-### Exoskeleton Processing Chain
+1. **Low Density Structure Creation**
+    - Input: 1 Reinforced Chitin Plate + 3 Iron Plates
+    - Output: 2 Low Density Structures
+    - Note: Iron plates must come from recycled chitin (processed in Recycler)
+2. **Quantum Processor Generation**
+    - Input: 2 Neural Matrix Clusters + 1 Electronic Circuit
+    - Output: 3 Quantum Processors
+    - Note: Electronic circuits must be made from recycled chitin's copper and iron
+3. **Crude Oil Production**
+    - Input: 5 Hydrocarbon Sacs
+    - Output: 10 Crude Oil
+4. **Enhanced Oil Production**
+    - Input: 10 Crude Oil + 2 Hydrocarbon Sacs + 2 Neural Matrix Clusters
+    - Output: 25 Crude Oil
+    - Note: The neural clusters act as biological catalysts, using their quantum properties to optimize hydrocarbon restructuring, while the fresh hydrocarbon sacs provide raw material for enhancement
 
-- Input: Reinforced Chitin Plates
-- Primary breakdown: 2 Iron Plates + 1 Copper Plate per unit
-- Secondary combination: 3 processed plates + 1 original chitin = 2 Low Density Structures
-- Creates an efficient cycle of breakdown and reconstruction
+The Organic Synthesizer must work in conjunction with other buildings:
 
-### Neural Tissue Utilization
-
-- Input: Neural Matrix Clusters
-- Basic recipe: 2 Clusters + 1 Electronic Circuit = 3 Quantum Processors
-- Advanced conversion: 2 Quantum Processors = 1 Processing Unit
-- Provides a simplified alternative to traditional blue circuit production
-
-### Hydrocarbon Extraction
-
-- Input: Hydrocarbon Sacs
-- Initial processing: 5 Sacs = 10 Crude Oil
-- Recycling loop: 10 Crude Oil + 5 Water = 15 Crude Oil
-- Standard oil processing chain:
-    - 10 Crude Oil = 3 Heavy Oil + 3 Light Oil + 4 Petroleum Gas
-    - 3 Light Oil = 2 Solid Fuel
-    - 2 Solid Fuel + 1 Light Oil = 1 Rocket Fuel
+- The Recycler (for breaking down chitin into metals and quantum processors into processing units)
+- Standard Oil Processing buildings (for converting crude oil into rocket fuel)
+- Assembly Machines (for creating electronic circuits from recycled metals)
 
 ## Resource Depletion & Progression
 
