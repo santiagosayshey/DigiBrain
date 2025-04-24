@@ -51,9 +51,24 @@
               "icon": "lucide-file",
               "title": "Part 2 - Early Gameplay"
             }
+          },
+          {
+            "id": "92231d83051dbcbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Part 4 - End Gameplay"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,12 +215,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8e45d6e34f9ae4f4",
+  "active": "92231d83051dbcbe",
   "lastOpenFiles": [
-    "Content/Projects/Factorio/Hive Mind Planet/Part 1 - Planet and Species Overview.md",
-    "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 3 - Mid Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 2 - Early Gameplay.md",
+    "Content/Projects/Factorio/Hive Mind Planet/Part 1 - Planet and Species Overview.md",
+    "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet Ideas.md",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",

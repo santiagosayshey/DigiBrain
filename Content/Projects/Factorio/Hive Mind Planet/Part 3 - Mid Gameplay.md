@@ -35,7 +35,7 @@ This living factory processes ant-based materials in unique ways, combining biol
 | Crude Oil Production           | 50 Hydrocarbon Sacs                                                         | 1 Crude Oil              | A brutally inefficient initial conversion of biological hydrocarbons into usable oil.                                                                  |
 | Enhanced Oil Production        | 10 Crude Oil + 1 Hydrocarbon Sac                                            | 11 Crude Oil             | Uses existing crude as a template to efficiently convert new sacs.                                                                                     |
 | Quantum-Aligned Fuel           | 1 Neural Matrix Clusters + 500 Hydrocarbon Sacs                             | 1 QAF                    | Creates impossibly dense fuel through quantum alignment of hydrocarbons.                                                                               |
-| Hive Science Pack              | 5 Neural Matrix Clusters + 2 Reinforced Chitin Plates + 10 Hydrocarbon Sacs | 5 Hive Science Packs     | Combines all three aspects of ant biology into a research substrate that unlocks their biological secrets.                                             |
+| Quantum Science                | 5 Neural Matrix Clusters + 2 Reinforced Chitin Plates + 10 Hydrocarbon Sacs | 5 Hive Science Packs     | Combines all three aspects of ant biology into a research substrate that unlocks their biological secrets.                                             |
 
 ## Quantum Science Pack
 
