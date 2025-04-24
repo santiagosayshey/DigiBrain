@@ -40,14 +40,12 @@ Defeating straggler ants allows the player to harvest their carcasses, which can
 After collecting sufficient ant components, players can construct their first major milestone: the Organic Synthesizer. This semi-organic processing facility combines traditional machinery with living tissue, creating a hybrid system capable of complex biochemical reactions.
 
 Key features of the Organic Synthesizer:
-
 - Functions as a biological manufacturing center
 - Contains specialized membrane-based filtration systems for liquid processing
 - Self-sustaining once activated, allowing for transport to other planets
 - Unlocks crucial recipes for rocket construction and planetary escape
 
-### Organic Synthesizer Recipes
-
+Recipes:
 1. **Low Density Structure Creation**
     - Input: 1 Reinforced Chitin Plate + 3 Iron Plates
     - Output: 2 Low Density Structures
@@ -57,18 +55,64 @@ Key features of the Organic Synthesizer:
     - Output: 3 Quantum Processors
     - Note: Electronic circuits must be made from recycled chitin's copper and iron
 3. **Crude Oil Production**
-    - Input: 5 Hydrocarbon Sacs
-    - Output: 10 Crude Oil
+    - Input: 50 Hydrocarbon Sacs
+    - Output: 1 Crude Oil
+    - Note: The initial extraction process is painfully inefficient. The organic synthesizer can barely convert the complex ant hydrocarbons without proper catalysts, wasting the vast majority of potential energy.
 4. **Enhanced Oil Production**
-    - Input: 10 Crude Oil + 2 Hydrocarbon Sacs + 2 Neural Matrix Clusters
-    - Output: 25 Crude Oil
-    - Note: The neural clusters act as biological catalysts, using their quantum properties to optimize hydrocarbon restructuring, while the fresh hydrocarbon sacs provide raw material for enhancement
+    - Input: 10 Crude Oil + 1 Hydrocarbon Sac
+    - Output: 11 Crude Oil
+    - Note: By using existing crude oil as a base medium, the addition of fresh hydrocarbon sacs creates a small but sustainable increase. While the gain seems minimal, the ability to loop this process creates long-term sustainability.
 
 The Organic Synthesizer must work in conjunction with other buildings:
 
 - The Recycler (for breaking down chitin into metals and quantum processors into processing units)
 - Standard Oil Processing buildings (for converting crude oil into rocket fuel)
 - Assembly Machines (for creating electronic circuits from recycled metals)
+
+All three rocket components can be manufactured entirely from ant-based resources, eliminating the need for importing materials from other planets.
+
+## Low Density Structures
+
+Production chain:
+
+1. Harvest Reinforced Chitin Plates from ant carcasses
+2. Recycle some plates into Iron Plates (2 Iron per Chitin)
+3. Combine in Organic Synthesizer:
+    - 1 Reinforced Chitin Plate + 3 Iron Plates → 2 Low Density Structures
+
+## Processing Units (Blue Circuits)
+
+Production chain:
+
+1. Harvest Neural Matrix Clusters from ant carcasses
+2. Recycle Chitin Plates into Iron and Copper (for electronic circuits)
+3. Create Electronic Circuits from recycled metals
+4. In Organic Synthesizer:
+    - 2 Neural Matrix Clusters + 1 Electronic Circuit → 3 Quantum Processors
+5. Recycle Quantum Processors:
+    - 2 Quantum Processors → 1 Processing Unit
+
+## Rocket Fuel
+
+Production chain:
+
+1. Harvest Hydrocarbon Sacs from ant carcasses
+2. Initial crude oil creation in Organic Synthesizer:
+    - 50 Hydrocarbon Sacs → 1 Crude Oil
+3. Once sufficient oil buffer is built, switch to enhanced production:
+    - 10 Crude Oil + 1 Hydrocarbon Sac → 11 Crude Oil
+4. Process in standard oil buildings:
+    - Basic Oil Processing: 10 Crude Oil → 3 Heavy Oil + 3 Light Oil + 4 Petroleum Gas
+    - Convert Light Oil: 3 Light Oil → 2 Solid Fuel
+    - Create Rocket Fuel: 2 Solid Fuel + 1 Light Oil → 1 Rocket Fuel
+
+## Resource Flow Summary
+
+- Reinforced Chitin Plates → Iron/Copper → Electronic Circuits + LDS
+- Neural Matrix Clusters → Quantum Processors → Processing Units
+- Hydrocarbon Sacs → Crude Oil → Light Oil → Rocket Fuel
+
+This closed system means players can escape the planet using only local resources, provided they can gather enough ant carcasses and manage the resource conversion chains efficiently.
 
 ## Resource Depletion & Progression
 
