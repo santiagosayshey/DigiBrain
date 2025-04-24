@@ -6,9 +6,7 @@ The planet is dominated by highly evolved ant species that have become the apex 
 2. **Hydrocarbon-Rich Metabolism**: Their digestive systems have evolved to synthesize and store complex hydrocarbons as energy reserves. These biological compounds are remarkably similar to petroleum, allowing their processed remains to be converted into oil products.
 3. **Quantum Neural Network**: Perhaps their most extraordinary adaptation is their advanced neural system. Unlike Earth ants, these creatures have developed specialized neural ganglia that exhibit quantum entanglement properties. This allows the colony to function as a true hivemind, sharing information instantaneously across vast distances without conventional communication. Individual ants function as nodes in a distributed consciousness network.
 
-# Combat Mechanics & Defenses
-
-## Ant Combat Properties
+## Combat Mechanics & Defences
 
 The highly evolved exoskeletons of these ants make them nearly impervious to traditional weapons:
 
@@ -18,8 +16,7 @@ The highly evolved exoskeletons of these ants make them nearly impervious to tra
 
 ## Effective Combat Methods
 
-### Early Game: Tesla Defense
-
+**Early Game: Tesla Defense**
 The ants' greatest strength is also their critical weakness - their metallic-infused, conductive exoskeletons make them extremely vulnerable to electrical attacks:
 
 - Electric damage travels through their conductive armor
@@ -27,8 +24,7 @@ The ants' greatest strength is also their critical weakness - their metallic-inf
 - High voltage causes cascade failures in their quantum neural pathways
 - Tesla turrets and weapons become the primary early-game defense
 
-### Mid Game: EMP Innovation
-
+**Mid Game: EMP Innovation**
 Research into the ants' quantum neural network leads to the development of specialized EMP warheads:
 
 - EMP rockets overload both their conductive exoskeletons and neural pathways
@@ -36,11 +32,12 @@ Research into the ants' quantum neural network leads to the development of speci
 - This controlled destruction preserves more of the valuable resources in their carcasses
 - Rocket turrets equipped with EMP warheads become the optimal harvesting method
 
-## Synthesizer EMP Recipe
+The technology proves to have applications beyond ant control. The strong electromagnetic pulses can temporarily disrupt the crystalline structure of asteroids, making them vulnerable to conventional weapons:
 
-| Recipe                 | Inputs                                                     | Outputs       | Properties & Lore                                                                                                                                                                                                                                                                                                                                                                          |
-| ---------------------- | ---------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| EMP Warhead Production | 2 Neural Matrix Clusters + 5 Iron Plates + 2 Copper Plates | 5 EMP Rockets | The Synthesizer uses neural tissue to tune the EMP frequency to the ants' quantum signatures. The metallic components create a precisely shaped electromagnetic pulse that maximizes neural disruption while preserving valuable resources. Each warhead contains a small amount of neural material that resonates with the target's quantum field, amplifying the electromagnetic effect. |
+- Big asteroids become susceptible to standard explosive rockets
+- Huge asteroids can be damaged by regular railgun rounds
+- This eliminates the need for specialized anti-asteroid weaponry
+- Creates a unified defense solution for both planetary and space threats
 
 ## Territory and Queen Dynamics
 
@@ -86,7 +83,7 @@ Key features of the Organic Synthesizer:
 | Crude Oil Production           | 50 Hydrocarbon Sacs                                          | 1 Crude Oil              | The initial conversion process is brutal and inefficient. The Synthesizer must completely break down the complex ant-based hydrocarbons into simpler molecules, losing most of the energy in the process. Without a proper medium to stabilize the conversion, most of the biological compounds are wasted.                                                                                                    |
 | Enhanced Oil Production        | 10 Crude Oil + 1 Hydrocarbon Sac                             | 11 Crude Oil             | A breakthrough in efficiency. Using existing crude oil as a stabilizing medium, the Synthesizer can perfectly preserve the hydrocarbon sac's energy. The existing oil provides the exact molecular template needed for the biological compounds to transform cleanly. While the gain seems minimal, the sustainable loop creates unlimited potential.                                                          |
 | Quantum-Aligned Fuel           | 2 Neural Matrix Clusters + 5 Hydrocarbon Sacs                | 1 QAF                    | The neural clusters' quantum properties cause the hydrocarbons to align in impossible geometries, creating micro-singularities of fuel. The resulting material is so dense it can't achieve escape velocity, but produces enormous energy when burned. Power output equivalent to 50 standard solid fuel units.                                                                                                |
-
+| EMP Warhead Production         | 2 Neural Matrix Clusters + 5 Iron Plates + 2 Copper Plates   | 5 EMP Rockets            | The Synthesizer uses neural tissue to tune the EMP frequency to the ants' quantum signatures. The metallic components create a precisely shaped electromagnetic pulse that maximizes neural disruption while preserving valuable resources. Each warhead contains a small amount of neural material that resonates with the target's quantum field, amplifying the electromagnetic effect.                     |
 
 
 The Organic Synthesizer must work in conjunction with other buildings:
