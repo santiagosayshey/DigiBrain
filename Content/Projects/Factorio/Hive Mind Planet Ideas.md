@@ -109,3 +109,63 @@ The limited number of straggler ants in the dead zone creates a natural progress
 - Make strategic decisions about resource collection vs. colony disruption
 
 This resource scarcity pushes players toward the mid-game phase, where they must develop new strategies for dealing with active ant colonies and their queens.
+
+# Queen Combat & Consciousness Transfer
+
+## The Colonial Neurophore
+
+Deep within each queen's neural mass lies the Colonial Neurophore - a crystalline organ that serves as the master control node for the entire colony's quantum network. This biological supercomputer doesn't just coordinate the hivemind; it contains the fundamental patterns of consciousness transfer that allow the queen to maintain simultaneous awareness across thousands of workers.
+
+### Queen Combat Mechanics
+
+Confronting a queen requires careful preparation and multiple phases of combat:
+
+1. **Colony Penetration**
+    
+    - Dense waves of worker ants protect their queen
+    - High-level electrical damage research required
+    - Tesla weapons must be upgraded to maximum capacity
+    - Strategic use of EMP rockets to create safe corridors
+2. **Queen Encounter**
+    
+    - Queen's neural field actively negates electrical attacks
+    - Three-phase boss fight:
+        1. EMP warhead to temporarily disrupt quantum shielding
+        2. Conventional weapons damage phase (railgun/rockets)
+        3. Shield regenerates, repeat twice more
+3. **Territory Collapse**
+    
+    - Queen's death triggers complete neural network collapse
+    - All connected workers instantly lose consciousness
+    - Territory becomes permanently safe for expansion
+    - Colonial Neurophore can be harvested
+
+## Jump Clone Technology
+
+### The Quantum Consciousness Interface
+
+By studying the Colonial Neurophore, engineers make a stunning discovery: the queen's ability to project consciousness across multiple bodies can be adapted for human use. The quantum entanglement patterns that allow her to control thousands of workers can be modified to transfer human consciousness between specially prepared clones.
+
+### Recipe: Jump Clone Creation
+
+| Component      | Inputs                                                                           | Output       | Properties                                                                                                                                                                                                                                |
+| -------------- | -------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Jump Clone Pod | 1 Colonial Neurophore + 50 Neural Matrix Clusters + 100 Hydrocarbon Sacs + 1 QAF | 1 Jump Clone | The pod combines the queen's consciousness transfer matrix with human neural patterns to create a quantum-entangled duplicate of the engineer's consciousness. QAF provides the massive energy needed for initial consciousness encoding. |
+
+### Consciousness Transfer Mechanics
+
+Unlike remote viewing or robot control, Jump Clone technology offers true consciousness transfer:
+
+- Engineer's complete awareness and consciousness shifts between clones
+- Transfer is instantaneous due to quantum entanglement
+- Each clone maintains perfect neural fidelity
+- Original memories and experiences merge when switching back
+
+The technology works by:
+
+1. Using the Colonial Neurophore's quantum patterns to create a consciousness transfer framework
+2. Neural Matrix Clusters form the quantum computing substrate
+3. Hydrocarbon Sacs provide the biological medium for neural tissue growth
+4. QAF powers the initial consciousness encoding process
+
+This creates true "distributed humanity" - the ability to exist in multiple locations with perfect fidelity, just as the queen once controlled her colony. The engineer literally becomes a hivemind of one, able to shift their complete existence between bodies at will.
