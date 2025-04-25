@@ -11,15 +11,12 @@
             "id": "2dbcc30a20256738",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Logistic Regression.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "6.1 Logistic Regression"
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
             }
           }
         ]
@@ -171,6 +168,7 @@
   },
   "active": "2dbcc30a20256738",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Logistic Regression.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 3 - Mid Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 2 - Early Gameplay.md",
@@ -203,7 +201,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
     "Content/Philosophy/Argument & Critical Thinking/Email",
     "Images/Pasted image 20250407100105.png",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
