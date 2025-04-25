@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/6.2 Non-Linear SVMs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6.1 Support Vector Machines"
+              "title": "6.2 Non-Linear SVMs"
             }
           },
           {
@@ -223,6 +223,8 @@
   },
   "active": "2dbcc30a20256738",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/6.2 Non-Linear SVMs.md",
+    "Images/Pasted image 20250426092343.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250426090652.png",
@@ -260,14 +262,12 @@
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
-    "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Email",
     "Images/Pasted image 20250407100105.png",
     "Content/Philosophy/Moral Problems/Exams",
     "Content/Philosophy/Moral Problems/Readings/J.J.C. Smart, _Extreme And Restricted Utilitarianism_-1.pdf",
-    "Images/Group 11.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
