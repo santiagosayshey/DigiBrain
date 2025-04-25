@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6.1 Support Vector Machines"
+              "title": "4.3 Generalisation Errors"
             }
           },
           {
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "counter ",
+                "query": "regularizat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -223,9 +224,9 @@
   },
   "active": "2249ed949cdd578a",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Images/Pasted image 20250426084506.png",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Images/Pasted image 20250426083852.png",
     "Images/Pasted image 20250426082150.png",
     "Images/Pasted image 20250426081945.png",
@@ -268,7 +269,6 @@
     "Images/Group 11.png",
     "Images/Frame 4 1.png",
     "Images/Frame 4.png",
-    "Images/6a.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
