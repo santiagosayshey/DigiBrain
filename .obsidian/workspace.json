@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regularizat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,7 +221,7 @@
       }
     ]
   },
-  "active": "2249ed949cdd578a",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Images/Pasted image 20250426084506.png",
