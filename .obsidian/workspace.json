@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4.3 Generalisation Errors"
+              "title": "6.1 Support Vector Machines"
             }
           },
           {
@@ -221,8 +221,10 @@
       }
     ]
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "2249ed949cdd578a",
   "lastOpenFiles": [
+    "Images/Pasted image 20250426090447.png",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Images/Pasted image 20250426084506.png",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
@@ -258,7 +260,6 @@
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
-    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Email",
