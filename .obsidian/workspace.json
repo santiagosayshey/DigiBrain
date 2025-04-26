@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5.1 Logistic Regression"
+              "title": "5.2 Softmax Regression"
             }
           },
           {
@@ -233,11 +233,13 @@
   },
   "active": "2249ed949cdd578a",
   "lastOpenFiles": [
+    "Images/Pasted image 20250426104501.png",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
     "Images/Pasted image 20250426103936.png",
     "Images/Pasted image 20250426103922.png",
     "Images/Pasted image 20250426103910.png",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
     "Images/Pasted image 20250426102650.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.4 SVM Regression.md",
     "Images/Pasted image 20250426101532.png",
@@ -249,7 +251,6 @@
     "Images/Pasted image 20250426095811.png",
     "Images/Pasted image 20250426093950.png",
     "Images/Pasted image 20250426092558.png",
-    "Images/Pasted image 20250426092343.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
@@ -271,7 +272,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 2.md",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
