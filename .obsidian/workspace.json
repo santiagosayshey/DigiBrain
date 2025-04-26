@@ -194,43 +194,6 @@
       "terminal:Open terminal": false
     }
   },
-  "floating": {
-    "id": "54c693bf8329f3bb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cf9614759ebb21d1",
-        "type": "window",
-        "children": [
-          {
-            "id": "d8d2424fc92b3a68",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2dbcc30a20256738",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Hands-On Machine Learning - Third edition"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 657,
-        "y": 320,
-        "width": 2255,
-        "height": 1760,
-        "maximize": true,
-        "zoom": 1
-      }
-    ]
-  },
   "active": "2249ed949cdd578a",
   "lastOpenFiles": [
     "Images/Pasted image 20250426104944.png",
