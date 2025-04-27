@@ -11,15 +11,12 @@
             "id": "2249ed949cdd578a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "5.2 Softmax Regression"
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
             }
           },
           {
@@ -196,10 +193,10 @@
   },
   "active": "2249ed949cdd578a",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
     "Images/Pasted image 20250426104944.png",
     "Images/Pasted image 20250426104501.png",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
     "Images/Pasted image 20250426103936.png",
     "Images/Pasted image 20250426103922.png",
@@ -213,7 +210,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.2 Non-Linear SVMs.md",
     "Images/Pasted image 20250426095915.png",
     "Images/Pasted image 20250426095811.png",
-    "Images/Pasted image 20250426093950.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
