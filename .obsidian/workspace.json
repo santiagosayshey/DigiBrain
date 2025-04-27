@@ -11,12 +11,15 @@
             "id": "2249ed949cdd578a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Hands-On Machine Learning - Third edition"
+              "icon": "lucide-file",
+              "title": "3.2 Classification Metrics"
             }
           },
           {
@@ -76,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "f1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +100,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,10 +197,11 @@
   },
   "active": "2249ed949cdd578a",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
     "Images/Pasted image 20250426104944.png",
     "Images/Pasted image 20250426104501.png",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.1 Logistic Regression.md",
     "Images/Pasted image 20250426103936.png",
     "Images/Pasted image 20250426103922.png",
