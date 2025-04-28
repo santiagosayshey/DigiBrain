@@ -328,7 +328,7 @@ var require_main = __commonJS({
     function getDayOfWeekNumericalValue(dayOfWeekName) {
       return getDaysOfWeek().indexOf(dayOfWeekName.toLowerCase());
     }
-    async function createWeeklyNote(date) {
+    async function createWeeklyNote2(date) {
       const { vault } = window.app;
       const { template, format, folder } = getWeeklyNoteSettings();
       const [templateContents, IFoldInfo] = await getTemplateInfo(template);
@@ -360,13 +360,13 @@ var require_main = __commonJS({
         new obsidian.Notice("Unable to create new file.");
       }
     }
-    function getWeeklyNote(date, weeklyNotes) {
+    function getWeeklyNote2(date, weeklyNotes) {
       var _a;
       return (_a = weeklyNotes[getDateUID(date, "week")]) != null ? _a : null;
     }
-    function getAllWeeklyNotes() {
+    function getAllWeeklyNotes2() {
       const weeklyNotes = {};
-      if (!appHasWeeklyNotesPluginLoaded()) {
+      if (!appHasWeeklyNotesPluginLoaded2()) {
         return weeklyNotes;
       }
       const { vault } = window.app;
@@ -557,7 +557,7 @@ var require_main = __commonJS({
       });
       return yearlyNotes;
     }
-    function appHasDailyNotesPluginLoaded() {
+    function appHasDailyNotesPluginLoaded2() {
       var _a, _b;
       const { app } = window;
       const dailyNotesPlugin = app.internalPlugins.plugins["daily-notes"];
@@ -567,7 +567,7 @@ var require_main = __commonJS({
       const periodicNotes = app.plugins.getPlugin("periodic-notes");
       return periodicNotes && ((_b = (_a = periodicNotes.settings) == null ? void 0 : _a.daily) == null ? void 0 : _b.enabled);
     }
-    function appHasWeeklyNotesPluginLoaded() {
+    function appHasWeeklyNotesPluginLoaded2() {
       var _a, _b;
       const { app } = window;
       if (app.plugins.getPlugin("calendar")) {
@@ -608,7 +608,7 @@ var require_main = __commonJS({
       const createFn = {
         day: createDailyNote2,
         month: createMonthlyNote,
-        week: createWeeklyNote
+        week: createWeeklyNote2
       };
       return createFn[granularity](date);
     }
@@ -617,21 +617,21 @@ var require_main = __commonJS({
     exports.DEFAULT_QUARTERLY_NOTE_FORMAT = DEFAULT_QUARTERLY_NOTE_FORMAT;
     exports.DEFAULT_WEEKLY_NOTE_FORMAT = DEFAULT_WEEKLY_NOTE_FORMAT;
     exports.DEFAULT_YEARLY_NOTE_FORMAT = DEFAULT_YEARLY_NOTE_FORMAT;
-    exports.appHasDailyNotesPluginLoaded = appHasDailyNotesPluginLoaded;
+    exports.appHasDailyNotesPluginLoaded = appHasDailyNotesPluginLoaded2;
     exports.appHasMonthlyNotesPluginLoaded = appHasMonthlyNotesPluginLoaded;
     exports.appHasQuarterlyNotesPluginLoaded = appHasQuarterlyNotesPluginLoaded;
-    exports.appHasWeeklyNotesPluginLoaded = appHasWeeklyNotesPluginLoaded;
+    exports.appHasWeeklyNotesPluginLoaded = appHasWeeklyNotesPluginLoaded2;
     exports.appHasYearlyNotesPluginLoaded = appHasYearlyNotesPluginLoaded;
     exports.createDailyNote = createDailyNote2;
     exports.createMonthlyNote = createMonthlyNote;
     exports.createPeriodicNote = createPeriodicNote;
     exports.createQuarterlyNote = createQuarterlyNote;
-    exports.createWeeklyNote = createWeeklyNote;
+    exports.createWeeklyNote = createWeeklyNote2;
     exports.createYearlyNote = createYearlyNote;
     exports.getAllDailyNotes = getAllDailyNotes2;
     exports.getAllMonthlyNotes = getAllMonthlyNotes;
     exports.getAllQuarterlyNotes = getAllQuarterlyNotes;
-    exports.getAllWeeklyNotes = getAllWeeklyNotes;
+    exports.getAllWeeklyNotes = getAllWeeklyNotes2;
     exports.getAllYearlyNotes = getAllYearlyNotes;
     exports.getDailyNote = getDailyNote2;
     exports.getDailyNoteSettings = getDailyNoteSettings;
@@ -644,7 +644,7 @@ var require_main = __commonJS({
     exports.getQuarterlyNote = getQuarterlyNote;
     exports.getQuarterlyNoteSettings = getQuarterlyNoteSettings;
     exports.getTemplateInfo = getTemplateInfo;
-    exports.getWeeklyNote = getWeeklyNote;
+    exports.getWeeklyNote = getWeeklyNote2;
     exports.getWeeklyNoteSettings = getWeeklyNoteSettings;
     exports.getYearlyNote = getYearlyNote;
     exports.getYearlyNoteSettings = getYearlyNoteSettings;
@@ -1489,6 +1489,7 @@ TaskRegularExpressions.hashTagsFromEnd = new RegExp(
 );
 
 // src/utils.ts
+var import_obsidian_daily_notes_interface2 = __toESM(require_main());
 function getTemplater(app) {
   return app.plugins.plugins["templater-obsidian"];
 }
@@ -1550,6 +1551,13 @@ var getDailyNoteFile = async () => {
   const file = (0, import_obsidian_daily_notes_interface.getDailyNote)((0, import_obsidian.moment)(), (0, import_obsidian_daily_notes_interface.getAllDailyNotes)());
   if (!file) {
     return await (0, import_obsidian_daily_notes_interface.createDailyNote)((0, import_obsidian.moment)());
+  }
+  return file;
+};
+var getWeeklyNoteFile = async () => {
+  const file = (0, import_obsidian_daily_notes_interface.getWeeklyNote)((0, import_obsidian.moment)(), (0, import_obsidian_daily_notes_interface.getAllWeeklyNotes)());
+  if (!file) {
+    return await (0, import_obsidian_daily_notes_interface.createWeeklyNote)((0, import_obsidian.moment)());
   }
   return file;
 };
@@ -2152,6 +2160,12 @@ var _PomodoroSettings = class extends import_obsidian2.PluginSettingTab {
         this.updateSettings({ useStatusBarTimer: value });
       });
     });
+    new import_obsidian2.Setting(containerEl).setName("Low Animation FPS").setDesc("If you encounter high CPU usage, you can enable this option to lower the animation FPS to save CPU resources").addToggle((toggle) => {
+      toggle.setValue(this._settings.lowFps);
+      toggle.onChange((value) => {
+        this.updateSettings({ lowFps: value });
+      });
+    });
     new import_obsidian2.Setting(containerEl).setHeading().setName("Notification");
     new import_obsidian2.Setting(containerEl).setName("Use System Notification").addToggle((toggle) => {
       toggle.setValue(this._settings.useSystemNotification);
@@ -2214,11 +2228,14 @@ var _PomodoroSettings = class extends import_obsidian2.PluginSettingTab {
     new import_obsidian2.Setting(containerEl).setHeading().setName("Log");
     new import_obsidian2.Setting(containerEl).setName("Log File").addDropdown((dropdown) => {
       dropdown.selectEl.style.width = "160px";
-      dropdown.addOptions({
-        NONE: "None",
-        DAILY: "Daily note",
-        FILE: "File"
-      });
+      dropdown.addOptions({ NONE: "None" });
+      if ((0, import_obsidian_daily_notes_interface2.appHasDailyNotesPluginLoaded)()) {
+        dropdown.addOptions({ DAILY: "Daily note" });
+      }
+      if ((0, import_obsidian_daily_notes_interface2.appHasWeeklyNotesPluginLoaded)()) {
+        dropdown.addOptions({ WEEKLY: "Weekly note" });
+      }
+      dropdown.addOptions({ FILE: "File" });
       dropdown.setValue(this._settings.logFile);
       dropdown.onChange((value) => {
         this.updateSettings({ logFile: value }, true);
@@ -2335,7 +2352,8 @@ PomodoroSettings.DEFAULT_SETTINGS = {
   logTemplate: "",
   logFormat: "VERBOSE",
   useSystemNotification: false,
-  taskFormat: "TASKS"
+  taskFormat: "TASKS",
+  lowFps: false
 };
 PomodoroSettings.settings = writable(
   _PomodoroSettings.DEFAULT_SETTINGS
@@ -3862,7 +3880,6 @@ function create_fragment4(ctx) {
   let t0;
   let t1;
   let span0;
-  let div0_class_value;
   let t2;
   let div1;
   let span1;
@@ -3970,8 +3987,7 @@ function create_fragment4(ctx) {
       if (if_block3)
         if_block3.c();
       attr(span0, "class", "svelte-1bkzjfd");
-      attr(div0, "class", div0_class_value = "status " + /*$timer*/
-      (ctx[4].inSession ? "" : "control") + " svelte-1bkzjfd");
+      attr(div0, "class", "status control svelte-1bkzjfd");
       attr(span1, "class", "timer-text svelte-1bkzjfd");
       attr(div1, "class", "control svelte-1bkzjfd");
       attr(div2, "class", "timer-display svelte-1bkzjfd");
@@ -4100,11 +4116,6 @@ function create_fragment4(ctx) {
           if_block1.c();
           if_block1.m(div0, t1);
         }
-      }
-      if (!current || dirty & /*$timer*/
-      16 && div0_class_value !== (div0_class_value = "status " + /*$timer*/
-      (ctx2[4].inSession ? "" : "control") + " svelte-1bkzjfd")) {
-        attr(div0, "class", div0_class_value);
       }
       if ((!current || dirty & /*$timer*/
       16) && t3_value !== (t3_value = /*$timer*/
@@ -4241,7 +4252,7 @@ function instance4($$self, $$props, $$invalidate) {
     if ($$self.$$.dirty & /*$timer*/
     16) {
       $:
-        $$invalidate(6, strokeOffset = $timer.remained.millis * offset / $timer.count);
+        $$invalidate(6, strokeOffset = $timer.remained.millis / $timer.count * offset);
     }
   };
   return [
@@ -4331,7 +4342,7 @@ var import_obsidian8 = require("obsidian");
 
 // src/clock.worker.ts
 function inlineWorker() {
-  let blob = new Blob(['"use strict";var e=!1,s=()=>{e&&(self.postMessage(new Date().getTime()),requestAnimationFrame(s))};self.onmessage=async({data:n})=>{n?e||(e=!0,s()):e=!1};\n'], { type: "text/javascript" });
+  let blob = new Blob(['"use strict";var i=!1,t,f,n,s,a=!1,l=e=>{i&&(t===void 0?(t=e,s=e,requestAnimationFrame(l)):(n+=e-s,a?n>=1e3&&(self.postMessage(n),n=0):self.postMessage(e-s),requestAnimationFrame(l),s=e))};self.onmessage=async({data:e})=>{e.start?(a=e.lowFps,i||(i=!0,n=0,f=new Date().getTime(),requestAnimationFrame(l))):(i=!1,t=void 0,f=void 0,s=void 0)};\n'], { type: "text/javascript" });
   let url = URL.createObjectURL(blob);
   let worker = new Worker(url);
   URL.revokeObjectURL(url);
@@ -4377,6 +4388,9 @@ ${logText}`);
     }
     if (settings2.logFile === "DAILY") {
       return await getDailyNoteFile();
+    }
+    if (settings2.logFile == "WEEKLY") {
+      return await getWeeklyNoteFile();
     }
     if (settings2.logFile === "FILE") {
       if (settings2.logPath) {
@@ -4480,7 +4494,7 @@ var _Timer = class {
       workLen: plugin.getSettings().workLen,
       breakLen: plugin.getSettings().breakLen,
       running: false,
-      lastTick: 0,
+      // lastTick: 0,
       mode: "WORK",
       elapsed: 0,
       startTime: null,
@@ -4524,10 +4538,8 @@ var _Timer = class {
     let timeup = false;
     let pause = false;
     this.update((s) => {
-      if (s.running && s.lastTick) {
-        let diff = t - s.lastTick;
-        s.lastTick = t;
-        s.elapsed += diff;
+      if (s.running) {
+        s.elapsed += t;
         if (s.elapsed >= s.count) {
           s.elapsed = s.count;
         }
@@ -4580,10 +4592,12 @@ var _Timer = class {
         s.count = s.duration * 60 * 1e3;
         s.startTime = now2;
       }
-      s.lastTick = now2;
       s.inSession = true;
       s.running = true;
-      this.clock.postMessage(true);
+      this.clock.postMessage({
+        start: true,
+        lowFps: this.plugin.getSettings().lowFps
+      });
       return s;
     });
   }
@@ -4597,7 +4611,10 @@ var _Timer = class {
     state.count = state.duration * 60 * 1e3;
     state.inSession = false;
     state.running = false;
-    this.clock.postMessage(false);
+    this.clock.postMessage({
+      start: false,
+      lowFps: this.plugin.getSettings().lowFps
+    });
     state.startTime = null;
     state.elapsed = 0;
     return state;
@@ -4637,7 +4654,10 @@ var _Timer = class {
   pause() {
     this.update((state) => {
       state.running = false;
-      this.clock.postMessage(false);
+      this.clock.postMessage({
+        start: false,
+        lowFps: this.plugin.getSettings().lowFps
+      });
       return state;
     });
   }
@@ -4653,7 +4673,10 @@ var _Timer = class {
       if (!this.plugin.tracker.pinned) {
         this.plugin.tracker.clear();
       }
-      this.clock.postMessage(false);
+      this.clock.postMessage({
+        start: false,
+        lowFps: this.plugin.getSettings().lowFps
+      });
       state.startTime = null;
       state.elapsed = 0;
       return state;
@@ -4661,9 +4684,6 @@ var _Timer = class {
   }
   toggleMode(callback) {
     this.update((s) => {
-      if (s.inSession) {
-        return s;
-      }
       let updated = this.endSession(s);
       if (callback) {
         callback(updated);
@@ -4962,7 +4982,6 @@ function instance5($$self, $$props, $$invalidate) {
     menu.addItem((item) => {
       const mode2 = `Switch ${$store.mode === "WORK" ? "Break" : "Work"} `;
       item.setTitle(mode2);
-      item.setDisabled($store.running || $store.inSession);
       item.onClick(() => {
         store.toggleMode();
       });
@@ -5331,3 +5350,5 @@ var PomodoroTimerPlugin = class extends import_obsidian10.Plugin {
     workspace.revealLeaf(leaf);
   }
 };
+
+/* nosourcemap */

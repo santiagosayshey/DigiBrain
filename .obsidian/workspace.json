@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c51d8537675998ec",
+        "id": "d1a687916172e4d1",
         "type": "tabs",
         "children": [
           {
-            "id": "96d0937ccc4d23c2",
+            "id": "5be71526045f9c84",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -83,6 +83,7 @@
       {
         "id": "f8c7f126a3f43153",
         "type": "tabs",
+        "dimension": 22.657580919931856,
         "children": [
           {
             "id": "34c735ff2efc1376",
@@ -138,6 +139,24 @@
             }
           },
           {
+            "id": "49e2245b1ed2856d",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "72c9287ba7c6c164",
+        "type": "tabs",
+        "dimension": 77.34241908006815,
+        "children": [
+          {
             "id": "4ee3f50c4c6f54d8",
             "type": "leaf",
             "state": {
@@ -147,12 +166,11 @@
               "title": "Todoist"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 952.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,10 +179,48 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "96d0937ccc4d23c2",
+  "floating": {
+    "id": "9a183697c8d45dd4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7b8bfa4045b48413",
+        "type": "window",
+        "children": [
+          {
+            "id": "47ee03cbc94cfe1a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "96d0937ccc4d23c2",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Hands-On Machine Learning - Third edition"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4532,
+        "y": 65,
+        "width": 1188,
+        "height": 1133,
+        "maximize": true,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "49e2245b1ed2856d",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
