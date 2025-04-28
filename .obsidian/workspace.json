@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.2 K-Means"
+              "title": "7.7 Guassian Mixture Models"
             }
           },
           {
@@ -166,8 +166,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -280,8 +279,9 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "cedd67da0bc47203",
+  "active": "11323ced958fd5b8",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.4 SVM Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.3 Similarity Features.md",
@@ -299,7 +299,6 @@
     "Images/Pasted image 20250428164123.png",
     "Images/Pasted image 20250428163848.png",
     "Images/Pasted image 20250428163828.png",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.6 Alternative Clustering.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
     "Images/Pasted image 20250428152753.png",
