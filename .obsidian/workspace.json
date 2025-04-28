@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.6 Alternative Clustering.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.6 Alternative Clustering"
+              "title": "7.7 Guassian Mixture Models"
             }
           },
           {
@@ -258,6 +258,7 @@
   "active": "5be71526045f9c84",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.6 Alternative Clustering.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
     "Images/Pasted image 20250428152753.png",
@@ -284,7 +285,6 @@
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Assignments/1 - School Addition + Karatsuba Multiplication.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 5 - Advanced Web Exploits & Digital Forensics.md",
     "Images/Pasted image 20250428144616.png",
     "Images/Pasted image 20250428142226.png",
     "Images/Pasted image 20250428141746.png",
