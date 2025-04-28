@@ -11,10 +11,30 @@
             "id": "5be71526045f9c84",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "7.1 Unsupervised Learning"
+            }
+          },
+          {
+            "id": "62cebca9922ac7be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Prompt"
             }
           }
         ]
@@ -170,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 952.5
+    "width": 441.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,9 +240,11 @@
       }
     ]
   },
-  "active": "49e2245b1ed2856d",
+  "active": "5be71526045f9c84",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
+    "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/2.5 Hyperparameters.md",
@@ -238,7 +260,6 @@
     "Images/Pasted image 20250426101532.png",
     "Images/Pasted image 20250426101422.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.3 Similarity Features.md",
-    "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.2 Non-Linear SVMs.md",
     "Images/Pasted image 20250426095915.png",
     "Images/Pasted image 20250426095811.png",
@@ -258,7 +279,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Untitled 2.md",
-    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
