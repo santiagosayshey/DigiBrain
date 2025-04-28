@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.3 Image Segmentation.md",
+                "file": "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.4 Summary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.3 Image Segmentation"
+              "title": "12.4 Summary"
             }
           },
           {
@@ -255,9 +255,13 @@
       }
     ]
   },
-  "active": "96d0937ccc4d23c2",
+  "active": "5be71526045f9c84",
   "lastOpenFiles": [
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.3 Legal vs. Ethical.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.4 Server-Side Request Forgery.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Notes/7.4 DDoS.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.3 Image Segmentation.md",
+    "Images/Pasted image 20250428144616.png",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Images/Pasted image 20250428142226.png",
@@ -270,7 +274,6 @@
     "Images/Pasted image 20250428135900.png",
     "Images/Pasted image 20250428135207.png",
     "Content/AI Prompt.md",
-    "Images/Pasted image 20250428132258.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
@@ -292,8 +295,6 @@
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Planning.md",
     "Content/Computer Science/Tech eChallenge/Notes/Dev Workflow.md",
-    "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
-    "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
