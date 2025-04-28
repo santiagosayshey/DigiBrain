@@ -67,8 +67,7 @@
               "title": "AI Prompt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,9 +270,10 @@
       }
     ]
   },
-  "active": "c7668729f583609f",
+  "active": "96d0937ccc4d23c2",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.6 Alternative Clustering.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
@@ -282,7 +282,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.4 Semi-Supervised Learning.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.3 Image Segmentation.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/7.4 DDoS.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.4 Server-Side Request Forgery.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.3 Legal vs. Ethical.md",
