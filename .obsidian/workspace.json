@@ -53,6 +53,21 @@
             }
           },
           {
+            "id": "11323ced958fd5b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/6.2 Non-Linear SVMs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "6.2 Non-Linear SVMs"
+            }
+          },
+          {
             "id": "c7668729f583609f",
             "type": "leaf",
             "state": {
@@ -98,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,52 +279,17 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "floating": {
-    "id": "9a183697c8d45dd4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7b8bfa4045b48413",
-        "type": "window",
-        "children": [
-          {
-            "id": "47ee03cbc94cfe1a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "96d0937ccc4d23c2",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Hands-On Machine Learning - Third edition"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1883,
-        "y": 328,
-        "width": 1188,
-        "height": 1133,
-        "maximize": true,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "96d0937ccc4d23c2",
+  "active": "11323ced958fd5b8",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/6.2 Non-Linear SVMs.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 3 - Mid Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 2 - Early Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 1 - Planet and Species Overview.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Images/Pasted image 20250428170437.png",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250428164956.png",
     "Images/Pasted image 20250428164733.png",
     "Images/Pasted image 20250428164715.png",
@@ -336,9 +316,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.1 P & NP.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/10.4 Prim's Algorithm.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/11.1 Decidability.md",
-    "Content/Computer Science/Computer Networks & Applications/Notes/13.1 Network Address Translation.md",
-    "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
-    "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Images/Pasted image 20250428144616.png",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
