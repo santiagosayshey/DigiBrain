@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.3 Image Segmentation.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.4 Semi-Supervised Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.3 Image Segmentation"
+              "title": "7.4 Semi-Supervised Learning"
             }
           },
           {
@@ -255,10 +255,13 @@
       }
     ]
   },
-  "active": "5be71526045f9c84",
+  "active": "96d0937ccc4d23c2",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.4 Semi-Supervised Learning.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.3 Image Segmentation.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/7.4 DDoS.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/9.4 Server-Side Request Forgery.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Notes/12.3 Legal vs. Ethical.md",
@@ -280,10 +283,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 5 - Advanced Web Exploits & Digital Forensics.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 4 - Network Attacks & Web Security.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 3 - Memory Attacks.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 2 - OSINT, Recon & Network Scanning.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 1 - Intro & Cryptography.md",
-    "Content/Computer Science/Cybersecurity Fundamentals/Notes/11.1 Security Engineering.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250428144616.png",
     "Images/Pasted image 20250428142226.png",
     "Images/Pasted image 20250428141746.png",
