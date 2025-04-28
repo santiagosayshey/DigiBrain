@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 Clustering.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.2 Clustering"
+              "title": "7.2 K-Means"
             }
           },
           {
@@ -257,8 +257,9 @@
   },
   "active": "5be71526045f9c84",
   "lastOpenFiles": [
+    "Images/Pasted image 20250428135207.png",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 Clustering.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/AI Prompt.md",
     "Images/Pasted image 20250428132258.png",
     "Images/Pasted image 20250428132156.png",
