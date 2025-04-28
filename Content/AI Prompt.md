@@ -34,6 +34,8 @@ We write:
 The OpenFlow protocol enables centralized control over network traffic
 ```
 
+**- Output Formatting:** To ensure accurate copying of Markdown, enclose the **entire generated callout note** (including the `> [!type] title` line, all `>` lines, nested code blocks using ` ```python `, etc.) within a single top-level Markdown code block: ` ```markdown ... ``` `.
+
 Example of a well-structured callout:
 
 > [!idea] Key Concept
