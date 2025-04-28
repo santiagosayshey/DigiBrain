@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "f1",
+                "query": "uncertainty sampling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -279,7 +280,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "11323ced958fd5b8",
+  "active": "cedd67da0bc47203",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.4 SVM Regression.md",
