@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 Clustering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.1 Unsupervised Learning"
+              "title": "7.2 Clustering"
             }
           },
           {
@@ -257,12 +257,13 @@
   },
   "active": "96d0937ccc4d23c2",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 Clustering.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/5.2 Softmax Regression.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.1 Support Vector Machines.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/6.4 SVM Regression.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/AI Prompt.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/4.2 Gradient Descent.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
