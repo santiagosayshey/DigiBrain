@@ -29,3 +29,15 @@ video ideas
 - Then we can transition to an actual pitch where the last person we switch to is the real us (the devs), so we can effectively answer the last two bits. market validation would just be us speaking to the characters we switched to before and asking ourselves question funnily, but also linking to actual research we've done (speaking to profs at the uni, asking them if this is a tool they could benefit from. using our own expereince as undergrads and our own pain points. etc) 
 - Then for team skills stay on the dev persona and well show them that the entire presentation was coded from scratch by us and for this presentation. Obviously expand a lot here and expicitly state what technical skils we have in terms of coding. 
 - Then we need to present what gaps we need to consider. Honestly really not sure yet lol. 
+
+
+
+- **Core Functionality:** A web application allowing users to upload text documents (e.g., PDF, .txt) and receive a generated video summary.
+- **Key Features:** 
+	- _Input Processing:_ Handles text extraction, potentially using OCR for image-based PDFs.
+	- _AI-Powered Summarization:_ Condenses the core content using natural language processing.
+	- _Audiovisual Generation:_ Creates voice narration (Text-to-Speech) and selects/generates relevant images based on the summary.
+	- _Video Assembly:_ Combines audio and visuals with basic transitions/interpolation into a shareable video format (e.g., MP4).
+	- *Goal*: To demonstrate the end-to-end workflow and validate the core value proposition of automated video summarization from text.
+
+- **Software Engineering:** Proficient in full-stack web development (front-end interface, back-end processing) necessary to build and deploy the application.&lt;br>- **AI Integration:** Experienced in integrating various external APIs for key functions, including NLP for summarization/analysis, Text-to-Speech (TTS), image generation, OCR, and basic video manipulation tools.&lt;br>- **User-Centric Insight:** Possess first-hand experience with the problem (consuming dense technical content), providing valuable intuition for user needs and product design based on the identified Jobs-to-be-Done.
