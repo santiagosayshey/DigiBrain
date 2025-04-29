@@ -29,4 +29,7 @@ video ideas
 - Start on the sveltekit docs, show myself frantically researching / reading / summarising and ultimately struggling. 
 - Key emphasis here on editing to show just how overhwheliming the docs are / how little time i have until the task deadline.
 - I also need to get in some clear text of me speaking about the exact jobs i need to complete - maybe this can be a funny winky moment where im explicitly showing to the viewer / marker - yes im fufilling the marking criteria. something like - wow i really wish (explain super long customer job with functional, social, emotional goals), if only.....
-- Then have some miracle 
+- Then have some miracle popup show that even funnier answers this exact problem in excruciating detail - like "ever wish you could (solve super long customer job with features that solve your exact functional, social and emotional goals?)"
+- Then you link to the website, show the MVP in action, etc
+- For target market, we can effectively do some fancy editing and change outfits / click fingers to show hey this works if im a software engineering intent, a post grad student, a depressed faculty researcher and then cheekily cut to an undergrad cheating in an assignment then cut away really quickly. question is how do we diffentiate different peoples here? we can be super on the nose and have name tags, change the browser tab, clothes, etc. 
+- Then we can transition to an actual pitch where the last person we switch to is the real us (the devs), so we can effectively answer the last two bits. market validation would just be us speaking to the characters we switched to before and asking ourselves question funnily, but also linking to actual research we've done (speaking to profs at the uni, asking them if this is a to)
