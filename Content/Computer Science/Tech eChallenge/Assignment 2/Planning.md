@@ -25,4 +25,5 @@
 
 video ideas
 - playing a role. instead of presenting a pitch of a problem / solution, show a problem / solution in real time. 
-- start the 'pitch' and introduce a character - Bob - a postgrad student 
+- start the 'pitch' and introduce myself as a character - Bob - a software engineering intern who's been tasked to learn a new javascript framework and present my findings to the team. Present the video as a 'vlog' for my youtube channel. 
+- Start on the sveltekit docs, show myself frantically researching / reading / summarising and ultimately struggling. Key emphasis here on editing to show just how overhwlemi
