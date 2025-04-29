@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/7.1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Planning"
+              "title": "7.1"
+            }
+          },
+          {
+            "id": "3bd909d764f4ffeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Essay 1"
             }
           },
           {
@@ -37,7 +52,8 @@
               "title": "Draft"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,50 +219,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "floating": {
-    "id": "9a183697c8d45dd4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ba8248e380957f65",
-        "type": "window",
-        "children": [
-          {
-            "id": "4f76c5d7e7e03559",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5a5143131521eefd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Draft"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4019,
-        "y": 176,
-        "width": 1219,
-        "height": 1133,
-        "maximize": true,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "3ec00fc69b64a55c",
+  "active": "3bd909d764f4ffeb",
   "lastOpenFiles": [
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/7.1.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
@@ -281,7 +258,6 @@
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/5.1 Binary Search Trees.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.3 NP Hardness.md",
     "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.4 NP Completeness.md",
-    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/12.2 Reduction.md",
     "Images/Pasted image 20250428144616.png",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
