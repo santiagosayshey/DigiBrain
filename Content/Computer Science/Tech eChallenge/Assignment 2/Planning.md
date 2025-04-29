@@ -26,4 +26,7 @@
 video ideas
 - playing a role. instead of presenting a pitch of a problem / solution, show a problem / solution in real time. 
 - start the 'pitch' and introduce myself as a character - Bob - a software engineering intern who's been tasked to learn a new javascript framework and present my findings to the team. Present the video as a 'vlog' for my youtube channel. 
-- Start on the sveltekit docs, show myself frantically researching / reading / summarising and ultimately struggling. Key emphasis here on editing to show just how overhwlemi
+- Start on the sveltekit docs, show myself frantically researching / reading / summarising and ultimately struggling. 
+- Key emphasis here on editing to show just how overhwheliming the docs are / how little time i have until the task deadline.
+- I also need to get in some clear text of me speaking about the exact jobs i need to complete - maybe this can be a funny winky moment where im explicitly showing to the viewer / marker - yes im fufilling the marking criteria. something like - wow i really wish (explain super long customer job with functional, social, emotional goals), if only.....
+- Then have some miracle 
