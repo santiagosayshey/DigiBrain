@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 2/Scripting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Planning"
+              "title": "Scripting"
             }
           },
           {
@@ -311,6 +311,8 @@
   },
   "active": "5d168e0ee6af6e7e",
   "lastOpenFiles": [
+    "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
+    "Content/Computer Science/Tech eChallenge/Assignment 2/Scripting.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
@@ -320,7 +322,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1 - Notes.md",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Moral Problems/Exams/Essay.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
@@ -347,7 +348,6 @@
     "Images/Pasted image 20250428152431.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.4 Semi-Supervised Learning.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.3 Image Segmentation.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/4.3 Generalisation Errors.md",
     "Images/Pasted image 20250428144616.png",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
