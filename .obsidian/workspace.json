@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
+                "file": "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.1 SEARCH"
+              "title": "Planning"
             }
           },
           {
@@ -209,7 +209,7 @@
       {
         "id": "f8c7f126a3f43153",
         "type": "tabs",
-        "dimension": 22.657580919931856,
+        "dimension": 22.657580919931853,
         "children": [
           {
             "id": "34c735ff2efc1376",
@@ -280,7 +280,7 @@
       {
         "id": "72c9287ba7c6c164",
         "type": "tabs",
-        "dimension": 77.34241908006815,
+        "dimension": 77.34241908006814,
         "children": [
           {
             "id": "4ee3f50c4c6f54d8",
@@ -311,8 +311,8 @@
   },
   "active": "5d168e0ee6af6e7e",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.1 Reasoning with Reasons.md",
     "Content/AI Prompt.md",
