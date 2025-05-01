@@ -52,8 +52,7 @@
               "title": "AI Prompt v2"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,11 +218,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "bb1c4be46dfeafba",
+  "active": "4e7d54e77909697b",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/AI Prompt v2.md",
+    "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
