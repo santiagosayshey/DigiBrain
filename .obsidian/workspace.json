@@ -11,15 +11,12 @@
             "id": "4e7d54e77909697b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "7.2 Environmental Ethics (Sinnot-Armstrong)"
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
             }
           },
           {
@@ -220,8 +217,8 @@
   },
   "active": "4e7d54e77909697b",
   "lastOpenFiles": [
-    "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
+    "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
