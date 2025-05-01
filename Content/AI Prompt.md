@@ -2,65 +2,6 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [NOTES] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I have provided additional context and an outline of the specific
-
-[ADDITIONAL CONTEXT]
-
-[IMPORTANT INSTRUCTIONS]
-- The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
-  - Always use objective and unbiased language.
-  - Write concise segmented, non paragraphs. Use dotpoints, but DO NOT write the entire callout in dotpoint format. Use tables if you wish.
-	  - I do not want callouts that contain entirely paragraphs
-	  - I DO NOT WANT CALLOUTS THAT ARE ENTIRELY DOTPOINTS
-	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
-	  - DO NOT PUT NON HEADER TEXT ON THE SAME LINE AS THE HEADER. START A NEW LINE INSIDE THE CALLOUT WHEN YOUVE FINISHED THE HEADER. 
-  - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
-  - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
-  - It is vital that these notes are objective. 
-	  - You are describing what a thing does, not how well it does it. X does y. Not X is crucial to implementing Y. do you see how it introduces unneeded verbosity and bias?
-	  - They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
-
-```
-In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
-
-This example adds nothing of value and introduces bias. 
-```
-
-```
-Instead of:
-The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
-
-We write:
-The OpenFlow protocol enables centralized control over network traffic
-```
-
-**- Output Formatting:** To ensure accurate copying of Markdown, enclose the **entire generated callout note** (including the `> [!type] title` line, all `>` lines, nested code blocks using ` ```python `, etc.) within a single top-level Markdown code block: ` ```markdown ... ``` `.
-
-Example of a well-structured callout:
-
-> [!idea] Key Concept
-> A brief explanation of the concept in 1-2 sentences.
-> - Point 1: A concise statement about an essential aspect of the concept.
-> - Point 2: Another critical point related to the concept.
-> - Table (if applicable):
->
-> | Column 1 | Column 2 |
-> |----------|----------|
-> | Data 1   | Data 2   |
-> | Data 3   | Data 4   |
-
-Checklist:
-- [ ] Used objective and unbiased language
-- [ ] Wrote concise, segmented notes using brief explanations, dot points, and tables
-- [ ] Kept each callout within 50-100 words
-- [ ] Used paragraphs sparingly and only when necessary
-- [ ] Avoided making judgments about the correctness of ideas
-- [ ] Provided clear, concise, and informative content without bias or subjective opinions
-
-- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction.
-
-[END OF IMPORTANT INSTRUCTIONS]
-
 I would like you to format the note using 'callouts'. A callout is defined as a block of text, where each line starts with >. The first line contains the type of callout and the title of the callout. 
 
 > [!callout type] title
@@ -183,3 +124,57 @@ $$$
 
 <hr>
 
+[IMPORTANT INSTRUCTIONS]
+- The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
+  - Always use objective and unbiased language.
+  - Write concise segmented, non paragraphs. Use dotpoints, but DO NOT write the entire callout in dotpoint format. Use tables if you wish.
+	  - I do not want callouts that contain entirely paragraphs
+	  - I DO NOT WANT CALLOUTS THAT ARE ENTIRELY DOTPOINTS
+	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
+	  - DO NOT PUT NON HEADER TEXT ON THE SAME LINE AS THE HEADER. START A NEW LINE INSIDE THE CALLOUT WHEN YOUVE FINISHED THE HEADER. 
+  - Do not make judgments about the correctness or lack thereof regarding the ideas discussed.
+  - Focus on providing clear, concise, and informative content without introducing any bias or subjective opinions.
+  - It is vital that these notes are objective. 
+	  - You are describing what a thing does, not how well it does it. X does y. Not X is crucial to implementing Y. do you see how it introduces unneeded verbosity and bias?
+	  - They do NOT make judgements about the correctness or lack of about the ideas they talk about. Here are some examples of what I DONT WANT:
+
+```
+In graph theory, tackling the Minimum Spanning Tree (MST) problem efficiently across various scenarios is paramount
+
+This example adds nothing of value and introduces bias. 
+```
+
+```
+Instead of:
+The OpenFlow protocol is a key component of SDN, enabling centralized control over network traffic
+
+We write:
+The OpenFlow protocol enables centralized control over network traffic
+```
+
+**- Output Formatting:** To ensure accurate copying of Markdown, enclose the **entire generated callout note** (including the `> [!type] title` line, all `>` lines, nested code blocks using ` ```python `, etc.) within a single top-level Markdown code block: ` ```markdown ... ``` `.
+
+Example of a well-structured callout:
+
+> [!idea] Key Concept
+> A brief explanation of the concept in 1-2 sentences.
+> - Point 1: A concise statement about an essential aspect of the concept.
+> - Point 2: Another critical point related to the concept.
+> - Table (if applicable):
+>
+> | Column 1 | Column 2 |
+> |----------|----------|
+> | Data 1   | Data 2   |
+> | Data 3   | Data 4   |
+
+Checklist:
+- [ ] Used objective and unbiased language
+- [ ] Wrote concise, segmented notes using brief explanations, dot points, and tables
+- [ ] Kept each callout within 50-100 words
+- [ ] Used paragraphs sparingly and only when necessary
+- [ ] Avoided making judgments about the correctness of ideas
+- [ ] Provided clear, concise, and informative content without bias or subjective opinions
+
+- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction.
+
+[END OF IMPORTANT INSTRUCTIONS]
