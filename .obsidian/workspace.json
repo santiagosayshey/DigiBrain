@@ -37,8 +37,7 @@
               "title": "AI Prompt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,8 +203,9 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "bb1c4be46dfeafba",
+  "active": "4e7d54e77909697b",
   "lastOpenFiles": [
+    "Content/AI Prompt.md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
@@ -218,7 +218,6 @@
     "Content/Computer Science/Tech eChallenge/Assignment 2/Transcript.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
-    "Content/AI Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.1 Reasoning with Reasons.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
