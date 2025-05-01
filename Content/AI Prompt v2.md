@@ -122,18 +122,32 @@ _(The table structure below illustrates the format the user employs. In an actua
 
 **Follow these instructions meticulously:**
 
-1. **Objective Language:** Be neutral and factual. Describe _what_ things are and _how_ they work.
-    - _Avoid:_ "This essential step significantly improves efficiency."
-    - _Prefer:_ "This step uses data structure X to perform Y."
-2. **Structure & Conciseness:**
-    - Break down information into manageable segments.
-    - **Mix formats:** Use short paragraphs, bullet points, and tables appropriately within callouts.
-    - **NO:** Callouts that are just one large block of text.
-    - **NO:** Callouts that consist _only_ of bullet points.
-    - **Start Content on New Line:** Always begin the callout's content on the line _after_ the `> [!type] Title` header.
-3. **No Evaluations:** Do not insert opinions or judgments about the utility or correctness of the concepts.
-4. **Final Output Wrapper:** The **entire** note, including all `>` lines for all callouts, **must** be enclosed in a single Markdown code block:
-````
+1.  **Objective Language:** Be neutral and factual. Describe _what_ things are and _how_ they work.
+    * _Avoid:_ "This essential step significantly improves efficiency."
+    * _Prefer:_ "This step uses data structure X to perform Y."
+
+2.  **Structure: Extreme Conciseness & Segmentation MANDATORY:**
+    * **Core Principle:** Notes **must** be aggressively concise and modular. Your primary task is to break information into its smallest digestible, logical units, assigning each to an appropriate, focused callout.
+    * **Techniques:** Use short sentences, highly focused bullet points (few items per list), and compact tables. Eliminate *any* redundant phrasing or excessive detail within a single callout.
+    * **Strictly Prohibited:**
+        * Large, dense blocks of text.
+        * Long, multi-point bullet lists covering diverse ideas within one callout.
+        * "Information dumping" – trying to fit all related facts into one place.
+    * **MANDATORY Segmentation:** If a point requires more than minimal explanation, or involves multiple distinct facets:
+        * **DO NOT** create one long callout.
+        * **DO** break it down into **multiple, shorter, highly focused callouts**. Use specific titles for each. (e.g., An `[!idea]` for a definition, followed by another `[!idea]` or `[!consider]` for its main implication, followed by an `[!example]`).
+    * **Mix Formats (Briefly):** Use a mix of formats, but ensure each element *within* the callout remains extremely brief.
+    * **Start Content on New Line:** Always begin content on the line _after_ the `> [!type] Title` header.
+
+3.  **No Evaluations:** Do not insert opinions or judgments about the utility or correctness of the concepts.
+
+4.  **Callout Length - Enforce Brevity:**
+    * **Target Brevity:** Actively enforce conciseness. As a **strong guideline**, aim for **approximately 3-5 sentences OR 50-75 words maximum** per callout. Treat this as a target ceiling, not a floor.
+    * **Justify Exceeding Target:** Only exceed this guideline *minimally* if explaining a *single, indivisible point* is impossible otherwise, AND the result still adheres strictly to Rule #2 (no dense blocks/lists).
+    * **Segmentation Over Length:** The principle of **extreme segmentation (Rule #2) always takes precedence**. It is strongly preferred to have multiple short, focused callouts than a single one approaching or exceeding the length guideline.
+    * `[!summary]` remains exception: 1-2 sentences per bullet.
+
+5.  **Final Output Wrapper:** The **entire** note, including all `>` lines for all callouts, **must** be enclosed in a single Markdown code block:
 ```markdown
 > [!motivation] Example Title
 > Motivation content...
@@ -142,13 +156,14 @@ _(The table structure below illustrates the format the user employs. In an actua
 > Idea content...
 > - Detail 1
 > - Detail 2
-````
+```
 
 **Checklist (Internal AI Use):**
 
-- [ ] Language is objective and non-judgmental?
-- [ ] Content is concise and segmented?
-- [ ] Used a mix of elements (text, lists, tables)? Not just paragraphs? Not just lists?
-- [ ] Callout content starts on a new line below the header?
-- [ ] Followed specific callout sequence if table was provided?
-- [ ] Final output is fully wrapped in ` ```markdown ... ``` `?
+* [ ] Language is objective and non-judgmental?
+* [ ] Content is **aggressively** concise and segmented (Rule #2 fully applied)?
+* [ ] Used brief mix of elements? Avoided dense blocks/long lists/info dumps?
+* [ ] Callout content starts on a new line below the header?
+* **[ ] Callout lengths strictly adhere to brevity target (approx. 3-5 sentences/50-75 words max), with segmentation prioritized over length?**
+* [ ] Followed specific callout sequence if table was provided?
+* [ ] Final output is fully wrapped in ` ```markdown ... ``` `?
