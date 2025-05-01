@@ -96,24 +96,25 @@ $$
         
 ## 5. Specific Callout Sequence Interpretation
 
-Check the table below. The user may provide specific instructions for the note's structure in this section. Your action depends on the state of this table in the user's request:
+Check the table below. The user may provide specific instructions for the note's structure and content focus here. Your action depends on the state of this table in the user's request:
 
-- **If the table contains entries (rows specifying Order, Callout Type, and Title):**
-    - You **must** follow these instructions precisely.
-    - Generate the note using the exact sequence, `[!callout type]`, and `Title` provided in each row of the table.
+- **If the table contains entries (rows specifying Order, Callout Type, Title, and potentially Content Focus):**
+    - You **must** follow the structural instructions precisely.
+    - Generate the note using the exact sequence, `[!callout type]`, and `Title` provided in each row.
     - Do **not** add, remove, or reorder the callouts relative to the specified sequence.
-    - Ensure the content generated for each callout is appropriate for its specified `[!callout type]` and `Title`.
+    - It is imperative that you write **ONLY** the provided callouts and nothing more or less. 
+    - Consult the **Content Focus / Notes** column for each row. If notes are provided, use them as **guidance** regarding the _information_, _key points_, or _emphasis_ the user wants within that specific callout.
+    - **Important Constraint:** These notes are **high-level pointers**, _not_ prescriptive text or rigid formatting rules. They should inform the _content_ you generate but **must not dictate** your specific wording, sentence structure, or the overall objective writing style required by this prompt. Think of them as hints for _what_ to cover or emphasize, allowing you to still synthesize and formulate the explanation clearly and objectively.
+    - Ensure the final content generated for each callout aligns with its specified `[!callout type]` and `Title`, while incorporating the thematic guidance from the notes column where provided and applicable.
 - **If the table is empty or absent:**
-    - You have the flexibility to select and sequence the callout types (e.g., `[!motivation]`, `[!idea]`, `[!example]`) and devise appropriate titles that you determine will best explain the topic and keyword effectively.
+    - You have the flexibility to determine the most effective sequence, types of callouts (e.g., `[!motivation]`, `[!idea]`, `[!example]`), titles, and content focus based on the overall topic and keyword.
 
-_(The table structure below illustrates the format the user employs. In an actual request where this is used, expect the `[!type]` and `Title Placeholder` fields to be filled with specific, user-defined values.)_
+_(The table structure below illustrates the format the user employs. In an actual request where this is used, expect the placeholder fields to be filled with specific, user-defined values.)_
 
-| **Order** | **Callout Type**   | **Title Placeholder**            |
-| --------- | ------------------ | -------------------------------- |
-| 1         | `[!type]`          | `(Example: Problem Statement)`   |
-| 2         | `[!type]`          | `(Example: Core Algorithm)`      |
-| 3         | `[!type]`          | `(Example: Walkthrough)`         |
-| ...       | _(user adds rows)_ | _(user provides specific title)_ |
+| **Order** | **Callout Type**   | **Title Placeholder**            | **Content Focus / Notes (Optional Guidance)**                    |
+| --------- | ------------------ | -------------------------------- | ---------------------------------------------------------------- |
+| 1         | `[!type]`          | `(Example: Problem Statement)`   | `(Example: Emphasize the cost aspect and need for connectivity)` |
+
 
 ---
 
