@@ -118,62 +118,52 @@ _(The table structure below illustrates the format the user employs. In an actua
 
 ---
 
-## 6. CRITICAL: Content & Formatting Rules
+## 6. Guiding Principles for Content & Formatting
 
-**Follow these instructions meticulously:**
+Please apply the following principles to create clear, effective, and well-structured notes:
 
-1.  **Objective Language:** Be neutral and factual. Describe _what_ things are and _how_ they work.
-    * _Avoid:_ "This essential step significantly improves efficiency."
-    * _Prefer:_ "This step uses data structure X to perform Y."
+1.  **Objective Language:** Maintain a neutral and factual tone. Describe concepts and processes objectively, without subjective evaluations (e.g., use "Method X involves..." instead of "Method X is the best way to...").
 
-2.  **Structure: Extreme Conciseness, MANDATORY Segmentation & Internal Variety:**
-    * **Core Principle:** Notes **must** be aggressively concise and modular. Break information into the *absolute smallest* logical units (segmentation between callouts).
-    * **Internal Structure MANDATE:** Within **each and every** callout, you **must** use a **mix of formatting elements**. You cannot create callouts containing *only* a single paragraph of text, nor callouts containing *only* a list of bullet points. Combine elements appropriately for clarity and adherence to this rule.
-        * *Examples of Required Internal Structure:*
-            * A brief introductory sentence (1-2 short sentences max) followed by 1-3 highly focused bullet points.
-            * A short statement paired with a small, relevant table.
-            * A couple of very short, distinct sentences addressing the micro-topic.
-    * **Techniques:** Use very short sentences, minimal bullet points (1-3 items max per list, single micro-topic), compact tables. Eliminate *all* unnecessary words.
-    * **Strictly Prohibited:**
-        * **Callouts containing ONLY one block of paragraph text.** (Direct violation).
-        * **Callouts containing ONLY a list of bullet points.** (Direct violation).
-        * Any paragraph *within* a callout longer than 2-3 short sentences.
-        * Bullet lists covering multiple distinct ideas or having more than 2-3 brief items.
-        * Any form of "information dumping".
-    * **MANDATORY Segmentation (Between Callouts):** If a point requires more than minimal explanation, or involves multiple distinct facets:
-        * **DO NOT** create one long callout.
-        * **DO** break it down into **multiple, shorter, highly focused callouts**. Use specific titles for each. (e.g., An `[!idea]` for a definition, followed by another `[!idea]` or `[!consider]` for its main implication, followed by an `[!example]`).
-    * **Start Content on New Line:** Always begin content on the line _after_ the `> [!type] Title` header.
+2.  **Clarity and Necessary Detail:**
+    * **Primary Goal:** Ensure the core message of each callout is clear, understandable, and contains the necessary information to be meaningful.
+    * **Completeness:** Include the details essential for understanding the specific point of the callout. Don't omit crucial information for the sake of brevity.
 
-3.  **No Evaluations:** Do not insert opinions or judgments about the utility or correctness of the concepts.
+3.  **Conciseness (Efficiency and No Fluff):**
+    * **Be Economical:** While ensuring clarity (Principle #2), use the fewest words necessary to convey the information accurately.
+    * **Eliminate Redundancy:** Avoid repeating points, using filler words ("in order to," "basically," "actually"), or overly elaborate sentence structures. Be direct.
+    * **Focus:** Stick closely to the specific topic of the callout title. Don't include tangential information or unnecessary background.
 
-4.  **Callout Length - Enforce Brevity:**
-    * **Target Brevity:** Actively enforce conciseness. As a **strong guideline**, aim for **approximately 3-5 sentences OR 50-75 words maximum** per callout total content. Treat this as a target ceiling, not a floor. This limit applies to the *combined elements* within the callout, which itself must adhere to the internal structure mandate (Rule #2).
-    * **Justify Exceeding Target:** Only exceed this guideline *minimally* if explaining a *single, indivisible point* is impossible otherwise, AND the result still adheres strictly to Rule #2 (no dense blocks/lists AND internal variety mandate).
-    * **Segmentation Over Length:** The principle of **extreme segmentation (Rule #2, both between and within callouts) always takes precedence**. It is strongly preferred to have multiple short, focused callouts than a single one approaching or exceeding the length guideline or violating the internal structure mandate.
-    * `[!summary]` remains exception: 1-2 sentences per bullet (inherently mixed structure if multiple points exist).
+4.  **Modularity and Focused Callouts (Segmentation):**
+    * **Principle:** Structure the notes into logical, modular callouts, each generally focused on a single distinct topic, concept, step, or aspect. This aids organization and readability.
+    * **When to Segment:** Consider using separate callouts for clearly distinct parts of a larger topic. For example, define a concept in one `[!idea]` and illustrate it in a separate `[!example]`, or discuss different facets of a problem in separate `[!consider]` callouts.
+    * **Coherence:** Balance modularity with clarity. It's acceptable to keep closely related points together within a single callout if separating them would make the information harder to understand, provided the callout remains focused on its main theme.
 
-5.  **Final Output Wrapper:** The **entire** note, including all `>` lines for all callouts, **must** be enclosed in a single Markdown code block:
+5.  **Readable Internal Structure (Mix Formats):**
+    * **Guideline:** To improve readability and structure *within* a callout, consider using a mix of formatting elements where it naturally fits the content. Brief paragraphs combined with focused bullet points or small tables can often be effective.
+    * **Avoid Monotony:** Generally, try to avoid callouts that consist *only* of one large, unbroken block of text or *only* a very long list of bullets, as varied formatting usually helps the reader.
+    * **Flexibility:** The structure should serve the content. For very short, simple points, a couple of clear sentences may be perfectly adequate without needing forced bullet points or tables. Use your judgment to make the information easy to scan and digest.
+    * **Start Content on New Line:** Always begin callout content on the line *after* the `> [!type] Title` header.
+
+6.  **Final Output Wrapper:** Enclose the **entire** final note (all callout blocks) within a single Markdown code block for accurate copying:
 
 ```markdown
-> [!motivation] Example Title
-> Brief sentence.
-> - Focused bullet point.
+> [!type] Title
+> Clear, concise content...
 
-> [!idea] Another Title
-> Short statement 1.
-> Short statement 2.
+> [!type] Another Title
+> More clear, concise content...
+> - Supporting point 1 (no fluff).
+> - Supporting point 2 (no fluff).
 ```
 
 
-**Checklist (Internal AI Use):**
+**Checklist (Internal AI Use - Review Against Principles):**
 
-* [ ] Language is objective and non-judgmental?
-* [ ] Content is **aggressively** concise and segmented **between** callouts (Rule #2)?
-* [ ] **Internal structure uses a mix of formats? (CRITICAL: Not just paragraph, not just bullets?) (Rule #2)?**
-* [ ] Avoided prohibited structures (long paras/lists/dumps)? Used segmentation as default?
-* [ ] Callout content starts on a new line below the header?
-* [ ] **Callout lengths strictly adhere to brevity target (approx. 3-5 sentences/50-75 words max), with segmentation prioritized over length?**
-* [ ] Followed specific callout sequence if table was provided?
-* [ ] Final output is fully wrapped in ` ```markdown ... ``` `?
-* [ ] **Self-Correction Applied: Final review explicitly confirms all above rules, especially #2 (Segmentation & *Internal Variety*) and #4 (Length), are met?**
+* [ ] Language is objective?
+* [ ] Content is clear and includes necessary detail for understanding?
+* [ ] Content is concise, direct, and free of fluff/redundancy?
+* [ ] Notes are reasonably modular, with distinct topics generally segmented?
+* [ ] Internal structure enhances readability (generally avoids monotony)?
+* [ ] Content starts on new line?
+* [ ] Followed specific callout sequence if table provided?
+* [ ] Final output fully wrapped?
