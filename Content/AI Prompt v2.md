@@ -118,48 +118,43 @@ _(The table structure below illustrates the format the user employs. In an actua
 
 ---
 
-## 6. Core Formatting & Structure Mandate (Non-Negotiable)
+## 6. Guiding Principles for Content & Formatting
 
-**To maximize clarity and create an effective learning resource (the Goal in Section 7), you MUST adhere strictly to these two core structural rules for EVERY callout generated. There is no flexibility on these points.**
+Please apply the following principles to create clear, effective, and well-structured notes:
 
-1.  **Radical Segmentation (Between Callouts):**
-    * **Break Everything Down:** Each callout must address **only ONE single, minimal point, idea, concept, definition, step, example element, or consideration.** If a topic has multiple facets (e.g., multiple arguments, multiple parts of a definition, multiple consequences, multiple steps in an example), each facet **must** be in its own separate callout.
-    * **Use Hyper-Specific Titles:** Titles must reflect the single, minimal point of the callout (e.g., `[!idea] SA's View: No Direct Emission Duty`, `[!idea] SA's View: Duty for Policy Change`, `[!example] Bridge Scenario: No Individual Duty`, `[!example] Arithmetic Scenario: Individual Duty Arises`).
+1.  **Objective Language:** Maintain a neutral and factual tone. Describe concepts and processes objectively, without subjective evaluations (e.g., use "Method X involves..." instead of "Method X is the best way to...").
 
-2.  **Mandatory Simple Internal Structure (Intro + Bullets):**
-    * **Required Format:** Every callout **must** use the following internal structure:
-        * **A single introductory sentence** (maximum two short sentences) that states the core point/topic of that specific, minimal callout.
-        * **Followed by one to three (1-3) concise bullet points** that elaborate *only* on the specific point made in the introductory sentence. These bullets must be brief and directly support the intro.
-    * **Forbidden Formats:**
-        * Callouts containing **only paragraph text** are absolutely forbidden.
-        * Callouts containing **only bullet points** (without the required introductory sentence) are absolutely forbidden.
-        * Any other structure deviating from "Intro Sentence(s) + 1-3 Bullets" is forbidden (unless using an optional small table *in addition*).
-    * **Conciseness within Structure:** Within this mandatory structure, use clear, direct language. Eliminate fluff, redundancy, and unnecessary words. Keep sentences and bullet points brief.
+2.  **Clarity and Necessary Detail:**
+    * **Primary Goal:** Ensure the core message of each callout is clear, understandable, and contains the necessary information to be meaningful.
+    * **Completeness:** Include the details essential for understanding the specific point of the callout. Don't omit crucial information for the sake of brevity.
 
-* **No Exceptions:** These two structural rules (Radical Segmentation & Mandatory Internal Structure) are absolute requirements for this task. They are deemed necessary to force the level of clarity and digestibility required for the learning goal.
+3.  **Conciseness (Efficiency and No Fluff):**
+    * **Be Economical:** While ensuring clarity (Principle #2), use the fewest words necessary to convey the information accurately.
+    * **Eliminate Redundancy:** Avoid repeating points, using filler words ("in order to," "basically," "actually"), or overly elaborate sentence structures. Be direct.
+    * **Focus:** Stick closely to the specific topic of the callout title. Don't include tangential information or unnecessary background.
 
-3.  **Final Output Wrapper:** Enclose the **entire** final note (all callout blocks adhering to the rules above) within a single Markdown code block:
+4.  **Modularity and Focused Callouts (Segmentation):**
+    * **Principle:** Structure the notes into logical, modular callouts, each generally focused on a single distinct topic, concept, step, or aspect. This aids organization and readability.
+    * **When to Segment:** Consider using separate callouts for clearly distinct parts of a larger topic. For example, define a concept in one `[!idea]` and illustrate it in a separate `[!example]`, or discuss different facets of a problem in separate `[!consider]` callouts.
+    * **Coherence:** Balance modularity with clarity. It's acceptable to keep closely related points together within a single callout if separating them would make the information harder to understand, provided the callout remains focused on its main theme.
+
+5.  **Readable Internal Structure (Enhancing Clarity):**
+    * **Guideline:** Structure information *within* callouts to maximize readability and support learning (Goal #7). Using a mix of formats, such as brief introductory sentences combined with focused bullet points or small tables, is generally the most effective way to achieve this.
+    * **Actively Avoid Monotony:** Please actively avoid callouts that consist *only* of a single block of paragraph text or *only* a list of bullets, as this typically hinders readability. Look for opportunities to structure the information, for example, with a lead sentence and supporting points. This is non negotiable. Providing callouts with single paragraphs will constitute a failure.
+    * **Flexibility for Brevity:** For genuinely simple, self-contained points requiring only one or two clear sentences, that brief structure is fine. However, for anything needing even slight elaboration or listing points, apply structural variety (like intro + bullets) to aid comprehension. Use judgment focused on making it easy for a reader to understand.
+    * **Start Content on New Line:** Always begin callout content on the line *after* the `> [!type] Title` header.
+
+6.  **Final Output Wrapper:** Enclose the **entire** final note (all callout blocks) within a single Markdown code block for accurate copying:
+
 ```markdown
-> [!type] Hyper-Specific Title 1
-> Single introductory sentence.
-> - Brief bullet point 1 elaborating on intro.
-> - Brief bullet point 2 elaborating on intro.
+> [!type] Title
+> Clear, concise content...
 
-> [!type] Hyper-Specific Title 2
-> Single introductory sentence for the next minimal point.
-> - Brief bullet point 1 elaborating.
-    ```
-
-**Checklist (Internal AI Use - Strict Adherence Required):**
-
-* [ ] Language is objective?
-* [ ] **Radical Segmentation Applied? (Rule 1)** Each callout truly minimal & single-focused? Titles hyper-specific?
-* [ ] **Mandatory Internal Structure Used? (Rule 2)** EVERY callout follows "Intro Sentence(s) + 1-3 Bullets"? No forbidden formats?
-* [ ] Content is concise / no fluff within the required structure?
-* [ ] Content starts on new line?
-* [ ] Followed specific callout sequence if table provided?
-* [ ] Final output fully wrapped?
-* [ ] **Reviewed output explicitly against MANDATORY Rules 1 & 2?**
+> [!type] Another Title
+> More clear, concise content...
+> - Supporting point 1 (no fluff).
+> - Supporting point 2 (no fluff).
+```
 
 ## 7. Overarching Goal: Effective Learning Resource
 
@@ -169,3 +164,16 @@ _(The table structure below illustrates the format the user employs. In an actua
 * **Guidelines Support Learning:** The principles outlined in Section 6 (clarity, conciseness, modularity, objective language, structure) are designed to *support* this primary purpose. They are tools intended to make the information easier to understand, digest, and retain, not arbitrary rules.
 * **Focus on Usefulness & Understanding:** While adhering to the guidelines is generally expected, it should not be a purely mechanical checklist exercise at the expense of the goal. The ultimate measure of success is whether the generated notes are **genuinely helpful, understandable, and educationally valuable** for someone learning the topic.
 * **Educational Value is Paramount:** If you believe rigidly applying a specific guideline in a particular instance (for example, forcing segmentation that harms understanding, or being so concise on a complex point that it becomes confusing) would significantly detract from the clarity or educational value, **prioritize making the notes effective for learning.** Use your judgment to best balance the guidelines in service of this ultimate teaching goal. **Above all else, the notes must be useful and make sense as a learning tool.** The checklist is secondary to this core objective.
+
+**Checklist (Internal AI Use - Comprehensive Review Against Principles & Goal):**
+
+* [ ] **Objectivity:** Is the language neutral, factual, and free of subjective evaluations or bias (Principle 1)?
+* [ ] **Clarity & Conciseness:** Does the content clearly convey the necessary information for understanding (Principle 2) AND is it expressed efficiently, directly, and without fluff or redundancy (Principle 3)? Is the balance appropriate?
+* [ ] **Segmentation (Modularity):** Are distinct topics, concepts, steps, or facets appropriately segmented into separate, focused callouts to enhance organization and readability (Principle 4)? Was segmentation used effectively without making the flow disjointed where coherence was needed?
+* [ ] **Internal Structure & Readability:** Does the internal structure of EACH callout enhance readability (Guideline 5)? Specifically:
+    * [ ] Does it generally use a mix of formats (e.g., brief intro + bullets/table)?
+    * [ ] Does it actively avoid monotony (i.e., NOT just a single paragraph AND NOT just a bullet list, unless the point was extremely brief and simple per the guideline)?
+* [ ] **Basic Formatting:** Does content start on a new line after the callout header (Guideline 5)?
+* [ ] **Sequence Adherence:** If a specific callout sequence table was provided (Section 5), was it followed precisely in terms of order, type, and title?
+* [ ] **Output Wrapper:** Is the entire final output correctly enclosed in a single ```markdown code block (Principle 6)?
+* [ ] **Overall Goal Alignment:** Critically considering Section 7, does the final output effectively serve the primary goal of being a genuinely useful, clear, and understandable learning resource? Does it prioritize educational value?
