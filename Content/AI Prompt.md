@@ -2,7 +2,7 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [NOTES] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure exactly, if i say motivation, then idea callout, you do that. nothing more, nothing less.
+I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure exactly, if i say motivation, then idea callout, you do that. nothing more, nothing less. please also remember that the following section is merely an outline of what i want to write. it is not a structure, it is fleeting, random thoughts i have that should help you write your note - it should not dictate what is included.
 
 [ADDITIONAL CONTEXT]
 
