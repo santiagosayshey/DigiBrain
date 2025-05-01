@@ -2,7 +2,7 @@ Hello!
 
 I would like your assistance in writing concise, modular notes on the topic of [NOTES] The goal is to create notes that are easy to understand and focused on key ideas rather than verbatim copying from textbooks. 
 
-I have provided additional context on the desired notes below. Please use this information as a guide for what you should write. You need to follow this structure exactly, if i say motivation, then idea callout, you do that. nothing more, nothing less. please also remember that the following section is merely an outline of what i want to write. it is not a structure, it is fleeting, random thoughts i have that should help you write your note - it should not dictate what is included.
+I have provided additional context and an outline of the specific
 
 [ADDITIONAL CONTEXT]
 
@@ -10,7 +10,7 @@ I have provided additional context on the desired notes below. Please use this i
 - The following instructions are to be treated as the highest priority and must be strictly adhered to in every response:
   - Always use objective and unbiased language.
   - Write concise segmented, non paragraphs. Use dotpoints, but DO NOT write the entire callout in dotpoint format. Use tables if you wish.
-	  - I DO NOT WANT CALLOUTS ON CALLOUTS THAT ARE ENTIRELY PARAGRAPHS. THESE ARE USELESS.
+	  - I do not want callouts that contain entirely paragraphs
 	  - I DO NOT WANT CALLOUTS THAT ARE ENTIRELY DOTPOINTS
 	  - USE A COMBINATION OF SHORT PARAGRAPHS, DOTPOINTS, TABLES and IMAGES. 
 	  - DO NOT PUT NON HEADER TEXT ON THE SAME LINE AS THE HEADER. START A NEW LINE INSIDE THE CALLOUT WHEN YOUVE FINISHED THE HEADER. 
@@ -57,7 +57,7 @@ Checklist:
 - [ ] Avoided making judgments about the correctness of ideas
 - [ ] Provided clear, concise, and informative content without bias or subjective opinions
 
-- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction. To make sure you understand this, please repeat the following line at the start of your response. 
+- Failure to follow these instructions will result in the response being deemed unsatisfactory and may lead to termination of the interaction.
 
 [END OF IMPORTANT INSTRUCTIONS]
 
