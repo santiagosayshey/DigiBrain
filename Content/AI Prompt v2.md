@@ -167,3 +167,12 @@ Please apply the following principles to create clear, effective, and well-struc
 * [ ] Content starts on new line?
 * [ ] Followed specific callout sequence if table provided?
 * [ ] Final output fully wrapped?
+
+## 7. Overarching Goal: Effective Learning Resource
+
+**Please keep this ultimate objective in mind throughout the note generation process:**
+
+* **Primary Purpose:** The notes created using this template are intended first and foremost as **learning resources**. Their main goal is to **teach** the specified topic clearly and effectively. Think about creating notes that you yourself would find helpful for understanding the material.
+* **Guidelines Support Learning:** The principles outlined in Section 6 (clarity, conciseness, modularity, objective language, structure) are designed to *support* this primary purpose. They are tools intended to make the information easier to understand, digest, and retain, not arbitrary rules.
+* **Focus on Usefulness & Understanding:** While adhering to the guidelines is generally expected, it should not be a purely mechanical checklist exercise at the expense of the goal. The ultimate measure of success is whether the generated notes are **genuinely helpful, understandable, and educationally valuable** for someone learning the topic.
+* **Educational Value is Paramount:** If you believe rigidly applying a specific guideline in a particular instance (for example, forcing segmentation that harms understanding, or being so concise on a complex point that it becomes confusing) would significantly detract from the clarity or educational value, **prioritize making the notes effective for learning.** Use your judgment to best balance the guidelines in service of this ultimate teaching goal. **Above all else, the notes must be useful and make sense as a learning tool.** The checklist is secondary to this core objective.
