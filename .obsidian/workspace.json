@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/AI Prompt.md",
+                "file": "Content/AI Prompt v2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI Prompt"
+              "title": "AI Prompt v2"
             }
           }
         ],
@@ -207,7 +207,7 @@
   "active": "bb1c4be46dfeafba",
   "lastOpenFiles": [
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
-    "Content/AI Prompt.md",
+    "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
