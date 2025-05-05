@@ -20,18 +20,18 @@
 
 *Now, use these results (TP=85, FN=15, TN=855, FP=45) to answer the questions.*
 
-| Question # | Topic          | Details / Calculation                        | Answer |
-| :--------- | :------------- | :------------------------------------------- | :----- |
-| 1a         | TP             | Identify True Positives                      | 85     |
-| 1b         | FP             | Identify False Positives                     | 45     |
-| 1c         | FN             | Identify False Negatives                     | 15     |
-| 1d         | TN             | Identify True Negatives                      | 855    |
-| 2          | Precision      | Calculate TP / (TP + FP)                     |        |
-| 2a         | Precision      | *Interpretation:* What does this value mean? |        |
-| 3          | Recall         | Calculate TP / (TP + FN)                     |        |
-| 3a         | Recall         | *Interpretation:* What does this value mean? |        |
-| 4          | FPR            | Calculate FP / (FP + TN)                     |        |
-| 4a         | FPR            | *Interpretation:* What does this value mean? |        |
-| 5          | F1-Score       | Calculate 2*(Precision*Recall)/(Prec+Rec)    |        |
-| 6          | Prioritization | Which is more critical (Prec/Rec) & why?     |        |
-| 7          | AUC            | *Interpretation:* What does AUC represent?   |        |
+| Question # | Topic          | Details / Calculation                        | Answer                                            |
+| :--------- | :------------- | :------------------------------------------- | :------------------------------------------------ |
+| 1a         | TP             | Identify True Positives                      | 85                                                |
+| 1b         | FP             | Identify False Positives                     | 45                                                |
+| 1c         | FN             | Identify False Negatives                     | 15                                                |
+| 1d         | TN             | Identify True Negatives                      | 855                                               |
+| 2          | Precision      | Calculate TP / (TP + FP)                     | 0.65                                              |
+| 2a         | Precision      | *Interpretation:* What does this value mean? | 65% of predicted positive values were correct     |
+| 3          | Recall         | Calculate TP / (TP + FN)                     | 0.85                                              |
+| 3a         | Recall         | *Interpretation:* What does this value mean? | 85% of the true positives were identified         |
+| 4          | FPR            | Calculate FP / (FP + TN)                     | 0.05                                              |
+| 4a         | FPR            | *Interpretation:* What does this value mean? | 5% of predicted positive values were false alarms |
+| 5          | F1-Score       | Calculate 2*(Precision*Recall)/(Prec+Rec)    | 0.73                                              |
+| 6          | Prioritization | Which is more critical (Prec/Rec) & why?     |                                                   |
+| 7          | AUC            | *Interpretation:* What does AUC represent?   |                                                   |
