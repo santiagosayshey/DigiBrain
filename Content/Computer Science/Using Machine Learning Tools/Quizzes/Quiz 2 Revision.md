@@ -9,3 +9,29 @@
 | False Positive Rate         | FPR          | What fraction of the real negative class was incorrectly labeled as positive? $$\text{FPR} = \frac{FP}{FP + TN}$$ - Important when false alarms are costly (like incorrectly flagging a legitimate transaction as fraud)                                                                                                                                                                                   | If there are 100 healthy patients (negative class), and the test incorrectly flags 5 of them as having the disease (5 FP), the FPR is $5/(5+95) = 0.05$. 5% of healthy patients received a false positive result.                                                                                                                                                                                                  |
 | F1-Score                    | F1-Score     | F1-Score is a metric that combines precision and recall into a single number.<br>F1-Score is the harmonic mean of precision and recall (it weighs them equally): $$\text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$<br>It's useful when you need a balance between precision and recall - when both false positives and false negatives matter. | Using the Precision (0.8) and Recall (0.8) from the examples above: F1-Score = $2 \times (0.8 \times 0.8) / (0.8 + 0.8) = 2 \times 0.64 / 1.6 = 1.28 / 1.6 = 0.8$. This single score reflects the balance between precision and recall.                                                                                                                                                                            |
 | ROC/AUC                     | ROC/AUC      | ROC curve plots TPR vs FPR as you change the classification threshold<br>Shows the trade-off: higher threshold = fewer false positives but might miss real positives<br>AUC = area under the ROC curve (0 to 1)<br>- Measures overall ability to distinguish between positive and negative classes<br>- Useful for choosing optimal threshold and comparing models                                         | Comparing two different diagnostic tests: Test A has an AUC of 0.90, Test B has an AUC of 0.75. This indicates Test A is generally better at distinguishing between patients with and without the disease across all possible sensitivity levels (thresholds). An AUC of 0.90 means there's a 90% chance that the test will rank a randomly chosen diseased patient higher than a randomly chosen healthy patient. |
+**Practice Questions: Fraud Detection Model Evaluation**
+
+**Scenario:** A fraud detection model is tested on 1000 transactions.
+* There are 100 actual fraudulent transactions (Positive Class).
+* There are 900 actual legitimate transactions (Negative Class).
+**Model Results:**
+* Of the 100 actual frauds, the model correctly identified **85 (True Positives, TP)** and missed **15 (False Negatives, FN)**.
+* Of the 900 legitimate transactions, the model correctly identified **855 (True Negatives, TN)** and incorrectly flagged **45 (False Positives, FP)** as fraud.
+
+*Now, use these results (TP=85, FN=15, TN=855, FP=45) to answer the questions.*
+
+| Question # | Topic         | Details / Calculation                          | Answer                                      |
+| :--------- | :------------ | :--------------------------------------------- | :------------------------------------------ |
+| 1a         | TP            | Identify True Positives                        |                                             |
+| 1b         | FP            | Identify False Positives                       |                                             |
+| 1c         | FN            | Identify False Negatives                       |                                             |
+| 1d         | TN            | Identify True Negatives                        |                                             |
+| 2          | Precision     | Calculate TP / (TP + FP)                       |                                             |
+| 2a         | Precision     | *Interpretation:* What does this value mean?   |                                             |
+| 3          | Recall        | Calculate TP / (TP + FN)                       |                                             |
+| 3a         | Recall        | *Interpretation:* What does this value mean?   |                                             |
+| 4          | FPR           | Calculate FP / (FP + TN)                       |                                             |
+| 4a         | FPR           | *Interpretation:* What does this value mean?   |                                             |
+| 5          | F1-Score      | Calculate 2*(Precision*Recall)/(Prec+Rec)    |                                             |
+| 6          | Prioritization| Which is more critical (Prec/Rec) & why?       |                                             |
+| 7          | AUC           | *Interpretation:* What does AUC represent?     |                                             |
