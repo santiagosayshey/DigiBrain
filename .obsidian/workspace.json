@@ -4,41 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "43cd8d94536f8f7c",
+        "id": "d8016e4159ab8e64",
         "type": "tabs",
         "children": [
           {
-            "id": "29880ecd76e2ad88",
+            "id": "e2503441fadad222",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 2 Revision.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/8.1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quiz 2 Revision"
+              "title": "8.1"
             }
           },
           {
-            "id": "b9644139cb6dd3ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "7.1 Environmental Ethics (Broome)"
-            }
-          },
-          {
-            "id": "bb1c4be46dfeafba",
+            "id": "d0c77494a8a58146",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -219,16 +204,17 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "29880ecd76e2ad88",
+  "active": "e2503441fadad222",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
-    "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 2 Revision.md",
     "Content/AI Prompt v2.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/8.1.md",
+    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
+    "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 2 Revision.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 1 Revision.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
-    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/5.5 Perspective Summary.md",
     "Content/Philosophy/Moral Problems/Notes/5.4 Anti-Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
@@ -247,7 +233,6 @@
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Moral Problems/Exams/Essay.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
     "Images/Pasted image 20250428164956.png",
