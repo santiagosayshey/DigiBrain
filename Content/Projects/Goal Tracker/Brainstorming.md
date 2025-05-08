@@ -1,0 +1,11 @@
+- idea: goal tracking app
+- calendar
+	- click off tasks done for the day - add custom tasks
+	- some kind of goal or incentive for finishing tasks
+	- basic daily journaling to get out thoughts - this can be the basic task that everyone does
+	- good ux - i should be able to see my daily tasks immediately as well as the goal im working towards and its progress. 
+	- some kind of viewer to review past days
+	- log anxiety, depression, hapiness levels major events
+	- sleep time, wake time. 
+- some kind of basic AI to detect patterns and notice when things are getting bad suggesting past methods that have helped to get back on track again
+- 
