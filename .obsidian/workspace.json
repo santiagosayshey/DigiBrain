@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Formal Logic"
+              "title": "3.2 Argument Form"
             }
           },
           {
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "counterex",
+                "query": "analogous",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,9 +207,11 @@
   },
   "active": "e2503441fadad222",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Notes/5.2 Reasoning with Uncertainty.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
+    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/4.1 Venn Diagrams.md",
@@ -233,8 +235,6 @@
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.2 SEARCH Case Study.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 2/Scripting.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
     "Images/Pasted image 20250428164956.png",
