@@ -103,6 +103,7 @@ Check the table below. The user may provide specific instructions for the note's
     - Generate the note using the exact sequence, `[!callout type]`, and `Title` provided in each row.
     - Do **not** add, remove, or reorder the callouts relative to the specified sequence.
     - It is imperative that you write **ONLY** the provided callouts and nothing more or less. 
+	    - This means if it only has 1 row, then you write a callout for that 1 row. It is vital that you understand this and do not try to generate more than what is asked. 
     - Consult the **Content Focus / Notes** column for each row. If notes are provided, use them as **guidance** regarding the _information_, _key points_, or _emphasis_ the user wants within that specific callout.
     - **Important Constraint:** These notes are **high-level pointers**, _not_ prescriptive text or rigid formatting rules. They should inform the _content_ you generate but **must not dictate** your specific wording, sentence structure, or the overall objective writing style required by this prompt. Think of them as hints for _what_ to cover or emphasize, allowing you to still synthesize and formulate the explanation clearly and objectively.
     - Ensure the final content generated for each callout aligns with its specified `[!callout type]` and `Title`, while incorporating the thematic guidance from the notes column where provided and applicable.
@@ -169,11 +170,12 @@ Please apply the following principles to create clear, effective, and well-struc
 
 * [ ] **Objectivity:** Is the language neutral, factual, and free of subjective evaluations or bias (Principle 1)?
 * [ ] **Clarity & Conciseness:** Does the content clearly convey the necessary information for understanding (Principle 2) AND is it expressed efficiently, directly, and without fluff or redundancy (Principle 3)? Is the balance appropriate?
-* [ ] **Segmentation (Modularity):** Are distinct topics, concepts, steps, or facets appropriately segmented into separate, focused callouts to enhance organization and readability (Principle 4)? Was segmentation used effectively without making the flow disjointed where coherence was needed?
+* [ ] **Segmentation (Modularity):** Are distinct topics, concepts, steps, or facets appropriately segmented into separate, focused callouts to enhance organisation and readability (Principle 4)? Was segmentation used effectively without making the flow disjointed where coherence was needed?
 * [ ] **Internal Structure & Readability:** Does the internal structure of EACH callout enhance readability (Guideline 5)? Specifically:
     * [ ] Does it generally use a mix of formats (e.g., brief intro + bullets/table)?
     * [ ] Does it actively avoid monotony (i.e., NOT just a single paragraph AND NOT just a bullet list, unless the point was extremely brief and simple per the guideline)?
 * [ ] **Basic Formatting:** Does content start on a new line after the callout header (Guideline 5)?
 * [ ] **Sequence Adherence:** If a specific callout sequence table was provided (Section 5), was it followed precisely in terms of order, type, and title?
+* [ ] **Structure Adherence**: Was the structure of callouts followed completely? If x callouts was requested, were x callouts made? Are you certain that it exactly this structure and not more / less?
 * [ ] **Output Wrapper:** Is the entire final output correctly enclosed in a single ```markdown code block (Principle 6)?
 * [ ] **Overall Goal Alignment:** Critically considering Section 7, does the final output effectively serve the primary goal of being a genuinely useful, clear, and understandable learning resource? Does it prioritize educational value?
