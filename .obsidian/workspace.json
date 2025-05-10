@@ -11,15 +11,12 @@
             "id": "e2503441fadad222",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/4.2 Syllogisms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Philosophy/Moral Problems/Readings/Alastair Norcross, _Puppies, Pigs, and People_ Eating Meat and Marginal Cases.pdf"
               },
-              "icon": "lucide-file",
-              "title": "4.2 Syllogisms"
+              "icon": "lucide-file-text",
+              "title": "Alastair Norcross, _Puppies, Pigs, and People_ Eating Meat and Marginal Cases"
             }
           },
           {
@@ -206,6 +203,8 @@
   },
   "active": "e2503441fadad222",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Notes/4.2 Syllogisms.md",
+    "Content/Philosophy/Moral Problems/Readings/Alastair Norcross, _Puppies, Pigs, and People_ Eating Meat and Marginal Cases.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/4.1 Venn Diagrams.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
@@ -214,7 +213,6 @@
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/5.2 Reasoning with Uncertainty.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/3.1 Validity.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/4.2 Syllogisms.md",
     "Content/Projects/Goal Tracker/Brainstorming.md",
     "Content/Projects/Gratitude/2024-W01.md",
     "Content/Projects/Goal Tracker",
@@ -233,7 +231,6 @@
     "Content/Philosophy/Moral Problems/Notes/5.3 Moral Inequivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/7.2 SEARCH Case Study.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
     "Images/Pasted image 20250428164956.png",
@@ -251,7 +248,6 @@
     "Content/Computer Science/Tech eChallenge/Assignment 1",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
-    "Content/Philosophy/Argument & Critical Thinking/Email",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
