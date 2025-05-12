@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/9.5 Classification MLPs.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9.5 Classification MLPs"
+              "title": "5.1 Euthanasia"
             }
           },
           {
@@ -288,8 +288,8 @@
   },
   "active": "5351430ddd636e59",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.5 Classification MLPs.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
     "Content/AI Prompt v2.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.1 Artificial Neural Networks.md",
