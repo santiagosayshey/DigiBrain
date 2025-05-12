@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9.3 Multilayer Perceptron"
+              "title": "9.4 Regression MLPs"
             }
           },
           {
@@ -286,19 +286,23 @@
       }
     ]
   },
-  "active": "dbfcd7680b2684fb",
+  "active": "5351430ddd636e59",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/9.1 Artificial Neural Networks.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.6 Alternative Clustering.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
+    "Images/Pasted image 20250513050451.png",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
     "Content/AI Prompt v2.md",
     "Images/Pasted image 20250513042355.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.2 Perceptrons.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/9.1 Artificial Neural Networks.md",
     "Images/Pasted image 20250513033743.png",
     "Images/Pasted image 20250513032343.png",
     "Images/Pasted image 20250513032233.png",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/8.1 Reasoning in the Wild.md",
@@ -318,15 +322,12 @@
     "Content/Projects/Goal Tracker",
     "Content/Projects/Gratitude/2024-W02.md",
     "Content/Computer Science/Using Machine Learning Tools/Quizzes/Quiz 2 Revision.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/3.2 Classification Metrics.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/3.1 Classification.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
     "Images/Pasted image 20250428164956.png",
     "Images/Pasted image 20250428164733.png",
     "Images/Pasted image 20250428164715.png",
     "Images/Pasted image 20250428164123.png",
-    "Images/Pasted image 20250428163848.png",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
