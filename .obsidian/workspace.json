@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/9.5 Classification MLPs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9.4 Regression MLPs"
+              "title": "9.5 Classification MLPs"
             }
           },
           {
@@ -289,6 +289,7 @@
   "active": "5351430ddd636e59",
   "lastOpenFiles": [
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/9.5 Classification MLPs.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
     "Content/AI Prompt v2.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.1 Artificial Neural Networks.md",
@@ -320,7 +321,6 @@
     "Content/Projects/Goal Tracker/Brainstorming.md",
     "Content/Projects/Gratitude/2024-W01.md",
     "Content/Projects/Goal Tracker",
-    "Content/Projects/Gratitude/2024-W02.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
     "Images/Pasted image 20250428164956.png",
