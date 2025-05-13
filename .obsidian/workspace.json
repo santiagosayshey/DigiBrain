@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Fallacies.md",
+                "file": "Content/Computer Science/Cybersecurity Fundamentals/Notes/7.5 DNS Attacks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9.1 Fallacies"
+              "title": "7.5 DNS Attacks"
             }
           },
           {
@@ -300,8 +300,12 @@
       }
     ]
   },
-  "active": "dbfcd7680b2684fb",
+  "active": "8b632a280bb552a2",
   "lastOpenFiles": [
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 2 - OSINT, Recon & Network Scanning.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 1 - Intro & Cryptography.md",
+    "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 5 - Advanced Web Exploits & Digital Forensics.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Fallacies.md",
     "Content/AI Prompt v2.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/8.2 Rhetoric.md",
@@ -325,13 +329,9 @@
     "Images/Pasted image 20250514022052.png",
     "Images/Pasted image 20250514022042.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.5 Classification MLPs.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.1 Artificial Neural Networks.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.1 Unsupervised Learning.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.6 Alternative Clustering.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.7 Guassian Mixture Models.md",
     "Images/Pasted image 20250513050451.png",
     "Images/Pasted image 20250513042355.png",
     "Images/Pasted image 20250513033743.png",
