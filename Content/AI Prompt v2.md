@@ -18,9 +18,7 @@ I need these notes to be:
 
 Structure the notes using 'callout' blocks. Each block starts with `>` on every line, with the first line defining the type and title:
 
-Markdown
-
-```
+```markdown
 > [!callout_type] Title of Callout
 >
 > Content for the callout goes here.
@@ -74,9 +72,7 @@ You can enhance callouts with:
 
 - **Tables**: Use standard Markdown.
 
-Markdown
-
-```
+```Markdown
 | Algorithm | Complexity | Notes          |
 | :-------- | :--------- | :-------------- |
 | Kruskal's | O(E log E) | Requires sorting |
@@ -85,9 +81,7 @@ Markdown
 
 - **Images**: Mark placement with a placeholder block. **Provide a clear description** of the desired image and use the Obsidian wikilink format `![[ImageName.png]]`.
 
-Code snippet
-
-```
+```Code snippet
 Description: Diagram comparing the edge selection process of Kruskal's vs Prim's algorithm on the same sample graph. Kruskal's focuses on global lowest edge, Prim's grows from a starting node.
 ![[kruskal_vs_prim_comparison.png]]
 ```
@@ -96,9 +90,7 @@ Description: Diagram comparing the edge selection process of Kruskal's vs Prim's
     - Inline: `$O(N^2)$`
     - Block:
 
-Code snippet
-
-```
+```Code snippet
 $$
 f(x) = \int_{-\infty}^{\infty} \hat{f}(\xi)\,e^{2 \pi i \xi x} \,d\xi
 $$
@@ -142,33 +134,25 @@ _(The table structure below illustrates the format the user employs. In an actua
 Please apply the following principles to create clear, effective, and well-structured notes (for each callout generated):
 
 1. **Objective Language:** Maintain a neutral and factual tone. Describe concepts and processes objectively, without subjective evaluations (e.g., use "Method X involves..." instead of "Method X is the best way to...").
-    
 2. **Clarity and Necessary Detail:**
-    
     - **Primary Goal:** Ensure the core message of each callout is clear, understandable, and contains the necessary information to be meaningful.
     - **Completeness:** Include the details essential for understanding the specific point of the callout. Don't omit crucial information for the sake of brevity.
 3. **Conciseness (Efficiency and No Fluff):**
-    
     - **Be Economical:** While ensuring clarity (Principle #2), use the fewest words necessary to convey the information accurately.
     - **Eliminate Redundancy:** Avoid repeating points, using filler words ("in order to," "basically," "actually"), or overly elaborate sentence structures. Be direct.
     - **Focus:** Stick closely to the specific topic of the callout title. Don't include tangential information or unnecessary background.
 4. **Modularity and Focused Callouts (Segmentation):**
-    
     - **Principle:** Structure the notes into logical, modular callouts, each generally focused on a single distinct topic, concept, step, or aspect. This aids organization and readability.
     - **When to Segment:** Consider using separate callouts for clearly distinct parts of a larger topic. For example, define a concept in one `[!idea]` and illustrate it in a separate `[!example]`, or discuss different facets of a problem in separate `[!consider]` callouts. (This applies to how the user might define the table, and how you interpret it if the table is absent).
     - **Coherence:** Balance modularity with clarity. It's acceptable to keep closely related points together within a single callout if separating them would make the information harder to understand, provided the callout remains focused on its main theme.
 5. **Readable Internal Structure (Enhancing Clarity):**
-    
     - **Guideline:** Structure information _within_ callouts to maximize readability and support learning (Goal #7). Using a mix of formats, such as brief introductory sentences combined with focused bullet points or small tables, is generally the most effective way to achieve this.
     - **Actively Avoid Monotony:** Please actively avoid callouts that consist _only_ of a single block of paragraph text or _only_ a list of bullets, as this typically hinders readability. Look for opportunities to structure the information, for example, with a lead sentence and supporting points. This is non negotiable. Providing callouts with single paragraphs will constitute a failure.
     - **Flexibility for Brevity:** For genuinely simple, self-contained points requiring only one or two clear sentences, that brief structure is fine. However, for anything needing even slight elaboration or listing points, apply structural variety (like intro + bullets) to aid comprehension. Use judgment focused on making it easy for a reader to understand.
     - **Start Content on New Line:** Always begin callout content on the line _after_ the `> [!type] Title` header.
 6. **Final Output Wrapper:** Enclose **each individual callout response** (or the entire note if only one callout is requested or no table is provided) within a single Markdown code block for accurate copying:
-    
 
-Markdown
-
-```
+```Markdown
 > [!type] Title
 > Clear, concise content...
 ```
