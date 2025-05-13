@@ -28,13 +28,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Exam 1"
+              "title": "5.1 Euthanasia"
+            }
+          },
+          {
+            "id": "db0d41495f27e0ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/AI Prompt v2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Prompt v2"
             }
           },
           {
@@ -83,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -301,8 +316,20 @@
       }
     ]
   },
-  "active": "c66bffcbeb866dae",
+  "active": "db0d41495f27e0ca",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
+    "Content/Philosophy/Moral Problems/Notes/3.1 Rossian Pluralism.md",
+    "Content/Philosophy/Moral Problems/Notes/2.4 Right vs Good.md",
+    "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
+    "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
+    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
+    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
+    "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
+    "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
+    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
+    "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
+    "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/8.2 Rhetoric.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.2 SEARCH Case Study.md",
     "Content/AI Prompt v2.md",
@@ -311,9 +338,7 @@
     "Images/Pasted image 20250514022102.png",
     "Images/Pasted image 20250514022052.png",
     "Images/Pasted image 20250514022042.png",
-    "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
-    "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.5 Classification MLPs.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.4 Regression MLPs.md",
@@ -325,20 +350,10 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
     "Images/Pasted image 20250513050451.png",
     "Images/Pasted image 20250513042355.png",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/9.2 Perceptrons.md",
     "Images/Pasted image 20250513033743.png",
     "Images/Pasted image 20250513032343.png",
     "Images/Pasted image 20250513032233.png",
-    "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
-    "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
-    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Readings/Alastair Norcross, _Puppies, Pigs, and People_ Eating Meat and Marginal Cases.pdf",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/4.2 Syllogisms.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/4.1 Venn Diagrams.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/3.2 Argument Form.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.3 Argument Mapping.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.1 Arguments.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/2.2 Argument Structure.md",
     "Content/Projects/Goal Tracker",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
