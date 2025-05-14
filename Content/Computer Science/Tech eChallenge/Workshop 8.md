@@ -1,63 +1,114 @@
+
+
+help me with this workshop? dont add any more risks, just expand and add actual experiements to the ones ive given in the context of the ... context.
+
+  
+
 List 3-5 Risks
-- What are we unsure about
+
+- What are we unsure abou
 - What's one experiment we can run this week?
 
-
+  
 | Concern | Experiment |
 | ------- | ---------- |
 |         |            |
+
 Risks
+
+- cost / business model.
+	- we have already discussed 
+
 - copyright. how are going to deal with copyright issues here? does any of what we do fall under fair use? do we need to implement DRM for generated videos if we allow anyone to generate them?
+
 - team lacks business expertise / we have no business model - still deciding on how we want to sell our product - directly to end users (post grads, researchers, etc) or as a service to publications / hosters. what is more important to US and what is more financially viable - need to compromise on this front
+
 - cost - can we actually make money from this - initial prototyping shows that generating videos is quite expensive and resource intensive - is there a path forward to getting this number down and making a profit? we need to test this and come up with a business plan that 1. works linearly with the cost and 2. can be scaled inversely
 
+  
+
+  
 
 context:
+
 # synapsis
+
+  
 
 [](https://github.com/SynapsisAI#synapsis)
 
+  
+
 > **Complex text to visual clarity.**
+
+  
 
 ## About Us
 
+  
+
 [](https://github.com/SynapsisAI#about-us)
+
+  
 
 Synapsis AI is a collaborative project focused on transforming complex text into concise visual summaries through systematic decomposition and reconstruction of core meanings. Our technology decomposes text into fundamental components before synthesizing these elements into structured, visually-enhanced summaries that preserve essential information while significantly reducing complexity.
 
+  
+
 ## Our Team
+
+  
 
 [](https://github.com/SynapsisAI#our-team)
 
+  
+
 - **Noah Mialaret**
+
 - **Michelle Nguyen**
+
 - **Samuel Chau**
+
+  
 
 ## Our Approach
 
+  
+
 [](https://github.com/SynapsisAI#our-approach)
+
+  
 
 We follow a first-principles approach to text understanding:
 
+  
+
 1. **Decomposition**: Breaking down documents into paragraphs, sentences, and core meanings
+
 2. **Synthesis**: Reconstructing essential elements into coherent, structured arguments
+
 3. **Visualization**: Enhancing understanding through complementary visual representations
+
+  
 
 ## Projects
 
+  
+
 [](https://github.com/SynapsisAI#projects)
+
+  
 
 #### core
 
+  
+
 [](https://github.com/SynapsisAI#core)
+
+  
 
 Our monorepo containing all project components, libraries, and services that power the Synapsis ecosystem. This unified codebase facilitates seamless integration between our decomposition engine, synthesis algorithms, and visualization tools.
 
-[View core Repository](https://github.com/SynapsisAI/core)
+  
 
-| Concern                                                                                                                                                              | What are we unsure about?                                                                                                                                                                                                                            | Experiment this week                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Copyright** | - What specific elements of input text or generated visuals might be subject to copyright? <br> - Under what circumstances, if any, would our transformation process qualify as "fair use" or "transformative use"? <br> - What are the potential legal and financial repercussions of copyright infringement? <br> - Is Digital Rights Management (DRM) a necessary or effective solution for videos generated from copyrighted material, and what are the implementation complexities and user experience implications? | **Experiment: Fair Use Analysis & Policy Drafting.** <br> 1. **Select 3-5 diverse examples of complex texts** that represent typical input for Synapsis AI (e.g., a research paper snippet, a legal document clause, a philosophical text excerpt). <br> 2. **Manually generate "visual summaries"** for these texts, focusing on the "decomposition" and "synthesis" stages described in your approach. For visualization, create low-fidelity mockups or storyboards representing the intended visual output. <br> 3. **Research "fair use" guidelines** (specifically for your relevant jurisdiction - e.g., US, EU) in the context of summarization, transformation, and visual representation of existing works. <br> 4. **Analyze each of your 3-5 generated examples against these fair use criteria.** Document how much of the original is used, the nature of the transformation, the purpose (e.g., educational, commercial), and the potential market impact on the original work. <br> 5. **Draft a preliminary internal copyright policy** outlining best practices for text selection and transformation based on this analysis. Identify clear "red flag" scenarios. |
-| **Team lacks business expertise / We have no business model** | - Who is our primary target customer (post-grads, researchers, publications, educational institutions, businesses)? <br> - What specific pain points does Synapsis AI solve for them that they would be willing to pay for? <br> - What is the perceived value of "visual clarity" for different user segments? <br> - Which business model (direct-to-consumer subscription, B2B licensing, per-video fee, freemium) aligns best with our value proposition and the team's long-term vision? <br> - What are the key drivers for each potential customer segment (e.g., time-saving for researchers, increased engagement for publications)? | **Experiment: Customer Discovery Interviews & Value Proposition Testing.** <br> 1. **Identify 2 distinct potential customer segments** (e.g., 5 postgraduate students and 3 representatives from academic publications or university libraries). <br> 2. **Develop a short interview script** (5-7 questions) focused on understanding their current methods for dealing with complex texts, their challenges, and their reaction to Synapsis AI's core concept (complex text to visual clarity). **Do not try to sell them the product yet.** Focus on their problems and needs. <br> 3. **Conduct these 8 interviews.** Record key pain points, existing solutions they use, and their initial, unaided reaction to your value proposition. <br> 4. **Synthesize the interview findings.** Identify common themes, specific language used by potential customers to describe their problems, and any strong signals towards one customer segment or business model over another. <br> 5. **Draft two distinct value propositions**, one tailored for each tested segment, based on the feedback. |
-| **Cost** | - What are the specific components contributing to the high cost of video generation (e.g., GPU processing, specific algorithms, software licenses, storage)? <br> - Can we significantly reduce generation costs through algorithmic optimization, alternative technologies, or infrastructure choices without sacrificing core quality? <br> - What is the minimum viable quality for a generated video that still provides significant value to a user? <br> - How does the cost of generation scale with the length and complexity of the input text and the desired sophistication of the visual summary? <br> - What pricing models would be sustainable given current and projected generation costs? | **Experiment: Cost Component Analysis & MVP Definition.** <br> 1. **Detailed Cost Breakdown:** For a sample complex text, meticulously track and list every step and resource involved in generating a visual summary (even if parts are manual now, estimate the automated cost). Assign a time or resource cost to each (e.g., X hours of processing on Y type of GPU, Z minutes of manual storyboarding). <br> 2. **Identify the top 3 most expensive components** in the generation process. <br> 3. **Brainstorm 2-3 potential cost-reduction strategies for each of these top components** (e.g., for GPU cost: investigate more efficient algorithms, explore different cloud providers, consider off-peak processing. For a specific software license: explore open-source alternatives or simpler tools for an MVP). <br> 4. **Define a "Minimum Viable Product (MVP)" version of a visual summary.** What is the absolute simplest visual output that still demonstrates the core value of "complex text to visual clarity"? This might mean shorter videos, simpler animations, or even static infographics initially. <br> 5. **Estimate the cost to produce this MVP visual summary** and compare it to the cost of your "ideal" visual summary. This helps quantify the potential savings of a leaner approach. |
-| **Retaining accuracy and relevancy to the source papers (i.e., does our product actually work?)** | - How effectively does our "decomposition" process identify the true core meanings and essential components of complex texts? <br> - Does our "synthesis" process reconstruct these elements into coherent and *accurate* arguments without introducing bias or misinterpretations? <br> - Do the "visual representations" truly enhance understanding and accurately reflect the synthesized arguments, or could they inadvertently mislead? <br> - What level of factual accuracy and nuance preservation is considered "good enough" by our target users? <br> - How do we measure the accuracy and relevancy of the generated visual summaries objectively and subjectively? | **Experiment: Blind Accuracy & Relevance Review.** <br> 1. **Select 3 diverse source texts** (e.g., sections from academic papers, a technical blog post, a chapter from a dense non-fiction book) that are unfamiliar to your internal reviewers. <br> 2. **Generate visual summaries** for these texts using your current Synapsis AI prototype/process. <br> 3. **Recruit 3-5 internal or trusted external reviewers** (ideally with some domain expertise relevant to at least one of the texts, or strong analytical skills). <br> 4. **Provide reviewers with the generated visual summary *first*, without the source text.** Ask them to write down their understanding of the key messages, arguments, and conclusions presented in the visual summary. <br> 5. **Then, provide the original source text** and ask them to: <br>    a. Compare their initial understanding (from the visual summary) with the source text. <br>    b. Rate the visual summary on a scale (e.g., 1-5) for: <br>        i. **Accuracy:** Does it correctly represent the facts and core meanings of the source? <br>        ii. **Relevancy/Completeness:** Does it capture the most important information without significant omissions of core ideas? <br>        iii. **Clarity:** Did the visual summary aid understanding *before* reading the source? <br>    c. Identify any specific points of misinterpretation, factual error, or important omissions in the visual summary. <br> 6. **Collect and analyze the feedback.** Look for patterns in inaccuracies, areas where relevancy is lost, or where visuals might be confusing. This will highlight weaknesses in your decomposition, synthesis, or visualization stages. |
+[View core Repository](https://github.com/SynapsisAI/core)
