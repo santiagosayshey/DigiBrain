@@ -19,7 +19,10 @@ Risks
 - cost / business model.
 	- we have already discussed potentially business models (b2b and b2c not sure if these are the correct terms). Either we sell to businesses (universities, journals, research platforms, google scholar, etc) OR we sell to individual customers.
 	- is what we're doing going to be viable in b2c? are researchers / post grads going to shell out the amount of money on an individual subscription for this? or are we going to have more luck with businesses?
-	- 
+	- more on that, our initial testing has shown us its quite expensive to generate a single video - 3-5$. Is this going to be viable in production? are we going to be able to get this price down? Most likely yes, we have done 0 optimisation to our pipeline, but we still need to figure out how fast we can do this. this directly ties back to the b2b and b2c stuff. if we cant get the price down, are we going to be able to actually sell to individuals at a fair price without losing money? 
+	- potential business models - just look at how AI is priced today. Open AI lets people use its models via an api through bought credits, or they sell direct access to the models through chatGPT via a subscription. Perhaps we give access to both, banking on credit money from businesses on the API side and front the cost on the customer side so that we can work on (a new risk)
+- how do we actually grow? where are we getting customers from?
+	- so, going back to the existing issue, where are we getting customers from? outside of our initial friends / connections at uni, how does this grow? can we front the cost, and do some kind of freemium model (just like LLMs do) to get people IN on the business? like they generate 1 video, then need to subscribe to do more? 
 
 - copyright. how are going to deal with copyright issues here? does any of what we do fall under fair use? do we need to implement DRM for generated videos if we allow anyone to generate them?
 
