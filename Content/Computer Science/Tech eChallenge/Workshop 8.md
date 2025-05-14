@@ -8,8 +8,8 @@ List 3-5 Risks
 |         |            |
 Risks
 - copyright. how are going to deal with copyright issues here? does any of what we do fall under fair use? do we need to implement DRM for generated videos if we allow anyone to generate them?
-- team lacks business expertise / we have no business model - still deciding on how we want to sell our product - directly to end users (post grads, researchers, etc) or as a service to publications / hosters. what is more important to US and what is more financially viable - need to compromis
-- 
+- team lacks business expertise / we have no business model - still deciding on how we want to sell our product - directly to end users (post grads, researchers, etc) or as a service to publications / hosters. what is more important to US and what is more financially viable - need to compromise on this front
+- cost - can we actually make money from this - initial prototyping shows that generating videos is quite expensive and resource intensive - is there a path forward to getting this number down and making a profit? we need to test this and come up with a business plan that 1. works linearly with the cost and 2. can be scaled inversely
 
 
 context:
