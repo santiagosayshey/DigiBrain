@@ -17,7 +17,9 @@ List 3-5 Risks
 Risks
 
 - cost / business model.
-	- we have already discussed 
+	- we have already discussed potentially business models (b2b and b2c not sure if these are the correct terms). Either we sell to businesses (universities, journals, research platforms, google scholar, etc) OR we sell to individual customers.
+	- is what we're doing going to be viable in b2c? are researchers / post grads going to shell out the amount of money on an individual subscription for this? or are we going to have more luck with businesses?
+	- 
 
 - copyright. how are going to deal with copyright issues here? does any of what we do fall under fair use? do we need to implement DRM for generated videos if we allow anyone to generate them?
 
