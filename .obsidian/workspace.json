@@ -11,15 +11,12 @@
             "id": "8b632a280bb552a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Part 4 - End Gameplay"
+              "icon": "lucide-file-text",
+              "title": "Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._"
             }
           },
           {
@@ -250,6 +247,8 @@
   },
   "active": "8b632a280bb552a2",
   "lastOpenFiles": [
+    "Content/Projects/Factorio/Hive Mind Planet/Part 4 - End Gameplay.md",
+    "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Content/Projects/Factorio/Hive Mind Planet/Part 3 - Mid Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 2 - Early Gameplay.md",
     "Content/Projects/Factorio/Hive Mind Planet/Part 1 - Planet and Species Overview.md",
@@ -276,7 +275,6 @@
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/6.2 World Hunger (Narveson).md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.2 SEARCH Case Study.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/8.1 Reasoning in the Wild.md",
     "Images/Pasted image 20250514022102.png",
     "Images/Pasted image 20250514022052.png",
     "Images/Pasted image 20250514022042.png",
@@ -295,7 +293,6 @@
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Computer Science/Tech eChallenge/Assignment 1",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam.pdf",
-    "Content/Computer Science/Cybersecurity Fundamentals/Revision/2024 Practice Exam Solutions.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
