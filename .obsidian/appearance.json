@@ -12,5 +12,6 @@
   ],
   "interfaceFontFamily": "",
   "monospaceFontFamily": "",
-  "baseFontSize": 14
+  "baseFontSize": 14,
+  "nativeMenus": true
 }
