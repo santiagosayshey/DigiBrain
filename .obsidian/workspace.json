@@ -67,8 +67,7 @@
               "title": "AI Prompt v2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,10 +233,10 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "deed9bf1cb4300f2",
+  "active": "d35f1938b8e948d1",
   "lastOpenFiles": [
-    "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
+    "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
