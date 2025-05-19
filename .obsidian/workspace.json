@@ -11,15 +11,12 @@
             "id": "db0d41495f27e0ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Fallacies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "9.1 Fallacies"
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
             }
           },
           {
@@ -235,6 +232,7 @@
   },
   "active": "db0d41495f27e0ca",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Fallacies.md",
     "Content/Philosophy/Moral Problems/Notes/9.2 Driverless Cars 2 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
@@ -251,7 +249,6 @@
     "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 2 - OSINT, Recon & Network Scanning.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 1 - Intro & Cryptography.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Assignments/Assignment 5 - Advanced Web Exploits & Digital Forensics.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/8.2 Rhetoric.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 1.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
