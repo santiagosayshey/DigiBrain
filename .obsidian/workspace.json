@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -256,10 +256,11 @@
       }
     ]
   },
-  "active": "ff0756b6acc12cc1",
+  "active": "53807dff68ea5cff",
   "lastOpenFiles": [
-    "Content/AI Prompt v2.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
+    "Images/Pasted image 20250521075453.png",
+    "Content/AI Prompt v2.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.5 Avoiding Overfitting.md",
@@ -298,7 +299,6 @@
     "Content/Projects/Goal Tracker",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Images/Pasted image 20250428170437.png",
-    "Images/Pasted image 20250428164956.png",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
     "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
