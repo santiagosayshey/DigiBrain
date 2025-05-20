@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9424a42445f88b0b",
+        "id": "5239fea29bfd41bf",
         "type": "tabs",
         "children": [
           {
-            "id": "d35f1938b8e948d1",
+            "id": "db4448cebc3ce535",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/AI Reading Prompt.md",
+                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/10.1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI Reading Prompt"
-            }
-          },
-          {
-            "id": "deed9bf1cb4300f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "9.2 Informal Fallacies"
-            }
-          },
-          {
-            "id": "80c7dd3fd78e6909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "9.1 Formal Fallacies"
-            }
-          },
-          {
-            "id": "8a4f0277bbd57f36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/AI Prompt v2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Prompt v2"
+              "title": "10.1"
             }
           }
         ]
@@ -233,15 +188,53 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "d35f1938b8e948d1",
+  "floating": {
+    "id": "6a4a3438f8f597e2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7765b9c090cc13ae",
+        "type": "window",
+        "children": [
+          {
+            "id": "9f316f5262b5a9a9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3169062db7b009d4",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Hands-On Machine Learning - Third edition"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3488,
+        "y": 404,
+        "width": 1219,
+        "height": 1133,
+        "maximize": true,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "3169062db7b009d4",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/10.1.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/AI Reading Prompt.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Exams/Exam 1.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Philosophy/Moral Problems/Notes/9.2 Driverless Cars 2 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
@@ -262,8 +255,6 @@
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/2.2 The Good Will.md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
-    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
-    "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
     "Images/Pasted image 20250514022102.png",
     "Images/Pasted image 20250514022052.png",
     "Images/Pasted image 20250514022042.png",
