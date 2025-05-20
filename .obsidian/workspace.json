@@ -28,28 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "10.6 DNN Summary"
-            }
-          },
-          {
-            "id": "02fd1e0b4a834ee6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/Computer Science/Computer Systems/Notes/1.1 Boolean Logic.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1.1 Boolean Logic"
+              "title": "10.1 Human Reasoning"
             }
           },
           {
@@ -271,11 +256,13 @@
       }
     ]
   },
-  "active": "3169062db7b009d4",
+  "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
+    "Content/AI Prompt v2.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.5 Avoiding Overfitting.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.3 Data Scarcity.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.2 Vanishing & Exploding Gradients.md",
@@ -295,10 +282,8 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/12.1 Logging & Auditing.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
-    "Content/AI Prompt v2.md",
     "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Images/Pasted image 20250514022102.png",
