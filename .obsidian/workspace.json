@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,11 +256,11 @@
       }
     ]
   },
-  "active": "53807dff68ea5cff",
+  "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
+    "Content/AI Prompt v2.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Images/Pasted image 20250521075453.png",
-    "Content/AI Prompt v2.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.5 Avoiding Overfitting.md",
