@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,8 +271,9 @@
       }
     ]
   },
-  "active": "6a4d079143a56e59",
+  "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
+    "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/AI Prompt v2.md",
     "Images/Pasted image 20250521075453.png",
@@ -298,7 +299,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/12.1 Logging & Auditing.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
-    "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
