@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
+                "file": "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "10.1 Abortion (Warren)"
+              "title": "10.2 Abortion (Marquis)"
             }
           },
           {
@@ -251,8 +251,8 @@
   },
   "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
-    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
+    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Content/AI Prompt v2.md",
     "Content/AI Reading Prompt.md",
