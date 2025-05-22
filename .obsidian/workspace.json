@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "10.1 Human Reasoning"
+              "title": "10.1 Abortion (Warren)"
             }
           },
           {
@@ -234,53 +234,18 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "floating": {
-    "id": "6a4a3438f8f597e2",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7765b9c090cc13ae",
-        "type": "window",
-        "children": [
-          {
-            "id": "9f316f5262b5a9a9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3169062db7b009d4",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Hands-On Machine Learning - Third edition"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3488,
-        "y": 404,
-        "width": 1219,
-        "height": 1133,
-        "maximize": true,
-        "zoom": 1
-      }
-    ]
-  },
   "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
-    "Content/AI Reading Prompt.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
+    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Content/AI Prompt v2.md",
-    "Images/Pasted image 20250521075453.png",
+    "Content/AI Reading Prompt.md",
+    "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Images/Pasted image 20250521075453.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.5 Avoiding Overfitting.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.3 Data Scarcity.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.2 Vanishing & Exploding Gradients.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.1 Deep Neural Networks.md",
@@ -299,7 +264,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/12.1 Logging & Auditing.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/5.5 Stack Canaries.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/9.3 Multilayer Perceptron.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Images/Pasted image 20250514022102.png",
