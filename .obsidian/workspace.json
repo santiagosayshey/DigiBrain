@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,12 +249,12 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "9e862bf6ced7f7c9",
+  "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Content/AI Prompt v2.md",
-    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
