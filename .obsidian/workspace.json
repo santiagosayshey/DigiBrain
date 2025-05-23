@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324,
-    "collapsed": true
+    "width": 428.5026054382324
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -267,8 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5,
-    "collapsed": true
+    "width": 441.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,6 +281,7 @@
   },
   "active": "ff0756b6acc12cc1",
   "lastOpenFiles": [
+    "Images/Pasted image 20250523144722.png",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Content/AI Prompt v2.md",
@@ -310,7 +309,6 @@
     "Content/Computer Science/Secure Programming/Lecture Notes/10.3 Usable Security.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/11.1 Software Development Lifecycle.md",
     "Content/Computer Science/Secure Programming/Lecture Notes/11.2 DevOps.md",
-    "Content/Computer Science/Secure Programming/Lecture Notes/12.1 Logging & Auditing.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Images/Pasted image 20250514022102.png",
