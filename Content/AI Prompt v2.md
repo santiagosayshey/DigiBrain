@@ -120,7 +120,6 @@ Check the table below. The user may provide specific instructions for the note's
 
 _(The table structure below illustrates the format the user employs. In an actual request where this is used, expect the placeholder fields to be filled with specific, user-defined values.)_
 
-
 | **Order** | **Callout Type** | **Title Placeholder** | **Content Focus / Notes (Optional Guidance)** |
 | --------- | ---------------- | --------------------- | --------------------------------------------- |
 | 1         |                  |                       |                                               |
