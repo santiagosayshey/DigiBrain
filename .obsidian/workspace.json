@@ -41,15 +41,12 @@
             "id": "71ed7f864b31fbdf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/AI Prompt v2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "AI Prompt v2"
+              "icon": "lucide-file-text",
+              "title": "Hands-On Machine Learning - Third edition"
             }
           },
           {
@@ -296,6 +293,7 @@
   },
   "active": "71ed7f864b31fbdf",
   "lastOpenFiles": [
+    "Content/AI Prompt v2.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
     "Content/Computer Science/Tech eChallenge/Assignment 2/Planning.md",
@@ -304,7 +302,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Images/Pasted image 20250523144722.png",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
-    "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
