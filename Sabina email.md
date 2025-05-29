@@ -1,13 +1,11 @@
 Hi Sabina,
 
-I'm Sam from Team Synapsis - I was the one presenting the technical solution during our semi-final presentation yesterday. maybe change this to sound slightly more casual. 
+I'm Sam from the Synapsis team - I was the one who presented the technical side during yesterday's semi-final.
 
-I just wanted to reach out and thank you so much for your support throughout this process. Michelle mentioned that you shared some feedback about how our presentation went, and it was incredibly reassuring to hear that you felt we did well and that the judges are specifically interested in hearing more about the technical aspects of our platform.
+I just wanted to reach out and thank you for your support throughout this process. Michelle mentioned that you shared some feedback about how our presentation went, and it was incredibly reassuring to hear that you felt we did well. 
 
-she also mentioned that ... the positioning offer. then give answer. 
+She also mentioned that you offered to help with our positioning for the final presentation. After some consideration, we'd prefer to present last if that's possible. I think it would help me feel more comfortable to settle into the environment first. 
 
-I really appreciate your offer to help with the presentation positioning. After some consideration, we'd prefer to present last if that's possible. I think it would help me feel more comfortable having the chance to observe the other presentations first and settle into the environment.
-
-Thank you again for all your support. It means a lot to have someone who understands what we've accomplished.
+Thank you again for all your support!
 
 Best regards, Sam
