@@ -41,12 +41,15 @@
             "id": "71ed7f864b31fbdf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf"
+                "file": "Sabina email.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Hands-On Machine Learning - Third edition"
+              "icon": "lucide-file",
+              "title": "Sabina email"
             }
           },
           {
@@ -182,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324
+    "width": 428.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -293,6 +297,8 @@
   },
   "active": "71ed7f864b31fbdf",
   "lastOpenFiles": [
+    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
+    "Sabina email.md",
     "Content/AI Prompt v2.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
@@ -307,7 +313,6 @@
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Content/AI Reading Prompt.md",
-    "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250521075453.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.5 Avoiding Overfitting.md",
@@ -320,8 +325,6 @@
     "Content/Computer Science/Computer Systems/Notes/10.1 Compiler Code Generation.md",
     "Content/Computer Science/Computer Systems/Notes/11.1 Signals & Caching.md",
     "Content/Computer Science/Databases & Ethical Data/Notes/6.1 Trees.md",
-    "Content/Computer Science/Databases & Ethical Data/Notes/6.2 Hashed Indexes.md",
-    "Content/Computer Science/Databases & Ethical Data/Notes/7.1 Conceptual Modelling & ER.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Images/Pasted image 20250514022102.png",
