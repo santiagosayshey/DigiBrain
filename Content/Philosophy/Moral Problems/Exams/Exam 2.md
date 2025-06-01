@@ -8,4 +8,6 @@ Short Answer Notes
 
 Premise 1 assumes that having a 'future like ours' is sufficient criteria to make killing prima facie seriously morally wrong. However, this is far too broad. 
 
-Consider the death penalty. Death row inmates unquestionably have not only futures like ours, but presents like ours; they possess conciousness, desires, relationships 
+Consider the death penalty. Death row inmates unquestionably have futures like ours, but also presents too; they possess consciousness, desires and relationships, albeit in limited capacity. If P1 were true, then their execution would be prima facie seriously morally wrong solely because they have futures like ours. Yet, many who oppose abortion, also support the death penalty, and even those who oppose both don't typically claim they're wrong for the same reason; depriving someone of a future. 
+
+This suggests that having a future like ours
