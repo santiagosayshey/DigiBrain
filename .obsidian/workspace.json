@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
+                "file": "Content/Philosophy/Moral Problems/Notes/11.2 Sexual Ethics (Nussbaum).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "11.1 Sexual Ethics (Dougherty)"
+              "title": "11.2 Sexual Ethics (Nussbaum)"
             }
           },
           {
@@ -205,10 +205,11 @@
   },
   "active": "800264a15dca992c",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
+    "Content/Philosophy/Moral Problems/Notes/11.2 Sexual Ethics (Nussbaum).md",
     "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
-    "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
     "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/Untitled.md",
     "Content/AI Reading Prompt.md",
@@ -234,7 +235,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.2 Vanishing & Exploding Gradients.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.1 Deep Neural Networks.md",
     "Content/Computer Science/Computer Systems/Notes/1.1 Boolean Logic.md",
-    "Content/Computer Science/Computer Systems/Notes/7.1 Stack Frames & Function Handling.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Images/Pasted image 20250514022102.png",
