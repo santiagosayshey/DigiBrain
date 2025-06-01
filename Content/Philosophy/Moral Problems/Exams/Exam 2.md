@@ -10,8 +10,12 @@ Premise 1 assumes that having a 'future like ours' is sufficient criteria to mak
 
 Consider the death penalty. Death row inmates unquestionably have futures like ours, but also presents too; they possess consciousness, desires and relationships, albeit in limited capacity. If P1 were true, then their execution would be prima facie seriously morally wrong solely because they have futures like ours. Yet, many who oppose abortion, also support the death penalty, and even those who oppose both don't typically claim they're wrong for the same reason; depriving someone of a future. 
 
-This suggests that having a future like ours is not sufficient by itself to make killing prima facie seriously morally wrong. Other morally relevant factors must matter - innocence, personhood or social relationships. But once we admit these matter, Marquis' argument loses it's force. 
+This suggests that having a future like ours is not sufficient by itself to make killing prima facie seriously morally wrong. Perhaps other morally relevant factors must matter - innocence, personhood or social relationships. But once we admit these matter, Marquis' argument loses it's force. 
 
-A defender of Marquis might argue that the death penality IS prima facie seriously morally wrong, but this wrongness can be overridden by moreal considerations like justice or deterrance. Since it is not absolute, but rather the all things considered duty, P1 remains true. 
+A defender of Marquis might argue that the death penality IS prima facie seriously morally wrong, but this wrongness can be overridden by moral considerations like justice or deterrance. Since it is not absolute, but rather the all things considered duty, P1 remains true. 
 
-However, this response faces a dilemma. If prima facie wrongness can be so easily overriden  in the case of execution, then the same should apply to abortion - it could be prima facie wrong, but overridden by considerations like bodily autonomy, econimic hardship or fetal health concerns. This completely undermins Marquis' goal of showing abortion is seriously morally wrong in most cases. 
+However, this response faces a dilemma. If prima facie wrongness can be so easily overriden in the case of execution, then the same should apply to abortion - it could be prima facie wrong, but overridden by considerations like bodily autonomy, econimic hardship or fetal health concerns. This completely undermines Marquis' goal of showing abortion is seriously morally wrong in most cases. 
+
+Moreover, this response mischaracterizes how most death penalty supporters think. They don't typically believe execution is even prima facie wrong - they think certain criminals _deserve_ death. This suggests that having a future like ours doesn't automatically generate even prima facie wrongness; perhaps features like moral innocence must be doing the real work. But then Marquis's argument requires additional premises beyond what he provides.
+
+Therefore, P1 fails because having a 'future like ours' is not sufficient criteria to disallow killing. 
