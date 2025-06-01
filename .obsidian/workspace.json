@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,8 +234,9 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "ef444dee237c9e1a",
+  "active": "3f6cd5b851ae54ba",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
@@ -245,7 +246,6 @@
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/AI Prompt v2.md",
     "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
-    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Notes/Untitled.md",
     "Content/AI Reading Prompt.md",
