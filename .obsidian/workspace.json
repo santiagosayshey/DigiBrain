@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/AI Reading Prompt.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/Untitled 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI Reading Prompt"
+              "title": "Untitled 1"
             }
           },
           {
@@ -251,6 +251,8 @@
   },
   "active": "b9fa5142c02c288b",
   "lastOpenFiles": [
+    "Content/AI Reading Prompt.md",
+    "Content/Philosophy/Moral Problems/Notes/Untitled 1.md",
     "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
@@ -263,7 +265,6 @@
     "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Notes/Untitled.md",
-    "Content/AI Reading Prompt.md",
     "Content/Computer Science/Structure/Frontend.md",
     "Sabina email.md",
     "Content/Computer Science/Structure",
@@ -280,7 +281,6 @@
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Images/Pasted image 20250521075453.png",
     "Content/Computer Science/Using Machine Learning Tools/Notes/10.6 DNN Summary.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/10.5 Avoiding Overfitting.md",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
     "Images/Pasted image 20250514022102.png",
