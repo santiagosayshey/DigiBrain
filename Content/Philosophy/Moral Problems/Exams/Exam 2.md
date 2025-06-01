@@ -6,4 +6,6 @@ Short Answer Notes
 - A prisoner has a future like ours (perhaps even moreso than fetuses because they already have a present like ours), yet, not only do lock them up and take away their right to life, we sometimes kill them outright. 
 - What i think here is that abortion is prima facie seriously wrong, then so is inprisonment, which does not hold. 
 
-Premise 1
+Premise 1 assumes that having a 'future like ours' is sufficient criteria to make killing prima facie seriously morally wrong. However, this is far too broad. 
+
+Consider the death penalty. Death row inmates unquestionably have not only futures like ours, but presents like ours; they possess conciousness, desires, relationships 
