@@ -14,4 +14,4 @@ This suggests that having a future like ours is not sufficient by itself to make
 
 A defender of Marquis might argue that the death penality IS prima facie seriously morally wrong, but this wrongness can be overridden by moreal considerations like justice or deterrance. Since it is not absolute, but rather the all things considered duty, P1 remains true. 
 
-However, this response faces a dilemma. If prima facie wrongness can be so easily overriden  in the case of execution, then the same should apply to abortion - it could be prima facie wrong, but overridden by considerations like bodily autonomy, econimic hardship or fetal health concerns. This completely undermins Marquis' goal of showing abortion is seriously 
+However, this response faces a dilemma. If prima facie wrongness can be so easily overriden  in the case of execution, then the same should apply to abortion - it could be prima facie wrong, but overridden by considerations like bodily autonomy, econimic hardship or fetal health concerns. This completely undermins Marquis' goal of showing abortion is seriously morally wrong in most cases. 
