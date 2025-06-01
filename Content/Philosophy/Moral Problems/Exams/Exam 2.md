@@ -5,3 +5,5 @@ Short Answer Notes
 - now, consider other scenarios where we take futures like ours away from people - imprisonment. 
 - A prisoner has a future like ours (perhaps even moreso than fetuses because they already have a present like ours), yet, not only do lock them up and take away their right to life, we sometimes kill them outright. 
 - What i think here is that abortion is prima facie seriously wrong, then so is inprisonment, which does not hold. 
+
+Premise 1
