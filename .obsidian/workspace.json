@@ -41,15 +41,12 @@
             "id": "b9fa5142c02c288b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Exam 2"
+              "icon": "lucide-file-text",
+              "title": "Tutorial 6"
             }
           },
           {
@@ -281,11 +278,15 @@
   },
   "active": "b9fa5142c02c288b",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
+    "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.md",
+    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/12.2 Privacy (Allen).md",
     "Content/Philosophy/Moral Problems/Notes/12.1 Privacy (Rachels).md",
     "Content/AI Prompt v2.md",
     "Content/AI Reading Prompt.md",
-    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
@@ -307,9 +308,6 @@
     "Content/Computer Science/Tech eChallenge/Assignment 2/Transcript.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Images/Pasted image 20250523144722.png",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
-    "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
-    "Content/Computer Science/Using Machine Learning Tools/Notes/10.4 Optimising DNNs.md",
     "Images/Pasted image 20250521075453.png",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap I._.pdf",
@@ -326,7 +324,6 @@
     "Content/Computer Science/Tech eChallenge/Assignment 2",
     "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Essays",
-    "Content/Computer Science/C/Textbooks/The C Programming Language, 2nd Edition (Revised with bookmarks).pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
