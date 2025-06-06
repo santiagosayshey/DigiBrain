@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "analogous",
+                "query": "conjec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -276,7 +277,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "b9fa5142c02c288b",
+  "active": "cedd67da0bc47203",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
