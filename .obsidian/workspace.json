@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.pdf"
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Tutorial 7"
+              "title": "Tutorial 8"
             }
           },
           {
@@ -202,8 +202,10 @@
   },
   "active": "99a23d2785820d01",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
@@ -246,7 +248,6 @@
     "Content/Philosophy/Moral Problems/Readings/Alastair Norcross, _Puppies, Pigs, and People_ Eating Meat and Marginal Cases.pdf",
     "Content/Projects/Goal Tracker",
     "Content/Computer Science/Tech eChallenge/Assignment 2",
-    "Content/Projects/Factorio/Hive Mind Planet",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
