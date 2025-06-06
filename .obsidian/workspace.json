@@ -41,12 +41,15 @@
             "id": "b9fa5142c02c288b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf"
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Tutorial 6"
+              "icon": "lucide-file",
+              "title": "Tutorial 7"
             }
           },
           {
@@ -323,8 +326,9 @@
   },
   "active": "b9fa5142c02c288b",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
@@ -350,7 +354,6 @@
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Content/Computer Science/Tech eChallenge/Assignment 1/Draft.md",
-    "Content/Computer Science/Tech eChallenge/Assignment 1/Research Task 1.md",
     "Images/Pasted image 20250523144722.png",
     "Images/Pasted image 20250521075453.png",
     "Content/Philosophy/Moral Problems/Readings/Sven Nyholm, _The Ethics Of Crashes With Self-driving Cars- A Roadmap II._.pdf",
