@@ -38,6 +38,36 @@
             }
           },
           {
+            "id": "4fc1712637e446e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "10.1 Abortion (Warren)"
+            }
+          },
+          {
+            "id": "be8e08fdf029c3bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "10.2 Abortion (Marquis)"
+            }
+          },
+          {
             "id": "49ba2a4d98b8a730",
             "type": "leaf",
             "state": {
@@ -292,12 +322,14 @@
   },
   "active": "d2e4ed3d79bfb8e0",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
+    "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
+    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
-    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
@@ -319,8 +351,6 @@
     "Content/Philosophy/Moral Problems/Notes/12.1 Privacy (Rachels).md",
     "Content/AI Prompt v2.md",
     "Content/AI Reading Prompt.md",
-    "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
-    "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
     "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",

@@ -65,6 +65,7 @@ clarifying.....
 	- Without infrastructure, individual action feels futile
 	- Without individual compliance, infrastructure fails
 	- Both governments and individuals can harm through emissions
+	- Just as Marquis showed that the personhood debate in abortion ethics was a philosophical dead-end that prevented moral clarity, the public/private morality split in climate ethics similarly obscures our collective moral obligations.
 - climate change is like 100 people watching a child slowly drown - it seems silly that if nobody else is going to save them then you shouldn't either (singer fair share objection). everyone has duties
 - duties of goodness are toothless - we have a duty of goodness to throw recyclables in the yellow bin yet some of us don't and face no repercussions. 
 - Climate emissions cause harm, therefore it's about justice not goodness
