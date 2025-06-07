@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
+                "file": "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Exam 2"
+              "title": "6.1 World Hunger (Singer)"
             }
           },
           {
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conjec",
+                "query": "singer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -275,11 +276,13 @@
   },
   "active": "1dd354210d34d81f",
   "lastOpenFiles": [
+    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
+    "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
+    "Content/Philosophy/Moral Problems/Notes/2.1 Utilitarianism.md",
+    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/2.3 The Categorical Imperative.md",
     "Content/Philosophy/Moral Problems/Notes/5.2 Moral Equivalence.md",
     "Content/Philosophy/Moral Problems/Notes/5.1 Euthanasia.md",
-    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
-    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
@@ -303,8 +306,6 @@
     "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
     "Content/Philosophy/Moral Problems/Notes/10.1 Abortion (Warren).md",
     "Content/Philosophy/Moral Problems/Notes/8.1 Animal Ethics (Norcross).md",
-    "Content/Philosophy/Moral Problems/Notes/11.2 Sexual Ethics (Nussbaum).md",
-    "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250523144722.png",
