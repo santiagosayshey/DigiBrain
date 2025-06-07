@@ -59,3 +59,11 @@ lets think about the thesis a bit more. lets flesh it out a bit.
 - I feel like theres something to tie back to euthenasia / normative ethics with kid drowning in pond and everyone having a duty to go save them (not just the first person that jumps in)
 - More concretely, we can say that governments have an imperfect duty to set the foundation for individual perfect duties. They must set carbon tax laws. Ensure we have ways to measure our impact. Fairly distribute offsetting / reperation duties according to our measured impact. How they do so is not important - hence why its imperfect, but they must do so. 
 - Then using this, individuals have a perfect duty to follow these rules. If the government says they must offset according to their impact, they can and should do so. 
+
+clarifying.....
+- public / private morality split creates a false dichotomy enabling moral buck passing
+- climate change is like 100 people watching a child slowly drown - it seems silly that if nobody else is going to save them then you shouldn't either (singer fair share objection). everyone has duties
+- duties of goodness are toothless - we have a duty of goodness to throw recyclables in the yellow bin yet some of us don't and face no repercussions. 
+- Climate emissions cause harm, therefore it's about justice not goodness
+- Governments have imperfect duty of justice to create infrastructure
+- 
