@@ -20,48 +20,45 @@
             }
           },
           {
-            "id": "681c97b93413004d",
+            "id": "10ebb6f8a8734ea9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf"
               },
-              "icon": "lucide-file",
-              "title": "9.2 Informal Fallacies"
+              "icon": "lucide-file-text",
+              "title": "Tutorial 9"
             }
           },
           {
-            "id": "2e31ac359078f4ac",
+            "id": "360c7b3b9641fbd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9.1 Formal Fallacies"
+              "title": "10.1 Human Reasoning"
             }
           },
           {
-            "id": "6ef87b6065402d90",
+            "id": "30041cbf4f4d7d50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.1 SEARCH"
+              "title": "10.2 Heuristics"
             }
           }
         ],
@@ -231,13 +228,15 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "681c97b93413004d",
+  "active": "10ebb6f8a8734ea9",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.pdf",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.md",
@@ -261,8 +260,6 @@
     "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
     "Content/Philosophy/Moral Problems/Notes/Untitled.md",
-    "Content/Computer Science/Structure/Frontend.md",
-    "Sabina email.md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250523144722.png",
