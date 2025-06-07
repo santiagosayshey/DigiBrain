@@ -50,3 +50,7 @@ Your essay should include a brief introduction and a conclusion. The introductio
 **References:** If you directly quote and/or paraphrase any philosopher we've read, please include in-text references as follows - (Broome, page #) or (Nyholm, page #). If you directly quote and/or paraphrase lecture content, please include in-text references as follows - (Lecture Notes, date). With this in mind, I encourage you not to use outside resources; you can write a very good paper by relying on the class readings, lectures, and your own mind! **In-text references count toward the word limit.** 
 
 **How You Will Be Graded:** Please see the "Online Exam #2 Essay Rubric," which can be found under the "Paper Writing Tips & Online Exam Essay Rubric" folder under "Files" or under the "Online Exam #2" Heading in Modules 13-14.
+
+lets think about the thesis a bit more. lets flesh it out a bit.
+
+- Broome's distinction of private and public morality is a false dichotomy. That is to say, 
