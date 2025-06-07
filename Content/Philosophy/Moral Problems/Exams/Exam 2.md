@@ -20,3 +20,33 @@ Moreover, death penalty supporters don't see execution as even prima facie wrong
 
 Therefore, P1 fails because 'having a future like ours' is neither sufficient nor the genuine basis for our moral judgments about killing.
 # Essay
+
+**Essay.** Please write a **700-900 word** essay on one the following two prompts. **5 points** will be deducted for every 50 words below or above the word range. The essay is worth _60 points_.
+
+**Essay 2: Environmental Ethics**
+
+Write an essay in which you take a stance on whether individuals have a moral obligation to eliminate or reduce their emissions. In making your case, you should:
+
+1. Either:
+
+(i) Argue in support of the view that individuals have a moral obligation to eliminate their emissions and describe how an individual might discharge this moral obligation _or_
+
+(ii) Argue in support of the view that individuals have a moral obligation to reduce their emissions and describe how an individual might discharge this moral obligation _or_
+
+(iii) Argue in support of the view that individuals have neither of these obligations and identify and explain whether (and, if so, why) you believe that some other entity (e.g., the government, industry, etc.) has a moral obligation to eliminate or reduce emissions.
+
+2. Identify and describe one objection to your view.
+
+3. Respond to this objection in defense of your view.
+
+4. Identify and describe a second objection to your view.
+
+5. Respond to this second objection in defense of your view.
+
+Your essay should include a brief introduction and a conclusion. The introduction should include a thesis and signposting.
+
+**FOR BOTH ESSAYS:**
+
+**References:** If you directly quote and/or paraphrase any philosopher we've read, please include in-text references as follows - (Broome, page #) or (Nyholm, page #). If you directly quote and/or paraphrase lecture content, please include in-text references as follows - (Lecture Notes, date). With this in mind, I encourage you not to use outside resources; you can write a very good paper by relying on the class readings, lectures, and your own mind! **In-text references count toward the word limit.** 
+
+**How You Will Be Graded:** Please see the "Online Exam #2 Essay Rubric," which can be found under the "Paper Writing Tips & Online Exam Essay Rubric" folder under "Files" or under the "Online Exam #2" Heading in Modules 13-14.
