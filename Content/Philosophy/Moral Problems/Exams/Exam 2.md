@@ -102,12 +102,22 @@ planning....
 ### **Body Paragraph 3: The Symbiotic Framework**
 
 - Government imperfect duty: create infrastructure (carbon pricing, measurement, offsets)
-- Individual perfect duty: use infrastructure to reduce/offset emissions
+- Individual imperfect duty: reduce emissions through available means AND political participation
 - These are mutually constitutive, not sequential
 - Singer's proximity irrelevance extends to institutional distance
 - We all stand at the water's edge
 
-### **Objection 2: The Collective Action Futility (100-120 words)**
+### **Objection 1: The Sequential Impossibility**
+
+- Your framework seems to require government infrastructure before individuals can act
+- But governments are made of individuals - why would they create infrastructure without pre-existing duties?
+- Appears to be circular/chicken-egg problem
+- Response: Misunderstands the framework - both have imperfect duties of justice simultaneously
+- Individuals must reduce emissions AND create political conditions for infrastructure
+- Governments must build infrastructure AND respond to citizen demands
+- These duties are mutually reinforcing, not sequential
+- Like Singer's drowning child - everyone at the pond has immediate duties regardless of others' actions
+### **Objection 2: The Collective Action Futility**
 
 - Even with infrastructure, why comply if others don't?
 - My action makes no difference either way
@@ -115,10 +125,8 @@ planning....
 - Drowning child parallel
 - Perfect duties remain binding regardless of others' compliance
 - Just deflecting to other individuals instead of government
-### **Conclusion (50-80 words)**
+### **Conclusion**
 
 - Restate unified framework
 - Emphasize urgency and collective responsibility
 - Call to action
-
-**Total: ~850 words**
