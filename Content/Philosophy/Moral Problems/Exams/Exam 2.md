@@ -61,9 +61,15 @@ lets think about the thesis a bit more. lets flesh it out a bit.
 - Then using this, individuals have a perfect duty to follow these rules. If the government says they must offset according to their impact, they can and should do so. 
 
 clarifying.....
-- public / private morality split creates a false dichotomy enabling moral buck passing
+- public / private morality split creates a false dichotomy enabling mutual deflection of responsibility
+	- Without infrastructure, individual action feels futile
+	- Without individual compliance, infrastructure fails
+	- Both governments and individuals can harm through emissions
 - climate change is like 100 people watching a child slowly drown - it seems silly that if nobody else is going to save them then you shouldn't either (singer fair share objection). everyone has duties
 - duties of goodness are toothless - we have a duty of goodness to throw recyclables in the yellow bin yet some of us don't and face no repercussions. 
 - Climate emissions cause harm, therefore it's about justice not goodness
 - Governments have imperfect duty of justice to create infrastructure
-- 
+- Individuals have perfect duty of justice to use that infrastructure to reduce emissions / offset their emissions
+- These duties are symbiotic/mutually constitutive, not sequential
+- Singer's proximity irrelevance applies - institutional distance doesn't matter
+- We all stand at the water's edge of climate catastrophe
