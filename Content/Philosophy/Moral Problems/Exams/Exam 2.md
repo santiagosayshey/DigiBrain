@@ -77,9 +77,41 @@ clarifying.....
 
 planning....
 
-**intro:**
-- hook: climate paralysis despite urgency
-- thesis: public / private morality split is a false dichotomy that enables mutual deflection of responsibility
-- show why this split fails, establish duties of justice for both parties, demonstrate their symbiotic relationship
+### **Introduction**
 
-**body 1: False Dichotomy Problem**
+- Hook: Climate paralysis despite urgency
+- Thesis: Public/private morality split creates false dichotomy enabling mutual deflection of responsibility
+- Signposting: Will show why this split fails, establish duties of justice for both parties, demonstrate their symbiotic relationship
+
+### **Body Paragraph 1: The False Dichotomy Problem **
+
+- Public/private split enables mutual deflection
+- Without infrastructure, individual action feels futile
+- Without individual compliance, infrastructure fails
+- Both can harm through emissions
+- Parallel to Marquis: wrong framework obscures real moral issues
+
+### **Body Paragraph 2: Universal Duties of Justice**
+
+- Drowning child: 100 observers all have duties (Singer)
+- Duties of goodness are toothless (recycling example)
+- Climate emissions cause harm = justice issue
+- Both governments and individuals harm through emissions
+- Therefore both have duties of justice, not optional goodness
+
+### **Body Paragraph 3: The Symbiotic Framework**
+
+- Government imperfect duty: create infrastructure (carbon pricing, measurement, offsets)
+- Individual perfect duty: use infrastructure to reduce/offset emissions
+- These are mutually constitutive, not sequential
+- Singer's proximity irrelevance extends to institutional distance
+- We all stand at the water's edge
+
+### **Objections**
+### **Conclusion (50-80 words)**
+
+- Restate unified framework
+- Emphasize urgency and collective responsibility
+- Call to action
+
+**Total: ~850 words**
