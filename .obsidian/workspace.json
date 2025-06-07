@@ -77,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,10 +243,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "10ebb6f8a8734ea9",
+  "active": "b540bde4b4632045",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
@@ -257,7 +258,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.1 Abduction.md",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 5.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.md",
     "Content/Philosophy/Moral Problems/Exams/Exam 2.md",

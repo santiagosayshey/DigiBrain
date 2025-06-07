@@ -30,3 +30,9 @@
 > c. All S are R Therefore, some not-R are S
 > - invalid. all humans breathe, therefore some non breathing things are human. 
 
+Visual illusions and cognitive biases are errors that expose the shortcuts our minds use to process information quickly.   
+  
+- Visual illusions reveal our visual systems make assumptions about things like  color, depth, lighting and shape to interpret our surroundings efficiently.   
+- Cognitive biases reveal how out thinking relies on mental shortcuts to make rapid judgements and decisions.  
+  
+These aren't random failures of our mind, but predictable mistakes that are usually helpful decision making systems in similar scenarios. They break down when we encounter situations they weren't designed for. Studying these breakdowns helps us to gain insight into underlying rules and assumptions that normally guide our perception and thinking.
