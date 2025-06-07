@@ -53,4 +53,7 @@ Your essay should include a brief introduction and a conclusion. The introductio
 
 lets think about the thesis a bit more. lets flesh it out a bit.
 
-- Broome's distinction of private and public morality is a false dichotomy. That is to say, 
+- Broome's distinction of private and public morality is a false dichotomy. That is to say, we should not consider one  more or less important than the other. 
+- I suggest we bridge this gap and go back to some kind of unified morality - one where both side's duties are equally important.
+- Why? This creates an issue of blame - whose fault is it that we are in a crisis and who needs to do something about it? We all are! Not just people or the government. we are one collective responsible. (this is implied that yes there is a climate crisis and yes we do need to do something about it)
+- I feel like theres something to tie back to euthenasia / normative ethics with kid drowning in pond and everyone having a duty to go save them (not just the first person that jumps in)
