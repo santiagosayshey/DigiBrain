@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,11 +228,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "10ebb6f8a8734ea9",
+  "active": "360c7b3b9641fbd3",
   "lastOpenFiles": [
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
@@ -259,7 +259,6 @@
     "Content/Philosophy/Moral Problems/Notes/6.1 World Hunger (Singer).md",
     "Content/Philosophy/Moral Problems/Notes/11.1 Sexual Ethics (Dougherty).md",
     "Content/Philosophy/Moral Problems/Notes/9.1 Driverless Cars 1 (Nyholm).md",
-    "Content/Philosophy/Moral Problems/Notes/Untitled.md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250523144722.png",
