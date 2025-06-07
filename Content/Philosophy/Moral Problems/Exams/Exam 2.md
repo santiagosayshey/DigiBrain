@@ -130,3 +130,7 @@ planning....
 - Restate unified framework
 - Emphasize urgency and collective responsibility
 - Call to action
+
+writing (Draft 1)....
+
+As climate catastrophe accelerates, humanity faces a responsibility deadlock: governments await individual behavioural change while individuals demand systemic policy solutions.
