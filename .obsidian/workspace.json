@@ -32,6 +32,21 @@
             }
           },
           {
+            "id": "b540bde4b4632045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "6.2 Evaluation"
+            }
+          },
+          {
             "id": "360c7b3b9641fbd3",
             "type": "leaf",
             "state": {
@@ -62,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,10 +243,10 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "10ebb6f8a8734ea9",
+  "active": "b540bde4b4632045",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
