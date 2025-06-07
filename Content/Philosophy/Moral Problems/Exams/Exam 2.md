@@ -70,7 +70,7 @@ clarifying.....
 - duties of goodness are toothless - we have a duty of goodness to throw recyclables in the yellow bin yet some of us don't and face no repercussions. 
 - Climate emissions cause harm, therefore it's about justice not goodness
 - Governments have imperfect duty of justice to create infrastructure
-- Individuals have perfect duty of justice to use that infrastructure to reduce emissions / offset their emissions
+- Individuals have imperfect duty of justice to use that infrastructure to reduce emissions / offset their emissions / vote for these policies / parties
 - These duties are symbiotic/mutually constitutive, not sequential
 - Singer's proximity irrelevance applies - institutional distance doesn't matter
 - We all stand at the water's edge of climate catastrophe
