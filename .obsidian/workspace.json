@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,10 +228,10 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "360c7b3b9641fbd3",
+  "active": "10ebb6f8a8734ea9",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
+    "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
