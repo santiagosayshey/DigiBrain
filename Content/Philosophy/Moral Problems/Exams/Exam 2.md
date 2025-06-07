@@ -74,3 +74,12 @@ clarifying.....
 - These duties are symbiotic/mutually constitutive, not sequential
 - Singer's proximity irrelevance applies - institutional distance doesn't matter
 - We all stand at the water's edge of climate catastrophe
+
+planning....
+
+**intro:**
+- hook: climate paralysis despite urgency
+- thesis: public / private morality split is a false dichotomy that enables mutual deflection of responsibility
+- show why this split fails, establish duties of justice for both parties, demonstrate their symbiotic relationship
+
+**body 1: False Dichotomy Problem**
