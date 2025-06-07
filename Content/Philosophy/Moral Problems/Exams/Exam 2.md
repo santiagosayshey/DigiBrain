@@ -83,7 +83,7 @@ planning....
 - Thesis: Public/private morality split creates false dichotomy enabling mutual deflection of responsibility
 - Signposting: Will show why this split fails, establish duties of justice for both parties, demonstrate their symbiotic relationship
 
-### **Body Paragraph 1: The False Dichotomy Problem **
+### **Body Paragraph 1: The False Dichotomy Problem**
 
 - Public/private split enables mutual deflection
 - Without infrastructure, individual action feels futile
@@ -107,7 +107,14 @@ planning....
 - Singer's proximity irrelevance extends to institutional distance
 - We all stand at the water's edge
 
-### **Objections**
+### **Objection 2: The Collective Action Futility (100-120 words)**
+
+- Even with infrastructure, why comply if others don't?
+- My action makes no difference either way
+- Response: Singer's fair share - "others aren't helping" doesn't excuse inaction
+- Drowning child parallel
+- Perfect duties remain binding regardless of others' compliance
+- Just deflecting to other individuals instead of government
 ### **Conclusion (50-80 words)**
 
 - Restate unified framework
