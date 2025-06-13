@@ -30,8 +30,6 @@ This prevents the same movie from being searched every day while ensuring everyt
 
 ## API Interaction
 
-### API Endpoints Used
-
 The feature interacts with these endpoints:
 
 **Information Gathering:**
@@ -45,8 +43,6 @@ The feature interacts with these endpoints:
 - Search movies: `POST /api/v3/command` with `MoviesSearch`
 - Search series: `POST /api/v3/command` with `SeriesSearch`, `SeasonSearch`, or `EpisodeSearch`
 - Tag items: `PUT /api/v3/movie/editor` or `/series/editor`
-
-### Search Execution Differences
 
 **Radarr** can search multiple movies in one command:
 
@@ -78,8 +74,6 @@ This difference impacts both scheduling strategy and search granularity options.
 
 ## Scheduling and Rate Management
 
-### The Challenge
-
 When you trigger a search, Radarr or Sonarr contacts every configured indexer. These indexers have their own rate limits and response times. Too many searches too quickly can result in:
 
 - Indexers blocking or throttling your requests
@@ -88,9 +82,6 @@ When you trigger a search, Radarr or Sonarr contacts every configured indexer. T
 
 The scheduling challenge is finding the sweet spot between searching frequently enough to find new upgrades quickly, while not overwhelming your indexers or system.
 
-### Scheduling Considerations
-
-**Application Differences** Since Radarr supports bulk searches but Sonarr doesn't, they have different throughput capabilities. Your scheduling strategy needs to account for this asymmetry.
 
 **Library Size Impact** Large libraries present unique challenges. If you have thousands of items, even searching each one monthly requires significant daily throughput. The scheduler needs to balance coverage with capacity.
 
