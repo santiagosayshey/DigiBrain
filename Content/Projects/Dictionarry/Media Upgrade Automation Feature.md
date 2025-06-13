@@ -82,16 +82,9 @@ When you trigger a search, Radarr or Sonarr contacts every configured indexer. T
 
 The scheduling challenge is finding the sweet spot between searching frequently enough to find new upgrades quickly, while not overwhelming your indexers or system.
 
+- **Sequential vs Parallel:** Process one application at a time or interleave them. Sequential is simpler to implement and debug, while interleaving provides more even load distribution.
 
-**Library Size Impact** Large libraries present unique challenges. If you have thousands of items, even searching each one monthly requires significant daily throughput. The scheduler needs to balance coverage with capacity.
-
-**Indexer Variations** Different indexers have different rate limits and response times. Your sustainable search rate is determined by your slowest or most restrictive indexer.
-
-### Strategic Options
-
-**Sequential vs Parallel** You can process one application at a time or interleave them. Sequential is simpler to implement and debug, while interleaving provides more even load distribution.
-
-**Priority-Based Scheduling** Not all media needs the same search frequency. Recently added content might benefit from more frequent searches, while older content could be checked less often.
+- **Priority-Based Scheduling** Not all media needs the same search frequency. Recently added content might benefit from less frequent searches, while older content could be checked less often.
 
 **Time-Based Distribution** Spreading searches throughout the day prevents burst loads. This is especially important if you share indexers with others or have time-based rate limits.
 
