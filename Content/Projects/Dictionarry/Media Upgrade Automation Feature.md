@@ -1,6 +1,4 @@
-This feature automatically searches for better quality versions of movies and TV shows you already have in oimproves your media library quality over time.. Think of it as a "set it and forget it" upgrade system that continuously 
-
-## The Problem It Solves
+This feature automatically searches for better quality versions of movies and TV shows you already have in order to improve your media library quality over time.
 
 Radarr and Sonarr already download media based on your quality preferences, but they have a limitation: they only search "forward." This means:
 
