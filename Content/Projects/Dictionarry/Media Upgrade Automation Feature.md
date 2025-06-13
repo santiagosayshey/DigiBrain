@@ -9,7 +9,7 @@ Radarr and Sonarr monitor for upgrades through RSS feeds, but this has a critica
 
 Without manual intervention, these upgrade opportunities are permanently missed once they scroll off the RSS feed. This feature forces Radarr and Sonarr to actively search their indexers' full catalogs for upgrades, not just wait for them to appear in RSS.
 
-## How It Works
+## Workflow
 
 The feature works like a human clicking "search" on every movie or show, but with smart filtering and tracking:
 
@@ -86,11 +86,8 @@ The scheduling challenge is finding the sweet spot between searching frequently 
 
 - **Priority-Based Scheduling** Not all media needs the same search frequency. Recently added content might benefit from less frequent searches, while older content could be checked less often.
 
-**Time-Based Distribution** Spreading searches throughout the day prevents burst loads. This is especially important if you share indexers with others or have time-based rate limits.
 
-### Task System Integration
-
-Your task system becomes the orchestrator, managing:
+Profilarr's Task system becomes the orchestrator, managing:
 
 - Which application to process next
 - How many items to process per run
