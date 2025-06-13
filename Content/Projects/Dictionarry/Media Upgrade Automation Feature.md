@@ -19,8 +19,6 @@ The feature works like a human clicking "search" on every movie or show, but wit
 4. **Remember what you searched** - Tag items so you don't search them again tomorrow
 5. **Repeat regularly** - Run this process on a schedule
 
-### The Tag System
-
 Tags are the key to making this work efficiently. Here's the lifecycle:
 
 - Movies without an "upgraded" tag → Need to be searched
@@ -30,7 +28,7 @@ Tags are the key to making this work efficiently. Here's the lifecycle:
 
 This prevents the same movie from being searched every day while ensuring everything gets checked eventually.
 
-## Implementation Architecture
+## API Interaction
 
 ### API Endpoints Used
 
