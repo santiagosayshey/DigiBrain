@@ -1,16 +1,15 @@
 This feature automatically searches for better quality versions of movies and TV shows you already have in order to improve your media library quality over time.
 
-Radarr and Sonarr already download media based on your quality preferences, but they have a limitation: they only search "forward." This means:
+Radarr and Sonarr monitor for upgrades through RSS feeds, but this has a critical limitation: RSS feeds only show what's new. This means:
 
-- If you change your quality settings today, they won't re-check movies you downloaded last month
-- If you add a new indexer, they won't search it for upgrades to existing media
-- If better releases become available later, they won't know unless you manually search
+- RSS feeds display releases from the last few hours, not older content
+- If you change your quality settings today, RSS won't show releases from last month that now match your criteria
+- If you add a new indexer, its RSS feed won't include its back catalog
+- If a better release appears months after initial download, it only shows in RSS briefly
 
-This feature forces Radarr and Sonarr to look again at your existing media and search for upgrades.
+Without manual intervention, these upgrade opportunities are permanently missed once they scroll off the RSS feed. This feature forces Radarr and Sonarr to actively search their indexers' full catalogs for upgrades, not just wait for them to appear in RSS.
 
 ## How It Works
-
-### The Basic Process
 
 The feature works like a human clicking "search" on every movie or show, but with smart filtering and tracking:
 
