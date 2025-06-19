@@ -6,7 +6,10 @@ tweak,create(everything): various improvements from seraphys' working branch
 - create(format): Unwanted groups for WEBRip, remux and general
 - create(format): HDR formats for HLG, PQ
 - create(format): Streaming services (Hotstar, IQIYI, Kocowa, Now)
-- create(format): remux tiers
+- create(format): Remux tiers
+- create(format): WEBDL tiers
+
+
 - tweak(format): Change from web-dl negation to bluray requirement inside group tiers
 - tweak(format): Manual group ranking tweaks for 2160p quality
 - tweak(format): Improved sorting. Tags / conditions are now alphabetical
