@@ -17,7 +17,6 @@ refactor(everything): various improvements from seraphys' working branch
 - tweak(format): Add source negations to full disc to stop it from matching remuxes and web stuff
 - tweak(format): Add streaming service rename conditions
 - tweak(format): Revised x265/h265 usage to negate unwanted stuff rather than uprank wanted stuff
-- tweak(profile): 720p fallback added to all profiles
 
 - remove(format): BeyondHD. Added to unwanted groups
 - remove(format): Scene. Scoring now treats scene encodes as unknown and defaults to indexer priority. 
