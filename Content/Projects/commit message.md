@@ -5,11 +5,11 @@ tweak,create(everything): various improvements from seraphys' working branch
 - create(format): 720p Quality tiers based on 720p GPPi data
 - create(format): Unwanted groups for WEBRip, remux and general
 - create(format): HDR formats for HLG, PQ
-- create(format): Streaming services (Hotstar, IQIYI, Kocowa, Now, Showtime, TVING)
+- create(format): Streaming services (Hotstar, IQIYI, Kocowa, Now, Showtime, TVING, VIKI, VIU, WAVVE, WeTV)
 - create(format): Remux tiers
 - create(format): WEBDL tiers
 - create(format): Season Pack
-
+- create(format): VP9 codec
 
 - tweak(format): Change from web-dl negation to bluray requirement inside group tiers
 - tweak(format): Manual group ranking tweaks for 2160p quality
