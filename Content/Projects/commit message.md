@@ -17,6 +17,6 @@ refactor(everything): various improvements from seraphys' working branch
 - tweak(format): Add streaming service rename conditions
 - tweak(format): Revised x265/h265 usage to negate unwanted stuff rather than uprank wanted stuff
 
-- remove(format): BeyondHD
+- remove(format): BeyondHD. Added to 
 - remove(format): Scene. Scoring now treats scene encodes as unknown and lets other factors decide to grab i
 
