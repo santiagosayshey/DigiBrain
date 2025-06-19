@@ -1,5 +1,4 @@
-tweak,create(everything): various improvements from seraphys' working branch
-
+refactor(everything): various improvements from seraphys' working branch
 
 - create(profile): 720p Quality
 - create(format): 720p Quality tiers based on 720p GPPi data
@@ -16,6 +15,7 @@ tweak,create(everything): various improvements from seraphys' working branch
 - tweak(format): Improved sorting. Tags / conditions are now alphabetical
 - tweak(format): Add source negations to full disc to stop it from matching remuxes and web stuff
 - tweak(format): Add streaming service rename conditions
+- tweak(format): Revised x265/h265 usage to mostly negate unwanted stuff. 
 
 - remove(format): BeyondHD
 - remove(format): Scene. Scoring now treats scene encodes as unknown and lets other factors decide to grab i
