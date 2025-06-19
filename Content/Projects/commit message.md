@@ -5,8 +5,8 @@ tweak,create(everything): various improvements from seraphys' working branch
 - create(format): 720p Quality tiers based on 720p GPPi data
 - create(format): Unwanted groups for WEBRip, remux and general
 - create(format): HDR formats for HLG, PQ
-- create(format): Add more streaming services (Hotstar, )
-
+- create(format): Streaming services (Hotstar, IQIYI, Kocowa, Now)
+- create(format): remux tiers
 - tweak(format): Change from web-dl negation to bluray requirement inside group tiers
 - tweak(format): Manual group ranking tweaks for 2160p quality
 - tweak(format): Improved sorting. Tags / conditions are now alphabetical
