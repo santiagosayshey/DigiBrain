@@ -6,4 +6,4 @@ tweak,create(everything): various improvements from seraphys' working branch
 - create(profile): 720p Quality
 - create(format): 720p Quality tiers based on 720p GPPi data
 - remove(format): BeyondHD
-- create(form)
+- create(format): Unwanted 
