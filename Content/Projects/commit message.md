@@ -4,4 +4,5 @@ tweak,create(everything): various improvements from seraphys' working branch
 - tweak(format): Manual group ranking tweaks for 2160p quality
 - tweak(format): Improved sorting. Tags / conditions are now alphabetical
 - create(profile): 720p Quality
-- create(format): 720p Quality tiers based on 720p GPPi 
+- create(format): 720p Quality tiers based on 720p GPPi data
+- 
