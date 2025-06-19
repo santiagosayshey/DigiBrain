@@ -26,12 +26,15 @@
             "id": "d2e4ed3d79bfb8e0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf"
+                "file": "Content/Projects/commit message.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Cybersecurity Fundamentals"
+              "icon": "lucide-file",
+              "title": "commit message"
             }
           },
           {
@@ -278,6 +281,8 @@
   },
   "active": "d2e4ed3d79bfb8e0",
   "lastOpenFiles": [
+    "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
+    "Content/Projects/commit message.md",
     "Content/Projects/Dictionarry/Media Upgrade Automation Feature.md",
     "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
@@ -306,8 +311,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.md",
     "Content/Philosophy/Moral Problems/Notes/12.2 Privacy (Allen).md",
     "Content/Philosophy/Moral Problems/Notes/12.1 Privacy (Rachels).md",
-    "Content/AI Prompt v2.md",
-    "Content/AI Reading Prompt.md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250523144722.png",
