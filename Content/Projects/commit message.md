@@ -8,6 +8,7 @@ tweak,create(everything): various improvements from seraphys' working branch
 - create(format): Streaming services (Hotstar, IQIYI, Kocowa, Now, Showtime)
 - create(format): Remux tiers
 - create(format): WEBDL tiers
+- delete(format): Scene. Scoring now treats scene encodes 
 
 
 - tweak(format): Change from web-dl negation to bluray requirement inside group tiers
