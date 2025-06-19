@@ -9,6 +9,7 @@ refactor(everything): various improvements from seraphys' working branch
 - create(format): WEBDL tiers
 - create(format): Season Pack
 - create(format): VP9 codec
+- create(regex): Various release groups, notably Remux and WEBDL 
 - create(regex): 
 
 - tweak(format): Change from web-dl negation to bluray requirement inside group tiers
