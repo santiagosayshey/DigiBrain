@@ -15,7 +15,7 @@ refactor(everything): various improvements from seraphys' working branch
 - tweak(format): Improved sorting. Tags / conditions are now alphabetical
 - tweak(format): Add source negations to full disc to stop it from matching remuxes and web stuff
 - tweak(format): Add streaming service rename conditions
-- tweak(format): Revised x265/h265 usage to mostly negate unwanted stuff. 
+- tweak(format): Revised x265/h265 usage to negate unwanted stuff rather than 
 
 - remove(format): BeyondHD
 - remove(format): Scene. Scoring now treats scene encodes as unknown and lets other factors decide to grab i
