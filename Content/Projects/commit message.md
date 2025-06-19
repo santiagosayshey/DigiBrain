@@ -7,5 +7,6 @@ tweak,create(everything): various improvements from seraphys' working branch
 - create(format): 720p Quality tiers based on 720p GPPi data
 - remove(format): BeyondHD
 - create(format): Unwanted groups for WEBRip, remux and general
-- tweak(format): add source negations to full disc to stop it from matching remuxes and web stuff
-- 
+- tweak(format): Add source negations to full disc to stop it from matching remuxes and web stuff
+- create(format): HDR formats for HLG, PQ
+- tweak(format): add regex
