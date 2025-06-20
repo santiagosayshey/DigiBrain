@@ -114,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "singer",
+                "query": "straw man",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,12 +135,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324,
-    "collapsed": true
+    "width": 428.5026054382324
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
