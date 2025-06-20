@@ -129,3 +129,15 @@ The author continues debating the area's shape, citing various authors' definiti
 **P4:** Ancient civilizations may lie submerged (Atlantis, ruins off Peru)
 
 **Conclusion:** The ocean can harbor extraordinary phenomena that science doesn't yet understand
+
+## Argument 3
+
+**P1:** The Coast Guard has an official form letter (File 5720) acknowledging the area's "high incidence of unexplained losses"
+
+**P2:** Maritime circles have "long known" about disappearances in this area
+
+**P3:** Multiple authors and researchers have documented the phenomenon
+
+**P4:** Experienced pilots believe something unusual happens there
+
+**Conclusion:** The Bermuda Triangle phenomenon is widely recognized as real
