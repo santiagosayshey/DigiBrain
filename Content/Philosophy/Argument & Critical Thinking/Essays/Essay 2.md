@@ -114,7 +114,11 @@ The author continues debating the area's shape, citing various authors' definiti
 
 **P2:** Pilots reported instruments failing, compasses spinning, and sky turning yellow before vanishing
 
-**P3:** Disappearances are increasing despite modern search technology and better record-keeping
+**P3:** Vessels "literally vanished into thin air" as if "snatched into another dimension" or "flown through a hole in the sky"
+
+**P4:** The area is a "disturbing and almost unbelievable place" in the "world's catalogue of unexplained mysteries"
+
+**P5:** Disappearances are increasing despite modern search technology and better record-keeping
 
 **Conclusion:** Therefore, the disappearances in the Bermuda Triangle are not normal maritime/aviation accidents
 
