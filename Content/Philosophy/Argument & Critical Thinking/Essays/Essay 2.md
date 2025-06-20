@@ -104,4 +104,3 @@ The author continues debating the area's shape, citing various authors' definiti
 - **Base rate neglect continues** - Claims "high incidence" and "increasing frequency since 1860s" without comparing to other ocean areas
 - **Confirmation bias** - Interprets administrative acknowledgment (Coast Guard form letter) as validation of the phenomenon
 
-The author misrepresents skeptical sources as supporting evidence while continuing to avoid providing actual comparative data.
