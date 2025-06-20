@@ -81,5 +81,3 @@ The author mentions earthquakes along the Mid-Atlantic Ridge (linked to Atlantis
 - **Base rate neglect** - Still doesn't compare Triangle losses to other areas of similar traffic/conditions
 - **Confirmation bias** - After listing natural explanations for ocean mysteries (fish schools, continental drift), immediately returns to implying Triangle is special
 - **Moving the goalposts** - Now suggesting only complete disappearances (no wreckage) count as mysterious
-
-The author briefly acknowledges rational explanations and safety statistics but doesn't let these facts alter their mysterious framing of the Triangle.
