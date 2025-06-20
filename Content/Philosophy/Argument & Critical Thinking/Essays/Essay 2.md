@@ -107,3 +107,13 @@ The author continues debating the area's shape, citing various authors' definiti
 ---
 
 **Hypothesis:** The Bermuda Triangle is an area where ships and planes disappear through extraordinary/supernatural causes that cannot be explained by normal maritime and aviation hazards.
+
+## Argument 1
+
+**P1:** No bodies, wreckage, or debris has ever been found from over 100 disappearances
+
+**P2:** Pilots reported instruments failing, compasses spinning, and sky turning yellow before vanishing
+
+**P3:** Disappearances are increasing despite modern search technology and better record-keeping
+
+**Conclusion:** Therefore, the disappearances in the Bermuda Triangle are not normal maritime/aviation accidents
