@@ -81,3 +81,16 @@ The author mentions earthquakes along the Mid-Atlantic Ridge (linked to Atlantis
 - **Base rate neglect** - Still doesn't compare Triangle losses to other areas of similar traffic/conditions
 - **Confirmation bias** - After listing natural explanations for ocean mysteries (fish schools, continental drift), immediately returns to implying Triangle is special
 - **Moving the goalposts** - Now suggesting only complete disappearances (no wreckage) count as mysterious
+
+**Page 9 - What the author is discussing:**
+
+The author claims Triangle disappearances are numerous, well-recorded, sudden, with unusual circumstances pushing "coincidence to the borders of impossibility." They acknowledge authorities view it as natural given the area's traffic and conditions, with airlines calling it a "manufactured mystery." They note experienced pilots disagree. The author then argues about the shape - maybe not a triangle but an ellipse. They cite Ivan Sanderson claiming twelve such zones worldwide including Japan's "Devil's Sea," John Spencer defining a danger zone along the continental shelf from Virginia through the Caribbean, and Vincent Gaddis who wrote about it in Argosy magazine.
+
+**Analysis:**
+
+- **Straw man fallacy** - Argues about the geometric shape rather than addressing whether unusual disappearances actually occur
+- **Appeal to irrelevant authority** - Sanderson, Spencer, and Gaddis are writers, not maritime/aviation experts
+- **Moving the goalposts** - When faced with skepticism, shifts to debating geography rather than evidence
+- **Contradiction** - Claims disappearances are "well recorded" but earlier claimed no wreckage/evidence exists
+- **Cherry-picking** - Mentions "experienced pilots" who believe in it without numbers or names, ignoring airline industry consensus
+- **False dichotomy** - Presents only two options: either the Triangle exists as drawn OR it's a different shape (ignoring that the phenomenon itself might not exist)
