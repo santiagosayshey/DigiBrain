@@ -13,7 +13,6 @@ The author describes various disappearances in detail. They claim planes vanishe
 **Analysis:**
 
 - **Cherry-picking/Confirmation bias** - Selects dramatic cases (Flight 19, USS Cyclops) while mentioning but dismissing found vessels with survivors
-- **Representativeness heuristic** - "snatched into another dimension," "flown through a hole in the sky" - makes events seem to fit a supernatural pattern
 - **Affect heuristic continues** - "extraordinary messages," emphasizing crew silence, surviving animals but not humans - all amplify mystery
 - **False dichotomy setup** - Either ships vanish completely OR are found with animal survivors, ignoring normal maritime accidents
 - **Ignoring alternative explanations** - Instrument malfunction, weather disorientation, communication failure are mentioned but not explored as causes
