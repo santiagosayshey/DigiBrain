@@ -140,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324
+    "width": 428.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -252,8 +253,9 @@
   },
   "active": "015091fb24fde339",
   "lastOpenFiles": [
-    "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
+    "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 2.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
@@ -282,7 +284,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.md",
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.md",
-    "Content/Philosophy/Moral Problems/Notes/12.2 Privacy (Allen).md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250523144722.png",
