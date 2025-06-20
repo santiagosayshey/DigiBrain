@@ -88,7 +88,6 @@ The author claims Triangle disappearances are numerous, well-recorded, sudden, w
 
 **Analysis:**
 
-- **Straw man fallacy** - Argues about the geometric shape rather than addressing whether unusual disappearances actually occur
 - **Appeal to irrelevant authority** - Sanderson, Spencer, and Gaddis are writers, not maritime/aviation experts
 - **Moving the goalposts** - When faced with skepticism, shifts to debating geography rather than evidence
 - **Contradiction** - Claims disappearances are "well recorded" but earlier claimed no wreckage/evidence exists
