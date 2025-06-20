@@ -93,3 +93,15 @@ The author claims Triangle disappearances are numerous, well-recorded, sudden, w
 - **Contradiction** - Claims disappearances are "well recorded" but earlier claimed no wreckage/evidence exists
 - **Cherry-picking** - Mentions "experienced pilots" who believe in it without numbers or names, ignoring airline industry consensus
 - **False dichotomy** - Presents only two options: either the Triangle exists as drawn OR it's a different shape (ignoring that the phenomenon itself might not exist)
+
+**Page 10 - What the author is discussing:**
+The author continues debating the area's shape, citing various authors' definitions. They quote a Coast Guard form letter (File 5720) that acknowledges the "Bermuda or Devil's Triangle" as an "imaginary area" with "high incidence of unexplained losses." The Coast Guard defines it as Bermuda-Miami-San Juan, while meteorologists use different boundaries. The author suggests readers will draw their own conclusions about the shape from a map on page 36. They mention maritime awareness of disappearances in the area contributing to legends like "Sea of Lost Ships" in the Sargasso Sea, claiming disappearances have increased since the 1860s.
+
+**Analysis:**
+
+- **Cherry-picking** - Uses Coast Guard's acknowledgment of the area while ignoring they call it "imaginary"
+- **Irrelevant conclusion** - Still arguing about shape rather than whether unusual disappearances occur
+- **Base rate neglect continues** - Claims "high incidence" and "increasing frequency since 1860s" without comparing to other ocean areas
+- **Confirmation bias** - Interprets administrative acknowledgment (Coast Guard form letter) as validation of the phenomenon
+
+The author misrepresents skeptical sources as supporting evidence while continuing to avoid providing actual comparative data.
