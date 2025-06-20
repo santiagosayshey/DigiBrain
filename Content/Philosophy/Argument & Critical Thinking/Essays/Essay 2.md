@@ -5,8 +5,5 @@ The author defines the Bermuda Triangle as a region in the western Atlantic boun
 **Analysis:**
 
 - **Affect heuristic/framing** - "disturbing and almost unbelievable," "literally vanished into thin air," "world's catalogue of unexplained mysteries" - emotional language triggers fear/mystery before presenting evidence
-- **Absolute claim without evidence** - "without a single body or even a piece of wreckage" seems statistically impossible given ocean dynamics
 - **Base rate neglect setup** - 100+ disappearances given without context (total traffic volume? comparison to other ocean regions?)
-- **Loaded language** - "literally vanished" implies supernatural rather than natural causes
-- **Paradoxical claim** - disappearances "apparently increasing" despite better technology creates expectation that normal explanations are insufficient
 - **Alternative hypotheses not considered** - better record-keeping could mean more documented (not actual) disappearances; high-traffic area might have proportionally normal accident rates; selection bias in defining triangle boundaries
