@@ -66,14 +66,8 @@ The page shows a world map of ocean currents, noting Northern Hemisphere current
 
 **Analysis:**
 
-• **Irrelevant conclusion** - Mineral deposits, submerged ruins, and ocean currents don't explain Bermuda Triangle disappearances
-
-• **Appeal to irrelevant authority** - "Stories of sunken civilizations" are folklore, not scientific evidence
-
-• **Unfalsifiable claims** - "Civilization under Antarctic ice" and "before poles shifted" cannot be tested
-
-• **Cherry-picking** - Selects dramatic geological event (Bonin Trench) without context of normal tectonic activity
-
-• **False dichotomy** - Continues implying unknown ocean features validate supernatural Triangle explanations
-
-The author has now completely abandoned any pretense of discussing the Bermuda Triangle, instead cataloging unrelated ocean mysteries and pseudoarchaeological claims.
+- **Irrelevant conclusion** - Mineral deposits, submerged ruins, and ocean currents don't explain Bermuda Triangle disappearances
+- **Appeal to irrelevant authority** - "Stories of sunken civilizations" are folklore, not scientific evidence
+- **Unfalsifiable claims** - "Civilization under Antarctic ice" and "before poles shifted" cannot be tested
+- **Cherry-picking** - Selects dramatic geological event (Bonin Trench) without context of normal tectonic activity
+- **False dichotomy** - Continues implying unknown ocean features validate supernatural Triangle explanations
