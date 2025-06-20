@@ -61,7 +61,6 @@ The author continues the ocean exploration analogy, then lists various ocean mys
 • **Cherry-picking** - Selecting specific unusual currents (Benguela) and phenomena while ignoring that most ocean behavior is well-understood
 
 **Page 7 - What the author is discussing:**
-
 The page shows a world map of ocean currents, noting Northern Hemisphere currents turn clockwise while Southern Hemisphere ones turn counterclockwise. The author discusses ocean mineral deposits, submerged civilizations (Mediterranean, Atlantic shelf, Peru's carved columns over a mile deep), and references Atlantis stories in various locations. They mention Easter Island mysteries and possible Antarctic civilizations before "poles shifted." The author notes ocean floor changes, citing the Bonin Trench rising 6,000 feet in May 1973.
 
 **Analysis:**
@@ -71,3 +70,16 @@ The page shows a world map of ocean currents, noting Northern Hemisphere current
 - **Unfalsifiable claims** - "Civilization under Antarctic ice" and "before poles shifted" cannot be tested
 - **Cherry-picking** - Selects dramatic geological event (Bonin Trench) without context of normal tectonic activity
 - **False dichotomy** - Continues implying unknown ocean features validate supernatural Triangle explanations
+
+**Page 8 - What the author is discussing:**
+The author mentions earthquakes along the Mid-Atlantic Ridge (linked to Atlantis legends), "false bottom" sonar readings (explained as fish schools), glowing "white water" in the Gulf Stream (possibly luminescent fish or radioactivity), and continental drift theory. They then pivot back to the Bermuda Triangle, acknowledging that many vessels traverse it safely daily and that ships are lost worldwide for various reasons. They distinguish between "lost at sea" (with wreckage) and "disappeared" (no trace).
+
+**Analysis:**
+
+- **Acknowledging counter-evidence** - Admits many traverse the Triangle safely, but doesn't integrate this into their analysis
+- **Introducing important distinction** - "Lost at sea" vs "disappeared" is crucial but comes 8 pages late
+- **Base rate neglect** - Still doesn't compare Triangle losses to other areas of similar traffic/conditions
+- **Confirmation bias** - After listing natural explanations for ocean mysteries (fish schools, continental drift), immediately returns to implying Triangle is special
+- **Moving the goalposts** - Now suggesting only complete disappearances (no wreckage) count as mysterious
+
+The author briefly acknowledges rational explanations and safety statistics but doesn't let these facts alter their mysterious framing of the Triangle.
