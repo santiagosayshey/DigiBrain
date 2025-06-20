@@ -59,3 +59,21 @@ The author continues the ocean exploration analogy, then lists various ocean mys
 • **False dichotomy** - Implies if we don't understand all ocean mysteries, then supernatural explanations for the Triangle are valid
 • **Confirmation bias** - Collecting only mysterious/unexplained ocean phenomena while ignoring well-understood aspects
 • **Cherry-picking** - Selecting specific unusual currents (Benguela) and phenomena while ignoring that most ocean behavior is well-understood
+
+**Page 7 - What the author is discussing:**
+
+The page shows a world map of ocean currents, noting Northern Hemisphere currents turn clockwise while Southern Hemisphere ones turn counterclockwise. The author discusses ocean mineral deposits, submerged civilizations (Mediterranean, Atlantic shelf, Peru's carved columns over a mile deep), and references Atlantis stories in various locations. They mention Easter Island mysteries and possible Antarctic civilizations before "poles shifted." The author notes ocean floor changes, citing the Bonin Trench rising 6,000 feet in May 1973.
+
+**Analysis:**
+
+• **Irrelevant conclusion** - Mineral deposits, submerged ruins, and ocean currents don't explain Bermuda Triangle disappearances
+
+• **Appeal to irrelevant authority** - "Stories of sunken civilizations" are folklore, not scientific evidence
+
+• **Unfalsifiable claims** - "Civilization under Antarctic ice" and "before poles shifted" cannot be tested
+
+• **Cherry-picking** - Selects dramatic geological event (Bonin Trench) without context of normal tectonic activity
+
+• **False dichotomy** - Continues implying unknown ocean features validate supernatural Triangle explanations
+
+The author has now completely abandoned any pretense of discussing the Bermuda Triangle, instead cataloging unrelated ocean mysteries and pseudoarchaeological claims.
