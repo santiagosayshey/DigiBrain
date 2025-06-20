@@ -28,7 +28,4 @@ The author claims "growing public awareness" that something is wrong with the ar
 • **Violates criteria of adequacy** - None of these explanations offer testability, mechanism, or conservatism
 • **Appeal to irrelevant authority** - Edgar Cayce was a psychic, not a scientist or maritime expert
 • **False dichotomy** - Implies either Earth is fully explored OR mysteries like Bermuda Triangle exist
-
 • **Irrelevant conclusion** - Ocean covering 3/5 of Earth doesn't logically support supernatural explanations for disappearances
-
-The author presents fringe theories alongside natural ones without discrimination, using the ocean's size to justify maintaining mystery rather than investigating actual causes.
