@@ -106,5 +106,15 @@ The author continues debating the area's shape, citing various authors' definiti
 
 ---
 
-**Hypothesis:** The Bermuda Triangle is an area where ships and planes disappear through extraordinary/supernatural causes that cannot be explained by normal maritime and aviation hazards.
+**Hypothesis:** The Bermuda Triangle is a region where ships and aircraft disappear mysteriously due to unknown forces beyond conventional explanation.
 
+**Premises**:
+1. Over 100 planes and ships have vanished without a trace since 1945
+2. No bodies or wreckage are ever recovered from these disappearances
+3. Pilots report strange phenomena before vanishing (spinning compasses, "yellow sky," ocean "not looking right")
+4. The disappearances are increasing despite better technology
+5. The ocean remains largely unexplored and contains many mysteries
+6. Even the Coast Guard acknowledges this area has a "high incidence of unexplained losses"
+7. These incidents push "coincidence to the borders of impossibility"
+
+Therefore, something extraordinary is happening in the Bermuda Triangle that science cannot yet explain.
