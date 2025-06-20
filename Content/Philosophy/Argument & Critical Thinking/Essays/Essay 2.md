@@ -51,17 +51,11 @@ The page shows a drawing of the "Gloucester sea serpent" from 1917 Cape Ann, Mas
 • **Irrelevant conclusion** - Sea creature discoveries don't explain Bermuda Triangle disappearances
 
 **Page 6 - What the author is discussing:**
-
 The author continues the ocean exploration analogy, then lists various ocean mysteries: eel migration patterns to the Sargasso Sea, tuna migrations from Brazil to Nova Scotia/Europe/Mediterranean, spiny lobsters marching to unknown abyssal destinations. They mention ocean trenches all at seven miles depth, deep-sea creatures surviving extreme pressure, ocean currents flowing in different directions at various depths, the Cromwell Current's behavior, the Benguela Current not turning like others, and seiche waves from underwater landslides/earthquakes. The passage ends noting the ocean's "incalculable" mineral wealth.
 
 **Analysis:**
 
 • **Irrelevant conclusion** - None of these ocean phenomena explain Bermuda Triangle disappearances
-
 • **False dichotomy** - Implies if we don't understand all ocean mysteries, then supernatural explanations for the Triangle are valid
-
 • **Confirmation bias** - Collecting only mysterious/unexplained ocean phenomena while ignoring well-understood aspects
-
 • **Cherry-picking** - Selecting specific unusual currents (Benguela) and phenomena while ignoring that most ocean behavior is well-understood
-
-The author has completely abandoned the Bermuda Triangle topic, using general ocean mysteries to maintain an atmosphere of the unknown without establishing any connection to the original claims about disappearances.
