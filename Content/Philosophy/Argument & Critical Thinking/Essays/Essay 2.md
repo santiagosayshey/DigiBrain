@@ -117,3 +117,15 @@ The author continues debating the area's shape, citing various authors' definiti
 **P3:** Disappearances are increasing despite modern search technology and better record-keeping
 
 **Conclusion:** Therefore, the disappearances in the Bermuda Triangle are not normal maritime/aviation accidents
+
+## Argument 2
+
+**P1:** The ocean remains largely unexplored (three-fifths of Earth, abyssal depths unknown)
+
+**P2:** "Extinct" creatures like the coelacanth have been found alive after millions of years
+
+**P3:** Many ocean phenomena remain unexplained (false bottom readings, glowing water, unusual currents)
+
+**P4:** Ancient civilizations may lie submerged (Atlantis, ruins off Peru)
+
+**Conclusion:** The ocean can harbor extraordinary phenomena that science doesn't yet understand
