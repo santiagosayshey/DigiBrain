@@ -17,4 +17,3 @@ The author describes various disappearances in detail. They claim planes vanishe
 - **Affect heuristic continues** - "extraordinary messages," emphasizing crew silence, surviving animals but not humans - all amplify mystery
 - **False dichotomy setup** - Either ships vanish completely OR are found with animal survivors, ignoring normal maritime accidents
 - **Ignoring alternative explanations** - Instrument malfunction, weather disorientation, communication failure are mentioned but not explored as causes
-- **Appeal to popularity** - "growing public [feeling]" about connections - using public belief as implicit support
