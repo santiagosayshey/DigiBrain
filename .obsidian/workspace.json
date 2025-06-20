@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -294,8 +294,9 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "46635be84b17efe5",
+  "active": "d2e4ed3d79bfb8e0",
   "lastOpenFiles": [
+    "Content/AI Reading Prompt.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 2.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
@@ -326,7 +327,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Email/Quiz 1 Marking.md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 6.md",
     "Content/Philosophy/Moral Problems/Notes/12.2 Privacy (Allen).md",
-    "Content/Philosophy/Moral Problems/Notes/12.1 Privacy (Rachels).md",
     "Content/Computer Science/Structure",
     "Content/Computer Science/Using Machine Learning Tools/Hands-On Machine Learning - Third edition.pdf",
     "Images/Pasted image 20250523144722.png",
