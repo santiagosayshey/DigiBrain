@@ -18,5 +18,3 @@ The author describes various disappearances in detail. They claim planes vanishe
 - **False dichotomy setup** - Either ships vanish completely OR are found with animal survivors, ignoring normal maritime accidents
 - **Ignoring alternative explanations** - Instrument malfunction, weather disorientation, communication failure are mentioned but not explored as causes
 - **Appeal to popularity** - "growing public [feeling]" about connections - using public belief as implicit support
-
-The author is building a pattern while avoiding natural explanations for these individual incidents.
