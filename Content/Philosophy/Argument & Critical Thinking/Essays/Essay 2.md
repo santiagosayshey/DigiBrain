@@ -118,3 +118,10 @@ The author continues debating the area's shape, citing various authors' definiti
 7. These incidents push "coincidence to the borders of impossibility"
 
 Therefore, something extraordinary is happening in the Bermuda Triangle that science cannot yet explain.
+
+**Analysis:**
+- **Affect heuristic**: Scares you with emotional language about vanishing ships
+- **Representativeness + irrelevant authority**: Makes you think "ocean mysteries" represent Triangle mysteries
+- **Base rate neglect**: Never tells you if these numbers are actually unusual
+- **Cherry-picking**: Selects only the most dramatic cases
+- **False dichotomy/Ignoratio Elenchi**: His ENTIRE argument rests on "the ocean has mysteries, therefore the Triangle is supernatural"
