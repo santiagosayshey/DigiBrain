@@ -29,3 +29,15 @@ The author claims "growing public awareness" that something is wrong with the ar
 • **Appeal to irrelevant authority** - Edgar Cayce was a psychic, not a scientist or maritime expert
 • **False dichotomy** - Implies either Earth is fully explored OR mysteries like Bermuda Triangle exist
 • **Irrelevant conclusion** - Ocean covering 3/5 of Earth doesn't logically support supernatural explanations for disappearances
+
+**Page 4 - What the author is discussing:**
+
+The author discusses how ocean depths remain largely unexplored despite modern technology (sonar, submarines, bathyspheres). They mention Cold War submarine activity might increase ocean knowledge. They cite the coelacanth discovery in 1938 (thought extinct for 18 million years) as evidence that prehistoric creatures might survive in deep waters. They claim "reliable observers" have reported seeing Pliocene-era sea creatures (mosasaurs/ichthyosaurs) from Tasmania to Massachusetts, witnessed by hundreds. They suggest the Loch Ness Monster might be a smaller version of these creatures. They reference Danish oceanographer Anton Bruun observing something.
+
+**Analysis:**
+
+• **Irrelevant conclusion** - Ocean depths being unexplored doesn't support supernatural disappearances in the Bermuda Triangle
+• **False dichotomy** - Implies either oceans are fully mapped OR mysterious disappearances have supernatural causes
+• **Appeal to popularity** - "hundreds of witnesses" used as evidence for sea monsters
+• **Confirmation bias** - Selects coelacanth discovery to support possibility of other prehistoric survivors while ignoring that it's an exceptional case
+• **Hasty generalization** - One prehistoric fish surviving doesn't mean mosasaurs/ichthyosaurs also survived
