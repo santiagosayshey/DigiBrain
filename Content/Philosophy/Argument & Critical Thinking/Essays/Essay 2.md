@@ -128,6 +128,8 @@ Therefore, something extraordinary is happening in the Bermuda Triangle that sci
 
 Berlitz uses scary stories and irrelevant ocean mysteries to make you feel something supernatural is happening in the Bermuda Triangle, but never actually demonstrates that the disappearance rate is unusual for a high-traffic area, making his entire argument an elaborate exercise in misdirection rather than evidence.
 
+---
+
 Page 12:
 **What the author is discussing:** Berlitz claims the Bermuda Triangle got its name from the disappearance of six Navy planes on December 5, 1945. He describes Flight 19's routine training mission following a triangular flight path from Fort Lauderdale (160 miles east, 40 miles north, then back southwest). He notes Bermuda was at the apex of this triangle and serves as the northern boundary for disappearances. He lists various dramatic names for the area ("Devil's Triangle," "Triangle of Death," "Graveyard of the Atlantic") and claims no incident before or since has been more remarkable than this "total disappearance."
 
