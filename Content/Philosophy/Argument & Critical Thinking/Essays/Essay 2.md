@@ -164,5 +164,3 @@ page 14:
 - **Creating false anomaly** - Radio static and communication problems are presented as part of the mystery rather than normal occurrences in 1945 aviation
 - **Narrative construction** - The progression from routine to confusion to loss of communication builds dramatic tension rather than analytical understanding
 - **Ignoring Occam's Razor** - Simple explanation (navigational error by leader, followed by panic and poor decisions) is bypassed for mysterious implications
-
-Retry
