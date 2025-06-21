@@ -292,4 +292,4 @@ The Bermuda Triangle is a region where vessels disappear completely without trac
 
 **Conclusion:** Berlitz's book isn't failed investigation - it's successful mythology. Understanding how it works helps us recognize similar phenomena elsewhere.
 
-In the western Atlantic, hundreds of vessels have vanished without trace, leaving behind stories of spinning compasses, mysterious yellow skies and impossible final transmissions. Charles Berlitz's 1972 book *The Bermuda Triangle* presents these disappeances as 
+In the western Atlantic, hundreds of vessels have vanished without trace, leaving behind stories of spinning compasses, mysterious yellow skies and impossible final transmissions. Charles Berlitz's 1972 book *The Bermuda Triangle* presents these disappearances as evidence of the supernatural - should we give examples here. His argument constructs a compelling narrative, one that 
