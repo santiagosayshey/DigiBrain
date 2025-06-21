@@ -189,4 +189,16 @@ page 16:
 - **Base rate neglect** - No comparison to how often sea/air searches fail to find wreckage in similar conditions
 - **Hasty generalization** - One unsuccessful search (however large) becomes proof of extraordinary disappearance
 - **Survivorship bias in reverse** - Focus on what wasn't found rather than examining successful ocean recoveries to understand normal recovery rates
-- 
+
+page 17:
+**What the author is discussing:** Berlitz discusses explosion reports that don't fit the timeline (would require planes flying hours after fuel exhaustion). He details how Avengers could water-land, float for 90 seconds, had life rafts accessible from outside. He mentions "white water" might be explained by white haze common to the area, and acknowledges a known radio dead spot between Florida and Bahamas. A Naval Board of Inquiry examined all evidence.
+
+**Analysis:**
+
+- **Self-defeating logic** - Reports explosion at 7:30 PM but admits this is impossible given fuel exhaustion, yet presents it as deepening the mystery rather than discrediting the report
+- **Stacking improbabilities** - Claims all five planes would have to crash together AND explode simultaneously AND maintain radio silence - the least likely scenario presented as the explanation
+- **Argument from ignorance** - "No SOS messages" and "no life rafts found" presented as mysterious rather than evidence planes broke up on impact
+- **Cognitive dissonance** - Provides natural explanations (white haze affecting visibility, known radio dead spots) then immediately dismisses their relevance to maintain the mystery
+- **Having it both ways** - Planes are simultaneously capable of smooth water landings with trained crews BUT also vanished without using any safety equipment
+- **Buried lede** - Casually mentions "trouble started before radio contact was lost" which undermines his own radio dead spot mystery
+- **Appeal to authority followed by dismissal** - Cites Naval Board of Inquiry to seem thorough but doesn't accept their conclusions
