@@ -164,3 +164,16 @@ page 14:
 - **Creating false anomaly** - Radio static and communication problems are presented as part of the mystery rather than normal occurrences in 1945 aviation
 - **Narrative construction** - The progression from routine to confusion to loss of communication builds dramatic tension rather than analytical understanding
 - **Ignoring Occam's Razor** - Simple explanation (navigational error by leader, followed by panic and poor decisions) is bypassed for mysterious implications
+
+
+page 15:
+**What the author is discussing:** Berlitz reports that ALL compasses (both gyro and magnetic) in ALL planes were "going crazy" with different readings. He describes base personnel in "uproar" fearing enemy attacks. A rescue plane (Martin Mariner) was dispatched. At 4 PM, Taylor unexpectedly transfers command to Captain Stiver, who believes they're 225 miles northeast over the Gulf of Mexico. They turn 180 degrees but signals get fainter - they're heading east over open ocean. Berlitz gives conflicting accounts of final transmissions ("It looks like we are..." vs "Entering white water... We are completely lost"). The rescue plane reports strong winds at 6,000 feet, then also vanishes.
+
+**Analysis:**
+
+- **Statistically implausible claim** - ALL compasses in ALL planes simultaneously failing differently defies probability and suggests exaggeration or misreporting
+- **Affect heuristic/panic narrative** - "Understandable uproar," enemy attack fears - building emotional atmosphere over factual analysis
+- **Reliability problem** - Conflicting accounts of last words ("It looks like we are..." vs "Entering white water") undermines the credibility of the "evidence"
+- **Hasty addition** - Rescue plane's disappearance mentioned almost casually, as if one mysterious disappearance automatically explains another
+- **Cherry-picking dramatic details** - "White water" and "completely lost" chosen for maximum mystery effect
+- **Ignoring obvious explanation** - Disoriented pilot makes navigational error, turns wrong way, runs out of fuel over ocean - but this simple explanation is buried under mysterious details
