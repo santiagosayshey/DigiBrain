@@ -31,3 +31,7 @@ The remaining criteria - predictive power, simplicity and conservatism, uniforml
 ## Conclusion
 
 Berlitz's argument for supernatural forces in the Bermuda Triangle fails on two critical levels. His argumentative methods; emotional priming before evidence, statistical misdirection, and appeals to irrelevant authorities, reveal systematic manipulation rather than rigorous investigation. When subjected to SEARCH criteria, his hypothesis proves untestable, lacks clear mechanisms, and cannot explain the full scope of traffic in the region. Alternative explanations better satisfy these criteria without requiring new physics or abandoning established science. This analysis demonstrates how Berlitz's techniques illuminate the construction of modern mysteries: through circular amplification, selective evidence, and exploitation of cognitive biases. His work provides an inadvertent case study in mythmaking, where the investigation becomes inseparable from the phenomenon it claims to examine.
+
+## References
+
+Schick, T Jr & Vaughn, L (2020) *How to Think About Weird Things*, 8th edn, [Publisher].
