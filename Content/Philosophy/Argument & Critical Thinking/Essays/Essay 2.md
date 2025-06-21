@@ -255,7 +255,7 @@ The Bermuda Triangle is a region where vessels disappear completely without trac
 - **These disappearances involve strange reported phenomena** - instrument failures, visual anomalies, impossible radio transmissions
 - **The ocean contains countless unexplained mysteries** - prehistoric creatures, lost civilizations, unknown forces at great depths
 
-## Analysis
+## Argument Analysis
 
 1. **Affect heuristic**: Berlitz opens with emotionally charged language ("disturbing and almost unbelievable," "literally vanished into thin air") before presenting any evidence. This primes readers to feel fear and wonder, making them receptive to extraordinary explanations before they can think critically about the data.
 2. **Base rate neglect**: "Over 100 planes and ships vanished since 1945" sounds alarming, but Berlitz never provides context. How many vessels safely transit this area? How do these numbers compare to other busy shipping lanes? Without base rates, we can't know if 100 disappearances in a high-traffic area near the U.S. coast is actually unusual.
@@ -263,4 +263,8 @@ The Bermuda Triangle is a region where vessels disappear completely without trac
 4. **Appeal to irrelevant authority**: To support his supernatural claims, Berlitz cites Edgar Cayce (a psychic discussing Atlantean crystals) and marine biologists discussing sea creatures. These "experts" have zero relevance to aviation safety or maritime accidents. It's like citing a chef's opinion on rocket science.
 5. **Texas Sharpshooter fallacy**: Berlitz retroactively finds "patterns" in unrelated accidents across decades - compass failures, good weather, no wreckage found. But these are normal: countless flights have compass problems and land safely, good-weather accidents happen globally, and deep ocean crashes rarely leave recoverable wreckage anywhere. He's connecting random dots like seeing faces in clouds. Any ocean region would show these "mysterious patterns" if you only examined unsolved cases.
 6. **Appeal to ignorance**: When the Naval Board of Inquiry can't explain Flight 19's disappearance, Berlitz transforms "we don't know" into evidence for the supernatural. He does this repeatedly - rescue plane vanishes (must be supernatural), massive searches find nothing (must be supernatural), officials express confusion (must be supernatural). The inability to solve a mystery becomes proof that the answer transcends natural explanation.
-7. **Survivorship bias**: Berlitz makes much of "premonitions" - the flight instructor who requested removal from duty, Corporal Kosnar who didn't report for Flight 19 due to a "strange feeling." But we only hear these stories because these people survived by not flying. How many crew members had bad feelings but flew anyway? If Flight 19 had returned safely, these "premonitions" would be forgotten. Berlitz presents only the stories that seem prophetic in hindsight, ignoring all the false premonitions and bad feelings that led nowhere. It's like a lottery winner saying they "knew" they'd win - we never hear from the millions who "knew" but lost.
+7. **Survivorship bias**: Berlitz makes much of "premonitions" - the flight instructor who requested removal from duty, Corporal Kosnar who didn't report for Flight 19 due to a "strange feeling." But we only hear these stories because these people survived by not flying. How many crew members had bad feelings but flew anyway? If Flight 19 had returned safely, these "premonitions" would be forgotten. Berlitz presents only the stories that seem prophetic in hindsight, ignoring all the false premonitions and bad feelings that led nowhere. It's like a lottery winner saying they "knew" they'd win - we never hear from the millions who "knew" but lost.\
+
+
+## Search Analysis
+
