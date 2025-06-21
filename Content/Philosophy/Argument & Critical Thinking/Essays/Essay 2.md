@@ -216,3 +216,16 @@ page 18:
 - **Manufacturing consensus from confusion** - Natural uncertainty after a tragedy is reframed as officials endorsing mystery
 - **Shifting burden of proof** - Because no one can prove they DIDN'T go to another dimension, that becomes a viable theory
 
+page 19:
+**What the author is discussing:** Berlitz calls it the "strangest peacetime loss ever," introduces a ship collision story about a Spanish-speaking girl being thrown next to the only Spanish-speaker on another ship as an example of "incredible coincidence." He reveals an earlier flight that day also experienced compass malfunction and landed 50 miles off course. He describes two "premonitions" - a flight instructor arriving late and requesting removal from duty, and Marine Corporal Allan Kosnar who didn't report for Flight 19 due to a strange feeling.
+
+**Analysis:**
+
+- **Texas sharpshooter fallacy** - Highlighting "coincidences" after the fact (Spanish speakers, premonitions) while ignoring all the times nothing coincidental happened
+- **Survivorship bias** - We only hear about "premonitions" from people who didn't fly; what about all the people who had bad feelings but flew anyway and landed safely?
+- **Post hoc rationalization** - The morning flight's compass problem is presented as connected to Flight 19's issues because they happened the same day
+- **Availability heuristic** - Making "incredible coincidences" seem significant by providing vivid but irrelevant example (ship collision story)
+- **Confirmation bias** - Earlier flight had compass issues and landed safely, yet this is used as evidence for the mystery rather than evidence that compass problems were survivable
+- **Hindsight bias** - "Premonitions" only become significant after the disaster; if Flight 19 had returned safely, these would be forgotten
+- **Pattern seeking in randomness** - Connecting unrelated events (morning flight problems, afternoon disappearance) simply because of temporal proximity
+
