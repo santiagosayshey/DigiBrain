@@ -135,13 +135,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324,
-    "collapsed": true
+    "width": 428.5026054382324
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -237,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5,
-    "collapsed": true
+    "width": 441.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,7 +248,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "015091fb24fde339",
+  "active": "3f0fa8cfce46dbb7",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 2.md",
