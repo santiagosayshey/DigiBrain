@@ -114,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "straw man",
+                "query": "ignorance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -248,13 +249,13 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "3f0fa8cfce46dbb7",
+  "active": "015091fb24fde339",
   "lastOpenFiles": [
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
+    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 2.md",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/6.2 Evaluation.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
