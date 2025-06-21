@@ -303,7 +303,7 @@ Berlitz's central argument follows a deceptively simple structure: over 100 vess
 
 Before presenting any evidence, Berlitz primes his readers emotionally. He opens with language designed to trigger fear and wonder; disappearances are "disturbing and almost unbelievable", planes "literally vanish into thin air", the Triangle belongs in the "World's catalogue of unexplained mysteries". This affect heuristic ensures readers approach the evidence in a state of heightened emotion rather than critical analysis. Once primed for mystery, readers are more likely to accept extraordinary explanations for ordinary events. 
 
-The statistical foundation of Berlitz's argument exemplifies base rate neglect. "Over 100 planes and ships vanished since 1945" sounds alarming in isolation, but Berlitz never provides the context necessary for evaluation. How many vessels traverse this area annually? What are the accident rates in comparable high traffic zones? W
+The statistical foundation of Berlitz's argument exemplifies base rate neglect. "Over 100 planes and ships vanished since 1945" sounds alarming in isolation, but Berlitz never provides the context necessary for evaluation. How many vessels traverse this area annually? What are the accident rates in comparable high traffic zones? Without these base rates, readers cannot determine whether 100 incidents over three decades in one of the world's busiest shipping lanes represents anything unusual. It's equivalent to claiming a street is cursed because ten accidents occure 
 
 ## The Real Phenomenon
 
