@@ -152,3 +152,17 @@ page 13:
 - **Building false contrast** - Emphasizes perfect conditions, experienced crew, and routine nature to maximize the apparent mystery when things go wrong
 - **Dramatic framing** - "But something did happen, and with a vengeance" uses affect heuristic to heighten emotional response
 - **Selective detail inclusion** - Provides specific technical details (plane type, fuel range) to seem thorough while omitting other potentially relevant factors
+
+page 14:
+**What the author is discussing:** Berlitz presents the radio transcript from Flight 19, showing increasingly confused communications. The flight leader reports they can't see land, don't know their position, "everything is wrong... Strange," and the ocean "doesn't look as it should." A student pilot (Powers) reports compass failures. The instructor believes he's over the Keys but sees only "a small island" with no other land - contradicting his belief. Communication deteriorates with static, and messages between planes mention fuel concerns.
+
+**Analysis:**
+
+- **Appeal to mystery through selective quotation** - The ellipses (...) allow Berlitz to emphasize the most dramatic phrases while potentially omitting mundane explanations
+- **Heightening affect through "strange" details** - "The ocean doesn't look as it should" is presented without exploring normal explanations (weather conditions, light angles, oil slicks)
+- **Confirmation bias in interpretation** - Compass failure and disorientation are presented as mysterious rather than exploring common causes (magnetic anomalies, equipment failure, pilot error)
+- **Creating false anomaly** - Radio static and communication problems are presented as part of the mystery rather than normal occurrences in 1945 aviation
+- **Narrative construction** - The progression from routine to confusion to loss of communication builds dramatic tension rather than analytical understanding
+- **Ignoring Occam's Razor** - Simple explanation (navigational error by leader, followed by panic and poor decisions) is bypassed for mysterious implications
+
+Retry
