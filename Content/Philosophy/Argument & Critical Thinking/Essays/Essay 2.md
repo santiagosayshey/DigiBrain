@@ -244,3 +244,10 @@ page 20:
 - **Authority by longevity** - Ford "followed the case since 1945" presented as credibility rather than potential for embellishment
 
 ---
+
+## Hypothesis
+
+The Bermuda Triangle is a region where vessels disappear completely without trace at an abnormally high rate due to supernatural forces.
+
+## Premises
+
