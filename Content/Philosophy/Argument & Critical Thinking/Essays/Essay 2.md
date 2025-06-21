@@ -299,7 +299,7 @@ In the western Atlantic, hundreds of vessels have vanished without trace, leavin
 
 ## Manufacturing Mystery
 
-Berlit'z central argument follows a deceptively simple structure: over 100 vessels have vanished without trace in the Be
+Berlit'z central argument follows a deceptively simple structure: over 100 vessels have vanished without trace in the Bermuda Triangle since 1945; these disappearances involve bizarre phenomena like spinning compasses and impossible transmissions
 
 ## The Real Phenomenon
 
