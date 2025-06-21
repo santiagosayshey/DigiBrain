@@ -315,6 +315,7 @@ What exactly is Berlitz trying to explain? His hypothesis claims that a specific
 
 Consider two alternatives: 
 
-- Natural Maritime Hazards (H2) attributes disappearances to the convergance of known dangers in the region: sudden tropical storms, the Gulf Streams's treachorous currents, deep ocean trenches that swallow wreckage, and the high vol
+- Natural Maritime Hazards (H2) attributes disappearances to the convergence of known dangers in the region: sudden tropical storms, the Gulf Streams's treacherous currents, deep ocean trenches that swallow wreckage, and the high volume of inexperienced pilots and sailors traversing these waters.
+- Cultural Phenomenon (H3) offers a radically different perspective. It suggests that the Triangl
 
 ## Conclusion
