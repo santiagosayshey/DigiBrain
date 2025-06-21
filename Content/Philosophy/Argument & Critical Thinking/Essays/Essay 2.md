@@ -177,3 +177,16 @@ page 15:
 - **Hasty addition** - Rescue plane's disappearance mentioned almost casually, as if one mysterious disappearance automatically explains another
 - **Cherry-picking dramatic details** - "White water" and "completely lost" chosen for maximum mystery effect
 - **Ignoring obvious explanation** - Disoriented pilot makes navigational error, turns wrong way, runs out of fuel over ocean - but this simple explanation is buried under mysterious details
+
+page 16:
+**What the author is discussing:** Berlitz states six planes are now missing (including the rescue plane). He mentions a mysterious "FT...FT..." message received at 7 PM - two hours after the planes would have run out of fuel. He describes an "enormous search effort" - 240+ planes, destroyers, submarines, Coast Guard vessels, hundreds of private craft searching 380,000 square miles over 4,100 flight hours. No wreckage, life rafts, oil slicks, or beach flotsam were found despite weeks of searching.
+
+**Analysis:**
+
+- **Argument from ignorance** - "No wreckage found" is presented as evidence of supernatural disappearance rather than acknowledging the ocean's vastness and difficulty of searches
+- **Impossible evidence as mystery enhancer** - The "FT" message "two hours after the planes had presumably run out of fuel" is logically impossible yet presented to deepen the mystery
+- **Framing through magnitude** - Emphasizing the search's enormity (240 planes! 380,000 square miles!) makes the lack of findings seem supernatural rather than statistically expected
+- **Base rate neglect** - No comparison to how often sea/air searches fail to find wreckage in similar conditions
+- **Hasty generalization** - One unsuccessful search (however large) becomes proof of extraordinary disappearance
+- **Survivorship bias in reverse** - Focus on what wasn't found rather than examining successful ocean recoveries to understand normal recovery rates
+- 
