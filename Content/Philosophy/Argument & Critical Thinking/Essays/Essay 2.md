@@ -242,3 +242,5 @@ page 20:
 - **Unfalsifiable claims** - 29 years later, who can disprove what an unnamed ham radio operator might have heard?
 - **Sensationalism bias** - "Outer space" quote is the most dramatic possible interpretation, perfectly timed for 1974 UFO craze
 - **Authority by longevity** - Ford "followed the case since 1945" presented as credibility rather than potential for embellishment
+
+---
