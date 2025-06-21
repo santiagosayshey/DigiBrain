@@ -140,3 +140,15 @@ Page 12:
 - **Hasty generalization** - Using one incident's flight path to define an entire region of supposedly anomalous activity
 - **Hyperbole/Absolute language** - Claims "no incident before or since has been more remarkable" to elevate this case above all others
 - **Priming** - By starting with Flight 19 as THE defining case, he sets it up as the template for all Triangle mysteries
+
+page 13:
+**What the author is discussing:** Berlitz describes the details of Flight 19: a routine training mission with experienced crews in ideal weather conditions (65°F, sunny, scattered clouds). He mentions a rescue plane (Martin Mariner with 13 crew) also vanished "inexplicably." He notes one crew member avoided the flight due to a "premonition." The planes were TBM-3 Avengers with 1000+ mile range, led by Lt. Charles Taylor (2,500 flight hours). After completing bombing practice at Chicken Shoals, at 3:15 PM they radioed they were off course.
+
+**Analysis:**
+
+- **Loaded language** - Calls them "doomed planes" before presenting any evidence of their fate, prejudicing the reader
+- **Supernatural priming** - The "premonition" story plants the idea of supernatural forewarning early, without scrutiny
+- **Begging the question** - States the rescue plane "inexplicably vanished" as fact rather than investigating explanations
+- **Building false contrast** - Emphasizes perfect conditions, experienced crew, and routine nature to maximize the apparent mystery when things go wrong
+- **Dramatic framing** - "But something did happen, and with a vengeance" uses affect heuristic to heighten emotional response
+- **Selective detail inclusion** - Provides specific technical details (plane type, fuel range) to seem thorough while omitting other potentially relevant factors
