@@ -202,3 +202,17 @@ page 17:
 - **Having it both ways** - Planes are simultaneously capable of smooth water landings with trained crews BUT also vanished without using any safety equipment
 - **Buried lede** - Casually mentions "trouble started before radio contact was lost" which undermines his own radio dead spot mystery
 - **Appeal to authority followed by dismissal** - Cites Naval Board of Inquiry to seem thorough but doesn't accept their conclusions
+
+page 18:
+**What the author is discussing:** Berlitz reports the Naval Board of Inquiry found no answers, just compass malfunction. He quotes officials saying they can't guess what happened. One Board member's metaphor "They vanished as completely as if they had flown to Mars" gets transformed into literal UFO theories. He cites a grieving mother's belief her son is "alive somewhere in space," Dr. Manson Valentine claiming they're in "a different dimension," and a Coast Guard officer saying "We don't know what the hell is going on out there."
+
+**Analysis:**
+
+- **Quote mining/Cherry-picking** - Selects only the most dramatic, confused, or speculative quotes while ignoring any mundane conclusions
+- **Literalizing metaphor** - Takes "as if they had flown to Mars" (clearly meant as hyperbole) and uses it to introduce actual space travel/UFO theories
+- **Appeal to false authority** - Dr. Valentine is called "a scientist" but no relevant credentials given; studying "the area for years from Miami" doesn't make one an expert on aviation disasters
+- **Exploiting grief** - Using a grieving mother's desperate hope as "evidence" for supernatural explanations
+- **Argument from ignorance** - "We don't know" is transformed into "therefore, supernatural" rather than "therefore, we need better investigation"
+- **Manufacturing consensus from confusion** - Natural uncertainty after a tragedy is reframed as officials endorsing mystery
+- **Shifting burden of proof** - Because no one can prove they DIDN'T go to another dimension, that becomes a viable theory
+
