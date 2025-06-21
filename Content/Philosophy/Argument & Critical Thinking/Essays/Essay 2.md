@@ -292,4 +292,4 @@ The Bermuda Triangle is a region where vessels disappear completely without trac
 
 **Conclusion:** Berlitz's book isn't failed investigation - it's successful mythology. Understanding how it works helps us recognize similar phenomena elsewhere.
 
-In the western Atlantic, hundreds of vessels have vanished without
+In the western Atlantic, hundreds of vessels have vanished without trace, leaving behind stories of spio
