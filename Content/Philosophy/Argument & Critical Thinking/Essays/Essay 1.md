@@ -34,3 +34,4 @@ Koch's argument for the death penalty fails on multiple levels: it ignores empir
 # References
 
 - Prescott, JJ, Pyle, B & Starr, SB 2020, 'Understanding Violent-Crime Recidivism', Notre Dame Law Review, vol. 95, no. 4, pp. 1643-1698.
+
