@@ -127,3 +127,14 @@ Therefore, something extraordinary is happening in the Bermuda Triangle that sci
 5. **False dichotomy/Ignoratio Elenchi**: The entire argument rests on "the ocean is mysterious, therefore the Triangle is supernatural." But deep-sea creatures don't explain compass failure at 10,000 feet. Atlantis doesn't explain radio static. Even if EVERY ocean mystery he mentions were true, they're completely irrelevant to his actual claim about ships and planes disappearing. It's a massive non sequitur dressed up as evidence.
 
 Berlitz uses scary stories and irrelevant ocean mysteries to make you feel something supernatural is happening in the Bermuda Triangle, but never actually demonstrates that the disappearance rate is unusual for a high-traffic area, making his entire argument an elaborate exercise in misdirection rather than evidence.
+
+Page 12:
+**What the author is discussing:** Berlitz claims the Bermuda Triangle got its name from the disappearance of six Navy planes on December 5, 1945. He describes Flight 19's routine training mission following a triangular flight path from Fort Lauderdale (160 miles east, 40 miles north, then back southwest). He notes Bermuda was at the apex of this triangle and serves as the northern boundary for disappearances. He lists various dramatic names for the area ("Devil's Triangle," "Triangle of Death," "Graveyard of the Atlantic") and claims no incident before or since has been more remarkable than this "total disappearance."
+
+**Analysis:**
+
+- **Post hoc ergo propter hoc** - The triangle name came from the flight path, not from any inherent triangular danger zone, but Berlitz implies the geometric connection is meaningful
+- **Appeal to emotion** - Lists sensational names ("Graveyard of the Atlantic," "Hoodoo Sea") to reinforce fear before presenting evidence
+- **Hasty generalization** - Using one incident's flight path to define an entire region of supposedly anomalous activity
+- **Hyperbole/Absolute language** - Claims "no incident before or since has been more remarkable" to elevate this case above all others
+- **Priming** - By starting with Flight 19 as THE defining case, he sets it up as the template for all Triangle mysteries
