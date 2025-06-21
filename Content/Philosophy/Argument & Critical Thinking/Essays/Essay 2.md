@@ -313,9 +313,7 @@ Through these techniques, Berlitz doesn't investigate a mystery; he manufactures
 
 What exactly is Berlitz trying to explain? His hypothesis claims that a specific geographic region, bounded by Bermuda, Florida and Puerto Rico, harbours supernatural forces that cause vessels to vanish completely. These forces, whether dimensional rifts, Atlantean crystal technology, or electromagnetic vortices, supposedly account for over 100 disappearances since 1945, the failure of massive search efforts, and the bizarre phenomena reported by witnesses. To evaluate this extraordinary claim, we must compare it against more conventional explanations using systematic criteria. 
 
-Consider two alternatives: 
+Consider two alternatives: Natural Maritime Hazards (H2) attributes disappearances to the convergence of known dangers in the region: sudden tropical storms, the Gulf Streams's treacherous currents, deep ocean trenches that swallow wreckage, and the high volume of inexperienced pilots and sailors traversing these waters.Cultural Phenomenon (H3) offers a radically different perspective. It suggests that the Triangle's reputation stems not from unusual dangers but from how we perceive and rport maritime accidents in this highly visible area near the U.S coast. 
 
-- Natural Maritime Hazards (H2) attributes disappearances to the convergence of known dangers in the region: sudden tropical storms, the Gulf Streams's treacherous currents, deep ocean trenches that swallow wreckage, and the high volume of inexperienced pilots and sailors traversing these waters.
-- Cultural Phenomenon (H3) offers a radically different perspective. It suggests that the Triangl
 
 ## Conclusion
