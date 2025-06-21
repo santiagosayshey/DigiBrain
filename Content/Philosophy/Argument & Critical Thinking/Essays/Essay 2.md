@@ -34,4 +34,4 @@ Berlitz's argument for supernatural forces in the Bermuda Triangle fails on two 
 
 ## References
 
-Schick, T Jr & Vaughn, L (2020) *How to Think About Weird Things*, 8th edn, [Publisher].
+Schick, T Jr & Vaughn, L (2020) *How to Think About Weird Things*, 8th edn, [McGraw Hill].
