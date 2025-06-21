@@ -305,6 +305,8 @@ Before presenting any evidence, Berlitz primes his readers emotionally. He opens
 
 The statistical foundation of Berlitz's argument exemplifies base rate neglect. "Over 100 planes and ships vanished since 1945" sounds alarming in isolation, but Berlitz never provides the context necessary for evaluation. How many vessels traverse this area annually? What are the accident rates in comparable high traffic zones? Without these base rates, readers cannot determine whether 100 incidents over three decades in one of the world's busiest shipping lanes represents anything unusual. It's equivalent to claiming a street is cursed because ten accidents occurred there, while omitting that it's the city's busiest intersection.  
 
+Most revealing is how Berlitz connects unrelated phenomena to support his supernatural conclusion. He floods readers with ocean mysteries
+
 ## The Real Phenomenon
 
 ## Conclusion
