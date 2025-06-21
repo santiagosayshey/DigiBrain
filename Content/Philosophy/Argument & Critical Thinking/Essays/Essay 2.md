@@ -1,4 +1,5 @@
-*Feedback Requested, thanks :)*
+*Feedback Requested*
+Word Count: 1184
 ## Introduction
 
 In the western Atlantic, hundreds of vessels have vanished without trace, leaving behind stories of spinning compasses, mysterious yellow skies and impossible final transmissions. Charles Berlitz's 1974 book *The Bermuda Triangle* presents these disappearances as evidence of the supernatural. His argument constructs a compelling narrative, one that weaves witness testimony with unexplained phenomena. Yet, examining how Berlitz builds his case reveals that the true phenomenon lies not in the ocean, but in the construction of the mystery itself. To understand this construction, we must first examine how Berlitz manipulates a collection of incidents into evidence for the supernatural. Only then, through systematic comparison of competing explanations, can we evaluate whether Berlitz has successfully demonstrated supernatural forces at work or merely revealed the power of persuasive storytelling.
@@ -34,4 +35,4 @@ Berlitz's argument for supernatural forces in the Bermuda Triangle fails on two 
 
 ## References
 
-Schick, T Jr & Vaughn, L (2020) *How to Think About Weird Things*, 8th edn, [McGraw Hill].
+Schick, T Jr & Vaughn, L (2020) *How to Think About Weird Things*, 8th edn, McGraw Hill
