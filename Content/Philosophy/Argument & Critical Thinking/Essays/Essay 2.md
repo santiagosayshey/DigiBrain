@@ -307,7 +307,7 @@ The statistical foundation of Berlitz's argument exemplifies base rate neglect. 
 
 Most revealing is how Berlitz connects unrelated phenomena to support his supernatural conclusion. He floods readers with ocean mysteries; coelacanth discoveries, tales of Atlantis, sea serpent sightings, that have nothing to do with aviation disasters or missing ships. Through the representativeness heuristic, readers pattern match these familiar mysteries with the Triangle disappearances, unconsciously accepting that "ocean mysters equal Triangle mysteries". To legitimise this misdirection, Berlitz appeals to irrelevant authorities like Edgar Cayce, a psychic who spoke of Atlantean crystal technology, and marine biologists discussing prehistoric creatures. These experts have no relevance to aviation safety or maritime navigation, yet their presence creates an illusion of scholarly support. 
 
-Through these techniques, Berlitz doesn't investigate a mystery; he manufactures one. He transforms a collection o
+Through these techniques, Berlitz doesn't investigate a mystery; he manufactures one. He transforms a collection of unrelated maritime accidents into evidence for the supernatural through emotional manipulation, statistical misdirection and an appeal to false authority. 
 
 ## The Real Phenomenon
 
