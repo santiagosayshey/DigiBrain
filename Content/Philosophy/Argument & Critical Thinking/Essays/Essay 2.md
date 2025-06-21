@@ -311,6 +311,6 @@ Through these techniques, Berlitz doesn't investigate a mystery; he manufactures
 
 ## The Real Phenomenon
 
-What exactly is Berlitz trying to explain? His hypothesis claims that a specific geographic region, bounded by Bermuda, Florida and Puerto Rico, harbours supernatural forces that cause vessels to vanish completely. These forces, whether dimensional rifts, Atlantean crystal technology, or electromagnetic vortices, supposedly account for over 100 disappearances since 1945, the failure of massive search efforts, and the bizarre phenomena reported by witnesses. To evaluate this extraordinary claim 
+What exactly is Berlitz trying to explain? His hypothesis claims that a specific geographic region, bounded by Bermuda, Florida and Puerto Rico, harbours supernatural forces that cause vessels to vanish completely. These forces, whether dimensional rifts, Atlantean crystal technology, or electromagnetic vortices, supposedly account for over 100 disappearances since 1945, the failure of massive search efforts, and the bizarre phenomena reported by witnesses. To evaluate this extraordinary claim, we must compare it against more conventional explanations using systematic criteria. 
 
 ## Conclusion
