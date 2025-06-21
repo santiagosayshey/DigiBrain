@@ -311,4 +311,6 @@ Through these techniques, Berlitz doesn't investigate a mystery; he manufactures
 
 ## The Real Phenomenon
 
+What exactly is Berlitz trying to explain? His hypothesis cl
+
 ## Conclusion
