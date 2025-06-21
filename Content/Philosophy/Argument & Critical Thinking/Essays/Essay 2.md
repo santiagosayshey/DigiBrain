@@ -229,3 +229,16 @@ page 19:
 - **Hindsight bias** - "Premonitions" only become significant after the disaster; if Flight 19 had returned safely, these would be forgotten
 - **Pattern seeking in randomness** - Connecting unrelated events (morning flight problems, afternoon disappearance) simply because of temporal proximity
 
+page 20:
+**What the author is discussing:** Berlitz explains Kosnar had previously requested removal from flight duty. The corporal says "That is my flight that is lost" after being grounded. A "mystery" emerges about planes having "full complements" despite one missing person. Then, 29 years later, Art Ford claims Taylor said "Don't come after me... they look like they are from outer space" - information from a ham radio operator that Ford initially dismissed but later accepted.
+
+**Analysis:**
+
+- **Hindsight bias/Post hoc rationalization** - Corporal's request for removal months earlier becomes "significant" only after the disaster
+- **Manufacturing false mysteries** - The "full complement" confusion is likely simple miscommunication, but presented as another unsolvable element
+- **Temporal decay of evidence** - Introducing "startling revelation" 29 YEARS later when no one can verify it
+- **Hearsay upon hearsay** - Ford heard from unnamed ham radio operator who allegedly heard Taylor - multiple levels of unverifiable sources
+- **Moving from skepticism to belief without justification** - Ford initially "did not give much credence" but later accepts it, with no explanation for what changed
+- **Unfalsifiable claims** - 29 years later, who can disprove what an unnamed ham radio operator might have heard?
+- **Sensationalism bias** - "Outer space" quote is the most dramatic possible interpretation, perfectly timed for 1974 UFO craze
+- **Authority by longevity** - Ford "followed the case since 1945" presented as credibility rather than potential for embellishment
