@@ -299,7 +299,9 @@ In the western Atlantic, hundreds of vessels have vanished without trace, leavin
 
 ## Manufacturing Mystery
 
-Berlit'z central argument follows a deceptively simple structure: over 100 vessels have vanished without trace in the Bermuda Triangle since 1945. These disappearances involve bizarre phenomena like spinning compasses and impossible transmissions; the ocean harbours countless unexplained mysteries fro Atlantis to prehistoric creatures. Therefore, supernatural forces must be at work in this region. Yet examining how Berlitz constructs each element of this argument reveals a systematic deplyoment of logical fallacies and exploitation of cogni
+Berlitz's central argument follows a deceptively simple structure: over 100 vessels have vanished without trace in the Bermuda Triangle since 1945. These disappearances involve bizarre phenomena like spinning compasses and impossible transmissions; the ocean harbours countless unexplained mysteries fro Atlantis to prehistoric creatures. Therefore, supernatural forces must be at work in this region. Yet examining how Berlitz constructs each element of this argument reveals a systematic deployment of logical fallacies and exploitation of cognitive biases rather than genuine investigation. 
+
+Before presenting any evidence, Berlitz primes his readers emotionally. He opens with language designed to trigger fear and wonder; d
 
 ## The Real Phenomenon
 
