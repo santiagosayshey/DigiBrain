@@ -291,3 +291,5 @@ The Bermuda Triangle is a region where vessels disappear completely without trac
 **SEARCH Analysis - "The Real Phenomenon":** The hypothesis that best explains the evidence isn't supernatural forces but the myth-making process itself. H3 (Statistical Artifact) reveals the Triangle as a case study in how selection bias + media amplification + circular citation creates "mysteries" from normal events.
 
 **Conclusion:** Berlitz's book isn't failed investigation - it's successful mythology. Understanding how it works helps us recognize similar phenomena elsewhere.
+
+In the western Atlantic, over a hund
