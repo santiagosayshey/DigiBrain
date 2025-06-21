@@ -319,5 +319,5 @@ Testing these hypotheses against SEARCH criteria exposes fundamental weaknesses 
 
 Mechanism proves equally problematic. Natural hazards operate through understood processes; methane hydrates reduce water density, causing ships to sink rapidly; electromagnetic storms disrupt navigation; rogue waves overwhelm vessels without warning. Cultural phenomena arise through documented psychological processes: confirmation bias leads us to notice Triangle incidents while ignoring others; availability heuristics make memorable stories seem more common; arbitrary geographic boundaries create artificial clusters. But what mechanism does Berlitz propose? Vague allusions to "dimensional rifts" explain nothing about how these rifts form, why they appear intermittently, or how they distinguish between the thousands of vessels that pass safely and the few that vanish. 
 
-Explanatory scope reveals perhaps the m,
+Explanatory scope reveals perhaps the most damning limitation. Berlitz's hypothesis explains only carefully selected disappearances; those without recovered wreckage, those with reported anomalies and premonitions, those fitting his narrative. It cannot explain why most vessels traverse safely, why some missing vessels are 
 ## Conclusion
