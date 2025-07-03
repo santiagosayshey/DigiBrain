@@ -13,13 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
+                "file": "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.5 DBSCAN"
+              "title": "Exam 2"
+            }
+          },
+          {
+            "id": "71e5681dbea37b07",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://claude.ai/magic-link#4420d6821c8b49ec6fd9e6bc11ce794c:Y2xhdWRlLnBvaXNlODc3QHBhc3NtYWlsLm5ldA==",
+                "title": "Claude",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Claude"
             }
           },
           {
@@ -112,7 +126,8 @@
               "title": "9.1 Formal Fallacies"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,10 +293,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "015091fb24fde339",
+  "active": "71e5681dbea37b07",
   "lastOpenFiles": [
-    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
+    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Computer Science/Using Machine Learning Tools/Notes/7.5 DBSCAN.md",
+    "Content/Computer Science/Using Machine Learning Tools/Notes/7.2 K-Means.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 2.md",
     "Content/Philosophy/Argument & Critical Thinking/Essays/Essay 2 - Notes.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/7.1 SEARCH.md",
@@ -297,7 +313,6 @@
     "Content/Projects/commit message.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
     "Content/Projects/Dictionarry/Media Upgrade Automation Feature.md",
-    "Content/Philosophy/Moral Problems/Exams/Exam 2.md",
     "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
     "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Moral Problems/Notes/10.2 Abortion (Marquis).md",
