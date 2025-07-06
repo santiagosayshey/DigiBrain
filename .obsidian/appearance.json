@@ -1,9 +1,16 @@
 {
   "accentColor": "#0056d6",
-  "cssTheme": "",
-  "theme": "moonstone",
+  "cssTheme": "Things",
+  "theme": "obsidian",
   "textFontFamily": "",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "Video",
+    "table",
+    "font",
+    "canvas",
+    "blocks",
+    "App"
+  ],
   "interfaceFontFamily": "",
   "monospaceFontFamily": "",
   "baseFontSize": 14,

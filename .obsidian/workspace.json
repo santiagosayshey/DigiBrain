@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/AI Prompt v2.md",
+                "file": "Job Search/Common Responses.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI Prompt v2"
+              "title": "Common Responses"
             }
           }
         ]
@@ -190,6 +190,9 @@
   },
   "active": "12c4185aa3460c6e",
   "lastOpenFiles": [
+    "Content/AI Prompt v2.md",
+    "Job Search/Common Responses.md",
+    "Job Search",
     "Content/AI Reading Prompt.md",
     "Content/index.md",
     "blog idea.md",
@@ -215,8 +218,6 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.1 Formal Fallacies.md",
     "Content/Philosophy/Moral Problems/Notes/1.1 Formal Logic.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
-    "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
@@ -235,7 +236,6 @@
     "Images/Pasted image 20250513042355.png",
     "Images/Pasted image 20250513033743.png",
     "Images/Pasted image 20250513032343.png",
-    "Content/Philosophy/Moral Problems/Readings/Alastair Norcross, _Puppies, Pigs, and People_ Eating Meat and Marginal Cases.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",
