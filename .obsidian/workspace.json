@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionarry 2.0.md",
+                "file": "Content/AI Prompt v2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dictionarry 2.0"
+              "title": "AI Prompt v2"
             }
           }
         ]
@@ -190,6 +190,11 @@
   },
   "active": "12c4185aa3460c6e",
   "lastOpenFiles": [
+    "Content/AI Reading Prompt.md",
+    "Content/index.md",
+    "blog idea.md",
+    "CLAUDE.md",
+    "Dictionarry 2.0.md",
     "Profilarr.md",
     "README.md",
     "Sabina email.md",
@@ -212,12 +217,7 @@
     "Content/Philosophy/Argument & Critical Thinking/Notes/9.2 Informal Fallacies.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.1 Human Reasoning.md",
     "Content/Philosophy/Argument & Critical Thinking/Notes/10.2 Heuristics.md",
-    "Content/AI Reading Prompt.md",
-    "Content/Projects/commit message.md",
     "Content/Computer Science/Cybersecurity Fundamentals/Revision/Cybersecurity Fundamentals.pdf",
-    "Content/Projects/Dictionarry/Media Upgrade Automation Feature.md",
-    "Content/Philosophy/Moral Problems/Notes/7.1 Environmental Ethics (Broome).md",
-    "Content/Philosophy/Moral Problems/Notes/7.2 Environmental Ethics (Sinnot-Armstrong).md",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 9.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 8.pdf",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 7.pdf",
