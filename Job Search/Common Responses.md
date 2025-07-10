@@ -22,3 +22,14 @@ Technical implementation includes React/Flask full-stack application, automated 
 ## Data Science
 
 I'm excited about Xero's graduate program because it offers the perfect opportunity to apply data science in a meaningful business context. Through building my own open source project in Dictionarry, I've discovered my passion for using data to solve complex, subjective problems - exactly the kind of challenges I'd love to tackle at Xero.
+
+
+**What motivated you to pursue a career in your chosen field of study?**
+
+Programming has always felt natural to me in a way other things don't. I'll start working on a coding problem and suddenly it's been 12 hours and I haven't even noticed. It's not that I'm forcing myself to grind through it - I'm genuinely enjoying the process of figuring things out and building something that works. That kind of flow state told me this was probably the right path.
+
+**What skills do you believe are most important for a successful career in your chosen field and how have you demonstrated these skills?**
+
+**Initiative:** When I was frustrated with how tedious my media server setup was, instead of just accepting it, I built Dictionarry to automate the pain points. It started as a personal project but grew into something that's helped thousands of other people with the same problems.
+
+**Communication:** A lot of my work involves taking complex technical concepts and making them accessible. Whether I'm writing development updates, helping community members troubleshoot issues, or designing user interfaces, I focus on being clear and meeting people where they are rather than assuming everyone has the same technical background.
