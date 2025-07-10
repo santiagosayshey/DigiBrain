@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minecraft/House.md",
+                "file": "Job Search/Common Responses.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "House"
+              "title": "Common Responses"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5026054382324,
-    "collapsed": true
+    "width": 428.5026054382324
   },
   "right": {
     "id": "b96eeaa6dedc74b7",
@@ -192,11 +191,11 @@
   },
   "active": "12c4185aa3460c6e",
   "lastOpenFiles": [
+    "Minecraft/House.md",
     "Images/Pasted image 20250707094227.png",
     "Images/Pasted image 20250707093150.png",
     "Images/Pasted image 20250707093128.png",
     "Job Search/Common Responses.md",
-    "Minecraft/House.md",
     "Minecraft",
     "Content/AI Prompt v2.md",
     "Job Search",
@@ -237,7 +236,6 @@
     "Images/Pasted image 20250514022052.png",
     "Images/Pasted image 20250514022042.png",
     "Images/Pasted image 20250513050451.png",
-    "Images/Pasted image 20250513042355.png",
     "Content/Philosophy/Argument & Critical Thinking/Tutorials/Tutorial 3 Complex Argument Diagram.canvas",
     "Content/Philosophy/Argument & Critical Thinking/Notes/2.4 Argument Mapping Example.canvas",
     "Content/Projects/Dictionarry/Architecture.canvas",

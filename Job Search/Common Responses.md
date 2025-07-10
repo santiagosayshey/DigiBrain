@@ -15,3 +15,10 @@ long:
 Founder and lead developer of Dictionarry, an open-source platform that simplifies media server automation. Built comprehensive ecosystem including configuration management tool (Profilarr), shared database, and documentation site. Achieved 220,000+ downloads and 800+ GitHub stars through focus on user experience and community engagement. 
 
 Technical implementation includes React/Flask full-stack application, automated CI/CD pipeline, Next.js documentation site with ISR, and custom Discord bot. Manage contributions from 70+ community forks while maintaining backward compatibility and security standards. Project demonstrates end-to-end software development from architecture to deployment to community management.
+
+
+
+
+## Data Science
+
+I'm excited about Xero's graduate program because it offers the perfect opportunity to apply data science in a meaningful business context. Through building my own open source project in Dictionarry, I've discovered my passion for using data to solve complex, subjective problems - exactly the kind of challenges I'd love to tackle at Xero.
