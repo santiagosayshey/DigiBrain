@@ -33,3 +33,7 @@ Programming has always felt natural to me in a way other things don't. I'll star
 **Initiative:** When I was frustrated with how tedious my media server setup was, instead of just accepting it, I built Dictionarry to automate the pain points. It started as a personal project but grew into something that's helped thousands of other people with the same problems.
 
 **Communication:** A lot of my work involves taking complex technical concepts and making them accessible. Whether I'm writing development updates, helping community members troubleshoot issues, or designing user interfaces, I focus on being clear and meeting people where they are rather than assuming everyone has the same technical background.
+
+
+
+Currently completing Bachelor of Computer Science with a Major in Cybersecurity at University of Adelaide (February 2022 - November 2025). Maintaining a 6.6/7.0 GPA (High Distinction average) with coursework including Algorithms & Data Structures, Secure Programming, Web & Database Computing, Operating Systems, Computer Networks, and Cybersecurity Fundamentals. Expected graduation November 2025.
