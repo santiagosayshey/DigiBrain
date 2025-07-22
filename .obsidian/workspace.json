@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Job Search/Common Responses.md",
+                "file": "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/3.1 Comparison Sorts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Common Responses"
+              "title": "3.1 Comparison Sorts"
             }
           }
         ]
@@ -191,11 +191,12 @@
   },
   "active": "12c4185aa3460c6e",
   "lastOpenFiles": [
+    "Content/Computer Science/Algorithms & Data Structures Analysis/Notes/1.2 Asymptotic Analysis.md",
+    "Job Search/Common Responses.md",
     "Minecraft/House.md",
     "Images/Pasted image 20250707094227.png",
     "Images/Pasted image 20250707093150.png",
     "Images/Pasted image 20250707093128.png",
-    "Job Search/Common Responses.md",
     "Minecraft",
     "Content/AI Prompt v2.md",
     "Job Search",
