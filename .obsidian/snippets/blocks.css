@@ -89,20 +89,6 @@
   margin-bottom: 1em !important;
 }
 
-.callout[data-callout="quote"] {
-  --callout-color: 246, 190, 0;
-  --callout-icon: quote;
-  border: 1px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="quote"] strong {
-  color: rgb(246, 190, 0) !important;
-}
-
-.callout[data-callout="quote"] em {
-  color: rgb(246, 190, 0) !important;
-}
-
 .upcoming_view__calendar__controls__picker {
   display: none !important;
 }
@@ -152,4 +138,8 @@ h2 {
   --callout-color: 120, 157, 74;
   --callout-icon: apple;
   border: 1px solid rgb(var(--callout-color));
+}
+
+.callout .callout {
+  margin-bottom: 20px !important;
 }
