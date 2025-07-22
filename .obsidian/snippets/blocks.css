@@ -1,3 +1,4 @@
+# body
 .callout {
   color: var(--text-rgb);
   padding-left: 0px;
@@ -16,56 +17,6 @@
   padding-bottom: 10px;
   color: var(--text-rgb);
 }
-
-.callout[data-callout="1"],
-.callout[data-callout="main"] {
-  --callout-color: 30, 215, 96;
-  --callout-icon: book-down;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="2"],
-.callout[data-callout="code"] {
-  --callout-color: 213, 48, 90;
-  --callout-icon: code-2;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="4"],
-.callout[data-callout="math"] {
-  --callout-color: 113, 147, 229;
-  --callout-icon: superscript;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="5"],
-.callout[data-callout="visual"] {
-  --callout-color: 30, 215, 96;
-  --callout-icon: image;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="6"],
-.callout[data-callout="activity"] {
-  --callout-color: 113, 147, 229;
-  --callout-icon: activity;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="7"],
-.callout[data-callout="solution"] {
-  --callout-color: 30, 215, 96;
-  --callout-icon: flask-conical;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
-.callout[data-callout="8"],
-.callout[data-callout="explanation"] {
-  --callout-color: 255, 165, 0;
-  --callout-icon: flame;
-  border-left: 4px solid rgb(var(--callout-color));
-}
-
 /* NEW CALLOUUTS */
 .callout[data-callout="motivation"] {
   --callout-color: 255, 87, 51;
