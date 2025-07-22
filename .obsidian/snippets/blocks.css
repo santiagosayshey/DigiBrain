@@ -1,4 +1,4 @@
-# body
+/* Main Body */
 .callout {
   color: var(--text-rgb);
   padding-left: 0px;
@@ -6,18 +6,21 @@
   padding-bottom: 0px;
 }
 
+/* Inner Body */
 .callout .callout-content {
   background: var(--background-primary);
   padding-left: 1em;
   padding-right: 1em;
 }
 
+/* Title */
 .callout .callout-title {
   padding-left: 10px;
   padding-bottom: 10px;
   color: var(--text-rgb);
 }
-/* NEW CALLOUUTS */
+
+/* Individual Types */
 .callout[data-callout="motivation"] {
   --callout-color: 255, 87, 51;
   --callout-icon: lightbulb;
@@ -149,8 +152,4 @@ h2 {
   --callout-color: 120, 157, 74;
   --callout-icon: apple;
   border: 1px solid rgb(var(--callout-color));
-}
-
-.callout .callout {
-  margin-bottom: 20px !important;
 }
